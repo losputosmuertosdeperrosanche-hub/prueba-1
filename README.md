@@ -23,3 +23,18 @@ python nexuslead_search.py -c "Fürth"             # otra ciudad
 
 Por defecto filtra por ciudad y por palabras clave en el objeto social
 (Kosmetik, Körperpflege, Parfüm, Beauty…). Con `--wz` usa los códigos de actividad WZ 2025.
+
+## Versión en Go (SDK oficial `openregister-go`)
+
+En `nexuslead-go/` está el mismo buscador escrito en Go con el SDK oficial
+[`github.com/oregister/openregister-go`](https://github.com/oregister/openregister-go).
+Requiere Go 1.22 o superior.
+
+```bash
+cd nexuslead-go
+export OPENREGISTER_API_KEY="tu_api_key"
+go run .                              # cosmética en Nürnberg
+go run . -q "Naturkosmetik" -n 50     # texto libre, 50 resultados
+go run . -wz -todas -csv leads.csv    # códigos WZ, incluye inactivas, exporta a CSV
+go build -o nexuslead . && ./nexuslead -h   # compilar un ejecutable
+```
