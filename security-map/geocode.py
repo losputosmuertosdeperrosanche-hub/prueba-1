@@ -58,7 +58,7 @@ def geocodificar(a):
 
 def main():
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
-    empresas = [e for f in sorted(glob.glob(str(BASE / "raw" / "*.json")))
+    empresas = [e for f in sorted(glob.glob(str(BASE / "raw" / "*" / "*.json")))
                 for p in json.load(open(f))["pages"].values() for e in p]
     pendientes = [e for e in empresas if e["company_id"] not in cache]
     lock = threading.Lock()

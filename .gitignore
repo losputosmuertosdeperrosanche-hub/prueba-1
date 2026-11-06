@@ -2,3 +2,6 @@ __pycache__/
 *.csv
 nexuslead-go/nexuslead-go
 nexuslead-go/nexuslead
+security-map/basemap/
+security-map/.tilecache/
+security-map/__pycache__/

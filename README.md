@@ -39,22 +39,32 @@ go run . -wz -todas -csv leads.csv    # códigos WZ, incluye inactivas, exporta 
 go build -o nexuslead . && ./nexuslead -h   # compilar un ejecutable
 ```
 
-## Mapa de empresas de seguridad (demo)
+## Mapa de empresas (demo): seguridad y eventos
 
-En `security-map/` está el mapa interactivo de empresas de seguridad privada
-(código de actividad WZ 2025 **80.01**) con datos reales del Handelsregister vía OpenRegister.
+En `security-map/` está el mapa interactivo de empresas activas de Alemania con datos reales
+del Handelsregister vía OpenRegister:
+
+- **Seguridad privada** (código WZ 2025 **80.01**): Nürnberg, München, Köln, Düsseldorf y Stuttgart completas;
+  Berlin, Hamburg y Frankfurt parciales.
+- **Eventos, ferias y congresos** (WZ **82.30**): muestra de toda Alemania.
 
 Pasos para regenerarlo:
 
 ```bash
 cd security-map
 export OPENREGISTER_API_KEY="tu_api_key"
-python fetch_companies.py "Nürnberg" 3   # descarga hasta 3 páginas (30 empresas/página, 10 créditos/página)
-python geocode.py                        # coordenadas con OpenStreetMap (Photon)
-python build_map.py                      # genera index.html con todo embebido
+python fetch_companies.py 80.01 "Nürnberg" 3   # sector, ciudad ("" = toda Alemania), páginas (30 empresas y 10 créditos por página)
+python fetch_companies.py 82.30 "" 6
+python geocode.py                              # coordenadas con OpenStreetMap (Photon)
+python make_relief.py NE1_HR_LC_SR_W_DR.tif    # relieve de Natural Earth -> relief.jpg / relief-sat.jpg
+python basemap.py                              # calles, edificios y agua de OpenStreetMap (OpenFreeMap) -> basemap/
+python build_map.py                            # genera index.html
 ```
 
-- `raw/`: respuestas de la API por ciudad.
+La página `index.html` necesita a su lado `relief.jpg`, `relief-sat.jpg` y la carpeta `basemap/`.
+
+- `raw/<código WZ>/`: respuestas de la API por ciudad.
 - `contacts.json`: teléfono, email, web y USt-IdNr. obtenidos con `GET /v0/company/{id}/contact` (10 créditos por empresa).
 - `geocache.json`: coordenadas y precisión (`direccion`, `codigo_postal` o `ciudad`).
-- `countries.geojson`: fronteras de Alemania y vecinos (Natural Earth, vía `world-atlas`).
+- `countries.geojson`: fronteras (Natural Earth, vía `world-atlas`).
+- `basemap/` (no se sube al repositorio, ~90 MB): se genera con `basemap.py`.

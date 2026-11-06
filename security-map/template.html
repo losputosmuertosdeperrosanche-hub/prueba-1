@@ -5,11 +5,11 @@
 <style>
 /*__LEAFLET_CSS__*/
 /*__CLUSTER_CSS__*/
-/* Layout: app a pantalla completa — panel de búsqueda arriba, mapa de Alemania en el centro, hoja inferior con ficha o lista */
+/* Layout: app a pantalla completa — panel de búsqueda arriba, mapa (relieve + calles OSM) en el centro, hoja inferior con ficha o lista */
 :root{
   --bg:#e9edf1; --panel:#ffffff; --fg:#14202b; --muted:#5a6876; --line:#d3dae1;
-  --water:#dfe6ec; --land:#f7f9fb; --land-de:#ffffff; --border-de:#2b3d4f; --border-n:#b8c3cd;
-  --accent:#c96a00; --accent-fg:#ffffff; --accent-soft:#fbead6; --pin:#1f4f7a; --pin-soft:#d6e4f1;
+  --accent:#c96a00; --accent-fg:#ffffff; --accent-soft:#fbead6;
+  --sec:#1f4f7a; --sec-soft:#d6e4f1; --ev:#7b3fa8; --ev-soft:#eadff3; --cl-fg:#ffffff;
   --ok:#256d45; --ok-soft:#dcefe3; --warn:#7a5a00; --warn-soft:#f6ecc9;
   --display:"Archivo",ui-sans-serif,system-ui,sans-serif;
   --body:"Source Sans 3",ui-sans-serif,system-ui,-apple-system,sans-serif;
@@ -17,13 +17,13 @@
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#0e141a; --panel:#17202a; --fg:#e6edf3; --muted:#9aa8b5; --line:#2a3542;
-  --water:#0b1117; --land:#141c24; --land-de:#1b2631; --border-de:#7f97ad; --border-n:#2c3a48;
-  --accent:#ff9f2e; --accent-fg:#1a1205; --accent-soft:#3a2810; --pin:#7fb3e0; --pin-soft:#1c2c3c;
+  --accent:#ff9f2e; --accent-fg:#1a1205; --accent-soft:#3a2810;
+  --sec:#7fb3e0; --sec-soft:#1c2c3c; --ev:#c49bf0; --ev-soft:#2c2140; --cl-fg:#0b1320;
   --ok:#7fd3a0; --ok-soft:#1b3326; --warn:#e8c76a; --warn-soft:#3a3118; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0e141a; --panel:#17202a; --fg:#e6edf3; --muted:#9aa8b5; --line:#2a3542;
-  --water:#0b1117; --land:#141c24; --land-de:#1b2631; --border-de:#7f97ad; --border-n:#2c3a48;
-  --accent:#ff9f2e; --accent-fg:#1a1205; --accent-soft:#3a2810; --pin:#7fb3e0; --pin-soft:#1c2c3c;
+  --accent:#ff9f2e; --accent-fg:#1a1205; --accent-soft:#3a2810;
+  --sec:#7fb3e0; --sec-soft:#1c2c3c; --ev:#c49bf0; --ev-soft:#2c2140; --cl-fg:#0b1320;
   --ok:#7fd3a0; --ok-soft:#1b3326; --warn:#e8c76a; --warn-soft:#3a3118; color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -39,32 +39,46 @@ h1 span{color:var(--accent)}
 .controls{display:grid;grid-template-columns:1fr 1fr;gap:6px}
 .controls .full{grid-column:1/-1}
 input[type=search],select{width:100%;min-width:0;font:inherit;font-size:16px;padding:8px 10px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
-label.lbl{display:grid;gap:3px;font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600;min-width:0}
+label.lbl{display:grid;min-width:0}
 .row2{display:flex;justify-content:space-between;align-items:center;gap:8px}
-.toggle{display:flex;align-items:center;gap:6px;font-size:.88rem}
+.toggle{display:flex;align-items:center;gap:6px;font-size:.88rem;white-space:nowrap}
 .toggle input{width:18px;height:18px;accent-color:var(--accent)}
-.count{font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+.count{font-family:var(--mono);font-size:.78rem;color:var(--muted);white-space:nowrap}
 .count b{color:var(--fg)}
-.btn{font:inherit;font-weight:600;font-size:.85rem;padding:7px 12px;border-radius:9px;border:1px solid var(--accent);background:var(--accent);color:var(--accent-fg);cursor:pointer}
-.btn.ghost{background:transparent;color:var(--accent)}
+.btn{font:inherit;font-weight:600;font-size:.85rem;padding:7px 12px;border-radius:9px;border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-#map{flex:1;min-height:0;background:var(--water)}
-.leaflet-container{background:var(--water);font-family:var(--body)}
-.leaflet-control-attribution{background:color-mix(in srgb,var(--panel) 85%,transparent)!important;color:var(--muted)!important;font-size:10px}
-.leaflet-control-attribution a{color:var(--muted)!important}
-.leaflet-bar a{background:var(--panel)!important;color:var(--fg)!important;border-color:var(--line)!important}
-.cl{display:grid;place-items:center;border-radius:50%;background:var(--pin);color:var(--panel);font-family:var(--mono);font-weight:500;font-size:12px;border:3px solid color-mix(in srgb,var(--pin) 35%,transparent);background-clip:padding-box}
+.mapwrap{flex:1;min-height:0;position:relative}
+#map{position:absolute;inset:0}
+.leaflet-container{font-family:var(--body);transition:background-color .2s}
+#map.mode-map{background:#a9cfe3}
+#map.mode-map.zoomed{background:#f1eee8}
+#map.mode-sat{background:#0d1d2e}
+.leaflet-control-attribution{background:rgb(255 255 255 / .8)!important;color:#444!important;font-size:10px}
+.leaflet-control-attribution a{color:#444!important}
+.modes{position:absolute;z-index:600;top:10px;right:max(10px,env(safe-area-inset-right,0px));display:flex;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgb(0 0 0 / .18)}
+.modes button{font:inherit;font-size:.82rem;font-weight:600;padding:7px 12px;border:0;background:transparent;color:var(--fg);cursor:pointer}
+.modes button[aria-pressed="true"]{background:var(--accent);color:var(--accent-fg)}
+.loading{position:absolute;z-index:600;left:50%;transform:translateX(-50%);bottom:calc(28px + env(safe-area-inset-bottom,0px));background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:.8rem;box-shadow:0 2px 8px rgb(0 0 0 / .15)}
+.cl{display:grid;place-items:center;border-radius:50%;background:var(--sec);color:var(--cl-fg);font-family:var(--mono);font-weight:500;font-size:12px;border:3px solid rgb(255 255 255 / .75);box-shadow:0 1px 4px rgb(0 0 0 / .35)}
+.cl.ev{background:var(--ev)}
+.cl.mix{background:linear-gradient(135deg,var(--sec) 50%,var(--ev) 50%)}
 .cl.hot{border-color:var(--accent)}
-.citylbl{font-family:var(--display);font-stretch:80%;font-weight:600;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;text-shadow:0 0 3px var(--land-de)}
+.plabel{font-family:var(--body);font-weight:600;white-space:nowrap;pointer-events:none;transform:translate(-50%,-50%);color:#2b2b2b;text-shadow:0 0 2px #fff,0 0 3px #fff,0 0 4px #fff}
+.plabel.big{font-family:var(--display);font-stretch:85%;font-size:14px;letter-spacing:.02em}
+.plabel.mid{font-size:12.5px}
+.plabel.small{font-size:11px;font-weight:400;color:#555}
+#map.mode-sat .plabel{color:#fff;text-shadow:0 0 2px #000,0 0 3px #000,0 0 5px rgb(0 0 0 / .8)}
+#map.mode-sat .plabel.small{color:#e8e8e8}
 .sheet{position:fixed;left:0;right:0;bottom:0;z-index:1000;background:var(--panel);border-top:1px solid var(--line);border-radius:16px 16px 0 0;box-shadow:0 -8px 24px rgb(0 0 0 / .18);max-height:68%;display:flex;flex-direction:column;padding-bottom:env(safe-area-inset-bottom,0px)}
 .sheet-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;padding:12px max(16px,env(safe-area-inset-right,0px)) 8px max(16px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--line)}
 .sheet-head h2{margin:0;font-family:var(--display);font-stretch:85%;font-size:1.15rem;line-height:1.2;text-wrap:balance;min-width:0;overflow-wrap:anywhere}
 .close{flex:none;font:inherit;font-size:1.2rem;line-height:1;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--bg);color:var(--fg);cursor:pointer}
 .sheet-body{overflow-y:auto;padding:12px max(16px,env(safe-area-inset-right,0px)) 16px max(16px,env(safe-area-inset-left,0px));display:grid;gap:14px;-webkit-overflow-scrolling:touch}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
-.chip{font-size:.75rem;font-weight:600;padding:3px 9px;border-radius:999px;background:var(--pin-soft);color:var(--pin)}
+.chip{font-size:.75rem;font-weight:600;padding:3px 9px;border-radius:999px;background:var(--sec-soft);color:var(--sec)}
 .chip.ok{background:var(--ok-soft);color:var(--ok)}
-.chip.ac{background:var(--accent-soft);color:var(--accent)}
+.chip.s8001{background:var(--sec-soft);color:var(--sec)}
+.chip.s8230{background:var(--ev-soft);color:var(--ev)}
 .chip.warn{background:var(--warn-soft);color:var(--warn)}
 section h3{margin:0 0 6px;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
 dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 12px}
@@ -75,15 +89,16 @@ dd{margin:0;min-width:0;overflow-wrap:anywhere}
 .cline{display:flex;align-items:center;justify-content:space-between;gap:8px;background:var(--bg);border-radius:10px;padding:8px 10px}
 .cline .v{min-width:0;overflow-wrap:anywhere;user-select:all}
 .cline .k{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.acts{display:flex;gap:6px;flex:none}
 .mini{flex:none;font:inherit;font-size:.78rem;font-weight:600;padding:5px 9px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--fg);cursor:pointer;text-decoration:none}
 a{color:var(--accent)}
-.note{font-size:.84rem;color:var(--muted)}
-.purpose{font-size:.92rem}
+.note{font-size:.84rem;color:var(--muted);margin:0}
+.purpose{font-size:.92rem;margin:0}
 .list{display:grid;gap:6px}
 .item{display:grid;gap:2px;text-align:left;font:inherit;color:inherit;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 11px;cursor:pointer}
 .item b{font-weight:600;overflow-wrap:anywhere}
 .item span{font-size:.82rem;color:var(--muted)}
-.item .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);margin-right:6px;vertical-align:1px}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
 .toast{position:fixed;left:50%;transform:translateX(-50%);top:calc(12px + env(safe-area-inset-top,0px));z-index:2000;background:var(--fg);color:var(--panel);padding:8px 14px;border-radius:10px;font-size:.85rem}
 .err{padding:20px;text-align:center}
 @media (min-width:760px){
@@ -97,30 +112,30 @@ a{color:var(--accent)}
 <div class="app">
   <div class="top">
     <div class="brand">
-      <h1>Nexus<span>Lead</span> · Sicherheit</h1>
+      <h1>Nexus<span>Lead</span> · <span id="sectorTitle">Deutschland</span></h1>
       <span class="stamp" id="stamp"></span>
     </div>
     <div class="controls">
       <label class="lbl full"><span class="sr">Buscar empresa, calle o código postal</span>
         <input id="q" type="search" placeholder="Buscar empresa, calle o código postal" autocomplete="off">
       </label>
-      <label class="lbl"><span class="sr">Ciudad</span>
-        <select id="city"></select>
-      </label>
-      <label class="lbl"><span class="sr">Sector</span>
-        <select id="sector">
-          <option value="80.01" selected>Seguridad</option>
-          <option disabled>Otros sectores · próximamente</option>
-        </select>
-      </label>
+      <label class="lbl"><span class="sr">Ciudad</span><select id="city"></select></label>
+      <label class="lbl"><span class="sr">Sector</span><select id="sector"></select></label>
     </div>
     <div class="row2">
       <label class="toggle"><input id="onlyContact" type="checkbox"> Con contacto</label>
       <span class="count" id="count"></span>
-      <button class="btn ghost" id="listBtn" type="button">Lista</button>
+      <button class="btn" id="listBtn" type="button">Lista</button>
     </div>
   </div>
-  <div id="map" role="application" aria-label="Mapa de Alemania con empresas de seguridad"></div>
+  <div class="mapwrap">
+    <div id="map" class="mode-map" role="application" aria-label="Mapa de Alemania con empresas"></div>
+    <div class="modes" role="group" aria-label="Tipo de mapa">
+      <button type="button" data-mode="map" aria-pressed="true">Mapa</button>
+      <button type="button" data-mode="sat" aria-pressed="false">Satélite</button>
+    </div>
+    <div class="loading" id="loading" hidden>Cargando calles…</div>
+  </div>
 </div>
 <div class="sheet" id="sheet" hidden>
   <div class="sheet-head"><h2 id="sheetTitle"></h2><button class="close" id="closeSheet" type="button" aria-label="Cerrar">×</button></div>
@@ -130,69 +145,225 @@ a{color:var(--accent)}
 
 <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet.vectorgrid@1.3.0/dist/Leaflet.VectorGrid.bundled.min.js"></script>
 <script>
 const META = /*__META__*/null;
 const DATA = /*__DATA__*/[];
-const GEO = /*__GEO__*/null;
-const CITY_GEO = /*__CITIES__*/null;
-const LEGAL = {gmbh:"GmbH", ag:"AG", ug:"UG (haftungsbeschränkt)", kg:"KG", ohg:"OHG", ek:"e.K.", foreign:"Sociedad extranjera"};
+const DE_BORDER = /*__DEBORDER__*/null;
+const LEGAL = {gmbh:"GmbH", ag:"AG", ug:"UG (haftungsbeschränkt)", kg:"KG", ohg:"OHG", ek:"e.K.", gbr:"GbR", ev:"e.V.", eg:"eG", se:"SE", kgaa:"KGaA", partg:"PartG", foreign:"Sociedad extranjera"};
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = n => n.toLocaleString("de-DE");
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const hasContact = e => !!(e.k && (e.k.phone || e.k.email));
 function toast(t){ const el=$("toast"); el.textContent=t; el.hidden=false; clearTimeout(toast.t); toast.t=setTimeout(()=>el.hidden=true,2200); }
+function store(k, v){ try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch(_) { return null; } }
 
-$("stamp").textContent = `${DATA.length} empresas reales · OpenRegister · ${META.fetched}`;
+const SECTORS = META.sectors;               // {"80.01": {label, short, queries:[...]}, ...}
+$("stamp").textContent = `${fmt(DATA.length)} empresas reales · OpenRegister · ${META.fetched}`;
+$("sector").innerHTML = `<option value="">Todos los sectores · ${fmt(DATA.length)}</option>` +
+  Object.entries(SECTORS).map(([code, s]) => `<option value="${code}">${esc(s.short)} · ${fmt(DATA.filter(e => e.s.includes(code)).length)}</option>`).join("");
 
-// Selector de ciudades: cuántas hay en el registro y cuántas están cargadas
-const sel = $("city");
-sel.innerHTML = `<option value="">Toda Alemania · ${DATA.length}</option>` + META.cities.map(c =>
-  `<option value="${esc(c.name)}">${esc(c.name)} · ${c.count}${c.partial ? " (parcial)" : ""}</option>`).join("");
-
-if (!window.L) {
+if (!window.L || !L.markerClusterGroup || !L.vectorGrid) {
   $("map").innerHTML = '<div class="err">No se pudo cargar el mapa. Comprueba la conexión y recarga la página.</div>';
-  throw new Error("Leaflet no cargó");
+  throw new Error("Faltan librerías del mapa");
 }
 
-const map = L.map("map", {zoomControl:true, minZoom:5, maxZoom:18, attributionControl:true, preferCanvas:false});
-map.attributionControl.setPrefix(false).addAttribution('Datos: <a href="https://openregister.de" target="_blank" rel="noopener">OpenRegister</a> · Ubicaciones y límites urbanos © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> · Fronteras: Natural Earth');
+// ---------- Mapa base ----------
+const map = L.map("map", {zoomControl:true, minZoom:5, maxZoom:18, zoomSnap:0.5});
+map.attributionControl.setPrefix(false).addAttribution(
+  'Empresas: <a href="https://openregister.de" target="_blank" rel="noopener">OpenRegister</a> · Calles © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> (<a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a>) · Relieve: Natural Earth');
 const DE_BOUNDS = L.latLngBounds([47.2, 5.8], [55.1, 15.1]);
 map.fitBounds(DE_BOUNDS);
+map.createPane("base"); map.getPane("base").style.zIndex = 200;
+map.createPane("vec"); map.getPane("vec").style.zIndex = 250;
+map.createPane("labels"); map.getPane("labels").style.zIndex = 450; map.getPane("labels").style.pointerEvents = "none";
 
-let geoLayer, cityLayer;
-function drawGeo(){
-  if (geoLayer) geoLayer.remove();
-  geoLayer = L.geoJSON(GEO, {interactive:false, style: f => f.properties.de
-    ? {color:css("--border-de"), weight:1.6, fillColor:css("--land-de"), fillOpacity:1}
-    : {color:css("--border-n"), weight:1, fillColor:css("--land"), fillOpacity:1}}).addTo(map);
-  geoLayer.bringToBack();
-  if (cityLayer) cityLayer.remove();
-  cityLayer = L.geoJSON(CITY_GEO, {interactive:false, style:{color:css("--pin"), weight:1.5, dashArray:"5 4", fillColor:css("--pin"), fillOpacity:.05}}).addTo(map);
+let mode = store("nl-mode") === "sat" ? "sat" : "map";
+const relief = {
+  map: L.imageOverlay("relief.jpg", META.relief, {pane:"base", interactive:false}),
+  sat: L.imageOverlay("relief-sat.jpg", META.relief, {pane:"base", interactive:false}),
+};
+const border = L.geoJSON(DE_BORDER, {pane:"vec", interactive:false, style: () => ({color: mode === "sat" ? "#ffffff" : "#5b5470", weight:1.6, dashArray:"6 4", opacity:.8, fill:false})});
+
+// Decodifica el formato compacto de basemap.py: [capa, clase, zoom, tipo, geometría, nombre?]
+function line(flat){ const out = []; let x = 0, y = 0; for (let i = 0; i < flat.length; i += 2) { x += flat[i]; y += flat[i+1]; out.push([x / 1e5, y / 1e5]); } return out; }
+function decode(pkg){
+  const feats = [], labels = [];
+  for (const f of pkg.f) {
+    const [l, c, z, t, g, n] = f;
+    if (t === "P") { labels.push({c, z, n, lat:g[1] / 1e5, lon:g[0] / 1e5}); continue; }
+    const geometry = t === "L" ? {type:"MultiLineString", coordinates:g.map(line)}
+                               : {type:"MultiPolygon", coordinates:g.map(poly => poly.map(line))};
+    feats.push({type:"Feature", properties:{l, c, z}, geometry});
+  }
+  return {geo:{type:"FeatureCollection", features:feats}, labels};
 }
-drawGeo();
-const cityLabels = L.layerGroup(META.cities.filter(c => c.label && c.lat != null).map(c => L.marker([c.lat, c.lon], {interactive:false, keyboard:false,
-  icon:L.divIcon({className:"", html:`<span class="citylbl">${esc(c.name)}</span>`, iconSize:null, iconAnchor:[-8, 18]})}))).addTo(map);
 
+// Estilos tipo mapa de navegación (modo Mapa) y vista aérea (modo Satélite)
+const PAL = {
+  map: {water:"#a9cfe3", wood:"#c3ddb2", grass:"#d4eac6", park:"#c2e3b9", cemetery:"#d3e4cc",
+        residential:"#ebe6de", suburb:"#ebe6de", neighbourhood:"#ebe6de", industrial:"#e6dfe8", commercial:"#f1e3df", retail:"#f1e3df", railway:"#e4e0db",
+        building:"#ddd5cb", buildingLine:"#c9bfb2", casing:"#c3baab", rail:"#9b9590",
+        motorway:"#e8993c", trunk:"#f2b566", primary:"#f8d68a", secondary:"#fbe9a8", tertiary:"#ffffff", minor:"#ffffff"},
+  sat: {water:"#15304a", wood:"#1f3a1c", grass:"#3d5a30", park:"#34512b", cemetery:"#3b5232",
+        residential:"#6b665a", suburb:"#6b665a", neighbourhood:"#6b665a", industrial:"#77716b", commercial:"#7a7064", retail:"#7a7064", railway:"#6a655d",
+        building:"#a39b8e", buildingLine:"#6d665b", casing:null, rail:"#b9b2a6",
+        motorway:"#f3c867", trunk:"#efd9a2", primary:"#e9e1cc", secondary:"#ddd8cc", tertiary:"#d8d4ca", minor:"#cfcbc1"},
+};
+const AREA_OPACITY = {map:1, sat:.82};
+const ROAD_W = {motorway:3.2, motorway_link:1.6, trunk:2.8, trunk_link:1.5, primary:2.5, primary_link:1.4, secondary:2.1, tertiary:1.7, minor:1.15};
+function roadStyle(c, zoom, srcZ){
+  const P = PAL[mode], base = c.replace("_link", "");
+  if (c === "rail") return zoom < 11 ? [] : [{color:P.rail, weight: zoom < 14 ? 1 : 1.6, dashArray:"4 3", opacity:.9}];
+  if (base === "minor" && zoom < 13) return [];
+  if (base === "tertiary" && zoom < 11) return [];
+  if (base === "secondary" && zoom < 9) return [];
+  if (base === "primary" && zoom < 8) return [];
+  const w = (ROAD_W[c] || 1.2) * Math.min(7, Math.max(0.45, Math.pow(2, (zoom - 12) * 0.6)));
+  const color = P[base] || "#ffffff";
+  // Las calles de baja resolución (z11) se dibujan algo más finas para que queden bajo las de detalle (z14)
+  const k = srcZ === 11 && zoom >= 13 ? 0.8 : 1;
+  if (mode === "sat") return [{color, weight:Math.max(0.6, w * 0.7 * k), opacity: base === "motorway" ? .9 : .6, lineCap:"round"}];
+  if (zoom < 11) return [{color: base === "motorway" || base === "trunk" ? color : "#e7b96a", weight:Math.max(0.7, w * k), opacity:.95, lineCap:"round"}];
+  return [{color:P.casing, weight:w * k + 1.6, opacity:1, lineCap:"round"}, {color, weight:w * k, opacity:1, lineCap:"round"}];
+}
+function featStyle(p, zoom){
+  const P = PAL[mode], ao = AREA_OPACITY[mode];
+  switch (p.l) {
+    // El relieve ya trae mares y lagos: el agua de la capa país (z8) solo se pinta en modo Mapa a partir de zoom 11
+    case "water": return p.z === 8 && (zoom < 11 || mode === "sat") ? [] : {fill:true, fillColor:P.water, fillOpacity:1, stroke:false, weight:0};
+    case "waterway": return zoom < 9 && p.c !== "river" ? [] : {color:P.water, weight: p.c === "river" ? Math.max(1.2, (zoom - 7) * 0.9) : p.c === "canal" ? 1.6 : (zoom < 14 ? 0 : 1), opacity:1};
+    case "landcover": return {fill:true, fillColor:P[p.c] || P.grass, fillOpacity:ao, stroke:false, weight:0};
+    case "park": return {fill:true, fillColor:P.park, fillOpacity:ao, stroke:false, weight:0};
+    case "landuse": return zoom < 10 ? [] : {fill:true, fillColor:P[p.c] || P.residential, fillOpacity: mode === "sat" ? .45 : 1, stroke:false, weight:0};
+    case "building": return zoom < 14 ? [] : {fill:true, fillColor:P.building, fillOpacity: mode === "sat" ? .9 : 1, color:P.buildingLine, weight:.6, opacity:1};
+    case "transportation": return roadStyle(p.c, zoom, p.z);
+  }
+  return [];
+}
+function vectorLayer(geo, opts){
+  return L.vectorGrid.slicer(geo, Object.assign({pane:"vec", interactive:false, maxZoom:18, tolerance:2, buffer:64,
+    rendererFactory:L.canvas.tile, vectorTileLayerStyles:{sliced:featStyle}}, opts));
+}
+
+// Etiquetas de lugares (ciudades, pueblos, barrios)
+const LABEL_RULE = {city:[6, "big"], town:[9, "mid"], village:[12, "small"], suburb:[12, "mid"], quarter:[14, "small"], neighbourhood:[14, "small"], hamlet:[14, "small"]};
+let allLabels = [];
+const labelLayer = L.layerGroup([], {pane:"labels"}).addTo(map);
+const LABEL_PRIO = ["city", "town", "suburb", "village", "quarter", "neighbourhood", "hamlet"];
+const LABEL_PX = {big:7.5, mid:6.6, small:5.8};   // ancho aproximado por carácter
+function drawLabels(){
+  labelLayer.clearLayers();
+  const z = map.getZoom(), b = map.getBounds().pad(0.05), seen = new Set(), boxes = [];
+  const cands = allLabels.filter(p => { const r = LABEL_RULE[p.c]; return r && z >= r[0] && b.contains([p.lat, p.lon]); })
+    .sort((a, c) => LABEL_PRIO.indexOf(a.c) - LABEL_PRIO.indexOf(c.c));
+  for (const p of cands) {
+    const r = LABEL_RULE[p.c], key = p.n + "|" + p.c;
+    if (seen.has(key)) continue;
+    // descartar etiquetas que se solapan con otras ya colocadas
+    const pt = map.latLngToContainerPoint([p.lat, p.lon]), w = p.n.length * LABEL_PX[r[1]] / 2 + 6, h = 10;
+    if (boxes.some(o => Math.abs(o.x - pt.x) < o.w + w && Math.abs(o.y - pt.y) < o.h + h)) continue;
+    boxes.push({x:pt.x, y:pt.y, w, h}); seen.add(key);
+    labelLayer.addLayer(L.marker([p.lat, p.lon], {pane:"labels", interactive:false, keyboard:false,
+      icon:L.divIcon({className:"", html:`<span class="plabel ${r[1]}">${esc(p.n)}</span>`, iconSize:null})}));
+    if (boxes.length > 120) break;
+  }
+}
+
+// Capa país (z8) y zonas de detalle cargadas bajo demanda
+let countryLayer = null, countryData = null;
+const zones = new Map();    // "x_y" -> {state, layer, geo}
+let zoneIndex = new Set();
+fetch("basemap/pais.json").then(r => r.json()).then(pkg => {
+  countryData = decode(pkg);
+  allLabels = allLabels.concat(countryData.labels);
+  countryLayer = vectorLayer(countryData.geo, {maxZoom:12, maxNativeZoom:12}).addTo(map);
+  drawLabels();
+}).catch(() => toast("No se pudo cargar el mapa de carreteras"));
+fetch("basemap/index.json").then(r => r.json()).then(ix => { zoneIndex = new Set(ix.zonas.map(([x, y]) => x + "_" + y)); loadZones(); }).catch(() => {});
+
+function tileXY(lat, lon, z){ const n = 2 ** z; return [Math.floor((lon + 180) / 360 * n), Math.floor((1 - Math.asinh(Math.tan(lat * Math.PI / 180)) / Math.PI) / 2 * n)]; }
+let pending = 0;
+function loadZones(){
+  if (map.getZoom() < 10.5 || !zoneIndex.size) return;
+  const b = map.getBounds(), [x0, y0] = tileXY(b.getNorth(), b.getWest(), 11), [x1, y1] = tileXY(b.getSouth(), b.getEast(), 11);
+  if ((x1 - x0 + 1) * (y1 - y0 + 1) > 30) return;
+  for (let x = x0; x <= x1; x++) for (let y = y0; y <= y1; y++) {
+    const key = x + "_" + y;
+    if (!zoneIndex.has(key) || zones.has(key)) continue;
+    zones.set(key, {state:"loading"}); pending++; $("loading").hidden = false;
+    fetch(`basemap/zona-${key}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(pkg => {
+      const d = decode(pkg);
+      const layer = vectorLayer(d.geo, {minZoom:10}).addTo(map);
+      zones.set(key, {state:"ok", layer, geo:d.geo});
+      allLabels = d.labels.concat(allLabels);
+      drawLabels();
+    }).catch(() => zones.delete(key)).finally(() => { pending--; if (pending <= 0) $("loading").hidden = true; });
+  }
+}
+function applyMode(){
+  const el = $("map");
+  el.classList.toggle("mode-map", mode === "map");
+  el.classList.toggle("mode-sat", mode === "sat");
+  el.classList.toggle("zoomed", map.getZoom() >= 11);
+  document.querySelectorAll(".modes button").forEach(b => b.setAttribute("aria-pressed", b.dataset.mode === mode));
+  relief.map.remove(); relief.sat.remove();
+  // En modo Mapa, a partir de zoom 12 el relieve se difumina y se usa fondo liso de tierra
+  if (mode === "sat" || map.getZoom() < 12) relief[mode].addTo(map);
+  relief[mode].setOpacity(mode === "map" && map.getZoom() >= 11 ? 0.3 : 1);
+  border.setStyle(() => ({color: mode === "sat" ? "#ffffff" : "#5b5470"}));
+}
+let lastZoomBand = null;
+function onView(){
+  const band = map.getZoom() >= 12 ? 2 : map.getZoom() >= 11 ? 1 : 0;
+  if (band !== lastZoomBand) { lastZoomBand = band; applyMode(); }
+  loadZones(); drawLabels();
+}
+document.querySelectorAll(".modes button").forEach(b => b.addEventListener("click", () => {
+  if (mode === b.dataset.mode) return;
+  mode = b.dataset.mode; store("nl-mode", mode); applyMode();
+  if (countryLayer) countryLayer.redraw();
+  zones.forEach(z => z.layer && z.layer.redraw());
+  rebuildMarkerStyles();
+}));
+border.addTo(map);
+applyMode();
+map.on("moveend zoomend", onView);
+
+// ---------- Empresas ----------
 const cluster = L.markerClusterGroup({showCoverageOnHover:false, maxClusterRadius:45, spiderfyOnMaxZoom:true,
-  iconCreateFunction: cl => { const n = cl.getChildCount(); const s = n < 10 ? 30 : n < 100 ? 38 : 46;
-    const hot = cl.getAllChildMarkers().some(m => m.options.hasContact);
-    return L.divIcon({html:`<div class="cl${hot ? " hot" : ""}" style="width:${s}px;height:${s}px">${n}</div>`, className:"", iconSize:[s, s]}); }});
+  iconCreateFunction: cl => { const ms = cl.getAllChildMarkers(), n = ms.length, s = n < 10 ? 30 : n < 100 ? 38 : 46;
+    const sec = ms.some(m => m.options.sec === "80.01"), ev = ms.some(m => m.options.sec === "82.30");
+    const hot = ms.some(m => m.options.hasContact);
+    return L.divIcon({html:`<div class="cl${sec && ev ? " mix" : ev ? " ev" : ""}${hot ? " hot" : ""}" style="width:${s}px;height:${s}px">${n}</div>`, className:"", iconSize:[s, s]}); }});
 map.addLayer(cluster);
-
+const sectorColor = code => css(code === "82.30" ? "--ev" : "--sec");
 const markers = new Map();
-function makeMarker(e){
-  const has = e.k && (e.k.phone || e.k.email);
-  const m = L.circleMarker([e.y, e.x], {hasContact: !!has, radius: has ? 8 : 6, weight:2, color:css(has ? "--accent" : "--pin"),
-    fillColor:css(has ? "--accent" : "--pin"), fillOpacity: has ? .9 : .55});
-  m.on("click", () => openDetail(e));
-  m.bindTooltip(esc(e.n), {direction:"top", offset:[0,-6]});
-  return m;
+function markerStyle(e){
+  const has = hasContact(e), c = has ? css("--accent") : sectorColor(e.s[0]);
+  return {radius: has ? 8 : 6.5, weight:2, color:"#ffffff", fillColor:c, fillOpacity:1, opacity:.95};
 }
-DATA.forEach(e => { if (e.y != null) markers.set(e.i, makeMarker(e)); });
+DATA.forEach(e => {
+  if (e.y == null) return;
+  const m = L.circleMarker([e.y, e.x], Object.assign({sec:e.s[0], hasContact:hasContact(e)}, markerStyle(e)));
+  m.on("click", () => openDetail(e));
+  m.bindTooltip(esc(e.n), {direction:"top", offset:[0, -6]});
+  markers.set(e.i, m);
+});
+function rebuildMarkerStyles(){ DATA.forEach(e => { const m = markers.get(e.i); if (m) m.setStyle(markerStyle(e)); }); }
 
+function fillCities(){
+  const sec = $("sector").value, prev = $("city").value, counts = new Map();
+  DATA.forEach(e => { if (!sec || e.s.includes(sec)) counts.set(e.c, (counts.get(e.c) || 0) + 1); });
+  const total = [...counts.values()].reduce((a, b) => a + b, 0);
+  const list = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "de"));
+  $("city").innerHTML = `<option value="">Toda Alemania · ${fmt(total)}</option>` + list.map(([c, n]) => `<option value="${esc(c)}">${esc(c)} · ${n}</option>`).join("");
+  $("city").value = counts.has(prev) ? prev : "";
+}
 function filtered(){
-  const q = $("q").value.trim().toLowerCase();
-  const city = sel.value, only = $("onlyContact").checked;
-  return DATA.filter(e => (!city || e.c === city) && (!only || (e.k && (e.k.phone || e.k.email))) &&
+  const q = $("q").value.trim().toLowerCase(), city = $("city").value, sec = $("sector").value, only = $("onlyContact").checked;
+  return DATA.filter(e => (!sec || e.s.includes(sec)) && (!city || e.c === city) && (!only || hasContact(e)) &&
     (!q || (e.n + " " + e.a + " " + e.p).toLowerCase().includes(q)));
 }
 let current = [];
@@ -200,46 +371,44 @@ function refresh(fit){
   current = filtered();
   cluster.clearLayers();
   cluster.addLayers(current.filter(e => markers.has(e.i)).map(e => markers.get(e.i)));
-  const withContact = current.filter(e => e.k && (e.k.phone || e.k.email)).length;
-  $("count").innerHTML = `<b>${current.length}</b> emp. · <b>${withContact}</b> ☎`;
+  $("count").innerHTML = `<b>${fmt(current.length)}</b> emp. · <b>${current.filter(hasContact).length}</b> ☎`;
+  const sec = $("sector").value;
+  $("sectorTitle").textContent = sec ? SECTORS[sec].title : "Deutschland";
   if (fit) {
     const pts = current.filter(e => e.y != null).map(e => [e.y, e.x]);
-    if (sel.value && pts.length) map.fitBounds(L.latLngBounds(pts).pad(0.08), {maxZoom:14});
-    else if (!sel.value && !$("q").value.trim()) map.fitBounds(DE_BOUNDS);
-    else if (pts.length) map.fitBounds(L.latLngBounds(pts).pad(0.1), {maxZoom:14});
+    if (($("city").value || $("q").value.trim()) && pts.length) map.fitBounds(L.latLngBounds(pts).pad(0.1), {maxZoom:14});
+    else if (!$("city").value && !$("q").value.trim()) map.fitBounds(DE_BOUNDS);
   }
   if (!$("sheet").hidden && $("sheet").dataset.mode === "list") showList();
 }
 let qTimer;
 $("q").addEventListener("input", () => { clearTimeout(qTimer); qTimer = setTimeout(() => refresh(true), 250); });
-sel.addEventListener("change", () => refresh(true));
+$("city").addEventListener("change", () => refresh(true));
+$("sector").addEventListener("change", () => { fillCities(); refresh(true); });
 $("onlyContact").addEventListener("change", () => refresh(false));
 
 function copyBtn(v){ return `<button class="mini" type="button" data-copy="${esc(v)}">Copiar</button>`; }
 document.addEventListener("click", ev => {
   const b = ev.target.closest("[data-copy]"); if (!b) return;
-  const v = b.dataset.copy;
-  try { navigator.clipboard.writeText(v).then(() => toast("Copiado"), () => toast("Mantén pulsado el texto para copiarlo")); }
+  try { navigator.clipboard.writeText(b.dataset.copy).then(() => toast("Copiado"), () => toast("Mantén pulsado el texto para copiarlo")); }
   catch(_) { toast("Mantén pulsado el texto para copiarlo"); }
 });
-
-function openSheet(title, html, mode){
+function openSheet(title, html, kind){
   $("sheetTitle").textContent = title; $("sheetBody").innerHTML = html;
-  $("sheet").dataset.mode = mode; $("sheet").hidden = false; $("sheetBody").scrollTop = 0;
+  $("sheet").dataset.mode = kind; $("sheet").hidden = false; $("sheetBody").scrollTop = 0;
 }
 $("closeSheet").addEventListener("click", () => $("sheet").hidden = true);
 document.addEventListener("keydown", ev => { if (ev.key === "Escape") $("sheet").hidden = true; });
 
-function webFrom(url){ try { const u = new URL(url); return u.origin; } catch(_) { return ""; } }
+function webFrom(url){ try { return new URL(url).origin; } catch(_) { return ""; } }
+const googleBtn = e => `<div class="cline"><span class="v">Buscar la empresa en internet</span><a class="mini" href="https://www.google.com/search?q=${encodeURIComponent(e.n + " " + e.c)}" target="_blank" rel="noopener">Google</a></div>`;
 function contactHtml(e){
   const k = e.k;
-  if (!e.kc) return `<p class="note">Contacto no consultado todavía: cada consulta de contacto en OpenRegister gasta 10 créditos.</p>
-    <div class="cline"><span class="v">Buscar la empresa en internet</span><a class="mini" href="https://www.google.com/search?q=${encodeURIComponent(e.n + " " + e.c)}" target="_blank" rel="noopener">Google</a></div>`;
-  if (!k || (!k.phone && !k.email && !k.source_url)) return `<p class="note">OpenRegister no tiene teléfono, email ni web de esta empresa.</p>
-    <div class="cline"><span class="v">Buscar la empresa en internet</span><a class="mini" href="https://www.google.com/search?q=${encodeURIComponent(e.n + " " + e.c)}" target="_blank" rel="noopener">Google</a></div>`;
+  if (!e.kc) return `<p class="note">Contacto no consultado todavía: cada consulta de contacto en OpenRegister gasta 10 créditos.</p>${googleBtn(e)}`;
+  if (!k || (!k.phone && !k.email && !k.source_url)) return `<p class="note">OpenRegister no tiene teléfono, email ni web de esta empresa.</p>${googleBtn(e)}`;
   const out = [];
-  if (k.phone) out.push(`<div class="cline"><div><div class="k">Teléfono</div><div class="v mono">${esc(k.phone)}</div></div><span style="display:flex;gap:6px"><a class="mini" href="tel:${esc(k.phone.replace(/[^+\d]/g, ""))}">Llamar</a>${copyBtn(k.phone)}</span></div>`);
-  if (k.email) out.push(`<div class="cline"><div><div class="k">Email</div><div class="v mono">${esc(k.email)}</div></div><span style="display:flex;gap:6px"><a class="mini" href="mailto:${esc(k.email)}">Escribir</a>${copyBtn(k.email)}</span></div>`);
+  if (k.phone) out.push(`<div class="cline"><div><div class="k">Teléfono</div><div class="v mono">${esc(k.phone)}</div></div><span class="acts"><a class="mini" href="tel:${esc(k.phone.replace(/[^+\d]/g, ""))}">Llamar</a>${copyBtn(k.phone)}</span></div>`);
+  if (k.email) out.push(`<div class="cline"><div><div class="k">Email</div><div class="v mono">${esc(k.email)}</div></div><span class="acts"><a class="mini" href="mailto:${esc(k.email)}">Escribir</a>${copyBtn(k.email)}</span></div>`);
   const web = k.source_url ? webFrom(k.source_url) : "";
   if (web) out.push(`<div class="cline"><div><div class="k">Web</div><div class="v mono">${esc(web.replace(/^https?:\/\//, ""))}</div></div><a class="mini" href="${esc(web)}" target="_blank" rel="noopener">Abrir</a></div>`);
   if (k.vat_id) out.push(`<div class="cline"><div><div class="k">USt-IdNr. (IVA)</div><div class="v mono">${esc(k.vat_id)}</div></div>${copyBtn(k.vat_id)}</div>`);
@@ -248,9 +417,10 @@ function contactHtml(e){
 }
 function openDetail(e){
   const maps = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(e.a);
-  const prec = e.q === "direccion" ? "" : e.q === "codigo_postal" ? `<span class="chip warn">Ubicación aproximada (código postal)</span>` : e.q === "ciudad" ? `<span class="chip warn">Ubicación aproximada (ciudad)</span>` : "";
+  const prec = e.q === "codigo_postal" ? `<span class="chip warn">Ubicación aproximada (código postal)</span>` : e.q === "ciudad" ? `<span class="chip warn">Ubicación aproximada (ciudad)</span>` : "";
+  const secChips = e.s.map(code => `<span class="chip s${code.replace(".", "")}">WZ ${code} · ${esc(SECTORS[code].label)}</span>`).join("");
   openSheet(e.n, `
-    <div class="chips"><span class="chip ok">Activa</span><span class="chip">${esc(LEGAL[e.f] || e.f)}</span><span class="chip ac">WZ 80.01 · Seguridad privada</span>${prec}</div>
+    <div class="chips"><span class="chip ok">Activa</span><span class="chip">${esc(LEGAL[e.f] || e.f)}</span>${secChips}${prec}</div>
     <section><h3>Contacto</h3><div class="contact">${contactHtml(e)}</div></section>
     <section><h3>Dirección</h3><div class="cline"><span class="v">${esc(e.a)}</span><a class="mini" href="${maps}" target="_blank" rel="noopener">Google Maps</a></div></section>
     <section><h3>Registro mercantil</h3><dl>
@@ -258,15 +428,21 @@ function openDetail(e){
       <dt>Juzgado</dt><dd>Amtsgericht ${esc(e.g)}</dd>
       <dt>ID</dt><dd class="mono">${esc(e.i)} ${copyBtn(e.i)}</dd>
     </dl></section>
-    <section><h3>Objeto social</h3><p class="purpose" style="margin:0">${esc(e.p) || '<span class="note">No consta.</span>'}</p></section>`, "detail");
+    <section><h3>Objeto social</h3><p class="purpose">${esc(e.p) || '<span class="note">No consta.</span>'}</p></section>`, "detail");
+}
+function coverageNote(){
+  const sec = $("sector").value;
+  return Object.entries(SECTORS).filter(([code]) => !sec || code === sec).map(([code, s]) => {
+    const q = s.queries;
+    if (q.length === 1 && !q[0].name) return `<b>${esc(s.short)}:</b> ${fmt(q[0].loaded)} de ${fmt(q[0].total)} empresas activas en Alemania (muestra).`;
+    const full = q.filter(c => c.loaded === c.total).map(c => c.name), part = q.filter(c => c.loaded < c.total).map(c => `${c.name} (${c.loaded} de ${fmt(c.total)})`);
+    return `<b>${esc(s.short)}:</b> completas ${esc(full.join(", "))}. Parciales: ${esc(part.join(", "))}.`;
+  }).map(t => `<p class="note">${t}</p>`).join("") + `<p class="note">Punto naranja: tiene teléfono o email.</p>`;
 }
 function showList(){
-  const items = current.slice().sort((a, b) => (!!(b.k && (b.k.phone || b.k.email)) - !!(a.k && (a.k.phone || a.k.email))) || a.n.localeCompare(b.n, "de"));
+  const items = current.slice().sort((a, b) => (hasContact(b) - hasContact(a)) || a.n.localeCompare(b.n, "de"));
   const shown = items.slice(0, 300);
-  const completas = META.queries.filter(c => c.loaded === c.total).map(c => c.name).join(", ");
-  const parciales = META.queries.filter(c => c.loaded < c.total).map(c => `${c.name} (${c.loaded} de ${c.total})`).join(", ");
-  const info = `<p class="note">Cargadas completas: ${esc(completas)}. Parciales: ${esc(parciales)}. Las empresas con punto naranja tienen teléfono o email.</p>`;
-  openSheet(`${items.length} empresas`, info + (items.length ? `<div class="list">${shown.map(e => `<button class="item" type="button" data-id="${esc(e.i)}"><b>${e.k && (e.k.phone || e.k.email) ? '<i class="dot"></i>' : ""}${esc(e.n)}</b><span>${esc(e.a)}</span></button>`).join("")}</div>` +
+  openSheet(`${fmt(items.length)} empresas`, coverageNote() + (items.length ? `<div class="list">${shown.map(e => `<button class="item" type="button" data-id="${esc(e.i)}"><b><i class="dot" style="background:${hasContact(e) ? css("--accent") : sectorColor(e.s[0])}"></i>${esc(e.n)}</b><span>${esc(e.a)}</span></button>`).join("")}</div>` +
     (items.length > shown.length ? `<p class="note">Se muestran 300. Busca o elige una ciudad para acotar.</p>` : "")
     : `<p class="note">Ninguna empresa coincide. Prueba con otra búsqueda o quita filtros.</p>`), "list");
 }
@@ -274,15 +450,12 @@ $("listBtn").addEventListener("click", showList);
 $("sheetBody").addEventListener("click", ev => {
   const b = ev.target.closest(".item"); if (!b) return;
   const e = DATA.find(x => x.i === b.dataset.id); if (!e) return;
-  if (e.y != null) { const m = markers.get(e.i); cluster.zoomToShowLayer(m, () => {}); }
+  const m = markers.get(e.i); if (m) cluster.zoomToShowLayer(m, () => {});
   openDetail(e);
 });
+try { matchMedia("(prefers-color-scheme: dark)").addEventListener("change", rebuildMarkerStyles); } catch(_) {}
+new MutationObserver(() => { rebuildMarkerStyles(); cluster.refreshClusters(); }).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
 
-// Cambio de tema: recolorear mapa y puntos
-function recolor(){ drawGeo(); markers.forEach((m, id) => { const e = DATA.find(x => x.i === id); const has = e.k && (e.k.phone || e.k.email);
-  m.setStyle({color:css(has ? "--accent" : "--pin"), fillColor:css(has ? "--accent" : "--pin")}); }); }
-try { matchMedia("(prefers-color-scheme: dark)").addEventListener("change", recolor); } catch(_) {}
-new MutationObserver(recolor).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
-
+fillCities();
 refresh(false);
 </script>
