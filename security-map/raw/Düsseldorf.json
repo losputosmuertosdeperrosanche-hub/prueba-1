@@ -1,0 +1,3206 @@
+{
+ "city": "Düsseldorf",
+ "pages": {
+  "1": [
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Greifswalder Straße 6, 40595 Düsseldorf",
+     "postal_code": "40595",
+     "street": "Greifswalder Straße 6"
+    },
+    "company_id": "DE-HRB-R1101-114696",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "LNK GmbH",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen gemäß § 34 a Gewerbeordnung (GewO), die Erbringung von Gebäude-, Unterhalts- und Sonderreinigungsleistungen sowie die Erbringung sämtlicher hiermit im Zusammenhang stehender erlaubnisfreier Dienstleistungen, sowie Transport- und Kurierdienstleistungen hinsichtlich Waren bis zu einem zulässigen Gesamtgewicht von 3,5 Tonnen.",
+    "register_court": "Düsseldorf",
+    "register_number": "114696",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Schöndorffstraße 29, 40229 Düsseldorf",
+     "postal_code": "40229",
+     "street": "Schöndorffstraße 29"
+    },
+    "company_id": "DE-HRB-R1101-114334",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ZEN SEC UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen gemäß § 34a Gewerbeordnung (GewO), insbesondere Objekt- und Werkschutz, Revier- und Streifendienst, Empfangs- und Veranstaltungsdienste sowie Personenschutz. Zudem erbringt die Gesellschaft Servicedienstleistungen, einschließlich Ordnertätigkeiten sowie Catering.",
+    "register_court": "Düsseldorf",
+    "register_number": "114334",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Monschauer Straße 13, 40549 Düsseldorf",
+     "postal_code": "40549",
+     "street": "Monschauer Straße 13"
+    },
+    "company_id": "DE-HRB-R1101-114246",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ProGuard Bau & Personalservice GmbH",
+    "purpose": "Unternehmensberatung, Kleintransporte bis 3,5 Tonnen, Personalvermittlung, hausmeisterübliche Tätigkeiten, Helfer- und Reinigungsarbeiten aller Art, Ordnungs- und Veranstaltungsservice, Bodenleger, Fugenbau im Hochbau sowie Trockenbau.",
+    "register_court": "Düsseldorf",
+    "register_number": "114246",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Monschauer Straße 13, 40549 Düsseldorf",
+     "postal_code": "40549",
+     "street": "Monschauer Straße 13"
+    },
+    "company_id": "DE-HRB-R1101-114244",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BauVanta GmbH",
+    "purpose": "Unternehmensberatung, Kleintransporte bis 3,5 Tonnen, Personalvermittlung, hausmeisterübliche Tätigkeiten, Helfer- und Reinigungsarbeiten aller Art, Ordnungs- und Veranstaltungsservice, Bodenleger, Fugenbau im Hochbau sowie Trockenbau.",
+    "register_court": "Düsseldorf",
+    "register_number": "114244",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Graf-Adolf-Str. 41, 40210 Düsseldorf",
+     "postal_code": "40210",
+     "street": "Graf-Adolf-Str. 41"
+    },
+    "company_id": "DE-HRB-R1101-114163",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Prosec UG (haftungsbeschränkt)",
+    "purpose": "Die Parkhaus- und Parkplatzbetreuung sowie die Durchführung von Kassen- und Kurierdiensten.",
+    "register_court": "Düsseldorf",
+    "register_number": "114163",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Luckemeyerstraße 39, 40629 Düsseldorf",
+     "postal_code": "40629",
+     "street": "Luckemeyerstraße 39"
+    },
+    "company_id": "DE-HRB-R1101-114149",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Alfrat Sicherheitsdienste GmbH",
+    "purpose": "Die Erbringung sämtlicher Dienstleistungen in den Bereichen Objekt- und Werkschutz, Brandschutz und -wache, Veranstaltungssicherheit, Revier- und Streifendienst, Sicherung von Flüchtlings-Unterkünften und -einrichtungen sowie Diebstahlschutz im Groß- und Einzelhandel.",
+    "register_court": "Düsseldorf",
+    "register_number": "114149",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Düsseldorfer Straße 199, 40595 Düsseldorf",
+     "postal_code": "40595",
+     "street": "Düsseldorfer Straße 199"
+    },
+    "company_id": "DE-HRB-R1101-114090",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DNC Gebäudeinstandhaltungs GmbH",
+    "purpose": "De Annahme, Verwaltung, Koordination und organisatorische Abwicklung von Bau-, Handwerks-, Bewachungs- und Gebäudereinigungsaufträgen, insbesondere die Vergabe solcher Aufträge an Nachunternehmer (Subunternehmer) sowie das Projektmanagement in den genannten Bereichen. Die verschiedenen Gewerke werden an autorisierte eingetragene Fachbetriebe weitergegeben (Meisterbetriebe). Die Gesellschaft erbringt selbst keine eigenen handwerklichen, bauausführenden oder gebäudereinigenden Leistungen, sondern beschränkt sich auf die kaufmännische, organisatorische und administrative Betreuung und Steuerung von Projekten.",
+    "register_court": "Düsseldorf",
+    "register_number": "114090",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Erkrather Str. 365, 40231 Düsseldorf",
+     "postal_code": "40231",
+     "street": "Erkrather Str. 365"
+    },
+    "company_id": "DE-HRB-R1101-114057",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Nahro Services GmbH",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen, insbesondere Objekt- und Werkschutz sowie Bewachungsdienstleistungen, die Durchführung von Gebäudereinigungsarbeiten, Hausmeisterdiensten, Winterdiensten und Entrümpelungen sowie die Vermittlung von Aufträgen und Dienstleistungen an Drittunternehmen.",
+    "register_court": "Düsseldorf",
+    "register_number": "114057",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Brehmstraße 3, 40239 Düsseldorf",
+     "postal_code": "40239",
+     "street": "Brehmstraße 3"
+    },
+    "company_id": "DE-HRB-R1101-113954",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "HCD Service UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Dienstleistungen im Bereich Gebäudemanagement und Facility Services, insbesondere Reinigungsservices, Hausmeistertätigkeiten und Objektbetreuung sowie die Erbringung von Sicherheitsdienstleistungen, Buchhaltung, Telefonservice, Briefservice, Datenverarbeitung kaufmännischen, administrativen und organisatorischen Dienstleistungen für Dritte. Ferner alle damit im Zusammenhang stehenden Geschäfte.",
+    "register_court": "Düsseldorf",
+    "register_number": "113954",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Erkrather Straße 401, 40231 Düsseldorf",
+     "postal_code": "40231",
+     "street": "Erkrather Straße 401"
+    },
+    "company_id": "DE-HRB-R1101-113929",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "TR - Sec Dienstleistungen GmbH",
+    "purpose": "Sicherheitsdienstleistungen, Brandwache, Objektschutz, Detektiv, Pforte/Empfang und Reinigungstätigkeiten.",
+    "register_court": "Düsseldorf",
+    "register_number": "113929",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Königsallee 92 A, 40212 Düsseldorf",
+     "postal_code": "40212",
+     "street": "Königsallee 92 A"
+    },
+    "company_id": "DE-HRB-R1101-113704",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "HARB Sicherheitsmanagement UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Sicherheitsleistungen, insbesondere Objektschutz, Veranstaltungsschutz, Baustellenbewachung, Revierdienst, Empfangs- und Pfortendienste, Sicherheitsberatung sowie alle damit zusammenhängenden Dienstleistungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "113704",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Mindener Straße 121, 40227 Düsseldorf",
+     "postal_code": "40227",
+     "street": "Mindener Straße 121"
+    },
+    "company_id": "DE-HRB-R1101-113432",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Luxus Dienst GmbH",
+    "purpose": "Der Geschäftsbereich ist ein Mietwagenunternehmen, Personenbeförderung, Shuttle-Service, Flughafentransfer, Autovermietung mit Fahrer und Autoservice; Sicherheitsdienst.",
+    "register_court": "Düsseldorf",
+    "register_number": "113432",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Vogelsanger Weg 91, 40470 Düsseldorf",
+     "postal_code": "40470",
+     "street": "Vogelsanger Weg 91"
+    },
+    "company_id": "DE-HRB-R1101-113039",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "WOS Westfälische Ordnungs- und Sicherheits-GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen zum Schutz von Objekten, Veranstaltungen und Personen.",
+    "register_court": "Düsseldorf",
+    "register_number": "113039",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Kölner Landstraße 425, 40591 Düsseldorf",
+     "postal_code": "40591",
+     "street": "Kölner Landstraße 425"
+    },
+    "company_id": "DE-HRB-R1101-112890",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GleisPro-Duesseldorf GmbH",
+    "purpose": "Sicherheitsdienstleistungen für Baustellen in der Nähe von Bahn-/ Gleisanlagen sowie Bahngleissicherung.",
+    "register_court": "Düsseldorf",
+    "register_number": "112890",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Dreischeibenhaus 1, 40211 Düsseldorf",
+     "postal_code": "40211",
+     "street": "Dreischeibenhaus 1"
+    },
+    "company_id": "DE-HRB-R1101-112680",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Veritas Security und Service Mannheim GmbH",
+    "purpose": "Sicherheitsdienstleistungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "112680",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "extra": "FOMACON Business Center",
+     "formatted_value": "Mörsenbroicher Weg 191, 40470 Düsseldorf",
+     "postal_code": "40470",
+     "street": "Mörsenbroicher Weg 191"
+    },
+    "company_id": "DE-HRB-R1101-112561",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SecurePak Service GmbH",
+    "purpose": "Die Erbringung von Bewachungs- und Sicherheitsdienstleistungen sowie die Durchführung von Transport-, Kurier-, Paket, und Logistikdienstleistungen aller Art. Die Erbringung von Dienstleistungen im Gesundheitswesen und in der ästhetischen Medizin, insbesondere die Bereitstellung von Räumlichkeiten, Infrastruktur und Einrichtungen, Management- und Verwaltungsleistungen sowie die Entwicklung, Vermarktung und den Betrieb von Kooperations-, Plattform- und Telemedizinkonzepten.",
+    "register_court": "Düsseldorf",
+    "register_number": "112561",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Königsallee 63-65, 40215 Düsseldorf",
+     "postal_code": "40215",
+     "street": "Königsallee 63-65"
+    },
+    "company_id": "DE-HRB-R1101-112146",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Schmiede Dienstleistungen GmbH",
+    "purpose": "Die Objekt- und Industriesicherung aller Art, Parkhaus- und Parkplatzbetreuung, Messe- und Veranstaltungsschutz, Empfangs- und Pförtnerdienste, Personen- und Werkschutz, Kontroll- und Revierdienst, VIP-Service u.a. Begleitung von Personen auf Reisen, Veranstaltungen und Events, Baustellenabsicherung im Gleisbereich, Alarmaufschaltungen und -verfolgungen sowie die Planung und der Vertrieb von Alarmsystemen, Alarmtechnik, Schlüsselsicherungssystemen und sonstiger Sicherheitsdienste aller Art, Geld- und Werttransporte sowie Geldbearbeitung, Sicherheitsanalyse und -beratung, motorisierte Funkpatrouillen sowie Kassen- und Kurierdienste. Die Reinigung und Räumung von Werk- und Bürogebäuden sowie Facility Management und Winterdienst, Reinigungsdienstleistungen, Glas- und Fensterreinigung sowie Reinigung mit Osmosenanlage und Hochdruckreiniger, die Herstellung von sowie der Groß- und Einzelhandel mit Geschenkartikeln, insbesondere personalisierten Produkten aus Glas, Spiegel, 3D-Druck, Textilien sowie das Anbringen von Monogrammen auf Bekleidungsstücken, Schuhen, Kopfbedeckungen, Handtüchern oder Teppichen und die damit verbundenen Dienstleistungen, die Herstellung sowie Vermarktung von Handelswaren, der Vertrieb und Onlinehandel mit erlaubnisfreien Non-Food-Produkten.",
+    "register_court": "Düsseldorf",
+    "register_number": "112146",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Greifswald",
+     "country": "DE",
+     "formatted_value": "Brandteichstraße 22, 17489 Greifswald",
+     "postal_code": "17489",
+     "street": "Brandteichstraße 22"
+    },
+    "company_id": "DE-HRB-R1101-111845",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BVDP Security Ventures GmbH",
+    "purpose": "Sicherheitsdienstleistungen, Konzeption von Sicherheitsanalysen, Promotion und Beratungen im Bereich der Sicherheitstechnik; Planung, Lieferung, Montage und Reparatur von Sicherheitseinrichtungen, Tresoren und Schließanlagen.",
+    "register_court": "Düsseldorf",
+    "register_number": "111845",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Bredelaerstr. 77, 40474 Düsseldorf",
+     "postal_code": "40474",
+     "street": "Bredelaerstr. 77"
+    },
+    "company_id": "DE-HRB-R1101-111518",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AM Safe GmbH",
+    "purpose": "Sicherheitsdienstleistungen, Servicedienstleistungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "111518",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Nördlicher Zubringer 5, 40470 Düsseldorf",
+     "postal_code": "40470",
+     "street": "Nördlicher Zubringer 5"
+    },
+    "company_id": "DE-HRB-R1101-111483",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "OSTERSEC Sicherheitsdienst UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen aller Art, insbesondere Bewachungs- und Schutzdienste gemäß § 34 a GewO.",
+    "register_court": "Düsseldorf",
+    "register_number": "111483",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Peter-Müller-Str. 3, 40468 Düsseldorf",
+     "postal_code": "40468",
+     "street": "Peter-Müller-Str. 3"
+    },
+    "company_id": "DE-HRB-R1101-111365",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "OE alliance GmbH",
+    "purpose": "Kfz.-Aufbereitung, Gartenpflege, Immobilien An- und Verkauf, genehmigungsfreie Dienstleistungen, Unternehmensberatung, Be- und Überwachung von Personen, Gebäuden, Grundstücken und Wertobjekten; Objekt-, Veranstaltungs- und Baustellenbewachung; Pförtner-, Empfangs, Kontroll-, Revier-, Streifen- und Interventionsdienste; Kurierdienste; Beratung und Vermittlung von Sicherheitsdienstleistungen, Personalvermittlung und Personalmanagementberatung; Innen- und Außenreinigung von Gebäuden, Industrieanlagen, Fassaden, Fenstern, Glas, Fahrzeugen und sonstigen Oberflächen; Freiflächen- und Verkehrsflächenreinigung; Vermietung von Reinigungsmaschinen; Brand- und Wasserschadensanierung; Winterdienste; Wartung und Reparatur von Panzerschränken; Abbrucharbeiten; Desinfektionsarbeiten; Abfallbeseitigung sowie Hausmeisterdienste.",
+    "register_court": "Düsseldorf",
+    "register_number": "111365",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Neuer Zollhof 1st floor, Neuer Zollhof 3, 40221 Düsseldorf",
+     "postal_code": "40221",
+     "street": "Neuer Zollhof 1st floor, Neuer Zollhof 3"
+    },
+    "company_id": "DE-HRB-R1101-111270",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MEGASUNS GmbH",
+    "purpose": "Einbau von genormten Baufertigteilen (z.B. Fenster, Türen, Zargen, Regalen), Trockenbau, Tief- und Hochbau, Kabelverlegung, Glasfaserverlegung, Baugewerbe, Brandreinigung, Kauf, Verkauf und Vermietung von Immobilien, Im- und Export sowie Verkauf von Solaranlagen, Batterien, Autozubehör, PV-Projektentwicklung, Betreiben von PV-Projekten/PV-Anlagen, Transportdienste und die Arbeitnehmerüberlassung AUG, Vermittlung von Handwerksaufträgen an Dritte und alle erlaubnisfreien Dienstleistungen in diesen Bereichen, Gleisbauarbeiten, Gleissicherung, Winterdienst, Garten- und Landschaftsbau, Eisenflechterarbeiten, Sanierungsarbeiten, Modernisierungsarbeiten, Betonarbeiten, Estricharbeiten, Gerüstbau, Gerüsthelfertätigkeiten, Sicherungsleistungen, Sicherheitsdienste, Servicekräfte, Gebäudereinigung jeglicher Art, Helfertätigkeit, An- und Verkauf von nicht alkoholischen Getränken, Montage, Handel sowie An und Verkauf von Textilien, Dachabdichtung, Schweißtechnik, Stuck- und Putzarbeiten, Pflasterarbeiten, Logistik sowie Industriebödenbeschichtungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "111270",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Königsallee 19, 40212 Düsseldorf",
+     "postal_code": "40212",
+     "street": "Königsallee 19"
+    },
+    "company_id": "DE-HRB-R1101-111127",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Protect & Care Security GmbH",
+    "purpose": "Die Erbringung von Sicherheits- und Bewachungsdienstleistungen aller Art, insbesondere der Schutz und die Sicherung von pädagogischen Einrichtungen, Jugendhilfeeinrichtungen, forensischen Kliniken, Kindertagesstätten sowie sonstigen sozialen und öffentlichen Einrichtungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "111127",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Apollinarisstraße 11, 40227 Düsseldorf",
+     "postal_code": "40227",
+     "street": "Apollinarisstraße 11"
+    },
+    "company_id": "DE-HRB-R1101-110867",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Multiapex GmbH",
+    "purpose": "Der Handel mit Waren aller Art, insbesondere mit Kraftfahrzeugen und deren Zubehör, ferner die Vermietung von Kraftfahrzeugen, der Transport, Logistik, Kurierfahrten, Security-Dienstleistungen sowie Dienstleistungen im Bereich der Gebäudereinigung, Buchhaltung und die Beratung von Unternehmen.",
+    "register_court": "Düsseldorf",
+    "register_number": "110867",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Kaiserstr. 5, 40479 Düsseldorf",
+     "postal_code": "40479",
+     "street": "Kaiserstr. 5"
+    },
+    "company_id": "DE-HRB-R1101-110844",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SRM Sicherheit und Service UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienstleistungen aller Art.",
+    "register_court": "Düsseldorf",
+    "register_number": "110844",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Kaiserslautern",
+     "country": "DE",
+     "formatted_value": "Europaallee 33, 67657 Kaiserslautern",
+     "postal_code": "67657",
+     "street": "Europaallee 33"
+    },
+    "company_id": "DE-HRB-R1101-110701",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Falk Sicherheit und Service GmbH",
+    "purpose": "Das Erbringen von Sicherheitsdienstleistungen, Dienstleistungen im Service- und Gebäudemanagement, IT- und Reinigungsdienstleistungen, Messe- und Veranstaltungsservice, Baustellenservice sowie verwandte Tätigkeitsfelder.",
+    "register_court": "Düsseldorf",
+    "register_number": "110701",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Bolkerstraße 18, 40213 Düsseldorf",
+     "postal_code": "40213",
+     "street": "Bolkerstraße 18"
+    },
+    "company_id": "DE-HRB-R1101-110684",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DSD - Düsseldorfer Sicherheit & Dienstleistungen UG (haftungsbeschränkt)",
+    "purpose": "Die Ausübung von Sicherheitsdienstleistungen jeglicher Art, Objekt- u. Veranstaltungsschutz, (un-) bewaffneter Personenschutz, Revier- und Interventionsfahrten, Geld- und Werttransporte, Ausbildung und Schulungen für Mitarbeiter und Dritten in den vorgenannten Bereichen, Organisieren, Veranstalten von Lehrgängen und Seminaren im Bereich Sicherheitswesen, Personen- und Objektschutz, Erstellen von Sicherheitskonzepten, Gutachten sowie Hilfe beim Regulieren von Schäden, Vermittlung zwischen Auftraggebern und Auftragsnehmern bei Regressansprüchen, Durchführung von Veranstaltungen und Begleitung von Prominenten, Künstlern und Sängern bei Konzerten und Tourneen, Überführen von Fahrzeugen jeglicher Art (im zivilen, behördlich sowie militärischen Sektor), Überführen von privaten, behördlichen sowie militärischen Rechtsgütern jeglicher Art (Gefangenentransporte, Beweismittel und sonstiges), Arbeitnehmerüberlassung, die Planung, Organisation von Veranstaltungen und Erbringung von Dienstleistungen, insbesondere Empfangs- und Garderobendienste, Parkplatzservice, Info- und Ordnerdienste sowie sonstige erlaubnisfreie Tätigkeiten in diesem Bereich.",
+    "register_court": "Düsseldorf",
+    "register_number": "110684",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Werstener Feld 78, 40591 Düsseldorf",
+     "postal_code": "40591",
+     "street": "Werstener Feld 78"
+    },
+    "company_id": "DE-HRB-R1101-99010",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MX Solutions GmbH",
+    "purpose": "Erbringen von Arbeitnehmerüberlassung und Personalvermittlung, Vermittlung von Frachtaufträgen und die erlaubnisfreie, wirtschaftliche Unternehmensberatung; die Beteiligung und die Vermittlung solcher Beteiligungen an anderen Unternehmen, soweit diese nicht erlaubnispflichtig sind. Das Eingehen, Halten und Verwalten von Beteiligungen im eigenen Namen, auf eigene Rechnung, nicht für Dritte, Gleisbausicherung, Grünflächenpflege ohne handwerkliche Tätigkeiten, Trockenbau, Betonarbeiten, Gerüstbau und Gebäudereinigung.",
+    "register_court": "Düsseldorf",
+    "register_number": "99010",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Spangerstr. 38a, 40599 Düsseldorf",
+     "postal_code": "40599",
+     "street": "Spangerstr. 38a"
+    },
+    "company_id": "DE-HRB-R1101-104483",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "RTS Baulogistik GmbH",
+    "purpose": "a) Baulogistik im Hoch- und Tiefbau und alle damit im Zusammenhang stehenden Aufgaben, b) Genehmigungsfreie Bauarbeiten und Dienstleistungen im Baubereich, c) Der Vertrieb und die Bereitstellung von integrierten Software- und Hardwarelösungen zur Daten- und Informationsverarbeitung und für Kommunikationsnetzwerke sowie deren Wartung und Support, d) Bewirtschaftung von bebauten und unbebauten Grundstücken und Stellung sämtlicher Personaldienste und Leistungen rund um die Immobilie, insbesondere Gebäudereinigungsarbeiten, Werk- und Objektschutz sowie Alarmverfolgung, e) Vermittlung von Personal, Aufträgen und allgemeiner Geschäftskontakte insbesondere im Bereich Personaldienstleistungen und Leistungen rund um den Baubereich und zu betreuende Gewerbeimmobilien.",
+    "register_court": "Düsseldorf",
+    "register_number": "104483",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Speditionstraße 15a, 40221 Düsseldorf",
+     "postal_code": "40221",
+     "street": "Speditionstraße 15a"
+    },
+    "company_id": "DE-HRB-R1101-91979",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Safe Xpert Service GmbH",
+    "purpose": "Das Bewachungsgewerbe.",
+    "register_court": "Düsseldorf",
+    "register_number": "91979",
+    "register_type": "HRB"
+   }
+  ],
+  "2": [
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Kaiserstraße 5, 40479 Düsseldorf",
+     "postal_code": "40479",
+     "street": "Kaiserstraße 5"
+    },
+    "company_id": "DE-HRB-R1101-102222",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SDL-DUS GmbH",
+    "purpose": "Gleissicherung, Sicherungsdienstleistungen gegen Gefahren im Eisenbahnbereich, Sicherheits- und Servicedienstleistungen aller Art, insbesondere in den Bereichen Sicherheit, Event, Logistik, Reinigung und Transporte.",
+    "register_court": "Düsseldorf",
+    "register_number": "102222",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Frachtstraße 10, 40474 Düsseldorf",
+     "postal_code": "40474",
+     "street": "Frachtstraße 10"
+    },
+    "company_id": "DE-HRB-R1101-49601",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DLG Personalservice GmbH",
+    "purpose": "Die gewerbsmäßige Vermittlung und Überlassung von Arbeitskräften an Dritte (Arbeits- bzw. Arbeitskräftevermittlung), die Ausführung personalintensiver Dienst- und Werkverträge sowie alle damit zusammenhängenden Dienstleistungen. Die Betätigung umfasst, zur Sicherstellung eines geordneten Flugverkehrs, im Schwerpunkt die Überlassung von Arbeitskräften an sowie die Auftragsausführung für die Flughafen Düsseldorf Ground Handling GmbH. Ferner ist Gegenstand des Unternehmens die Erbringung von Bewachungs- und sonstigen Sicherheitsdienstleistungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "49601",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Striegauer Weg 7, 40627 Düsseldorf",
+     "postal_code": "40627",
+     "street": "Striegauer Weg 7"
+    },
+    "company_id": "DE-HRB-R1101-20661",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Temporary-AES GmbH",
+    "purpose": "a) Die Übernahme von Arbeitsentlastungsmaßnahmen, insbesondere durch Gestellung von Zeitpersonal oder Durchführung von Werkleistungen, b) Ingenieurleistungen, c) Unternehmensberatung, d) der Messeservice, e) die Bewachung von Personen, Grundstücken, Gebäuden und Landfahrzeugen gemäß § 34 a GewO, f) Arbeitsvermittlung g) Outsourcing h) Gebäudereiniger, Eisenflechter, Bautrockner, Bodenleger, Fuger, Betonbohrer und -schneider, Kabelverleger im Hochbau (ohne Anschlussarbeiten), Einbau von genormten Baufertigteilen, Hausmeisterservice, Holz - und Bautenschutz, Veranstaltungsservice und Verabreichen von Getränken und Speisen.",
+    "register_court": "Düsseldorf",
+    "register_number": "20661",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Vogelsanger Weg 91, 40470 Düsseldorf",
+     "postal_code": "40470",
+     "street": "Vogelsanger Weg 91"
+    },
+    "company_id": "DE-HRB-R1101-89160",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Guard Security Germany GmbH",
+    "purpose": "Bewachung aller Art wie Bundeswehr, Firmen, Bestreifung von Objekten, Bauwachen, Bewachung von Veranstaltungen (Ordnerdienste), Detektei, Vertrieb und Installation von Alarmanlagen, Personenschutz, Alarmverfolgung, Pförtner- und Empfangsdienste, Notrufzentrale sowie die Erbringung von Dienstleistungen der Luftsicherheit, insbesondere Fluggastkontrollen, Kontrollen von Reise- und Handgepäck, Personal- und Warenkontrolle inklusive KFZ-Kontrollen, Einsatz von Sprengstoffspürhunden, Geländebewachung und Bestreifung nicht öffentlicher Bereiche, Luftfrachtsicherheit- und Kontrollen/ Cargo Security, Röntgenkontrolle von Fracht und Kuriergut, Flugzeugdurchsuchung, - Bewachung und Zugangskontrollen zum Luftfahrzeug, sowie alle ähnlichen, damit verbundenen Tätigkeiten und die Überlassung von Arbeitnehmern.",
+    "register_court": "Düsseldorf",
+    "register_number": "89160",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Schadowstraße 53, 40212 Düsseldorf",
+     "postal_code": "40212",
+     "street": "Schadowstraße 53"
+    },
+    "company_id": "DE-HRB-R1101-91255",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bassal German Security GmbH",
+    "purpose": "Das Anbieten von Sicherheitsdienstleistungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "91255",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Kleve",
+     "country": "DE",
+     "extra": "ecovis",
+     "formatted_value": "Hoffmannallee 55, 47533 Kleve",
+     "postal_code": "47533",
+     "street": "Hoffmannallee 55"
+    },
+    "company_id": "DE-HRB-R1101-66980",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GLEVMO Mobilitätsmanagement GmbH",
+    "purpose": "Die Organisation der Sicherheit, der Verkehrsregelung inklusiv Beschaffung von Parkmöglichkeiten bei Veranstaltungen aller Art.",
+    "register_court": "Düsseldorf",
+    "register_number": "66980",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Blankenfelde-Mahlow",
+     "country": "DE",
+     "formatted_value": "Arcostraße 33, 15831 Blankenfelde-Mahlow",
+     "postal_code": "15831",
+     "street": "Arcostraße 33"
+    },
+    "company_id": "DE-HRB-R1101-76630",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SDL Service & Dienstleistungs GmbH",
+    "purpose": "Der Handel und Dienstleistungen aller Art, insbesondere die Erbringung von Hausmeistertätigkeiten für Immobilien und Liegenschaften, die Gebäudereinigung, Fliesen-, Platten-, und Mosaikverlegerei sowie Sicherheitsdienstleistungen nach § 34 a der GewO.",
+    "register_court": "Düsseldorf",
+    "register_number": "76630",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Königsallee 27, 40212 Düsseldorf",
+     "postal_code": "40212",
+     "street": "Königsallee 27"
+    },
+    "company_id": "DE-HRB-R1101-103667",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MTM Legacy GmbH",
+    "purpose": "Die Betreuung von Künstlern, Musikern, Schauspielern, Sportlern und weiteren Personen der Öffentlichkeit, Branchenübergreifendes Dienstleistungs- und Sicherheitsmanagement, Booking sowie Vermittlung von Events sowie Eventplanung, Management Vertrieb sowie Fahrdienst.",
+    "register_court": "Düsseldorf",
+    "register_number": "103667",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Am Wehrhahn 70, 40211 Düsseldorf",
+     "postal_code": "40211",
+     "street": "Am Wehrhahn 70"
+    },
+    "company_id": "DE-HRB-R1101-52632",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Klüh Security GmbH",
+    "purpose": "Die Erbringung von Bewachungs- und sonstigen Sicherheitsdienstleistungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "52632",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Speditionstraße 15 A, 40221 Düsseldorf",
+     "postal_code": "40221",
+     "street": "Speditionstraße 15 A"
+    },
+    "company_id": "DE-HRB-R1101-106384",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FSU Facility Security Unit GmbH",
+    "purpose": "Betrieb eines Sicherheitsdienstes, die Gleisbausicherung, die Durchführung von Akustik- und Trockenbau, Holz- und Bautenschutz, Bodenlegerarbeiten, Fliesenlegerarbeiten, Gebäudereinigung, Estrichlegearbeiten, Parkettlegearbeiten, die Ausführung bzw. Übernahme von Hausmeisterservicearbeiten, Hausreinigungen, Winterdienst sowie die Ausführung von Arbeiten im Bereich der Raumausstattung, die Vermittlung von Handwerksaufträgen. Ferner gehören ein Schlüsseldienst dazu sowie der Handel mit Waren aller Art, die Entwicklung, der Vertrieb und die Bereitstellung von Computersoftware und software as a service, der Handel mit Hardware, die Telekommunikation, die Internetsicherheit nebst Erbringung von Informationsdienstleistungen aller Art nebst Konzeptionierung, Entwicklung von und Handel mit Solaranlagen für Privatpersonen und Gewerbetreibende.",
+    "register_court": "Düsseldorf",
+    "register_number": "106384",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Hansaallee 321, Gebäude 5, 40549 Düsseldorf",
+     "postal_code": "40549",
+     "street": "Hansaallee 321, Gebäude 5"
+    },
+    "company_id": "DE-HRB-R1101-96067",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Tekle Sicherheit GmbH",
+    "purpose": "Die Durchführung von Wach- und Sicherheitsdiensten im Bereich des Objekt- und Personenschutzes und das Erbringen von Reinigungsdiensten sowie sämtliche damit im Zusammenhang stehenden Tätigkeiten",
+    "register_court": "Düsseldorf",
+    "register_number": "96067",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Graf-Adolf-Straße 18, 40212 Düsseldorf",
+     "postal_code": "40212",
+     "street": "Graf-Adolf-Straße 18"
+    },
+    "company_id": "DE-HRB-R1101-91033",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Tactical Consulting International GmbH",
+    "purpose": "Die Beratung und Schulung im Bereich Sicherheit und Detektei, der Handel mit sicherheitsspezifischer Ausrüstung, Arbeits-/Dienstkleidung, Sicherheitssystemen sowie private Arbeitsvermittlung.",
+    "register_court": "Düsseldorf",
+    "register_number": "91033",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Markenstr. 1, 40227 Düsseldorf",
+     "postal_code": "40227",
+     "street": "Markenstr. 1"
+    },
+    "company_id": "DE-HRB-R1101-103346",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MSH GmbH",
+    "purpose": "Betrieb eines Sicherheitsdienstes in Form des Wach-, Personen- und Objektschutzes, insbesondere von Wohnobjekten, Bürokomplexen, Restaurants, Spielhallen, Asylantenheimen, Hotels, Gastronomiebereichen, Gewerbegebieten und Baustellen, unter anderem durch Kontrollfahrten, -gänge, Doormen, Empfangsservice sowie das zur Verfügung stellen von Kaufhausdetektiven und Personal als Subunternehmer. Ferner Ausübung von Reinigungstätigkeiten sowie der Betrieb von einem Café und der Verkauf und Ausschank von alkoholischen Getränken sowie der Handel mit Tabakwaren und Zubehör rund um Wasserpfeifen.",
+    "register_court": "Düsseldorf",
+    "register_number": "103346",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Erkrather Str. 401, 40231 Düsseldorf",
+     "postal_code": "40231",
+     "street": "Erkrather Str. 401"
+    },
+    "company_id": "DE-HRB-R1101-107179",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "TR Sec Sicherheitsdienst GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen in den Bereichen Bewachungstätigkeiten, Objektschutz, Pforte/Emfang sowie Reinigungstätigkeiten.",
+    "register_court": "Düsseldorf",
+    "register_number": "107179",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Wupperstr. 43/45, 40219 Düsseldorf",
+     "postal_code": "40219",
+     "street": "Wupperstr. 43/45"
+    },
+    "company_id": "DE-HRB-R1101-101973",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Talon Security GmbH",
+    "purpose": "Der Werkschutz, Objektschutz, Messe- und Veranstaltungsschutz, Baustellenbewachung, Brandwache, Winterdienst, Facility Management, Personenschutz und Gleisbausicherung und ÖPNV.",
+    "register_court": "Düsseldorf",
+    "register_number": "101973",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Recklinghausen",
+     "country": "DE",
+     "formatted_value": "Steinstr. 14, 45657 Recklinghausen",
+     "postal_code": "45657",
+     "street": "Steinstr. 14"
+    },
+    "company_id": "DE-HRB-R1101-103684",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Oskar Trading GmbH",
+    "purpose": "Der Im- und Export von Waren aller Art, insbesondere von Baumaterialien, Baustoffen sowie von verschiedenen Hölzern und Metallen, ferner die Erbringung von Auftragsvermittlungen im Handwerk, Landschaftsbau, Durchführung von Bau- und Renovierungs- und Reinigungsarbeiten und die Erbringung von Transportdienstleistungen bis 3,5 t sowie Sicherheitsdienstleistungen. Die Gesellschaft übt keine Tätigkeiten aus, die einer besonderen Genehmigung bedürfen.",
+    "register_court": "Düsseldorf",
+    "register_number": "103684",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Ratingen",
+     "country": "DE",
+     "formatted_value": "Former Straße 47, 40878 Ratingen",
+     "postal_code": "40878",
+     "street": "Former Straße 47"
+    },
+    "company_id": "DE-HRB-R1101-77317",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "F & R Sicherheit & Service GmbH",
+    "purpose": "Die Ausführung von Dienstleistungen aller Art im Sicherheitsgewerbe, insbesondere Wach- und Schutzdienste aller Art. Die Gesellschaft ist berechtigt, alle hiermit im Zusammenhang stehenden Geschäfts vorzunehmen, soweit sie der Gesellschaft dienlich sind und keine rechtlichen Gründe dagegen stehen.",
+    "register_court": "Düsseldorf",
+    "register_number": "77317",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Dreischeibenhaus, 40211 Düsseldorf",
+     "postal_code": "40211",
+     "street": "Dreischeibenhaus"
+    },
+    "company_id": "DE-HRB-R1101-107064",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "B&B 4 Proctection GmbH",
+    "purpose": "Der Betrieb einer Sicherheitsfirma bzw. eines Wachgewerbes, jedoch ausdrücklich nicht die Durchführung von Geld- und Werttransporten, sowie Personenschutz.",
+    "register_court": "Düsseldorf",
+    "register_number": "107064",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Am Wehrhahn 30, 40211 Düsseldorf",
+     "postal_code": "40211",
+     "street": "Am Wehrhahn 30"
+    },
+    "company_id": "DE-HRB-R1101-91467",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Mount Street Servicing GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen für Banken, Fonds, Finanzinstitutionen und andere Dienstleister, insbesondere aber nicht beschränkt auf Due Diligence, Versicherungen (Underwriting), Verwaltung, Agentur, Krediteintreibung und Sicherheitsdienste. Erlaubnispflichtige Tätigkeiten werden nicht ausgeübt.",
+    "register_court": "Düsseldorf",
+    "register_number": "91467",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Vulkanstraße 40, 40227 Düsseldorf",
+     "postal_code": "40227",
+     "street": "Vulkanstraße 40"
+    },
+    "company_id": "DE-HRB-R1101-98422",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GMM GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen, insbesondere im Bereich Hotel, Bau (z.B. Entrümpelungen, Abbrucharbeiten) und Gebäudereinigung, des Wach- und Sicherheitsdienstes mit Sachkunde und Logistik, Import und Export von Waren aller Art, insbesondere von Kraftfahrzeugen und Lebensmitteln sowie Vermittlung von Dienstleitungen und Waren an Dritte.",
+    "register_court": "Düsseldorf",
+    "register_number": "98422",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Fürstenwall 66 a, 40219 Düsseldorf",
+     "postal_code": "40219",
+     "street": "Fürstenwall 66 a"
+    },
+    "company_id": "DE-HRB-R1101-89751",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SWS Dienstleistungen UG (haftungsbeschränkt)",
+    "purpose": "- Die Übernahme von Hausverwaltung/en sowie die Erbringung von Dienstleistungen im Zusammenhang mit Hausverwaltungen, - Die Ausführung von Reparaturen im häuslichen Bereich, soweit hierfür keine handwerksrechtlichen Qualifikationen erforderlich sind, sowie von Montagen genormter Teile, - Hausmeister- und Reinigungsservice sowie - die Erbringung von Dienstleistungen aller Art im Sicherheitsgewerbe, insbesondere Wach- und Schutzdienste.",
+    "register_court": "Düsseldorf",
+    "register_number": "89751",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Münster Straße 497, 40472 Düsseldorf",
+     "postal_code": "40472",
+     "street": "Münster Straße 497"
+    },
+    "company_id": "DE-HRB-R1101-83614",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Fokus Sicherheitsdienst GmbH",
+    "purpose": "Die Detektei, die Bewachung, Events, Überwachung, die Technik, die Arbeitsvermittlung, der Parkraummanagement sowie Servicedienste aller Art u.a. Empfangsdame und Pförtner.",
+    "register_court": "Düsseldorf",
+    "register_number": "83614",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Vogelsanger Weg 80, 40470 Düsseldorf",
+     "postal_code": "40470",
+     "street": "Vogelsanger Weg 80"
+    },
+    "company_id": "DE-HRB-R1101-94094",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MY SEC GmbH",
+    "purpose": "Personaldienstleistungen in allen Bereichen. Sicherheits- und Bewachungsgewerbe, wie zum Beispiel Service auf Veranstaltungen, Service im Eingangsbereich sowie in diesem Zusammenhang stehende Beratung. Im- und Export von Kraftfahrzeugen und Elektrowaren. Gerüstbau. Baustoffhandel. Kosmetikhandel und Ausführung von Kosmetikdienstleistungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "94094",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Kamperstraße 15, 40589 Düsseldorf",
+     "postal_code": "40589",
+     "street": "Kamperstraße 15"
+    },
+    "company_id": "DE-HRB-R1101-109146",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Schumacher Security UG (haftungsbeschränkt)",
+    "purpose": "Die Vermittlung und Vergabe von Dienstleistungen ohne besondere Genehmigung sowie Büro und Administrations-Services, Erstellung, Wartung und Hosting von Internetauftritten. Ferner die Ausübung des Bewachungsgewerbes, Ein- und Auslasskontrolle, Pförtnerfunktion.",
+    "register_court": "Düsseldorf",
+    "register_number": "109146",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Oststraße 54, 40211 Düsseldorf",
+     "postal_code": "40211",
+     "street": "Oststraße 54"
+    },
+    "company_id": "DE-HRB-R1101-59811",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "mobilpersonal GmbH",
+    "purpose": "Facilitymanagement und Service, Messe- und Eventlogistic, Kurierdienste, Personen-, Objekt-, und Wachschutz und im allgemeinen Geschäfte. die sich direkt oder indirekt, vollständig oder teilweise auf den Geselischaftszweck beziehen.",
+    "register_court": "Düsseldorf",
+    "register_number": "59811",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Düsseldorf"
+    },
+    "company_id": "DE-HRB-R1101-37070",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "HEROS GmbH Geld- und Werttransporte",
+    "purpose": "Bewachung und Schutz von Personen, Rechten, Industrieanlagen, Privateigentum, Hausrat und Liegenschaften; Werttransporte, Ordnungs- und Kontrolldienst; Betrieb von Kontroll-, Bewachungs-, Alarmvorrichtungen und -anlagen (einschließlich deren Zubehör und Einzelteile) sowie von Meldungs- und Übermittlungsgeräten.",
+    "register_court": "Düsseldorf",
+    "register_number": "37070",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Am Trippelsberg 92, 40589 Düsseldorf",
+     "postal_code": "40589",
+     "street": "Am Trippelsberg 92"
+    },
+    "company_id": "DE-HRB-R1101-107373",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Regionale Sicherheitsdienste West GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen in folgenden Bereichen: - Bewaffneter Personen- und Objektschutz, - Sicherheitsberatung, - Doormen- und Detektivarbeiten.",
+    "register_court": "Düsseldorf",
+    "register_number": "107373",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Dreischeibenhaus 1, 40211 Düsseldorf",
+     "postal_code": "40211",
+     "street": "Dreischeibenhaus 1"
+    },
+    "company_id": "DE-HRB-R1101-92367",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Giant AP Security + Service GmbH",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen, Dienstleistungen im Bewachungsgewerbe und im Bereich Veranstaltungsservice.",
+    "register_court": "Düsseldorf",
+    "register_number": "92367",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Emanuel-Leutze-Straße 11, 40547 Düsseldorf",
+     "postal_code": "40547",
+     "street": "Emanuel-Leutze-Straße 11"
+    },
+    "company_id": "DE-HRB-R1101-33343",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "I.S.O. - Security GmbH",
+    "purpose": "Der Sicherheitsdienst, Personen- und Objektschutz und Ermittlungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "33343",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Monschauer Str. 13, 40549 Düsseldorf",
+     "postal_code": "40549",
+     "street": "Monschauer Str. 13"
+    },
+    "company_id": "DE-HRB-R1101-31926",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Gesitek GmbH Dienstleistungen",
+    "purpose": "Die Erbringung von Sicherheitsleistungen, insbesondere die Durchführung von Werttransporten und Objektschutz sowie der Vertrieb von Sicherheitstechnik, ferner Ermittlungen und Observationen. Die Annahme, Bearbeitung, Vermittlung und Durchführung von Druck-, Foto- und Werbeaufträgen sowie die Planung, Ausführung und Gestaltung von Fotoworkshops und Fotoausstellungen auf eigene und fremde Rechnung. Eventmanagement, Vermietung von Veranstaltungsräumen für Events, Meetings und Seminare sowie der Handel mit Waren aller Art, insbesondere mit technischen Geräten.",
+    "register_court": "Düsseldorf",
+    "register_number": "31926",
+    "register_type": "HRB"
+   }
+  ],
+  "3": [
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Füllenbachstraße 4, 40474 Düsseldorf",
+     "postal_code": "40474",
+     "street": "Füllenbachstraße 4"
+    },
+    "company_id": "DE-HRB-R1101-108740",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Kanpeki Security Service UG (haftungsbeschränkt)",
+    "purpose": "Tätigkeiten in der Sicherheitsbranche aller Art, insbesondere der Objekt- und Personenschutz und die Erbringung von Serviceleistungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "108740",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Speditionstraße 15a, 40221 Düsseldorf",
+     "postal_code": "40221",
+     "street": "Speditionstraße 15a"
+    },
+    "company_id": "DE-HRB-R1101-96526",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "RESO Security & Service GmbH",
+    "purpose": "Erbringung von sämtlichen Sicherheitsdienstleistungen, insbesondere dem personellen und technischen Objektschutz, sowie mobilen Objektschutz und Veranstaltungsschutz. Erbringung von Servicedienstleistungen im Bereich Telefon& Empfangsdienste, sowie Ordnerdienste und Verkehrs-/ Parkplatzlenkung.",
+    "register_court": "Düsseldorf",
+    "register_number": "96526",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Huschberger Straße 10, 40212 Düsseldorf",
+     "postal_code": "40212",
+     "street": "Huschberger Straße 10"
+    },
+    "company_id": "DE-HRB-R1101-80402",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Finest Guards Sicherheitsdienst Düsseldorf GmbH",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen, Kurier- und Botendienste, Aus- und Weiterbildung von Service- & Fachkräfte für Schutz und Sicherheit, Detektei, Unternehmensberatung, Servicedienstleistungen im Groß- und Einzelhandel sowie Kassenführung.",
+    "register_court": "Düsseldorf",
+    "register_number": "80402",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Graf-Adolf-Str. 67-69, 40210 Düsseldorf",
+     "postal_code": "40210",
+     "street": "Graf-Adolf-Str. 67-69"
+    },
+    "company_id": "DE-HRB-R1101-73903",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "INTERSEC Sicherheitsdienste UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Dienst- und Beratungsleistungen in den Bereichen Sicherheitsdienste, Gebäudereinigung und Hausmeisterservice.",
+    "register_court": "Düsseldorf",
+    "register_number": "73903",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Bochum",
+     "country": "DE",
+     "formatted_value": "Falkstr. 4, 44809 Bochum",
+     "postal_code": "44809",
+     "street": "Falkstr. 4"
+    },
+    "company_id": "DE-HRB-R1101-103821",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "KSC GmbH",
+    "purpose": "- Der Betrieb einer Gastronomie, eines Bistros und eines Cafés, - die Beratung, der Groß- und Einzelhandel, soweit dies nicht einer besonderen Genehmigung bedarf, - Office-DienstIeistungen, - die Vermittlung von Personal und Aufträgen, - Objektschutz und Sicherheitsservice, soweit dies nicht einer besonderen Genehmigung bedarf, - Vermietung von Kraftfahrzeugen und Baumaschinen, - Verkauf und Montage von Solaranlagen und Wärmepumpen, - Personalvermittlung, - Abschleppdienst",
+    "register_court": "Düsseldorf",
+    "register_number": "103821",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Essen",
+     "country": "DE",
+     "formatted_value": "Bonnekampstraße 23, 45327 Essen",
+     "postal_code": "45327",
+     "street": "Bonnekampstraße 23"
+    },
+    "company_id": "DE-HRB-R1101-95604",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Hingberg Levent UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Dienstleistungen, insbesondere im Bereich Hotel, Bau (z.B. Entrümpelungen, Abbrucharbeiten) und Gebäudereinigung, des Wach- und Sicherheitsdienstes mit Sachkunde und Logistik, Import und Export von Waren aller Art, insbesondere von Kraftfahrzeugen und Lebensmitteln sowie Vermittlung von Dienstleistungen und Waren an Dritte.",
+    "register_court": "Düsseldorf",
+    "register_number": "95604",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Cuxhavener Straße 6, 40221 Düsseldorf",
+     "postal_code": "40221",
+     "street": "Cuxhavener Straße 6"
+    },
+    "company_id": "DE-HRB-R1101-103668",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AKMA Security Service GmbH",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen aller Art",
+    "register_court": "Düsseldorf",
+    "register_number": "103668",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Moorenstraße 5, 40225 Düsseldorf",
+     "postal_code": "40225",
+     "street": "Moorenstraße 5"
+    },
+    "company_id": "DE-HRB-R1101-58869",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Universitätsklinikum Düsseldorf Medical Services GmbH",
+    "purpose": "Klinische Dienstleistungen, insbesondere Sterilisationsarbeiten und medizintechnische Dienstleistungen, die Erstellung und der Betrieb von Energieproduktionsanlagen, die Herstellung von Wärme, Kälte, elektrischer Energie und Druckluft für Abnehmer, die Durchführung von Transport- und Fahrdienstleistungen, der Betrieb von Kassenautomaten, der Computerservice und die Durchführung von Bewachungsleistungen sowie die Erbringung von damit im Zusammenhang stehenden Dienstleistungen sowie sämtliche sonstigen, den Gesellschaftszweck fördernde Dienstleistungen und Geschäfte.",
+    "register_court": "Düsseldorf",
+    "register_number": "58869",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Königsallee 14, 40212 Düsseldorf",
+     "postal_code": "40212",
+     "street": "Königsallee 14"
+    },
+    "company_id": "DE-HRB-R1101-17856",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bullet GmbH",
+    "purpose": "Das Errichten und Betreiben von Schießstätten gemäß den jeweils gültigen waffenrechtlichen Bestimmungen. Die Gesellschaft darf mit Wirtschaftsgütern aller Art handeln, solche herstellen oder bearbeiten und Dienstleistungen jeder Art erbringen, insbesondere auch mit Waffen und Munition sowie Schieß- und Waffenbedarf aller Art handeln und mit dem Schießbetrieb und der Waffenbenutzung zusammenhängende Dienstleistungen erbringen, jeweils unter Beachtung der gültigen waffenrechtlichen Bestimmungen. Gegenstand des Unternehmens ist ferner der Betrieb eines Bewachungsunternehmens gem. § 34 a Gew. Ordnung (Personen-, Objekt- und Wertschutz, Abwehr von Betriebsspionage, Raumüberprüfung und -überwachung, Ermittlungen und Observationen, Abwicklung von Behördenaufträgen aller Art, Datenbearbeitung und -sicherung.",
+    "register_court": "Düsseldorf",
+    "register_number": "17856",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Benrather Schloßallee 66, 40597 Düsseldorf",
+     "postal_code": "40597",
+     "street": "Benrather Schloßallee 66"
+    },
+    "company_id": "DE-HRB-R1101-74890",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Mernica Verwaltungsgesellschaft mbH",
+    "purpose": "Die Verwaltung eigenen Vermögens, die Beteiligung als persönlich haftende Gesellschafterin an der Kommanditgesellschaft unter der Firma Merncia Bau GmbH & Co. & KG und die Führung deren Geschäfte sowie der Im- und Export und der An- und Verkauf von PKW und LKW-Baumaschinen aller Art und von PKW- und LKW-Baumaschinen-Teilen, KFZ-Dienstleistungen, Abschleppdienst, Autovermietung, Sicherheitsdienst und Bewachungen aller Art.",
+    "register_court": "Düsseldorf",
+    "register_number": "74890",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Burgunderstraße 29, 40549 Düsseldorf",
+     "postal_code": "40549",
+     "street": "Burgunderstraße 29"
+    },
+    "company_id": "DE-HRB-R1101-54675",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CASH LOGISTIK GmbH",
+    "purpose": "Die Erbringung von sämtlichen Dienstleistungen im Sicherheitsbereich und der Einzelhandel mit Produkten im Sicherheitsbereich, insbesondere Transport- und Bearbeitungsdienstleistungen von Bargeld und Werten, Wach- und Schließdienste aller Art, Personen- und Objektschutz, Schutz von Personen und Rechten, Transportsicherung, Kurierdienst, Betrieb und Unterhalt einer Notruf- undServiceleitstelle, Vertrieb und Handel mit elektronischer und mechanischer Sicherheitstechnik, Beteiligung an anderen Unternehmen gleicher oder ähnlicher Art.",
+    "register_court": "Düsseldorf",
+    "register_number": "54675",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Paul-Spiegel-Platz 1, 40476 Düsseldorf",
+     "postal_code": "40476",
+     "street": "Paul-Spiegel-Platz 1"
+    },
+    "company_id": "DE-HRB-R1101-71133",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "OPSD GmbH",
+    "purpose": "In verschiedenen Bereichen Dienstleistungen für die JÜDISCHE GEMEINDE DÜSSELDORF K.d.ö.R. zu erbringen. Dabei werden zum einen Dienstleistungen im Bereich des Personen- und Objektschutzes erbracht. Zum anderen führt die Gesellschaft allgemeine Dienstleistungen für die JÜDISCHE GEMEINDE DÜSSELDORF K.d.ö.R. aus, wie etwa den Einkauf und die Bereitstellung koscherer Lebensmittel zur Errichtung einer koscheren Infrastruktur in Düsseldorf, Dienstleistungen im Zusammenhang mit dem Facility Management an Objekten der JÜDISCHE GEMEINDE DÜSSELDORF K.d.ö.R. und andere Dienstleistungen der oben beschriebenen Ausrichtung bzw. Zielsetzung. Im Zuge der Sicherheitsdienstleistungen wird es die Gesellschaft ebenfalls übernehmen, die Aus- und Weiterbildung der Mitarbeiter nachhaltig sicherzustellen. Hierzu zählt neben der körperlichen auch die entsprechende psychologische Vorbereitung. Ebenfalls zu diesem Aufgabengebiet gehört die Sammlung, Aufbereitung und Präsentation adäquater Informationen über Entwicklung und Gefährdungspotential in Bezug auf die Einrichtungen der JÜDISCHE GEMEINDE DÜSSELDORF K.d.ö.R. durch die Gesellschaft sowohl intern für die Mitarbeiter als auch gegenüber der Gemeinde selbst. .",
+    "register_court": "Düsseldorf",
+    "register_number": "71133",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Bergische Landstraße 345, 40629 Düsseldorf",
+     "postal_code": "40629",
+     "street": "Bergische Landstraße 345"
+    },
+    "company_id": "DE-HRB-R1101-73092",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GaWi Unternehmergesellschaft (haftungsbeschränkt)",
+    "purpose": "Facility Services, Sicherheitsdienste, Werttransporte, Baudienstleistungen sowie die Montage und Installation elektrischer Anlagen.",
+    "register_court": "Düsseldorf",
+    "register_number": "73092",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Burgunderstraße 29, 40549 Düsseldorf",
+     "postal_code": "40549",
+     "street": "Burgunderstraße 29"
+    },
+    "company_id": "DE-HRB-R1101-77307",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Revolvermänner GmbH",
+    "purpose": "a. das Betreiben einer Kommunikations-, Reputations- und digitalen Full Service Agentur mit Schwerpunkt auf Leistungen im Marken-, IT- und Daten- sowie Knowhow-Schutz für Unternehmen, Organisationen und Personen sowie im Bereich der Kommunikation allgemein und in Sondersituationen. b. die Erbringung von Dienstleistungen, insbesondere in den Bereichen der digitalen Sicherheit, des Aufbaus, der Analyse und Beratung in der digitalen Kommunikation, bei IT-Prozessen, IT-Organisationen, des IT-Managements, der IT-Infrastruktur und des IT-Outsourcings und alle damit verbundenen Tätigkeiten. c. die Datenschutzberatung und Stellung von externen Datenschutzbeauftragten, Datenschutzauditierungen und alle damit verbundenen Tätigkeiten. d. die Informationsbeschaffung und -auswertung wie z.B. Open Source Intelligence Maßnahmen, das Führen von Interviews, verdeckte Befragungen (Social Engineering), Observationen vor Ort, sowie die Zurückverfolgung von Vermögenswerten. e. Leitung und Durchführung von Tests und Analysen zur Aufdeckung von digitalen sowie physischen sicherheitsrelevanten Schwachstellen. f. die Entwicklung, Konzeption und Programmierung von Tools, Applikationen und Programmen zur eigenen Verwendung und für Dritte. g. Business Continuity- und Krisenmanagement, Reputationsmanagement und Krisenkommunikation. h. Schulungen, Simulationen, Übungen und Coachings in allen oben genannten Bereichen. i. die Erbringung von Vertriebs- & Marketingaktiviäten aller Art für Unternehmen, Organisationen und Personen durch Beratung, Management und Dienstleistung. Hierzu gehören u.a. die Organisation von Events, Eingehen von Vermittlungsgeschäften sowie der Handel mit Waren, sowie die Inbetriebnahme und Wartung von E-Web- und E-Commerce Auftritten im Internet, sowie Entwurf, Planung und Umsetzung aller Marketingmaßnahmen im Print, Web und Kommunikationsbereich. j. die Beteiligung an Unternehmen und Gesellschaften sowie das Führen und Verwalten solcher Beteiligungen an allen wesentlichen Unternehmungen des Unternehmens sowie an sonstigen Gesellschaften mit der Zielsetzung einer einheitlichen, strategischen Ausrichtung unter nachhaltiger Berücksichtigung der Interessen des Unternehmens.",
+    "register_court": "Düsseldorf",
+    "register_number": "77307",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Flughafenstraße 105, 40474 Düsseldorf",
+     "postal_code": "40474",
+     "street": "Flughafenstraße 105"
+    },
+    "company_id": "DE-HRB-R1101-52978",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Flughafen Düsseldorf Security GmbH",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen, sicherheitsrelevanten Serviceleistungen und die Regelung der operativen Abläufe in den Terminals. Die Betätigungen umfassen zur Sicherstellung eines geordneten Flugverkehrs im Schwerpunkt die Erbringung von Leistungen für die FDG, ihre Tochtergesellschaften und die im Bereich des Flughafens Düsseldorf tätigen Unternehmen.",
+    "register_court": "Düsseldorf",
+    "register_number": "52978",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Münsterstraße 246, 40470 Düsseldorf",
+     "postal_code": "40470",
+     "street": "Münsterstraße 246"
+    },
+    "company_id": "DE-HRB-R1101-64836",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Multiservice GmbH",
+    "purpose": "Dienstleistungen aller Art, insbesondere Lager- und Sortierarbeiten, ausgenommen der Tätigkeit, die einer Genehmigung bedarf. Ferner ist Gegenstand des Unternehmens der Betrieb einer Detektei, der Objektschutz, der Türsteherservice sowie die entgeltliche Bewachung von Häusern, Geschäften und Fabrikanlagen.",
+    "register_court": "Düsseldorf",
+    "register_number": "64836",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Wahlerstraße 2a, 40472 Düsseldorf",
+     "postal_code": "40472",
+     "street": "Wahlerstraße 2a"
+    },
+    "company_id": "DE-HRB-R1101-77424",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SECURITAS GmbH Werkschutz",
+    "purpose": "Sicherheitsdienstleistungen aller Art, insbesondere die Ausübung des Werkschutzes sowie des Brandschutzes.",
+    "register_court": "Düsseldorf",
+    "register_number": "77424",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Königsallee 19, 40212 Düsseldorf",
+     "postal_code": "40212",
+     "street": "Königsallee 19"
+    },
+    "company_id": "DE-HRB-R1101-108686",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Air-Ops Handling GmbH",
+    "purpose": "Airline Handling Services. Fluggesellschaft Dienstleistungen. Flugzeugabfertigung, Gepäckabfertigung. Lost and Found Gepäckvermittlung, Transport von Gepäcksachen. Reisetransfer & Vermietung von PKWs. Repräsentation und Vertretung von Fluggesellschaften als General Operation und Sales Agent gegenüber Dritten, insbesondere in den Bereichen Vertrieb, Marketing und Administration. Erbringung von Dienstleistungen im Sicherheitsbereich und anderen Bereichen in Flughäfen, insbesondere die Überwachung und Innenreinigung von Flugzeugen, die Übernahme von Vertriebs- und Check-In-Tätigkeiten sowie die Flugabfertigung für dritte Unternehmen.",
+    "register_court": "Düsseldorf",
+    "register_number": "108686",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Posener Straße 57, 40231 Düsseldorf",
+     "postal_code": "40231",
+     "street": "Posener Straße 57"
+    },
+    "company_id": "DE-HRB-R1101-104540",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Liebens Schutz und Sicherheit UG (haftungsbeschränkt)",
+    "purpose": "Das Betreiben eines Sicherheitsdienstes.",
+    "register_court": "Düsseldorf",
+    "register_number": "104540",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "extra": "Kjatip Ramadani",
+     "formatted_value": "Ellerstraße 193, 40227 Düsseldorf",
+     "postal_code": "40227",
+     "street": "Ellerstraße 193"
+    },
+    "company_id": "DE-HRB-R1101-90050",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ZEKA Security UG (haftungsbeschränkt)",
+    "purpose": "Der Betrieb eines Sicherheitsdienstes und alle damit in Verbindung stehenden Dienstleistungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "90050",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Wahlerstraße 2 a, 40472 Düsseldorf",
+     "postal_code": "40472",
+     "street": "Wahlerstraße 2 a"
+    },
+    "company_id": "DE-HRB-R1101-47328",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SECURITAS GmbH document solutions",
+    "purpose": "Dienstleistungen aller Art - direkt oder indirekt - im Bereich der Industrie-, Wirtschafts-, Gewerbe- und Werksicherheit, insbesondere der Schutz von Personen, Gegenständen, Rechten und sonstigen Werten, auch ideeller Art, vor Angriffen, Bedrohungen, Gefährdungen oder Verletzungen gleich welcher Art und Ursachen, die Durchführung von Ermittlungen und mit Beweissicherungen im Falle von Verletzungen vorbezeichneter Schutzgüter, die Beratung in allen Angelegenheiten der Industrie-, Wirtschafts, Gewerbe- und Werksicherheit, jedoch sämtlichst mit Ausnahme nicht genehmigter erlaubnispflichtiger Dienstleistungen und Tätigkeiten. Das Unternehmen übernimmt den gesicherten Transport und die Verarbeitung von Zahlungsmitteln und Wertgegenständen sowie von Kurierdiensten, außerdem die Herstellung und Lieferung von Erzeugnissen des sicherheitstechnischen Bedarfs aller Art, insbesondere für und an Industrie, Handel, Handwerk, Gewerbe und Privatpersonen sowie den öffentlich-rechtlichen und sonstigen privatrechtlichen Bereich, jedoch sämtlichst mit Ausnahme nicht genehmigter erlaubnispflichtiger Herstellung und Lieferung. Gegenstand des Unternehmens sind weiter die Kontrolle von Wirtschaftsgütern und Wirtschaftsgegenständen sowie alle Tätigkeiten und Dienstleistungen, mit Ausnahme nicht genehmigter erlaubnispflichtiger Kontrollen, Tätigkeiten und Dienstleistungen. Gegenstand des Unternehmens sind ferner das Erstellen und Führen von Archiven körperlicher, digitaler und elektronischer Art und alle damit im Zusammenhang stehenden Tätigkeiten, das Erstellen logistischer Konzepte, die Durchführung logistischer Tätigkeiten, insbesondere Transport und Lagerung von Datenträgern sowie Poststellenservice und damit im Zusammenhang stehende Tätigkeiten und Dienstleistungen, jedoch sämtlich mit Ausnahme nicht genehmigter erlaubnispflichtiger Dienstleistungen und Tätigkeiten. Die Gesellschaft ist darüber hinaus zu allen Geschäften und Maßnahmen berechtigt, die zur Erreichung des Geschäftszweckes notwendig oder nützlich erscheint, insbesondere auch zur Einrichtung von Zweigniederlassungen oder zur Beteiligung an anderen Unternehmen gleicher oder ähnlicher Art.",
+    "register_court": "Düsseldorf",
+    "register_number": "47328",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Wuppertal",
+     "country": "DE",
+     "formatted_value": "Westkotter Straße 113, 42281 Wuppertal",
+     "postal_code": "42281",
+     "street": "Westkotter Straße 113"
+    },
+    "company_id": "DE-HRB-R1101-101119",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MKS Multiservice GmbH",
+    "purpose": "Objektschutz, Veranstaltungsschutz, Citystreife, Baustellenüberwachung, Pfortendienst, Einlasskontrolle, Detektei, Fahrzeugüberführung auf eigene Achse, Maler- und Lackierarbeiten, Trockenbau und Innenausbau, Fassadenarbeiten, Spachteln, Bodenverlege- und Vinylarbeiten, Dekoration und Raumgestaltung, Verputzen und Dämmen sowie Abbruch- und Reinigungsarbeiten.",
+    "register_court": "Düsseldorf",
+    "register_number": "101119",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Friedrichstraße 17, 40217 Düsseldorf",
+     "postal_code": "40217",
+     "street": "Friedrichstraße 17"
+    },
+    "company_id": "DE-HRB-R1101-54500",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "koka-systems GmbH",
+    "purpose": "- Telemarketing beziehungsweise der Produktverkauf per Telefon sowie Supportdienstleistungen für fremde Unternehmen, Personalvermittlung sowie der Betrieb einer Medienagentur, - Im- und Export von und Groß- und Einzelhandel mit Elektrogeräten, Merchandising-Produkten und Insolvenzware, - Leistung von Empfangsdiensten, Objekt und Werkschutz, Transport begleitender Personenschutz, Alarmverfolgung, Bewachung von Eigentum Dritter jeglicher Art, Beratung in Fragen der Sicherheitstechnik, Leistung von Observationsdiensten sowie Schutzleistung bei Veranstaltungen, - Kurierdienst, - Büroarbeiten, kaufmännische Verwaltung, Beratung und Unterstützung bei der Einrichtung von EDV-Arbeitsplätzen, EDV und IT-Systemen, IT-Dienstleistungen jeglicher Art, - Handel mit EDV-Hard- und Software für alle Unternehmensbereiche.",
+    "register_court": "Düsseldorf",
+    "register_number": "54500",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Am Köhnen 33, 40599 Düsseldorf",
+     "postal_code": "40599",
+     "street": "Am Köhnen 33"
+    },
+    "company_id": "DE-HRB-R1101-108684",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BDM Krankenfahrten GmbH",
+    "purpose": "Die Erbringung nicht genehmigungspflichtiger Dienstleistungen in den Bereichen Krankentransportfahrten, Entrümplungen, Catering, Objektschutz, Verkauf und Ankauf von Automobilen sowie Gartenpflege.",
+    "register_court": "Düsseldorf",
+    "register_number": "108684",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Striegauer Weg 7, 40627 Düsseldorf",
+     "postal_code": "40627",
+     "street": "Striegauer Weg 7"
+    },
+    "company_id": "DE-HRB-R1101-51345",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ASW GmbH Anlagen-Sicherheit u. Wachdienst",
+    "purpose": "Die Bewachung von Personen, Grundstücken, Gebäuden und Landfahrzeugen gemäß § 34 a GewO. Hierzu gehören Pförtner- und Empfangsdienste sowie Separat- und Revierwachdienste.",
+    "register_court": "Düsseldorf",
+    "register_number": "51345",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Waagenstraße 20, 40229 Düsseldorf",
+     "postal_code": "40229",
+     "street": "Waagenstraße 20"
+    },
+    "company_id": "DE-HRB-R1101-99618",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Backup Operations GmbH",
+    "purpose": "Erbringung gewerblicher Bewachungsleistungen im Sinne des § 34 a) Gewerbeordnung. Erbringung nicht erlaubnispflichtiger technischer und nicht technischer Sicherheitsdienstleistungen. Sicherheitsberatung. Beteiligung an Unternehmen im In- und Ausland, die die Erbringung personeller, technischer oder sonstiger Sicherheitsleistungen zum Zweck hat.",
+    "register_court": "Düsseldorf",
+    "register_number": "99618",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Elbinger Weg 2, 40474 Düsseldorf",
+     "postal_code": "40474",
+     "street": "Elbinger Weg 2"
+    },
+    "company_id": "DE-HRB-R1101-88975",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "alldreams GmbH",
+    "purpose": "Personenschutz, Beratung in Sicherheitsfragen jeglicher Art, Detektivtätigkeiten im Wirtschaft- und Privatbereich, Handel mit elektronischen Sicherheitsgeräten, Spielerberatung, Sportveranstaltungen, Social-Media-Beratung und Vermittlung von Werberechten.",
+    "register_court": "Düsseldorf",
+    "register_number": "88975",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Schererstraße 5, 13347 Berlin",
+     "postal_code": "13347",
+     "street": "Schererstraße 5"
+    },
+    "company_id": "DE-HRB-R1101-89912",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Garivan GmbH",
+    "purpose": "Die Einbringung von Schutz-, Sicherheits- und Bewachungsdiensten aller Art, insbesondere der Personen- und Objektschutz, die Durchführung von Sicherheitstransporten etc. sowie aller damit zusammenhängender Geschäfte und Tätigkeiten.",
+    "register_court": "Düsseldorf",
+    "register_number": "89912",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Eisenstraße 50, 40227 Düsseldorf",
+     "postal_code": "40227",
+     "street": "Eisenstraße 50"
+    },
+    "company_id": "DE-HRB-R1101-94446",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Z&M GmbH",
+    "purpose": "Abbrucharbeiten, Entkernung, Entrümpelung, Trockenbau, Laminat- und PVC-Verlegung, Kabelverlegung ohne Anschluss sowie Gebäudereinigung, Sicherheitsdienst (Veranstaltungsschutz, Objektschutz, Baustellenbewachung, Empfangsdienst, Kontrolldienste und Werkschutz), sowie die Durchführung von nicht genehmigungspflichtigen Transporten (Paketzustellung und Lebensmittel) mit Fahrzeugen mit einem zulässigen Gesamtgewicht von bis zu 7,5 t.",
+    "register_court": "Düsseldorf",
+    "register_number": "94446",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Münster Straße 246, 40470 Düsseldorf",
+     "postal_code": "40470",
+     "street": "Münster Straße 246"
+    },
+    "company_id": "DE-HRB-R1101-70086",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MultiWork GmbH",
+    "purpose": "Dienstleistungen aller Art, hauptsächlich Nightauditor, sowie Erbringung von Ladendetektivendienstleistungen und Objektbewachung. Der Groß- und Einzelhandel mit Waren des täglichen Bedarfs wie Lebensmitteln, Haushaltswaren, Konsumgüter. Der An- und Verkauf sowie Handel mit Immobilien.",
+    "register_court": "Düsseldorf",
+    "register_number": "70086",
+    "register_type": "HRB"
+   }
+  ],
+  "4": [
+   {
+    "active": true,
+    "address": {
+     "city": "Duisburg",
+     "country": "DE",
+     "formatted_value": "Zum Lith 73, 47055 Duisburg",
+     "postal_code": "47055",
+     "street": "Zum Lith 73"
+    },
+    "company_id": "DE-HRB-R1101-70716",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "APS Security & Service GmbH",
+    "purpose": "o Tätigkeiten gemäß § 34 a Gewerbeordnung (Personen- und Objektschutz), o Detektei (§ 38 Gewerbeordnung), o Handelsvertreter für Kraftfahrzeuge, o Kurierdienstfahrten und Kleintransporte mit Fahrzeugen, die einschließlich Anhänger ein Gesamtgewicht von nicht mehr als 3,5 t haben, o VIP-Service, o Gebäudereinigung (Anlage B, Abschnitt 1 Handwerksordnung), o Winterdienste, o Hausmeistertätigkeiten (ausgenommen Gewerbe der Anlage A und B, der Handwerksordnung), o Container be- und entladen, o Arbeitsvermittlung.",
+    "register_court": "Düsseldorf",
+    "register_number": "70716",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Theodorstraße 178, 40472 Düsseldorf",
+     "postal_code": "40472",
+     "street": "Theodorstraße 178"
+    },
+    "company_id": "DE-HRB-R1101-75083",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ISS Automotive Services GmbH",
+    "purpose": "Technisches, kaufmännisches und infrastrukturelles Gebäudemanagement; Umwelt- und Altlastenmanagement; Flotten- und Transportmanagement; Lagerbewirtschaftung und Entsorgungsmanagement; Objekt- und Betriebsschutz; Catering; Rechnungswesen; Arbeitnehmerüberlassung; sowie artverwandte Dienstleistungen. Die Aktivitäten erfolgen insbesondere im Bereich Automotive.",
+    "register_court": "Düsseldorf",
+    "register_number": "75083",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Bublitzer Straße 34, 40599 Düsseldorf",
+     "postal_code": "40599",
+     "street": "Bublitzer Straße 34"
+    },
+    "company_id": "DE-HRB-R1101-71901",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Merkava Sicherheitsdienst GmbH",
+    "purpose": "Das Bewachungsgewerbe, der Objekt-, Baustellen- und Personenschutz sowie Limousinenservice.",
+    "register_court": "Düsseldorf",
+    "register_number": "71901",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Vogelsanger Weg 80, 40470 Düsseldorf",
+     "postal_code": "40470",
+     "street": "Vogelsanger Weg 80"
+    },
+    "company_id": "DE-HRB-R1101-97427",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "I.S.R. GmbH",
+    "purpose": "Bewachung, wie z.B. Objektschutz, Personenschutz und Werkschutz, Hausmeisterservice und Umzugsservice, Gebäudereinigung, Detektiv- und Ermittlungsdienstleistungen, Bauabschlussreinigung, Sicherstellungen und aufbewahren von Kraftfahrzeugen, Entrümplung und Einlagern von Gegenständen und Werten, Geld- und Werttransporte in Rahmen der BG Richtlinien, Sanitätsdienst für Veranstaltungen und Baustellen, Betreuung von Pflegebedürftigen.",
+    "register_court": "Düsseldorf",
+    "register_number": "97427",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Steinstraße 28, 40210 Düsseldorf",
+     "postal_code": "40210",
+     "street": "Steinstraße 28"
+    },
+    "company_id": "DE-HRB-R1101-98848",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Concept³ Solution GmbH",
+    "purpose": "Sicherheitsdienstleistungen, Detektei, Event- und Objekt-Bewachungen, Duchführung von Überwachungen, Vertrieb von Überwachungstechnik, Parkraummanagement sowie Servicedienste aller Art aus den vorgenannten Bereichen, insbesondere auch Rezeptions- und Pförtnerdienste, Reinigungsbetrieb, Autohandel, Catering-Service.",
+    "register_court": "Düsseldorf",
+    "register_number": "98848",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Reisholzer Werftstraße 76, 40589 Düsseldorf",
+     "postal_code": "40589",
+     "street": "Reisholzer Werftstraße 76"
+    },
+    "company_id": "DE-HRB-R1101-94862",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "V - Transporte und Dienstleistungs GmbH",
+    "purpose": "Gartengestaltung, Transport-Dienstleistungen, Trockenbauarbeiten sowie die Erbringung von Bewachungs- und Sicherheitsdienstleistungen; Personenschutz und Objektbewachung, insbesondere die Absicherung von Events, Sport- und Großveranstaltungen; Interventionsfahrten; sowie die technische Objektbetreuung samt damit zusammenhängender Dienstleistungen soweit kein Meisterbrief erforderlich ist und die Tätigkeiten keiner gesonderten Erlaubnis bedürfen. Die Gesellschaft ist berechtigt, alle Handlungen und Rechtsgeschäfte vorzunehmen, die dem vorstehenden Unternehmensgegenstand dienlich sind.",
+    "register_court": "Düsseldorf",
+    "register_number": "94862",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Bilker Allee 212, 40215 Düsseldorf",
+     "postal_code": "40215",
+     "street": "Bilker Allee 212"
+    },
+    "company_id": "DE-HRB-R1101-99037",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PARSEC Sicherheitsdienst GmbH",
+    "purpose": "Sicherheitsdienst.",
+    "register_court": "Düsseldorf",
+    "register_number": "99037",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Theodorstraße 178, 40472 Düsseldorf",
+     "postal_code": "40472",
+     "street": "Theodorstraße 178"
+    },
+    "company_id": "DE-HRB-R1101-81054",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ISS Communication Services GmbH",
+    "purpose": "Die Erbringung von kaufmännischen, technischen und infrastrukturellen Dienstleistungen an und in Gebäuden, technischen Einrichtungen und Grundstücken, insbesondere Wartung, Instandhaltung und Instandhaltungsmanagement von technischen Anlagen und Versorgungseinrichtungen sowie Erbringung damit im Zusammenhang stehende Dienstleistungen, die Planung, Leitung und Ausführung von Bauleistungen für fremde und eigene Rechnung, Industrie- und Gebäudereinigung und -instandhaltung, Garten- und Landschaftspflege, Bewachung, Schädlingsbekämpfung einschließlich Vogelabwehr, Hygienemanagement, Vorratsschutz, Vermittlung des Abschlusses von Verträgen über Grundstücke, grundstücksgleiche Rechte, gewerbliche Räume oder Wohnräume oder der Nachweis einer Gelegenheit zum Abschluss solcher Verträge, sowie alle damit im Zusammenhang stehende Handelsgeschäfte.",
+    "register_court": "Düsseldorf",
+    "register_number": "81054",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Zollhof 8, 40221 Düsseldorf",
+     "postal_code": "40221",
+     "street": "Zollhof 8"
+    },
+    "company_id": "DE-HRB-R1101-106298",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ANTER Holding GmbH",
+    "purpose": "Gartenbau und -pflege, Winterdienst, Gebäudereinigung, Entrümpelung und Entkernung, Straßenreinigung, Wach- und Sicherheitsdienst, Vermögensverwaltung, Im- und Export sowie Handel mit Baustoffen, Elektroinstallation und Kabelleitungsbau.",
+    "register_court": "Düsseldorf",
+    "register_number": "106298",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Pariser Straße 83-89, 40549 Düsseldorf",
+     "postal_code": "40549",
+     "street": "Pariser Straße 83-89"
+    },
+    "company_id": "DE-HRB-R1101-102985",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ML-Facility GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen im Bereich des infrastrukturellen und technischen Facility Managements. Insbesondere zählen hierzu Gebäudereinigungsleistungen aller Art, Sicherheits- und Bewachungsdienstleistungen gemäß 34a GewO, technisches Gebäudemanagement sowie Betrieb, Wartung, Instandhaltung und Instandsetzung haustechnischer Anlagen sowie die Ausführung elektrotechnischer Arbeiten einschließlich Wartung und Instandsetzung im Rahmen des Elektrotechniker-Handwerks, ganzheitliche technische und infrastrukturelle Objektbetreuung, Hausmeister- und Objektbetreuungsleistungen, Instandhaltungs- und Instandsetzungsmaßnahmen im zulässigen Umfang, die Koordination, Vergabe und Überwachung handwerklicher Leistungen an entsprechend qualifizierte Fachunternehmen.",
+    "register_court": "Düsseldorf",
+    "register_number": "102985",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Am Kreuzberg 4, 40489 Düsseldorf",
+     "postal_code": "40489",
+     "street": "Am Kreuzberg 4"
+    },
+    "company_id": "DE-HRB-R1101-22680",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "G a b r i e l Security Service GmbH",
+    "purpose": "Sicherheitsleistungen für Dritte, z.B. die Durchführung von Personen- und Objektschutzaufgaben.",
+    "register_court": "Düsseldorf",
+    "register_number": "22680",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Borsigstr. 26, 40227 Düsseldorf",
+     "postal_code": "40227",
+     "street": "Borsigstr. 26"
+    },
+    "company_id": "DE-HRB-R1101-85821",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Chahi-Service GmbH",
+    "purpose": "Transport und Lagerung von Frachten aller Art, Lagerhandling, Luftfracht, Logistik sowie Gebäudereinigung, Arbeitsvermittlung und Sicherheitsdienst sowie alle damit im Zusammenhang stehenden Tätigkeiten",
+    "register_court": "Düsseldorf",
+    "register_number": "85821",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Eintrachtstr. 9, 40227 Düsseldorf",
+     "postal_code": "40227",
+     "street": "Eintrachtstr. 9"
+    },
+    "company_id": "DE-HRB-R1101-103224",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DCS Trockenbau UG (haftungsbeschränkt)",
+    "purpose": "Die Ausführung von Trockenbau-, Putz- und Bodenverlegungsarbeiten, Hausmeisterservice, Hoteldienstleistungen und Sicherheitsdiensten, die Durchführung von Umzügen und Transporten, der Im- und Export von Waren aller Art, insbesondere von Lebensmitteln und Fahrzeuge sowie Fahrzeugzubehör, die Vermittlung von Handwerkern und Dienstleistungen rund ums Haus.",
+    "register_court": "Düsseldorf",
+    "register_number": "103224",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Klosterstr. 112, 40211 Düsseldorf",
+     "postal_code": "40211",
+     "street": "Klosterstr. 112"
+    },
+    "company_id": "DE-HRB-R1101-103599",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "M91 Security GmbH",
+    "purpose": "Die Bewachung von Personen (Personenschutz), Grundstücken und Gebäuden (Objektschutz) sowie anderem fremden Eigentum. Die Durchführung von Streifen- und Revierdiensten, Pförtnerdiensten, Empfangs- und Postdiensten, sowie Event-Management.",
+    "register_court": "Düsseldorf",
+    "register_number": "103599",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Wiesenstraße 21a, 40549 Düsseldorf",
+     "postal_code": "40549",
+     "street": "Wiesenstraße 21a"
+    },
+    "company_id": "DE-HRB-R1101-108733",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Mind Security Service GmbH",
+    "purpose": "Der Betrieb eines Sicherheitsunternehmens. Die Gesellschaft darf auch sonstige Geschäfte betreiben, sofern diese dem Gesellschaftszweck (mittelbar oder unmittelbar) dienlich sind.",
+    "register_court": "Düsseldorf",
+    "register_number": "108733",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Lindenstraße 48-52, 40233 Düsseldorf",
+     "postal_code": "40233",
+     "street": "Lindenstraße 48-52"
+    },
+    "company_id": "DE-HRB-R1101-90783",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "B.A.S.S. GmbH",
+    "purpose": "Sicherheitsdienste, Objektschutz, Werkschutz, Baustellenbewachung, Gefährdungsbeurteilung, Schwachstellenanalyse und Facility Services sowie sicherheitsspezifische Schulungen, Aus- und Weiterbildung, insbesondere die Vorbereitung zur Sachkundeprüfung gemäß § 34a Gewerbeordnung, die Ausbildung zum Luftsicherheitsassistenten, die Ausbildung zum Personenschützer.",
+    "register_court": "Düsseldorf",
+    "register_number": "90783",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "San-Remo-Straße 15, 40545 Düsseldorf",
+     "postal_code": "40545",
+     "street": "San-Remo-Straße 15"
+    },
+    "company_id": "DE-HRB-R1101-81467",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Armor Security UG (haftungsbeschränkt)",
+    "purpose": "Der Personenschutz, der Objektschutz, der Baustellenschutz, der Eventschutz, Limousinenservice, Geldtransport und Inkassodienst.",
+    "register_court": "Düsseldorf",
+    "register_number": "81467",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Am Trippelsberg 92/Reisholzer Werftstraße 76, 40589 Düsseldorf",
+     "postal_code": "40589",
+     "street": "Am Trippelsberg 92/Reisholzer Werftstraße 76"
+    },
+    "company_id": "DE-HRB-R1101-100832",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Rain Security GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen im Sicherheits- und Bewachsungsgewerbe, Personaldienstleistungen in allen Bereichen wie z. B. Service auf Veranstaltungen, Service im Eingangsbereich sowie die diesbezügliche Beratung, Sicherheitstechnik, Reinigung, Kurierdienst, Chauffeur-Dienste sowie der Handel mit Autos aller Art.",
+    "register_court": "Düsseldorf",
+    "register_number": "100832",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Fleher Straße 265, 40223 Düsseldorf",
+     "postal_code": "40223",
+     "street": "Fleher Straße 265"
+    },
+    "company_id": "DE-HRB-R1101-95920",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "KHM Sicherheitsdienst GmbH",
+    "purpose": "- der Betrieb eines Sicherheitsdienstes, - das Zurverfügungstellen von Personal als Subunternehmer von anderen Sicherheitsfirmen, - die Erbringung von Dienstleistungen im Bereich der Gebäude- und Industriereinigung, - das Durchführen von Hausmeister-, Gesundheits- und Hoteldienstleistungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "95920",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Flinger Straße 37, 40213 Düsseldorf",
+     "postal_code": "40213",
+     "street": "Flinger Straße 37"
+    },
+    "company_id": "DE-HRB-R1101-72418",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Beyer & Otto Construction, Design und Engineering GmbH",
+    "purpose": "Die Beteiligung an und die Verwaltung von Personengesellschaften, insbesondere der Beyer und Otto Verwaltungs GmbH & Co. KG. Gegenstand ist ferner: Arbeitnehmerüberlassung, Kleintransporte, Garten- und Landschaftsbau, Wartung und Pflege, Trockenbau, Hoch- und Tiefbau, Bauarbeiten aller Art, Eisenflechte, Gebäudereinigung innen und außen, Sanierungsarbeiten, Gerüsthelfer, Textilhandel, Wohn- und Dekohandel, Brandschadensanierung, Beschaffung und Lieferung von Bau- und Reinigungsmaterial, Dienstleistungen im Bereich Facilitymanagement, Hausmeistertätigkeiten, nicht erlaubnispflichtige Fahrdienste, Consulting, Sicherheit und Bewachung, Im- und Export von Lebensmitteln, elektronischen Geräten und Textilien, Gleisbau.",
+    "register_court": "Düsseldorf",
+    "register_number": "72418",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Kamperstraße 15, 40589 Düsseldorf",
+     "postal_code": "40589",
+     "street": "Kamperstraße 15"
+    },
+    "company_id": "DE-HRB-R1101-100033",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Peter Security UG (haftungsbeschränkt)",
+    "purpose": "Die Herstellung von Damen- und Herrenoberbekleidung, der Groß- und Einzelhandel mit Textilien, Modeaccessoires, Genussmittel und Geschenkartikel und Beautyprodukten und Nageldesign, Web- und Intemethandel aller Art, Herstellung von Wohnaccessoires und Lichtwerbung, Angabe und Vergabe von Dienstleistungen ohne besondere Genehmigung sowie Büro und Administrations-Services. Ferner die Ausübung des Bewachungsgewerbes, Ein- und Auslasskontrolle, Pförtnerfunktion.",
+    "register_court": "Düsseldorf",
+    "register_number": "100033",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Am Wehrhahn 70, 40211 Düsseldorf",
+     "postal_code": "40211",
+     "street": "Am Wehrhahn 70"
+    },
+    "company_id": "DE-HRB-R1101-75076",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Klüh Facility Services GmbH",
+    "purpose": "Industrie- und Gebäudereinigung; Garten- und Landschaftspflege; Hygienemanagement; Vorratsschutz; Arbeitnehmerüberlassung; Catering und Objekt- und Betriebsschutz.",
+    "register_court": "Düsseldorf",
+    "register_number": "75076",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Leverkusen",
+     "country": "DE",
+     "formatted_value": "Moosweg 3, 51377 Leverkusen",
+     "postal_code": "51377",
+     "street": "Moosweg 3"
+    },
+    "company_id": "DE-HRB-R1101-97995",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Krüger Management GmbH",
+    "purpose": "Die Durchführung von Gebäudereinigungsarbeiten und damit verbundene Dienstleistungen sowie der Betrieb einer Detektei insbesondere die Bewachung des Lebens sowie Eigentums fremder Personen (Personen und Objektschutz), der Ermittlungsdienst, Sicherheit, Verkauf von Videotechnik, Verkauf von Sicherheitstechnik, sowie die Personalvermittlung in diesen Bereichen.",
+    "register_court": "Düsseldorf",
+    "register_number": "97995",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Prinz-Georg-Straße 92, 40479 Düsseldorf",
+     "postal_code": "40479",
+     "street": "Prinz-Georg-Straße 92"
+    },
+    "company_id": "DE-HRB-R1101-64039",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Civil-Security GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen im Wach- und Sicherheitsgewerbe.",
+    "register_court": "Düsseldorf",
+    "register_number": "64039",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Ulmenstraße 275, 40468 Düsseldorf",
+     "postal_code": "40468",
+     "street": "Ulmenstraße 275"
+    },
+    "company_id": "DE-HRB-R1101-109973",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GFB Security UG (haftungsbeschränkt)",
+    "purpose": "Ausübung von Sicherheitsdienstleistungen jeglicher Art, (un-) bewaffneter Objekt-, Personen- und Veranstaltungsschutz, Revier- u. Interventionsfahrten, Geld- und Werttransporte sowie Erstellen von Sicherheitskonzepten und Gutachten.",
+    "register_court": "Düsseldorf",
+    "register_number": "109973",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Frankenstraße 17, 40476 Düsseldorf",
+     "postal_code": "40476",
+     "street": "Frankenstraße 17"
+    },
+    "company_id": "DE-HRB-R1101-90719",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "E-lane GmbH",
+    "purpose": "Die Bereitstellung von Mietwagenfahrten, Taxi-, Limousinen- und Chauffeurdienstleistungen sowie anderer Fahraufträge oder Transporte von Gütern oder Wertsachen mithilfe selbständiger Unternehmen oder unter Nutzung eigener Kapazitäten.",
+    "register_court": "Düsseldorf",
+    "register_number": "90719",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Bonn",
+     "country": "DE",
+     "formatted_value": "Rochusstr. 180, 53123 Bonn",
+     "postal_code": "53123",
+     "street": "Rochusstr. 180"
+    },
+    "company_id": "DE-HRB-R1101-92021",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Elaph GmbH",
+    "purpose": "Der Handel, der Im- und Export (Einzelhandel, Großhandel, Onlinehandel) mit Waren aller Art (insbesondere medizinische Hilfsmittel, Lebensmittel, Medikamente, Arzneimittel), die häusliche Alten- und Krankenpflege sowie die Betreuung ausländischer Patienten, der Sicherheitsdienst, Dienstleistungen und Beratungen für Unternehmer und Unternehmen und der Transport von nicht mit gesetzlichen Auflagen verbundenen Gütern, alles sofern diese keiner besonderen Erlaubnis bedürfen.",
+    "register_court": "Düsseldorf",
+    "register_number": "92021",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Frankfurter Straße 272, 51103 Köln",
+     "postal_code": "51103",
+     "street": "Frankfurter Straße 272"
+    },
+    "company_id": "DE-HRB-R1101-100242",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "LEESECURE UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Ordnertätigkeiten.",
+    "register_court": "Düsseldorf",
+    "register_number": "100242",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Hildener Straße 159, 40597 Düsseldorf",
+     "postal_code": "40597",
+     "street": "Hildener Straße 159"
+    },
+    "company_id": "DE-HRB-R1101-100309",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Willschrey Security UG (haftungsbeschränkt)",
+    "purpose": "Bewachung und Zugangskontrolle.",
+    "register_court": "Düsseldorf",
+    "register_number": "100309",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Bergische Landstraße 247, 40629 Düsseldorf",
+     "postal_code": "40629",
+     "street": "Bergische Landstraße 247"
+    },
+    "company_id": "DE-HRB-R1101-85370",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Batecha Security GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen, Beratung, Schulungen und Ermittlungen im Sicherheitsgewerbe sowie Home Service, Gebäudereinigung und Hausmeisterservice.",
+    "register_court": "Düsseldorf",
+    "register_number": "85370",
+    "register_type": "HRB"
+   }
+  ],
+  "5": [
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Theodorstraße 178, 40472 Düsseldorf",
+     "postal_code": "40472",
+     "street": "Theodorstraße 178"
+    },
+    "company_id": "DE-HRB-R1101-75085",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ISS Integrated Facility Services GmbH",
+    "purpose": "Technisches, kaufmännisches und infrastrukturelles Gebäudemanagement (inklusive u.a. Garten- und Landschaftspflege); Industrie- und Gebäudereinigung; Umwelt- und Altlastenmanagement; Flotten- und Transportmanagement; Gelegenheitsverkehr nach dem Personenbeförderungsgesetz; Hygienemanagement; Lagerbewirtschaftung und Entsorgungsmanagement; Objekt- und Betriebsschutz; Catering; Arbeitnehmerüberlassung; sowie artverwandte Dienstleistungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "75085",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Ratingen",
+     "country": "DE",
+     "formatted_value": "Breitscheider Weg 117b, 40885 Ratingen",
+     "postal_code": "40885",
+     "street": "Breitscheider Weg 117b"
+    },
+    "company_id": "DE-HRB-R1101-77847",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bauwatch Projekt Service GmbH",
+    "purpose": "Die Lieferung von Systemen und Diensten für zeitlich begrenzte und halb-permanente Standortsicherung, darunter Baustellen, Infrastrukturprojekte und andere zeitlich begrenzte Projekte.",
+    "register_court": "Düsseldorf",
+    "register_number": "77847",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Prinzenallee 7, 40549 Düsseldorf",
+     "postal_code": "40549",
+     "street": "Prinzenallee 7"
+    },
+    "company_id": "DE-HRB-R1101-103471",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Gi-Tec Service GmbH",
+    "purpose": "Gebäudereinigung, Vermittlung von Dolmetschern, Einrichten und Führen eines Dolmetscherbüros und eines Sicherheitsunternehmens.",
+    "register_court": "Düsseldorf",
+    "register_number": "103471",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Burgunderstraße 29, 40549 Düsseldorf",
+     "postal_code": "40549",
+     "street": "Burgunderstraße 29"
+    },
+    "company_id": "DE-HRB-R1101-40754",
+    "country": "DE",
+    "legal_form": "ag",
+    "name": "Cash Logistik Security AG",
+    "purpose": "Die Erbringung von sämtlichen Dienstleistungen im Bereich Sicherheit und Geldlogistik sowie der Handel und die Vermietung von diesbezüglichen Produkten.",
+    "register_court": "Düsseldorf",
+    "register_number": "40754",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Brehmstraße 3, 40239 Düsseldorf",
+     "postal_code": "40239",
+     "street": "Brehmstraße 3"
+    },
+    "company_id": "DE-HRB-R1101-79991",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BAUMANN Hausverwaltung und Immobilien Service GmbH",
+    "purpose": "Die Hausverwaltung, Hausmeisterservice, Vermittlung von handwerklichen Dienstleistungen und Objektschutz, Holz- und Bautenschutz, Gebäudereinigung, Entrümpelung, Einbau von genormten Fertigbauteilen, Bodenieger, Trockenbau, Raumausstatter, Verleasen von Kraftfahrzeugen, Unternehmensberatung, lm- und Export sowie internationaler Handel mit Waren aller Art.",
+    "register_court": "Düsseldorf",
+    "register_number": "79991",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Bilkrather Weg 5, 40489 Düsseldorf",
+     "postal_code": "40489",
+     "street": "Bilkrather Weg 5"
+    },
+    "company_id": "DE-HRB-R1101-79069",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Trescue GmbH",
+    "purpose": "Die Sicherheitskonzipierung von Veranstaltungen einschließlich Umsetzung und Kontrolle mit dem Schwerpunkt Sportveranstaltungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "79069",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Münsterstraße 246, 40470 Düsseldorf",
+     "postal_code": "40470",
+     "street": "Münsterstraße 246"
+    },
+    "company_id": "DE-HRB-R1101-74318",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MultiService Sicherheitsdienste GmbH",
+    "purpose": "Sicherheitsdienste und Servicedienste aller Art.",
+    "register_court": "Düsseldorf",
+    "register_number": "74318",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Garather Schlossallee 19, 40595 Düsseldorf",
+     "postal_code": "40595",
+     "street": "Garather Schlossallee 19"
+    },
+    "company_id": "DE-HRB-R1101-110252",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DNC Projektmanagement GmbH",
+    "purpose": "Die Annahme, Verwaltung, Koordination und organisatorische Abwicklung von Bau-, Handwerks-, Bewachungs- und Gebäudereinigungsaufträgen, insbesondere die Vergabe solcher Aufträge an Nachunternehmer (Subunternehmer) sowie das Projektmanagement in den genannten Bereichen. Die verschiedenen Gewerke werden an autorisierte eingetragene Fachbetriebe weitergegeben (Meisterbetriebe). Die Gesellschaft erbringt selbst keine eigenen handwerklichen, bauausführenden oder gebäudereinigenden Leistungen, sondern beschränkt sich auf die kaufmännische, organisatorische und administrative Betreuung und Steuerung von Projekten.",
+    "register_court": "Düsseldorf",
+    "register_number": "110252",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Am Trippelsberg 92, 40589 Düsseldorf",
+     "postal_code": "40589",
+     "street": "Am Trippelsberg 92"
+    },
+    "company_id": "DE-HRB-R1101-108268",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "TG-Sicherheitsteam Projekt GmbH",
+    "purpose": "Eine Detektei und Sicherheitsdienst; Vermittlung von Sicherheitsaufträgen.",
+    "register_court": "Düsseldorf",
+    "register_number": "108268",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Luisenstraße 9, 40215 Düsseldorf",
+     "postal_code": "40215",
+     "street": "Luisenstraße 9"
+    },
+    "company_id": "DE-HRB-R1101-104688",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BGS GmbH",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen aller Art, insbesondere Objektschutz, Detektei, Personenschutz, Limousinenservice, Hundestaffel, Brandschutz, Veranstaltungsschutz, Alarmverfolgung sowie der Baustellenservice (Bauhelfer) und Facility Management.",
+    "register_court": "Düsseldorf",
+    "register_number": "104688",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Schmiedestraße 2 A, 40227 Düsseldorf",
+     "postal_code": "40227",
+     "street": "Schmiedestraße 2 A"
+    },
+    "company_id": "DE-HRB-R1101-99008",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "S E N Sicherheit GmbH",
+    "purpose": "Der Betrieb eines Sicherheitsdienstes in Form des Wach-, Personen- und Objektschutzes, insbesondere von Wohnobjekten, Bürokomplexen, Restaurants, Spielhallen, Asylantenheimen, Hotels, Gastronomiebereichen, Gewerbegebieten und Baustellen, unter anderem durch Kontrollfahrten, -gänge, Doormen, der Empfangsservice sowie das zur Verfügung stellen von Kaufhausdetektiven und Personal als Subunternehmer. Des Weiteren werden Reinigungstätigkeiten ausgeübt.",
+    "register_court": "Düsseldorf",
+    "register_number": "99008",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Bismarckstraße 33-35, 40210 Düsseldorf",
+     "postal_code": "40210",
+     "street": "Bismarckstraße 33-35"
+    },
+    "company_id": "DE-HRB-R1101-96795",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Zölla GmbH",
+    "purpose": "Sicherheit- und Reinigungsleistungen, nämlich Werk- und Objektschutz, Pforten- und Empfangsdienste, Sicherheitsberatung, Planung, Kundenservice, Bewachung, Revierdienste, Servicedienste, Veranstaltungsschutz, Logistik, Reinigung, Personenschutz, Fahrdienstleistung, Verkauf und Callcenter.",
+    "register_court": "Düsseldorf",
+    "register_number": "96795",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Spanger Str. 38 A, 40599 Düsseldorf",
+     "postal_code": "40599",
+     "street": "Spanger Str. 38 A"
+    },
+    "company_id": "DE-HRB-R1101-86098",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "RTS - Dienstleistungen GmbH",
+    "purpose": "Werk- und Objektschutz, Messen- und Ausstellungsschutz, Passagen- und Einkaufscenterschutz, Parkhaus- und Baustellenbewachung, Waren- und Kaufhausdetektivleistungen, Ermittlungs- und Interventionsdienst, Alarmverfolgung, Alarmaufschaltung, Personenschutz, Beratung und Schulung über Wach- und Sicherheitsmaßnahmen, Bewirtschaftung von bebauten und unbebauten Grundstücken, Stellung sämtlicher Personaldienste und Leistungen (IFM) rund um die Immobilie, insbesondere Reinigungsarbeiten, Vegetationspflege, Winterdienst, Bauschluss- und Bauendreinigungen, Steinbodensanierung, Erbringung von Transportdienstleistungen aller Art, Durchführung von Abbrucharbeiten, Entkernung sowie Schadstoffsanierung und Malerarbeiten an Immobilien. Weiter die Kabelverlegung im Hochbau ohne Anschlussarbeiten, nämlich Verlegung von Kabeln auf Traversen in Leerrohren und Kabelbühnen in Gebäuden nach vorgegebenen Plänen von berechtigten Unternehmen, Anbringen von Befestigungsmitteln für Traversen, Leerrohre und Kabelbühnen, fachbezogene Metallbearbeitung einschließlich einfacher Schweißarbeiten sowie die Montage von Kabelkanälen und Ausstemmen der Kabelschlitze.",
+    "register_court": "Düsseldorf",
+    "register_number": "86098",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Charlottenstr. 51, 40210 Düsseldorf",
+     "postal_code": "40210",
+     "street": "Charlottenstr. 51"
+    },
+    "company_id": "DE-HRB-R1101-89873",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Grandline Deutschland GmbH",
+    "purpose": "Das Betreiben eines Sicherheitsdienstes, insbesondere gemäß § 34a GewO und Aus- und Weiterbildung.",
+    "register_court": "Düsseldorf",
+    "register_number": "89873",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Wilhelm-Raabe-Straße 18, 40470 Düsseldorf",
+     "postal_code": "40470",
+     "street": "Wilhelm-Raabe-Straße 18"
+    },
+    "company_id": "DE-HRB-R1101-73466",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Wirtschaftsdetektei Uebachs GmbH",
+    "purpose": "Sämtliche Aktivitäten zur Verhinderung von Inventurdifferenzen, insbesondere Kaufhausüberwachung, Sicherheitsberatung, Videoüberwachung, Warensicherungskonzepte, Schulungsseminare, Testkäufe sowie Entwicklung und Vertrieb spezieller Controlling- und Inventur-Software;",
+    "register_court": "Düsseldorf",
+    "register_number": "73466",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Am Schnepfenhof 6, 40239 Düsseldorf",
+     "postal_code": "40239",
+     "street": "Am Schnepfenhof 6"
+    },
+    "company_id": "DE-HRB-R1101-99362",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Vortex Security UG (haftungsbeschränkt)",
+    "purpose": "Das Wach- und Sicherheitsgewerbe, insbesondere Objekt- und Veranstaltungsschutz, Baustellenkontrolle, Erbringung von sonstigen Sicherheitsleistungen für Unternehmen und private Personen wie z.B. Gefahrenabwehr, Kontrolle, Aufsicht und Sicherheitsdienst bei Messen und Großveranstaltungen, Aufsicht und Betreuung von Flüchtlingen in Flüchtlingsheimen und kommunalen Unterkünften, Pfortendienste.",
+    "register_court": "Düsseldorf",
+    "register_number": "99362",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Pattscheider Straße 1, 40591 Düsseldorf",
+     "postal_code": "40591",
+     "street": "Pattscheider Straße 1"
+    },
+    "company_id": "DE-HRB-R1101-105858",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Z & G Construction GmbH",
+    "purpose": "Erlaubnisfreie Bau- und Renovierungsarbeiten: Trockenbau, Montage- und Reparaturarbeiten, Bauhelfer; einschließlich Elektroarbeiten wie das Arbeiten an Niederspannungsanlagen, das Verlegen von Kabeln oder der Aufbau von Geräten, ohne direkten Eingriff in die Stromversorgung sowie Sanitärarbeiten, wie Wartungsarbeiten oder der Austausch von Armaturen, die keine Eingriffe in das Wasserversorgungssystem erfordern, soweit diese nicht der Meisterpflicht unterliegen. Kältetechnik: die Beratung, die Reinigung von Anlagen oder der Handel mit Geräten, soweit diese nicht der Meisterpflicht unterliegen. Gebäudemanagement: Gebäudereinigung, Hausmeisterdienste, Rohrreinigung, Fassadenreinigung, Entrümpelung, Möbelmontage. Garten- und Landschaftsbau. Spezialdienstleistungen: Mechanische Schädlingsbekämpfung und Beratung ohne Einsatz von Gefahrstoffen, die Erbringung von Dienstleistungen im Bereich der Schädlingsbekämpfung, Prävention und Beratung sowie verwandte Tätigkeiten. Textilien: Handel mit jeglicher Arten von Textilien und Lederware. Tiny/Container-House Konstruktionen samt deren Verkauf. Detektei: die Erbringung von Dienstleistungen im Bereich der Observation, Recherche und Informationsbeschaffung im privaten und geschäftlichen Bereich. Angebot von Beratungs- und Ermittlungsdienstleistungen für Unternehmen und Privatpersonen. Die Durchführung von Beobachtungen und Ermittlungen sowie die Unterstützung bei der Aufklärung von Rechts- und Vertragsverstößen.",
+    "register_court": "Düsseldorf",
+    "register_number": "105858",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Dreischeibenhaus, 40211 Düsseldorf",
+     "postal_code": "40211",
+     "street": "Dreischeibenhaus"
+    },
+    "company_id": "DE-HRB-R1101-108604",
+    "country": "DE",
+    "legal_form": "ag",
+    "name": "e.pliance AG",
+    "purpose": "Sämtliche nachfolgend genannten Tätigkeiten beziehen sich neben der technischen Abwicklung von beliebigen Geschäftsprozessen insbesondere auf die Unterstützung zur Einhaltung von Compliance-Vorschriften im Allgemeinen insbesondere der Bestimmungen zur Geldwäsche-Prävention als auch zum, Aufspüren Wirtschaftskriminalität aller Art, dazu auch Erbringung von Auskünften und Überprüfungen insbesondere unter Einsatz künstlicher Intelligenz; Entwicklung, Herstellung und Vertrieb (Groß- und Einzelhandel) von Soft- und Hardware und bürotechnischen Anlagen jeder Art; beinhaltend Planung, Organisation, Beratung, Wartung und Schulung insbesondere einschließend Softwareentwicklung und Datenverarbeitung im Namen Dritter im Sinne eines Dienstleistungsrechenzentrums und insbesondere des Anbietens einer SaaS-Plattform im Internet sowie Büro- und Dienstleistungsservice für die betriebswirtschaftliche und organisatorische Abwicklung auch von Transaktionen jeglicher Art; die Erstellung von Arbeitsrichtlinien und Abläufen in Form von Beratung insbesondere Unternehmensberatung; Be- und Verarbeitung von Kundendaten sowie Buchhaltungs- und Büroservice im Auftrag und Namen Dritter; sowie die Vornahme aller sonstigen hiermit zusammenhängender Geschäfte und Maßnahmen zum Zwecke der Gewinnerzielung und die Verwaltung von Beteiligungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "108604",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Johannstraße 37, 40476 Düsseldorf",
+     "postal_code": "40476",
+     "street": "Johannstraße 37"
+    },
+    "company_id": "DE-HRB-R1101-106843",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NEXUS Security & Service GmbH",
+    "purpose": "Die Erbringung von Wach- und Sicherheitsdienstleistungen aller Art sowie die Vermittlung von Aufträgen im vorbezeichneten Bereich.",
+    "register_court": "Düsseldorf",
+    "register_number": "106843",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Schadowstr. 53, 40212 Düsseldorf",
+     "postal_code": "40212",
+     "street": "Schadowstr. 53"
+    },
+    "company_id": "DE-HRB-R1101-100827",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bassal Sicherheitsdienst GmbH",
+    "purpose": "Das Bewachungsgewerbe, die Durchführung von Kleintransporten bis 3,5t zul. Gesamtgewicht, Lagerarbeiten, die Erbringung von Schulungen, Maßnahmen und Servicedienstleistungen in der Erwachsenenbildung, die Stellung und Vermittlung von Servicepersonal (insbesondere im Bereich des Baugewerbes) sowie Reinigungs- und Hausmeisterdienstleistungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "100827",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Business Center, Dreischeibenhaus 1, 40211 Düsseldorf",
+     "postal_code": "40211",
+     "street": "Business Center, Dreischeibenhaus 1"
+    },
+    "company_id": "DE-HRB-R1101-106327",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Securian GmbH",
+    "purpose": "Bewachungsdienstleistungen gem. § 34a GewerbeO, die Erbringung von Sicherheitsdienstleistungen aller Art, Veranstaltungssicherheit und Personenschutz, Detektiv und Ermittlungstätigkeiten, Vermietung von Kraftfahrzeugen sowie Hausmeistertätigkeiten.",
+    "register_court": "Düsseldorf",
+    "register_number": "106327",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Rather Broich 62, 40472 Düsseldorf",
+     "postal_code": "40472",
+     "street": "Rather Broich 62"
+    },
+    "company_id": "DE-HRB-R1101-65335",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Liebevolle-Betreuung24 UG (haftungsbeschränkt)",
+    "purpose": "Die Vermittlung von Betreuungspersonen für hilfsbedürftige Menschen, insbesondere im Bereich der Seniorenbetreuung und -pflege. Darüber hinaus erbringt die Gesellschaft Dienstleistungen im Bereich der Objektbetreuung. Hierzu gehören insbesondere: Hausmeisterdienste, einschließlich der Pflege, Wartung und Instandhaltung von Gebäuden und Anlagen, Reinigungsdienstleistungen, insbesondere Treppenhausreinigung, Glasreinigung sowie Pflege von Außenanlagen, technische Objektbetreuung, einschließlich der Überwachung, Wartung und Instandhaltung technischer Anlagen (insbesondere Heizung, Lüftung, Klima und Elektro) sowie die Durchführung kleinerer Reparaturarbeiten, das Erneuern von Leuchtmitteln, Schimmelentfernung und das Erfassen von Zählerständen, Garten- und Landschaftspflege, insbesondere Pflege von Grünflächen, Rasenmähen und Heckenschnitt, Durchführung von Kontrollgängen im Rahmen einfacher Sicherheitsdienste, Müllentsorgung und Abfallmanagement, insbesondere Organisation der Müllabfuhr und von Recyclingmaßnahmen, Schlüsselverwaltung sowie Verwaltung von Zutrittsberechtigungen, Winterdienst, insbesondere Schneeräumung und Streudienst auf Gehwegen und Zufahrten.",
+    "register_court": "Düsseldorf",
+    "register_number": "65335",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Erkrather Straße 253, 40233 Düsseldorf",
+     "postal_code": "40233",
+     "street": "Erkrather Straße 253"
+    },
+    "company_id": "DE-HRB-R1101-20567",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GUARDIAN Personen-, Objekt- und Wertschutz GmbH",
+    "purpose": "Der Betrieb eines Bewachungsunternehmens (Personen-, Objekt- und Wertschutz) und die Durchführung von Ermittlungen, Beobachtungen, Begleitschutz, Spurensicherung, Abwehr und Aufklärung von Betriebsspionage und -sabotage, Raumüberprüfung und -überwachung, Absicherung von Konferenzen, Referenzüberprüfungen und -vermittlungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "20567",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Cuxhavener Str. 6, 40221 Düsseldorf",
+     "postal_code": "40221",
+     "street": "Cuxhavener Str. 6"
+    },
+    "company_id": "DE-HRB-R1101-89244",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DSD - Düsseldorfer Sicherheitsdienste GmbH",
+    "purpose": "Die Ausübung von Sicherheitsdienstleistungen jeglicher Art, Objekt- u. Veranstaltungsschutz, (un-) bewaffneter Personenschutz, Revier- u. Interventionsfahrten, Geld- und Werttransporte, Ausbildung und Schulungen für Mitarbeiter und Dritten in den vorgenannten Bereichen, Organisieren, Veranstalten von Lehrgängen und Seminaren im Bereich Sicherheitswesen, Personen- u. Objektschutz, Erstellen von Sicherheitskonzepten, Gutachten sowie Hilfe beim Regulieren von Schäden, Vermittlung zwischen Auftraggebern und Auftragsnehmern bei Regressansprüchen, Durchführung von Veranstaltungen und Begleitung von Prominenten, Künstlern und Sängern bei Konzerten und Tourneen, Überführen von Fahrzeugen jeglicher Art (im zivilen, behördlich sowie militärischen Sektor), Überführen von privaten, behördlichen sowie militärischen Rechtsgütern jeglicher Art (Gefangentransporte, Beweismittel und sonstiges), Arbeitnehmerüberlassung.",
+    "register_court": "Düsseldorf",
+    "register_number": "89244",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Vennhauser Allee 238, 40627 Düsseldorf",
+     "postal_code": "40627",
+     "street": "Vennhauser Allee 238"
+    },
+    "company_id": "DE-HRB-R1101-110063",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BalrogSecurity UG (haftungsbeschränkt)",
+    "purpose": "Gegenstand des Unternehmens ist der Betrieb eines Bewachungsunternehmen gemäß § 34a GewO",
+    "register_court": "Düsseldorf",
+    "register_number": "110063",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Bismarckstraße 106, 40210 Düsseldorf",
+     "postal_code": "40210",
+     "street": "Bismarckstraße 106"
+    },
+    "company_id": "DE-HRB-R1101-89391",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "T.P.K. Security Service GmbH",
+    "purpose": "Der Veranstaltungsschutz, der Objekt- und Werkschutz, der Pforten- und Empfangsdienst sowie die Gebäudereinigung.",
+    "register_court": "Düsseldorf",
+    "register_number": "89391",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Grafenberger Allee 277-287, 40231 Düsseldorf",
+     "postal_code": "40231",
+     "street": "Grafenberger Allee 277-287"
+    },
+    "company_id": "DE-HRB-R1101-106409",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SLS Security UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Dienstleistungen im Sicherheits- und Bewachungsgewerbe, die Durchführung von Personaldienstleistungen in allen Bereichen, wie z. B. Service auf Veranstaltungen sowie die diesbezügliche Beratung sowie Dienstleistungen im Bereich der Gebäudereinigung, Winterdienst und Kurierdienst.",
+    "register_court": "Düsseldorf",
+    "register_number": "106409",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Kalkumer Straße 127, 40468 Düsseldorf",
+     "postal_code": "40468",
+     "street": "Kalkumer Straße 127"
+    },
+    "company_id": "DE-HRB-R1101-79784",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "UNIO Sicherheitsmanagement GmbH",
+    "purpose": "Durchführung von Sicherheitsberatung in Fragen der Sicherheitstechnik, Objekt-, Personen- und Veranstaltungsschutz, Detektivdienstleistungen, Messe- und Eventservice, Night Audit, Forderungsmanagement, Gebäudereinigung, Empfangsdienst, Glasreinigung, Kurierdienst, Zustellung von Paketen, Autovermietung, Regalservice und Dienstleistungen aller Art (soweit sie keiner behördlichen Genehmigung bedürfen).",
+    "register_court": "Düsseldorf",
+    "register_number": "79784",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Marbacher Straße 108, 40597 Düsseldorf",
+     "postal_code": "40597",
+     "street": "Marbacher Straße 108"
+    },
+    "company_id": "DE-HRB-R1101-102899",
+    "country": "DE",
+    "legal_form": "foreign",
+    "name": "Gradska Sigurnost DE",
+    "purpose": "Sicherheitskontrolle von Fluggästen, Handgepäck und mitgeführten Gegenständen, Sicherheitskontrolle des aufgegebenen Gepäcks, Fahrzeugkontrollen, Zugangskontrolle, Überwachung und Patrouillen, Sicherheitskontrolle von Post und Material von Luftfahrtunternehmen, Bordvorräten und Flughafenvorräten, Sicherheitskontrolle von Fracht und Post.",
+    "register_court": "Düsseldorf",
+    "register_number": "102899",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Dreieckstraße 10, 40227 Düsseldorf",
+     "postal_code": "40227",
+     "street": "Dreieckstraße 10"
+    },
+    "company_id": "DE-HRB-R1101-102535",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Ostiar Security & Service GmbH",
+    "purpose": "Sicherheitstätigkeiten (v.a. Objektschutz, Bewachung, Personenbegleitung) und die Vermietung von Kraftfahrzeugen und Servicedienstleistungen im Hotel- und Transportbereich (v.a. Empfangstätigkeiten, Personenbeförderung) sowie An- und Verkauf von PKW.",
+    "register_court": "Düsseldorf",
+    "register_number": "102535",
+    "register_type": "HRB"
+   }
+  ],
+  "6": [
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Spichernstr. 55, 40476 Düsseldorf",
+     "postal_code": "40476",
+     "street": "Spichernstr. 55"
+    },
+    "company_id": "DE-HRB-R1101-73711",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ELAN GmbH",
+    "purpose": "Aufstellung von Automaten. Transport-Logistik. Gewerbliche Personenbeförderung. Betreiben eines Wettbüros und einer Gastronomie mit Alkoholausschank. Durchführung von Bautrocknungs-, Betonbohr-, Betonschneide-, Eisenflechter-, Bodenleger-, Holz-, Bautenschutz-, Trockenbau- und Abrissarbeiten, Fuger- und Kabelverlegerarbeiten im Hochbau (ohne Anschlussarbeiten), Abriss- und Abbrucharbeiten nebst Entsorgung. Einbau von genormten Baufertigteilen (z.B. Fenster und Türen). Rohr- und Kanalreinigungsarbeiten. Hausmeisterdienstleistungen. Gebäudereinigung. Hausverwaltung. Betrieb eines Baustoffhandels. Sicherheitsdienstleistungen. Im- und Export sowie Groß- und Einzelhandel mit Lebensmitteln aller Art (z.B. Obst, Gemüse, Fleisch, Fisch, Wurstarten und Getränken) sowie Non-food Artikeln (z.B. Geschenkartikel, Haushaltswaren, Hygieneartikel).",
+    "register_court": "Düsseldorf",
+    "register_number": "73711",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Friedrichstraße 107, 40217 Düsseldorf",
+     "postal_code": "40217",
+     "street": "Friedrichstraße 107"
+    },
+    "company_id": "DE-HRB-R1101-83167",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Beauty & More Reisen GmbH",
+    "purpose": "Die Organisation und Vermittlung von Reisen aller Art, auch von Reisen zu medizinischen und therapeutischen Einrichtungen im In- und Ausland. Die Vermittlung und Durchführung von Reinigungsarbeiten aller Art. Die Einrichtung und der Betrieb von Verkaufsstätten, insbesondere Cafés to Go mit dem Vertrieb von belegten Brötchen, türkischem Gebäck, Kaffee, sowie Shop-in-Shop-Systemen mit der Bereitstellung und Vermietung von Regalen und Fächern für Warenpräsentation und Verkauf, das Führen von Gastronomiebetrieben und Cateringservice. Die Erbringung von Dienstleistungen und Tätigkeiten des Bewachungsgewerbes im Sinne des § 34a S. 1 GewO.",
+    "register_court": "Düsseldorf",
+    "register_number": "83167",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Spanger Straße 38 A, 40599 Düsseldorf",
+     "postal_code": "40599",
+     "street": "Spanger Straße 38 A"
+    },
+    "company_id": "DE-HRB-R1101-70869",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ALL-Dienstleistungen GmbH",
+    "purpose": "Die Bewirtschaftung von bebauten und unbebauten Grundstücken, Stellung sämtlicher Personaldienste und Leistungen (IFM) rund um die Immobilie, insbesondere Reinigungsarbeiten Vegetationspflege, Winterdienst, Steinbodensanierung einschließlich der Arbeitnehmerüberlassung in den vorgenannten Geschäftsbereichen sowie technische und kaufmännische Gebäudebewirtschaftung, insbesondere Hausmeistertätigkeiten, Wartungen, Instandsetzung und Nebenkostenabrechnungen; die Erfüllung von Aufgaben der Eigentümer sowie Beratung, Erstellung und Implementierung von Betreiberkonzepten rund um die Immobile; Dienstleistungen in den Bereichen Kauf- und Warenhausüberwachung sowie Objektschutz und Privatobservation; das Räumen und Sortieren von Gütern und die Arbeitnehmerüberlassung; die Erbringung von Transportdienstleistungen aller Art bis zu 3,5 Tonnen, die Durchführung von Abbrucharbeiten, die Entkernung sowie die Schadstoffsanierung von Immobilien.",
+    "register_court": "Düsseldorf",
+    "register_number": "70869",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Opitzstr. 12, 40470 Düsseldorf",
+     "postal_code": "40470",
+     "street": "Opitzstr. 12"
+    },
+    "company_id": "DE-HRB-R1101-30041",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Düsseldorfer Wach- und Schließgesellschaft mbH",
+    "purpose": "Die gewerbsmäßige Durchführung von Bewachungen jeder Art, insbesondere Werkschutz- und Sicherheitsdienste zu erbringen, aber auch andere Dienstleistungen verwandter Art sowie die Beteiligung an sowie die Übernahme der Geschäftsführung, Vertretung, Verwaltung und Komplementärhaftung der Düsseldorfer Wach- und Schließgesellschaft mbH & Co. KG mit Sitz in Düsseldorf",
+    "register_court": "Düsseldorf",
+    "register_number": "30041",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Am Kreuzberg 4, 40489 Düsseldorf",
+     "postal_code": "40489",
+     "street": "Am Kreuzberg 4"
+    },
+    "company_id": "DE-HRB-R1101-58550",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Detektiv-Institut Kocks GmbH",
+    "purpose": "Dienstleistungen für Dritte wie z. B. Ermittlungen, Nachforschungen und Beobachtungen zum Zwecke der Wahrheitsfindung bei glaubhaft erklärtem Interesse der Auftraggeber, die Erledigung von Betriebs- und Werkschutzaufgaben, die Planung und der Einsatz von Sicherungsanlagen sowie die Durchführung aller Maßnahmen, die diesem Zwecke dienen; hierzu gehört auch die Verbreitung von Kommunikationsmitteln zur Information sowie die Aus- bzw. Weiterbildung von Nachwuchskräften. Ferner die Wirtschaftsberatung in Revisionsfragen zur Abwehr von Schäden.",
+    "register_court": "Düsseldorf",
+    "register_number": "58550",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Speditionstraße 15 a, 40221 Düsseldorf",
+     "postal_code": "40221",
+     "street": "Speditionstraße 15 a"
+    },
+    "company_id": "DE-HRB-R1101-96277",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Merin Services UG (haftungsbeschränkt)",
+    "purpose": "- Erbringung von Dienstleistungen im Bereich Gebäudeservice und Gebäudereinigung (insbesondere Unterhalts-, Glas-, Fassaden-, Baugrund-, Industriereinigung sowie Reinigung von Räumen, Flächen und Gebäuden aller Art) nebst Winterdienst, Hausmeisterservice und Gartenarbeiten (es werden keine Tätigkeiten ausgeübt, für die eine Eintragung in die Handwerksordnung erforderlich ist) - Kurier-, Express- und Postdienstleistungen - Hausverwaltung - Sicherheitsdienstleistungen und Bewachungstätigkeiten gemäß §34a GewO z.B. Werk- und Objektschutz etc. sowie erlaubnisfreie Bewachungstätigkeiten - Das Management bei Wasser-, Brand- und Elementarschäden sowie Ingenieur-, Planungs- und technische Dienstleistungen und allgemeine Gebäudeservicedienstleistungen. Dies umfasst insbesondere die Projektsteuerung, Dokumentation, Beauftragung und Vermittlung von Fachunternehmen, zulassungspflichtige Handwerksleistungen nur bei Eintragung in die Handwerksrolle; das Bauhauptgewerbe ist ausgeschlossen.",
+    "register_court": "Düsseldorf",
+    "register_number": "96277",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Ehrenhof 4-5, 40479 Düsseldorf",
+     "postal_code": "40479",
+     "street": "Ehrenhof 4-5"
+    },
+    "company_id": "DE-HRB-R1101-63823",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Ehrenhof Service-Gesellschaft mbH",
+    "purpose": "Die Erbringung von Dienstleistungen, insbesondere im Bereich der Sicherheit, Reinigung, Besucherservice, und des technischen Gebäudemanagements. Diese Leistungen sollen vordringlich gegenüber der Stiftung museum kunst palast in Düsseldorf und unter Wahrung deren Gemeinnützigkeit erbracht werden.",
+    "register_court": "Düsseldorf",
+    "register_number": "63823",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Neuss",
+     "country": "DE",
+     "formatted_value": "Bataverstr. 82, 41462 Neuss",
+     "postal_code": "41462",
+     "street": "Bataverstr. 82"
+    },
+    "company_id": "DE-HRB-R1101-99421",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AF Security GmbH",
+    "purpose": "Sicherheitsdienstleistungen, insbesondere Objekt- und Werkschutz, Zug- und Transportbegleitung, Veranstaltungsschutz, Flüchtlingsheim-Sicherheit und der Personenschutz, Stellung von Personal, Reinigungsarbeiten, Vermittlung von Aufträgen im Bereich der Sicherheit.",
+    "register_court": "Düsseldorf",
+    "register_number": "99421",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Nürnberger Straße 27, 40599 Düsseldorf",
+     "postal_code": "40599",
+     "street": "Nürnberger Straße 27"
+    },
+    "company_id": "DE-HRB-R1101-100027",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SD-Service GmbH",
+    "purpose": "Die Gebäudedienstleistung wie Gebäude- und Industriereinigungen, Hausmeisterservice, erlaubnisfreie Dienstleistungen sowie Auftragsvermittlung im Bauwesen und handwerklichen Bereich, insbesondere Maler-, Tapezier-, Trockenbau-, Kabelverlegungs-Bodenbelegungsarbeiten und Entrümpelung. Vegetationsarbeiten, Garten und Landschaftsbau, Personalservice, Sicherheit/Bewachung und Transport bis 3,5 Tonnen, Handel und Handelsvermittlung in Im- und Export von erlaubnisfreien Waren und Gütern aller Art, insbesondere von Reinigungsmitteln, Textilien und Nahrungsmitteln.",
+    "register_court": "Düsseldorf",
+    "register_number": "100027",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Kennedydamm 24, 40476 Düsseldorf",
+     "postal_code": "40476",
+     "street": "Kennedydamm 24"
+    },
+    "company_id": "DE-HRB-R1101-61198",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Carter Benson GmbH",
+    "purpose": "Das Halten und Verwalten von Beteiligungen an anderen Unternehmen sowie die Durchführung sonstiger zur Erreichung dieser Ziele erforderlichen Geschäfte und Maßnahmen, insbesondere die Beteiligung als persönlich haftender Gesellschafter. Gegenstand des Unternehmens ist weiterhin, die Bewachung und das Aufrechterhalten der Sicherheit in öffentlichen Räumen, befriedeten Grundstücken, privaten- und öffentlichen Gebäuden und die Sicherung von Personen und Sachen.",
+    "register_court": "Düsseldorf",
+    "register_number": "61198",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Kaiserstraße 5, 40479 Düsseldorf",
+     "postal_code": "40479",
+     "street": "Kaiserstraße 5"
+    },
+    "company_id": "DE-HRB-R1101-100352",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "HARFER Global Service GmbH",
+    "purpose": "Die Erbringung von Transportdienstleistungen bis 3,5 t, der Kurier- und Lieferservice, der Empfangsservice, die Erbringung von Dienstleistungen im Hotellerie- und Gastronomiebereich, insbesondere Ordnung und Service, sowie der Online-Handel mit Waren aller Art, soweit dies nicht einer besonderen Genehmigung bedarf, insbesondere mit Hard- und Software sowie Büromaterialien.",
+    "register_court": "Düsseldorf",
+    "register_number": "100352",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Wiesenstr. 51 / Clarissenstr. 63, 40549 Düsseldorf",
+     "postal_code": "40549",
+     "street": "Wiesenstr. 51 / Clarissenstr. 63"
+    },
+    "company_id": "DE-HRB-R1101-100419",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "N-SEC GmbH",
+    "purpose": "Das Sicherheits- und Bewachungsgewerbe, Personaldienstleistungen in allen Bereich, wie z. B. Service auf Veranstaltungen und im Eingangsbereich, Beratung, Reinigung, Kurierdienst, Chaffeur-Dienste, Onlinedienstleistungen und Werbung von Produkten im Netz.",
+    "register_court": "Düsseldorf",
+    "register_number": "100419",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Helmholtzstraße 28, 40215 Düsseldorf",
+     "postal_code": "40215",
+     "street": "Helmholtzstraße 28"
+    },
+    "company_id": "DE-HRB-R1101-56318",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "T.S.S. GmbH Trust Security Service",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen aller Art, insbesondere Objektschutz, Detektei, Personenschutz, Limousinenservice, Hundestaffel, Brandschutz, Veranstaltungsschutz, Alarmverfolgung sowie der Baustellenservice (Bauhelfer), Facility Management, Hostess Service und der Handel (Im- und Export) mit Waren aller Art, der keiner staatlichen Genehmigung bedarf.",
+    "register_court": "Düsseldorf",
+    "register_number": "56318",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Graf-Adolf-Straße 23, 40212 Düsseldorf",
+     "postal_code": "40212",
+     "street": "Graf-Adolf-Straße 23"
+    },
+    "company_id": "DE-HRB-R1101-96572",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Amoon Security GmbH",
+    "purpose": "Die Bewachung von Leben (Personenschutz), Grundstücken und Gebäuden (Objektschutz) und sonstigen fremden Eigentums.",
+    "register_court": "Düsseldorf",
+    "register_number": "96572",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Grafenberger Allee 293, 40237 Düsseldorf",
+     "postal_code": "40237",
+     "street": "Grafenberger Allee 293"
+    },
+    "company_id": "DE-HRB-R1101-66133",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "A.C.P. Security & Service GmbH",
+    "purpose": "Das Bewachungsgewerbe, Observationen und Recherche (Detektei) und die Durchführung von Fitness-Einheiten sowie hausmeisterübliche Tätigkeiten, die keiner Eintragung bei der Handwerkskammer bedürfen und Multi Service.",
+    "register_court": "Düsseldorf",
+    "register_number": "66133",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Kaiserswerther Straße 215, 40474 Düsseldorf",
+     "postal_code": "40474",
+     "street": "Kaiserswerther Straße 215"
+    },
+    "company_id": "DE-HRB-R1101-31374",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Detektei Astor International Gesellschaft für Ermittlungen, Beobachtungen und Erforschunden mbH",
+    "purpose": "Die Durchführung von Ermittlungen, Beobachtungen und Erforschungen aller Art, insbesondere für die gewerbliche Wirtschaft zum Zwecke der Abwehr von Patentverletzungen und Werkspionage sowie die Bewachung und Überwachung von Personen und Objekten.",
+    "register_court": "Düsseldorf",
+    "register_number": "31374",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Kamper Weg 119, 40627 Düsseldorf",
+     "postal_code": "40627",
+     "street": "Kamper Weg 119"
+    },
+    "company_id": "DE-HRB-R1101-107607",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NRW Security Protect UG (haftungsbeschränkt)",
+    "purpose": "Der Betrieb einer Sicherheitsfirma.",
+    "register_court": "Düsseldorf",
+    "register_number": "107607",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Königsallee 60 F, 40212 Düsseldorf",
+     "postal_code": "40212",
+     "street": "Königsallee 60 F"
+    },
+    "company_id": "DE-HRB-R1101-90629",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "HEROS Consulting Plus GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen im Bereich Sicherheitsdienste, Messe- und Veranstaltungsdienste, Sicherheitsdienste für den Einzelhandel, Kurierdienste, Geld- und Werttransporte, Gebäudemanagement, Pforten- und Empfangsdienste, Gästebetreuung bei Meetings/Konferenzen und Veranstaltungen, Shuttleservice, Gastronomie- und Club Security, Medien Security, Veranstaltungsschutz, Personenschutz, Sicherheitsberatung für Privatpersonen und Unternehmen. Des weiteren ist Gegenstand die gewerbsmäßige Arbeitnehmerüberlassung sowie die Personalvermittlung. Ferner ist Gegenstand des Unternehmens die Leitung und Planung von Veranstaltungen und deren Bewirtung.",
+    "register_court": "Düsseldorf",
+    "register_number": "90629",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Wahlerstr. 2 a, 40472 Düsseldorf",
+     "postal_code": "40472",
+     "street": "Wahlerstr. 2 a"
+    },
+    "company_id": "DE-HRB-R1101-57488",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SECURITAS Services GmbH",
+    "purpose": "Die Durchführung deutschland-, europa- und weltweiter Ausbildungen, insbesondere im Zusammenhang mit Qualifikationsanforderungen in Belangen der Armee oder Behörden; Dienstleistungen aller Art im Bereich der Industrie-, Wirtschafts-, Gewerbe- und Werkssicherheit, insbesondere Schutz von Personen, Gegenständen, Rechten und sonstigen Werten, auch ideeller Art, vor Angriffen, Bedrohungen, Gefährdungen oder Verletzungen gleich welcher Art und welcher Ursachen; die Durchführung von Ermittlungen und Beweissicherungen im Falle von Verletzungen vorbezeichneter Schutzgüter, Beratungen in allen Angelegenheiten der Industrie-, Wirtschafts, Gewerbe- und Werkssicherheit, jedoch sämtlich mit Ausnahme nicht genehmigter erlaubnispflichtiger Dienstleistungen und Tätigkeiten; die Herstellung und Lieferung von Erzeugnissen des sicherheitstechnischen Bedarfs jeder Art, insbesondere für und an Industrie, Handel, Handwerk, Gewerbe und Privatpersonen sowie den öffentlich-rechtlichen und sonstigen privatrechtlichen Bereich, jedoch sämtlich mit Ausnahme nicht genehmigter erlaubnispflichter Herstellung und Lieferung; die Überwachung des fließenden und ruhenden Verkehrs.",
+    "register_court": "Düsseldorf",
+    "register_number": "57488",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Kölner Straße 216 A, 40227 Düsseldorf",
+     "postal_code": "40227",
+     "street": "Kölner Straße 216 A"
+    },
+    "company_id": "DE-HRB-R1101-109911",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "P&A Shadow Solutions UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen sowie die Beratung und Vermittlung im Bereich der Bewachung.",
+    "register_court": "Düsseldorf",
+    "register_number": "109911",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Spielberger Weg 48, 40474 Düsseldorf",
+     "postal_code": "40474",
+     "street": "Spielberger Weg 48"
+    },
+    "company_id": "DE-HRB-R1101-92727",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Sec-Log GmbH",
+    "purpose": "Logistik- und Servicedienstleistungen, ein Sicherheitsdienst, Winterdienst, Betriebssanitäter und Staplerfahrer.",
+    "register_court": "Düsseldorf",
+    "register_number": "92727",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Bismarckstr. 104, 40210 Düsseldorf",
+     "postal_code": "40210",
+     "street": "Bismarckstr. 104"
+    },
+    "company_id": "DE-HRB-R1101-91025",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Osman UG (haftungsbeschränkt)",
+    "purpose": "Hausmeisterservice und Versorgung, Objektmanagement, Gebäudereinigung, Gartenpflege, Winterdienst, sowie genehmigungsfreie Überwachungsdienste. Die Führung von gastronomischen Einrichtungen insbesondere eines Imbisses, sowie der Vertrieb von Lebensmitteln und alle damit im Zusammenhang stehenden Rechtsgeschäfte, ohne Alkoholverkauf und ohne besondere Genehmigung.",
+    "register_court": "Düsseldorf",
+    "register_number": "91025",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Wallstraße 16, 40213 Düsseldorf",
+     "postal_code": "40213",
+     "street": "Wallstraße 16"
+    },
+    "company_id": "DE-HRB-R1101-107376",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ICONSULT 47 GmbH",
+    "purpose": "Beratung von Unternehmen und Industrie, inbesondere aus dem Speditions- und Logistikbereich, Analysetätigkeiten und Sicherheitstransport von und Handel mit Valoren und Edelsteinen sowie Trainings zum Selbstschutz.",
+    "register_court": "Düsseldorf",
+    "register_number": "107376",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Pfalzstraße 23, 40477 Düsseldorf",
+     "postal_code": "40477",
+     "street": "Pfalzstraße 23"
+    },
+    "company_id": "DE-HRB-R1101-98362",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SECURAD GmbH",
+    "purpose": "Die Erbringung von Bewachungs- und Sicherheitsdienstleistungen.",
+    "register_court": "Düsseldorf",
+    "register_number": "98362",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Duisburg",
+     "country": "DE",
+     "formatted_value": "Hochfelder Straße 71, 47226 Duisburg",
+     "postal_code": "47226",
+     "street": "Hochfelder Straße 71"
+    },
+    "company_id": "DE-HRB-R1101-103862",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SecProDef UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen aller Art, insbesondere von Veranstaltungssicherheit sowie Personen- und Objektschutz, Fahrzeugüberführungen und Reinigungsdienstleistungen aller Art.",
+    "register_court": "Düsseldorf",
+    "register_number": "103862",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Karl-Hohmann-Straße 70, 40597 Düsseldorf",
+     "postal_code": "40597",
+     "street": "Karl-Hohmann-Straße 70"
+    },
+    "company_id": "DE-HRB-R1101-108895",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Experts-Kollegen Multiservices GmbH",
+    "purpose": "Erbringung von Dienstleistungen im Bereich der Gebäudereinigung, von Abrissarbeiten, Garten- und Landschaftstätigkeiten, Vermittlung von Dienstleistungen, soweit hierfür keine besondere Erlaubnis erforderlich ist, Erbringung von Dienstleistungen im Bereich der Sicherheit und des Schutzes, insbesondere die Bewachung von Objekten, Gebäuden, Grundstücken und Anlagen, die Durchführung von Kontroll- und Revierdiensten, die Übernahme von Empfangs- und Pförtnerdiensten, die Gewährleistung von Sicherheit bei Events und Veranstaltungen, die Durchführung von Brandwachen, die Schlüsselaufbewahrung und -verwaltung sowie die Beratung und Erstellung von Konzepten in sicherheitsrelevanten Angelegenheiten.",
+    "register_court": "Düsseldorf",
+    "register_number": "108895",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Königsallee 27, 40212 Düsseldorf",
+     "postal_code": "40212",
+     "street": "Königsallee 27"
+    },
+    "company_id": "DE-HRB-R1101-100359",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Sparta Secure & Finance GmbH",
+    "purpose": "Die Erbringung von Wach- und Schließdiensten aller Art, Personen- und Objektschutz, Schutz von Personen und Rechten, Transportsicherungen und Kurierdienste, Sicherheitstransporte, Handels- und individuelle Personenauskünfte aller Art, Vertrieb und Montage von Alarm- und Raumschutzanlagen, die gewerbsmäßige Bearbeitung von Banknoten und Hartgeld sowie die Durchführung von Geld- und Werttransporten; Wirtschafts- und Unternehmungsberatung, die elektronische Datenverarbeitung, die Durchführung mechanischer Arbeitsgänge bei der Führung von Büchern und Aufzeichnungen für die Besteuerung von der Bedeutung der Buchungen laufender Geschäftsvorfälle, laufende Lohnabrechnungen, das Fertigen von Lohnsteueranmeldungen sowie weitere Dienstleistungen, Unternehmensberatung; Vermittlung von Versicherungs- und Finanzdienstleistungen aller Art; Vermittlung von sonstigen zulässigen Dienstleistungen, soweit deren Vermittlung nicht genehmigungspflichtig ist; Vermittlung von Medien- und Telekommunikationsverträgen aller Art; Betreiben von Preisvergleichen aller Art; Betrieb einer Media-, Werbe- und Vermarktungsagentur, Betrieb von Internet-Plattformen, sowie Entwicklung und Betrieb von Management- und Servicedienstleistungen für andere Unternehmen. Die Erbringung von Finanzdienstleistungen im Sinne von § 1 Abs. 1a KWG ist nicht Gegenstand des Unternehmens, ebenso nicht die Anlagevermittlung im Sinne des § 1 Abs. 1a lit. a KWG.",
+    "register_court": "Düsseldorf",
+    "register_number": "100359",
+    "register_type": "HRB"
+   }
+  ]
+ },
+ "total_pages": 6,
+ "total_results": 177
+}

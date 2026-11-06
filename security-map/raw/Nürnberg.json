@@ -1,0 +1,1417 @@
+{
+ "city": "Nürnberg",
+ "pages": {
+  "1": [
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Breslauer Straße 396, 90471 Nürnberg",
+     "postal_code": "90471",
+     "street": "Breslauer Straße 396"
+    },
+    "company_id": "DE-HRB-D3310-46027",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "WSO Security Options GmbH",
+    "purpose": "Betrieb eines Sicherheitsdienstes, insbesondere Werk- und Objektschutz, Revierdienste, Sonderdienste, Bewachungen, Veranstaltungsservice als Absicherung von Veranstaltungen, Personenschutz, Detektei, Ermittlungsdienste, Observationen, Gefahrenanalyse, Sicherheitsberatung und Sicherheitskonzepte.",
+    "register_court": "Nürnberg",
+    "register_number": "46027",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Storchenweg 45a, 90480 Nürnberg",
+     "postal_code": "90480",
+     "street": "Storchenweg 45a"
+    },
+    "company_id": "DE-HRB-D3310-45919",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ATAS Security GmbH",
+    "purpose": "die Erbringung von Bewachungs-, Schutz- und Sicherheitsdienstleistungen gemäß § 34a GewO und der BewachV, insbesondere: 1. Kombination personeller Bewachungsleistungen mit technischen und digitalen Sicherheitssystemen einschließlich IT-gestützter Fernüberwachung sowie sicherheitsbezogener Dienstleistungen, insbesondere Objekt- und Werkschutz für Baustellen, Industrie-, Gewerbe- und Wohnobjekte, Behörden, kritische Infrastrukturen und sonstige schutzbedürftige Einrichtungen; 2. Betrieb und Durchführung von Fernüberwachung über eine zentrale Leitstelle (Monitoring-Center) sowie Kontroll- und Alarmverfolgungsdienste; 3. Vertrieb, Lieferung, Vermietung, Aufstellung, Inbetriebnahme sowie Wartung und Service von mobilen, batterie- oder steckerfertigen sicherheitsrelevanten technischen und digitalen Systemen, insbesondere Videotürmen, Kamerasystemen und KI-gestützten Überwachungslösungen, soweit keine zulassungspflichtigen handwerklichen Tätigkeiten im Sinne der Handwerksordnung ausgeführt werden; 4. Veranstaltungs-, Ordnungs- und Besuchersicherheitsdienste bei öffentlichen und nichtöffentlichen Veranstaltungen sowie Brandschutz-, Evakuierungs- und Brandsicherheitswachdienste; 5. Empfangs-, Pforten-, Kontroll- und Zutrittsdienste einschließlich Besucher- und Ausweismanagement sowie Einlass- und Türdienste gemäß § 34a GewO; 6. Personen-, Begleit- und Schutzdienste, soweit gesetzlich zulässig; 7. Wertschutz- und Werttransportdienstleistungen; 8. Sicherheitsberatung sowie Risiko-, Schwachstellen- und Gefährdungsanalysen und die Erstellung von Schutz-, Sicherheits- und Präventionskonzepten, soweit erlaubnisfrei; 9. Alle mit dem Sicherheits- und Bewachungsgewerbe unmittelbar oder mittelbar zusammenhängenden Dienstleistungen und Unterstützungsleistungen, die geeignet sind, den Gesellschaftszweck zu fördern.",
+    "register_court": "Nürnberg",
+    "register_number": "45919",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Hummelsteiner Weg 32, 90459 Nürnberg",
+     "postal_code": "90459",
+     "street": "Hummelsteiner Weg 32"
+    },
+    "company_id": "DE-HRB-D3310-45574",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FSB Rail Service GmbH",
+    "purpose": "die Erbringung von Sicherungs- und Überwachungsdienstleistungen im Bereich der Eisenbahninfrastruktur, insbesondere die Gleisbausicherung.",
+    "register_court": "Nürnberg",
+    "register_number": "45574",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Landgrabenstr. 83, 90443 Nürnberg",
+     "postal_code": "90443",
+     "street": "Landgrabenstr. 83"
+    },
+    "company_id": "DE-HRB-D3310-45570",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NexSec Sicherheitsdienst UG (haftungsbeschränkt)",
+    "purpose": "die Erbringung von Sicherheitsdienstleistungen nach § 34a GewO, insbesondere die Bewachung von Objekten und Anlagen (Objektschutz), Veranstaltungs- und Eventschutz, Empfangs-, Pförtner- und Kontrolltätigkeiten, Revier- und Streifendienste, Laden- und Doorman-Tätigkeiten, Durchführung von Ordnungs- und Kontrollaufgaben sowie die Erbringung von Service- und Unterstützungsleistungen im Rahmen von Sicherheits- und Bewachungskonzepten.",
+    "register_court": "Nürnberg",
+    "register_number": "45570",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Allersberger Straße 123, 90461 Nürnberg",
+     "postal_code": "90461",
+     "street": "Allersberger Straße 123"
+    },
+    "company_id": "DE-HRB-D3310-45367",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "A & R Security - Service GmbH",
+    "purpose": "die Erbringung von Dienstleistungen in den Bereichen: Sicherheitsdienstleistungen, Sicherheitsberatung, Sicherheitskonzept, Interventionskraft, Garderobenservice, Kassenkräfte/-service, Info Counter (Auskunft- / Informationsstelle im Auftrag des Veranstalters, Wegweisung, allgemeine veranstaltungsbezogene Informationen, Helpdesk etc.), Hostessen und Host (Service- und Messehostessen), Dolmetscher/ Übersetzer, Parkraumservice und Parkraummanagement, Promoter, Gastronomie und Bankettservice, Interviewertätigkeiten, Projektleitung. Arbeitnehmerüberlassung ist nicht Gegenstand des Unternehmens.",
+    "register_court": "Nürnberg",
+    "register_number": "45367",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Neumeyerstraße 90, 90411 Nürnberg",
+     "postal_code": "90411",
+     "street": "Neumeyerstraße 90"
+    },
+    "company_id": "DE-HRB-D3310-37082",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Götz-Bahnservice Süd GmbH",
+    "purpose": "Schutz und Bewachung von Personen, Anlagen, Gebäudlichkeiten, Wirtschaftsgütern jeder Art durch Dienstleistungen und Überwachungsanlagen, auch bei Beförderung von Personen und Wirtschaftsgütern, Durchführung von Werttransporten aller Art, Herstellung von und Handel mit Sicherheits- und Überwachungsanlagen aller Art, Absicherung und Arbeiten im Gefahrenbereich von Gleisanlagen, Absicherung von Straßenbaustellen, Straßenrand- und Landschaftspflege, Winterdienst und alle einschlägigen Dienstleistungen und Arbeitnehmerüberlassung.",
+    "register_court": "Nürnberg",
+    "register_number": "37082",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Willy-Brandt-Platz 10, 90402 Nürnberg",
+     "postal_code": "90402",
+     "street": "Willy-Brandt-Platz 10"
+    },
+    "company_id": "DE-HRB-D3310-38315",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Berg GmbH",
+    "purpose": "der Betrieb eines Sicherheitsdienstes sowie die Erbringung von Service- und Beratungsleistungen in diesem Bereich.",
+    "register_court": "Nürnberg",
+    "register_number": "38315",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Dieselstraße 26 a, 90441 Nürnberg",
+     "postal_code": "90441",
+     "street": "Dieselstraße 26 a"
+    },
+    "company_id": "DE-HRB-D3310-31807",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ProRec GmbH",
+    "purpose": "Der (Akustik-)Trockenbau, Hausmeister- und Gartenservice, Entrümpelungen, Baustellenreinigung, Bautenschutz, zulassungsfreie Abbrucharbeiten einschließlich Entsorgung und Hilfsarbeiten im Recyclingbereich. Weiterer Gegenstand des Unternehmens sind Gütertransporte, Baustellenbewachung und Detektei.",
+    "register_court": "Nürnberg",
+    "register_number": "31807",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Gabelsberger Str. 22, 90459 Nürnberg",
+     "postal_code": "90459",
+     "street": "Gabelsberger Str. 22"
+    },
+    "company_id": "DE-HRB-D3310-36854",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Davali-Group UG (haftungsbeschränkt)",
+    "purpose": "Gegenstand des Unternehmens ist - Security, - Heimfahrservice, - Handel mit Kraftstoff, - Bauvermittlung, - Büroservice (Bürodienstleistung), - Halten und Verwalten von Unternehmensbeteiligungen, - KFZ-Kosmetik (Autopflege, Innen- und Außenreinigung, Waschen, Polieren mit der Hand), - An- und Verkauf von Kfz-Gebrauchtwagen.",
+    "register_court": "Nürnberg",
+    "register_number": "36854",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Sulzbacher Straße 33, 90489 Nürnberg",
+     "postal_code": "90489",
+     "street": "Sulzbacher Straße 33"
+    },
+    "company_id": "DE-HRB-D3310-13779",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Noris Merkur GmbH",
+    "purpose": "Die gewerbsmäßige Bewachung von Leben und Eigentum fremder Personen, Ermittlungen für Unternehmen und sonstige Auftraggeber, Wirtschaftsberatung, insbesondere im Bereich der Unternehmenssicherheit sowie die Vermittlung von Versicherungen, ausgenommen jedoch rechts- und steuerberatende Tätigkeiten.",
+    "register_court": "Nürnberg",
+    "register_number": "13779",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Altenfurter Str. 82 a, 90475 Nürnberg",
+     "postal_code": "90475",
+     "street": "Altenfurter Str. 82 a"
+    },
+    "company_id": "DE-HRB-D3310-28037",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SID-GmbH",
+    "purpose": "- die Erbringung von Sicherheitsdienstleistungen nach § 34 a GewO; -die Aus- und Fortbildung im Bereich Gefahrenabwehr- und Risikomanagement ;-die Gefahrenabwehrplanung für Firmen, Institutionen und öffentliche Einrichtungen; - die Aus- und Fortbildung im Bereich Schusswaffen nach den gesetzlichen Bestimmungen ;- die Koordination und Planung von Events;die Erbringung von sanitätsdienstlichen bzw. \"Erste-Hilfe\"-Leistungen; - die Vermittlung medizinischer Laienkenntnisse sowie die Planung und Durchführung entsprechender Fortbildungen; Tätigkeiten gemäß dem Heilpraktikergesetz sind ausdrücklich nicht Gegenstand des Unternehmens; - die Beratung, Schulung, Vorbereitung und Abhaltung von Seminaren, die Durchführung von Testhandlungen, Überprüfung (Controlling) und Vermittlung sowie die Bereitstellung von Gerätschaften und Hilfsmitteln, welche die oben genannten Bereiche betreffen; - der Handel mit Waren der Bereiche Gefahrenabwehr, Intervention, Prävention und Sicherheit, - die Erbringung von Dienstleistungen im Bereich Gefahrenabwehr, Intervention und Prävention; - der Handel mit Waffen, Munition und deren gesetzlich gleichgestellten Gegenständen gemäß gesetzlicher Bestimmungen; - die Erbringung von Dienstleistungen im Bereich Waffen und Munition für berechtigte Besitzer. Eine genehmigungspflichtige Beratungstätigkeit (insbesondere in Rechtsoder Steuerangelegenheiten) ist nicht Gegenstand des Unternehmens.",
+    "register_court": "Nürnberg",
+    "register_number": "28037",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Rathsbergstraße 26, 90411 Nürnberg",
+     "postal_code": "90411",
+     "street": "Rathsbergstraße 26"
+    },
+    "company_id": "DE-HRB-D3310-6501",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Moritz Fürst Sicherheitsdienst Gesellschaft mit beschränkter Haftung",
+    "purpose": "Bewachung von Gebäuden, Personenschutz, Geldtransport und alle Aufgaben, welche Sicherheit betreffen, sowie Herstellung und Vertrieb von Sicherheitssystemen aller Art.",
+    "register_court": "Nürnberg",
+    "register_number": "6501",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Forsterstr. 110, 90441 Nürnberg",
+     "postal_code": "90441",
+     "street": "Forsterstr. 110"
+    },
+    "company_id": "DE-HRB-D3310-37457",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DFAZ GmbH",
+    "purpose": "Der Abschleppdienst, die Vermittlung von Abschleppaufträgen und von Kfz-Reparaturen, der Kfz-Handel, der Handel mit Kfz-Teilen, die Kfz-Verwertung, Kfz-Transporte und -Überführungen, der Güterkraftverkehr, ferner alle Tätigkeiten eines Sicherheitsdienstes, insbesondere Bewachung von zugangsgeschützten Großveranstaltungen von Einlassbereichen, Citystreifen, etc. sowie erlaubnisfreie Dienstleistungen zur Ahndung von Verkehrsverstößen auf privatem Grund.",
+    "register_court": "Nürnberg",
+    "register_number": "37457",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Wodanstr. 70, 90461 Nürnberg",
+     "postal_code": "90461",
+     "street": "Wodanstr. 70"
+    },
+    "company_id": "DE-HRB-D3310-35819",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MD Sicherheitsdienst UG (haftungsbeschränkt)",
+    "purpose": "Der Betrieb einer Detektei, Sicherheits- und Securitydienst und Personenschutz.",
+    "register_court": "Nürnberg",
+    "register_number": "35819",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Bahnhofstraße 2, 90402 Nürnberg",
+     "postal_code": "90402",
+     "street": "Bahnhofstraße 2"
+    },
+    "company_id": "DE-HRB-D3310-40097",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Blunck Dienstleistungen-Sicherheit GmbH",
+    "purpose": "Betrieb eines Bewachungsgewerbes.",
+    "register_court": "Nürnberg",
+    "register_number": "40097",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Pirckheimerstraße 86, 90409 Nürnberg",
+     "postal_code": "90409",
+     "street": "Pirckheimerstraße 86"
+    },
+    "company_id": "DE-HRB-D3310-30125",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "0911 (NULLNEUNELF) Dienstleistungen GmbH",
+    "purpose": "Sicherheitsdienst, Abbrucharbeiten, An- und Verkauf von Immobilien und grundstücksgleichen Rechten, Gastronomie und Servicedienstleistungen für Gastronomie und Veranstaltungen sowie Verwaltung eigenen Vermögens.",
+    "register_court": "Nürnberg",
+    "register_number": "30125",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Hallerstraße 34, 90419 Nürnberg",
+     "postal_code": "90419",
+     "street": "Hallerstraße 34"
+    },
+    "company_id": "DE-HRB-D3310-34165",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Wahl Sicherheit UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienstleistungen",
+    "register_court": "Nürnberg",
+    "register_number": "34165",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Venatoriusstraße 1, 90455 Nürnberg",
+     "postal_code": "90455",
+     "street": "Venatoriusstraße 1"
+    },
+    "company_id": "DE-HRB-D3310-30375",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MAAX-Forensik-Consulting GmbH",
+    "purpose": "Die Beratung im Bereich Unternehmens- und Produktsicherheit, Sicherheitstechnologien, Ermittlung in Geschäftsangelegenheiten sowie die IT-Forensik, Mobile Forensik und Computerkriminalität.",
+    "register_court": "Nürnberg",
+    "register_number": "30375",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Grolandstr. 5, 90408 Nürnberg",
+     "postal_code": "90408",
+     "street": "Grolandstr. 5"
+    },
+    "company_id": "DE-HRB-D3310-27632",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "All Inclusive Veranstaltungs und Gebäudeservice UG (haftungsbeschränkt)",
+    "purpose": "Hausmeisterservice, Gebäudeservice, Winterdienst, Equipmentvermietung, Ordner und Wachdienste, Lichttechnik, Bühnenbau, Video und Tontechnik.",
+    "register_court": "Nürnberg",
+    "register_number": "27632",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Messezentrum 1, 90471 Nürnberg",
+     "postal_code": "90471",
+     "street": "Messezentrum 1"
+    },
+    "company_id": "DE-HRB-D3310-19453",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Engelhardt & Co. Sicherheit GmbH",
+    "purpose": "Durchführung von Sicherheitsleistungen, insbesondere Veranstaltungschutz, Parkplatzorganisation, Aufsichts- und Kontrolldienste, Kassen- und Garderobendienste sowie sonstige Service-Dienstleistungen bei Messen, Kongressen, Kultur- und Sportveranstaltungen",
+    "register_court": "Nürnberg",
+    "register_number": "19453",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Hans-Bunte-Straße 59, 90431 Nürnberg",
+     "postal_code": "90431",
+     "street": "Hans-Bunte-Straße 59"
+    },
+    "company_id": "DE-HRB-D3310-40163",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Mental Dienstleistungs GmbH",
+    "purpose": "Verpackungsarbeiten, Veranstaltungsservice, Gebäudereinigung, Trockenbau und Auftragsvermittlung in den vorgenannten Bereichen, Erbringung von Security-Diensten, Vermittlung von Wohnungen und die Beförderung von behinderten Personen mit Kraftfahrzeugen sowie Transportdienstleistungen und Zustellung von Paketen.",
+    "register_court": "Nürnberg",
+    "register_number": "40163",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Schweinauer Hauptstraße 80, 90441 Nürnberg",
+     "postal_code": "90441",
+     "street": "Schweinauer Hauptstraße 80"
+    },
+    "company_id": "DE-HRB-D3310-15495",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Eisen Industrie Management GmbH",
+    "purpose": "Die Montage, Demontage und Remontage von Betriebseinrichtungen, Maschinen, Industrieanlagen, Fördertechniken sowie alle Metall- und Schlosserarbeiten, Stahlbau, Metallbe- und -verarbeitung einschließlich Wartung, Reparatur und Instandsetzung, Bewachung gemäß § 34 a GewO, Durchführung von Industrieservice aller Art, Hausmeisterdienste, Facility-Management, Outsourcing sowie Arbeiten nach DIN EN 287 im Schweißbereich.",
+    "register_court": "Nürnberg",
+    "register_number": "15495",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Bülowstraße 30, 90491 Nürnberg",
+     "postal_code": "90491",
+     "street": "Bülowstraße 30"
+    },
+    "company_id": "DE-HRB-D3310-10006",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Tuleweit GmbH",
+    "purpose": "Gegenstand des Unternehmens ist das Lagern, das Verpacken und das Versenden von fremden Industriegütern, der Groß- und Einzelhandel mit Schildern, Vereins- und Geschenkartikeln, sowie Dienstleistungen für die Durchführung von Veranstaltungen aller Art, insbesondere Bewachung und Kassendienst. Gegenstand des Unternehmens ist auch die Beteiligung an und die Übernahme von anderen Unternehmen gleich welcher Art, einschließlich der Übernahme der Geschäftsführung, Vertretung sowie Verwaltung von Unternehmen.",
+    "register_court": "Nürnberg",
+    "register_number": "10006",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Schleifweg 45, 90409 Nürnberg",
+     "postal_code": "90409",
+     "street": "Schleifweg 45"
+    },
+    "company_id": "DE-HRB-D3310-42940",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NBS Nürnberger Bewachungs Service GmbH",
+    "purpose": "die Erbringung von Sicherheitsdienstleistungen, insbesondere von - Revier- und Streifendiensten - Personenschutz - Veranstaltungsbetreuung - Hostessservice - Pfortendienste - Einsatz von Diensthunden - Baustellenbewachung - Objektschutz sowie die Erbringung von Chauffeurdienstleistungen.",
+    "register_court": "Nürnberg",
+    "register_number": "42940",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Marpergerstr. 29, 90455 Nürnberg",
+     "postal_code": "90455",
+     "street": "Marpergerstr. 29"
+    },
+    "company_id": "DE-HRB-D3310-23711",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "kyu:b production GmbH",
+    "purpose": "Durchführung und technische Leitung von Veranstaltungen, Eventmanagement, Veranstaltungsservice, Hostessenservice, Promotion, Sicherheitsberatung (keine gewerbliche Sicherheit), Gestellung von technischem Hilfs- und Fachpersonal, Vertrieb von Bekleidung und Optik, Merchandising (Fanartikelverkauf), Tribünenbau, Zeltbau, unbeschränkte Bewachungstätigkeit im Sinne des § 34a GewO.",
+    "register_court": "Nürnberg",
+    "register_number": "23711",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Äußere Sulzbacher Str. 11, 90489 Nürnberg",
+     "postal_code": "90489",
+     "street": "Äußere Sulzbacher Str. 11"
+    },
+    "company_id": "DE-HRB-D3310-42232",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AZ Personenschutz GmbH",
+    "purpose": "Dienstleistungen im Bereich eines Sicherheitsdienstes und eines Transportdienstes sowie alle im Zusammenhang stehende Tätigkeiten.",
+    "register_court": "Nürnberg",
+    "register_number": "42232",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Kafkastraße 6, 90471 Nürnberg",
+     "postal_code": "90471",
+     "street": "Kafkastraße 6"
+    },
+    "company_id": "DE-HRB-D3310-21406",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "471 Service GmbH",
+    "purpose": "Erbringung von Leistungen der Kantinenbewirtschaftung, Reinigung von Restaurantbetrieben, deren Küchen, Geschirr, Gläser, Besteck, Einkaufswagenrückholdiensten, hauswirtschaftlichen Verrichtungen, insbesondere im Rahmen der Unterstützung und Betreuung von hilfsbedürftigen Personen sowie die gewerbsmäßige Arbeitnehmerüberlassung, Telefondiensten, Bürohilfstätigkeiten, Lagerverwaltung und Regalbefüllungsdiensten, Beförderungs- und Kurierdiensten, soweit hierfür keine Erlaubnisse oder Gestattungen nach dem Personenbeförderungsgesetz bzw. Güterkraftverkehrsgesetz erforderlich sind, Entsorgungsdiensten soweit hierfür keine abfallrechtlichen Erlaubnisse oder Gestattungen erforderlich sind, Beratungs- und Consultingleistungen mit Ausnahme der Rechtsberatung, Gebäudemanagement samt Übernahme von Bewachungsdiensten, technische Hilfsdienste im Bereich des Gebäudemanagement und Hausmeisterdiensten.",
+    "register_court": "Nürnberg",
+    "register_number": "21406",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Oedenberger Straße 151, 90491 Nürnberg",
+     "postal_code": "90491",
+     "street": "Oedenberger Straße 151"
+    },
+    "company_id": "DE-HRB-D3310-28181",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Güntra GmbH",
+    "purpose": "Die Herstellung von Reinigungs- und Pflegemitteln, der Handel mit und die Reinigung von Möbeln einschließlich Bettmatratzen, Kopfkissen, Bettwäsche sowie technischer Ausstattung von Gemeinschaftseinrichtungen, die Durchführung von Bauarbeiten, nämlich Gaststätten-Innenausbau, Trockenbau und Altbausanierung, der Holz- und Bautenschutz durch Auftragen von Imprägnierungsmitteln, die Tapetenbearbeitung sowie Wand- und Deckengestaltung, die Gebäudereinigung (innen und außen), die Übernahme von Hausmeisterdiensten, nämlich Reinigung, Schneeräumen, Baumbeschneidung, Rasenmähen, Gartenpflege, Gartengestaltung, Laubentfernung, Taubenvergrämung, Schädlingsbekämpfung, Durchführung von Umzügen, Bewachung, Aufzugsbewachung, Türöffnung.",
+    "register_court": "Nürnberg",
+    "register_number": "28181",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Galgenhofstr. 21, 90459 Nürnberg",
+     "postal_code": "90459",
+     "street": "Galgenhofstr. 21"
+    },
+    "company_id": "DE-HRB-D3310-18154",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Service First GmbH",
+    "purpose": ". Personaldienstleistungen . Arbeitnehmerüberlassung . Studentische Zeitarbeit . Messe- und Eventservice . Büroservice . Schulungen von Personal und Seminare . Unternehmensberatung . Personalvermittlung . Bewachung . Einkauf und Verkauf von: Asiatische Spezialitäten Brot und Brotaufstriche Getreide und Getreideprodukte Nusskerne, Trockenfrüchte und Kokosprodukte Lebensmittel, Süßungsmittel Gebäck, Snacks und Süßwaren Desserts und Backzutaten Milchalternativen Saucen und Feinkost Convenience Würzmittel, Tee, Kaffee und Kaffeeersatz Getränke Kosmetik Zahn- und Mundpflege Seife Dekorative Kosmetik Düfte und Raumbeduftung Räucherwerk Naturdrogerie - Wasch-, Putz- und Reinigungsmittel Hygienebedarf Naturdrogerie - Baby und Kind Naturdrogerie-Gesundheit und Wohlbefinden Körperpflege Bekleidung und Accessoires Haushaltsbedarf Kerzen, Bürsten, Kämme und Schwämme Rasierer und Zubehör Insektenschutz und Schädlingsabwehr Tiernahrung und -pflege Saatgut und Pflanzennahrung Nahrungsergänzung und Medizinprodukte Freiverkäufliche Arzneimittel Bücher",
+    "register_court": "Nürnberg",
+    "register_number": "18154",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Steiner Weg 69, 90449 Nürnberg",
+     "postal_code": "90449",
+     "street": "Steiner Weg 69"
+    },
+    "company_id": "DE-HRB-D3310-32969",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Optima Facility UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Dienstleistungen bzw. die Übernahme und Durchführung von Arbeiten in folgen den Bereichen: - Veranstaltungsservice, Gastroservice, Promotion, - Sicherheitsdienst, Pförtnertätigkeit, Detektei, - Zeitarbeit, Vermittlung von Arbeitskräften, - Hausmeisterdienst, Facility Service, Gartenarbeiten, Reinigungsarbeiten, Vogelabwehr, Winterdienst und Bürodienst, - Bau- und Renovierungsarbeiten.",
+    "register_court": "Nürnberg",
+    "register_number": "32969",
+    "register_type": "HRB"
+   }
+  ],
+  "2": [
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Kafkastr. 6, 90471 Nürnberg",
+     "postal_code": "90471",
+     "street": "Kafkastr. 6"
+    },
+    "company_id": "DE-HRB-D3310-28900",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "KATTtime GmbH",
+    "purpose": "- die Glas-, Gebäude- und Großflächenreinigung, - die Durchführung von Wartungs-, Reparatur-, Instandhaltungs- und Reinigungsarbeiten an Produktions- und Energieanlagen, - die gewerbsmäßige Arbeitnehmerüberlassung und das gewerbsmäßige Bewachen von Leben oder Eigentum fremder Personen gemäß § 34 a Abs. 1 der Gewerbeordnung.",
+    "register_court": "Nürnberg",
+    "register_number": "28900",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Kafkastraße 6, 90471 Nürnberg",
+     "postal_code": "90471",
+     "street": "Kafkastraße 6"
+    },
+    "company_id": "DE-HRB-D3310-666",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Peter Kattenbeck Gesellschaft mit beschränkter Haftung",
+    "purpose": "a) die Glas- Gebäude- und Großflächenreinigung b) die Durchführung von Wartungs-, Reparatur-, Instandhaltungs- und Reinigungsarbeiten an Produktions- und Energieanlagen c) die gewerbsmäßige Arbeitnehmerüberlassung und gewerbsmäßige Bewachung von Leben oder Eigentum fremder Personen gemß § 34a Abs. 1 der Gewerbeordnung d) die Verkehrssicherung, Baustellenabsicherung, Erstellung von Verkehrszeichenplänen, Einholung verkehrsrechtlicher Anordnungen (VAO) sowie Vermietung und Aufbau von Verkehrstechnik.",
+    "register_court": "Nürnberg",
+    "register_number": "666",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Ludwigshafen",
+     "country": "DE",
+     "formatted_value": "Wöllnerstr. 12 b, 67065 Ludwigshafen",
+     "postal_code": "67065",
+     "street": "Wöllnerstr. 12 b"
+    },
+    "company_id": "DE-HRB-D3310-41117",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BK'S UG (haftungsbeschränkt)",
+    "purpose": "Kfz-Aufbereitung und das Bewachungsgewerbe.",
+    "register_court": "Nürnberg",
+    "register_number": "41117",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Kloster-Ebrach-Str. 45, 90453 Nürnberg",
+     "postal_code": "90453",
+     "street": "Kloster-Ebrach-Str. 45"
+    },
+    "company_id": "DE-HRB-D3310-36953",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CELSAT TOP-Security GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens, die erlaubnispflichtige Bewachung insbesondere nach § 34 a GewO, die gewerbsmäßige Arbeitnehmerüberlassung sowie die Personalvermittlung.",
+    "register_court": "Nürnberg",
+    "register_number": "36953",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Lorenzer Platz 12, 90402 Nürnberg",
+     "postal_code": "90402",
+     "street": "Lorenzer Platz 12"
+    },
+    "company_id": "DE-HRB-D3310-34901",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "transactio gmbh",
+    "purpose": "Die Erbringung von Dienstleistungen für Kreditinstitute sowie für mit solchen im Zusammenhang stehende und sonstige Unternehmen, im Bereich a) der Sicherheitstransporte, insbesondere Geld- und Werttransporte, von mit diesen Transporten, vor- und nachgelagert, in Beziehung stehende Dientsleistungen, wie das Bargeld, Edelmetall- und SB-Geräte-Management sowie b) der Überwachung der physischen Sicherheit von Personen und der Sicherheit von Sachgütern und c) der unternehmensinternen Postbearbeitung, Fahr- , Kurier- und Hausmeisterdienste.",
+    "register_court": "Nürnberg",
+    "register_number": "34901",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Amtmannsbrücklein 4 b, 90475 Nürnberg",
+     "postal_code": "90475",
+     "street": "Amtmannsbrücklein 4 b"
+    },
+    "company_id": "DE-HRB-D3310-22991",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SKI Wach- und Sicherheitsgesellschaft GmbH",
+    "purpose": "Bewachung und der Schutz von Personen und Sachen sowie die Durchführung von Ordnungsdiensten, der Verkauf und die Montage von Sicherheitseinrichtungen und die Beratung, Schulung und Konzepterstellung auf dem Gebiet des Personen- und Objektschutzes. Gegenstand sind ferner Rezeptions-, Pforten- und Empfangsdienste, Büroservices, Telefondienste sowie Veranstaltungsservices.",
+    "register_court": "Nürnberg",
+    "register_number": "22991",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Äußere Sulzbacher Str. 121, 90491 Nürnberg",
+     "postal_code": "90491",
+     "street": "Äußere Sulzbacher Str. 121"
+    },
+    "company_id": "DE-HRB-D3310-36173",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Ex-Parts Logistik GmbH",
+    "purpose": "- Im- und Export von Waren aller Art, insbesondere Autoteilen, - die Durchführung von Maurer-, Putz-, Trockenbau- und Fliesenarbeiten, - die Durchführung von Maßnahmen im Rahmen des schlüsselfertigen Bauens, - Sicherheitsdienstleistungen im Sinne von § 34 a GewO, - Sicherheitsdienst, - Objektüberwachung, - Empfangsdienstleistung, - Service-Dienstleistung, - Parkplatz-Service, - Kurierdienst, - Transport, - Hoteldienstleistung, - Hotelservice, - Hotel- und Empfangsdienstleistung, - Gastronomie (Betreiben eines Kaffees), - das Aufstellen von Spielautomaten.",
+    "register_court": "Nürnberg",
+    "register_number": "36173",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Schwabacher Straße 58, 90439 Nürnberg",
+     "postal_code": "90439",
+     "street": "Schwabacher Straße 58"
+    },
+    "company_id": "DE-HRB-D3310-44468",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Mixa Dienstleistungen GmbH",
+    "purpose": "der Betrieb von Gastronomie, Lebensmitteleinzelhandel, Gebäudereinigung, Sicherheitsdiensten sowie Autoaufbereitung.",
+    "register_court": "Nürnberg",
+    "register_number": "44468",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Nimrodstraße 25, 90441 Nürnberg",
+     "postal_code": "90441",
+     "street": "Nimrodstraße 25"
+    },
+    "company_id": "DE-HRB-D3310-30575",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Buta Group GmbH",
+    "purpose": "die Durchführung von Sicherheitsdienstleistungen, insbesondere Werk- und Objektschutz, Personenschutz, Revierdienst, Empfangsdienst, Geld- und Werttransporte, Veranstaltungsschutz und Baustellenüberwachung, Gebäude-, Bau- und Glasreinigung, Sonderreinigung, Hausmeisterdienst, Vermittlung/Überlassung von Arbeitskräften, Vertrieb von Hygieneartikeln, Reinigungsmitteln, Trockenbau, Gleisbau, Glasfaserbau, Gartenlandschaftsbau, Erdkabelverlegung, Transportleistungen bis 3,5 t, An- und Verkauf von Gebrauchtfahrzeugen, Industriemaschinen, Vermietung von Pkw, Lkw, Shuttle Service (Chauffeur/Fahrerservice).",
+    "register_court": "Nürnberg",
+    "register_number": "30575",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Rothenburger Straße 209, 90439 Nürnberg",
+     "postal_code": "90439",
+     "street": "Rothenburger Straße 209"
+    },
+    "company_id": "DE-HRB-D3310-38821",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GDB General Dienstleistungsservice Bayern GmbH",
+    "purpose": "die Durchführung von Sicherheitsdiensten, Reinigungsarbeiten und die Vermittlung von Aufträgen in den Bereichen Reinigungsdienst, Maler- und Lackiererarbeiten, Trockenbau, Bodenbelägen, Autolackiererei, Autopflege, Fliesenlegerarbeiten, Verputzerarbeiten, Mediaprodukten, Mediadienstleistungen und Baumontagearbeiten.",
+    "register_court": "Nürnberg",
+    "register_number": "38821",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Äußere Sulzbacher Straße 159-161, 90491 Nürnberg",
+     "postal_code": "90491",
+     "street": "Äußere Sulzbacher Straße 159-161"
+    },
+    "company_id": "DE-HRB-D3310-39721",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "M2C Deutschland GmbH",
+    "purpose": "Integriertes Facility Management von Gewerbeimmobilien, Vermietung von Gewerbeimmobilien, Handel mit Gebäude- und Umwelttechnik, Betrieb von Kantinen und die Durchführung von Wach- und Sicherheitsdienstleistungen aller Art, insbesondere Objektschutz, Veranstaltungsschutz und Personenschutz gem. § 34a GewO.",
+    "register_court": "Nürnberg",
+    "register_number": "39721",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Vorjurastr. 150, 90453 Nürnberg",
+     "postal_code": "90453",
+     "street": "Vorjurastr. 150"
+    },
+    "company_id": "DE-HRB-D3310-38619",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DISCH Facility Management GmbH",
+    "purpose": "die Durchführung von infrastrukturellen Gebäudedienstleistungen wie Gebäudereinigung in und an Gebäuden jeglicher Art, Catering, Sicherheitsdienste, Gebäudetechnik, kaufmännische Gebäudebewirtschaftung und sonstige Dienstleistungen, die im Rahmen eines Facility Managements erforderlich werden sowie die Durchführung von Verkehrsmittelreinigung, Stemmarbeiten und Montage genormter Baufertigteile.",
+    "register_court": "Nürnberg",
+    "register_number": "38619",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Baierlacherstr. 5 a, 90451 Nürnberg",
+     "postal_code": "90451",
+     "street": "Baierlacherstr. 5 a"
+    },
+    "company_id": "DE-HRB-D3310-31800",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NSS - Nürnberger Sicherheit & Service GmbH",
+    "purpose": "- Bewachen von Leben und Eigentum fremder Personen gem. § 34a der Gewerbeordnung. - Gebäudemanagement, Hausmeisterdienste, Parkplatzmanagement, Empfangsservice, - Groß- und Einzelhandel mit Textilien und Schmuck sowie Elektroartikeln. - Groß- und Einzelhandel mit Kraftfahrzeugen sowie damit zusammenhängenden Waren. - Groß- und Einzelhandel mit KFZ-Zubehör und Kfz-Teilen.",
+    "register_court": "Nürnberg",
+    "register_number": "31800",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Breslauer Str. 350, 90471 Nürnberg",
+     "postal_code": "90471",
+     "street": "Breslauer Str. 350"
+    },
+    "company_id": "DE-HRB-D3310-10696",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Menger Sicherheitsdienste, Verkehrssicherungen und Objektschutz GmbH",
+    "purpose": "Sicherheits- und Ordnungsdienste aller Art, Verkehrssicherung und Objektschutz.",
+    "register_court": "Nürnberg",
+    "register_number": "10696",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Happurger Str. 8, 90482 Nürnberg",
+     "postal_code": "90482",
+     "street": "Happurger Str. 8"
+    },
+    "company_id": "DE-HRB-D3310-38800",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CC-Solution UG (haftungsbeschränkt)",
+    "purpose": "Der Sicherheitsdienst und die Bewachung; dazu zählen der Werk- und Objektschutz für Büro-, Betriebs- und Produktionsräume, Geld- und Werttransport, Personenschutz, Schutz von Events / Veranstaltungsschutz, Sicherheit in Diskotheken und Asylheimen, sowie die allgemeinen Sicherheitsdienstleistungen wie Kontrollgänge in Einkaufspassagen, Baustellen- und Parkraumüberwachung, Empfangstelefon und Pförtnerdienste. Weiterer Gegenstand des Unternehmens ist die Gebäudereinigung. Dazu zählt die Innen- und Außenanlagenreinigung von Büro-, Betrieb- und Produktionsräumen, Hotels, Pensionen und Praxen, Fassadenreinigung sowie Glas- und Fensterreinigung, Grundreinigung, Hausmeisterdienstleistungen und Winterdienst.",
+    "register_court": "Nürnberg",
+    "register_number": "38800",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Bierweg 71, 90411 Nürnberg",
+     "postal_code": "90411",
+     "street": "Bierweg 71"
+    },
+    "company_id": "DE-HRB-D3310-24852",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BB Facility Services GmbH",
+    "purpose": "Die Planung und Erbringung von Dienstleistungen der Gebäudebewirtschaftung und deren Management und alle damit in Zusammenhang stehenden Geschäfte, insbesondere kaufmännische, technische und infrastrukturelle Dienstleistungen. Gegenstand des Unternehmens ist ferner - Veranstaltungsmanagement und Veranstaltungsbetreuung einschließlich Sicherheitsdienst und Cateringservice, - Betrieb und Management von Hotels und Ferienwohnungen/Appartements, - Verwaltung von Immobilien im eigenen und im fremden Namen. Weiter ist Gegenstand des Unternehmens - Wartung/Instandsetzung/Ergänzung und Erweiterung von Sanitär-, Heizungs- und elektrotechnischen Anlagen, - Vermietung von Fahrzeugen, - Erbringung von Sanierungs- und Modernisierungsarbeiten an Bauwerken.",
+    "register_court": "Nürnberg",
+    "register_number": "24852",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Am Steinacher Kreuz 20, 90427 Nürnberg",
+     "postal_code": "90427",
+     "street": "Am Steinacher Kreuz 20"
+    },
+    "company_id": "DE-HRB-D3310-33490",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Deniz Dienstleistungs GmbH",
+    "purpose": "Das Erbringen von Dienstleistungen aller Art, insbesondere im Bereich Sicherheitsdienste, Gebäudereinigung und Gebäudemanagement.",
+    "register_court": "Nürnberg",
+    "register_number": "33490",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Heinrichstraße 49, 90439 Nürnberg",
+     "postal_code": "90439",
+     "street": "Heinrichstraße 49"
+    },
+    "company_id": "DE-HRB-D3310-30295",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SUHEL GmbH",
+    "purpose": "Grundbesitz erwerben, bebauen, renovieren und verkaufen; Ex- und Import von neuen und gebrauchten Waren aller Art, deren Handel erlaubt ist und keine Genehmigung erfordert (z. B. Schmuck, Handys, Uhren, Maschinen aller Art, Autos, Spielsachen); Organisieren und Durchführung von Veranstaltungen, Festen und Konzerten; Durchführung von Dienstleistungen aller Art, die keiner behördlichen Genehmigung bedürfen, z. B. Betrieb einer Bäckerei oder Metzgerei; Organisation von Sicherheitsdiensten; Einzel- und Großhandel mit Fleisch.",
+    "register_court": "Nürnberg",
+    "register_number": "30295",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Untere Kanalstraße 17, 90429 Nürnberg",
+     "postal_code": "90429",
+     "street": "Untere Kanalstraße 17"
+    },
+    "company_id": "DE-HRB-D3310-37810",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BSS (Bors Security Services) Sicherheitsdienst UG (haftungsbeschränkt)",
+    "purpose": "der Betrieb eines Sicherheitsdienstes sowie Tätigkeiten im Bewachungsgewerbe.",
+    "register_court": "Nürnberg",
+    "register_number": "37810",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Allersberger Str. 85, 90461 Nürnberg",
+     "postal_code": "90461",
+     "street": "Allersberger Str. 85"
+    },
+    "company_id": "DE-HRB-D3310-12420",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "S1st SECURITY FIRST Gesellschaft für Detektei und Sicherheit mbH",
+    "purpose": "-Detektei/Kaufhausdetektei, -Sicherheitsberatung - Sicherheitskonzepte - Schwachstellenanalyse, -Krisenmanagement, -Objektschutz, -Personenschutz, -Ausbildung - Schulungen - Seminare, -Spezialaufträge, -Fundservice, insbesondere Einlagerung von Schlüssel, -Online-Shop für generelle sicherheitstechnische Artikel.",
+    "register_court": "Nürnberg",
+    "register_number": "12420",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Erlenstr. 16, 90441 Nürnberg",
+     "postal_code": "90441",
+     "street": "Erlenstr. 16"
+    },
+    "company_id": "DE-HRB-D3310-25076",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "G & K Grünanlagenpflege und Hausordnungsdienste GmbH",
+    "purpose": "Dienstleistung im Bereich Winterdienst, Hausordnung, Büroreinigung, Gartengestaltung und Gartenpflege sowie Kfz.-Handel, Softwareentwicklung und Sicherheitsdienst.",
+    "register_court": "Nürnberg",
+    "register_number": "25076",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Striegauer Straße 39, 90473 Nürnberg",
+     "postal_code": "90473",
+     "street": "Striegauer Straße 39"
+    },
+    "company_id": "DE-HRB-D3310-36053",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AMP Gebäudereinigung GmbH",
+    "purpose": "Gebäudereinigung, Sicherheitsdienst (Bewachungsgewerbe § 34 a GewO) Zum Gegenstand des Unternehmens gehören ferner alle mit den vorgenannten Tätigkeiten im Zusammenhang stehenden Nebengeschäfte.",
+    "register_court": "Nürnberg",
+    "register_number": "36053",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Billrothstraße 11, 90482 Nürnberg",
+     "postal_code": "90482",
+     "street": "Billrothstraße 11"
+    },
+    "company_id": "DE-HRB-D3310-40961",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FSD Frankensicherheit & Dienstleistungen UG (haftungsbeschränkt)",
+    "purpose": "die Bewachung von Personen und Objekten sowie Dienstleistungen im Bereich Reinigung.",
+    "register_court": "Nürnberg",
+    "register_number": "40961",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Straßenäckerweg 4, 90453 Nürnberg",
+     "postal_code": "90453",
+     "street": "Straßenäckerweg 4"
+    },
+    "company_id": "DE-HRB-D3310-35081",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "IPSECO GmbH",
+    "purpose": "Sicherheitsdienst und Veranstaltungsservcie.",
+    "register_court": "Nürnberg",
+    "register_number": "35081",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Breslauer Str. 396, 90471 Nürnberg",
+     "postal_code": "90471",
+     "street": "Breslauer Str. 396"
+    },
+    "company_id": "DE-HRB-D3310-41211",
+    "country": "DE",
+    "legal_form": "ag",
+    "name": "SDN Protection AG",
+    "purpose": "der Betrieb eines Sicherheitsdienstes, insbesondere Werk- und Objektschutz, Revierdienste, Sonderdienste, Bewachungen, Veranstaltungsservice als Absicherung von Veranstaltungen, Personenschutz, Detektei, Ermittlungsdienste, Observationen, Gefahrenanalyse, Sicherheitsberatung und Sicherheitskonzepte.",
+    "register_court": "Nürnberg",
+    "register_number": "41211",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Fraunhoferstr. 10, 90409 Nürnberg",
+     "postal_code": "90409",
+     "street": "Fraunhoferstr. 10"
+    },
+    "company_id": "DE-HRB-D3310-6878",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Sicherheitsgesellschaft am Flughafen Nürnberg mbH",
+    "purpose": "Schaffung der personellen, sachlichen und organisatorischen Voraussetzungen für die Wahrnehmung von Aufgaben gemäß § 5 des Luftsicherheitsgesetzes (LuftSiG) durch Hilfsorgane der Regierung von Mittelfranken - Luftamt Nordbayern - unter deren Aufsicht auf dem Verkehrsflughafen Nürnberg sowie erforderlichenfalls an sämtlichen Flugplätzen gem. VO (EU) Nr. 1254/2009 im Zuständigkeitsbereich des Luftamtes Nordbayern, sowie dort Luftsicherheitsmaßnahmen erforderlich sind. Die Gesellschaft schließt insbesondere auch die Arbeitsverträge mit dem für diese Aufgabe erforderlichen Personal nach Maßgabe des von der Regierung von Mittelfranken - Luftamt Nordbayern - vorgegebenen Umfangs. Ferner kann die Gesellschaft Tätigkeiten ausüben, die der Sicherheit des Luftverkehrs dienen, insbesondere solche nach §§ 8 und 9 LuftSiG.",
+    "register_court": "Nürnberg",
+    "register_number": "6878",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Flughafenstr. 118, 90411 Nürnberg",
+     "postal_code": "90411",
+     "street": "Flughafenstr. 118"
+    },
+    "company_id": "DE-HRB-D3310-44227",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SecuritX GmbH",
+    "purpose": "Betrieb eines Sicherheitsdienstes, insbesondere Werk- und Objektschutz, Revierdienste, Sonderdienste, Bewachungen, Veranstaltungsservice als Absicherung von Veranstaltungen, Personenschutz, Detektei, Ermittlungsdienste, Observationen, Gefahrenanalyse, Sicherheitsberatung und Sicherheitskonzepte sowie gewerbsmäßige Aus- und Weiterbildung in diesem Dienstleistungsbereich mit Fern- und Präsenzunterricht, Herausgabe und Vertrieb von Formularen, Karten, Büchern, E-Books und anderen Druckerzeugnissen, Vermittlung von Arbeitskräften, Beratungen, Vermietung und Verkauf von Veranstaltungstechnik und -sicherheitstechnik, Auf- und Abbau von Veranstaltungen, Verkauf von Schutzausrüstung sowie Gebäude- und Immobiliendienstleistungen, insbesondere Reinigung, Garten- und Landschaftspflege, Instandhaltung und Pflege von Außenanlagen, Immobilienmanagement und Hausverwaltung, Cateringdienstleistungen mit Verkauf von Nahrungsmitteln und Getränken, auch im Reisegewerbe",
+    "register_court": "Nürnberg",
+    "register_number": "44227",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Breslauer Str. 396, 90471 Nürnberg",
+     "postal_code": "90471",
+     "street": "Breslauer Str. 396"
+    },
+    "company_id": "DE-HRB-D3310-42509",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Arslan SRS GmbH",
+    "purpose": "Tätigkeiten im Bereich Personenschutz und Sicherheitsberatung sowie Sicherheitsdienste nach § 34a GewO.",
+    "register_court": "Nürnberg",
+    "register_number": "42509",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Fraunhofer Straße 10, 90409 Nürnberg",
+     "postal_code": "90409",
+     "street": "Fraunhofer Straße 10"
+    },
+    "company_id": "DE-HRB-D3310-29872",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NWS Alarmservice GmbH",
+    "purpose": "Die Übernahme und Durchführung von Bewachungsaufträgen, insbesondere die Notrufverarbeitung durch Überwachung von Video-, Alarm-, Einbruchmelde- und Brandanlagen für private Kunden und Unternehmen als Notruf- und Servicestelle bzw. Alarmempfangsstelle, die Übernahme von Revier- und Interventionsdienstleistungen sowie die entsprechende Arbeitnehmerüberlassung.",
+    "register_court": "Nürnberg",
+    "register_number": "29872",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Breslauer Str. 350, 90471 Nürnberg",
+     "postal_code": "90471",
+     "street": "Breslauer Str. 350"
+    },
+    "company_id": "DE-HRB-D3310-41450",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NE Facility Services GmbH",
+    "purpose": "- die Reinigung von Gebäuden, insbesondere die Glas-, Sonder- und Baureinigung sowie die Bodenreinigung - die gewerbsmäßige Arbeitnehmerüberlassung - Abfallmanagement (Müllkostenreduzierung mit Mehrgeschosswohnungsbau, Standplatzbewirtschaftung allgemein) - Bewachungsdienst - Grünanlagenpflege - Facilityservice - Betreiben von Immobiliengeschäften und damit zusammenhängender Geschäfte jeder Art, insbesondere die Bewirtschaftung, die Vermietung, der Neu und Umbau, der Erwerb und der Verkauf von Immobilien, die Entwicklung von Immobilienprojekten sowie das Erbringen von Dienstleistungen in diesem Zusammenhang.",
+    "register_court": "Nürnberg",
+    "register_number": "41450",
+    "register_type": "HRB"
+   }
+  ],
+  "3": [
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Fraunhoferstr. 10 a, 90409 Nürnberg",
+     "postal_code": "90409",
+     "street": "Fraunhoferstr. 10 a"
+    },
+    "company_id": "DE-HRB-D3310-51",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Nürnberger Wach- und Schließgesellschaft mit beschränkter Haftung",
+    "purpose": "- Erbringung von Sicherheitsdienstleistungen aller Art an Flughäfen, die Unterstützung von Flughafenbetreibern, Luftfahrtunternehmen, Reglementierten Beauftragten und sog. Bekannten Versendern bei der Erfüllung ihrer gesetzlichen und sicherheitsrelevanten Aufgaben (insbesondere nach dem Luftsicherheitsgesetz), die Wahrnehmung gesellschaftsgruppenübergreifender Funktionen wie etwa Marketing, Vertrieb, Faktura, Finanz- und Lohnbuchhaltung, Human Resources, Recht, Controlling, Einkauf und das Halten von Beteiligungen sowie die entsprechende Arbeitnehmerüberlassung. - Die Gesellschaft darf den in diesem § 2 niedergelegten Unternehmensgegenstand durch ihr eigenes Unternehmen oder durch Unternehmen verfolgen, an denen sie mindestens mehrheitlich beteiligt ist, und ist berechtigt, demensprechend Unternehmen gleicher oder ähnlicher Art neu zu errichten oder bestehende zu erwerben oder sich an anderen Unternehmen zu beteiligen und zwar auch als Gesellschafter solcher Unternehmen, soweit dies zur Erreichung des Gesellschaftszwecks notwendig oder nützlich erscheint. Im Zusammenhang mit der Verfolgung des in diesem § 2 niedergelegten Unternehmensgegenstandes durch Unternehmen, an denen die Gesellschaft mindestens mehrheitlich beteiligt ist, darf die Gesellschaft ferner gesellschaftsgruppenübergreifende Funktionen übernehmen wie etwa Marketing, Vertrieb, Faktura, Finanz- und Lohnbuchhaltung, Human Resources, Recht, Controlling, Einkauf und das Halten von Beteiligungen.",
+    "register_court": "Nürnberg",
+    "register_number": "51",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Fraunhofer Straße 10 a, 90409 Nürnberg",
+     "postal_code": "90409",
+     "street": "Fraunhofer Straße 10 a"
+    },
+    "company_id": "DE-HRB-D3310-29873",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NWS Sicherheitsservice GmbH",
+    "purpose": "Die Übernahme, Durchführung und Beratung im Bereich von Bewachungs- und Sicherheitsdiensten, insbesondere Ordnungs-, Pförtner-, Hausmeister-, Arbeitsschutz-, Brandsicherungs-, Revier-, Interventions- und Kontroll-diensten, insbesondere im Bereich des Werk- und Objektschutzes und der kommunalen Verkehrsüberwachung, die Erstellung von Sicherheitsanalysen sowie die Erbringung der Dienstleistungen im Rahmen der Arbeitnehmerüberlassung.",
+    "register_court": "Nürnberg",
+    "register_number": "29873",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Willstätterstraße 71, 90449 Nürnberg",
+     "postal_code": "90449",
+     "street": "Willstätterstraße 71"
+    },
+    "company_id": "DE-HRB-D3310-44414",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Dorfner Sicherheitsdienste GmbH",
+    "purpose": "die Erbringung von Sicherheitsdienstleistungen aller Art, insbesondere im Bereich des Objekt- und Werkschutzes, des Veranstaltungsschutzes, des Revier- und Streifendienstes, des Doorman-Services, der Alarmaufschaltung und Intervention sowie der Sicherheitsberatung. Dies umfasst sowohl präventive als auch reaktive Maßnahmen zum Schutz von Personen, Sachwerten und Infrastruktur. Darüber hinaus bietet das Unternehmen Beratungsleistungen zur Gefahrenabwehr, Risikoanalyse und Sicherheitskonzeption für Unternehmen und Privatpersonen an.",
+    "register_court": "Nürnberg",
+    "register_number": "44414",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Untere Stadtgasse 20, 90427 Nürnberg",
+     "postal_code": "90427",
+     "street": "Untere Stadtgasse 20"
+    },
+    "company_id": "DE-HRB-D3310-26764",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Weih GmbH",
+    "purpose": "- Immobilienvermittlungstätigkeiten - kaufmännisches und technisches Immobilienmanagement - Haus-/ Immobilienverwaltung - Immobilienbewirtschaftung und Immobilienservice - Bewachung von Leben und Eigentum fremder Personen zum Schutz vor Einwirkung Dritter (Bewachungs- und Schutzdienste).",
+    "register_court": "Nürnberg",
+    "register_number": "26764",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Dianastraße 96, 90441 Nürnberg",
+     "postal_code": "90441",
+     "street": "Dianastraße 96"
+    },
+    "company_id": "DE-HRB-D3310-43926",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CS Security GmbH",
+    "purpose": "Leisten von Empfangsdiensten, Bewachung und Überwachung, Objekt- und Personenschutz nach § 34 a GewO, Vorbereitung und Durchführung von Veranstaltungen sowie alle in diesem Zusammenhang stehenden Dienst- und Serviceleistungen, Revier-Bestreifung und Beratung in Fragen der Sicherheitstechnik, weiter Leistung von Observationsdiensten sowie Schutzleistung bei Veranstaltungen, Personal-Service und Dienstleistung Personal.",
+    "register_court": "Nürnberg",
+    "register_number": "43926",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Innere Hallerstraße 9, 90419 Nürnberg",
+     "postal_code": "90419",
+     "street": "Innere Hallerstraße 9"
+    },
+    "company_id": "DE-HRB-D3310-42766",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bergmann Solutions UG (haftungsbeschränkt)",
+    "purpose": "der Betrieb eines Sicherheitsdienstes sowie Tätigkeiten im Bewachungsgewerbe nach § 34a GewO. Außerdem bietet die Gesellschaft Dienstleistungen in den Bereichen Umzüge, Entrümpelungen und Haushaltsauflösungen an, ausgenommen erlaubnispflichtiger Güterkraftverkehr über 3,5 t.",
+    "register_court": "Nürnberg",
+    "register_number": "42766",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Kleestraße 21 - 23, 90461 Nürnberg",
+     "postal_code": "90461",
+     "street": "Kleestraße 21 - 23"
+    },
+    "company_id": "DE-HRB-D3310-37339",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Frankenwacht Sicherheitsdienst GmbH",
+    "purpose": "Gebäude- und Personenschutz nach § 34a GewO.",
+    "register_court": "Nürnberg",
+    "register_number": "37339",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Fürther Straße 184, 90429 Nürnberg",
+     "postal_code": "90429",
+     "street": "Fürther Straße 184"
+    },
+    "company_id": "DE-HRB-D3310-44129",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SC Sicherheit UG (haftungsbeschränkt)",
+    "purpose": "der Werk- und Objektschutz, Revierdienst, Veranstaltungsschutz, Begleitschutz und die Sicherheitsberatung (ohne Rechts- und Steuerberatung).",
+    "register_court": "Nürnberg",
+    "register_number": "44129",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Fraunhofer Straße 10 a, 90409 Nürnberg",
+     "postal_code": "90409",
+     "street": "Fraunhofer Straße 10 a"
+    },
+    "company_id": "DE-HRB-D3310-29875",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NWS Bahnservice GmbH",
+    "purpose": "Die Erbringung von bauaffinen Dienstleistungen, insbesondere Sicherungs- und Beratungsdienstleistungen, im Bereich des Eisenbahnverkehrs und/oder der Eisenbahninfrastruktur, insbesondere die technische und personelle Absicherung bei Baustellen in Bahnverkehr und/oder Eisenbahninfrastruktur durch sogenannte Sicherheitsposten, Absperrposten, Sicherungsaufsichtskräfte, Bahnübergangsposten, Schaltantragsteller, Erdungsberechtigte sowie die entsprechende Arbeitnehmerüberlassung.",
+    "register_court": "Nürnberg",
+    "register_number": "29875",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Plobenhofstr. 1-9, 90403 Nürnberg",
+     "postal_code": "90403",
+     "street": "Plobenhofstr. 1-9"
+    },
+    "company_id": "DE-HRB-D3310-14639",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ASP Agentur für Sicherheit und Personenschutz GmbH",
+    "purpose": "die Bewachung von fremdem Leben und Eigentum sowie die gewerbsmäßige Arbeitnehmerüberlassung und das Gebäudemanagement.",
+    "register_court": "Nürnberg",
+    "register_number": "14639",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Königstr. 73, 90402 Nürnberg",
+     "postal_code": "90402",
+     "street": "Königstr. 73"
+    },
+    "company_id": "DE-HRB-D3310-42755",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Lebensraum Marc Aurel GmbH",
+    "purpose": "die Erbringung von Dienstleistungen im Rahmen der Rehabilitation und Teilhabe von Menschen mit Behinderungen, insbesondere Dienstleistungen als Schulbegleitung, der Integrationshilfe, der Verhinderungspflege, im Rahmen des persönlichen Budgets sowie der ambulanten Kinder- und Jugendhilfe mit dem Ziel, ein möglichst selbstbestimmtes Leben, viele Kontakte, eine individuelle und verlässliche Unterstützung für behinderte Menschen zu gewährleisten. Weiterer Unternehmensgegenstand ist die Durchführung von Bewachungstätigkeiten zum Schutz von Menschen mit Behinderung.",
+    "register_court": "Nürnberg",
+    "register_number": "42755",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Thomas-Mann-Straße 60, 90471 Nürnberg",
+     "postal_code": "90471",
+     "street": "Thomas-Mann-Straße 60"
+    },
+    "company_id": "DE-HRB-D3310-30206",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Galaxytrans GmbH",
+    "purpose": "Durchführung von Transporten im In- und Ausland, Handel mit Automobilen, Autovermietung, Zeitarbeit, der Betrieb von Gastronomischen Einrichtungen sowie Dienstleistungen im Bereich des Winterdienstes, der Erbringung von Sicherheitsdienstleistungen, Facility Managament sowie Gebäudereinigung.",
+    "register_court": "Nürnberg",
+    "register_number": "30206",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Plattenäckerweg 16, 90455 Nürnberg",
+     "postal_code": "90455",
+     "street": "Plattenäckerweg 16"
+    },
+    "company_id": "DE-HRB-D3310-23897",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SecOne GmbH",
+    "purpose": "Die Durchführung von Wach- und Sicherheitsdiensten wie Objekt- und Anlagenschutz, Streifen- und Verkehrsdienst, Werttransport und Personen- und Begleitschutz auf Basis von Dienstleistungsverträgen sowie die Komplettabwicklung von Veranstaltungen. Weiterer Gegenstand des Unternehmens ist die Überlassung eigener Arbeitnehmer zur Arbeitsleistung an Dritte (Arbeitnehmerüberlassung), die Abwicklung von Verkehrsprojekten, Zählungen, Outsourcing-Projekten sowie das Abhalten von Seminaren, Schulungen und Weiterqualifizierungen.",
+    "register_court": "Nürnberg",
+    "register_number": "23897",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Waldmüllerstraße 9 a, 90455 Nürnberg",
+     "postal_code": "90455",
+     "street": "Waldmüllerstraße 9 a"
+    },
+    "company_id": "DE-HRB-D3310-32454",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NORIS SEC - SECURITY UG (haftungsbeschränkt)",
+    "purpose": "Der Objektschutz auf Baustellen, Einlasskontrolle für Veranstaltungen und Sicherheitsdienst für freistehende Häuser (§ 34 a BewVO).",
+    "register_court": "Nürnberg",
+    "register_number": "32454",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Altenfurter Straße 89 a, 90475 Nürnberg",
+     "postal_code": "90475",
+     "street": "Altenfurter Straße 89 a"
+    },
+    "company_id": "DE-HRB-D3310-35738",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SELECT Detektei & Sicherheitsdienst GmbH",
+    "purpose": "Der Betrieb einer Detektei sowie eines Sicherheitsdienstes.",
+    "register_court": "Nürnberg",
+    "register_number": "35738",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Willstätterstr. 73, 90449 Nürnberg",
+     "postal_code": "90449",
+     "street": "Willstätterstr. 73"
+    },
+    "company_id": "DE-HRB-D3310-22551",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Dorfner Gebäudemanagement GmbH",
+    "purpose": "-Erbringung von Facilitymanagementleistungen, d.h. die Organisation, Koordination und Erbringung von Dienstleistungen, die für die Erhaltung und Nutzung von Grundstücken nebst darauf stehenden Gebäuden und ihren Räumlichkeiten sowie den jeweils zugehörigen und zur Nutzung notwendigen ortsfesten und orstveränderlichen Anlagen, Maschinen und Geräten zweckdienlich sind. Hierzu zählt auch die Erbringung sämtlicher Facilitymanagementleistungen zur Bewirtschaftung, zur Wartung, zur Pflege, Instandhaltung, Instandsetzung und zur Verwaltung der Technik bzw. technischer Geräte, Gebäudesubstanz, Gebäudeteilen und Anlagen, sowie die Erbringung von Projektierungs-, Beratungs-, Service- und Unterstützungsleistungen in den vorgenannten Bereichen; -Erbringung von Leistungen der IT-Branche, insbesondere Handel, Vertrieb und Installation von Computersoft- und Hardware sowie IT-Beratung und Consulting; -Arbeitnehmerüberlassung; -Sicherheitsdienste/Bewachungsgewerbe gemäß § 34 GewO; -Erbringung von kaufmännischen Dienstleistungen, insbesondere Lohn- und Finanzbuchhaltung; -Erbringung von Cateringdienstleistungen. Hierzu gehört auch die Erbringung von Beratungs-, Service- und Unterstützungstätigkeiten im Bereich Catering; -Transporte mit Kfz über 3,5 t zul. Gesamtgewicht.",
+    "register_court": "Nürnberg",
+    "register_number": "22551",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Rothenburger Str. 166 A, 90439 Nürnberg",
+     "postal_code": "90439",
+     "street": "Rothenburger Str. 166 A"
+    },
+    "company_id": "DE-HRB-D3310-26880",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bayern ABS Projektentwicklung GmbH",
+    "purpose": "Die Projektentwicklung von Immobilien, ferner die Grundstücks-, Wohnungs- und Darlehensvermittlung gem. § 34 c GewO, die Hausverwaltung, das Bewachungsgewerbe gem. § 34 a GewO, die Vermittlung von Versicherungen, Bausparverträgen, der Betrieb eines Reisebüros, die Vermittlung von Ferienhäusern, des weiteren Transporte mit Kraftfahrzeugen bis 3,5 t zulässiges Gesamtgewicht einschließlich Anhänger.",
+    "register_court": "Nürnberg",
+    "register_number": "26880",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Nürnberg",
+     "country": "DE",
+     "formatted_value": "Pestalozzistraße 3 und 5, 90429 Nürnberg",
+     "postal_code": "90429",
+     "street": "Pestalozzistraße 3 und 5"
+    },
+    "company_id": "DE-HRB-D3310-40985",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "EHS - Sicherheitsdienst GmbH",
+    "purpose": "Der Betrieb eines Sicherheitsdienstes.",
+    "register_court": "Nürnberg",
+    "register_number": "40985",
+    "register_type": "HRB"
+   }
+  ]
+ },
+ "total_pages": 3,
+ "total_results": 78
+}

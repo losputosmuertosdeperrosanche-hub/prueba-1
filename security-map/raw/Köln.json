@@ -1,0 +1,4239 @@
+{
+ "city": "Köln",
+ "pages": {
+  "1": [
+   {
+    "active": true,
+    "address": {
+     "city": "Ostrhauderfehn",
+     "country": "DE",
+     "formatted_value": "Idafehn Nord 11, 26842 Ostrhauderfehn",
+     "postal_code": "26842",
+     "street": "Idafehn Nord 11"
+    },
+    "company_id": "DE-HRB-R3306-130262",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FALCONES security GmbH",
+    "purpose": "(1) Gegenstand des Unternehmens ist die Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung, Revierfahrten, Übernahme von Dienstleistungen einer Detektei und Auskunftei. (2) Die Gesellschaft ist berechtigt, alle Handlungen vorzunehmen, die mittelbar oder unmittelbar dem Gesellschaftszweck zu dienen geeignet sind. (3) Die Gesellschaft ist berechtigt, Zweigniederlassungen im In- und Ausland errichten zu lassen.",
+    "register_court": "Köln",
+    "register_number": "130262",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Hohenstaufenring 62, 50674 Köln",
+     "postal_code": "50674",
+     "street": "Hohenstaufenring 62"
+    },
+    "company_id": "DE-HRB-R3306-130075",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Dogan Logistik GmbH",
+    "purpose": "Betrieb eines Logistikunternehmens mit Güterverkehr und Gütertransporten sowie der Im- und Export von sowie der Handel mit Paletten, Elektrogeräten und Lebensmitteln, ferner Kurierdienst, Gebäudereinigung, Umzugslogistik und Sicherheitsdienstleistungen",
+    "register_court": "Köln",
+    "register_number": "130075",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Berrenrather Straße 161, 50937 Köln",
+     "postal_code": "50937",
+     "street": "Berrenrather Straße 161"
+    },
+    "company_id": "DE-HRB-R3306-129959",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FY Security UG (haftungsbeschränkt)",
+    "purpose": "die Erbringung von Sicherheits- und Bewachungsdienstleistungen gemäß § 34 a GewO, Objektschutz, Veranstaltungsschutz, Empfangsdienste und Personenschutz.",
+    "register_court": "Köln",
+    "register_number": "129959",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Leinsamenweg 114, 50933 Köln",
+     "postal_code": "50933",
+     "street": "Leinsamenweg 114"
+    },
+    "company_id": "DE-HRB-R3306-129967",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Alfa Sicherheit & Service GmbH",
+    "purpose": "Bewachungstätigkeiten gemäß § 34a der Gewerbeordnung.",
+    "register_court": "Köln",
+    "register_number": "129967",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Maternusstraße 40-42, 50996 Köln",
+     "postal_code": "50996",
+     "street": "Maternusstraße 40-42"
+    },
+    "company_id": "DE-HRB-R3306-129930",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FlexFam Sec GmbH",
+    "purpose": "Sicherheitsdienstleistungen, Consulting, Personenschutz",
+    "register_court": "Köln",
+    "register_number": "129930",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Immendorfer Hauptstraße 14, 50997 Köln",
+     "postal_code": "50997",
+     "street": "Immendorfer Hauptstraße 14"
+    },
+    "company_id": "DE-HRB-R3306-129803",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PRÄVENTA Sicherheits- und Präventionsdienst GmbH",
+    "purpose": "die Erbringung von Sicherheits- und Bewachungsdienstleistungen gemäß § 34a GewO, insbesondere im Bereich von Einrichtungen und Wohnformen der Kinder- und Jugendhilfe, Jugendhilfeeinrichtungen und vergleichbaren sozialen Einrichtungen.",
+    "register_court": "Köln",
+    "register_number": "129803",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Widdersdorfer Straße 217A, 50825 Köln",
+     "postal_code": "50825",
+     "street": "Widdersdorfer Straße 217A"
+    },
+    "company_id": "DE-HRB-R3306-129568",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Sturm Security GmbH",
+    "purpose": "Sicherheitsdienst, Wach- und Objektschutz, Personenschutz und der Veranstaltungsschutz.",
+    "register_court": "Köln",
+    "register_number": "129568",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Methweg 4B, 50823 Köln",
+     "postal_code": "50823",
+     "street": "Methweg 4B"
+    },
+    "company_id": "DE-HRB-R3306-129248",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "P&P Rail Services GmbH",
+    "purpose": "die Sicherung von Arbeiten im Gleisbereich der Eisenbahninfrastruktur. Die Gestellung von Sicherungsposten (SiPo) und Sicherungsaufsichtskräften (SaKra) sowie die Durchführung von Baustellensicherungen im Bereich der Eisenbahninfrastruktur.",
+    "register_court": "Köln",
+    "register_number": "129248",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Gernsheimer Straße 17, 51107 Köln",
+     "postal_code": "51107",
+     "street": "Gernsheimer Straße 17"
+    },
+    "company_id": "DE-HRB-R3306-128777",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "RS Roma Logistik UG (haftungsbeschränkt)",
+    "purpose": "die Erbringung von Dienstleistungen in den Bereichen Logistik und Sicherheit sowie der Autohandel, Einzel- u. Großhandel mit Waren aller Art, insbesondere Haushaltswaren, sowie die Erbringung von nicht genehmigungspflichtigen Bauarbeiten und Renovierungsarbeiten und sämtliche damit jeweils im Zusammenhang stehende Tätigkeiten.",
+    "register_court": "Köln",
+    "register_number": "128777",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Ostrhauderfehn",
+     "country": "DE",
+     "formatted_value": "Idafehn Nord 11, 26842 Ostrhauderfehn",
+     "postal_code": "26842",
+     "street": "Idafehn Nord 11"
+    },
+    "company_id": "DE-HRB-R3306-128611",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CGN.4SURE UG (haftungsbeschränkt)",
+    "purpose": "Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung, Revierfahrten, Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "Köln",
+    "register_number": "128611",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Fühlinger Weg 10, 50765 Köln",
+     "postal_code": "50765",
+     "street": "Fühlinger Weg 10"
+    },
+    "company_id": "DE-HRB-R3306-128505",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SBG Sicherheit GmbH",
+    "purpose": "die Ausübung von Bewachungs- und Sicherheitsdienstleistungen aller Art, insbesondere Bewachung durch Personen, mobile Streifen, Türsicherheit, Sicherungsposten, Veranstaltungsschutz, Personen- und Objektschutz; Verkauf und Durchführung von Online- und Offline-Trainings im pädagogischen Bereich sowie Ausbildung und Schulung von Personal der Bewachungs- und Sicherheitsdienstleistungsindustrie in branchenspezifischer, technischer und kaufmännischer Hinsicht.",
+    "register_court": "Köln",
+    "register_number": "128505",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Butzweilerhofallee 3, 50829 Köln",
+     "postal_code": "50829",
+     "street": "Butzweilerhofallee 3"
+    },
+    "company_id": "DE-HRB-R3306-128359",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "intelis security solutions UG (haftungsbeschränkt)",
+    "purpose": "Erbringung sicherheits-bezogener Dienstleistungen, insbesondere Sicherheitsbera-tung und -konzeption, Planung, Empfangs- und Pförtnerdienste, Schutz- und Präventionsmaß-nahmen, Betrieb und Überwa-chung technischer Sicherheits-systeme, Gebäude- und Objektsicherheit, Objektmanagement, Video- und Zutrittskontrolllösun-gen sowie damit zusammen-hängende kaufmännische und technische Dienstleistungen. Weiterer Gegenstand des Unternehmens ist der Handel, Im-und Export mit Waren und technischen Produk-ten, die im Zusammenhang mit den vorgenannten sicherheits-bezogenen Leistungen stehen, insbesondere Sicherheits-, Überwachungs-, Zutritts- und Kommunikationstechnik sowie sonstige branchenübliche Aus-stattungen.",
+    "register_court": "Köln",
+    "register_number": "128359",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Falckensteinstraße 9a, 51103 Köln",
+     "postal_code": "51103",
+     "street": "Falckensteinstraße 9a"
+    },
+    "company_id": "DE-HRB-R3306-128361",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "IC Connect Services GmbH",
+    "purpose": "der Betrieb eines Transport- und Kurierdienstes, die Durchführung von Umzügen sowie die Erbringung von Logistik- und Montagedienstleistungen, der Einzel- und Großhandel mit Waren aller Art, der Import und Export von Waren aller Art, der Betrieb gastronomischer Betriebe, der Betrieb eines Reifenservices, der Handel mit Reifen sowie der Handel mit Fahrzeugen, der Betrieb eines Taxi- und Mietwagenunternehmens, die Erbringung von Gebäudereinigungsleistungen, die Durchführung von Baustellenarbeiten, der Betrieb eines Sicherheits- und Bewachungsservices, die Vermittlung entsprechender Leistungen sowie alle damit im Zusammenhang stehenden Tätigkeiten, soweit hierfür behördliche Genehmigungen nicht erforderlich sind oder diese vorliegen.",
+    "register_court": "Köln",
+    "register_number": "128361",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Robert-Perthel-Straße 4, 50739 Köln",
+     "postal_code": "50739",
+     "street": "Robert-Perthel-Straße 4"
+    },
+    "company_id": "DE-HRB-R3306-128081",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "corma GmbH",
+    "purpose": "- die Beratung von Unternehmen durch Sachverhaltsaufklärung, Verfolgung und Prävention nationaler/internationaler Fälle von Wirtschaftskriminalität und anderen klärungsbedürftigen Sachverhalten, unter anderem durch Datenanalysen, IT-Forensik, Recherchen sowie insbesondere Ermittlungen, Observationen, Be- und Überwachungen von Personen und Gebäuden und/oder Wertobjekten. - die Unterstützung und Beratung in allen Bereichen der Unternehmenssicherheit. - die Unterstützung bei der Erstellung von Intelligence- und Ermittlungsdatenbanken (Intelligence Services). - die Durchführung von Schulungs- und Weiterbildungsmaßnahmen im Bereich Ermittlungsarbeit, Recherchen, Intelligence Analyse und Untemehmenssicherung sowie im Bereich Datenanalyse/Anti-Fraud. - die Beratung, Vermittlung und Implementierung geeigneter Softwarelösungen im Bereich von Business Intelligence Lösungen.",
+    "register_court": "Köln",
+    "register_number": "128081",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Ernst-Weyden-Straße 15, 51105 Köln",
+     "postal_code": "51105",
+     "street": "Ernst-Weyden-Straße 15"
+    },
+    "company_id": "DE-HRB-R3306-127864",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Noviqon GmbH",
+    "purpose": "Sicherheits-, Überwachungs- und Detekteidienstleistungen gemäß 34 a GewO in Verbindung mit § 6 BewachV, die Personalvermittlung sowie die Arbeitnehmerüberlassung, ferner Consulting, Büro- und Verwaltungsdienstleistungen sowie Transportdienstleistungen mit Kraftfahrzeugen bis zu einem zulässigen Gesamtgewicht von 3,5 t. Darüber hinaus ist Gegenstand des Unternehmens der Import, Export sowie der Groß- und Einzelhandel mit Möbeln, Haushaltswaren, Elektrogeräten, Gastronomiebedarf, Bürobedarf, Reinigungs- und Hygieneartikeln, Textilien, Wohnaccessoires soweit hierfür keine besondere Genehmigung erforderlich ist.",
+    "register_court": "Köln",
+    "register_number": "127864",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Sürther Straße 148, 50999 Köln",
+     "postal_code": "50999",
+     "street": "Sürther Straße 148"
+    },
+    "company_id": "DE-HRB-R3306-127775",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DEGA Tec GmbH",
+    "purpose": "Verkauf, Verwaltung und Vermietung von Immobilien; Handel und Vermietung von Fahrzeugen; Verlegung von Telekommunikations- und Stromleitungen; Kanalbau; Tiefbau; Straßenbau; Verlegung, Einblasen und Spleißen von Glasfaserkabeln; Abbrucharbeiten; Gebäudereinigung; Entrümpelung; Werkschutz; Objektschutz; Garten- und Landschaftsbau und Marketing.",
+    "register_court": "Köln",
+    "register_number": "127775",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Stammheimer Ring 43, 51601 Köln",
+     "postal_code": "51601",
+     "street": "Stammheimer Ring 43"
+    },
+    "company_id": "DE-HRB-R3306-127643",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MG Sicherheitsdienst GmbH",
+    "purpose": "Erbringung von Dienstleistungen im Sicherheitsbereich, insbesondere Objektschutz und Veranstaltungsschutz; Planung und Umsetzung von Sicherheitskonzepten; Sicherheitsberatung; Vermittlung von Personal für die vorgenannten Bereiche.",
+    "register_court": "Köln",
+    "register_number": "127643",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Im Mediapark 5, 50670 Köln",
+     "postal_code": "50670",
+     "street": "Im Mediapark 5"
+    },
+    "company_id": "DE-HRB-R3306-127543",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "METRA Sicherheitsdienste GmbH",
+    "purpose": "Sicherheits- und Wachdienstleistungen aller Art, insbesondere Objekt- und Werkschutz, Baustellen- und lnfrastrukturabsicherung, Veranstaltungs- und Empfangsdienste sowie sonstige damit verbundene koordinierende und organisatorische Dienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "127543",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Berrenrather Straße 409, 50937 Köln",
+     "postal_code": "50937",
+     "street": "Berrenrather Straße 409"
+    },
+    "company_id": "DE-HRB-R3306-127497",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "lifeplace Services GmbH",
+    "purpose": "die Erbringung folgender Dienstleistungen: Hausverwaltung, Hausmeisterdienste, Technische Dienste, Security, Vermietung und Vermarktung von Ferienhäusern und -wohnungen, Architektenleistungen.",
+    "register_court": "Köln",
+    "register_number": "127497",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Bonner Straße 235, 50968 Köln",
+     "postal_code": "50968",
+     "street": "Bonner Straße 235"
+    },
+    "company_id": "DE-HRB-R3306-127461",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "RWS Rhein- Wach- und Sicherheitsdienst UG (haftungsbeschränkt)",
+    "purpose": "der Betrieb eines Sicherheitsdienstes.",
+    "register_court": "Köln",
+    "register_number": "127461",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Neusser Straße 391-393, 50733 Köln",
+     "postal_code": "50733",
+     "street": "Neusser Straße 391-393"
+    },
+    "company_id": "DE-HRB-R3306-127390",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "TERA Services UG (haftungsbeschränkt)",
+    "purpose": "die Durchführung von Reinigungsdiensten, Winterdiensten, Empfangs- und Rezeptionsdiensten, Hostess-Service sowie der Betrieb einer Detektei.",
+    "register_court": "Köln",
+    "register_number": "127390",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Bernhard-Letterhaus-Straße 32, 50670 Köln",
+     "postal_code": "50670",
+     "street": "Bernhard-Letterhaus-Straße 32"
+    },
+    "company_id": "DE-HRB-R3306-127353",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "S&M UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsservice, Partyservice, Life Coaching, Coaching im Sicherheitswesen.",
+    "register_court": "Köln",
+    "register_number": "127353",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Ostrhauderfehn",
+     "country": "DE",
+     "formatted_value": "Idafehn Nord 11, 26842 Ostrhauderfehn",
+     "postal_code": "26842",
+     "street": "Idafehn Nord 11"
+    },
+    "company_id": "DE-HRB-R3306-127246",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SECMONDO GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung, Revierfahrten, Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "Köln",
+    "register_number": "127246",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Ostrhauderfehn",
+     "country": "DE",
+     "formatted_value": "Idafehn Nord 11, 26842 Ostrhauderfehn",
+     "postal_code": "26842",
+     "street": "Idafehn Nord 11"
+    },
+    "company_id": "DE-HRB-R3306-127188",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MEDUSEC GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung, Revierfahrten, Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "Köln",
+    "register_number": "127188",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Steinweg 23, 51107 Köln",
+     "postal_code": "51107",
+     "street": "Steinweg 23"
+    },
+    "company_id": "DE-HRB-R3306-127191",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Matrix Verwaltungs GmbH",
+    "purpose": "der Erwerb und die Verwaltung von Beteiligungen sowie die Übernahme der persönlichen Haftung und der Geschäftsführung bei Handelsgesellschaften, insbesondere die Beteiligung als persönlich haftende Gesellschafterin an der Matrix Security Gruppe GmbH & Co. KG in Köln, ferner die Erbringung von Dienstleistungen, insbesondere Sicherheitdienstleistungen, in folgenden Bereichen: - Werk- und Objektschutz; - Veranstaltungsschutz; - Citystreife/Kurierdienste; - Pforten- und Empfangsdienste; - Kontrolldienste und „Doorman“; - Baustellenbewachung; - Personen- und Begleitschutz; - Ladendetektive und sonstige Detektivleistungen; - Sicherheitstechnik; - Limousinenservice; - Messedienste/Hostessen; - Hausmeisterdienstleistungen; ferner: - Oldtimer-Restauration - Fahrzeugtuning - Abschleppdienst, - Ausbeulen ohne Ausbau von Teilen, - Pflegetätigkeiten mit Öl- und Filterwechsel, - Steinschlagreparatur, - Entrostung mit Nachbehandlung ohne Lackierung, - Hohlraumisolierung und -versiegelung, - leichte Karosserieschäden ohne Ausbau von Teilen beheben, - Reifenmontage einschließlich Auswuchten bei Pkw-Reifen, - Smart-/Spot-Repair, - Unterbodenschutz auftragen, - verkaufsfertiges Herrichten nebst zugehörigen Serviceleistungen - KFZ-Überführung, - KFZ-An- und Verkauf.",
+    "register_court": "Köln",
+    "register_number": "127191",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Florenzer Straße 62, 50765 Köln",
+     "postal_code": "50765",
+     "street": "Florenzer Straße 62"
+    },
+    "company_id": "DE-HRB-R3306-127055",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Protex24 Sicherheit GmbH",
+    "purpose": "Betrieb eines Sicherheitsdienstes, insbesondere die Erbringung von Wach-, Personen- und Objektschutzleistungen für Wohn- und Gewerbeimmobilien, Bürokomplexe, gastronomische Einrichtungen, Beherbergungsbetriebe, öffentliche Einrichtungen und Veranstaltungen. Hierzu zählen unter anderem Revier- und Kontrollfahrten, Empfangs- und Doormandienste sowie die Bereitstellung von Sicherheits- und Servicepersonal, einschließlich Kaufhausdetektiven und der Tätigkeit als Subunternehmer.",
+    "register_court": "Köln",
+    "register_number": "127055",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Zollstockgürtel 63, 50969 Köln",
+     "postal_code": "50969",
+     "street": "Zollstockgürtel 63"
+    },
+    "company_id": "DE-HRB-R3306-127037",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Asha Security und Service GmbH",
+    "purpose": "die Erbringung von Sicherheitsleistungen im Sinne des § 34a GewO sowie Dienstleistungen im Zusammenhang mit dem Sicherheits- und Bewachungsgewerbe. Darüber hinaus kann die Gesellschaft Schulungen für eigenes oder fremdes Sicherheitspersonal erbringen. Ferner erbringt die Gesellschaft weitere Dienstleistungen, die nicht im Zusammenhang mit dem Sicherheitsgewerbe stehen, insbesondere die Betreuung von Einrichtungen, Chauffeur- und Shuttle-Service, Organisation von Show- Acts, Platz- und Parkplatzeinweisungen.",
+    "register_court": "Köln",
+    "register_number": "127037",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Butzweilerhofallee 3, 50829 Köln",
+     "postal_code": "50829",
+     "street": "Butzweilerhofallee 3"
+    },
+    "company_id": "DE-HRB-R3306-126852",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MSS Multi Security & Service GmbH",
+    "purpose": "die Objekt- und Industriesicherung aller Art; Parkhaus- und Parkplatzbetreuung; Messe- und Veranstaltungsschutz; Empfangs- und Pförtnerdienste; Personen- und Werksschutz; Kontroll- und Revierdienst; VIP-Service u.a. Begleitung von Personen auf Reisen, Veranstaltungen und Events; Baustellenabsicherung im Gleisbereich; Reinigung und Räumung von Werk- und Bürogebäuden sowie Facility-Management und Winterdienst; Alarmaufschaltungen und -Verfolgungen sowie die Planung und der Vertrieb von Alarmsystemen, Alarmtechnik. Schlüsselsicherungssystemen und sonstiger Sicherheitsdienste aller Art; Geld- und Werttransporte sowie Geldbearbeitung, Sicherheitsanalyse und -beratung, motorisierte Funkpatrouillen sowie Kassen- und Kurierdienste.",
+    "register_court": "Köln",
+    "register_number": "126852",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Subbelrather Straße 15a, 50823 Köln",
+     "postal_code": "50823",
+     "street": "Subbelrather Straße 15a"
+    },
+    "company_id": "DE-HRB-R3306-126786",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "HakSec Dienstleistungen UG (haftungsbeschränkt)",
+    "purpose": "Gebäudedienstleistungen: Reinigung, Beseitigung, Entrümpelung, Teilsanierung, Abrissarbeiten, Erneuerung von Bodenbelägen, Wandversiegelung, Winterdienst, Entkernung. Weiterhin ist Gegenstand der Gesellschaft die Erbringung von Sicherheitsdienstleistungen. Gegenstand der Gesellschaft ist weiterhin der Garten- und Landschaftsbau, soweit es sich hierbei um erlaubnisfreie Tätigkeiten handelt.",
+    "register_court": "Köln",
+    "register_number": "126786",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Stolberger Str. 90d, 50933 Köln",
+     "postal_code": "50933",
+     "street": "Stolberger Str. 90d"
+    },
+    "company_id": "DE-HRB-R3306-126304",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SMR Security UG (haftungsbeschränkt)",
+    "purpose": "die Erbringung von Sicherheits- und Bewachungsdienstleistungen gemäß § 34a GewO, insbesondere Objektschutz, Veranstaltungsschutz, Doorman-Tätigkeiten, Revier- und Streifendienste, Personen- und Begleitschutz sowie Detektivdienste.",
+    "register_court": "Köln",
+    "register_number": "126304",
+    "register_type": "HRB"
+   }
+  ],
+  "2": [
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Schwabstraße 8, 51067 Köln",
+     "postal_code": "51067",
+     "street": "Schwabstraße 8"
+    },
+    "company_id": "DE-HRB-R3306-125909",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Safeline Cologne GmbH",
+    "purpose": "die Objekt- und Industriesicherung aller Art, Parkhaus- und Parkplatzbetreuung, Messe- und Veranstaltungsschutz, Empfangs- und Pförtnerdienste, Personen- und Werkschutz, Kontroll- und Revierdienst, VIP-Service u.a. Begleitung von Personen auf Reisen, Veranstaltungen und Events, Baustellenabsicherung im Gleisbereich, Reinigung und Räumung von Werk- und Bürogebäuden sowie Facility Management und Winterdienst, Alarmaufschaltungen und -verfolgungen sowie die Planung und der Vertrieb von Alarmsystemen, Alarmtechnik, Schlüsselsicherungssystemen und sonstiger Sicherheitsdienste aller Art, Geld- und Werttransporte sowie Geldbearbeitung, Sicherheitsanalyse und -beratung, motorisierte Funkpatrouillen sowie Kassen- und Kurierdienste.",
+    "register_court": "Köln",
+    "register_number": "125909",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Hohenstaufenring 62, 50674 Köln",
+     "postal_code": "50674",
+     "street": "Hohenstaufenring 62"
+    },
+    "company_id": "DE-HRB-R3306-125812",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Lina Security & Services UG (haftungsbeschränkt)",
+    "purpose": "der Sicherheitsdienst, insbesondere die Bewachung und der Personenschutz.",
+    "register_court": "Köln",
+    "register_number": "125812",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Christophstraße 20-22, 50670 Köln",
+     "postal_code": "50670",
+     "street": "Christophstraße 20-22"
+    },
+    "company_id": "DE-HRB-R3306-125503",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "VNT Holding GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens, Wertpapierhandel im eigenen Namen und auf eigene Rechnung und nicht als Dienstleistung für Dritte, der Erwerb, die Verwaltung und Verwertung von Unternehmensbeteiligungen im eigenen Namen, nicht für Dritte sowie verwandte, erlaubnisfreie Geschäfte, die dem Unternehmenszweck dienlich sind, Erwerb, Vermietung und Verpachtung von Grundstücken und Gebäuden, die erlaubnisfreie Beratung von Unternehmen und Unternehmen, die Tätigkeiten im Bewachungsgewerbe ausüben.",
+    "register_court": "Köln",
+    "register_number": "125503",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Maarweg 251 a, 50825 Köln",
+     "postal_code": "50825",
+     "street": "Maarweg 251 a"
+    },
+    "company_id": "DE-HRB-R3306-125280",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Phoenix D&S GmbH",
+    "purpose": "Tätigkeiten im Wach- und Sicherheitsgewerbe, Sicherheitsberatung und Veranstaltungsschutz, Kaufhausüberwachung und Personenschutz, Vertrieb von Sicherheitstechnik sowie Wirtschaftsermittlungen im Sinne von § 34 a GewO. Weiterer Gegenstand des Unternehmens sind unwesentliche Bauhilfetätigkeiten sowie ganzheitliches Gebäudemanagement, Gebäudereinigung, Textilreinigung, Hausmeisterdienste, Haustechnik, Entrümpelungen, Reinigung, Pflege und Gestaltung von Grünanlagen, Kehr- und Winterdienste, Wartungsarbeiten, Empfangsdienste.",
+    "register_court": "Köln",
+    "register_number": "125280",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Neusser Straße 391-393, 50733 Köln",
+     "postal_code": "50733",
+     "street": "Neusser Straße 391-393"
+    },
+    "company_id": "DE-HRB-R3306-125177",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Hensoria Service GmbH",
+    "purpose": "der Betrieb einer Detektei, eines Ordnungsdienstes und eines Reinigungsdienstes.",
+    "register_court": "Köln",
+    "register_number": "125177",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Wilhelm-Ruppert-Straße 27, 51147 Köln",
+     "postal_code": "51147",
+     "street": "Wilhelm-Ruppert-Straße 27"
+    },
+    "company_id": "DE-HRB-R3306-124872",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Metamorphosis Protection UG (haftungsbeschränkt)",
+    "purpose": "die Erbringung privater Sicherheitsleistungen (Objekt- und Personenschutz), der geschützte Transport von Personen mit erhöhtem Sicherheitsbedarf sowie von Wertgegenständen, die Organisation und Betreuung von Veranstaltungen mit erhöhtem Sicherheitsbedarf (VIP Events) und die Beratung in den Bereichen Schutz, Sicherheit und Risikoprävention.",
+    "register_court": "Köln",
+    "register_number": "124872",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Ingeborgstraße 37, 51149 Köln",
+     "postal_code": "51149",
+     "street": "Ingeborgstraße 37"
+    },
+    "company_id": "DE-HRB-R3306-124935",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "TRU4SEC UG (haftungsbeschränkt)",
+    "purpose": "die Erbringung von Sicherheitsdienstleistungen aller Art, insbesondere Objekt- und Werkschutz, Revier- und Streifendienste, Veranstaltungsschutz, Empfangs- und Pfortendienste, Personenschutz sowie Alarmverfolgung; sowie die Bereitstellung von Servicepersonal für Veranstaltungen, Gastronomie, Empfangsbereiche und ähnliche Einsätze; sowie die Tätigkeit als Bildungsträger im Sicherheitsgewerbe, insbesondere dabei die Durchführung von Schulungen und Unterricht im Sicherheitsbereich; sowie schließlich die Erbringung von allen mit den vorher genannten Tätigkeit zusammenhängenden Serviceleistungen, soweit diese keiner gesonderten Zulassung bedürfen.",
+    "register_court": "Köln",
+    "register_number": "124935",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Walther-Rathenau-Straße 20, 50996 Köln",
+     "postal_code": "50996",
+     "street": "Walther-Rathenau-Straße 20"
+    },
+    "company_id": "DE-HRB-R3306-124904",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Sicher 7 & Service GmbH",
+    "purpose": "die Erbringung von Sicherheits- und Serviceleistungen aller Art, insbesondere - Objekt- und Werkschutz, - Baustellenbewachung, - Empfangs- und Pfortendienste, - Veranstaltungsschutz, einschließlich Sportveranstaltungen und anderen öffentlichen sowie privaten Events, - Personenschutz, - Geld- und Werttransporte, - Sicherheitsdienste in Asylbewerberheimen und anderen sozialen Einrichtungen, - Sicherheitsdienste in Diskotheken, Spielhallen sowie in Einrichtungen des Prostitutionsgewerbes im Sinne des Prostituiertenschutzgesetzes (ProstSchG), - Sicherheitsdienste in Einrichtungen der Jugend- und Sozialhilfe, insbesondere in Einrichtungen, die unter der Trägerschaft von Jugendamt, Diakonie, Caritas oder vergleichbaren freien Wohlfahrtsverbänden stehen und der Aufsicht entsprechender Behörden unterliegen, - Brandschutzdienste, einschließlich Brandwachen und Unterstützung bei der Erstellung und Umsetzung von Brandschutzkonzepten, - Alarmverfolgung und Interventionsdienste, - Revier- und Streifendienste, -Erstellung von Sicherheitskonzepten und Gefährdungsanalysen, - Kontrolle von Videoüberwachungssystemen (CCTV), - Durchführung von internen Schulungen und vorbereitenden Kursen zur Sachkundeprüfung nach § 34a GewO, - Vermittlung und Überlassung von Sicherheitsdienstpersonal, - Handel mit sicherheitsrelevanter Ausrüstung und Bekleidung, - Erbringung von Hausmeister- und technischen Serviceleistungen im Zusammenhang mit Sicherheitsdienstleistungen, - Catering- und Verpflegungsdienste, - Verpackungsdienste.",
+    "register_court": "Köln",
+    "register_number": "124904",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Hinter der Schule 18, 51147 Köln",
+     "postal_code": "51147",
+     "street": "Hinter der Schule 18"
+    },
+    "company_id": "DE-HRB-R3306-123407",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MY Security Bewachungs- und Sicherheitsdienst UG (haftungsbeschränkt)",
+    "purpose": "die Erbringung von Sicherheitsdienstleistungen sowie Objekt-, Personen- und Veranstaltungsschutz.",
+    "register_court": "Köln",
+    "register_number": "123407",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Adam-Stegerwald-Straße 9, 51063 Köln",
+     "postal_code": "51063",
+     "street": "Adam-Stegerwald-Straße 9"
+    },
+    "company_id": "DE-HRB-R3306-70287",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Dieter Kordell UG (haftungsbeschränkt)",
+    "purpose": "Objektschutz, Messeservice und Gebäudereinigung.",
+    "register_court": "Köln",
+    "register_number": "70287",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Hohenzollernring 57, 50672 Köln",
+     "postal_code": "50672",
+     "street": "Hohenzollernring 57"
+    },
+    "company_id": "DE-HRB-R3306-117005",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Platinservice GmbH",
+    "purpose": "der genehmigungsfreie Handel mit Medizinprodukten aller Art, die Erbringung von genehmigungsfreien Dienstleistungen im Medizinbereich, die Erbringung ambulanter Pflegedienstleistungen jedweder Art sowie die Sicherung im Gleisbereich, die Reinigung von fahrzeugbetriebenen Gleisanlagen sowie die Erbringung zusätzlicher zulassungsffeier Dienstleistungen aller Art im Gleisbereich.",
+    "register_court": "Köln",
+    "register_number": "117005",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Charlottenstraße 37, 51149 Köln",
+     "postal_code": "51149",
+     "street": "Charlottenstraße 37"
+    },
+    "company_id": "DE-HRB-R3306-108232",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "L.R LupenRhein GmbH",
+    "purpose": "die Gebäudereinigung, Gebäudeservice, Verputzarbeiten, Stukkateurarbeiten, Abbruch, Sicherheitsdienst/Bewachung, Vermittlung von Bauvorhaben, Malerarbeiten, Trockenbau, Garten- und Landschaftsbau sowie Personaldienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "108232",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Hugo-Eckener Straße 31, 50829 Köln",
+     "postal_code": "50829",
+     "street": "Hugo-Eckener Straße 31"
+    },
+    "company_id": "DE-HRB-R3306-75436",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "prestige Gebäudemanagement GmbH",
+    "purpose": "die Vermittlung des Abschlusses und der Nachweis der Gelegenheit zum Abschluss von Verträgen über Grundstücke und grundstücksgleiche Rechte (Verkauf), über Wohnräume (Vermietung), über gewerbliche Räume, über Hypotheken- und Grundschulddarlehen, die Vorbereitung und Durchführung von Bauvorhaben als Bauträger in eigenem Namen für eigene und fremde Rechnung unter Verwendung von Vermögenswerten von Erwerbem, Mietern, Pächtern, sonstige Nutzungsberechtigten und von Bewerbern um Erwerbs- oder Nutzungsrechte sowie die wirtschaftliche Vorbereitung und Durchführung von Bauvorhaben als Baubetreuer in fremdem Namen und für fremde Rechnung sowie die Bewachung, der Schutz und die Betreuung von Personen, Personenvereinigungen, Objekten und Anlagen, insbesondere zählen hierzu der Objekt- und Anlagenschutz, die Durchführung von Revier- und Streifenfahrten, der Veranstaltungs- und Eventschutz, Fahr- und Chauffeurdienste, der Personenschutz und die VIP-Betreuung sowie die Gebäudereinigung und Hausmeisterservice. Ferner ist Gegenstand des Unternehmens das Gebäudemanagement sowie die Vermittlung von Verträgen über die Lieferung von Strom und Gas für Privat- und Gewerbekunden. Weiterhin umfasst der Untemehmensgegenstand die Vermittlung und den Vertrieb von Energiedienstleistungen und energienahen Produkten, insbesondere Photovoltaikanlagen, Stromspeichem, Wallboxen und Wärmepumpen, sowie die damit zusammenhängende Kundenberatung und Vermittlungstätigkeit.",
+    "register_court": "Köln",
+    "register_number": "75436",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Amsterdamer Straße 72, 50735 Köln",
+     "postal_code": "50735",
+     "street": "Amsterdamer Straße 72"
+    },
+    "company_id": "DE-HRB-R3306-96834",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GISC GmbH",
+    "purpose": "die Erbringung von Dienstleistungen, insbesondere Sicherheits- und Servicedienstleistungen, Kurierdienstleistungen und Reinigungsleistungen, soweit hierzu keine gesonderte Genehmigung erforderlich ist.",
+    "register_court": "Köln",
+    "register_number": "96834",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Im Mediapark 5, 50670 Köln",
+     "postal_code": "50670",
+     "street": "Im Mediapark 5"
+    },
+    "company_id": "DE-HRB-R3306-122873",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Easy Works GmbH",
+    "purpose": "Spedition und Transportservice von Gütern bis 3,5 t, Garten- und Landschaftsbau sowie Bewachungstätigkeiten und Ordnerservice gemäß § 34a GewO.",
+    "register_court": "Köln",
+    "register_number": "122873",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "An der Wachsfabrik 3, 50996 Köln",
+     "postal_code": "50996",
+     "street": "An der Wachsfabrik 3"
+    },
+    "company_id": "DE-HRB-R3306-30242",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "S.E.C. Verwaltungs GmbH",
+    "purpose": "Die Beteiligung als persönlich haftende geschäftsführende Gesellschafterin an einer Kommanditgesellschaft, die den Personen-, Veranstaltungs-, Objektschutz- und Detektei, die Übernahme von Geld- und Werttransporten sowie die Planung und Durchführung von Veranstaltungen und Events aller Art zum Gegenstand hat. Personen-, Veranstaltungs-, Objektschutz- und Detektei, die Übernahme von Geld- und Werttransporten sowie die Planung und Durchführung von Veranstaltungen und Events aller Art.",
+    "register_court": "Köln",
+    "register_number": "30242",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Graeffstraße 5, 50823 Köln",
+     "postal_code": "50823",
+     "street": "Graeffstraße 5"
+    },
+    "company_id": "DE-HRB-R3306-116707",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Kalach Consulting GmbH",
+    "purpose": "die Durchführung von Bewachungen aller Art, insbesondere Objekt- und Veranstaltungsschutz, Fahr- und Facility-, Dienstleistungen, Detektivtätigkeiten, Sicherheitsberatung und konzeptionierung, Alarmierung und Detektion sowie die Erbringung von Sicherheitsdienstleistungen (einschließlich Übenwachung, Sicherheitsanalysen, Veranstaltungs- und Konferenzschutz, Ermittlungen und Ausbildung). Ferner die Beteiligung an anderen Unternehmen mit einem verwandten Unternehmenszweck sowie deren Geschäftsführung, sowie Logistik-, Reinigungs- und sonstige Servicedienstleistungen",
+    "register_court": "Köln",
+    "register_number": "116707",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Glockengasse 1, 50667 Köln",
+     "postal_code": "50667",
+     "street": "Glockengasse 1"
+    },
+    "company_id": "DE-HRB-R3306-104036",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Kalscheuer Bewachungen GmbH",
+    "purpose": "die Erbringung von Bewachungsdienstleistungen sowie des Objektschutzes gemäß § 34a GewO.",
+    "register_court": "Köln",
+    "register_number": "104036",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Ulmer Straße 21, 50739 Köln",
+     "postal_code": "50739",
+     "street": "Ulmer Straße 21"
+    },
+    "company_id": "DE-HRB-R3306-114783",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SSDS Schutz Sicherheit Detektei und Service GmbH",
+    "purpose": "der Betrieb einer Detektei und eines Sicherheitsdienstes.",
+    "register_court": "Köln",
+    "register_number": "114783",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Maarweg 233, 50825 Köln",
+     "postal_code": "50825",
+     "street": "Maarweg 233"
+    },
+    "company_id": "DE-HRB-R3306-114622",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "HS Limousinen- und Sicherheitsservice GmbH",
+    "purpose": "ist Mietwagenservice, Botenfahrten, Krankenfahrten, Kurierfahrten, Schulfahrten, Shuttleservice sowie Sicherheitsdienst.",
+    "register_court": "Köln",
+    "register_number": "114622",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Hochstraße 33, 13357 Berlin",
+     "postal_code": "13357",
+     "street": "Hochstraße 33"
+    },
+    "company_id": "DE-HRB-R3306-116328",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Ravenclaw GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens, die erlaubnispflichtige Bewachung insbesondere nach § 34 a GewO, Sicherheitsdienstleistungen, Hostessenservice, Limousinenservice sowie Baudienstleistungen, insbesondere von Malerarbeiten, Trockenbau, Bodenlegearbeiten und Abbrucharbeiten.",
+    "register_court": "Köln",
+    "register_number": "116328",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Kalker Hauptstraße 296, 51103 Köln",
+     "postal_code": "51103",
+     "street": "Kalker Hauptstraße 296"
+    },
+    "company_id": "DE-HRB-R3306-122381",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "VSS GmbH",
+    "purpose": "Die Gesellschaft erbringt Sicherheits- und Bewachungsdienstleistungen gemäß § 34a Gewerbeordnung (GewO). Dazu gehören insbesondere der Objektschutz, der Revier- und Streifendienst, der Veranstaltungsschutz, der Personen- und Zutrittskontrolldienst, Empfangs- und Pfortendienste, Notruf- und Interventionsdienste, sowie die Sicherheitsberatung und Gefahrenabwehrmaßnahmen.",
+    "register_court": "Köln",
+    "register_number": "122381",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt",
+     "country": "DE",
+     "formatted_value": "Walter-Kolb-Straße 1-3, 60594 Frankfurt",
+     "postal_code": "60594",
+     "street": "Walter-Kolb-Straße 1-3"
+    },
+    "company_id": "DE-HRB-R3306-93336",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "S&SK GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens sowie die erlaubnispflichtige Bewachung insbesondere nach § 34 a GewO.",
+    "register_court": "Köln",
+    "register_number": "93336",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hanau",
+     "country": "DE",
+     "formatted_value": "Sternstraße 5-7, 63450 Hanau",
+     "postal_code": "63450",
+     "street": "Sternstraße 5-7"
+    },
+    "company_id": "DE-HRB-R3306-104709",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "HWS - Hanauer Wach- und Schließgesellschaft mbH",
+    "purpose": "Dienstleistungen im Bereich Sicherheit und Bewachung gemäß § 34a GewO sowie die Übernahme von Dienstleistungen einer Detektei und Auskunftei, Reinigungsdienste, Hausmeisterdienste, Facilitymanagement, Kleintransporte von Gütern aller Art mit Fahrzeugen bis zu 3,5 Tonnen sowie die Vermittlung von Aufträgen im Bereich, Sicherheitsdienste, Reinigung, Logistik und Hausmeisterservice.",
+    "register_court": "Köln",
+    "register_number": "104709",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Kurfürstendamm 194, 10707 Berlin",
+     "postal_code": "10707",
+     "street": "Kurfürstendamm 194"
+    },
+    "company_id": "DE-HRB-R3306-115653",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Alpha Security&Services GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens sowie die erlaubnispflichtige Bewachung insbesondere nach § 34 a GewO.",
+    "register_court": "Köln",
+    "register_number": "115653",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Friedrichstraße 171, 10117 Berlin",
+     "postal_code": "10117",
+     "street": "Friedrichstraße 171"
+    },
+    "company_id": "DE-HRB-R3306-114850",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FPS Fast Personal Security GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens, die gewerbsmäßige Arbeitnehmerüberlassung, die Personalvermittlung, sowie die erlaubnispflichtige Bewachung insbesondere nach § 34 a GewO",
+    "register_court": "Köln",
+    "register_number": "114850",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Bad Laasphe",
+     "country": "DE",
+     "formatted_value": "Erlenweg 2, 57334 Bad Laasphe",
+     "postal_code": "57334",
+     "street": "Erlenweg 2"
+    },
+    "company_id": "DE-HRB-R3306-82581",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Paulsen Sicherheitsdienste GmbH",
+    "purpose": "die nicht bewaffnete Bewachung und Objektschutz sowie Detektivleistungen.",
+    "register_court": "Köln",
+    "register_number": "82581",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Im Media Park 8, 50670 Köln",
+     "postal_code": "50670",
+     "street": "Im Media Park 8"
+    },
+    "company_id": "DE-HRB-R3306-87862",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "outrepont BA GmbH",
+    "purpose": "der Betrieb eines Sicherheitsdienstes, d.h. Veranstaltungsschutz, Personenschutz, Objektschutz, Brandschutz, der Vertrieb von Alarmanlagen, Schulungen sowie erlaubnispflichtigen Tätigkeiten und Dienstleistungen nach § 34 GewO (Bewachungsgewerbe) sowie außerdem der Betrieb einer Änderungsschneiderei.",
+    "register_court": "Köln",
+    "register_number": "87862",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Cäcilienkloster 2-10, 50676 Köln",
+     "postal_code": "50676",
+     "street": "Cäcilienkloster 2-10"
+    },
+    "company_id": "DE-HRB-R3306-78863",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FIS Payment Services GmbH",
+    "purpose": "die Erbringung von Lösungen für die elektronische Zahlungsabwicklung, einschließlich Systeme und Dienstleistungen im Bereich der bargeldlosen Zahlungsmittel sowie Dienstleistungen für das Betreiben von Geldausgabeautomaten.",
+    "register_court": "Köln",
+    "register_number": "78863",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Girlitzweg 30/Tor 4, 50829 Köln",
+     "postal_code": "50829",
+     "street": "Girlitzweg 30/Tor 4"
+    },
+    "company_id": "DE-HRB-R3306-106368",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "KW Security & Consulting GmbH",
+    "purpose": "- der Personen-, Veranstaltungs- und Objektschutz, sowie der Betrieb einer Detektei, ferner die Beratung, Planung und Durchführung von Veranstaltungen und Events aller Art sowie die Beteiligung an anderen Unternehmen",
+    "register_court": "Köln",
+    "register_number": "106368",
+    "register_type": "HRB"
+   }
+  ],
+  "3": [
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Schützenstr. 71, 51147 Köln",
+     "postal_code": "51147",
+     "street": "Schützenstr. 71"
+    },
+    "company_id": "DE-HRB-R3306-27375",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MaHu Waffen GmbH",
+    "purpose": "a) der Vertrieb (Import-Export) von Faustfeuerwaffen, Langwaffen und Munition, b) die Errichtung und Betreibung von Schießsportstätten, Wert- und Geldtransporten sowie Objekt- und Personenschutz, und c) der Erwerb und die Veräußerung von Grundstücken;",
+    "register_court": "Köln",
+    "register_number": "27375",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Germaniastraße 92, 51103 Köln",
+     "postal_code": "51103",
+     "street": "Germaniastraße 92"
+    },
+    "company_id": "DE-HRB-R3306-112594",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "LOGI-SAFE GmbH",
+    "purpose": "die Verwaltung eignene Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung sowie Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "Köln",
+    "register_number": "112594",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Ostheimer Straße 178, 51107 Köln",
+     "postal_code": "51107",
+     "street": "Ostheimer Straße 178"
+    },
+    "company_id": "DE-HRB-R3306-95858",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NEXT GmbH",
+    "purpose": "die Bewachungstätigkeit, die Gebäudereinigung, der Hotelservice, die Lagerarbeiten, Entkernungsarbeiten, Schadstoffsanierung.",
+    "register_court": "Köln",
+    "register_number": "95858",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Taunusstraße 35, 51105 Köln",
+     "postal_code": "51105",
+     "street": "Taunusstraße 35"
+    },
+    "company_id": "DE-HRB-R3306-121054",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ONA-Security GmbH",
+    "purpose": "Dienstleistungen im Bereich Sicherheit, Bewachung von Leben (ohne Einschränkungen) oder Eigentum fremder Personen im Rahmen des § 34 Gewerbeordnung, die Erstellung von Sicherheitsanalysen sowie die Beratung im Risiko- und Sicherheitsbereich, ferner Objekt-, Werk- und Eventschutz, Kontrollgänge, Bewachung von Geld- und Werttransporten, Handel mit und Herstellung von diebstahlbezogenen Öffnungswerkzeugen sowie Einbau von Gebäudesicherungseinrichtungen, außerdem Gebäudereinigung und schließlich die Verwaltung eigenen Vermögens.",
+    "register_court": "Köln",
+    "register_number": "121054",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Marktstraße 19, 50969 Köln",
+     "postal_code": "50969",
+     "street": "Marktstraße 19"
+    },
+    "company_id": "DE-HRB-R3306-116349",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Marktschänke UG (haftungsbeschränkt)",
+    "purpose": "der Betrieb einer Gaststätte mit Schank, Sicherheitsdienstleistungen, Unternehmensberatung, Personalvermietung und das Betreiben eines Onlineshops.",
+    "register_court": "Köln",
+    "register_number": "116349",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Welserstr. 10 g, 51149 Köln",
+     "postal_code": "51149",
+     "street": "Welserstr. 10 g"
+    },
+    "company_id": "DE-HRB-R3306-31731",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CSM COLOGNE SERVICE MANAGEMENT GmbH",
+    "purpose": "Immobilienmanagement für langfristige Bestandsentwicklung und Sicherung der Werthaltigkeit, insbesondere die Übernahme von 1. Technischen Diensten Koordination und Betreuung der technischen Betriebsbereitschaft der Immobilie, 2. Infrastrukurellen Diensten Übernahme von objektbezogenen sowie nutzerbezogenen infrastrukturellen Dienstleistungen, 3. Kaufmännische Dienste Übernahme der gesamten kaufmännischen Objektbetreuung. 4. Objekt- und Personenschutz gem. § 34 a GewO.",
+    "register_court": "Köln",
+    "register_number": "31731",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Mainzer Landstraße 341, 60326 Frankfurt am Main",
+     "postal_code": "60326",
+     "street": "Mainzer Landstraße 341"
+    },
+    "company_id": "DE-HRB-R3306-107251",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Duplo Security GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung sowie Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "Köln",
+    "register_number": "107251",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Haltern am See",
+     "country": "DE",
+     "formatted_value": "Münsterknapp 5-7, 45721 Haltern am See",
+     "postal_code": "45721",
+     "street": "Münsterknapp 5-7"
+    },
+    "company_id": "DE-HRB-R3306-98512",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GO! Personal Service GmbH",
+    "purpose": "die gewerbsmäßige Arbeitnehmerüberlassung sowie die Personalvermittlung insbesondere Bereitstellung von Personal für Gas- und Sicherungsbrandposten und Beseitigung von Brand- und Wasserschäden und Reinigungsarbeiten aller Art sowie Trockenbauarbeiten, Schlüsseldienst und Hausmeistertätigkeiten.",
+    "register_court": "Köln",
+    "register_number": "98512",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "extra": "Ulrike Futschik",
+     "formatted_value": "Techopromenade 34, 13437 Berlin",
+     "postal_code": "13437",
+     "street": "Techopromenade 34"
+    },
+    "company_id": "DE-HRB-R3306-120236",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "General GO Logistik 24 GmbH",
+    "purpose": "die Vermittlung von Bewachungstätigkeiten, Objekt- und Personenschutz, Personenbegleitung, Sicherheitsdienst im Bereich von Baustellen, Flughäfen, Amtsgebäuden, Einkaufsläden und -zentren, bei Sport und sonstigen Veranstaltungen mit und ohne Erlaubnispflicht sowie Transportdienste, Zustelldienste, Kurierdienste und Logistikdienstleistungen, soweit jeweils dafür keine gesetzlichen Genehmigungen ertordertich sind, und Dienstleistungen im Sicherheitsbereich, Reisebegleitung von Besuchern und Touristen; jeweils ohne aktive Tätigkeiten nach § 34a der GewO und ohne weitere Erlaubnispflichten.",
+    "register_court": "Köln",
+    "register_number": "120236",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Gernsheimer Straße 10, 51107 Köln",
+     "postal_code": "51107",
+     "street": "Gernsheimer Straße 10"
+    },
+    "company_id": "DE-HRB-R3306-116839",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bock Security Service UG (haftungsbeschränkt)",
+    "purpose": "Betrieb eines Bewachungsgewerbes nach § 34 a GewO sowie die Erbringung von Reinigungsdienstleistungen und erlaubnisfreien Bauleistungen wie z.B. Trockenbauarbeiten",
+    "register_court": "Köln",
+    "register_number": "116839",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Hugo-Eckener-Str. 29, 50829 Köln",
+     "postal_code": "50829",
+     "street": "Hugo-Eckener-Str. 29"
+    },
+    "company_id": "DE-HRB-R3306-26147",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PARTENA Sicherheit Objektschutz und Dienstleistungs GmbH",
+    "purpose": "die Wahrnehmung von Wach- und Bewachungsleistungen insbesondere bei Veranstaltungen sowie die im Zusammenhang damit stehenden Dienstleistungen;",
+    "register_court": "Köln",
+    "register_number": "26147",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Riehler Straße 6, 50668 Köln",
+     "postal_code": "50668",
+     "street": "Riehler Straße 6"
+    },
+    "company_id": "DE-HRB-R3306-120272",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PS Pharus Sicherheitsdienstleistungen für die Sozialwirtschaft GmbH",
+    "purpose": "die Erbringung von Sicherheitsdienstleistungen, insbesondere für Maßnahmen und Projekte der Sozialwirtschaft.",
+    "register_court": "Köln",
+    "register_number": "120272",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Löwengasse 11, 50676 Köln",
+     "postal_code": "50676",
+     "street": "Löwengasse 11"
+    },
+    "company_id": "DE-HRB-R3306-4386",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "VSU Wachdienst Rheinland-Westfalen GmbH",
+    "purpose": "der Bewachungs-, Kassierer-, Absperr-, Kontroll- und Markiesendienst, sowie ähnliche Dienstleistungen, die im Rahmen eines Bewachungsunternehmens liegen. Zur Erreichung dieses Zweckes ist die Gesellschaft berechtigt, gleichartige oder ähnliche Unternehmen zu erwerben, sich an solchen Unternehmungen zu beteiligen oder deren Vertretung zu übernehmen.",
+    "register_court": "Köln",
+    "register_number": "4386",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Bremerhavener Str. 35, 50735 Köln",
+     "postal_code": "50735",
+     "street": "Bremerhavener Str. 35"
+    },
+    "company_id": "DE-HRB-R3306-123073",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Seven Protect GmbH",
+    "purpose": "- die Bewachung von Leben oder Eigentum fremder Personen (Bewachungsgewerbe) und - die Erbringung weiterer damit in Zusammenhang stehender Sicherheitsdienstleistungen, insbesondere der Objekt- und Werkschutz, Veranstaltungsschutz, Empfangs- und Pfortendienste, Detektei- und Ermittlungsdienstleistungen sowie - die Beratung und Schulung im Bereich der Sicherheit.",
+    "register_court": "Köln",
+    "register_number": "123073",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Otto-Hahn-Straße 23, 50997 Köln",
+     "postal_code": "50997",
+     "street": "Otto-Hahn-Straße 23"
+    },
+    "company_id": "DE-HRB-R3306-80766",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "APS Wachdienst GmbH",
+    "purpose": "- die gewerbsmäßige Arbeitnehmerüberlassung und -vermittlung, - die Ausübung des Bewachungsgewerbes und - die Durchführung und Entwicklung von Sicherheitskonzepten.",
+    "register_court": "Köln",
+    "register_number": "80766",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Ansbacher Straße 2, 51103 Köln",
+     "postal_code": "51103",
+     "street": "Ansbacher Straße 2"
+    },
+    "company_id": "DE-HRB-R3306-124651",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Pars Service UG (haftungsbeschränkt)",
+    "purpose": "der Betrieb eines Sicherheits- und Reinigungsdienstes, der Transport von Gütern bis 3,5 Tonnen, die Durchführung von Entrümpelungen und Facility Management.",
+    "register_court": "Köln",
+    "register_number": "124651",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Düsseldorf",
+     "country": "DE",
+     "formatted_value": "Hasselsstraße 55, 40599 Düsseldorf",
+     "postal_code": "40599",
+     "street": "Hasselsstraße 55"
+    },
+    "company_id": "DE-HRB-R3306-121742",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SEQOORIA Bewachungs-GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung, Revierfahrten, Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "Köln",
+    "register_number": "121742",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "René-Magritte-Promenade 7, 50858 Köln",
+     "postal_code": "50858",
+     "street": "René-Magritte-Promenade 7"
+    },
+    "company_id": "DE-HRB-R3306-105518",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Robert Ahrlé Sicherheit GmbH",
+    "purpose": "die Planung und Konzipierung sowie die Realisierung von Projekt-, Objekt- und personenbezogenen Sicherheitsdienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "105518",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Forststraße 24, 50767 Köln",
+     "postal_code": "50767",
+     "street": "Forststraße 24"
+    },
+    "company_id": "DE-HRB-R3306-115431",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ASH Dienstleistungsservice UG (haftungsbeschränkt)",
+    "purpose": "ein Wach- und Sicherheitsdienst in Form von Personen- Objekt- Event-, Werk- und Stadionschutz, die Verkehrssicherung, die Gestellung von Mietfahrzeugen sowie Fahrdiensten und Gerätegestellung, sowie aller damit verbundenen Leistungen, darüber hinaus die Erbringung von Dienstleistungen im Bereich Gebäudereinigung (Bürogebäude, Privathaushalte, Kaufhäuser und Ladenlokale, Hotels und Pensionen, Praxen und Sanatorien, Kindergärten und Schulen, Schwimmbäder und Sportstudios sowie Baustellen) und der Reinigung von Einrichtungstextilien; die Vermittlung von Pflegekräften für mobile und stationäre Pflegedienste, die Organisation und Durchführung von Veranstaltungen und Events und die Vermietung von mobilen Toiletten.",
+    "register_court": "Köln",
+    "register_number": "115431",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Rheinische Allee 3A, Halle 01, 50858 Köln",
+     "postal_code": "50858",
+     "street": "Rheinische Allee 3A, Halle 01"
+    },
+    "company_id": "DE-HRB-R3306-108250",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "E + L Facility Management GmbH",
+    "purpose": "Ganzheitliches Gebäudemanagement, Gebäudereinigung, Textilreinigung, Hausmeisterdienste, Haustechnik, Elektro-Arbeiten, Entrümpelungen, Reinigung, Pflege und Gestaltung von Grünanlagen, Kehr- und Winterdienste, Wartungsarbeiten, Empfangsdienste, Fliesen-, Platten-, Mosaik- und Parkettverlegung sowie Wasser- und Brandschadensanierung. Gegenstand ist ferner die Vermittlung und Vermietung von möblierten Wohnungen mit den dazu gehörigen Dienstleistungen für Vermieter und Mieter, Sicherheitsdienstleistungen aller Art sowie die Arbeitnehmerüberlassung.",
+    "register_court": "Köln",
+    "register_number": "108250",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "In der Adelenhütte 10, 51143 Köln",
+     "postal_code": "51143",
+     "street": "In der Adelenhütte 10"
+    },
+    "company_id": "DE-HRB-R3306-110795",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MFN Dienstleistungen GmbH",
+    "purpose": "Güterkraftverkehr mit Fahrzeugen bis 3,5 Tonnen zulässigem Gesamtgewicht, Hausmeisterservice (ohne Ausübung eintragungspflichtiger Handwerksarbeiten), Garten- und Landschaftspflege und Reinigungstätigkeiten (ohne Ausübung eintragungspflichtiger Handwerkstätigkeiten), Security und Wachdienste mit § 34a Abs. 1 Satz 3 Nr. 3 Gewerbeordnung.",
+    "register_court": "Köln",
+    "register_number": "110795",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Erna-Scheffler-Straße 1 a, 51103 Köln",
+     "postal_code": "51103",
+     "street": "Erna-Scheffler-Straße 1 a"
+    },
+    "company_id": "DE-HRB-R3306-87622",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AGSUS Protection GmbH",
+    "purpose": "die Erbringung folgender Leistungen: personelle Dienste: Objekt- und Industriesicherungen aller Art, Parkhaus- und Parkplatzbetreuung, Messe- und Veranstaltungsschutz, Empfangs- und Pförtnerdienste, Personen- und Werkschutz, Kontroll- und Revierdienst, VIP-Service. technische Dienste: Alarmaufschaltungen und -verfolgungen sowie der Vertrieb von Alarmsystemen, Alarmtechnik, Schlüsselsicherungssystemen und sonstiger Sicherheitstechnik. sonstige Dienste: Geld- und Werttransporte sowie Geldbearbeitung, Sicherheitsanalyse und -beratung, motorisierte Funkpatrouillen, Kassen- und Kurierdienste, Videoüberwachung.",
+    "register_court": "Köln",
+    "register_number": "87622",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Kolonnenstraße 8, 10827 Berlin",
+     "postal_code": "10827",
+     "street": "Kolonnenstraße 8"
+    },
+    "company_id": "DE-HRB-R3306-114366",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DORSUMA-Security GmbH",
+    "purpose": "die erlaubnispflichtige Bewachung insbesondere nach § 34 a GewO, Unterhaltsreinigung, Transportdienstleistungen und Unternehmensberatung im Bereich Transport, Reinigung und Bewachungsgewerbe.",
+    "register_court": "Köln",
+    "register_number": "114366",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "extra": "Herrn Ibragim Saytkhazhiev",
+     "formatted_value": "Nathan-Kahn-Str. 13 K, 51061 Köln",
+     "postal_code": "51061",
+     "street": "Nathan-Kahn-Str. 13 K"
+    },
+    "company_id": "DE-HRB-R3306-123225",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "B.I.M UG (haftungsbeschränkt)",
+    "purpose": "Gegenstand des Unternehmens ist das Bewachungsgewerbe nach § 34a GewO, Eventmanagement, Servicedienstleistungen und Deeskalationshilfe.",
+    "register_court": "Köln",
+    "register_number": "123225",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Berliner Straße 25, 51063 Köln",
+     "postal_code": "51063",
+     "street": "Berliner Straße 25"
+    },
+    "company_id": "DE-HRB-R3306-104253",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "OLD-SKOOL GmbH",
+    "purpose": "der Security-Sicherheitsdienst, Automatenaufstellung, Gebäudereinigung, Durchführung und Vermittlung von Akustik,Trockenbau- und Bodenbelagsarbeiten, Trocknungstechnik und Raumausstattung, Bautenschutz, Export- und Import sowie Einzel- und Großhandel mit jeglicher Art von Waren, insbesondere Lebensmittel und Getränken, Speisen, Fleisch, Verpackungsmaterial sowie Kosmetikartikeln.",
+    "register_court": "Köln",
+    "register_number": "104253",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Pantaleonswall 22, 50676 Köln",
+     "postal_code": "50676",
+     "street": "Pantaleonswall 22"
+    },
+    "company_id": "DE-HRB-R3306-109426",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "M&M Protect and Service GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens, Dienstleistung im Bereich Sicherheit und Bewachung von Leben gem. §§ 34 a GewO und § 6 Bewachungsverordnung sowie Einbau von Gebäudesicherungseinrichtungen. Des Weiterem ist der Gegenstand die Erstellung von Sicherheitsanalysen sowie Beratung im Risiko- und Sicherheitsbereich, ferner Objekt-, Werk- und Eventschutz, Kontrollgänge, Bewachung von Geld- und Werttransporten, Transporten, Logistik und Gebäudereinigung.",
+    "register_court": "Köln",
+    "register_number": "109426",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Georg-Reiter-Straße 35, 50827 Köln",
+     "postal_code": "50827",
+     "street": "Georg-Reiter-Straße 35"
+    },
+    "company_id": "DE-HRB-R3306-97875",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ProPower GmbH",
+    "purpose": "das Betreiben von Dienstleistungen im Bereich des Facility Managements, insbesondere das Betreiben eines Hausmeisterservices, eines Sicherheitsdienstes und von Reinigungsarbeiten.",
+    "register_court": "Köln",
+    "register_number": "97875",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "extra": "Henry Omonobi-Newton",
+     "formatted_value": "Dasselstraße 63, 50674 Köln",
+     "postal_code": "50674",
+     "street": "Dasselstraße 63"
+    },
+    "company_id": "DE-HRB-R3306-74518",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SSG Schutz und Sicherheit GmbH",
+    "purpose": "die Tätigkeit nach § 34a Gewerbeordnung (Personen-, Veranstaltungs- u. Objektschutz, Sicherheitsberatung und Fahrtendienste) und artverwandte Tätigkeiten sowie die Beteiligung an Unternehmen.",
+    "register_court": "Köln",
+    "register_number": "74518",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Matthias-Brüggen-Straße 8, 50827 Köln",
+     "postal_code": "50827",
+     "street": "Matthias-Brüggen-Straße 8"
+    },
+    "company_id": "DE-HRB-R3306-108430",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "IRM Instinct Risk Management GmbH",
+    "purpose": "Objekt- und Personenschutz sowie der Einsatz von Diensthunden.",
+    "register_court": "Köln",
+    "register_number": "108430",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Gottlieb-Dunkel-Straße 43-44, 12099 Berlin",
+     "postal_code": "12099",
+     "street": "Gottlieb-Dunkel-Straße 43-44"
+    },
+    "company_id": "DE-HRB-R3306-108239",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PHYTRA-Wachdienst GmbH",
+    "purpose": "die erlaubnispflichtige Bewachung insbesondere nach § 34 a GewO , Unterhaltsreinigung, Instore Service, Transportdienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "108239",
+    "register_type": "HRB"
+   }
+  ],
+  "4": [
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Jägerstraße 19, 50859 Köln",
+     "postal_code": "50859",
+     "street": "Jägerstraße 19"
+    },
+    "company_id": "DE-HRB-R3306-105972",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Kölnerdienst Gino Guerra GmbH",
+    "purpose": "Gebäudereinigung, Facility Management, Bautrocknungsgewerbe, Kanalreinigung, Sicherheitsdienst, Holz- und Bautenschutz, Einbau von genormten Fertigteilen, Bodenverlegung, Hausmeisterleistungen, Tatortreinigung, Schimmelbekämpfung sowie Rauchwarnmeldermontage.",
+    "register_court": "Köln",
+    "register_number": "105972",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Wilhelm-Mauser-Straße 47, 50827 Köln",
+     "postal_code": "50827",
+     "street": "Wilhelm-Mauser-Straße 47"
+    },
+    "company_id": "DE-HRB-R3306-120177",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SEM Sicherheit GmbH",
+    "purpose": "Personaldienstleistungen für Servicetätigkeiten im Bereich der Jugendbetreuung und uneingeschränkte Bewachungstätigkeiten gem. § 34a GewO.",
+    "register_court": "Köln",
+    "register_number": "120177",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Boltensternstraße 351, 50735 Köln",
+     "postal_code": "50735",
+     "street": "Boltensternstraße 351"
+    },
+    "company_id": "DE-HRB-R3306-120567",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Lion Security Service GmbH",
+    "purpose": "ist die Bewachung aller Art, Objekt-, Veranstaltungs- und Personenschutz, Fahr- und Facility-Dienstleistungen, Durchführung von Observationstätigkeiten einschließlich aller damit im Zusammenhang stehenden Geschäfte und Tätigkeiten.",
+    "register_court": "Köln",
+    "register_number": "120567",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Hinter den Heßgarten 6, 51107 Köln",
+     "postal_code": "51107",
+     "street": "Hinter den Heßgarten 6"
+    },
+    "company_id": "DE-HRB-R3306-107221",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SIAB Sicherheit UG (haftungsbeschränkt)",
+    "purpose": "die Durchführung von Sicherheitsdienstleistungen insbesondere von Personen- und Objektschutz und aller damit verbundenen Leistungen sowie die Gebäudereinigung",
+    "register_court": "Köln",
+    "register_number": "107221",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Heinrich-Pesch-Straße 5, 50739 Köln",
+     "postal_code": "50739",
+     "street": "Heinrich-Pesch-Straße 5"
+    },
+    "company_id": "DE-HRB-R3306-115489",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Safe Cologne Sec UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienstleistungen und Veranstaltungsordnungsdienstleistungen sowie alle damit verbundenen Geschäfte und Tätigkeiten",
+    "register_court": "Köln",
+    "register_number": "115489",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Robert-Perthel-Straße 4, 50739 Köln",
+     "postal_code": "50739",
+     "street": "Robert-Perthel-Straße 4"
+    },
+    "company_id": "DE-HRB-R3306-29820",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ComSec Gesellschaft für Wach- und Sicherheitsdienste mbH",
+    "purpose": "die Erbringung von folgenden Dienstleistungen: - Durchführung von Wach- und Sicherheitsdienstleistungen aller Art, - Bildungs- und Fortbildungsmaßnahmen auf dem Gebiet der Wach- und Sicherheitsdienstleistungen, - Hausmeisterservice, - Kurierservice, - Housekeeping-Service, - Eventservice incl. Auf- und Abbau, - Parkplatzmanagement, - Inventurhelfer, - Allgemeine Serviceleistungen, - Fahrzeugüberwachung.",
+    "register_court": "Köln",
+    "register_number": "29820",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Aachener Str. 456, 50933 Köln",
+     "postal_code": "50933",
+     "street": "Aachener Str. 456"
+    },
+    "company_id": "DE-HRB-R3306-29825",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GELOG Gebäudelogistik GmbH",
+    "purpose": "die Ausführung von Hausmeisterdiensten, Reinigungsarbeiten nach Hausfrauenart, Gartenpflegearbeiten, Wach- und Kontrolldienste, Ablesedienste sowie die Aufnahme, Organisation, Koordination und Dokumentation von Handwerkerleistungen und die Ausführung von Kleinreparaturen und Renovierungen die zum sogenannten Minderhandwerk gehören - ausgenomen Tätigkeiten die eine Meisterqualifikation erfordern und eine Zugehörigkeit zur Handwerkskammer begründen -, ferner alle damit zusammenhängenden und den Gesellschaftszweck fördernden Geschäfte.",
+    "register_court": "Köln",
+    "register_number": "29825",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Lungengasse 1, 50676 Köln",
+     "postal_code": "50676",
+     "street": "Lungengasse 1"
+    },
+    "company_id": "DE-HRB-R3306-88239",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MM Group Management Service GmbH",
+    "purpose": "- die Reinigung und Wartung von Gebäuden, - die Erbringung von Sicherheitsdienstleistungen, - der Betrieb von Internethörfunk, - die Softwarevermietung, und die Durchführung jeweils aller damit verbundenen Arbeiten.",
+    "register_court": "Köln",
+    "register_number": "88239",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Clevischer Ring 127, 51063 Köln",
+     "postal_code": "51063",
+     "street": "Clevischer Ring 127"
+    },
+    "company_id": "DE-HRB-R3306-116237",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "WuVo Security und Service GmbH",
+    "purpose": "die Beratung, die Planung und Durchführung von Sicherheitsdienstleistungen aller Art sowie die Bauprojektentwicklung und Projektsteuerung sowie Reinigungsdienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "116237",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Moldaustraße 23, 50765 Köln",
+     "postal_code": "50765",
+     "street": "Moldaustraße 23"
+    },
+    "company_id": "DE-HRB-R3306-115132",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Tekin Security GmbH",
+    "purpose": "Personen- und Objektschutz.",
+    "register_court": "Köln",
+    "register_number": "115132",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Walther-Rathenau-Straße 20, 50996 Köln",
+     "postal_code": "50996",
+     "street": "Walther-Rathenau-Straße 20"
+    },
+    "company_id": "DE-HRB-R3306-122363",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Alpha 11 Wachdienst Sicherheit & Service GmbH",
+    "purpose": "die Erbringung privater Sicherheitsleistungen im vollen Umfang der nach § 34a Gewerbeordnung zulässigen Tätigkeiten, einschließlich aller damit verbundenen, vorbereitenden, organisatorischen und unterstützenden Dienstleistungen. Die Gesellschaft ist berechtigt, alle Tätigkeiten auszuüben, die gemäß § 34a GewO derzeit oder künftig zulässig sind, Schulungen und Unterweisungen durchzuführen sowie technische und personelle Sicherheitsunterstützungen zu leisten.",
+    "register_court": "Köln",
+    "register_number": "122363",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Am Urbacher Wall 64, 51145 Köln",
+     "postal_code": "51145",
+     "street": "Am Urbacher Wall 64"
+    },
+    "company_id": "DE-HRB-R3306-118446",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CGN Sicherheit & Service GmbH",
+    "purpose": "Sicherheitsdienste, Sicherheitsplannung, Beratung, Brandschutz, Trockenbau, Abrissarbeiten, Innenraumgestaltung, Onlinemarketing.",
+    "register_court": "Köln",
+    "register_number": "118446",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Essen",
+     "country": "DE",
+     "formatted_value": "Weidkamp 180, 45356 Essen",
+     "postal_code": "45356",
+     "street": "Weidkamp 180"
+    },
+    "company_id": "DE-HRB-R3306-100972",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SIMURA-Wachdienst GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens, die erlaubnispflichtige Bewachung insbesondere nach § 34 a GewO, die gewerbsmäßige Arbeitnehmerüberlassung sowie die Personalvermittlung.",
+    "register_court": "Köln",
+    "register_number": "100972",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Richard-Byrd-Straße 18, 50829 Köln",
+     "postal_code": "50829",
+     "street": "Richard-Byrd-Straße 18"
+    },
+    "company_id": "DE-HRB-R3306-116759",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "KG Security & Service GmbH",
+    "purpose": "die Durchführung von Sicherheits- und Reinigungsdienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "116759",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Widdersdorfer Straße 272, 50933 Köln",
+     "postal_code": "50933",
+     "street": "Widdersdorfer Straße 272"
+    },
+    "company_id": "DE-HRB-R3306-110682",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "2Lion's UG (haftungsbeschränkt)",
+    "purpose": "Objektschutz, Werkschutz, Veranstaltungsservice und Konferenzschutz, Revierdienste inkl. Kurier- und Werttransporte, Objektschutz im Asylbereich, allgemeine Ordnungsdienste, Personenschutz, Ladenüberwachung inkl. Mystery Shopper, Planung und Vermittlung von Überwachung -und Sicherungstechnik, Erstellung von Sicherheits- und Brandschutzkonzepten einschließlich Beratung, dektive Dienstleistungen, museale Dienste, Gebäudesanierung, Gebäudereinigung, Holz- und Bautenschutz (Mauerschutz und Holzimprägnierung in Gebäuden) Bodenverlegung (PVC-, Teppichböden, Laminat), Rohr- und Kanalreinigung, Einbau von genormten Baufertigteilen (Fenster, Türen, Zargen, Regale, Einbauküchen), Fugarbeiten auch dauerelastische Dehnungsfugen, Bautrocknung (Austrocknung von Neubauten und Trockenlegung von Gebäudeteilen nach Wasserschäden mittels Heizgeräten, Tankschutz ohne chemische Verfahren, Kabelverlegung im Hochbau ohne Anschlussarbeiten, Baustellenaufräumung). Vermittlung von Aufträgen jeder Art in den vorgenannten Bereichen, zulassungsfreie Hausmeisterdienste, Garten- und Landschaftsbau, Entrümpelung, Abrissarbeiten, Gütertransporte mit zulässigem Gewicht bis 3,5 Tonnen (ohne Gefahrengüter), Umzüge von Haushaltsgegenständen und Möbel.",
+    "register_court": "Köln",
+    "register_number": "110682",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Hohenzollernring 39-41, 50672 Köln",
+     "postal_code": "50672",
+     "street": "Hohenzollernring 39-41"
+    },
+    "company_id": "DE-HRB-R3306-118253",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "H&R Protection Security UG (haftungsbeschränkt)",
+    "purpose": "Objektschutz, der Personenschutz, der Werkschutz, die Durchführung von Revierfahrten, die Erbringung von Pfortendiensten, Sicherheitsdiensten und Servicedienstleistungen aller Art sowie die Organisation und Durchführung von Veranstaltungen.",
+    "register_court": "Köln",
+    "register_number": "118253",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Bedburg",
+     "country": "DE",
+     "formatted_value": "Von-Stein-Straße 6, 50181 Bedburg",
+     "postal_code": "50181",
+     "street": "Von-Stein-Straße 6"
+    },
+    "company_id": "DE-HRB-R3306-89094",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Rheinwache GmbH",
+    "purpose": "die Erbringung von Bewachungsdienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "89094",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Longericher Hauptstr. 87, 50739 Köln",
+     "postal_code": "50739",
+     "street": "Longericher Hauptstr. 87"
+    },
+    "company_id": "DE-HRB-R3306-72379",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MP-Filmservice GmbH",
+    "purpose": "- der Verleih von Filmrequisiten - Set- und Motivbewachung - Fachberatungen und Drehbetreuungen jeglicher Art sowie - der An- und Verkauf von Kraftfahrzeugen.",
+    "register_court": "Köln",
+    "register_number": "72379",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Rudolfplatz 3, 50672 Köln",
+     "postal_code": "50672",
+     "street": "Rudolfplatz 3"
+    },
+    "company_id": "DE-HRB-R3306-96844",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Delta Security-Service GmbH",
+    "purpose": "der Betrieb einer Sicherheitsfachfirma sowie Servicedienstleistungen insbesondere Hausmeisterdienste ohne handwerkliche Tätigkeit, Produktionshelfer, Lagerarbeiten und Entrümpelungen sowie Oberflächenreinigung",
+    "register_court": "Köln",
+    "register_number": "96844",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Sibeliusstraße 18, 51107 Köln",
+     "postal_code": "51107",
+     "street": "Sibeliusstraße 18"
+    },
+    "company_id": "DE-HRB-R3306-93394",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SeBi-Security UG (haftungsbeschränkt)",
+    "purpose": "die Erbringung von Sicherheits- und Servicedienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "93394",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Ottostraße 85, 50823 Köln",
+     "postal_code": "50823",
+     "street": "Ottostraße 85"
+    },
+    "company_id": "DE-HRB-R3306-79680",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SGK-Bewachungs-GmbH",
+    "purpose": "die Bewachungsdienstleistung an die Synagogen-Gemeinde Köln und auch an Dritte in Gebäuden der Synagogen-Gemeinde Köln. Zweck ist die polizeilich indizierte Bewachung und Sicherung der Gebäude und der Einrichtungen der Synagogen-Gemeinde Köln inkl. Pfortendienst an den Sicherheitsschleusen der Gebäude sowie in diesem Zusammenhang existierender dritter juristischer Personen sowie der darin und davor befindlichen Personen vor Gefahren. Die Gesellschaft hat keine Gewinnerzielungsabsicht.",
+    "register_court": "Köln",
+    "register_number": "79680",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Flandrische Str. 2, 50674 Köln",
+     "postal_code": "50674",
+     "street": "Flandrische Str. 2"
+    },
+    "company_id": "DE-HRB-R3306-99929",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PAC GmbH",
+    "purpose": "die Anbietung von Sicherheitsdiensten und Bewachung von Objekten, Baustellen, Künstlerbetreuung, Personenschutz, Touristensicherheit, Sicherheitsplanung und Sicherheitsberatung.",
+    "register_court": "Köln",
+    "register_number": "99929",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Rörather Straße 271 - 275, 51107 Köln",
+     "postal_code": "51107",
+     "street": "Rörather Straße 271 - 275"
+    },
+    "company_id": "DE-HRB-R3306-119350",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AE High Service GmbH",
+    "purpose": "die Personenbeförderung mit Mietwagen, die Überführung von Fahrzeugen, der Transport von Gegenständen jeglicher Art bis zu einem Maximalgewicht von 3,5 Tonnen, der Trockenbau, das Bewachungsgewerbe gemäß § 34a Gew0, der Handel mit Kfz und Kfz-Teilen sowie Kfz-Servicedienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "119350",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Wilhelm-Mauser-Straße 45, 50827 Köln",
+     "postal_code": "50827",
+     "street": "Wilhelm-Mauser-Straße 45"
+    },
+    "company_id": "DE-HRB-R3306-86589",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Alpina Objekt Service GmbH",
+    "purpose": "Dienstleistungen aller Art, insbesondere Gebäudereinigung, Objekt- und Personenschutz und Überwachung, soweit keine behördliche Genehmigung erforderlich ist, des Weiteren Vermietung und Vermittlung von Immobilien. Ferner der Handel mit Möbeln und Elektronikartikeln aller Art und der Handel von Getränken aller Art und Textilien.",
+    "register_court": "Köln",
+    "register_number": "86589",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Colonia-Allee 3, 51067 Köln",
+     "postal_code": "51067",
+     "street": "Colonia-Allee 3"
+    },
+    "company_id": "DE-HRB-R3306-80050",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "UN-IT Unternehmensberatung- und Dienstleistung GmbH",
+    "purpose": "Die Vorbereitung und die mechanische Durchführung von laufenden Geschäftsvorfällen (laufende Lohnabrechnung und das Fertigen von Lohnsteueranmeldungen) gemäß § 6 Nr. 4 StBerG sowie die Durchführung von mechanischen Arbeitsgängen bei der Führung von Büchern und Aufzeichnungen gem. § 6 Nr. 3 StBerG von verschiedenen Firmen und Vereinen sowie die Bereitstellung und Wartung informationstechnischer Infrastruktur sowie die Unternehmensberatung. Ferner der Betrieb einer Kantine einschließlich eines Cateringservices sowie die Betreuung und die Verwaltung von Immobilienbesitz. Ferner das Bewachungsgewerbe im Sinne des § 34aGewO.",
+    "register_court": "Köln",
+    "register_number": "80050",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Cargo City Süd, Gebäude 544, 60549 Frankfurt am Main",
+     "postal_code": "60549",
+     "street": "Cargo City Süd, Gebäude 544"
+    },
+    "company_id": "DE-HRB-R3306-108205",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Swissport Köln GmbH",
+    "purpose": "die Erbringung von Dienstleistungen und Beratung von Dienstleistungen für Flughäfen, Luftfahrtunternehmen, Bodenabfertigungsunternehmen und weiteren Unternehmen der Luftfahrt, u. a. die Erbringung von Bodenabfertigungsdienstleistungen, Passagierinformation und -steuerung, Reinigungsdiensten (Innen- und Außenreinigung von Flugzeugen und Fahrzeugen, Terminalreinigung), Flugzeugservices (Ausstattung mit Bordausrüstung), administrative Abfertigung am Boden, Flugbetriebs- und Besatzungsdienste, Fracht- und Postabfertigung, Transport- und Logistikdienste, VIP-Service und Lounge-Betrieb, Vorfelddienste und Sicherheitsdienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "108205",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Mathias-Brüggen-Straße 124, 50829 Köln",
+     "postal_code": "50829",
+     "street": "Mathias-Brüggen-Straße 124"
+    },
+    "company_id": "DE-HRB-R3306-97542",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Nordrhein Security GmbH",
+    "purpose": "ein Sicherheitsunternehmen und Erwachsenenbildung.",
+    "register_court": "Köln",
+    "register_number": "97542",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Amsterdamer Straße 228, 50735 Köln",
+     "postal_code": "50735",
+     "street": "Amsterdamer Straße 228"
+    },
+    "company_id": "DE-HRB-R3306-113978",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ANKA Services GmbH",
+    "purpose": "Erbringung von Dienstleistungen im Bereich - Logistik, insbesondere Paketzustellungen und Umzüge, - Gebäudereinigung, - Facility Management, - Sicherheitsdienst, insbesondere Objektschutz.",
+    "register_court": "Köln",
+    "register_number": "113978",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Amsterdamer Straße 228, 50735 Köln",
+     "postal_code": "50735",
+     "street": "Amsterdamer Straße 228"
+    },
+    "company_id": "DE-HRB-R3306-9325",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Siegfried Hof Gebäudereinigung und Dienstleistungs-Service GmbH",
+    "purpose": "die Gebäudereinigung und die Ausführung anderer Reinigungsarbeiten, die Bewachung und Sicherung von Gebäuden und Grundstücken und die Ausführung von sonstigen Dienstleistungen aller Art sowie aller artverwandten Geschäfte, die dem Gesellschaftszweck dienlich sind;",
+    "register_court": "Köln",
+    "register_number": "9325",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Aachener Straße 1053 - 1055, 50858 Köln",
+     "postal_code": "50858",
+     "street": "Aachener Straße 1053 - 1055"
+    },
+    "company_id": "DE-HRB-R3306-68285",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CPS Security GmbH",
+    "purpose": "ist die Führung eines Sicherheitsuntenehmens.",
+    "register_court": "Köln",
+    "register_number": "68285",
+    "register_type": "HRB"
+   }
+  ],
+  "5": [
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Kyotostraße 21, 50670 Köln",
+     "postal_code": "50670",
+     "street": "Kyotostraße 21"
+    },
+    "company_id": "DE-HRB-R3306-19340",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AGRIPPA Unternehmensberatung GmbH",
+    "purpose": "Wach- und Kontrolldienste sowie die Unternehmensberatung.",
+    "register_court": "Köln",
+    "register_number": "19340",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Barbarastraße 5, 50735 Köln",
+     "postal_code": "50735",
+     "street": "Barbarastraße 5"
+    },
+    "company_id": "DE-HRB-R3306-84842",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Shual Sicherheit GmbH",
+    "purpose": "Sicherheitsdienstleistungen jeder Art (Beratung, Überwachung, Personenschutz, Sicherheitsanalysen, Veranstaltungs- und Konferenzschutz, Ermittlungen, Ausbildung) und die Beteiligung an anderen Unternehmen mit einem verwandten Unternehmenszweck sowie deren Geschäftsführung, weiterhin Logistik-, Reinigungs- und Servicedienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "84842",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Frankfurter Straße 720-726, 51145 Köln",
+     "postal_code": "51145",
+     "street": "Frankfurter Straße 720-726"
+    },
+    "company_id": "DE-HRB-R3306-101861",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Brock-Sicherheit & Service GmbH",
+    "purpose": "Personensicherung, Objektsicherung, Sicherheitsberatung, Personalgestellung für die Durchführung von Veranstaltungen und Detektei.",
+    "register_court": "Köln",
+    "register_number": "101861",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Briedeler Straße 15, 50969 Köln",
+     "postal_code": "50969",
+     "street": "Briedeler Straße 15"
+    },
+    "company_id": "DE-HRB-R3306-94475",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BPS Sicherheit Gesellschaft für Beratung, Planung und Schutz mbH",
+    "purpose": "- Beratung, Planung und Durchführung von Sicherheitsdienstleistungen jeglicher Art, Sicherheitsmanagement und Risikomanagement für Klienten. - Beratung, Planung und Erstellung von Sicherheitskonzepten sowie das Vertreten gegenüber Behörden und Institutionen für den Klienten, Gesamtkoordination von Großveranstaltungen , - Beratung, Planung und Strukturierung und Betreuung von Bewachungs-, Reinigungs- und Personaldienstleistungsunternehmen, - Beratung, Planung, Entwicklung und Umsetzung der folgenden Standards für Bewachungs-, Reinigungs- und Personaldienstleistungsunternehmen: ISO 9001:2015 Qualitätsmanagement sowie ISO77200 Stufe I-III ISO18001 OHSAS, SCC**, 016-018, SCP, ISO 14001 Umweltmanagement, ISO 3100 Risikomanagement, - Beratung, Planung, Entwickung und Umsetzung eines Compliancemanagementsystems sowie eines Corporate-Govermance-Systems für Sicherheit- und Personaldienstleistungsunternehmen. Sicherheits- und Projektmanagement für Unternehmen und Veranstalter, - Erbringung sämtlicher Sicherheitsdienstleistungen für Unternehmen und Veranstalter nach §34 a der Gewerbeordnung.",
+    "register_court": "Köln",
+    "register_number": "94475",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Monheim am Rhein",
+     "country": "DE",
+     "formatted_value": "Rheinpromenade 11, 40789 Monheim am Rhein",
+     "postal_code": "40789",
+     "street": "Rheinpromenade 11"
+    },
+    "company_id": "DE-HRB-R3306-109677",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CIT GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens, gewerbsmäßige Arbeitnehmerüberlassung und die Personalvermittlung, Dienstleistungen im Bereich der Qualitätsplanung-operativ und planerisch der Qualitätskontrolle, der Qualitätssicherung, der Qualitätsberatung und der qualitätsbezogenen Instandsetzungstätigkeiten im Industriebereich. Projektplanung im Rohrleitungsbau, Brunnenbau, Kläranlagen und im Stahlbau-Bereich, Herstellung und Montage von Rohrleitungen und Stahlbauten sowie Schweißarbeiten aller Art. Ferner die Arbeitnehmerüberlassung und Personalvermittlung und Personaldienstleistungen. Die gewerbsmäßige Arbeitnehmerüberlassung sowie die Personalvermittlung, Personaldienstleistung, Personalberatung & -entwicklung, Arbeitsschutz und Bildung & Qualifizierung. Generalübernahme, Industriedienstleistungen, Industriemontage, Logistik und alle damit in Zusammenhang stehenden Tätigkeiten, ferner Koordinations- und Dienstleistungen in Industrie und Logistik sowie Büroservice, Vermittlung von Werk- und Dienstleistungsverträgen. Das Erbringen von Dienstleistungen in den Bereichen von Objekt-, Personenschutzdienstleistungen, Observationen und Detektivarbeiten. Erbringung von Dienstleistungen des Facility Managements, insbesondere des infrastrukturellen, technischen und kaufmännischen Gebäudemanagements sowie Durchführung aller damit zusammenhängenden Geschäfte und Handlungen. Nationale und internationale Spedition, Durchführung nationaler und internationaler Kommissions- und Lagerhausgeschäfte, Durchführung von Gütertransportdienstleistungen, Übernahme und Beförderung von Gütern aller Art im In- und Ausland, u.a. auch zur See und in der Luft, Entwicklung und Vertrieb von logistischen Konzepten sowie Beteiligung an anderen Unternehmen und alle damit in Zusammenhang stehenden Tätigkeiten, ferner Koordinations- und Dienstleistungen in der Logistik sowie Vermittlung von Werk- und Dienstleistungsverträgen.",
+    "register_court": "Köln",
+    "register_number": "109677",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Charlottenstraße 61, 51149 Köln",
+     "postal_code": "51149",
+     "street": "Charlottenstraße 61"
+    },
+    "company_id": "DE-HRB-R3306-101041",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GIS Sicherheit und Gebäudeservice GmbH",
+    "purpose": "Gebäude- und Industriereinigung sowie die Erbringung von Sicherheitsdienstleistungen jeder Art, insbesondere Wachdienst und Sicherheitsberatung",
+    "register_court": "Köln",
+    "register_number": "101041",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Erna-Scheffler-Straße 1a, 51103 Köln",
+     "postal_code": "51103",
+     "street": "Erna-Scheffler-Straße 1a"
+    },
+    "company_id": "DE-HRB-R3306-116527",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "360 Supreme Services GmbH",
+    "purpose": "Unternehmensberatung, Büro- und Buchhaltungsservice, Logistikberatung, Existenzgründungsberatung, IT- und Marketingservice Autovermietung, Autohandel, Abrisstätigkeiten, Ordnertätigkeiten, Güterkraftverkehr bis 3,5 Tonnen, Hausmeistertätigkeiten, Sicherheitsberatung (ohne Rechts- und Steuerberatung), Bewachung und Sicherung von Personen und Objekten, Marketingdienstleistungen",
+    "register_court": "Köln",
+    "register_number": "116527",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Butzweilerhofallee 3, 50829 Köln",
+     "postal_code": "50829",
+     "street": "Butzweilerhofallee 3"
+    },
+    "company_id": "DE-HRB-R3306-123589",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CleonCare Services UG (haftungsbeschränkt)",
+    "purpose": "die Erbringung von Sicherheitsdienstleistungen jeglicher Art, die Durchführung von Gebäudereinigungen aller Art, Fahrzeugüberführungen, Personaldienstleistungen für Veranstaltungen und Gastronomiebetriebe sowie Hostess-Dienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "123589",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Hohenstaufenring 62, 50674 Köln",
+     "postal_code": "50674",
+     "street": "Hohenstaufenring 62"
+    },
+    "company_id": "DE-HRB-R3306-114190",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "LegalSec GmbH",
+    "purpose": "- Detektivarbeit, Wirtschaftsermittlungen, Detektei, Compliance, - Unternehmensberatung in IT-Sicherheit, zur Prävention von Diebstahl und hinsichtlich Risikomanagement und - Inkassotätigkeiten.",
+    "register_court": "Köln",
+    "register_number": "114190",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Reuterstraße 24, 12043 Berlin",
+     "postal_code": "12043",
+     "street": "Reuterstraße 24"
+    },
+    "company_id": "DE-HRB-R3306-115658",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "REBUTRA Wachdienst GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens sowie die erlaubnispflichtige Bewachung insbesondere nach § 34 a GewO sowie die Autovermietung.",
+    "register_court": "Köln",
+    "register_number": "115658",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Amsterdamer Straße 230, 50735 Köln",
+     "postal_code": "50735",
+     "street": "Amsterdamer Straße 230"
+    },
+    "company_id": "DE-HRB-R3306-69657",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "concept plus Sicherheitsdienst GmbH",
+    "purpose": "die Tätigkeit im Sicherheits- und Kontrollbereich (insbesondere Durchführung von Bewachungsaufgaben im Sinne von § 34 a GewO, Gebäudeschutz, Leibwächter, Kurierdienste, Sicherheitstechnik) einschließlich der Gestellung mit obiger Tätigkeiten zusammenhängenden Personals sowie die Erbringung von Serviceleistungen aller Art.",
+    "register_court": "Köln",
+    "register_number": "69657",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Siegburger Str. 25-27, 50679 Köln",
+     "postal_code": "50679",
+     "street": "Siegburger Str. 25-27"
+    },
+    "company_id": "DE-HRB-R3306-66802",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Setcon GmbH",
+    "purpose": "Beratung und Schulung in Sicherheitsfragen sowie Bewachungsgewerbe (Personen-, Objekt- und Veranstaltungsschutz).",
+    "register_court": "Köln",
+    "register_number": "66802",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Am Coloneum 1, 50829 Köln",
+     "postal_code": "50829",
+     "street": "Am Coloneum 1"
+    },
+    "company_id": "DE-HRB-R3306-94665",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "mycrew services GmbH",
+    "purpose": "die Vermittlung von Arbeitskräften insbesondere im Bereich Bewachung und Sicherheit, die Vermietung, Vermittlung und der Verkauf von diesbezüglicher Technik sowie die Erbringung entsprechender Dienstleistungen und aller damit zusammenhängenden Tätigkeiten.",
+    "register_court": "Köln",
+    "register_number": "94665",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Schanzenstr. 35, 1. OG West., 51063 Köln",
+     "postal_code": "51063",
+     "street": "Schanzenstr. 35, 1. OG West."
+    },
+    "company_id": "DE-HRB-R3306-100219",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MYTOWN GmbH",
+    "purpose": "die Objektreinigung und das Anbringen von Schutzbeschichtungen, die Grafitti-Entfernung und diesbzgl. Schutz von Objekten, die Periodische Objektüberwachung bezüglich unberechtigter Nutzung und Verschmutzung, ferner sonstige Dienstleistungen im öffentlichen Raum, wie die Bewirtschaftung von Werbeflächen, der Aufbau von Werbeträgern sowie die Funktionsprüfung von technischen Anlagen. Alles vorstehende nur, soweit es hierfür keiner besonderen gesetzlichen Genehmigung bedarf bzw. eine erforderliche gesetzliche Genehmigung erteilt worden ist.",
+    "register_court": "Köln",
+    "register_number": "100219",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Subbelrather Straße 17, 50823 Köln",
+     "postal_code": "50823",
+     "street": "Subbelrather Straße 17"
+    },
+    "company_id": "DE-HRB-R3306-96236",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Net Bau GmbH",
+    "purpose": "- Bauen und Sanierung - Architektenleistungen - Bauplanungs- und Beratungsleistungen, insbesondere in den Tätigkeitsbereichen als Bauträger und für Bauen und Sanierung - Bauträger - An- und Verkauf von Grundstücken, Immobilien - Hausmeistertätigkeit und Hausverwaltung - Reinigungsdienst - Vermittlung von Dienstleistungen, insbesondere von Beratungsdienstleistungen - Reisebüro, Reiseveranstalter - die Organisation von Kultur- und Messeveranstaltungen - Groß- und Einzelhandel, insbesondere Textilien - Sicherheits- und Überwachungsdienst - An- und Verkauf von Fahrzeugen und Fahrzeugteilen, Fahrzeugvermietung.",
+    "register_court": "Köln",
+    "register_number": "96236",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Meerbusch",
+     "country": "DE",
+     "formatted_value": "Kantstr. 23, 40667 Meerbusch",
+     "postal_code": "40667",
+     "street": "Kantstr. 23"
+    },
+    "company_id": "DE-HRB-R3306-112691",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Novus Sicherheit und Dienstleistungen GmbH",
+    "purpose": "ist das Sicherheitsgewerbe, das Reinigungsgewerbe, Bauhilfetätigkeiten und damit zusammenhängende Dienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "112691",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Bonn",
+     "country": "DE",
+     "formatted_value": "Paul-Langen-Straße 39, 53229 Bonn",
+     "postal_code": "53229",
+     "street": "Paul-Langen-Straße 39"
+    },
+    "company_id": "DE-HRB-R3306-119388",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "S.U.Z. Schutz und Sicherheit GmbH",
+    "purpose": "das Erbringen von Dienstleistungen in den Bereichen Sicherheit und Schutz, Reinigung und Innenausbau sowie der Im- und Export von Lebensmitteln aller Art, gebrauchten Autos und Ersatzteilen sowie von Bekleidung und Schuhen.",
+    "register_court": "Köln",
+    "register_number": "119388",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Montanusstraße 30, 51065 Köln",
+     "postal_code": "51065",
+     "street": "Montanusstraße 30"
+    },
+    "company_id": "DE-HRB-R3306-124676",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "W.S.D GmbH",
+    "purpose": "der Betrieb eines Sicherheitsdienstes und die Objektüberwachung",
+    "register_court": "Köln",
+    "register_number": "124676",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Konrad-Adenauer-Ufer 39, 50668 Köln",
+     "postal_code": "50668",
+     "street": "Konrad-Adenauer-Ufer 39"
+    },
+    "company_id": "DE-HRB-R3306-110915",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "LCH GmbH",
+    "purpose": "- Inkassodienstleistungen, insbesondere das nicht nach dem KWG erlaubnispflichtige Forderungsmanagement, - die Durchführung von Schulungen und Weiterbildungen für Wirtschaftsunternehmen, - die Unternehmensberatung, - die Erbringung von Software-as-a-Service Leistungen, insbesondere im Zusammenhang mit Ermittlungstätigkeiten und Rechtsdienstleistungen, - die Entwicklung und der Vertrieb von Software, -Ermittlungsdienstleistungen für Ermittlungsbehörden und Unternehmen.",
+    "register_court": "Köln",
+    "register_number": "110915",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Immendorfer Hauptstraße 21, 50997 Köln",
+     "postal_code": "50997",
+     "street": "Immendorfer Hauptstraße 21"
+    },
+    "company_id": "DE-HRB-R3306-94735",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Kuratel GmbH",
+    "purpose": "der Betrieb eines Bewachungsunternehmens, die Erbringung von Sicherheitsdienstleistungen gemäß § 34a GewO, Erbringung moderner Dienstleistungen am Arbeitsplatz (Fortbildung, Umschulung), Personalvermittlung und der Bau, Betrieb, Verwaltung und Vermietung von Sport und Freizeitanlagen, einschließlich aller damit verbundenen Nebentätigkeiten.",
+    "register_court": "Köln",
+    "register_number": "94735",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Gremberger Straße 145, 51105 Köln",
+     "postal_code": "51105",
+     "street": "Gremberger Straße 145"
+    },
+    "company_id": "DE-HRB-R3306-83063",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Gümüş-Security UG (haftungsbeschränkt)",
+    "purpose": "Der Wach- und Sicherheitsdienst.",
+    "register_court": "Köln",
+    "register_number": "83063",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Robert-Perthel-Straße 64-66, 50739 Köln",
+     "postal_code": "50739",
+     "street": "Robert-Perthel-Straße 64-66"
+    },
+    "company_id": "DE-HRB-R3306-75058",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bocks Security GmbH",
+    "purpose": "die Erbringung von Sicherheitsdienstleistungen, insbesondere Objektschutz, Werkschutz, Funkstreife, Kurierdienst, Veranstaltungsdienst, Ermittlungsdienst, Sicherheitsrevisionen und entsprechende Beratungen sowie alle artverwandten Geschäfte, die dem Gesellschaftszweck dienlich sind;",
+    "register_court": "Köln",
+    "register_number": "75058",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Bayenwerft 12-14, 50678 Köln",
+     "postal_code": "50678",
+     "street": "Bayenwerft 12-14"
+    },
+    "company_id": "DE-HRB-R3306-98255",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "congstar GmbH",
+    "purpose": "die Betätigung im gesamten Bereich der Telekommunikation, Informationstechnologie, Multimedia, Information und Unterhaltung, Sicherheitsdienstleistungen, Mehrwertdienste sowie der Mobilkommunikation und in verwandten Bereichen sowohl im Auftrag der Telekom Deutschland GmbH als auch im eigenen Namen.",
+    "register_court": "Köln",
+    "register_number": "98255",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Rösrather Straße 591-593, 51107 Köln",
+     "postal_code": "51107",
+     "street": "Rösrather Straße 591-593"
+    },
+    "company_id": "DE-HRB-R3306-116755",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SAM Link GmbH",
+    "purpose": "der gewerbliche Güterkraftverkehr über 3,5 Tonnen sowie Transport- und Logistikdienstleistungen mit allen damit im Zusammenhang stehenden Serviceleistungen sowie der Handel mit Fahrzeugen aller Art, deren Ankauf und Verkauf, die Autovermietung und Aufbereitung, die Auftragsvermittlung im Bereich Logistik und im Bereich Sicherheit, die Fahrzeugüberführung auf eigenen oder fremden Achsen sowie der Betrieb von Online-Plattformen im Bereich der Fahrzeugüberführung und Transporte. Ferner gehören Dienstleistungen im Bewachungsgewerbe gemäß § 34a GewO, Unternehmensberatung und Personalvermittlung sowie die Vermittlung von Kfz-Versicherungen, Rentenversicherungen und weiteren Versicherungen für Privat- und Geschäftskunden zum Geschäftszweck. Außerdem wird ein digitaler Zulassungsdienst (i-Kfz) und alle damit zusammenhängenden Dienstleistungen betrieben, ebenso wie der Betrieb von E-Shops, der An- und Verkauf von mit dem Gegenstand zusammenhängende Waren, deren Lagerung, Versand und alle damit verbundenen Handels- und Serviceaktivitäten.",
+    "register_court": "Köln",
+    "register_number": "116755",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Bremen",
+     "country": "DE",
+     "formatted_value": "Am Oslebshauser Bahnhof 1, 28239 Bremen",
+     "postal_code": "28239",
+     "street": "Am Oslebshauser Bahnhof 1"
+    },
+    "company_id": "DE-HRB-R3306-120839",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "YOUMIN security UG (haftungsbeschränkt)",
+    "purpose": "die Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung, Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "Köln",
+    "register_number": "120839",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Vogelsanger Straße 356, 50829 Köln",
+     "postal_code": "50829",
+     "street": "Vogelsanger Straße 356"
+    },
+    "company_id": "DE-HRB-R3306-94043",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Ponctuel LG Dienstleistungen GmbH",
+    "purpose": "Dienstleistungen auf dem Gebiet der Gebäudereinigung und des Hausmeister-Service, der Vertrieb von Reinigungsmitteln und Hygieneartikeln, der Betrieb eines Sicherheitsdienstes, die Durchführung von Trockenbauarbeiten und der Betrieb eines Reisebüros.",
+    "register_court": "Köln",
+    "register_number": "94043",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Poll-Vingster-Strasse 105, 51105 Köln",
+     "postal_code": "51105",
+     "street": "Poll-Vingster-Strasse 105"
+    },
+    "company_id": "DE-HRB-R3306-41693",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ISM International Security Management GmbH",
+    "purpose": "a) der Personenschutz, die Objektsicherung, der Betrieb einer Detektei und die Vermittlung von Sicherheitsdienstleistungen, b) der Medienservice, insbesondere die Durchführung von Produktionsfahrten, c) die Personenbeförderung mit Kraftfahrzeugen im Gelegenheitsverkehr gemäß § 46 Personenbeförderungsgesetz, insbesondere Chauffeurfahrten.",
+    "register_court": "Köln",
+    "register_number": "41693",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Richard-Wagner-Straße 13-17, 50674 Köln",
+     "postal_code": "50674",
+     "street": "Richard-Wagner-Straße 13-17"
+    },
+    "company_id": "DE-HRB-R3306-120276",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "L-D Service GmbH",
+    "purpose": "der Objektschutz, die Veranstaltungssicherheit, der Personenschutz sowie weitere sicherheitsrelevante Dienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "120276",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Glockengasse 1, 50667 Köln",
+     "postal_code": "50667",
+     "street": "Glockengasse 1"
+    },
+    "company_id": "DE-HRB-R3306-104028",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Kalscheuer Parkhausbetriebe GmbH",
+    "purpose": "der Betrieb von Parkhäusern und Parkplätzen einschließlich der Durchführung und Betreuung von dort stattfindenden Kunst - und Kultur - Veranstaltungen sowie die Erbringung von dazugehörigen Dienstleistungen auch für Dritte (z.B. die Erbringung von Bewachungsdienstleistungen sowie des Objektschutzes gemäß § 34a GewO).",
+    "register_court": "Köln",
+    "register_number": "104028",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Gürzenichstraße 25, 50667 Köln",
+     "postal_code": "50667",
+     "street": "Gürzenichstraße 25"
+    },
+    "company_id": "DE-HRB-R3306-110898",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Fit and clean24 UG (haftungsbeschränkt)",
+    "purpose": "Wachdienst nach § 5 LuftSiG, die Gebäudereinigung, die Entrümpelung, der Trockenbau sowie der Im- und Export der mit den vorbezeichneten Tätigkeiten im Zusammenhang stehenden Waren.",
+    "register_court": "Köln",
+    "register_number": "110898",
+    "register_type": "HRB"
+   }
+  ],
+  "6": [
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Industriestraße 167, 50999 Köln",
+     "postal_code": "50999",
+     "street": "Industriestraße 167"
+    },
+    "company_id": "DE-HRB-R3306-88474",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "RA Sicherheitsdienst GmbH",
+    "purpose": "die Durchführung sämtlicher für den Personenschutz möglilchen Maßnahmen, einschließlich der Sicherheitsberatung, der Sicherheitsbegleitung und des Objektschutzes",
+    "register_court": "Köln",
+    "register_number": "88474",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Marconistraße 30, 50769 Köln",
+     "postal_code": "50769",
+     "street": "Marconistraße 30"
+    },
+    "company_id": "DE-HRB-R3306-79256",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ANKER GmbH",
+    "purpose": "die Reinigung und Pflege von Industrieanlagen, Gerüstbau sowie Arbeitnehmerüberlassung zur Durchführung von Schweißerarbeiten, Anlagenbau, Rohrleitungs- und Kesselbau sowie das Bewachungsgewerbe.",
+    "register_court": "Köln",
+    "register_number": "79256",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Magdeburg",
+     "country": "DE",
+     "formatted_value": "Wisninger Straße 4, 39130 Magdeburg",
+     "postal_code": "39130",
+     "street": "Wisninger Straße 4"
+    },
+    "company_id": "DE-HRB-R3306-123744",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CRIME-CUT security UG (haftungsbeschränkt)",
+    "purpose": "Die Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung, Revierfahrten, Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "Köln",
+    "register_number": "123744",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Subbelrather Straße 15 a, 50823 Köln",
+     "postal_code": "50823",
+     "street": "Subbelrather Straße 15 a"
+    },
+    "company_id": "DE-HRB-R3306-114101",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Vista Sicherheitsdienst GmbH",
+    "purpose": "Sicherheitsdienstleistungen jeder Art (Beratung, Überwachung, Personenschutz, Sicherheitsanalysen, Veranstaltungs- und Konferenzschutz, Ermittlungen, Ausbildung) und die Beteiligung an anderen Unternehmen mit einem verwandten Unternehmenszweck sowie deren Geschäftsführung, weiterhin Logistik-, Reinigungs- und Servicedienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "114101",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Aachener Straße 1021-1023, 50858 Köln",
+     "postal_code": "50858",
+     "street": "Aachener Straße 1021-1023"
+    },
+    "company_id": "DE-HRB-R3306-31945",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Wieprecht Service Verwaltung GmbH",
+    "purpose": "die Beteiligung und Verwaltung von Beteiligungen an anderen Unternehmungen, vornehmlich an Gesellschaften, die sich mit Gebäude-Management sowie Glas- und Gebäudereinigung befassen, insbesondere die Beteiligung als persönlich haftende Gesellschafterin an der Wieprecht Gebäude-Management und Reinigungs-Service GmbH & Co. KG in Köln sowie ferner die Durchführung von Bewachungsaufgaben gemäß § 34 a Gewerbeordnung.",
+    "register_court": "Köln",
+    "register_number": "31945",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Richard-Wagner-Str. 1-3, 50859 Köln",
+     "postal_code": "50859",
+     "street": "Richard-Wagner-Str. 1-3"
+    },
+    "company_id": "DE-HRB-R3306-67195",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GesiTech GmbH",
+    "purpose": "die Tätigkeit im Sicherheits- und Kontrollbereich (insbesondere Durchführung von Bewachungsaufgaben im Sinne von § 34 a GewO, Gebäudeschutz, Leibwächter, Kurierdienste, Sicherheitstechnik) einschließlich der Gestellung mit obiger Tätigkeiten zusammenhängenden Personals sowie die Erbringung von Serviceleistungen aller Art.",
+    "register_court": "Köln",
+    "register_number": "67195",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Keimestraße 3, 50765 Köln",
+     "postal_code": "50765",
+     "street": "Keimestraße 3"
+    },
+    "company_id": "DE-HRB-R3306-109143",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AQUILA Sicherheit & Service GmbH",
+    "purpose": "die Bewachungstätigkeit nach § 34 a GeWo sowie alle Servicetätigkeiten in diesem Bereich. Des Weiteren ist Gegenstand des Unternehmens das Gebäudemanagement, sowie der Facility- und Reinigungsservice.",
+    "register_court": "Köln",
+    "register_number": "109143",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Robert-Perthel-Straße 77 a, 50739 Köln",
+     "postal_code": "50739",
+     "street": "Robert-Perthel-Straße 77 a"
+    },
+    "company_id": "DE-HRB-R3306-90259",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "WuVo Security GmbH",
+    "purpose": "das Angebot von Sicherheitsleistungen jeder Art und Hausmeisterservice.",
+    "register_court": "Köln",
+    "register_number": "90259",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Am Coloneum 1, 50829 Köln",
+     "postal_code": "50829",
+     "street": "Am Coloneum 1"
+    },
+    "company_id": "DE-HRB-R3306-110630",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Röttinger Event & Service GmbH",
+    "purpose": "die Organisation und Durchführung von Events, Tourneen und Gastspielen aller Art sowie von folgenden Aufgabenbereichen: umfassender Sicherheitsdienst, Event- und Veranstaltungsschutz, Geld- und Werttransport, mittelbarer und unmittelbarer Personenschutz, Detektei, Fahr- und Chauffeurdienst, Fire Rescue Management, Künstlermanagement und -vermittlung.",
+    "register_court": "Köln",
+    "register_number": "110630",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Königsforststraße 20, 51109 Köln",
+     "postal_code": "51109",
+     "street": "Königsforststraße 20"
+    },
+    "company_id": "DE-HRB-R3306-122335",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "S.P.S. GmbH",
+    "purpose": "die Erbringung von Sicherheits- und Personaldienstleistungen, insbesondere Bewachungs- und Sicherheitsdienste, Personenschutz, Sicherheitsberatung, Alarmaufschaltung, Vermittlung von Sicherheitspersonal sowie die Überlassung und Vermittlung von Arbeitskräften.",
+    "register_court": "Köln",
+    "register_number": "122335",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Rösrather Straße 271-275, 51107 Köln",
+     "postal_code": "51107",
+     "street": "Rösrather Straße 271-275"
+    },
+    "company_id": "DE-HRB-R3306-123345",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DOMTTBau GmbH",
+    "purpose": "Tiefbau, Trockenbauarbeiten im Innen- und Außenbereich, Tapezieren und Streichen, der An- und Verkauf von PKW, Grundreinigungsarbeiten, Abrissarbeiten, Leihmitarbeiterservice, die Herstellung und der Vertrieb von Autopflege, Messebau sowie sämtliche Dienstleistungen im Zusammenhang mit Messen (Aufbau, Abbau, Betreuung, Logistik etc.), Rohbau, Transport- und Logistikdienstleistungen, Hausverwaltung und Immobilienbetreuung, Maklertätigkeiten im Immobilienbereich, Projektleitung und Durchführung von Bauprojekten, insbesondere im Bereich Stadtbau, Unterstützung und Vertretung internationaler Unternehmen bei Investitionen in Deutschland, allgemeine handwerkliche und unterstützende Dienstleistungen im Bau-, Immobilien- und Veranstaltungsbereich, Sicherheitsdienstleistungen, Arbeitsvermittlung und Investition Beratung und Durchführung.",
+    "register_court": "Köln",
+    "register_number": "123345",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Clevischer Ring 90, 51063 Köln",
+     "postal_code": "51063",
+     "street": "Clevischer Ring 90"
+    },
+    "company_id": "DE-HRB-R3306-77779",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "HN Sun Selection UG (haftungsbeschränkt)",
+    "purpose": "Das Betreiben von Sonnenstudios sowie der Handel mit Papier/Etiketten und Waagensystemen, sowie Personendienstleistungen im Gastro-Eventbereich, einschließlich Eventservice, Parkplatzdienste, Ordnerdienste.",
+    "register_court": "Köln",
+    "register_number": "77779",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "An der Fuhr 4, 50997 Köln",
+     "postal_code": "50997",
+     "street": "An der Fuhr 4"
+    },
+    "company_id": "DE-HRB-R3306-110693",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Clean58 UG (haftungsbeschränkt)",
+    "purpose": "Objektsicherung, Gebäudereinigung",
+    "register_court": "Köln",
+    "register_number": "110693",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Bahide-Arslan-Straße 14, 50827 Köln",
+     "postal_code": "50827",
+     "street": "Bahide-Arslan-Straße 14"
+    },
+    "company_id": "DE-HRB-R3306-116805",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Rock & River Services GmbH",
+    "purpose": "der Betrieb von Sicherheitsdienstleistungen, Reinigungsdienstleistungen, Entrümpelungsdienstleistungen, die Bereitstellung von Servicekräften, Transportleistungen mit Fahrzeugen bis zu einem zulässigen Gesamtgewicht von 3,5 Tonnen, Autoaufbereitungen sowie die Personalgestellung an Unternehmen, insbesondere die Bereitstellung von Personal zur Unterstützung betrieblicher Abläufe, soweit hierfür keine behördliche Erlaubnis erforderlich ist und keine erlaubnispflichtige Arbeitnehmerüberlassung nach dem Arbeitnehmerüberlassungsgesetz (AÜG) betrieben wird, sowie die Erbringung von Dienstleistungen im Bereich Social Media, Online-Marketing, Content-Erstellung, Content-Produktion, Social-Media-Management sowie Marketing- und Werbeberatung.",
+    "register_court": "Köln",
+    "register_number": "116805",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Deutz-Kalker-Str. 46, 50679 Köln",
+     "postal_code": "50679",
+     "street": "Deutz-Kalker-Str. 46"
+    },
+    "company_id": "DE-HRB-R3306-18648",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ROLAND Assistance GmbH",
+    "purpose": "das Erbringen von Dienst-, insbesondere Hilfe- (Assistance) Leistungen aller Art, u.a. auf dem Verkehrssektor, wie: (1) Telefon-Notruf mit Tag- und Nacht-Bereitschaftsdienst, (2) \"Organisation von Krankenrücktransporten und Fahrzeugrückholungen im In- und Ausland\", (3) Gestellung und/oder Vermittlung von Ersatzfahrern und Ersatzfahrzeugen im In- und Ausland, (4) Übernahme von Schadenregulierung und -bearbeitung von In- und Auslandsschäden, (5) Einkauf und Verwaltung von Werbemitteln, (6) Kurierdienste, (7) Personenbetreuungsdienste, (8) Gebäudeüberwachungsdienste, (9) Sonstiges. Geschäfte im Sinne des § 34 c der Gewerbeordnung werden nicht getätigt.",
+    "register_court": "Köln",
+    "register_number": "18648",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Deutz-Kalker-Straße 122, 50679 Köln",
+     "postal_code": "50679",
+     "street": "Deutz-Kalker-Straße 122"
+    },
+    "company_id": "DE-HRB-R3306-123344",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Rebekka Keppler Sicherheits GmbH",
+    "purpose": "die Erbringung von Dienstleistungen im Sicherheitsbereich, insbesondere Objektschutz, Planung und Umsetzung von Sicherheitskonzepten, Sicherheitsberatung und Vermittlung von Personal für diese Zwecke",
+    "register_court": "Köln",
+    "register_number": "123344",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Uracherstraße 4, 50739 Köln",
+     "postal_code": "50739",
+     "street": "Uracherstraße 4"
+    },
+    "company_id": "DE-HRB-R3306-78308",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Comm-Art-Design UG (haftungsbeschränkt)",
+    "purpose": "Grafikdesign, Programmierung, Fotografie, Layoutgestaltung, Personen und -Begleitschutz.",
+    "register_court": "Köln",
+    "register_number": "78308",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Im Weidenbruch 215, 51061 Köln",
+     "postal_code": "51061",
+     "street": "Im Weidenbruch 215"
+    },
+    "company_id": "DE-HRB-R3306-124542",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Stier Sec Dienstleistung & Sicherheitsdienst UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Dienstleistungen in den Bereichen Sicherheitsdienst, Ordnertätigkeiten, Servicekräfte, Autovermietung sowie Reinigungsdienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "124542",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Löwengasse 11, 50676 Köln",
+     "postal_code": "50676",
+     "street": "Löwengasse 11"
+    },
+    "company_id": "DE-HRB-R3306-37228",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "VSU Vereinigte Sicherheitsunternehmen GmbH",
+    "purpose": "Dienstleistungen des Wach- und Schließgewerbes zum Schutze von Personen und Eigentum durch Beratung, Bewachung, Kassierer-, Absperr-, Kontroll- und Markisendiensf, die Durchführung von Geld- und Werttransporten und die Alarmverfolgung und sämtliche Dienstleistungen, die im Rahmen eines Bewachungsunternehmens liegen. Ferner die Planung, Organisation und Durchführung von Brandschutzmaßnahmen und Rettungsdiensten aller Art und sämtliche Dienstleistungen, die im Rahmen dieser Tätigkeiten liegen einschließlich der Erstellung von Brandschutzgutachten.",
+    "register_court": "Köln",
+    "register_number": "37228",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Dülkenstraße 9, 51143 Köln",
+     "postal_code": "51143",
+     "street": "Dülkenstraße 9"
+    },
+    "company_id": "DE-HRB-R3306-115331",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "E.K.Z. Security GmbH",
+    "purpose": "der Sicherheitsdienst und das Betreiben eines Bewachungsgewerbes.",
+    "register_court": "Köln",
+    "register_number": "115331",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Kellereiweg 25, 51145 Köln",
+     "postal_code": "51145",
+     "street": "Kellereiweg 25"
+    },
+    "company_id": "DE-HRB-R3306-73076",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Phoenix-Sicherheit GmbH",
+    "purpose": "der Betrieb eines Sicherheitsdienstes (Objekt- und Personenschutz) und einer Detektei, Limousinenservice und Überlassung von Warenhausdetektiven.",
+    "register_court": "Köln",
+    "register_number": "73076",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Hohenzollernring 57, 50672 Köln",
+     "postal_code": "50672",
+     "street": "Hohenzollernring 57"
+    },
+    "company_id": "DE-HRB-R3306-118090",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Ta-deus GmbH",
+    "purpose": "der Im- und Export von Waren aller Art, insbesondere von Baumaterialien und Baustoffen, insbesondere von Hölzern und Metallen. Ferner ist Gegenstand des Unternehmens die Erbringung von Auftragsvermittlungen im Handwerksbereich, insbesondere bei Bau- und Renovierungsarbeiten, die Erbringung von Transporttätigkeiten mit Fahrzeugen bis zu einer zulässigen Gesamtmasse von bis zu 3,5 Tonnen, wobei Sondergüter nicht transportiert werden, zudem der Landschaftsbau und Sicherheitsdienstleistungen. Die Gesellschaft übt keine Tätigkeiten aus, die einer besonderen Genehmigung bedürfen.",
+    "register_court": "Köln",
+    "register_number": "118090",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Odenthaler Str. 117, 51069 Köln",
+     "postal_code": "51069",
+     "street": "Odenthaler Str. 117"
+    },
+    "company_id": "DE-HRB-R3306-56056",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Euroguard Dienstleistungs Security GmbH",
+    "purpose": "Wach- und Sicherheitsleistungen an Objekten jeder Art und Sicherheitsschutz für natürliche Personen",
+    "register_court": "Köln",
+    "register_number": "56056",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Dürener-Str. 223, 50931 Köln",
+     "postal_code": "50931",
+     "street": "Dürener-Str. 223"
+    },
+    "company_id": "DE-HRB-R3306-119534",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "24Sieben Profit GmbH",
+    "purpose": "Die Erbringung der Unternehmensberatung, von Büro- und Buchhaltungsservices, von Logistikberatungen, die Existenzgründungsberatung, von IT- und Marketingservices, Hausmeistertätigkeiten, Abrisstätigkeiten sowie Ordnertätigkeiten.",
+    "register_court": "Köln",
+    "register_number": "119534",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Girlitzweg 30, 50829 Köln",
+     "postal_code": "50829",
+     "street": "Girlitzweg 30"
+    },
+    "company_id": "DE-HRB-R3306-114748",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Secustaff UG (haftungsbeschränkt)",
+    "purpose": "der Betrieb eines Sicherheitsdienstes, insbesondere der Personen- und Objektschutz sowie Veranstaltungsschutz und allen damit im Zusammenhang stehenden Dienstleistungen, soweit es hierzu keiner besonderen Genehmigung bedarf.",
+    "register_court": "Köln",
+    "register_number": "114748",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Schanzenstr. 37, 51063 Köln",
+     "postal_code": "51063",
+     "street": "Schanzenstr. 37"
+    },
+    "company_id": "DE-HRB-R3306-29642",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "TST Gesellschaft für Personen- und Objektschutz mbH",
+    "purpose": "die Durchführung sämtlicher für den Personenschutz möglichen Maßnahmen, einschließlich der Sicherheitsberatung, der Sicherheitsbegleitung, etwaige Chauffeurdienste, Fahrzeuggestellung, insbesondere die Vermietung von Spezialfahrzeugen, Durchführung nationaler und internationaler Nachforschungen, auch hinsichtlich Vermißtensuche, sowie alle Maßnahmen, die für den Schutz der Grundrechte des Menschen dienlich sein können;",
+    "register_court": "Köln",
+    "register_number": "29642",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Dorsten",
+     "country": "DE",
+     "formatted_value": "Endelner Feld 10, 46286 Dorsten",
+     "postal_code": "46286",
+     "street": "Endelner Feld 10"
+    },
+    "company_id": "DE-HRB-R3306-106869",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Xclue-safe GmbH",
+    "purpose": "ist die erlaubnispflichtige Bewachung insbesondere nach § 34 a GewO.",
+    "register_court": "Köln",
+    "register_number": "106869",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Kaiser-Wilhelm-Ring 17-21, 50672 Köln",
+     "postal_code": "50672",
+     "street": "Kaiser-Wilhelm-Ring 17-21"
+    },
+    "company_id": "DE-HRB-R3306-119229",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Haub Legacy Services GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen im Bereich Facility Management und Sicherheit, insbesondere Personen- und Objektschutz, ausschließlich für die Gesellschafter oder wirtschaftlich Berechtigten der Haub Legacy Services GmbH.",
+    "register_court": "Köln",
+    "register_number": "119229",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Methweg 4g, 50823 Köln",
+     "postal_code": "50823",
+     "street": "Methweg 4g"
+    },
+    "company_id": "DE-HRB-R3306-110581",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DON Logistik GmbH",
+    "purpose": "der gewerbliche Güterkraftverkehr über 3,5 Tonnen sowie Transport- und Logistikdienstleistungen mit allen damit in Zusammenhang stehenden Serviceleistungen, wie beispielswiese Autovermietung und Auftragsvermittlung im Bereich Logistik und im Bereich Sicherheit. Ferner sind Dienstleistungen im Bewachungsgewerbe gemäß § 34a GewO Gegenstand des Unternehmens.",
+    "register_court": "Köln",
+    "register_number": "110581",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Hohenstaufenring 62, 50674 Köln",
+     "postal_code": "50674",
+     "street": "Hohenstaufenring 62"
+    },
+    "company_id": "DE-HRB-R3306-83824",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Aaden Wirtschaftsdetektei GmbH",
+    "purpose": "für Wirtschaftsunternehmen und Privatpersonen: Ermittlungen, Recherchen und Observationen jeder Art, insbesondere zu Betrug bei Lohnfortzahlung, bei Arbeitszeit oder bei Wettbewerb sowie die Überwachung von Mitarbeitern, die Suche nach vermissten Personen, Ermittlungen bei Verdacht von Untreuehandlungen und die Recherche aktueller Schuldneradressen.",
+    "register_court": "Köln",
+    "register_number": "83824",
+    "register_type": "HRB"
+   }
+  ],
+  "7": [
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "extra": "RA Ugursoy",
+     "formatted_value": "Am Eichelberg 34, 50767 Köln",
+     "postal_code": "50767",
+     "street": "Am Eichelberg 34"
+    },
+    "company_id": "DE-HRB-R3306-96140",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Lian Security GmbH",
+    "purpose": "das Betreiben von Detektiv- und Sicherheitsdiensten für Handels- und Logistikunternehmen und andere Einrichtungen, die Bewachung von fremdem Leben und Eigentum, die Durchführung von Sicherheitsmaßnahmen jeglicher Art, Schutz von Transporten, Werkschutz, Detektivdienste, Arbeitssicherheit, Alarmverfolgung, Empfangsdienste, Kurierfahrten, Sicherheitsanalysen, Sicherheitsberatung, Durchführung von Schulungsmaßnahmen, Videoüberwachung im Rahmen der Gesetzlichkeit sowie alle Tätigkeiten, die dem Gesellschaftszweck zu dienen geeignet sind.",
+    "register_court": "Köln",
+    "register_number": "96140",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Kannebäckerstraße 21, 51105 Köln",
+     "postal_code": "51105",
+     "street": "Kannebäckerstraße 21"
+    },
+    "company_id": "DE-HRB-R3306-118866",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "KSDS Köln - Sicherheit, Detektei und Service UG (haftungsbeschränkt)",
+    "purpose": "der Betrieb eines Sicherheitsdienstes und Detektei.",
+    "register_court": "Köln",
+    "register_number": "118866",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Kellerreiweg 25, 51145 Köln",
+     "postal_code": "51145",
+     "street": "Kellerreiweg 25"
+    },
+    "company_id": "DE-HRB-R3306-121698",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Phoenix-Wachdienst UG (haftungsbeschränkt)",
+    "purpose": "der Betrieb eines Sicherheitsdienstes (Objekt- und Personenschutz) und einer Detektei, Limousinenservice und Überlassung von Warenhausdetektiven.",
+    "register_court": "Köln",
+    "register_number": "121698",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Appelhofplatz 29, 50667 Köln",
+     "postal_code": "50667",
+     "street": "Appelhofplatz 29"
+    },
+    "company_id": "DE-HRB-R3306-103234",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Force Protection GmbH",
+    "purpose": "die Erbringung privater und gewerblicher Wach- und Sicherheitsdienste. Hierzu zählen insbesondere die Bewachung von Personen und Grundstücken/Gebäuden, sowie der Wach- und Sicherheitsdienst auf Veranstaltungen aller Art (Veranstaltungsschutz) und darüber hinaus der Verkauf, die Installation und Betreuung von Sicherheitstechnik.",
+    "register_court": "Köln",
+    "register_number": "103234",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Am Klostergarten 16, 50858 Köln",
+     "postal_code": "50858",
+     "street": "Am Klostergarten 16"
+    },
+    "company_id": "DE-HRB-R3306-102216",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BLIP GmbH",
+    "purpose": "die Dienstleistung in Form von Sicherheit (Security), Consulting, Erstellung von Sicherheitskonzepten, Observationen von Personen und Objekten und Ermittlungen von Sachverhalten sowie die umfassende Bewachungstätigkeit ohne Einschränkungen in Form von Personenschutz, Objektschutz und Veranstaltungsschutz.",
+    "register_court": "Köln",
+    "register_number": "102216",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Zwinglistraße 35, 10555 Berlin",
+     "postal_code": "10555",
+     "street": "Zwinglistraße 35"
+    },
+    "company_id": "DE-HRB-R3306-95741",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DC ONE Security GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens, die gewerbsmäßige Arbeitnehmerüberlassung sowie die Personalvermittlung und die erlaubnispflichtige Bewachung insbesondere nach § 34 a GewO.",
+    "register_court": "Köln",
+    "register_number": "95741",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Im Mediapark 5d, 50670 Köln",
+     "postal_code": "50670",
+     "street": "Im Mediapark 5d"
+    },
+    "company_id": "DE-HRB-R3306-118646",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Global Protection GmbH",
+    "purpose": "die Erbringung von Sicherheitsdienstleistungen sowie sonstigen gewerblichen Dienstleistungen für Gewerbe und Privatkunden, insbesondere im Bereich Bewachung, Veranstaltungs- und Objektdienst, Facility-, Logistik- und Hausmeisterservices.",
+    "register_court": "Köln",
+    "register_number": "118646",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Vogelsanger Weg 55, 50858 Köln",
+     "postal_code": "50858",
+     "street": "Vogelsanger Weg 55"
+    },
+    "company_id": "DE-HRB-R3306-20904",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Wachdienst LUCHS GmbH",
+    "purpose": "der Betrieb eines Dienstleistungsunternehmens im Bereich des Bewachungs- und Kontrollwesens;",
+    "register_court": "Köln",
+    "register_number": "20904",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt",
+     "country": "DE",
+     "formatted_value": "Lindleystraße 8a, 60314 Frankfurt",
+     "postal_code": "60314",
+     "street": "Lindleystraße 8a"
+    },
+    "company_id": "DE-HRB-R3306-121746",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Wachkraft GmbH",
+    "purpose": "die Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung, Revierfahrten, Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "Köln",
+    "register_number": "121746",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Delmenhorster Str. 14-18, 50735 Köln",
+     "postal_code": "50735",
+     "street": "Delmenhorster Str. 14-18"
+    },
+    "company_id": "DE-HRB-R3306-52980",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Paass Logistik GmbH",
+    "purpose": "Die gewerbliche Arbeitnehmerübermittlung und Vermittlung von Zeitarbeit im In- und Ausland, Gebäudereinigung und Wachdienstleistungen sowie Logistikdienstleistungen",
+    "register_court": "Köln",
+    "register_number": "52980",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Dülkenstraße 9 (Haus 1), 51143 Köln",
+     "postal_code": "51143",
+     "street": "Dülkenstraße 9 (Haus 1)"
+    },
+    "company_id": "DE-HRB-R3306-63754",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DELTA Sicherheit GmbH",
+    "purpose": "Sicherheitsdienstleistungen und sonstige Dienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "63754",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Daimlerstraße 12, 50827 Köln",
+     "postal_code": "50827",
+     "street": "Daimlerstraße 12"
+    },
+    "company_id": "DE-HRB-R3306-103176",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PointSecure GmbH",
+    "purpose": "die Erbringung von Web- und Cybersicherheitsdienstleistungen sowie IT-Sicherheitsdienstleistungen. Ferner ist Gegenstand des Unternehmens die Erbringung von Sicherheitsdienstleistungen aller Art, insbesondere die Bewachung von Personen, Gebäuden und Anlagen, Veranstaltungsschutz, Objektschutz, Baustellenbewachung, Detektei Dienstleistungen sowie Alarmüberwachung. Weiterhin umfasst der Unternehmensgegenstand Sicherheitsberatung, Sicherheits- und Krisenmanagement sowie sonstige Sicherheits- und Servicetätigkeiten, insbesondere logistische Dienstleistungen, Empfangs- und Telefondienste, Brandschutz- und Brandsicherheitswachdienstleistungen, Winterdienst und Hausmeisterdienste.",
+    "register_court": "Köln",
+    "register_number": "103176",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Annostraße 19a, 50678 Köln",
+     "postal_code": "50678",
+     "street": "Annostraße 19a"
+    },
+    "company_id": "DE-HRB-R3306-107174",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "EDDSEC GmbH",
+    "purpose": "Luftsicherheitskontrollen, Sicherheitsdienstleistungen, Ausbildung von Personal und Diensthunden sowie Luftsicherheitsschulungen.",
+    "register_court": "Köln",
+    "register_number": "107174",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frechen",
+     "country": "DE",
+     "formatted_value": "Fasanenweg 17, 50226 Frechen",
+     "postal_code": "50226",
+     "street": "Fasanenweg 17"
+    },
+    "company_id": "DE-HRB-R3306-19770",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ABAKUS Unternehmensberatung und Dienstleistungs GmbH",
+    "purpose": "die projektbezogene Unternehmensberatung speziell im Personalbereich, das Erstellen und Durchführen von Dienst- und Werkverträgen aller Art sowie Verkaufsförderung, ferner der allgemeine Sicherheitsdienst insbesondere der Objekt- und Personenschutz, sowie der allgemeine Güternahverkehr;",
+    "register_court": "Köln",
+    "register_number": "19770",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Ettore-Bugatti-Straße 39, 51149 Köln",
+     "postal_code": "51149",
+     "street": "Ettore-Bugatti-Straße 39"
+    },
+    "company_id": "DE-HRB-R3306-111585",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Big Service GmbH",
+    "purpose": "die Gebäudereinigung, Transportdienstleistungen mit Fahrzeugen bis zu einem Gewicht von 3,5 Tonnen, die Vermietung von PKW´s und LKW´s, die Dienstleistungen im Bereich Sicherheit und Bewachung gemäß § 34 a GewO und § 6 Bewachungsverordnung, sowie die Arbeitsüberlassung und Personalvermittlung und Personalqualifizierung.",
+    "register_court": "Köln",
+    "register_number": "111585",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Wilhelm-Mauser-Straße 45, 50827 Köln",
+     "postal_code": "50827",
+     "street": "Wilhelm-Mauser-Straße 45"
+    },
+    "company_id": "DE-HRB-R3306-86859",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Titan Security GmbH",
+    "purpose": "der Objekt- und Personenschutz und alle damit zusammenhängenden Tätigkeiten, des Weiteren die Gebäudereinigung, der Möbelhandel, der Handel mit Elektronikartikeln aller Art, sowie Handel mit Lebensmitteln und Getränken aller Art.",
+    "register_court": "Köln",
+    "register_number": "86859",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Ottostraße 1, 51149 Köln",
+     "postal_code": "51149",
+     "street": "Ottostraße 1"
+    },
+    "company_id": "DE-HRB-R3306-24481",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DEUTZ Sicherheit Gesellschaft für Industrieservice mbH",
+    "purpose": "die Erbringung von Dienstleistungen im Sicherheitsbereich, Sicherheitsschule, Werk-, Industrie-, Personen- und Objektschutz einschließlich bewaffnetem Personen- und Objektschutz, Feuerwehr-, Notrufzentrale- und Rettungsdienstleistungen, die Durchführung von Geld- und Werttransporten einschließlich Geldbearbeitung, Einsatz von Sicherheitsfachkräften und Arbeitsmedizinern gemäß Arbeitssicherheitsgesetz, Beauftragtengestellungen für Sicherheit und Umweltschutz, der Betrieb und die Wartung von Kontroll-, Überwachungs- und Alarmanlagen, Datenschutz sowie die gewerbsmäßige Arbeitnehmerüberlassung; Die Durchführung von Gebäudemanagement-Leistungen, von Industrie-Wartung, Reparatur- und Instandhaltungsarbeiten sowie die Erbringung sonstiger damit verwandter technischer und kaufmännischer Serviceleistungen und die Erbringung von industriellen Serviceleistungen auf dem Gebiet der Planung, Erstellung, Betreibung und Instandhaltung von Betriebseinrichtungen, Anlagen und Großbauten aller Art.",
+    "register_court": "Köln",
+    "register_number": "24481",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Eupener Straße 165, 50933 Köln",
+     "postal_code": "50933",
+     "street": "Eupener Straße 165"
+    },
+    "company_id": "DE-HRB-R3306-123850",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Safety Pro Sicherheit und Service GmbH",
+    "purpose": "Sicherheitsdienstleistungen gemäß § 34a GewO, Schulungen für das Bewachungsgewerbe sowie Reinigungsdienstleistungen und Gebäudereinigung.",
+    "register_court": "Köln",
+    "register_number": "123850",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Linder Weg 26, 51147 Köln",
+     "postal_code": "51147",
+     "street": "Linder Weg 26"
+    },
+    "company_id": "DE-HRB-R3306-113301",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Mister Elias GmbH",
+    "purpose": "ein Wach-und Sicherheitsdienst sowie die Erbringung von Dienstleistungen im Bereich Gebäude- und Glasreinigung (Bürogebäude, Privathaushalt, Kaufhäuser und Ladenlokale, Hotels und Pensionen, Praxen und Sanatorien, Kindergärten und Schulen, Schwimmbäder und Sportstudios, Baustellen), die Produktion und der Handel von Getränken aller Art sowie die Vermietung von Kraftfahrzeugen sowie die Personenbeförderung.",
+    "register_court": "Köln",
+    "register_number": "113301",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Matthias-Brüggen-Straße 1, 50827 Köln",
+     "postal_code": "50827",
+     "street": "Matthias-Brüggen-Straße 1"
+    },
+    "company_id": "DE-HRB-R3306-106519",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Falcon GmbH",
+    "purpose": "der Betrieb eines Sicherheitsdienstes sowie die damit verbundenen Dienstleistungen, insbesondere Veranstaltungsschutz, Personenschutz, Event-Management, Service-Tätigkeiten, Facility-Management, Hausmeister-Tätigkeiten, Reinigungsdienstleistungen, Chauffeur-Dienst, Auf- und Abbau sowie allgemeine Helfertätigkeiten und pädagogische Beihilfe",
+    "register_court": "Köln",
+    "register_number": "106519",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Bertha-Sander-Straße 15, 50829 Köln",
+     "postal_code": "50829",
+     "street": "Bertha-Sander-Straße 15"
+    },
+    "company_id": "DE-HRB-R3306-105339",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Safeness D.K. UG (haftungsbeschränkt)",
+    "purpose": "die Erbringung von Sicherheitsdienstleistungen, wie Bewachung von Personen, Grundstücken und Gebäuden sowie der Wach- und Sicherheitsdienst auf Veranstaltungen aller Art (Veranstaltungsschutz).",
+    "register_court": "Köln",
+    "register_number": "105339",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Brüsseler Straße 83, 50672 Köln",
+     "postal_code": "50672",
+     "street": "Brüsseler Straße 83"
+    },
+    "company_id": "DE-HRB-R3306-69029",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Adieser GmbH",
+    "purpose": "a) das gewerbsmäßige Bewachen von Leben oder Eigentum fremder Personen (Bewachungsgewerbe), b) die Konzeption, Planung und Durchführung von Seminaren, Aus-, Fort- und Weiterbildungsveranstaltungen für öffentliche Träger und die private Arbeitsvermittlung, c) die Erbringung von allgemeinen Dienstleistungen, insbesondere Hausmeister-Dienste, Gartenpflege-Service, Reinigung nach Hausfrauenart, Tankstellen-Rundum-Betreuung inklusive Kassierertätigkeiten, Kurier-Dienste und d) die Unternehmensberatung.",
+    "register_court": "Köln",
+    "register_number": "69029",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Laurentius-Siemer-Straße 1h, 50767 Köln",
+     "postal_code": "50767",
+     "street": "Laurentius-Siemer-Straße 1h"
+    },
+    "company_id": "DE-HRB-R3306-73351",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MP Sicherheitsdienste UG (haftungsbeschränkt)",
+    "purpose": "Wach- und Sicherheitsleistungen an Objekten jeder Art und Sicherheitsschutz für natürliche Personen.",
+    "register_court": "Köln",
+    "register_number": "73351",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Hugo-Eckener-Straße 29, 50829 Köln",
+     "postal_code": "50829",
+     "street": "Hugo-Eckener-Straße 29"
+    },
+    "company_id": "DE-HRB-R3306-91516",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Coloneum Construction&Consulting GmbH",
+    "purpose": "Planung und Montage von Bauprojekten im Bereich von Tiefbau einschließlich Abbruch und Entsorgung, - Glasfaserverlegung und allen damit verbundenen Dienstleistungen, TrockenbaudienstIeistungen - Beratung für Investitionen und Immobilienprojekte, - Einbau von genormten Baufertigteilen, - Speditions- und Logistikdienstleistungen und alle damit verbundenen Tätigkeiten, - der An- und Verkauf bzw. Import und Export von technischen Maschinen und Geräten insbesondere: * Kfz und Kfz- Ersatzteilen, * LKW und LKW-Ersatzteilen, * Land- und Baumaschinen, * Industriemaschinen- und Anlagen, * Technischem Zubehör, * Metallerzeugnisse, - die Gebäudereinigung, - die PersonaIvermittIung, - SicherheitsdienstIeistungen und Objektschutz, - Vermietung von PKW, LKW und Baumaschinen.",
+    "register_court": "Köln",
+    "register_number": "91516",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Lüderichstraße 32, 51105 Köln",
+     "postal_code": "51105",
+     "street": "Lüderichstraße 32"
+    },
+    "company_id": "DE-HRB-R3306-115753",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Havefun24 GmbH",
+    "purpose": "das Aufstellen von Glücksspielautomaten und Unterhaltungsgeräten sowie das Erbringen von Reparatur- und Serviceleistungen bei solchen; die Annahme, Durchführung, Vermittlung und Vermarktung von Wetten aller Arten, der Betrieb von Wettannahme- und Wettvermittlungsstellen; die Aufstellung und der Betrieb von Wettterminals, Internetterminals und Spielautomaten mit oder ohne Gewinnmöglichkeiten sowie der Betrieb von Gastronomieunternehmen; die Entgegennahme, Vermittlung und Weiterleitung von Sportwetten für staatlich konzessionierte Veranstalter aus der Republik Malta, sowie alle damit verwandten Geschäfte, sowie Sicherungsdienst und Detektivarbeit im Rahmen des § 34a GewO.",
+    "register_court": "Köln",
+    "register_number": "115753",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Max-Planck-Straße 35, 50858 Köln",
+     "postal_code": "50858",
+     "street": "Max-Planck-Straße 35"
+    },
+    "company_id": "DE-HRB-R3306-112885",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MunoVa Bau GmbH",
+    "purpose": "Bauträgertätigkeit, der Handel mit unbebauten und bebauten Immobilien, sämtliche Tätigkeiten im Bereich der Bauunternehmung im Hoch- und Tiefbau, die Bauplanung, Statik sowie der Handel mit Baustoffen und Baumaterialien sowie der Handel mit Bauwerkzeugen, Baugeräten und Baumaschinen und vergleichbare Tätigkeiten. Darüber hinaus der Handel und die Montage von und mit Baufertigteilen, insbesondere Tore, Fenster, Wintergärten und Markisen, die Durchführung von Rückbau- und Montagearbeiten an Bauvorhaben sowie Altbausanierung und der Handel mit Objekteinrichtungen. Ferner ist Gegenstand des Unternehmens die Erbringung von Sicherheitsdienstleistungen gemäß § 34a GewO, insbesondere Objekt- und Werkschutz, Baustellenbewachung, Veranstaltungsschutz, Empfangs- und Pfortendienste, Streifen- und Kontrolldienste, Doorman- und Einlasskontrollen, Personenschutz sowie Detektei- und Ermittlungsdienste. Das Unternehmen erbringt zudem Geld- und Werttransporte, jedoch ausschließlich im Rahmen der hierfür jeweils erforderlichen behördlichen Genehmigungen. Ferner umfasst der Unternehmensgegenstand alle damit im Zusammenhang stehenden Tätigkeiten, soweit diese nicht erlaubnispflichtig sind.",
+    "register_court": "Köln",
+    "register_number": "112885",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Charlottenstraße 61, 51149 Köln",
+     "postal_code": "51149",
+     "street": "Charlottenstraße 61"
+    },
+    "company_id": "DE-HRB-R3306-122750",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Nex-Guard-Protection GmbH",
+    "purpose": "die Erbringung von Sicherheitsdienstleistungen. Dies umfasst die Planung, Durchführung und Überwachung von Sicherheitsmaßnahmen sowie den Schutz von Personen, Objekten und Veranstaltungen vor Gefahren, Diebstahl, Vandalismus und sonstigen unerwünschten Handlungen. Das Unternehmen kann dabei sowohl stationäre als auch mobile Sicherheitsdienste anbieten, wie beispielsweise den Einsatz von Sicherheitspersonal, die Installation und Wartung von Sicherheitstechnik sowie die Durchführung von Sicherheitsanalysen und Beratungsdienstleistungen. Darüber hinaus kann das Unternehmenn auch mit anderen Sicherheitsunternehmen, staatlichen Behörden und privaten Auftraggebern kooperieren und Sicherheitskonzepte entwickeln.",
+    "register_court": "Köln",
+    "register_number": "122750",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Raderberggürtel 40, 50968 Köln",
+     "postal_code": "50968",
+     "street": "Raderberggürtel 40"
+    },
+    "company_id": "DE-HRB-R3306-56761",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GID Sicherheit GmbH",
+    "purpose": "die Erbringung von infrastrukturellen Dienstleistungen sowie die Übernahme von assoziierten serviceorientierten, organisatorischen oder technischen Aufgaben aller Art für ihre Gesellschafter, dazu gehören auch Wachdienstleistungen gemäß § 34a GewO",
+    "register_court": "Köln",
+    "register_number": "56761",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Berliner Straße 957, 51069 Köln",
+     "postal_code": "51069",
+     "street": "Berliner Straße 957"
+    },
+    "company_id": "DE-HRB-R3306-119725",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Clean Connect Gebäudereinigung UG (haftungsbeschränkt)",
+    "purpose": "Gebäudereinigung und Ordnertätigkeiten, insbesondere für Einlasskontrollen bei Vereinsspielen, nicht jedoch Ordnertätigkeiten nach § 34a GewO.",
+    "register_court": "Köln",
+    "register_number": "119725",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Novalisstraße 2, 51147 Köln",
+     "postal_code": "51147",
+     "street": "Novalisstraße 2"
+    },
+    "company_id": "DE-HRB-R3306-121529",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Primus, Protect Sicherheit & Service GmbH",
+    "purpose": "die Erbringung von Sicherheits- sowie Ordnerdienstleistungen, insbesondere in Stadien.",
+    "register_court": "Köln",
+    "register_number": "121529",
+    "register_type": "HRB"
+   }
+  ],
+  "8": [
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Robert-Perthel-Straße 3, 50739 Köln",
+     "postal_code": "50739",
+     "street": "Robert-Perthel-Straße 3"
+    },
+    "company_id": "DE-HRB-R3306-112475",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Cologne-Security SI GmbH",
+    "purpose": "ein Sicherheitsunternehmen",
+    "register_court": "Köln",
+    "register_number": "112475",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Hohenzollernring 57, 50672 Köln",
+     "postal_code": "50672",
+     "street": "Hohenzollernring 57"
+    },
+    "company_id": "DE-HRB-R3306-100718",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Globesecure GmbH",
+    "purpose": "die Bewachung von Personen und Objekten gemäß § 34a GewO. Sicherheitsdienste, Personaldienstleistung, Reinigungsdienstleistung und alle damit verbundenen Tätigkeiten. Außerdem die Vermittlung der vorgenannten Dienstleistungen.",
+    "register_court": "Köln",
+    "register_number": "100718",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Heinrich-Pesch-Straße 5, 50739 Köln",
+     "postal_code": "50739",
+     "street": "Heinrich-Pesch-Straße 5"
+    },
+    "company_id": "DE-HRB-R3306-121064",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Safepoint Security GmbH",
+    "purpose": "sind Dienstleistungen in den Bereichen Sicherheit, Facility Management sowie Gebäudereinigung.",
+    "register_court": "Köln",
+    "register_number": "121064",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Friedrich-Karl-Straße 123, 50735 Köln",
+     "postal_code": "50735",
+     "street": "Friedrich-Karl-Straße 123"
+    },
+    "company_id": "DE-HRB-R3306-115645",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Innovation Securities GmbH",
+    "purpose": "das Betreiben eines Sicherheitsunternehmens (Betrieb des Bewachungsgewerbes gem. § 34a Gewerbeordnung) mit der Erbringung von Dienstleistungen in den Bereichen Werks- und Objektschutz, Pforten- und Empfangsdienste, Bereitschaftszentrale 24/7, Alarmdienste, Revierkontrolldienste, Patrouillendienste, Baustellenbewachung, Brandwache und Sicherung, Detektivdienste, Doormen (Türstehdienste), Ermittlungsdienste, Veranstaltungsschutz, Event-Service, Personenschutz, VIP-Service, Kids-Care, K9 Diensthundeeinsatz, sowie internationales Risiko- und Krisenmanagement.",
+    "register_court": "Köln",
+    "register_number": "115645",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Karl-Marx-Allee 16, 50769 Köln",
+     "postal_code": "50769",
+     "street": "Karl-Marx-Allee 16"
+    },
+    "company_id": "DE-HRB-R3306-105015",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DSP Security & Service GmbH",
+    "purpose": "Sicherheits- und Securitydienstleistungen, der Werks-, Objekt-, Veranstaltungs-, Personen- und Begleitschutz, ferner der Betrieb einer Ladendetektei, die Sicherheitsberatung sowie Hausmeistertätigkeiten.",
+    "register_court": "Köln",
+    "register_number": "105015",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Komödienstraße 11, 50667 Köln",
+     "postal_code": "50667",
+     "street": "Komödienstraße 11"
+    },
+    "company_id": "DE-HRB-R3306-114254",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ERA Gebäudemanagement GmbH",
+    "purpose": "die Erbringungen von Dienstleistungen im Bereich des Gebäudemanagements, wie z.B. Reinigung, Instandhaltung, Sicherheit usw.",
+    "register_court": "Köln",
+    "register_number": "114254",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Methweg 14, 50823 Köln",
+     "postal_code": "50823",
+     "street": "Methweg 14"
+    },
+    "company_id": "DE-HRB-R3306-104849",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "D & G Verwaltung GmbH",
+    "purpose": "- Sicherheit und Service (Objektschutz, Werkschutz) - Facilitymanagement - Personenschutz - Transport von Paketen und Wertgegenständen - Import und Export von Textilien, Kräuter und Heilkräutern und Medizinbedarf - Übernahme der Geschäftsführung und die Beteiligung als persönlich haftender Gesellschafter bei Handelsgesellschaften.",
+    "register_court": "Köln",
+    "register_number": "104849",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Eupener Straße 165, 50933 Köln",
+     "postal_code": "50933",
+     "street": "Eupener Straße 165"
+    },
+    "company_id": "DE-HRB-R3306-112149",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PARS Sicherheit GmbH - Sicherheitsdienst und Schulungen für das Bewachungsgewerbe",
+    "purpose": "das Sicherheits- und Bewachungsgewerbe.",
+    "register_court": "Köln",
+    "register_number": "112149",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Kurze Straße 5-7, 13158 Berlin",
+     "postal_code": "13158",
+     "street": "Kurze Straße 5-7"
+    },
+    "company_id": "DE-HRB-R3306-123790",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MIROSEC UG (haftungsbeschränkt)",
+    "purpose": "die Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung, Revierfahrten, Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "Köln",
+    "register_number": "123790",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Emil-Hoffmann-Str. 21, 50996 Köln",
+     "postal_code": "50996",
+     "street": "Emil-Hoffmann-Str. 21"
+    },
+    "company_id": "DE-HRB-R3306-29905",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "RAD Sicherheit GmbH",
+    "purpose": "Bewachungen aller Art, Objekt-, Veranstaltungs- und Personenschutz, Fahr- und Facility-Dienstleistungen, Detektivtätigkeiten, Sicherheitsberatung und -Konzeptionierung, Digitalisierung im Zusammenhang mit Bewachung, Alarmierung und Detektionen, Cybersecurity im Rahmen von Unternehmenssicherheit in Deutschland.",
+    "register_court": "Köln",
+    "register_number": "29905",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Aachener Straße 685, 50933 Köln",
+     "postal_code": "50933",
+     "street": "Aachener Straße 685"
+    },
+    "company_id": "DE-HRB-R3306-28098",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GEKO Gebäudemanagement GmbH",
+    "purpose": "Gegenstand des Unternehmens sind - bezogen auf Wohn- und Geschäftsgebäude - Gebäudereinigung, Pflege von Außenanlagen, Winterdienst, Pflanzenpflege in Gebäuden, 24-Stunden-Service und - Bereitschaftsdienst, Schädlingsbekämpfung, Durchführung von Desinfektionen, Hygiene-Service (WC-Artikel, WC-Papier, Seife, Handtuchhalter), Kantinenbelieferung, Container-Dienste, Center- und Gebäudemanagement kaufmännische Bewirtschaftung, Zuverfügungstellung von Reinigungsmitteln, Gebäudesicherheitsdienste sowie alle artverwandten Geschäfte, die dem Gesellschaftszweck dienlich sind. Handwerkliche Tätigkeiten werden - ausgenommen die Gebäudereinigung - an Drittbetriebe vergeben.",
+    "register_court": "Köln",
+    "register_number": "28098",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Subbelrather Str. 15A, 50823 Köln",
+     "postal_code": "50823",
+     "street": "Subbelrather Str. 15A"
+    },
+    "company_id": "DE-HRB-R3306-122103",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "WDS Westdeutscher Wach- und Sicherheitsdienst GmbH",
+    "purpose": "Gegenstand des Unternehmens ist die Erbringung von Sicherheitsdienstleistungen aller Art, Veranstaltungssicherheit und Personenschutz.",
+    "register_court": "Köln",
+    "register_number": "122103",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Richmodstraße 6, 50667 Köln",
+     "postal_code": "50667",
+     "street": "Richmodstraße 6"
+    },
+    "company_id": "DE-HRB-R3306-123599",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "S & S Kölner Schutzteam GmbH",
+    "purpose": "Sicherheitsdienstleistungen und Objektschutz gemäß § 34a GewO.",
+    "register_court": "Köln",
+    "register_number": "123599",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Essen",
+     "country": "DE",
+     "formatted_value": "Altendorfer Straße 476B, 45355 Essen",
+     "postal_code": "45355",
+     "street": "Altendorfer Straße 476B"
+    },
+    "company_id": "DE-HRB-R3306-98536",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AY Yilmaz UG (haftungsbeschränkt)",
+    "purpose": "Baudienstleistungen insbesondere Abbrucharbeiten und Bauabschlussreinigungen sowie Gleisbausicherung, Transport- und Lieferungsdienstleistungen und Autovermietung.",
+    "register_court": "Köln",
+    "register_number": "98536",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Methweg 4b, 50823 Köln",
+     "postal_code": "50823",
+     "street": "Methweg 4b"
+    },
+    "company_id": "DE-HRB-R3306-102661",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Peros & Peros Transporte GmbH",
+    "purpose": "Kurier und Transportdienstleistungen, die Aufstellung und der Betrieb von Verkaufsautomaten, insbesondere für Smartphonezubehör sowie die Erbringung von Sicherungsleistungen im Bereich der Eisenbahninfrastruktur, insbesondere die Gestellung von Sicherungsposten und Sicherungsaufsichtskräften sowie die Durchführung von Baustellensicherungen im Gleisbereich.",
+    "register_court": "Köln",
+    "register_number": "102661",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Kitschburgerstraße 78, 51147 Köln",
+     "postal_code": "51147",
+     "street": "Kitschburgerstraße 78"
+    },
+    "company_id": "DE-HRB-R3306-111879",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Falke GmbH",
+    "purpose": "die Dienstleistung im Bereich Sicherheit, Reinigungsservice, Gebäudereinigung und Industriedienstleistung sowie Personenbeförderung für Mietwagen.",
+    "register_court": "Köln",
+    "register_number": "111879",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Karlstraße 11-13, 50679 Köln",
+     "postal_code": "50679",
+     "street": "Karlstraße 11-13"
+    },
+    "company_id": "DE-HRB-R3306-77305",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CLS PREMIUM GmbH Chauffeur- und Limousinenservice",
+    "purpose": "Personenbeförderung, Chauffeur-Dienste, Limousinen-Dienste, Autovermietung, Fahrtenvermietung, Organisation und Durchführung von Events und Personenschutz.",
+    "register_court": "Köln",
+    "register_number": "77305",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Kalker Hauptstraße 141, 51103 Köln",
+     "postal_code": "51103",
+     "street": "Kalker Hauptstraße 141"
+    },
+    "company_id": "DE-HRB-R3306-102178",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "OMO1 GmbH",
+    "purpose": "die Führung einer Detektei, Dienstleislungen im Gebäudemanagement nebst Hausmeistertätigkeiten, Dienstleistungen im Bereich der Unterehmens- und Prozessdokumentation, die Herstellung, der Vertrieb und der Handel mit Getränken, insbesondere Energiedrinks, Bewachungsgewerbe nach § 34 a GewO sowie der Trockenbau.",
+    "register_court": "Köln",
+    "register_number": "102178",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Wolfratshausen",
+     "country": "DE",
+     "formatted_value": "Untermarkt 19, 82515 Wolfratshausen",
+     "postal_code": "82515",
+     "street": "Untermarkt 19"
+    },
+    "company_id": "DE-HRB-R3306-98659",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SSI GmbH",
+    "purpose": "Verwaltung eigenen Vermögens, die erlaubnispflichtige Bewachung insbesondere nach § 34 a GewO, die gewerbsmäßige Arbeitnehmerüberlassung sowie die Personalvermittlung, Bewachungs- und Sicherheitsdienstleistungen, Ordnungs- und Servicedienstleistungen auch im kommunalen Bereich, Sicherheitsberatung, der Handel mit Sicherheitstechnik, Schulungen sowie Schlüssel- und Aufsperrdienst.",
+    "register_court": "Köln",
+    "register_number": "98659",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Salmstraße 81, 51105 Köln",
+     "postal_code": "51105",
+     "street": "Salmstraße 81"
+    },
+    "company_id": "DE-HRB-R3306-112926",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Multi Dienstleistung & Service GmbH",
+    "purpose": "Tätigkeiten im Wach- und Sicherheitsgewerbe, Sicherheitsberatung und Veranstaltungsschutz, Kaufhausüberwachung und Personenschutz, Vertrieb von Sicherheitstechnik sowie Wirtschaftsermittlungen im Sinne von §34 a GewO. Weiterer Gegenstand des Unternehmens ist ganzheitliches Gebäudemanagement, Gebäudereinigung, Textilreinigung, Hausmeisterdienste, Haustechnik, Entrümpelungen, Reinigung, Pflege und Gestaltung von Grünanlagen, Kehr- und Winterdienste, Wartungsarbeiten, Empfangsdienste.",
+    "register_court": "Köln",
+    "register_number": "112926",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Rudolfplatz 12, 50674 Köln",
+     "postal_code": "50674",
+     "street": "Rudolfplatz 12"
+    },
+    "company_id": "DE-HRB-R3306-87654",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SCHUTZschild Bewachungsgesellschaft mbH",
+    "purpose": "Verwaltung eigenen Vermögens, erlaubnisfreie Unternehmens- und Wirtschaftsberatung, Bewachungsdienstleistungen gem. § 34a GewO.",
+    "register_court": "Köln",
+    "register_number": "87654",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Berrenrather Straße 164-168, 50937 Köln",
+     "postal_code": "50937",
+     "street": "Berrenrather Straße 164-168"
+    },
+    "company_id": "DE-HRB-R3306-115595",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Cudiberg GmbH",
+    "purpose": "Personenbeförderung mit Mietwagen, der Betrieb einer Hobbywerkstatt, der Fahrzeughandel, der Sicherheitsdienst und die Logistik.",
+    "register_court": "Köln",
+    "register_number": "115595",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Robert-Perthel-Strasse 20-22, 50739 Köln",
+     "postal_code": "50739",
+     "street": "Robert-Perthel-Strasse 20-22"
+    },
+    "company_id": "DE-HRB-R3306-85896",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Cavi Sicherheitsdienste UG (haftungsbeschränkt)",
+    "purpose": "die nationale und internationale Tätigkeit im Sicherheits- und Kontrollbereich (insbesondere Durchführung von Bewachungsaufgaben im Sinne von § 34 a GewO, Gebäudeschutz, Leibwächter, Kurierdienste, Sicherheitstechnik) einschließlich der Gestellung mit obigen Tätigkeiten zusammenhängenden Personals sowie die Erbringung von Serviceleistungen aller Art, insbesondere Personalüberwachung und Personalüberlassung.",
+    "register_court": "Köln",
+    "register_number": "85896",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Köln",
+     "country": "DE",
+     "formatted_value": "Aachener Straße 35, 50674 Köln",
+     "postal_code": "50674",
+     "street": "Aachener Straße 35"
+    },
+    "company_id": "DE-HRB-R3306-121312",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Eisenherz Sicherheit & Service GmbH",
+    "purpose": "der Betrieb einer Detektei, eines Ordnungsdienstes sowie eines Reinigungsdienstes.",
+    "register_court": "Köln",
+    "register_number": "121312",
+    "register_type": "HRB"
+   }
+  ]
+ },
+ "total_pages": 8,
+ "total_results": 234
+}

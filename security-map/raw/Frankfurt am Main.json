@@ -1,0 +1,549 @@
+{
+ "city": "Frankfurt am Main",
+ "pages": {
+  "1": [
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Lärchenstraße 147, 65933 Frankfurt am Main",
+     "postal_code": "65933",
+     "street": "Lärchenstraße 147"
+    },
+    "company_id": "DE-HRB-M1201-145178",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Royal Routes24 GmbH",
+    "purpose": "die Erbringung und Vermittlung von Dienstleistungen, insbesondere in den folgenden Geschäftsbereichen: a) Personenbeförderung und Mietwagenverkehr, insbesondere die Durchführung und Vermittlung von Beförderungsleistungen; b) die Vermietung, Verpachtung, Vermittlung, der Handel mit und die Verwaltung von Kraftfahrzeugen und sonstigen Fahrzeugen sowie die Erbringung hiermit zusammenhängender Dienstleistungen; c) Tourismus, Reisevermittlung und die Erbringung touristischer Dienstleistungen, insbesondere die Organisation und Vermittlung von Reisen, Ausflügen, Transfers und sonstigen touristischen Leistungen; d) die Erbringung von Sicherheits- und Bewachungsdienstleistungen im Sinne des § 34a GewO; e) die Erbringung von Unternehmensberatungs-, Vermittlungs- und Managementleistungen.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "145178",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Hanauer Landstraße 423A, 60314 Frankfurt am Main",
+     "postal_code": "60314",
+     "street": "Hanauer Landstraße 423A"
+    },
+    "company_id": "DE-HRB-M1201-144882",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Personal Express 365 GmbH",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen nach § 34A GewO; Servicedienstleistungen im Bereich des öffentlichen und privaten Personennahverkehrs.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "144882",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Schönberger Weg 22, 60488 Frankfurt am Main",
+     "postal_code": "60488",
+     "street": "Schönberger Weg 22"
+    },
+    "company_id": "DE-HRB-M1201-144836",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Luther Sicherheitsdienst & Brandschutz GmbH",
+    "purpose": "Erbringung von Bewachungs- und Sicherheitsdienstleistung, Brandschutz, sowie Gebäude- und Reinigungsservice.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "144836",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Höhenstraße 22, 60385 Frankfurt am Main",
+     "postal_code": "60385",
+     "street": "Höhenstraße 22"
+    },
+    "company_id": "DE-HRB-M1201-144461",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Aura Management & Service GmbH",
+    "purpose": "Erbringung von Dienstleistungen im Sicherheits- und Bewachungsgewerbe gemäß § 34a GewO; Personalvermittlung; Reinigungs- und Gebäudereinigungsdienstleistungen aller Art.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "144461",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Haeussermannstraße 7, 65933 Frankfurt am Main",
+     "postal_code": "65933",
+     "street": "Haeussermannstraße 7"
+    },
+    "company_id": "DE-HRB-M1201-144397",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MK Protection UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienstleistungen und Reinigungsdienstleistungen.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "144397",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Opernplatz 14, 60313 Frankfurt am Main",
+     "postal_code": "60313",
+     "street": "Opernplatz 14"
+    },
+    "company_id": "DE-HRB-M1201-144282",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Papys Security GmbH",
+    "purpose": "Schutz vor Ladendieben, Bewachung fremden Eigentums, Sicherheitsdienstleistungen.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "144282",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Cordierstraße 8, 60326 Frankfurt am Main",
+     "postal_code": "60326",
+     "street": "Cordierstraße 8"
+    },
+    "company_id": "DE-HRB-M1201-144251",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "b2 Dienstleistungen UG (haftungsbeschränkt)",
+    "purpose": "Dienstleistungen im Bereich Sicherheit und Überwachung.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "144251",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Praunheimer Landstraße 32, 60488 Frankfurt am Main",
+     "postal_code": "60488",
+     "street": "Praunheimer Landstraße 32"
+    },
+    "company_id": "DE-HRB-M1201-144146",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Active Guards EA GmbH",
+    "purpose": "Dienstleistungen in den Bereichen Sicherheitsdienst, Personalleitungen und Gebäudereinigung.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "144146",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Nidda Straße 52, 60329 Frankfurt am Main",
+     "postal_code": "60329",
+     "street": "Nidda Straße 52"
+    },
+    "company_id": "DE-HRB-M1201-144092",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Starline One GmbH",
+    "purpose": "die Erbringung von Dienstleistungen im Bereich Sicherheit und Objektschutz sowie die Erbringung von Personaldienstleistungen.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "144092",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Hanauer Landstraße 423A, 60314 Frankfurt am Main",
+     "postal_code": "60314",
+     "street": "Hanauer Landstraße 423A"
+    },
+    "company_id": "DE-HRB-M1201-143950",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Personal Express 24 GmbH",
+    "purpose": "Dienstleistungen um das Sicherheitsgewerbe, der Hausmeisterservice sowie Vermittlungstätigkeiten im Personalservice, Reinigungstätigkeiten aller Art und Arbeitnehmerüberlassung.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "143950",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Eschersheimer Landstraße 42, 60322 Frankfurt am Main",
+     "postal_code": "60322",
+     "street": "Eschersheimer Landstraße 42"
+    },
+    "company_id": "DE-HRB-M1201-143901",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "kplus security GmbH",
+    "purpose": "Betrieb eines Bewachungsunternehmens",
+    "register_court": "Frankfurt am Main",
+    "register_number": "143901",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Ostrhauderfehn",
+     "country": "DE",
+     "formatted_value": "Idafehn Nord 11, 26842 Ostrhauderfehn",
+     "postal_code": "26842",
+     "street": "Idafehn Nord 11"
+    },
+    "company_id": "DE-HRB-M1201-143731",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FFM.4SURE UG (haftungsbeschränkt)",
+    "purpose": "Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung, Revierfahrten, Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "143731",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Offenbacher Landstraße 118, 60599 Frankfurt am Main",
+     "postal_code": "60599",
+     "street": "Offenbacher Landstraße 118"
+    },
+    "company_id": "DE-HRB-M1201-143714",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Sepp Security Services UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen und Bewachungstätigkeiten gemäß §34a GewO, insbesondere Objekt- und Werkschutz, Kontroll- und Streifendienste, Veranstaltungsschutz, Empfangs- und Pfortendienste, Doorman- und Ladendetektivdienste sowie alle damit in Zusammenhang stehenden Dienstleistungen.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "143714",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Mailänder Straße 16, 60598 Frankfurt am Main",
+     "postal_code": "60598",
+     "street": "Mailänder Straße 16"
+    },
+    "company_id": "DE-HRB-M1201-143566",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Neo Sicherheit UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen in den Bereichen Objektschutz, sowie im Kongress- und Veranstaltungsbereich",
+    "register_court": "Frankfurt am Main",
+    "register_number": "143566",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Mainzer Landstraße 10, 60325 Frankfurt am Main",
+     "postal_code": "60325",
+     "street": "Mainzer Landstraße 10"
+    },
+    "company_id": "DE-HRB-M1201-143531",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Orbit Security GmbH",
+    "purpose": "Menschen, Gebäude, Werte und Informationen vor Gefahren zu schützen. Dazu Entwicklung und Erbringung von Sicherheitsdienstleistungen wie Objekt- und Werkschutz, Veranstaltungssicherheit, Empfangs- und Zugangskontrollen, mobile Streifendienste sowie Alarm- und Interventionsdienste. Die Unterstützung von Unternehmen und Privatkunden bei der Risikoanalyse, Prävention und Umsetzung moderner Sicherheitskonzepte. Erlaubnispflichtige Geschäfte sind ausgeschlossen.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "143531",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Am Kunzengarten 41, 65936 Frankfurt am Main",
+     "postal_code": "65936",
+     "street": "Am Kunzengarten 41"
+    },
+    "company_id": "DE-HRB-M1201-143420",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "S.N.S Sicherheitsdienst UG (haftungsbeschränkt) i.G.",
+    "purpose": "Sicherheitsdienstleistungen, wie z. B. Schutz von Menschen, Eigentum, Informationen und Infrastrukturen vor Bedrohungen und Servicedienstleistungen, wie z. B. Hausmeisterdienst.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "143420",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Niedwiesenstraße 115, 60431 Frankfurt am Main",
+     "postal_code": "60431",
+     "street": "Niedwiesenstraße 115"
+    },
+    "company_id": "DE-HRB-M1201-143391",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Velox Services & Sicherheitsdienste GmbH",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen aller Art, insbesondere Objektschutz, Veranstaltungsschutz, Empfangs- und Kontrolldienste, Revier- und Streifendienste sowie Zugangskontrollen, die Durchführung von Schulungen und Unterweisungen im Bereich Sicherheitsdienstleistungen gemäß § 34a GewO, die Durchführung von Umzugs-, Transport- und Logistikdienstleistungen, insbesondere Möbeltransporte, Entrümpelungen, Haushaltsauflösungen sowie Lager- und Speditionsdienstleistungen und die Erbringung von Dienstleistungen im Bereich Facility Services, insbesondere Reinigungsarbeiten, Hausmeisterdienste, Wartungs- und Instandhaltungsarbeiten. Soweit für einen der vorgenannten Unternehmensgegenstände eine behördliche Erlaubnis erforderlich ist, wird die Gesellschaft entsprechende Tätigkeiten nur nach Vorliegen einer solchen Erlaubnis durchführen.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "143391",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Friedrich-Ebert-Anlage 49, 60308 Frankfurt am Main",
+     "postal_code": "60308",
+     "street": "Friedrich-Ebert-Anlage 49"
+    },
+    "company_id": "DE-HRB-M1201-143353",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Own Delta Security Systems GmbH",
+    "purpose": "Umsetzung von analogen und digitalen Sicherheitskonzepten zum Schutz und zur Bewachung von natürlichen und juristischen Personen sowie sonstigen Organisationen und Vereinigungen durch Projektmanagement, den Betrieb von Sicherheitsdiensten, Objektschutz, Brandschutz, Beratung, Vermittlung und Vertrieb von digitaler und analoger Sicherheitstechnik, Veranstaltungsschutz, Personenschutz, Schulungen, Baudienstleistungen sowie aller in diesem Zusammenhang stehenden erlaubnisfreien Tätigkeiten und Dienstleistungen, Hausmeisterservice, Haus,- Bau- und Gebäudereinigung, alle im Zusammenhang stehenden Tätigkeiten und die Vermittlung von Fachpersonal sowie Anmietung, Ausstattung und Vermietung von mit Sicherheitstechnik ausgestatteten Objekten und Immobilien. Die organisatorische, betriebswirtschaftliche, unternehmerische und strategische Beratung und Begleitung, insbesondere von gemeinnützigen, gemeinwohlorientierten, gewerblichen und sozialen Organisationen, Trägern und Unternehmen unter anderem zu Kommunikation, Krisenkommunikation, Marken-, Organisations-, Personal- und Strategieentwicklung und Fundraisingmaßnahmen sowie die Durchführung aller damit in Zusammenhang stehenden beratenden Tätigkeiten, Aufgaben und Geschäfte, ausgenommen Wirtschaftsprüfung, Rechts- und Steuerberatung. Beratung in den Bereichen des gesellschaftlichen Engagements von Unternehmen, CSR-Maßnahmen sowie die Unterstützung von Privatpersonen, Unternehmen, Family Offices und Stiftungen im Zusammenhang mit Philanthropie. Die Durchführung von Vortragsreihen, Seminaren und Fortbildungsveranstaltungen sowie Standortentwicklung und Standortausbau von natürlichen und juristischen Personen sowie sonstigen Organisationen und Vereinigungen.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "143353",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Dieselstraße 1, 60314 Frankfurt am Main",
+     "postal_code": "60314",
+     "street": "Dieselstraße 1"
+    },
+    "company_id": "DE-HRB-M1201-143177",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SGV Sicherheitsdienst Rhein-Main UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Bewachungsdienstleistungen gemäß § 34a GewO, insbesondere Objektschutz, Veranstaltungsschutz, Stadion-Sicherheitsdienste, Einlass- und Ordnungsdienst, Empfangs- und Sicherheitsdienste, Revier- und Streifendienst, Alarmverfolgung und Videomonitoring; Erbringung von Dienstleistungen im Bereich des vorbeugenden, abwehrenden und organisatorischen Brandschutzes, insbesondere die Tätigkeit als Brandschutzbeauftragter gemäß den einschlägigen gesetzlichen und technischen Vorschriften.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "143177",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Siesmayerstraße 7, 60323 Frankfurt am Main",
+     "postal_code": "60323",
+     "street": "Siesmayerstraße 7"
+    },
+    "company_id": "DE-HRB-M1201-143042",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Fortis One GmbH",
+    "purpose": "Dienstleistungen im Bereich Sicherheit und Bewachung gemäß § 34a GewO und § 6 Bewachungsverordnung, Übernahme von Dienstleistungen einer Detektei, Veranstaltungs-, Objekt- und Industriesicherung aller Art, Baustellenbewachung und alle damit im Zusammenhang anfallenden Tätigkeiten.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "143042",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Cargo City Süd, Gebäude 537, 60549 Frankfurt am Main",
+     "postal_code": "60549",
+     "street": "Cargo City Süd, Gebäude 537"
+    },
+    "company_id": "DE-HRB-M1201-142931",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MYNETT Personal GmbH",
+    "purpose": "Arbeitnehmerüberlassung, Transporte bis 3,5t, Gebäudereinigung, Reinigung, Security, Hausmeisterarbeiten, Lager Logistik, Entsorgungsdienstleistungen und Abbrucharbeiten.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "142931",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Darmstädter Landstraße 116, 60598 Frankfurt am Main",
+     "postal_code": "60598",
+     "street": "Darmstädter Landstraße 116"
+    },
+    "company_id": "DE-HRB-M1201-142709",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Luna Security & Service UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienstleistungen, insbesondere im technischen Bereich, einschließlich Beratung, Personalvermittlung, -ausbildung und -überlassung sowie die Projektierung, Errichtung, Verkauf und Vermietung von Sicherheitssystemen, Einbruch-, Video- und Zutrittsschließsystemen.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "142709",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Schloßstraße 66, 60486 Frankfurt am Main",
+     "postal_code": "60486",
+     "street": "Schloßstraße 66"
+    },
+    "company_id": "DE-HRB-M1201-142725",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SafeDirecta UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienstleistungen (insbesondere Tätigkeiten wie Doorman, Empfangsdienste, Einlasskontrollen, sowie Objektschutz). Der Objektschutz umfasst nur solche Tätigkeiten, die keinen Sachkundenachweis gemäß § 34 a GewO erfordern. Weiterhin ist Gegenstand des Unternehmens ein Reinigungsservice sowie ein Schließdienst (umfasst insbesondere das Öffnen und Schließen von Türen).",
+    "register_court": "Frankfurt am Main",
+    "register_number": "142725",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Mainzer Landstraße 341, 60326 Frankfurt am Main",
+     "postal_code": "60326",
+     "street": "Mainzer Landstraße 341"
+    },
+    "company_id": "DE-HRB-M1201-142656",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "UE Security GmbH",
+    "purpose": "Bewachungs- und Sicherheitsunternehmen",
+    "register_court": "Frankfurt am Main",
+    "register_number": "142656",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Luthmerstraße 1, 65934 Frankfurt am Main",
+     "postal_code": "65934",
+     "street": "Luthmerstraße 1"
+    },
+    "company_id": "DE-HRB-M1201-142589",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SECTRON Solutions GmbH",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen gemäß § 34a GewO, insbesondere Bewachungs- und Schutzdienstleistungen wie Objekt- und Werkschutz, Revier- und Streifendienst, Empfangs- und Pförtnerdienste, Kontroll- und Ordnungsdienste, Veranstaltungsschutz sowie vergleichbare gesetzlich zulässige Sicherheitsleistungen; einfache Reinigungsdienstleistungen ohne besondere Qualifikations- oder Meisterpflicht, insbesondere Unterhalts-, Büro-, Gebäude- und Treppenhausreinigung; die Durchführung von Winterdienstleistungen, insbesondere Schneeräum- und Streudienste auf privaten und gewerblichen Flächen, soweit hierfür keine besondere behördliche Erlaubnis oder Qualifikation erforderlich ist, sowie die Erbringung von Facility-Managmenet-Dienstleistungen, soweit diese keine besonderer behördlicher Genehmigung, Eintragung oder handwerksrechtlicher Qualifikation bedürfen. Hierzu zählen insbesondere organisatorische, infrastrukturelle und einfache technische Dienstleistungen rund um Gebäude und Liegenschaften, wie Hausmeisterdienste ohne handwerkliche Tätigkeiten, Objektbetreuung, Kontroll- und Überwachungsgänge, Koordination externer Dienstleister sowie vergleichbare erlaubnisfreie Facility-Services.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "142589",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Haintalstraße 91, 60437 Frankfurt am Main",
+     "postal_code": "60437",
+     "street": "Haintalstraße 91"
+    },
+    "company_id": "DE-HRB-M1201-142558",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Blickwinkel Sicherheitsdienst GmbH",
+    "purpose": "die Erbringung von Dienstleistungen im Bereich des privaten Sicherheitsgewerbes, insbesondere Objekt- und Werkschutz, Veranstaltungs- und Personenschutz, Empfangs- und Kontrolltätigkeiten sowie alle damit im Zusammenhang stehenden erlaubten Tätigkeiten",
+    "register_court": "Frankfurt am Main",
+    "register_number": "142558",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Friedrich-Ebert-Anlage 36, 60325 Frankfurt am Main",
+     "postal_code": "60325",
+     "street": "Friedrich-Ebert-Anlage 36"
+    },
+    "company_id": "DE-HRB-M1201-142431",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Rapid Unit GmbH",
+    "purpose": "Sicherheits- und Reinigungsdienstleistungen und Eventveranstaltungen",
+    "register_court": "Frankfurt am Main",
+    "register_number": "142431",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Berner Straße 81, 60437 Frankfurt am Main",
+     "postal_code": "60437",
+     "street": "Berner Straße 81"
+    },
+    "company_id": "DE-HRB-M1201-142413",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Atal Facility & Management GmbH",
+    "purpose": "Arbeitnehmerüberlassung, Zeitarbeit, Sicherheitsdienstleistungen",
+    "register_court": "Frankfurt am Main",
+    "register_number": "142413",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Friedrich-Ebert-Anlage 36, 60325 Frankfurt am Main",
+     "postal_code": "60325",
+     "street": "Friedrich-Ebert-Anlage 36"
+    },
+    "company_id": "DE-HRB-M1201-142317",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Directia UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Event- und Hostess-Service Leistungen, Empfangs- und Pfortendiensten sowie die Erbringung von jeweils damit unmittelbar oder mittelbar zusammenhängenden Dienstleistungen.",
+    "register_court": "Frankfurt am Main",
+    "register_number": "142317",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Am Weingarten 25, 60487 Frankfurt am Main",
+     "postal_code": "60487",
+     "street": "Am Weingarten 25"
+    },
+    "company_id": "DE-HRB-M1201-142182",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Mainhattan Personalagentur GmbH",
+    "purpose": "die Erbringung von Personal- und Personaldienstleistungen aller Art, insbesondere die Personalvermittlung sowie die Bereitstellung von personal auf Werk- oder Dienstvertragsbasis in sämtlichen Branchen; die Erbringung von Reinigungsdienstleistungen aller Art, insbesondere in Hotels, Bürogebäuden, Baustellen, Privathaushalten und sonstigen Einrichtungen; die Erbringung von Dienstleistungen im Bereich des Sicherheitsgewerbes, einschließlich Bewachung, Objektschutz und Veranstaltungssicherheit, soweit die Tätigkeiten keiner Genehmigung bedürfen; die Erbringung von Beratungs- und Consultingdienstleistungen für Unternehmen und Privatpersonen, insbesondere in den Bereichen Personal, Organisation, Reinigung, Sicherheit und betriebliche Abläufen die Übernahme von Aufträgen als Generalunternehmer in den vorgenannten Bereichen sowie die Beauftragung von Koordination von Subunternehmern;",
+    "register_court": "Frankfurt am Main",
+    "register_number": "142182",
+    "register_type": "HRB"
+   }
+  ]
+ },
+ "total_pages": 16,
+ "total_results": 451
+}

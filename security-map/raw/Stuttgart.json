@@ -1,0 +1,1037 @@
+{
+ "city": "Stuttgart",
+ "pages": {
+  "1": [
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Reichenbachstraße 15, 70372 Stuttgart",
+     "postal_code": "70372",
+     "street": "Reichenbachstraße 15"
+    },
+    "company_id": "DE-HRB-B2609-806492",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Peligo UG (haftungsbeschränkt)",
+    "purpose": "Sicherungsleistungen zur Sicherung von Arbeitskräften zur Abwendung der Gefahren aus dem Eisenbahnbetrieb bei Arbeiten im Gleisbereich der Deutschen Bahn AG sowie anderer Verkehrsunternehmen, Nebenbahnen und im Gleisbereich tätiger Unternehmen. Ferner die Erbringung bauaffiner Dienstleistungen, Reinigungsdienstleistungen, Vegetationsarbeiten, Winterdienstleistungen sowie Sicherheits- und Bewachungsdienstleistungen.",
+    "register_court": "Stuttgart",
+    "register_number": "806492",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Rotebühlplatz 23, 70173 Stuttgart",
+     "postal_code": "70173",
+     "street": "Rotebühlplatz 23"
+    },
+    "company_id": "DE-HRB-B2609-802776",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Aurum Service GmbH",
+    "purpose": "Die Vermietung und der Verkauf von Kraftfahrzeugen aller Art (auch der Online-Vertrieb), Dienstleistungen aller Art, insbesondere die Vermittlung von Aufträgen im Bereich der Personal Vermittlung, Service und Unterstützungstätigkeiten, Ordner- und Empfangsdienste, Reinigungs- und Hygieneleistungen sowie Garten- und Grünanlagenpflege.",
+    "register_court": "Stuttgart",
+    "register_number": "802776",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Mörfelden-Walldorf",
+     "country": "DE",
+     "formatted_value": "Farmstr. 108-114, 64546 Mörfelden-Walldorf",
+     "postal_code": "64546",
+     "street": "Farmstr. 108-114"
+    },
+    "company_id": "DE-HRB-B2609-797415",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NAEVIA security GmbH",
+    "purpose": "Die Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung, Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "Stuttgart",
+    "register_number": "797415",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Reutlingen",
+     "country": "DE",
+     "formatted_value": "Humboldtstraße 30, 72766 Reutlingen",
+     "postal_code": "72766",
+     "street": "Humboldtstraße 30"
+    },
+    "company_id": "DE-HRB-B2609-769337",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "TANDEM Sicherheit UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Bewachungsdienstleistungen nach § 34 a GewO sowie der Verkauf von Sicherungstechnik",
+    "register_court": "Stuttgart",
+    "register_number": "769337",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Willy-Brandt-Straße 50+54, 70173 Stuttgart",
+     "postal_code": "70173",
+     "street": "Willy-Brandt-Straße 50+54"
+    },
+    "company_id": "DE-HRB-B2609-762260",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CIBORIUS Security & Service Solutions Stuttgart GmbH",
+    "purpose": "Überwachungstätigkeiten, Wachdienste, Auftragsvermittlung, Objekt- und Veranstaltungsdienste sowie Hausmeisterdienste, einschließlich der Arbeitnehmerüberlassung im Zusammenhang mit den vorgenannten Tätigkeiten",
+    "register_court": "Stuttgart",
+    "register_number": "762260",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Seelbergstraße 15, 70372 Stuttgart",
+     "postal_code": "70372",
+     "street": "Seelbergstraße 15"
+    },
+    "company_id": "DE-HRB-B2609-22001",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BGC Service GmbH",
+    "purpose": "Umfassendes Gebäudemanagement, insbesondere im infrastrukturellen Bereich. Umfasst sind die Wärmeversorgung durch den Betrieb von Heizzentralen sowie alle Dienstleistungen im Immobilienbereich wie Hausmeister-, Reinigungs- und Winterdienste, Gärtner- und Sicherheitsdienste, Leistungen im Bereich der Wohnungseigentumsverwaltung, jeweils soweit eine staatliche Genehmigung nicht erforderlich ist.",
+    "register_court": "Stuttgart",
+    "register_number": "22001",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Hafenbahnstraße 18 A, 70327 Stuttgart",
+     "postal_code": "70327",
+     "street": "Hafenbahnstraße 18 A"
+    },
+    "company_id": "DE-HRB-B2609-24226",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Helmut Haase Gebäudemanagement GmbH",
+    "purpose": "Dienstleistungen in den Bereichen Gebäude- und Glasreinigung, Hygiene und Klinikservice, Wach-, Sicherheits- und Winterdienste sowie Schädlingsbekämpfung; ferner der Fachgroßhandel mit allen Handelsartikeln, die zur Sparte der genannten Dienstleistungsbereiche jetzt und künftig gehören einschließlich des Betreibens des kompletten Gebäudemanagements und eines Mietkleidungsservice.",
+    "register_court": "Stuttgart",
+    "register_number": "24226",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Holderäckerstraße 4, 70499 Stuttgart",
+     "postal_code": "70499",
+     "street": "Holderäckerstraße 4"
+    },
+    "company_id": "DE-HRB-B2609-780039",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BK Dienstleistungsservice GmbH",
+    "purpose": "Dienstleistungen in den Bereichen Sicherheitsdienst, Catering, Sanierungssowie Reinigungsarbeiten sowie die Vermittlung solcher Dienstleistungen.",
+    "register_court": "Stuttgart",
+    "register_number": "780039",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Friedrichstraße 15, 70174 Stuttgart",
+     "postal_code": "70174",
+     "street": "Friedrichstraße 15"
+    },
+    "company_id": "DE-HRB-B2609-785569",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ATLAS Instructions UG (haftungsbeschränkt)",
+    "purpose": "Das Bewachungsgewerbe, insbesondere Bewachung von Objekten mit Kundenverkehr.",
+    "register_court": "Stuttgart",
+    "register_number": "785569",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Friedrichstraße 9, 70174 Stuttgart",
+     "postal_code": "70174",
+     "street": "Friedrichstraße 9"
+    },
+    "company_id": "DE-HRB-B2609-792085",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FSA Group GmbH",
+    "purpose": "Gegenstand des Unternehmens ist: Gebäudereinigung, Sicherheits/Revierdienst, Hausmeisterdienst, Transport und Brandwache.",
+    "register_court": "Stuttgart",
+    "register_number": "792085",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Königstraße 31, 70173 Stuttgart",
+     "postal_code": "70173",
+     "street": "Königstraße 31"
+    },
+    "company_id": "DE-HRB-B2609-16014",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Detektiv-Agentur Thomas Vollrath GmbH",
+    "purpose": "a) Führung eines Detektivbüros zur Kaufhausüberwachung, zur allgemeinen Überwachung und Sonderaufträge, b) Bewachung von Leben oder Eigentum fremder Personen, c) Entwicklung und Veranstaltung von Seminaren für Verkaufsleiter und Verkäufer zur Diebstahlverhütung und -vermeidung sowie Überwachung des Lagerpersonals.",
+    "register_court": "Stuttgart",
+    "register_number": "16014",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Löffelstraße 22-24, 70597 Stuttgart",
+     "postal_code": "70597",
+     "street": "Löffelstraße 22-24"
+    },
+    "company_id": "DE-HRB-B2609-801553",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Sheriff Security GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen im Bereich der IT- und Cybersicherheit, insbesondere die Installation und Wartung von technischen Sicherheitsanlagen sowie die Durchführung von physischen Sicherheitsdienstleistungen. Ferner ist Gegensstand des Unternehmens die Beteiligung an anderen Unternehmen sowie die Verwaltung eigenen Vermögens.",
+    "register_court": "Stuttgart",
+    "register_number": "801553",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Julius-Hölder-Straße 36, 70597 Stuttgart",
+     "postal_code": "70597",
+     "street": "Julius-Hölder-Straße 36"
+    },
+    "company_id": "DE-HRB-B2609-776052",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Lohe Gebäudedienste GmbH",
+    "purpose": "Die Gebäudereinigung, Glasreinigung, Facility Management, Winterdienst, Logistik, infrastrukturelle Gebäudedienstleistungen, Regalservice, kaufmännische Dienstleistungen, Kauf und Verkauf von Grundstücken, Garten- und Landschaftsbau und Grünanlagenpflege. Ferner die Ausübung des Wach- und Sicherheitsgewerbes nach § 34 a der Gewerbeordnung.",
+    "register_court": "Stuttgart",
+    "register_number": "776052",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Eichwiesenring 10, 70567 Stuttgart",
+     "postal_code": "70567",
+     "street": "Eichwiesenring 10"
+    },
+    "company_id": "DE-HRB-B2609-737743",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AKOS ST GmbH",
+    "purpose": "Organisation und Durchführung von Dienstleistungen im Bereich der Bewachung von Leben oder Eigentum fremder Personen sowie die Beratung in Fragen des Personen- und Objektschutzes.",
+    "register_court": "Stuttgart",
+    "register_number": "737743",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Schlachthofstraße 17, 70188 Stuttgart",
+     "postal_code": "70188",
+     "street": "Schlachthofstraße 17"
+    },
+    "company_id": "DE-HRB-B2609-788181",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Kaimana UG (haftungsbeschränkt)",
+    "purpose": "Dienstleistungen für Events wie zum Beispiel der Auf- und Abbau von Bühnen, Dekorationen und Begrenzungszäunen, der Einsatz von Ordnern für den Einlass und die (Not-)Ausgänge sowie die Zufahrt von Rettungskräften und der Schutz und die Pflege von Grünanlagen in diesem Zusammenhang",
+    "register_court": "Stuttgart",
+    "register_number": "788181",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Julius-Hölder-Straße 4, 70597 Stuttgart",
+     "postal_code": "70597",
+     "street": "Julius-Hölder-Straße 4"
+    },
+    "company_id": "DE-HRB-B2609-22655",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "M. B. Grabnar Gebäudereinigungs-und Handwerker-Service GmbH",
+    "purpose": "Vornahme von Gebäudereinigungsarbeiten, Malerarbeiten, Maurerarbeiten sowie Dienstleistungen des Wach- und Sicherheitsgewerbes. Unternehmensgegenstand ist ausserdem die gewerbsmäßige Überlassung von Arbeitnehmern.",
+    "register_court": "Stuttgart",
+    "register_number": "22655",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Leizstraße 45, 70469 Stuttgart",
+     "postal_code": "70469",
+     "street": "Leizstraße 45"
+    },
+    "company_id": "DE-HRB-B2609-759382",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Detektei Team Burkhardt GmbH",
+    "purpose": "Ermittlungen, Beobachtungen, Aufspürtätigkeiten, Sicherheitsberatungen und Videoüberwachungen, der Betrieb einer Wirtschafts-/Privatdetektei bzw. einer Auskunftei, ferner der Im- und Export sowie der Handel mit Funkgeräten, Funkfachhandel.",
+    "register_court": "Stuttgart",
+    "register_number": "759382",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Reichenbachstraße 33, 70372 Stuttgart",
+     "postal_code": "70372",
+     "street": "Reichenbachstraße 33"
+    },
+    "company_id": "DE-HRB-B2609-795149",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "KaRa Li Facility Services GmbH",
+    "purpose": "Die Gebäudereinigung und die Arbeitnehmerüberlassung. Weiterer Gegenstand des Unternehmens ist die Durchführung von Winterdiensten und Hausmeisterservice sowie der Sicherheitsdienst. Darüber hinaus ist Unternehmensgegenstand die Verwaltung eigenen Vermögens, der Erwerb und die Verwaltung von Beteiligungen sowie die Übernahme der persönlichen Haftung und der Geschäftsführung bei Handelsgesellschaften aller Art und die Übernahme der Funktion einer Holding.",
+    "register_court": "Stuttgart",
+    "register_number": "795149",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Lindenspürstraße 32, 70176 Stuttgart",
+     "postal_code": "70176",
+     "street": "Lindenspürstraße 32"
+    },
+    "company_id": "DE-HRB-B2609-774591",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SN Security & Service GmbH",
+    "purpose": "das Bewachungsgewerbe, der Betrieb einer Reinigung, der Betrieb eines Hausmeisterdienstes bzw. Facility Management und die dazugehörige Logistik",
+    "register_court": "Stuttgart",
+    "register_number": "774591",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Wagenburgstraße 108, 70186 Stuttgart",
+     "postal_code": "70186",
+     "street": "Wagenburgstraße 108"
+    },
+    "company_id": "DE-HRB-B2609-800846",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ParkGuard24 UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Dienstleistungen im Bereich der privaten Parkraumüberwachung sowie unterstützender Veranstaltungsdienste. Dazu gehören insbesondere: - Überwachung und Dokumentation von Parkverstößen auf privaten Grundstücken, - Veranlassung und Koordinierung von Abschleppmaßnahmen, - Halterermittlung, Erstellung von Zahlungsaufforderungen und Einleitung von Mahnverfahren, - Entwicklung und Betrieb digitaler Systeme zur Parkraumverwaltung und Beweissicherung, - Technische Objektüberwachung mittels Kamerasystemen (z. B. auf Baustellen oder privaten Flächen), - Unterstützung bei Veranstaltungen, insbesondere durch Ordnerdienste, Einlasskontrollen und Parkplatzmanagement, - Vermietung, Installation und Handel mit überwachungstechnischer Ausrüstung (z. B. Kameras, Absperrtechnik).",
+    "register_court": "Stuttgart",
+    "register_number": "800846",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Karl-Pfaff-Straße 61, 70597 Stuttgart",
+     "postal_code": "70597",
+     "street": "Karl-Pfaff-Straße 61"
+    },
+    "company_id": "DE-HRB-B2609-777566",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MRS Sonne Dienstleistungs- und Handels-UG (haftungsbeschränkt)",
+    "purpose": "Handel von Rohstoffen, Lebensmittel, PKWs; Transport durch LKWs; Vermietung von Immobilien; Sicherheits- und Hausmeisterdienst, sowie genehmigungsfreie Handwerkerleistungen.",
+    "register_court": "Stuttgart",
+    "register_number": "777566",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Zahn-Nopper-Straße 3, 70435 Stuttgart",
+     "postal_code": "70435",
+     "street": "Zahn-Nopper-Straße 3"
+    },
+    "company_id": "DE-HRB-B2609-787083",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "M&S DK Bau GmbH",
+    "purpose": "Hochbau, Ausbauarbeiten, Bausanierung, Abbrucharbeiten, Brandschadensanierung, Sanierungsarbeiten, Industriereinigung, Elektrodienstleistungen, Multimediadienstleistungen, Securitydienstleistungen.",
+    "register_court": "Stuttgart",
+    "register_number": "787083",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Mercedesstr. 109, 70372 Stuttgart",
+     "postal_code": "70372",
+     "street": "Mercedesstr. 109"
+    },
+    "company_id": "DE-HRB-B2609-735751",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "VfB Stuttgart Service GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen insbesondere in den Bereichen Fußballschule, Vertrieb, Catering, Stadionbetrieb, IT, Operations, Events, Personalmanagement, Sicherheit und Kundenbetreuung. Die Dienstleistungen werden für die VfB Stuttgart 1893 AG mit Sitz in Stuttgart sowie für mit ihr verbundene Unternehmen sowie für externe Dritte erbracht. Darüber hinaus umfasst der Unternehmensgegen-stand die Verwaltung des eigenen Vermögens sowie den Erwerb, das Halten, die Verwaltung und die Veräußerung von Beteiligungen an anderen Gesellschaften, insbesondere im Bereich der Dienstleistungserbringung.",
+    "register_court": "Stuttgart",
+    "register_number": "735751",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Ulmerstr. 231, 70327 Stuttgart",
+     "postal_code": "70327",
+     "street": "Ulmerstr. 231"
+    },
+    "company_id": "DE-HRB-B2609-16813",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Hildebrand GmbH Objekt-Service",
+    "purpose": "Die Reinigung von Gebäuden aller Art (Industrie, Krankenanstalten, Altenheime, Bürogebäude), die Glas- und Fassadenreinigung, der Objekt- und Personenschutz sowie die Vermittlung und Koordination von handwerklichen Service-Leistungen.",
+    "register_court": "Stuttgart",
+    "register_number": "16813",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Unterländer Straße 57, 70435 Stuttgart",
+     "postal_code": "70435",
+     "street": "Unterländer Straße 57"
+    },
+    "company_id": "DE-HRB-B2609-738105",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Service Concept GM Süd GmbH",
+    "purpose": "- Planung und Durchführung von Glas- und Gebäudereinigungsleistungen an und in Gebäuden aller Art, - Pflege von Grün- und Außenanlagen, - Kaufmännische Verwaltung von Immobilien und Liegenschaften, - Durchführung von Tätigkeiten im Bewachungsgewerbe wie Wach- und Pförtnerdienste, Revierbestreifung und Empfangsdienste, - Planung und Durchführung von Facility Management Leistungen aller Art, - Einbau, Aufstellen, Instandhalten und Instandsetzen haustechnischer Anlagen in den Gewerken Heizung/Sanitär, Elektro-, Lüftungs- und Klimatechnik, Sicherheitstechnische Anlagen, Brandschutztechnische Anlagen, Fördertechnik, Türen/Tore, MSR- und Gebäudeleittechnik sowie sonstigen Gebäude- und haustechnischen Anlagen im Rahmen von Leistungen im technischen Gebäudemanagement, - Parkraumbewirtschaftung.",
+    "register_court": "Stuttgart",
+    "register_number": "738105",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Vor dem Lauch 15, 70567 Stuttgart",
+     "postal_code": "70567",
+     "street": "Vor dem Lauch 15"
+    },
+    "company_id": "DE-HRB-B2609-23778",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "b.i.g. sicherheit GmbH Personen- und Objektschutz",
+    "purpose": "a) Aufsichts-, Bewachungs-, Ermittlungs-, und Schutzleistungen aller Art für Personen, Objekte, Zahlungsmittel und Wertgegenstände sowie aller damit verbundenen Dienstleistungen b) Dienstleistungen als Datenschutzbeauftragter, Brandschutzbeauftragter, Fachkraft für Arbeitssicherheit c) Baustellengesamtlogistik, insbesondere die Abfallentsorgungslogistik sowie die Versorgungslogistik und die baubegleitende Reinigungsleistungen, Materialtransportarbeiten, Lieferverkehrssteuerung.",
+    "register_court": "Stuttgart",
+    "register_number": "23778",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Lautenschlagerstraße 16, 70173 Stuttgart",
+     "postal_code": "70173",
+     "street": "Lautenschlagerstraße 16"
+    },
+    "company_id": "DE-HRB-B2609-785886",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Apollo Dienstleistungen UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Dienstleistungen, insbesondere Hotelreinigung und Reinigung öffentlicher Bereiche, Sicherheitsdienst für u. a. Hotels, Einkaufsmöglichkeiten (Laden), Bau- und Stahlbau, Beton- und Trockenbau sowie Industrie- und Hausinstallationen.",
+    "register_court": "Stuttgart",
+    "register_number": "785886",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Rosenapfelweg 1, 70437 Stuttgart",
+     "postal_code": "70437",
+     "street": "Rosenapfelweg 1"
+    },
+    "company_id": "DE-HRB-B2609-735203",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "P.S.S. UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienstleistungen wie Personenschutz, Veranstaltungsschutz, Bewachung",
+    "register_court": "Stuttgart",
+    "register_number": "735203",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Stockholmer Platz 1, 70173 Stuttgart",
+     "postal_code": "70173",
+     "street": "Stockholmer Platz 1"
+    },
+    "company_id": "DE-HRB-B2609-759892",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Sicherheitsdienstleistungen Orth GmbH",
+    "purpose": "Gewerbliche Sicherheitsdienstleistungen, insbesondere Objektschutz und Wach- und Schließdienst.",
+    "register_court": "Stuttgart",
+    "register_number": "759892",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Schmidener Straße 228, 70374 Stuttgart",
+     "postal_code": "70374",
+     "street": "Schmidener Straße 228"
+    },
+    "company_id": "DE-HRB-B2609-16791",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "LS Security Solution GmbH",
+    "purpose": "Die auftragsbezogene Ermittlung und Dokumentation von Informationen aller Art, sowie die beratende Funktion im Kaufhaus- und SB-Warenhausbereich bei anfallenden Problemen, wie z.B. Personaldiebstahl, Kundendiebstahl, diebstahlgefährdete Bereiche und Sicherungskonzepte, insbesondere der Einsatz von Kaufhausdetektiven sowie im Privatbereich die Beratung von Kunden bei Auftragsanfragen oder Auftragsdurchführung und der Schutz von Personen und Sachen",
+    "register_court": "Stuttgart",
+    "register_number": "16791",
+    "register_type": "HRB"
+   }
+  ],
+  "2": [
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Schlachthofstraße 23, 70188 Stuttgart",
+     "postal_code": "70188",
+     "street": "Schlachthofstraße 23"
+    },
+    "company_id": "DE-HRB-B2609-763402",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Hera Bewachungen GmbH",
+    "purpose": "der Betrieb eines Bewachungsunternehmens nach § 34 GewO, Dienstleistungen im Bereich Hausmeisterservice (Facility Management), Warenverräumung und Lagerarbeiten sowie Reinigungsdienstleistungen (Industriereinigung, Unterhaltsreinigung).",
+    "register_court": "Stuttgart",
+    "register_number": "763402",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Ludwigsburger Straße 65, 70435 Stuttgart",
+     "postal_code": "70435",
+     "street": "Ludwigsburger Straße 65"
+    },
+    "company_id": "DE-HRB-B2609-798660",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Protect & Serve - Sicherheit UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Sicherheitsleistungen, private Wach- und Sicherheitsdienste, Detektei, Gebäudebetreuung, Hausmeisterdienste, Reinigung von Gebäuden, Straßen und Verkehrsmitteln, Umzüge, Entrümpelungen, Zählerablesungen, Facility Management und Verleih von Absperrgittern",
+    "register_court": "Stuttgart",
+    "register_number": "798660",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Mailänder Platz 7, 70173 Stuttgart",
+     "postal_code": "70173",
+     "street": "Mailänder Platz 7"
+    },
+    "company_id": "DE-HRB-B2609-761261",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "A-Z AvantGuard Service & Security GmbH",
+    "purpose": "Betreiben von Reisebüros und die Vermittlung von Reisen. Weiter ist Unternehmensgegenstand der Handel und die Vermietung von Waren und Dienstleistungen jeglicher Art. Bewachungsgewerbe gemäß § 34a GewO sowie Sicherheits- und Servicedienstleistungen, insbesondere Objektschutz, Veranstaltungsschutz und Ordnertätigkeiten sowie alle damit zusammenhängenden Dienstleistungen.",
+    "register_court": "Stuttgart",
+    "register_number": "761261",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Daimlerstraße 109, 70372 Stuttgart",
+     "postal_code": "70372",
+     "street": "Daimlerstraße 109"
+    },
+    "company_id": "DE-HRB-B2609-761270",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "IVEKA Dienstleistungen GmbH",
+    "purpose": "Gegenstand des Unternehmens ist Stahl- und Metailverarbeitung, Lagerung und Lagerarbeiten und Güterkraftverkehr über 3,5 Tonnen, lT-Vermittlung und lT-Überlassung sowie der Betrieb eines Sicherheitsdienstes sowie aller damit zusammenhängender Leistungen.",
+    "register_court": "Stuttgart",
+    "register_number": "761270",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Wiesbaden",
+     "country": "DE",
+     "formatted_value": "Kreuzberger Ring 46a, 65205 Wiesbaden",
+     "postal_code": "65205",
+     "street": "Kreuzberger Ring 46a"
+    },
+    "company_id": "DE-HRB-B2609-778749",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Stölting Facility & Service Südwest GmbH",
+    "purpose": "Die Grundreinigung, Unterhaltsreinigung und Glasreinigung bei Gebäuden aller Art; Sicherheitsleistungen aller Art, Betreiben einer Notruf- und Serviceleitstelle, Alarmverfolgung, Funkstreifendienste, Pforten- und Empfangsdienste, Belegtransporte und Kurierdienste, Aviationsecurity, Gleisbausicherung für Verkehrsunternehmen und sonstige personelle Dienstleistungen.",
+    "register_court": "Stuttgart",
+    "register_number": "778749",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Kronenstraße 19, 70173 Stuttgart",
+     "postal_code": "70173",
+     "street": "Kronenstraße 19"
+    },
+    "company_id": "DE-HRB-B2609-800743",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Sicherheit im Süden SIS GmbH",
+    "purpose": "Sicherheitsdienst, Personalvermittlung, Ordnervermittlung, Bühnenauf- und abbau, Veranstaltungsservice und Verkauf von Sicherheitsartikeln sowie Reinigungsdienste und Schädlingsbekämpfung.",
+    "register_court": "Stuttgart",
+    "register_number": "800743",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Plieniger Straße 44, 70567 Stuttgart",
+     "postal_code": "70567",
+     "street": "Plieniger Straße 44"
+    },
+    "company_id": "DE-HRB-B2609-17534",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Detektei Astor International GmbH",
+    "purpose": "Durchführung von Ermittlungen, Beobachtungen und Erforschungen aller Art, insbesondere für die gewerbliche Wirtschaft zum Zwecke der Abwehr von Personen und Objekten. Die Gesellschaft befaßt sich nicht mit Tätigkeiten, die der Erlaubnispflicht nach § 34 A GeWO unterliegt.",
+    "register_court": "Stuttgart",
+    "register_number": "17534",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Filderbahnplatz 25, 70567 Stuttgart",
+     "postal_code": "70567",
+     "street": "Filderbahnplatz 25"
+    },
+    "company_id": "DE-HRB-B2609-721628",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Energieversorgungs- und Servicegesellschaft Friedenau mbH Stuttgart (EVS)",
+    "purpose": "Gegenstand des Unternehmens ist ein umfassendes Gebäudemanagement. Umfasst sind alle Dienstleistungen im Immobilienbereich wie Mietverwaltung, Hausmeister-, Reinigungs-, Gärtner- und Sicherheitsdienste sowie Leistungen im Bereich der Wohnungseigentumsverwaltung. Umfasst ist insbesondere die Wärme- und Energieversorgung u.a. durch ein entsprechendes Projektmanagement, durch die Errichtung und den Betrieb von Heiz-, Energiezentralen und Blockheizkraftwerken sowie die damit verbundenen Energiekostenabrechnungen",
+    "register_court": "Stuttgart",
+    "register_number": "721628",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Hohenheimer Straße 37, 70184 Stuttgart",
+     "postal_code": "70184",
+     "street": "Hohenheimer Straße 37"
+    },
+    "company_id": "DE-HRB-B2609-21712",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Engels Dienstleistungen GmbH",
+    "purpose": "1.1. Gebäudereinigung und alle damit im Zusammenhang stehenden Serviceleistungen, 1.2. Industriecatering, Krankenhauscatering und Beratung für Cateringsysteme, 1.3. die gewerbsmäßige Bewachung von Leben oder Eigentum fremder Personen, insbesondere Werk-, Objekt- und Personenschutz aller Art, sowie die Bewachung von Gebäuden und Landfahrzeugen, die Durchführung von Sicherheitstransporten sowie alle damit zusammenhängenden Dienstleistungen und Personenschutz, 1.4. Ankauf, Verkauf, Vermittlung und Verwaltung von Immobilien aller Art, Vermittlung von Finanzierungen und anderen Finanzdienstleistungen wie auch die Verwaltung eigenen Vermögens und die Beteiligung an anderen Unternehmen in jeder gesetzlich zulässigen Form.",
+    "register_court": "Stuttgart",
+    "register_number": "21712",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Johannesstraße 66, 70176 Stuttgart",
+     "postal_code": "70176",
+     "street": "Johannesstraße 66"
+    },
+    "company_id": "DE-HRB-B2609-799462",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Black Hawk lndustry GmbH",
+    "purpose": "Die Durchführung von Sicherheits- und Baulogistik-Dienstleistungen.",
+    "register_court": "Stuttgart",
+    "register_number": "799462",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Hartwaldstraße 99, 70378 Stuttgart",
+     "postal_code": "70378",
+     "street": "Hartwaldstraße 99"
+    },
+    "company_id": "DE-HRB-B2609-756476",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "P.I.T. Security Consulting UG (haftungsbeschränkt)",
+    "purpose": "- Bewachung von Leben und Eigentum / Personen und Objektschutz - Aus- und Weiterbildung von Sicherheitspersonal - Sicherheitsberatung",
+    "register_court": "Stuttgart",
+    "register_number": "756476",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Landsberger Straße 183, 80687 München",
+     "postal_code": "80687",
+     "street": "Landsberger Straße 183"
+    },
+    "company_id": "DE-HRB-B2609-790827",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Rasch Services UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienst, Objektschutz, Gebäudereinigung, Hausmeisterdienst, Winterdienst, Empfangsdienst, Entrümpelung, Entsorgung und Umzugsdienst.",
+    "register_court": "Stuttgart",
+    "register_number": "790827",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Esslingen am Neckar",
+     "country": "DE",
+     "formatted_value": "Bergstraße 34, 73733 Esslingen am Neckar",
+     "postal_code": "73733",
+     "street": "Bergstraße 34"
+    },
+    "company_id": "DE-HRB-B2609-781473",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BAU-TEAM GmbH",
+    "purpose": "Der Handel von Rohstoffen und Pkws, der Hand-Abbruch, der Transport durch LKWs; die Vermietung von Immobilien, Sicherheits - und Hausmeisterdienste sowie genehmigungsfreie Handwerkerleistungen, Gebäudesanierungen, Industriesanierungen, Innenreinigungen, Trockenbau, Maschinensanierungen, Asbestsanierungen, Brandsanierungen, Winterdienste und Reinigungsarbeiten",
+    "register_court": "Stuttgart",
+    "register_number": "781473",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Holderäckerstraße 4, 70499 Stuttgart",
+     "postal_code": "70499",
+     "street": "Holderäckerstraße 4"
+    },
+    "company_id": "DE-HRB-B2609-790067",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "VDW Sicherheit UG (haftungsbeschränkt)",
+    "purpose": "Personen- und Begleitschutz, Objektschutz, Observation von Personen, Sachen oder Gebäuden, Durchführung von Geld- und Werttransporten, Veranstaltungsservice, Dienstleistungen jeder Art, soweit keine Erlaubnispflicht besteht, oder die Erlaubnis allgemein oder im Einzelnen vorliegt, z.B. § 34 a GewO; Sicherheitsberatung, Erstellen von Sicherheitskonzeptionen und Bedarfsanalysen; Verkauf, Vermietung und Installation von technischen Sicherheitssystemen; Entwicklung und Verkauf von Software für Sicherheitssysteme bzw. Sicherheitsunternehmen.",
+    "register_court": "Stuttgart",
+    "register_number": "790067",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Plieninger Straße 102, 70567 Stuttgart",
+     "postal_code": "70567",
+     "street": "Plieninger Straße 102"
+    },
+    "company_id": "DE-HRB-B2609-17546",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Stella Service Stuttgart GmbH",
+    "purpose": "Erbringen von Dienstleistungen die mit dem Betrieb der Musical-Theater im Freizeit- und Erlebniszentrum Stuttgart International durch die Gesellschaften der Stella-Gruppe zusammenhängen, insbesondere im Bereich Einlaß- und Ordnungsdienst, Programm- und Souvenirverkauf, Theatergastronomie und Personalgestellung.",
+    "register_court": "Stuttgart",
+    "register_number": "17546",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Steiermaerker Straße 3 - 5, 70469 Stuttgart",
+     "postal_code": "70469",
+     "street": "Steiermaerker Straße 3 - 5"
+    },
+    "company_id": "DE-HRB-B2609-795134",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "VSG Security GmbH",
+    "purpose": "Leisten von Empfangsdiensten, Bewachung und Überwachung, Objekt- und Personenschutz nach § 34 a GewO, Vorbereitung und Durchführung von Veranstaltungen sowie alle in diesem Zusammenhang stehenden Dienst- und Serviceleistungen, Revier-Bestreifung und Beratung in Fragen der Sicherheitstechnik, weiter Leistung von Observationsdiensten sowie Schutzleistung bei Veranstaltungen, Personal-Service und Dienstleistung Personal sowie Fahrservice.",
+    "register_court": "Stuttgart",
+    "register_number": "795134",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Lindenspürstraße 32, 70176 Stuttgart",
+     "postal_code": "70176",
+     "street": "Lindenspürstraße 32"
+    },
+    "company_id": "DE-HRB-B2609-784181",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ID Security GmbH",
+    "purpose": "Das Betreiben einer Sicherheitsfirma, Bewachungsgewerbe, Objektschutzes sowie die Durchführung von Zugangskontrollen.",
+    "register_court": "Stuttgart",
+    "register_number": "784181",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Holderäckerstraße 4, 70499 Stuttgart",
+     "postal_code": "70499",
+     "street": "Holderäckerstraße 4"
+    },
+    "company_id": "DE-HRB-B2609-773912",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Löwenherz Servicepool GmbH",
+    "purpose": "- Vermittlung und Vertrieb von Gesellschaftsanteilen von in- und ausländischen Kapital- und Personengesellschaften, sowie Erbringung von allgemeinen Beratungsdienstleistungen mit Ausnahme von Steuer- und Rechtsberatung - Erwerb, Veräußerung, Belastung und Verwaltung von Grundstücken und grundstücksgleichen Rechten im In- und Ausland - Erwerb, Veräußerung und Verwaltung von Immaterialgüterrechten im In- und Ausland - Vornahme von Finanzierungen für eigene Rechnung - Eingehung von Garantien und Bürgschaften für Tochtergesellschaften und Dritte - Abwicklung kartographischer Verlagsprodukte - Import und Export von Recyclingprodukten - Betrieb einer Detektei - Facilitymanagement - Der Im- und Export sowie der Handel mit Waren des täglichen Bedarfs, insbesondere mit landwirtschaftlichen Erzeugnissen.",
+    "register_court": "Stuttgart",
+    "register_number": "773912",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Charlottenplatz 17, 70173 Stuttgart",
+     "postal_code": "70173",
+     "street": "Charlottenplatz 17"
+    },
+    "company_id": "DE-HRB-B2609-743365",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SDS Ott und Russ GmbH",
+    "purpose": "Erbringung von Dienstleistungen betreffend Saaldienst und Saalsicherheit im Zusammenhang mit dem Ablauf von Konzerten, Kongressen und anderen kulturellen Veranstaltungen: z.B. Abendkasse, Einlasskontrolle, Freihaltung und Sicherung von Fluchtwegen, Pfortendienst.",
+    "register_court": "Stuttgart",
+    "register_number": "743365",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Seelbergstraße 15, 70372 Stuttgart",
+     "postal_code": "70372",
+     "street": "Seelbergstraße 15"
+    },
+    "company_id": "DE-HRB-B2609-722380",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BGC Hausmeisterservice GmbH",
+    "purpose": "Umfassendes Gebäudemanagement insbesondere im infrastrukturellen Bereich. Umfasst sind alle Dienstleistungen im Immobilienbereich wie Hausmeister-, Reinigungs- und Winterdienste, Gärtner- und Sicherheitsdienste. Die Gesellschaft ist zu allen Handlungen berechtigt, die unmittelbar oder mittelbar diesen Zweck förder oder gar geeignet sind, ihm zu dienen. Sie kann zu diesem Zweck auch andere Unternehmen mit gleichem oder ähnlichem Gegenstand im In- und Ausland erwerben oder sich an solchen Unternehmen in jeder geeigneten Form beteiligen. Sie darf Zweigniederlassungen und Tochtergesellschaften im In- und Ausland errichten. Die Gesellschaft wird keine Geschäfte tätigen, die gesetzlich einer Erlaubnis bedürfen, insbesondere nach §§ 34a und 34c GewO, dem Rechtsberatungsgesetz, dem Steuerberatungsgesetz, dem Kreditwesengesetz oder dem Kapitalanlagengesetz.",
+    "register_court": "Stuttgart",
+    "register_number": "722380",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Hallstraße 30, 70376 Stuttgart",
+     "postal_code": "70376",
+     "street": "Hallstraße 30"
+    },
+    "company_id": "DE-HRB-B2609-791985",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SWS Sindelfinger Wach & Schließgesellschaft UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienst und Dienstleistungen ohne besondere Genehmigungen wie: Reinigung, Lager, Hausmeisterservicevermittlung, allgemeiner Service.",
+    "register_court": "Stuttgart",
+    "register_number": "791985",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Hafenbahnstraße 18A, 70327 Stuttgart",
+     "postal_code": "70327",
+     "street": "Hafenbahnstraße 18A"
+    },
+    "company_id": "DE-HRB-B2609-320481",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Schneider GmbH",
+    "purpose": "Gebäudereinigung und Sicherheitsdienst.",
+    "register_court": "Stuttgart",
+    "register_number": "320481",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Eugenstraße 16, 70182 Stuttgart",
+     "postal_code": "70182",
+     "street": "Eugenstraße 16"
+    },
+    "company_id": "DE-HRB-B2609-784600",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "HARD-Work Services GmbH",
+    "purpose": "Industrie-, Gebäude- und Baureinigung sowie sonstige Facilitymanagement-Dienstleistungen und die Tätigkeit als Sicherheits- und Wachdienst.",
+    "register_court": "Stuttgart",
+    "register_number": "784600",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Erikastraße 2, 70327 Stuttgart",
+     "postal_code": "70327",
+     "street": "Erikastraße 2"
+    },
+    "company_id": "DE-HRB-B2609-799625",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "WELYM UG (haftungsbeschränkt)",
+    "purpose": "Das Sammeln, Verarbeiten und Analysieren von Daten, insbesondere zur Ermittlung, Aufklärung, Dokumentation, zur Prävention, Aufklärung und Nachverfolgung von Straftaten bereitzustellen.",
+    "register_court": "Stuttgart",
+    "register_number": "799625",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Steinwaldstraße 30, 70599 Stuttgart",
+     "postal_code": "70599",
+     "street": "Steinwaldstraße 30"
+    },
+    "company_id": "DE-HRB-B2609-788601",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "TMB Elektrotechnik GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen im Bereich der Sicherheits-, Daten- und Elektrotechnik.",
+    "register_court": "Stuttgart",
+    "register_number": "788601",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Mittelstraße 11, 70180 Stuttgart",
+     "postal_code": "70180",
+     "street": "Mittelstraße 11"
+    },
+    "company_id": "DE-HRB-B2609-785557",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SIGMA Trade & Services GmbH",
+    "purpose": "die Erbringung und Vermittlung von Dienstleistungen, insbesondere Reinigungsdienstleistungen, Ordnerdienstleistungen, Baudienstleistungen, Hausmeisterdienste, Sicherheits- und Brandschutzdienstleistungen, Empfangs- und Büroservice, Transportdienstleistungen, Personaldienstleistungen, Marketingdienstleistungen sowie der Handel und Handelsvermittlung, insbesondere mit vorgenannten Gewerken im Zusammenhang stehenden Waren.",
+    "register_court": "Stuttgart",
+    "register_number": "785557",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Stuttgart",
+     "country": "DE",
+     "formatted_value": "Fritz-Walter-Weg 19, 70372 Stuttgart",
+     "postal_code": "70372",
+     "street": "Fritz-Walter-Weg 19"
+    },
+    "company_id": "DE-HRB-B2609-265050",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SDS Schindler . Dienstleistungen & Sicherheit GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen in sämtlichen Sparten des Objekt- und Personenschutzes sowie im Veranstaltungsbereich, ferner die Beteiligung als persönlich haftende Gesellschafterin an der Kommanditgesellschaft unter der Firma SDS Schindler Dienstleistungen & Sicherheit GmbH & Co. Veranstaltungs-KG mit dem Sitz in Stuttgart.",
+    "register_court": "Stuttgart",
+    "register_number": "265050",
+    "register_type": "HRB"
+   }
+  ]
+ },
+ "total_pages": 2,
+ "total_results": 57
+}

@@ -1,0 +1,4112 @@
+{
+ "city": "München",
+ "pages": {
+  "1": [
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Bayerwaldstr. 43, 81737 München",
+     "postal_code": "81737",
+     "street": "Bayerwaldstr. 43"
+    },
+    "company_id": "DE-HRB-D2601-317688",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PJRM GmbH",
+    "purpose": "Erwerb, Verkauf, Vermittlung, Vermietung, Verpachtung, Verwaltung und Betreuung von Immobilien sowie Durchführung von Immobiliendienstleistungen (z.B. Reinigungsarbeiten und Hausmeisterservice) sowie Tätigkeiten im Bereich der Sicherheitsdienstleistungen (Security). Darüber hinaus Im- und Export und Handel mit Schmuck, Mobilfunkgeräten und Elektronikzubehör und sonstigem IT-Zubehör sowie Reparatur dieser Gegenstände.",
+    "register_court": "München",
+    "register_number": "317688",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Gottfried-Böhm-Ring 16, 81369 München",
+     "postal_code": "81369",
+     "street": "Gottfried-Böhm-Ring 16"
+    },
+    "company_id": "DE-HRB-D2601-317687",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PWD K. A. Service- und Sicherheitsdienst UG (haftungsbeschränkt)",
+    "purpose": "Dienstleistungen im Bereich Objektschutz, Empfang- und Kontrolldienst sowie Veranstaltung.",
+    "register_court": "München",
+    "register_number": "317687",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Drudhardstr. 21 a, 80995 München",
+     "postal_code": "80995",
+     "street": "Drudhardstr. 21 a"
+    },
+    "company_id": "DE-HRB-D2601-317619",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Mia 24/7 Service UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Brandschutz-Serviceleistungen sowie sonstigen Service- und Dienstleistungen ohne Bewachungstätigkeiten, insbesondere Parkplatzüberwachung und damit verbundene Dienstleistungen, soweit hierfür eine öffentlich-rechtliche Erlaubnis nicht erforderlich ist.",
+    "register_court": "München",
+    "register_number": "317619",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Karlingerstr. 54, 80992 München",
+     "postal_code": "80992",
+     "street": "Karlingerstr. 54"
+    },
+    "company_id": "DE-HRB-D2601-317396",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Empire AS UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienst",
+    "register_court": "München",
+    "register_number": "317396",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Konrad-Zuse-Platz 8, 81829 München",
+     "postal_code": "81829",
+     "street": "Konrad-Zuse-Platz 8"
+    },
+    "company_id": "DE-HRB-D2601-317217",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "KSK Dienstleistungen GmbH",
+    "purpose": "Mietwagen, Logistik-Lieferservice, Kurier- und Expressdienste, Dienstleistungen im Bereich der Fahrzeuglogistik, Kfz-Überführungen sowie Vermittlung von Transporten, Gebäudereinigung und Übernahme von Sicherheitsdiensten. Genehmigungspflichtige Tätigkeiten sind nicht Gegenstand des Unternehmens.",
+    "register_court": "München",
+    "register_number": "317217",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Rosa-Bavarese-Str. 3, 80639 München",
+     "postal_code": "80639",
+     "street": "Rosa-Bavarese-Str. 3"
+    },
+    "company_id": "DE-HRB-D2601-316196",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "G & T Security Solutions UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Sicherheits- und Bewachungsdienstleistungen aller Art, insbesondere in den Bereichen Objektschutz, Veranstaltungsschutz, Empfangs- und Pfortendienste, Revier- und Streifendienste, Personenschutz und soweit gesetzlich zulässig sonstige Sicherheitsdienstleistungen.",
+    "register_court": "München",
+    "register_number": "316196",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Reinmarplatz 5, 80637 München",
+     "postal_code": "80637",
+     "street": "Reinmarplatz 5"
+    },
+    "company_id": "DE-HRB-D2601-316171",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Kunduz Security UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen, insbesondere Objektschutz, Veranstaltungsschutz, Personenschutz sowie Kontroll- und Bewachungstätigkeiten.",
+    "register_court": "München",
+    "register_number": "316171",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Barlowstr. 40, 81927 München",
+     "postal_code": "81927",
+     "street": "Barlowstr. 40"
+    },
+    "company_id": "DE-HRB-D2601-315232",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "WächterWerk80 Security & Consulting GmbH",
+    "purpose": "Erbringung von Bewachungsdienstleistungen gemäß § 34a GewO, insbesondere Objekt- und Werkschutz, Veranstaltungsschutz, Revier- und Interventionsdienste, Empfangs- und Kontrolldienste sowie Sicherheitsberatung, Erstellung von Sicherheitskonzepten und Risikoanalysen. Darüber hinaus Erbringung von Sicherungs- und Serviceleistungen im Eisenbahnbereich, insbesondere Stellung von Sicherungsposten (Sipo), Sicherungsaufsichtskräften (Sakra) sowie weiterer bahnbetrieblicher Sicherungs- und Unterstützungsleistungen für Unternehmen der Eisenbahnbranche und deren Auftragnehmer. Ferner Beratungs- und Consultingdienstleistungen im Bereich Sicherheitsmanagement, Gefahrenprävention, Organisation und betriebliche Sicherheitskonzepte.",
+    "register_court": "München",
+    "register_number": "315232",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Trivastraße 28, 80637 München",
+     "postal_code": "80637",
+     "street": "Trivastraße 28"
+    },
+    "company_id": "DE-HRB-D2601-315211",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ASR Baulogistik und Sicherheitsdienste GmbH",
+    "purpose": "Erbringung von Dienstleistungen in den Bereichen Entsorgungslogistik, Logistikkoordination, Baustelleninfrastruktur, sowie die Erbringung von Sicherheitsdienstleistungen, Sicherheitsberatung sowie Sicherheitsmanagement gem. § 34a GewO sowie der Bewachungsverordnung.",
+    "register_court": "München",
+    "register_number": "315211",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Appenzeller Str. 113, 80475 München",
+     "postal_code": "80475",
+     "street": "Appenzeller Str. 113"
+    },
+    "company_id": "DE-HRB-D2601-314430",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Prime Solutions Group GmbH",
+    "purpose": "Tätigkeiten im Bereich der Gebäudereinigung sowie allgemeine Reinigungsdienstleistungen, der Hausmeisterservice und das Facility-Management sowie auch Bautätigkeiten wie z. B. Roh-, Trocken- und Ausbauarbeiten sowie Renovierungs- und Innenausbauarbeiten und Bodenlege- und Montagearbeiten. Darüber hinaus der Einbau von genormten Baufertigteilen und Bautentrocknungs-, Fuger-, Betonbohr- und Betonschneidearbeiten, Kabelverlege-, Rohr- und Kanalreinigungsarbeiten, Entkernungs-, Abbruch- und Baustellenabsicherungsarbeiten. Die Durchführung von Sicherheits-, Bewachungs-, Objekt- und Veranstaltungsschutzdienstleistungen nach Maßgabe der gesetzlichen Vorschriften. Weiter Transport-, Logistik-, Kurier- und Umzugsdienstleistungen, Entrümpelungs-, Textilreinigungs- und Fahrzeugaufbereitungsarbeiten sowie Möbelbau, Möbel- und Küchenmontage sowie die Montage von Innenausstattung, die Ausführung von Tätigkeiten im Büroservice, die Unternehmensberatung und die Personal- und Auftragsvermittlung. Weiter der Import, Export und Online-Handel sowie Handel mit Waren aller Art, Baumaschinen, Kraftfahrzeugen, Schmuck, Uhren, Edelmetallen und verwandten Produkten.",
+    "register_court": "München",
+    "register_number": "314430",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "St.-Bonifatius-Str. 2, 81541 München",
+     "postal_code": "81541",
+     "street": "St.-Bonifatius-Str. 2"
+    },
+    "company_id": "DE-HRB-D2601-314429",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Velora GmbH",
+    "purpose": "Tätigkeiten im Bereich der Gebäudereinigung, der Fassadenreinigung und der Baustellenreinigung sowie der Hausmeisterservice, das Facility Management und die Objektbetreuung. Zudem zulassungsfreie Bau-, Trockenbau-, Ausbau-, Innenausbau-, Renovierungs- und Montagearbeiten, der Handel, die Vermietung und Vermittlung sowie der Import und Export von Baumaschinen, Baugeräten und Werkzeugen. Weiter der Handel sowie der Import und Export von Baustoffen, Baumaterialien und Industriebedarf. Weiter der Onlinehandel sowie der Groß-, Einzel- und Versandhandel mit Waren aller Art, soweit genehmigungsfrei. Darüber hinaus die Bereitstellung von Sicherheits-, Bewachungs- und Objektschutzdienstleistungen sowie Transport-, Kurier-, Logistik-, Umzugs- und Vermittlungsdienstleistungen, die Fahrzeugaufbereitung, Kfz-Pflege sowie der Handel mit Kraftfahrzeugen und Zubehör, der Import, Export und Handel mit Kraftfahrzeugen, Nutzfahrzeugen, Baumaschinen und Ersatzteilen; die Durchführung von Medien-, Marketing-, Werbe- und digitalen Dienstleistungen, die Unternehmensberatung, Vertriebsberatung und der Büroservice. Personal-, Arbeits- und Auftragsvermittlung sowie der Handel mit Schmuck, Uhren, Edelmetallen, Edelsteinen und Altgold.",
+    "register_court": "München",
+    "register_number": "314429",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hohenbrunn-Riemerling",
+     "country": "DE",
+     "formatted_value": "Forststraße 11, 85521 Hohenbrunn-Riemerling",
+     "postal_code": "85521",
+     "street": "Forststraße 11"
+    },
+    "company_id": "DE-HRB-D2601-314401",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "JKS Sicherheit UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Sicherheits- und Bewachungsdienstleistungen (Objektschutz, Veranstaltungsschutz, Revier- und Streifendienste, Zugangskontrollen, Empfangs-und Pfortendienste sowie Betreuung und Absicherung von Gemeinschaftsunterkünften und Flüchtlingsunterkünften.",
+    "register_court": "München",
+    "register_number": "314401",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Hanauer Straße 20, 80992 München",
+     "postal_code": "80992",
+     "street": "Hanauer Straße 20"
+    },
+    "company_id": "DE-HRB-D2601-314153",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Baba Prime Secure UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Bewachungs- und Sicherheitsdienstleistungen gemäß § 34a GewO, insbesondere Objekt-, Veranstaltungs-, Revier- und Empfangsdienste sowie damit im Zusammenhang stehende Dienstleistungen. Darüber hinaus Erbringung von Hoteldienstleistungen, insbesondere Night-Auditor-, Empfangs- und administrativen Nachtdiensten, sowie Vermittlung von Reinigungs- und Facility-Management-Aufträgen. Erlaubnispflichtige Tätigkeiten sind ausgenommen.",
+    "register_court": "München",
+    "register_number": "314153",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Paracelsusstraße 27, 80939 München",
+     "postal_code": "80939",
+     "street": "Paracelsusstraße 27"
+    },
+    "company_id": "DE-HRB-D2601-313830",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Valtrex GmbH",
+    "purpose": "Gebäudereinigung und Reinigungsdienstleistungen. Hausmeisterservice und Facility-Management. Bau-, Rohbau-, Trockenbau- und Ausbauarbeiten. Renovierungs- und Innenausbauarbeiten. Bodenlege- und Montagearbeiten. Einbau von genormten Baufertigteilen. Bautentrocknungs-, Fuger-, Betonbohr- und Betonschneidearbeiten. Kabelverlege-, Rohr- und Kanalreinigungsarbeiten. Entkernungs-, Abbruch- und Baustellenabsicherungsarbeiten. Sicherheits-, Bewachungs-, Objekt- und Veranstaltungsschutzdienstleistungen nach Maßgabe der gesetzlichen Vorschriften. Transport-, Logistik-, Kurier- und Umzugsdienstleistungen. Entrümpelungs-, Textilreinigungs- und Fahrzeugaufbereitungsarbeiten. Möbelbau, Möbel- und Küchenmontage sowie Innenausstattung. Büroservice, Unternehmensberatung, Personal- und Auftragsvermittlung. Import, Export, Online-Handel sowie Handel mit Waren aller Art, Baumaschinen, Kraftfahrzeugen, Schmuck, Uhren, Edelmetallen und verwandten Produkten.",
+    "register_court": "München",
+    "register_number": "313830",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Frankfurt am Main",
+     "country": "DE",
+     "formatted_value": "Berner Straße 71a, 60437 Frankfurt am Main",
+     "postal_code": "60437",
+     "street": "Berner Straße 71a"
+    },
+    "company_id": "DE-HRB-D2601-313725",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SN Drive & Services UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Dienstleistungen aller Art, Personenbeförderung im Mietwagenverkehr nach dem Personenbeförderungsgesetz, Chauffeur- und Fahrdienstleistungen, Kurier- und Logistikdienstleistungen, Gebäudereinigung, Sicherheits- und Servicedienstleistungen, Hausmeisterservice, Personalgestellung, Veranstaltungsservice, Handel mit Haushaltswaren, Reinigungs- und Hygieneartikeln, Lebensmitteln (soweit gesetzlich zulässig), Getränken, Textilien, Elektronik, Spielwaren, Geschenkartikeln, Bürobedarf, Kfz-Zubehör sowie sonstigen Konsumgütern, Vermittlung von Dienstleistungen; Leitung und Verantwortung für den Geschäftsbereich Dienstleistungen und Handel obliegt dem Geschäftsführer Zabiullah Nuristani, fachliche Leitung und Verantwortung für den Geschäftsbereich Personenbeförderung im Mietwagenverkehr nach dem Personenbeförderungsgesetz (PBefG) obliegt ausschließlich dem Geschäftsführer Ahmmad Wikas Maiwandi; alle Unternehmensgegenstände werden erbracht, soweit sie keinen gesetzlichen Einschränkungen unterliegen.",
+    "register_court": "München",
+    "register_number": "313725",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Grohmannstr. 9 a, 80933 München",
+     "postal_code": "80933",
+     "street": "Grohmannstr. 9 a"
+    },
+    "company_id": "DE-HRB-D2601-313588",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AMS SICHERHEIT & SERVICES GmbH",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen",
+    "register_court": "München",
+    "register_number": "313588",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "In der Heuluss 12, 81827 München",
+     "postal_code": "81827",
+     "street": "In der Heuluss 12"
+    },
+    "company_id": "DE-HRB-D2601-313315",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Nerich GmbH",
+    "purpose": "Tätigkeit als Generalunternehmer im Bereich Bau und Immobilien, insbesondere: a) Koordination, Steuerung und Vergabe von Bau-, Sanierungs- und Renovierungsleistungen an Subunternehmer; b) Durchführung von Hausmeisterdienstleistungen, Facility Management und damit zusammenhängende Serviceleistungen; c) Ausführung von Schreiner- und Tischlerarbeiten, Malerarbeiten (Innenbereich), Bodenverlegearbeiten sowie Montagearbeiten aller Art, soweit die hierfür erforderlichen gewerberechtlichen und handwerksrechtlichen Voraussetzungen vorliegen; d) Verwaltung von Immobilien, insbesondere WEG-Verwaltung und Mietverwaltung; e) Vermittlung von Immobilien sowie Tätigkeiten als Immobilienmarkler, soweit die erforderliche Erlaubnis gemäß § 34c GewO vorliegt; f) An- und Verkauf von Immobilien und Grundstücken auf eigene Rechnung sowie Projektentwicklung und Bauträgergeschäfte; g) Gartelgestaltung, Außenanlagen und Grünpflege; h) Reinigungs- und Umzugsdienstleistungen; i) Sicherheitsdienstleistungen, soweit die erforderliche Erlaubnis gemäß § 34a GewO vorliegt; j) Handel mit Baumaterialien, Werkzeugen, Maschienen und sonstigen Waren des täglichen Bedarfs. Die vorstehend genannten Tätigkeiten werden nur insoweit ausgeübt, als die gesetzlich erforderlichen Genehmigungen, Erlaubnisse oder Zulassungen vorliegen.",
+    "register_court": "München",
+    "register_number": "313315",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Cosimastr. 121, 81925 München",
+     "postal_code": "81925",
+     "street": "Cosimastr. 121"
+    },
+    "company_id": "DE-HRB-D2601-313145",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Train-US UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Consulting- und Beratungsleistungen, insbesondere in den Bereichen Security, Facility Management, Organisations- und Sicherheitskonzepte, Prävention, Risiko- und Krisenmanagement sowie angrenzender Fachgebiete. Weiterer Gegenstand des Unternehmens sind Sicherheitsdienstleistungen ein-schließlich Personen- und Objektschutzschutz, Veranstaltungsschutz, Streifen-dienste, und Ermittlungsdienste , sowie sicherheitsnahe Dienstleistungen, ein-schließlich konzeptioneller Sicherheitsberatung, Risikoanalysen, Schutz- und Einsatzkonzepte, Schulungen, Trainings- und Coachings im Bereich Sicherheitsdienstleistungen, Deeskalation- und Gewaltprävention, taktischem Einsatzverhalten sowie Mitarbeiter- und Führungskräfteentwicklung und begleitender Maßnahmen, soweit hierfür gesetzliche Genehmigungen erforderlich sind und diese vorliegen. Darüber hinaus ist Gegenstand des Unternehmens die Erbringung von Facility-Services und facilitybezogenen Dienstleistungen, insbesondere im Bereich der Objekt-, Anlagen- und Liegenschaftsbetreuung, einschließlich koordinierender, beratender und unterstützender Tätigkeiten.",
+    "register_court": "München",
+    "register_number": "313145",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Zenettistr. 36, 80337 München",
+     "postal_code": "80337",
+     "street": "Zenettistr. 36"
+    },
+    "company_id": "DE-HRB-D2601-312318",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bavaria Bahn Service GmbH",
+    "purpose": "Gegenstand des Unternehmens ist die Sicherung von Bahn- und Gleisbaustellen. Genehmigungspflichtige Tätigkeiten nach spezialgesetzlichen Vorschriften, die die Eintragung der Gesellschaft im Handelsregister vom Nachweis öffentlichrechtlicher Erlaubnis abhängig machen, werden nicht ausgeübt.",
+    "register_court": "München",
+    "register_number": "312318",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Cosimastr. 121, 81925 München",
+     "postal_code": "81925",
+     "street": "Cosimastr. 121"
+    },
+    "company_id": "DE-HRB-D2601-311848",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Goldmann Security & Services GmbH",
+    "purpose": "Bewachung und Überwachung, Objekt und Personenschutz nach § 34 a GewO; Detektei; Kaufhaus-Detektei; Bewachung von fremden Leben und Eigentum; Durchführung von Veranstaltungen sowie alle in diesem Zusammenhang stehende Dienst- und Serviceleistungen; Vermittlung von Aufträgen an andere Betriebe; Personalvermittlung ohne AÜ; Ausübung des zulassungsfreien Gebäudereinigungshandwerks und Facilitymanagement; Durchführung von Baufein- und Baugrobreinigung; Garten- und Landschaftsbau sowie alle in diesem Zusammenhang stehende Dienst- und Serviceleistungen; Durchführung von Hausmeisterarbeiten (z.B. Gartenarbeiten, Schneeräumen und Treppenreinigung usw.); Hotelservice sowie alle in diesem Zusammenhang stehenden Dienst- und Serviceleistungen; Abbrucharbeiten ohne Eingriff in die Statik; Transporte bis 3,5 t sowie alle in diesem Zusammenhang stehende Dienst- und Serviceleistungen; Trockenbauarbeiten; Import - Export, Groß- und Einzelhandel von Nonfood-Produkten insbesondere Textilien und Kosmetik.",
+    "register_court": "München",
+    "register_number": "311848",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Cosimastr. 121, 81925 München",
+     "postal_code": "81925",
+     "street": "Cosimastr. 121"
+    },
+    "company_id": "DE-HRB-D2601-311523",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bayerische Schutz & Sicherheits GmbH",
+    "purpose": "Gegenstand des Unternehmens sind Sicherheitsdienstleistungen aller Art, insbesondere Objektschutz, Objektwache, Brandschutz sowie sonstige sicherheitsnahe Dienstleistungen; ferner Chauffeur- und Fahrdienste, Hausmeisterservice sowie alle damit im Zusammenhang stehenden Tätigkeiten.Umzugsservice (Privat- und Firmenumzüge, national und internati-onal), Möbelmontage und Verpackungsservice, Entrümpelungen und Haushaltsauflösungen, Reinigungsleistungen (Unterhalts- und Baureini-gung), umweltgerechte Entsorgung und Containerbereitstellung sowie sicherheits- und kontrollbezogene Tätigkeiten im Rahmen der Objektbetreuung, Reinigungs- und Sanierungsarbeiten, Objektbetreuung und Ko-trolle von Wohnheimen, sicherheitsnahe Dienstleistungen im Rahmen der Objektverwaltung, Vermittlung von Firmen, Winterdienst und Entrümpe-lung, Vermietung, Verpachtung, Verwaltung und Vermittlung von Immobilien, An- und Verkauf von Privat- und Gewerbeimmobilien, Betrieb von Boardinghäusern, Pensionen und Monteurunterkünften, Immobilienvertrieb einschließlich Off-Market-Geschäften, Projektentwicklung und Vermarktungsstrategien sowie alle dem Gesellschaftszweck unmittelbar oder mittelbar dienlichen Nebengeschäfte.",
+    "register_court": "München",
+    "register_number": "311523",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Bremer Straße 11, 80807 München",
+     "postal_code": "80807",
+     "street": "Bremer Straße 11"
+    },
+    "company_id": "DE-HRB-D2601-311246",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "B.E.S.T. Veranstaltungsdienste GmbH Süd",
+    "purpose": "Serviceleistungen im Zusammenhang mit Veranstaltungen jeglicher Art sowie Bewachungstätigkeiten gemäß § 34a GewO.",
+    "register_court": "München",
+    "register_number": "311246",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Leopoldstraße 23, 80802 München",
+     "postal_code": "80802",
+     "street": "Leopoldstraße 23"
+    },
+    "company_id": "DE-HRB-D2601-311050",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Alfa Security GmbH",
+    "purpose": "Objektschutz, Objektwache, diverse Sicherheitsdienstleistungen sowie Bewacher-Tätigkeiten, Parkaufsicht, Veranstaltungsschutz, Dienstleistungen als Privatdetektiv, Chaffeurdienste und Hausmeisterservice.",
+    "register_court": "München",
+    "register_number": "311050",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Baierbrunner Straße 91, 81379 München",
+     "postal_code": "81379",
+     "street": "Baierbrunner Straße 91"
+    },
+    "company_id": "DE-HRB-D2601-310521",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "M8 Security UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen gemäß § 34a GewO, insbesondere Objektschutz, Werkschutz, Empfangs- und Pfortendienste sowie Veranstaltungsdienste.",
+    "register_court": "München",
+    "register_number": "310521",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Säbener Straße 189, 81545 München",
+     "postal_code": "81545",
+     "street": "Säbener Straße 189"
+    },
+    "company_id": "DE-HRB-D2601-310057",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Safecore Security UG (haftungsbeschränkt)",
+    "purpose": "Erbringung umfassender Sicherheitsdienstleistungen. Dazu zählen Objekt- und Werkschutz zum Schutz von Gebäuden, Betrieben und Firmengeländen, Revier- und Streifendienste zur Gefahrenprävention, sowie Empfangs- und Pfortendienste inklusive Zutrittskontrolle und Besucherregistrierung. Veranstaltungsschutz und Crowd-Management, Alarm- und Interventionsdienst, Sicherheitsberatung und Risikoanalyse sowie Personen- und Begleitschutz unter Einhaltung der behördlichen Vorgaben. Erlaubnispflichtige Tätigkeiten sind ausgeschlossen.",
+    "register_court": "München",
+    "register_number": "310057",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Maximilianstr. 35 a, 80539 München",
+     "postal_code": "80539",
+     "street": "Maximilianstr. 35 a"
+    },
+    "company_id": "DE-HRB-D2601-306968",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Manso GmbH",
+    "purpose": "Lieferung und Zustellung von Paketen, Zeitungen, Prospekten und Reklame sowie das Einsammeln und Aufladen von E-Rollern und die Gleisbausicherung.",
+    "register_court": "München",
+    "register_number": "306968",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Prinzregentenstraße 54, 80538 München",
+     "postal_code": "80538",
+     "street": "Prinzregentenstraße 54"
+    },
+    "company_id": "DE-HRB-D2601-306813",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "VIGLIS Sicherheitsdienst UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen aller Art, insbesondere: Objekt- und Werkschutz; Veranstaltungsschutz; Revier- und Streifendienst; Empfangs- und Zugangskontrollen sowie - nach behördlicher Genehmigung - Personenschutz und Sicherheitsberatung. Darüber hinaus ist die Gesellschaft berechtigt, Beratungs- und Schulungstätigkeiten im Bereich Sicherheit, Gefahrenabwehr und Organisation durchzuführen, soweit diese Tätigkeiten durch die Prokurist/in mit entsprechender Sachkunde erfolgen.",
+    "register_court": "München",
+    "register_number": "306813",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Dessauer Str. 7, 80992 München",
+     "postal_code": "80992",
+     "street": "Dessauer Str. 7"
+    },
+    "company_id": "DE-HRB-D2601-306650",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "B&C - Bayern Clean Gebäudereinigung GmbH",
+    "purpose": "Ausübung des zulassungsfreien Gebäudereiniger-Handwerks: Beratung für Industrieprojekte, Ausführung derartiger Projekte, sowie An- und Verkauf und die Vermittlung von Waren aller Art einschließlich der dazu erforderlichen Beratung. Gebäudereinigung aller Art und alle damit verbundenen Tätigkeiten sowie Dienstleistungen im Bereich Gebäudemanagement, insbesondere Gebäudereinigung (z. B. Unterhaltsreinigung, Fassadenreinigung, Teppichreinigung, Grundreinigung, Flächen Desinfektion, Computerreinigung, Baureinigung, Glasreinigung, Hausmeisterdienste, Treppenhausreinigung (auch Winterdienst, d. h. Schneeräumen, Streuen etc. Grünpflege), Gartengestaltung. Bewachung von fremdem Eigentum, ferner Autoreinigung und Aufbereitung. Facilitymanagement, Abbrucharbeiten, Holz- und Bautenschutz, Trockenbauarbeiten, Ordnerservice, Montagebau und Catering. Handel und Vermittlung sowie Import & Export von Non-Food-Produkten (Geschenkartikel, Schreibwaren, Sportartikel, Textilien, Haushaltswaren, Elektrogeräte, Schuhe - ausgenommen überwachungspflichtige Güter) und Beratung und Dienstleistungen im Bereich der angebotenen Produkte sowie Personalvermittlung.",
+    "register_court": "München",
+    "register_number": "306650",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Strehleranger 5, 81735 München",
+     "postal_code": "81735",
+     "street": "Strehleranger 5"
+    },
+    "company_id": "DE-HRB-D2601-306578",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Alpha24 Group UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Ordnungsdiensten ohne Bewachung, Marketingdienstleistungen sowie die Vorbereitung, Beantragung und Ausübung von Bewachungsdiensten nach Erteilung der entsprechenden behördlichen Genehmigung gemäß § 34a GewO.",
+    "register_court": "München",
+    "register_number": "306578",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Wilramstraße 53, 81669 München",
+     "postal_code": "81669",
+     "street": "Wilramstraße 53"
+    },
+    "company_id": "DE-HRB-D2601-306571",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NF4 GmbH",
+    "purpose": "Erbringung von Dienstleistungen in den Bereichen Bauüberwachung, Hausmeisterservice, Baureinigung, Büro- und Gebäudereinigung, Entsorgung, Kurier- und Expressdienste, Transporte im Baugewerbe, Durchführung von Parkdienstleistungen, Garderobenbetreuung, Bewachung von Feuerwehrtoren, sowie von fremden Leben und Eigentum.",
+    "register_court": "München",
+    "register_number": "306571",
+    "register_type": "HRB"
+   }
+  ],
+  "2": [
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Augustenstraße 70, 80333 München",
+     "postal_code": "80333",
+     "street": "Augustenstraße 70"
+    },
+    "company_id": "DE-HRB-D2601-305820",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Guardian 24 Sicherheits- und Dienstleistungen GmbH",
+    "purpose": "Erbringung von Sicherheitsdiensten, Objekt, Werk- und Veranstaltungsschutz, Revier- und Streifendienst, Bewachung von Personen, Gebäuden und Einrichtungen. Gegenstand ist ferner der Handel mit Waren, insb. Funktionskleidung.",
+    "register_court": "München",
+    "register_number": "305820",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Kazmairstraße 48, 80339 München",
+     "postal_code": "80339",
+     "street": "Kazmairstraße 48"
+    },
+    "company_id": "DE-HRB-D2601-303170",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DD Sicherheit & Service UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen, Reinigungsdiensten, Hausmeisterdiensten sowie allen damit im Zusammenhang stehenden und den Unternehmenszweck fördernden Tätigkeiten. Hierzu zählen unter anderem der Objektschutz, Veranstaltungs- und Personenschutz, Empfangs- und Kontrolltätigkeiten, Reinigungsdienste aller Art (z. B. Gebäudereinigung, Fensterreinigung, Sonderreinigung), Gartenpflege, Winterdienst, Hausmeister- und Reparaturdienste, Kurier- und Transportdienste sowie Durchführung einfacher handwerklicher Tätigkeiten.",
+    "register_court": "München",
+    "register_number": "303170",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Weinbauernstr. 12, 81539 München",
+     "postal_code": "81539",
+     "street": "Weinbauernstr. 12"
+    },
+    "company_id": "DE-HRB-D2601-240106",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Most Wanted Security GmbH",
+    "purpose": "Sicherheits- und Bewachungsdienstleistung im Sinne des § 34 GewO, sowie Erbringung von Servicedienstleistungen aller Art.",
+    "register_court": "München",
+    "register_number": "240106",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Am Moosfeld 37, 81829 München",
+     "postal_code": "81829",
+     "street": "Am Moosfeld 37"
+    },
+    "company_id": "DE-HRB-D2601-223759",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Rosco Services GmbH",
+    "purpose": "Stellung von Servicedienstleistungen im weitesten Sinne. Insbesondere Dienstleistungen im Bereich des Facilitymanagements, der Sicherung und Bewachung von Objekten und Einrichtungen, Betreuung und Schutz von Personen und Dienstleistungen im Zusammenhang mit dem Betrieb, der Reinigung und der Instandhaltung von Gebäuden.",
+    "register_court": "München",
+    "register_number": "223759",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Amalienstraße 71, 80799 München",
+     "postal_code": "80799",
+     "street": "Amalienstraße 71"
+    },
+    "company_id": "DE-HRB-D2601-234791",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Securgroup GmbH",
+    "purpose": "Betrieb eines Wach- und Sicherheitsdienstes und alle hiermit im Zusammenhang stehenden Tätigkeiten.",
+    "register_court": "München",
+    "register_number": "234791",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Birkenleiten 41, 81543 München",
+     "postal_code": "81543",
+     "street": "Birkenleiten 41"
+    },
+    "company_id": "DE-HRB-D2601-256079",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "TPS GmbH",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen aller Art, insbesondere Beratung, Personenschutz und Trainings. Genehmigungspflichtige Tätigkeiten werden nicht augeübt.",
+    "register_court": "München",
+    "register_number": "256079",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Freihamer Weg 68, 81249 München",
+     "postal_code": "81249",
+     "street": "Freihamer Weg 68"
+    },
+    "company_id": "DE-HRB-D2601-203052",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "RSS Security GmbH",
+    "purpose": "Durchführung von Dienstleistungen des Sicherheitsgewerbes und Veranstaltungsdienstleistungen aller Art.",
+    "register_court": "München",
+    "register_number": "203052",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Mainburger Straße 9, 81369 München",
+     "postal_code": "81369",
+     "street": "Mainburger Straße 9"
+    },
+    "company_id": "DE-HRB-D2601-249425",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Austinga UG (haftungsbeschränkt)",
+    "purpose": "Betrieb eines Bewachungsunternehmens; Betrieb einer Detektei; Groß- und Einzelhandel mit Im- und Export von Textilien, Zivilschutzausrüstungsgegenständen, Sicherheitsgeräten und sicherheitstechnischen Einrichtungen; Versandhandel mit Textilien, Zivilschutzausrüstungsgegenständen, Sicherheitsgeräten, sicherheitstechnischen Einrichtungen; Betrieb einer Hausverwaltung; Durchführung von Arbeitssicherheitsmaßnahmen; Erstellen von Konzepten; Vermittlung von Aufträgen an andere Betriebe; Betreiben einer Zimmerei und Holzbau.",
+    "register_court": "München",
+    "register_number": "249425",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Pilgersheimer Str. 62, 81543 München",
+     "postal_code": "81543",
+     "street": "Pilgersheimer Str. 62"
+    },
+    "company_id": "DE-HRB-D2601-273971",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BEFM Gebäudemanagement GmbH",
+    "purpose": "Management von Gebäuden und Immobilien jeder Art sowie die Erbringung aller damit zusammenhängenden technischen, kaufmännischen und sonstigen Leistungen, zertifiziert ISO9001; Ausführungen von Arbeiten in den Bereichen ElektroInformationstechnik, Heizung, Klima, Lüftung, Sanitär; Energieoptimierung in Bauten jeder Art sowie alle damit zusammenhängenden Werk- und Dienstleistungen; Betreiben, Planung, Wartung und Instandsetzung von technischen Gebäudeanlagen aller Art; Erbringen von infrastrukturellen Facility-Management-Leistungen; Generalunternehmerschaft und Generalübernehmerschaft für Umbau-, Erweiterungs- und Sanierungsarbeiten an baulichen und technischen Anlagen, die im Zusammenhang mit der Bewirtschaftung von Gewerbe- und lndustrieimmobilien anfallen; Erbringen von Sicherheits- und Überwachungsdiensten, insbesondere von Schließdiensten und Übernahme von Einlasskontrollen.",
+    "register_court": "München",
+    "register_number": "273971",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Maxhofstraße 13, 81475 München",
+     "postal_code": "81475",
+     "street": "Maxhofstraße 13"
+    },
+    "company_id": "DE-HRB-D2601-74858",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Phönix Skeljo GmbH",
+    "purpose": "Reinigungsdienste aller Art insbesondere an Gebäuden sowie sonstige Gebäudedienste und Gebäudebewachung",
+    "register_court": "München",
+    "register_number": "74858",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Gotthardstr. 77, 80689 München",
+     "postal_code": "80689",
+     "street": "Gotthardstr. 77"
+    },
+    "company_id": "DE-HRB-D2601-298526",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Haniba UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienst und E-Commerce, insbesondere mit Haushaltsartikeln und Bekleidung.",
+    "register_court": "München",
+    "register_number": "298526",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Poccistr. 8, 80336 München",
+     "postal_code": "80336",
+     "street": "Poccistr. 8"
+    },
+    "company_id": "DE-HRB-D2601-144014",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "VSM Veranstaltungsservice P. Mayr GmbH",
+    "purpose": "Übernahme und Angebot von Dienstleistungen im Bereich Beratung, Planung und Organisation der technischen Ausstattung von Räumen und Flächen für Veranstaltungen jeglicher Art, insbesondere Bühnen- und Lichttechnik, Beschallung und Bestuhlung, sowie von Dienstleistungen im Rahmen eines Hostessenservices, insbesondere zur Verfügungstellung von Personal für repräsentative und administrative Zwecke, Betreuung von Gästen auf Veranstaltungen; Erbringung von Bewachungsleistungen, insbesondere Objekt- und Veranstaltungsschutz, Zugangskontrollen, Ordnungsdienste und Bewachung von Veranstaltungsstätten und -flächen.",
+    "register_court": "München",
+    "register_number": "144014",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Naßlstraße 8, 80999 München",
+     "postal_code": "80999",
+     "street": "Naßlstraße 8"
+    },
+    "company_id": "DE-HRB-D2601-226789",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BRA UG (haftungsbeschränkt)",
+    "purpose": "An- und Verkauf von Neu- und Gebrauchtwagen, Handel mit neuen und gebrauchten Ersatzteilen mit Serviceleistungen, zulassungsfreies Gebäudereinigungshandwerk, Werbeplakatierer, Sicherheitsdienst, Ausführung von Akustik- und Trockenbauarbeiten, zulassungsfreie Tätigkeit im Maler- und Fliesenlegerhandwerk, im Holz- und Bautenschutz sowie bei Klima-, Wasser- und Heizungsarbeiten.",
+    "register_court": "München",
+    "register_number": "226789",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Chiemgaustr. 95, 81549 München",
+     "postal_code": "81549",
+     "street": "Chiemgaustr. 95"
+    },
+    "company_id": "DE-HRB-D2601-249437",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Firma gelöscht: ICON GmbH",
+    "purpose": "Dienstleistung und Facility, Reinigung, Baustellenreinigung, Feinreinigung, Sicherheitsdienst und Ordnerservice, Solarenergie Photvoltaik Montage und Vertrieb von Photovoltaik",
+    "register_court": "München",
+    "register_number": "249437",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Zaunkönigweg 2, 81827 München",
+     "postal_code": "81827",
+     "street": "Zaunkönigweg 2"
+    },
+    "company_id": "DE-HRB-D2601-258719",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Best Gebäudemanagement & Services GmbH",
+    "purpose": "Betreiben eines Hausmeisterdienstes, Gebäudereinigung, Abbrucharbeiten, Regalauffüllung und Sicherheitsdienst ohne Waffen.",
+    "register_court": "München",
+    "register_number": "258719",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Karl-Schmid-Str. 14, 81829 München",
+     "postal_code": "81829",
+     "street": "Karl-Schmid-Str. 14"
+    },
+    "company_id": "DE-HRB-D2601-300595",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Success K&R GmbH",
+    "purpose": "Erbringung von Reinigungsdienstleistungen, Arbeitnehmerüberlassung sowie Erbringung von Sicherheitsdienstleistungen; Eisenflechterei.",
+    "register_court": "München",
+    "register_number": "300595",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Schellingstr. 100, 80798 München",
+     "postal_code": "80798",
+     "street": "Schellingstr. 100"
+    },
+    "company_id": "DE-HRB-D2601-152495",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GRG Services München GmbH",
+    "purpose": "Betätigung auf allen Gebieten des Gebäudereinigerhandwerkes, Gestellung von Reinigungs- und Sanitäreinrichtungen, Waschraumhygiene und Desinfektion, Handel und Vertrieb von entsprechendem Zubehör und Einrichtung (Automaten etc.), Fassadenreinigung und Schneebeseitigung nebst sämtlicher damit zusammenhängender Geschäfte sowie infrastrukturelle Dienstleistungen einschließlich von Bewachungsaufgaben.",
+    "register_court": "München",
+    "register_number": "152495",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Karl-Schmid-Str. 14, 81829 München",
+     "postal_code": "81829",
+     "street": "Karl-Schmid-Str. 14"
+    },
+    "company_id": "DE-HRB-D2601-225397",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Münchner Sicherheits- und Werkschutz GmbH",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen, insbesondere Objektschutz, mobiler Streifendienst, Alarmverfolgung, Ordnungsdienst, Veranstaltungsdienst und Werkschutz; Erbringung von Servicedienstleistungen, insbesondere Empfangsdienst, Hausmeisterdienste und Garderobendienste.",
+    "register_court": "München",
+    "register_number": "225397",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Lilienstr. 81, 81669 München",
+     "postal_code": "81669",
+     "street": "Lilienstr. 81"
+    },
+    "company_id": "DE-HRB-D2601-220654",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GWI Götzhaber Wirtschaftsauskünfte GmbH",
+    "purpose": "Betreiben einer Detektei und Auskunftei sowie Erbringung von damit verbundenen Beratungsdienstleistungen.",
+    "register_court": "München",
+    "register_number": "220654",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Maximilianstraße 35 a, 80539 München",
+     "postal_code": "80539",
+     "street": "Maximilianstraße 35 a"
+    },
+    "company_id": "DE-HRB-D2601-232609",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Augurium GmbH",
+    "purpose": "medizinische Dienstleistungen: ärztlicher Bereitschaftsdienst, Concierge-Services, Flug- und Fahrservice, Reisearrangements, Transportdienste, Personenschutz, Sicherheitsdienst.",
+    "register_court": "München",
+    "register_number": "232609",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Moosacher Str. 73, 80809 München",
+     "postal_code": "80809",
+     "street": "Moosacher Str. 73"
+    },
+    "company_id": "DE-HRB-D2601-122280",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "HEROS GmbH Geld- und Werttransporte",
+    "purpose": "Bewachung und Schutz von Personen, Rechten, Industrieanlagen, Privateigentum, Hausrat und Liegenschaften; Werttransporte, Ordnungs- und Kontrolldienst; Betrieb von Kontroll-, Bewachungs-, Alarmvorrichtungen und -anlagen (einschließlich deren Zubehör und Einzelteile) sowie von Meldungs- und Übermittlungsgeräten.",
+    "register_court": "München",
+    "register_number": "122280",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Knorrstraße 12, 80807 München",
+     "postal_code": "80807",
+     "street": "Knorrstraße 12"
+    },
+    "company_id": "DE-HRB-D2601-198599",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "VDHS GmbH",
+    "purpose": "Tätigkeiten im Bewachungsgewerbe, insbesondere Werk- und Objektschutz; Messe- und Veranstaltungsdienste; Sicherheitsdienste für den Einzelhandel; Sicherheits- und Servicedienste im ÖPNV und Straßenverkehr; Mobile Kontrolldienste; Kurierdienste; Geld- und Werttransporte; Stellung von Kaufhaus- und Ladendetektiven; Security als Personenschützer sowie Durchführung von Hausmeister- und Haustechnikerdiensten.",
+    "register_court": "München",
+    "register_number": "198599",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Rüdesheimer Str. 7, 80686 München",
+     "postal_code": "80686",
+     "street": "Rüdesheimer Str. 7"
+    },
+    "company_id": "DE-HRB-D2601-262290",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CSSM GmbH",
+    "purpose": "Bewachung von fremden Leben und Eigentum.",
+    "register_court": "München",
+    "register_number": "262290",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Deisenhofener Str. 40, 81539 München",
+     "postal_code": "81539",
+     "street": "Deisenhofener Str. 40"
+    },
+    "company_id": "DE-HRB-D2601-222905",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Nova-Clean Gebäudereinigung GmbH",
+    "purpose": "Reinigungen aller Art, Import/Export, Hotel pachten, Immobilien kaufen, verkaufen und vermieten. Erbringung von provisionspflichtigen Vermittler-Dienstleistungen für Anbieter und Interessenten, sowie Sicherheits- und Wachdienst.",
+    "register_court": "München",
+    "register_number": "222905",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Wirtstraße 38, 81539 München",
+     "postal_code": "81539",
+     "street": "Wirtstraße 38"
+    },
+    "company_id": "DE-HRB-D2601-221494",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "diesnox GmbH",
+    "purpose": "Betrieb eines Bewachungsunternehmens und eines Gebäudeservices.",
+    "register_court": "München",
+    "register_number": "221494",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Maximilianstr. 35a, 80539 München",
+     "postal_code": "80539",
+     "street": "Maximilianstr. 35a"
+    },
+    "company_id": "DE-HRB-D2601-302714",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "INZYR GmbH",
+    "purpose": "Vermietung von Pkws in der Personenbeförderung, z. B. als Uber, Investment in Öl- und Erdgasprojekten, Investment in Gesundheitsunternehmen und -entwicklung, Investment in Tourismusunternehmen und -entwicklung, Investment in Einzelhandelsunternehmen und -management, Investment in Handelsunternehmen und -management, Goldtransport und Goldhandel, Sicherheitsdienst, Logistik (in der Verwaltung und Organisation Zubringer), Groß- und Einzelhandel sowie Im- und Export von Lebensmitteln.",
+    "register_court": "München",
+    "register_number": "302714",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Bauerstr. 8, 80796 München",
+     "postal_code": "80796",
+     "street": "Bauerstr. 8"
+    },
+    "company_id": "DE-HRB-D2601-297108",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "OMB Objektmanagement Bayern GmbH",
+    "purpose": "Verwaltung von eigenen und fremden Gebäuden, Sicherheitsdienstleistungen, Gebäudeüberwachung und Gebäudereinigung.",
+    "register_court": "München",
+    "register_number": "297108",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Pflüglstraße 7, 80999 München",
+     "postal_code": "80999",
+     "street": "Pflüglstraße 7"
+    },
+    "company_id": "DE-HRB-D2601-89575",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Solventa Gesellschaft für private Vermögensbildung zur Zukunftsvorsorge mbH",
+    "purpose": "Alle Maßnahmen, die der privaten Vermögensbildung zur Zukunftssorge dienen, insbesondere Konzeptionierung und Marketing von geschlossenen Immobilienfonds sowie die damit verbundenen Haus- u. Vermögensverwaltungen, außerdem Vermittlung von Vertragsabschlüssen und der Gelegenheit, den Abschluss solcher Verträge nachzuweisen, über Grundstücke, grundstücksgleiche Rechte, Wohnräume, Darlehen, Versicherungen, Beteiligungen. Ferner Groß- und Einzelhandel mit Kraftfahrzeugen (neu und gebraucht), Bewachung von fremdem Leben und Eigentum, auch mit Einsatz von Fahrzeugen und sicherheitstechnischen Mitteln, Ermittlungen aller Art, Vermittlung und Handel von und mit sicherheitstechnischen Einrichtungen, Vermittlung von Dienstleistungen.",
+    "register_court": "München",
+    "register_number": "89575",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Distlhofweg 7, 81369 München",
+     "postal_code": "81369",
+     "street": "Distlhofweg 7"
+    },
+    "company_id": "DE-HRB-D2601-301701",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Leon Security Munich GmbH",
+    "purpose": "Bewachungsunternehmen, insbesondere Bewachung von Veranstaltungen, Sicherheit einer Einrichtung, Security auf Großveranstaltungen wie Feste, Konzerte, Fußballspiele und andere große Sportereignisse, Überwachung von Firmengeländen, Schutz von Sachwerten (Immobilien, Gebäude, Grundstücke sowie beweglichen Sachen) und Personen.",
+    "register_court": "München",
+    "register_number": "301701",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Carl-Orff-Bogen 243, 80939 München",
+     "postal_code": "80939",
+     "street": "Carl-Orff-Bogen 243"
+    },
+    "company_id": "DE-HRB-D2601-268478",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "TSG Security Service UG (haftungsbeschränkt)",
+    "purpose": "Dienstleistung im Bereich Sicherheit und Bewachung von Objekten und Leben.",
+    "register_court": "München",
+    "register_number": "268478",
+    "register_type": "HRB"
+   }
+  ],
+  "3": [
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Fürstenrieder Straße 279 a, 81377 München",
+     "postal_code": "81377",
+     "street": "Fürstenrieder Straße 279 a"
+    },
+    "company_id": "DE-HRB-D2601-53876",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "WSG Wach- und Sicherheitsdienst Gesellschaft mit beschränkter Haftung",
+    "purpose": "Übernahme von Wach- und Sicherheitsaufgaben aller Art, insbesondere der Betrieb von Notrufzentralen, Pförtnerdiensten und Gestellung von Sicherheitsposten.",
+    "register_court": "München",
+    "register_number": "53876",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Ehrenbreitsteiner Str. 20, 80993 München",
+     "postal_code": "80993",
+     "street": "Ehrenbreitsteiner Str. 20"
+    },
+    "company_id": "DE-HRB-D2601-113757",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SOS Service Gesellschaft für Leitstellenmanagement mbH",
+    "purpose": "Aufbau und Durchführung eines bundesweiten lückenlosen Hausnotrufnetzes, insbesondere zur Sicherstellung jederzeitiger und schnellstmöglicher Erster Hilfe sowie zur Vermittlung weiterer durch das Notrufnetz abrufbarer Dienstleistungen. ferner: Bewachungund Betreuung von Mobilien und Immobilien jeder Art.",
+    "register_court": "München",
+    "register_number": "113757",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Drudhardstraße 21 a, 80995 München",
+     "postal_code": "80995",
+     "street": "Drudhardstraße 21 a"
+    },
+    "company_id": "DE-HRB-D2601-302311",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BSM Service UG (haftungsbeschränkt)",
+    "purpose": "Ordnertätigkeiten bei Klein- und Großveranstaltungen aller Art, insbesondere Pförtner-Tätigkeiten wie Kontrolle von Eintrittskarten, Anweisungen und Koordinierungen auf Parkplätzen, Auf- und Abbau von Messeständen und weitere Tätigkeiten, die im Ordnungsbereich anfallen, sowie Beratung in diesem Bereich. Nicht vom Unternehmenszweck umfasst sind Tätigkeiten, die dem Bewachungsgewerbe iSd. § 34a GewO unterfallen.",
+    "register_court": "München",
+    "register_number": "302311",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Eichenauer Str. 2, 81245 München",
+     "postal_code": "81245",
+     "street": "Eichenauer Str. 2"
+    },
+    "company_id": "DE-HRB-D2601-298835",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Chlendi Dienstleistungen GmbH",
+    "purpose": "Gleissicherung, Brandwache, Reinigung, Gerüststellung, Kleintransporte, Export und Import von Waren aller Art, soweit dies keiner Genehmigungs- oder Erlaubnispflicht unterliegt, Beschilderung von Baustellen, Kernbohrungen, Baustellenreinigung.",
+    "register_court": "München",
+    "register_number": "298835",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Goethestraße 3, 80336 München",
+     "postal_code": "80336",
+     "street": "Goethestraße 3"
+    },
+    "company_id": "DE-HRB-D2601-273970",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Abbas GmbH",
+    "purpose": "Bewachung von fremden Personen und Eigentum sowie Durchführung von Gütertransporten mit Kraftfahrzeugen bis 3,5 Tonnen.",
+    "register_court": "München",
+    "register_number": "273970",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Lerchenauer Straße 43, 80809 München",
+     "postal_code": "80809",
+     "street": "Lerchenauer Straße 43"
+    },
+    "company_id": "DE-HRB-D2601-231416",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SV Gebäudereinigung GmbH",
+    "purpose": "Gebäudereinigung, Trockenbau- und Abbrucharbeiten, Eisenflechterei sowie Sicherheitsdienst.",
+    "register_court": "München",
+    "register_number": "231416",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Ohmstr. 18, 80802 München",
+     "postal_code": "80802",
+     "street": "Ohmstr. 18"
+    },
+    "company_id": "DE-HRB-D2601-113657",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "IPG Immobilienprojekt GmbH",
+    "purpose": "Immobiliengeschäfte jeder Art, insbesondere der Erwerb und die Verwaltung von Immobilien, Vermietung, Vermittlung von Wohnungen, Veräußerung und Erwerb von Gebäuden sowie Vermittlung von Häusern und ähnlichem, gewerbliche Zwischenvermietung, Hausverwaltung, Kreditvermittlung zur Kauffinanzierung und Erbringung von Architekten- und Bauingenieurleistungen sowie alle damit in Verbindung stehenden Dienstleistungen. Weiterhin Geschäfte einer branchenüblichen Marketing- und Werbeagentur. Ebenso die Durchführung von Personen- und Objektschutz sowie Entwicklung, Betrieb und Vertrieb von Software für die Hotelindustrie und für das Facility Management sowie die Erbringung von Dienstleistungen und Support in diesem Zusammenhang.",
+    "register_court": "München",
+    "register_number": "113657",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Kardinal-Faulhaber-Str. 14, 80333 München",
+     "postal_code": "80333",
+     "street": "Kardinal-Faulhaber-Str. 14"
+    },
+    "company_id": "DE-HRB-D2601-77491",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "HVB Secur GmbH",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen vor allem für Kreditinstitute, insbesondere a) das Zurverfügungstellen von Sicherheits- und Ordnungsdienstkräften, von sicherheitsbezogenen Empfangsdienstleistungen, von Bewachungs- und Objektschutzpersonal, sowie von Personal für Sicherheits- und Leitzentralen; b) die branchenspezifische Aus- und Fortbildung des Personals; c) die Entwicklung und Umsetzung von Sicherheitskonzepten; d) die Beratung Dritter in Sicherheitsfragen",
+    "register_court": "München",
+    "register_number": "77491",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Tangastraße 22, 81827 München",
+     "postal_code": "81827",
+     "street": "Tangastraße 22"
+    },
+    "company_id": "DE-HRB-D2601-223227",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "C.P.S. Security & Consulting GmbH",
+    "purpose": "Erbringung von Bewachungsdienstleistungen und aller damit in Zusammenhang stehenden Beratungen und Erstellung von Sicherheitsanalysen und -konzepten.",
+    "register_court": "München",
+    "register_number": "223227",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Tölzer Straße 30, 81379 München",
+     "postal_code": "81379",
+     "street": "Tölzer Straße 30"
+    },
+    "company_id": "DE-HRB-D2601-296808",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Vanguard Security & Service GmbH",
+    "purpose": "Bewachung von Personen und Gebäuden; Bewachung von Werken, Kontrollgänge im öffentlichen Verkehrsraum oder in Hausrechtsbereichen mit tatsächlich öffentlichem Verkehr; Bewachung aller Art; Baustelllogistik und Bewachung; Vermögensverwaltung; Sicherheitstechnik (Kauf und Verkauf); Sicherheits-lT-Verwaltung/Kauf und Verkauf; Konzeption und Verkauf von Sicherheitsstrategien; Beratung und Dienstleistung im Sicherheitsbereich; Personalvermittlung; Schulungen, Akademieleistungen und Dozententätigkeit; Kauf und Verkauf von Kleidung/Textilien; allgemeine Reinigungsarbeiten ; Kauf, Verkauf und Verleih von Fahrzeugen; Handel mit Waren und Dienstleistungen; Chauffeurdienstleistungen.",
+    "register_court": "München",
+    "register_number": "296808",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Eversbuschstr. 105, 80999 München",
+     "postal_code": "80999",
+     "street": "Eversbuschstr. 105"
+    },
+    "company_id": "DE-HRB-D2601-263142",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Stölting Facility & Service Bayern GmbH",
+    "purpose": "Dienstleitungen aller Art in und an Gebäuden, wie Reinigung, Sicherheitsdienstleistungen, Hausmeisterdienste, Grünflächenpflege sowie alle damit verwandten Tätigkeiten.",
+    "register_court": "München",
+    "register_number": "263142",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Weyprechtstr. 13, 80937 München",
+     "postal_code": "80937",
+     "street": "Weyprechtstr. 13"
+    },
+    "company_id": "DE-HRB-D2601-293801",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SOB GmbH",
+    "purpose": "Sicherheitsdienst, Objektschutz, Abschleppdienst, Personenschutz, Transporte bis zu 3,5 Tonnen, Gebäudereinigung sowie diverse Reinigungen.",
+    "register_court": "München",
+    "register_number": "293801",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Jakob-Klar-Straße 4, 80796 München",
+     "postal_code": "80796",
+     "street": "Jakob-Klar-Straße 4"
+    },
+    "company_id": "DE-HRB-D2601-281320",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "N.V-Services UG (haftungsbeschränkt)",
+    "purpose": "Hausmeisterservice, Gebäudereinigung, Winterdienst, Akustik- und Trockenbau, Ordnerdienste bei Veranstaltungen, sowie Sicherheitsdienst.",
+    "register_court": "München",
+    "register_number": "281320",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Bernhard-Wicki-Straße 5, 80636 München",
+     "postal_code": "80636",
+     "street": "Bernhard-Wicki-Straße 5"
+    },
+    "company_id": "DE-HRB-D2601-259653",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Act Aware GmbH",
+    "purpose": "Erbringung von Dienstleistungen aller Art, insbesondere Beratungs- und Trainingsdienstleistungen für Einzelpersonen, Unternehmen und Organisationen. Zusätzlich weltweite Erbringung von Sicherheitsdienstleistungen aller Art, insbesondere Bewachen von Leben und Eigentum fremder Personen.",
+    "register_court": "München",
+    "register_number": "259653",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Zielstattstraße 37, 81379 München",
+     "postal_code": "81379",
+     "street": "Zielstattstraße 37"
+    },
+    "company_id": "DE-HRB-D2601-263373",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "VM GmbH",
+    "purpose": "Bewachungsdienstleistungen, Hausmeisterservice, Durchführung von Akustik- und Trockenbauarbeiten sowie Kabelverleger im Hochbau (ohne Anschlussarbeit).",
+    "register_court": "München",
+    "register_number": "263373",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Hiltenspergerstraße 80, 80796 München",
+     "postal_code": "80796",
+     "street": "Hiltenspergerstraße 80"
+    },
+    "company_id": "DE-HRB-D2601-303830",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Republix Service UG (haftungsbeschränkt)",
+    "purpose": "Betrieb eines Kurierdienstunternehmens sowie Sicherheitsberatung und Sicherheitsdienstleistungen im Sinne des § 34a GewO.",
+    "register_court": "München",
+    "register_number": "303830",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Von-der-Pfordten-Straße 34, 80686 München",
+     "postal_code": "80686",
+     "street": "Von-der-Pfordten-Straße 34"
+    },
+    "company_id": "DE-HRB-D2601-293237",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Concept Facility Management GmbH",
+    "purpose": "Gebäudereinigung und Pflege (inklusive Fensterreinigung, Bodenpflege, etc.); Hausmeisterdienste und mobiler Hausmeisterservice; Winterdienst und Außenanlagenpflege; Sicherheitsdienste und Empfangsservices; Abfallmanagement und Recycling; Vertragsmanagement (z. B. Miet-, Wartungs- und Dienstleistungsverträge); Budgetplanung und Kostenkontrolle; Berichtswesen und Dokumentation; Management von Versicherungen und Schadensfällen; Vermittlung von Immobilien; Unternehmensberatung. Genehmigungspflichtige Tätigkeiten sind ausgeschlossen.",
+    "register_court": "München",
+    "register_number": "293237",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Stefan-George-Ring 2, 81929 München",
+     "postal_code": "81929",
+     "street": "Stefan-George-Ring 2"
+    },
+    "company_id": "DE-HRB-D2601-301823",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Alpina Security GmbH",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen aller Art, insbesondere Objektschutz, Veranstaltungsschutz, Personenschutz, Geld- und Werttransport, Revier- und Streifendienst.",
+    "register_court": "München",
+    "register_number": "301823",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Trollblumenstr. 23,, 80995 München",
+     "postal_code": "80995",
+     "street": "Trollblumenstr. 23,"
+    },
+    "company_id": "DE-HRB-D2601-177993",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Pallas-Secure GmbH",
+    "purpose": "Bewachung von fremdem Leben und Eigentum, Durchführung und Organisation von Veranstaltungen, Durchführung von Hausmeisterarbeiten (z.B. Gartenarbeiten, Schneeräumen, Treppenreinigung usw.), Versandhandel mit Sicherheitsausrüstungen und/oder Sicherheitstechnik.",
+    "register_court": "München",
+    "register_number": "177993",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Westendstr. 7, 80339 München",
+     "postal_code": "80339",
+     "street": "Westendstr. 7"
+    },
+    "company_id": "DE-HRB-D2601-202440",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "IDO Dienstleistungs GmbH",
+    "purpose": "Gebäudereinigung, Bodenlegen und Bodenbeschichtung, Bewachung von fremden Leben und Eigentum, Sicherheitsdienstleistungen, Objektschutz, sowie An- und Verkauf von neuen und gebrauchten Fahrzeugen, Kfz-Aufbereitung und Betrieb einer Kfz-Werkstatt.",
+    "register_court": "München",
+    "register_number": "202440",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "extra": "Hemn Abdalqadir",
+     "formatted_value": "Brieger Str. 7, 80997 München",
+     "postal_code": "80997",
+     "street": "Brieger Str. 7"
+    },
+    "company_id": "DE-HRB-D2601-295746",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Hemn GmbH",
+    "purpose": "Betrieb eines Abbruchservices sowie weiterer Dienstleistungen im Baugewerbe z.B. Sanierung, Baureinigung und Regalaufstellung, Autohandel und Transportdienstleistungen, Montagearbeiten, Möbelauf- und -abbau sowie Gebäudeüberwachung und Tätigkeiten im Bereich Security.",
+    "register_court": "München",
+    "register_number": "295746",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Lilienstr. 81, 81669 München",
+     "postal_code": "81669",
+     "street": "Lilienstr. 81"
+    },
+    "company_id": "DE-HRB-D2601-241701",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "VS Visible Security UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Dienst- und Beratungsleistungen im Bereich Unternehmenssicherheit und von Sicherheitsdienstleistungen sowie Vertrieb von entsprechenden Produkten, einschließlich Implementierung beim Kunden und laufende Unterstützung im Betrieb durch Beratung und technischen Support.",
+    "register_court": "München",
+    "register_number": "241701",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Emmering",
+     "country": "DE",
+     "formatted_value": "Untere Au 1, 82275 Emmering",
+     "postal_code": "82275",
+     "street": "Untere Au 1"
+    },
+    "company_id": "DE-HRB-D2601-176970",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Sicherheits- und Detektivbüro Wensauer SDW GmbH",
+    "purpose": "Sicherheitsdienst (Bewachung aller Art), Betrieb eines Detektiv-Instituts (Ermittlungen in Zivil- und Strafsachen), Schulungsbetrieb (Ausbildung, Beratung, Analysen), Facility Management (sämtliche Dienste), Vertrieb und Einbau von Sicherheitstechnik sowie Ausbildung, Fortbildung und Schulung in den Bereichen Budo-Sport und praktische Selbstverteidigung",
+    "register_court": "München",
+    "register_number": "176970",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Atelierstraße 1, 81671 München",
+     "postal_code": "81671",
+     "street": "Atelierstraße 1"
+    },
+    "company_id": "DE-HRB-D2601-183110",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Werksviertel Schutz GmbH",
+    "purpose": "die Erbringung von konventionellen Sicherheitsdienstleistungen, insbesondere im Bereich Werk- und Objektschutz, Veranstaltungsschutz, Streifen- und Revierdienst, Film- und TV-Produktionsschutz sowie Geld- , Wert- und Knödltransporte. Nicht Gegenstand des Unternehmens sind die Konzeption und Beratungsleistungen im Bereich Sicherheit ohne operative Umsetzung, individueller Personenschutz, Ermittlungen, Family Security Office und Transportdienstbegleitungen.",
+    "register_court": "München",
+    "register_number": "183110",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Feldmochingerstr. 445, 80995 München",
+     "postal_code": "80995",
+     "street": "Feldmochingerstr. 445"
+    },
+    "company_id": "DE-HRB-D2601-302709",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NIA Solutions UG (haftungsbeschränkt)",
+    "purpose": "Erbringung und Vermittlung von Sicherheitsdienstleistungen gemäß § 34 a GewO sowie die Erbringung und Vermittlung sonstiger Servicedienstleistungen. Darüber hinaus die Entwicklung und den Vertrieb von Websites und Onlineshops sowie den Handel mit Waren aller Art.",
+    "register_court": "München",
+    "register_number": "302709",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Mies-van-der-Rohe-Straße 4 - 8, 80807 München",
+     "postal_code": "80807",
+     "street": "Mies-van-der-Rohe-Straße 4 - 8"
+    },
+    "company_id": "DE-HRB-D2601-303809",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "P3 Security Logistic Solutions GmbH",
+    "purpose": "Gegenstand des Unternehmens ist Durchführung von Sicherheitsdienstleistungen aller Art, insbesondere Objektschutz, Veranstaltungsschutz, Personenschutz sowie Durchführung von Werttransporten.",
+    "register_court": "München",
+    "register_number": "303809",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Stefan-George-Ring 2, 81929 München",
+     "postal_code": "81929",
+     "street": "Stefan-George-Ring 2"
+    },
+    "company_id": "DE-HRB-D2601-301709",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Münchener Isaar Sicherheit und Services UG (haftungsbeschränkt)",
+    "purpose": "Privater Wach- und Sicherheitsdienst, Kurierdienst und Reinigungsservice.",
+    "register_court": "München",
+    "register_number": "301709",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Geiselgasteigstraße 122, 81545 München",
+     "postal_code": "81545",
+     "street": "Geiselgasteigstraße 122"
+    },
+    "company_id": "DE-HRB-D2601-152409",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PROTEUS.one GmbH",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen für Privatpersonen, Unternehmen, Institutionen, Behörden und sonstige Körperschaften des öffentlichen und privaten Rechts. Dazu gehören neben einer strategischen und operativen Beratung auch die Erstellung, Implementierung, Umsetzung, Steuerung und Überprüfung entsprechender Präventions- und Reaktionskonzepte für ein integriertes und ganzheitliches Risiko- und Krisenmanagement. Mitumfasst sind Tätigkeiten, die der Erlaubnispflicht gemäß § 34 a GewO unterliegen, nicht aber solche, die einer Genehmigung nach dem Rechtsberatungsgesetz bedürfen.",
+    "register_court": "München",
+    "register_number": "152409",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Leopoldstr. 244, 80807 München",
+     "postal_code": "80807",
+     "street": "Leopoldstr. 244"
+    },
+    "company_id": "DE-HRB-D2601-292290",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PAMAS group GmbH",
+    "purpose": "Private Arbeitsvermittlung, Projektleitung, Internetmarketing, Websitebetreuung, Vergabe an qualifizierte Subunternehmer, Abbrucharbeiten, Facility Management (darunter keine erlaubnispflichtigen handwerksrechtlichen Tätigkeiten), Hausverwaltung, Büroservice, Kurierdienst, internationaler Gütertransport bis 3,5 Tonnen, Import und Export, Auto- und Autoteilehandel. Darüber hinaus die Eisenflechterei, der Holz- und Bautenschutz ohne Eingriffe in die Statik, Gebäuderenovierungs-, Gebäudereinigungs- und Abrissarbeiten, die Erledigung von Winterdiensten, das Bodenverlegen sowie der Garten- und Landschaftsbau, der Hochbau und der Handel mit Baumaterial sowie der Sicherheitsdienst. Des Weiteren der An- und Verkauf von Autos und Autoteilen und der Import und Export von Obst, Gemüse und Getränken. Die Gesellschaft kann alle Geschäfte betreiben, die geeignet sind, dem Gesellschaftszweck unmittelbar oder mittelbar zu dienen, soweit hierzu keine behördlichen Genehmigungen erforderlich sind oder soweit solche vorliegen. Sie kann Zweigniederlassungen im In- und Ausland errichten und sich an gleichartigen oder ähnlichen Unternehmen beteiligen.",
+    "register_court": "München",
+    "register_number": "292290",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Weißenseestraße 101, 81539 München",
+     "postal_code": "81539",
+     "street": "Weißenseestraße 101"
+    },
+    "company_id": "DE-HRB-D2601-292645",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bayern Secure & Facility GmbH",
+    "purpose": "Sicherheitsdienst, Objektbewachung, Veranstaltungsservice, Reinigung, Feinreiningung, Baustellenreinigung.",
+    "register_court": "München",
+    "register_number": "292645",
+    "register_type": "HRB"
+   }
+  ],
+  "4": [
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Leopoldstraße 206, 80804 München",
+     "postal_code": "80804",
+     "street": "Leopoldstraße 206"
+    },
+    "company_id": "DE-HRB-D2601-254918",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "KETA Security GmbH",
+    "purpose": "Bewachung von fremdem Leben und Eigentum sowie Erteilung von Sportunterricht, Durchführung von Sportveranstaltungen sowie Vermietung von Räumlichkeiten für die Durchführung von Veranstaltungen aller Art.",
+    "register_court": "München",
+    "register_number": "254918",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Unterhaching",
+     "country": "DE",
+     "formatted_value": "Inselkammerstraße 8, 82008 Unterhaching",
+     "postal_code": "82008",
+     "street": "Inselkammerstraße 8"
+    },
+    "company_id": "DE-HRB-D2601-232089",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MK Facility Services GmbH",
+    "purpose": "Durchführung von Gebäudereinigung, Glas- und Fassadenreinigung im In- und Ausland sowie Erbringung aller Dienstleistungen, die damit zusammenhängen. Pflege von Grünanlagen sowie Betrieb eines Sicherheitsdienstes.",
+    "register_court": "München",
+    "register_number": "232089",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Berduxstraße 58, 81245 München",
+     "postal_code": "81245",
+     "street": "Berduxstraße 58"
+    },
+    "company_id": "DE-HRB-D2601-246146",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Diamond Invest Company GmbH",
+    "purpose": "Betrieb eines VIP-Fahrdienstes, VIP-Security, Objektschutz, Personalvermittlung, Objektfertigstellung, Export und Import von Waren aller Art, insbesondere von Baumaterialien, mit Ausnahme erlaubnispflichtiger Tätigkeiten.",
+    "register_court": "München",
+    "register_number": "246146",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Am Moosfeld 13, 81829 München",
+     "postal_code": "81829",
+     "street": "Am Moosfeld 13"
+    },
+    "company_id": "DE-HRB-D2601-271048",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SKR Sicherheitsdienst UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienst, Reinigung, Winterdienst",
+    "register_court": "München",
+    "register_number": "271048",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Leopoldstr. 244, 80807 München",
+     "postal_code": "80807",
+     "street": "Leopoldstr. 244"
+    },
+    "company_id": "DE-HRB-D2601-305543",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MD Dienstleistung GmbH",
+    "purpose": "Gebäude-, Bau- und Fensterreinigung, Hoch- und Tiefbau, Bewachung, Kurier- und Logistikdienste.",
+    "register_court": "München",
+    "register_number": "305543",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Lothstr. 62, 80335 München",
+     "postal_code": "80335",
+     "street": "Lothstr. 62"
+    },
+    "company_id": "DE-HRB-D2601-114929",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "cleaning profi GmbH",
+    "purpose": "Klinik- und Büromanagement und Gebäudereinigung für Großunternehmen, ReHa-Zentren, Seniorenheime und Personalwohnheime, Erbringung von Dienstleistungen im Bereich der medizinischen Hygiene durch Reinigung, Desinfektion, Sterilisation, Entsorgung und Wäscheservice, Erbringung allgemeiner Wirtschaftsdienste durch Post- und Telefonmanagement, Fahrdienst, Sicherheitsdienst, Überwachung und Pfortendienst, Übernahme des Gebäudemanagements durch Hausverwaltung, Hausmeisterei, Anlagenpflege, Winterdienst, Übernahme der Versorgungsdienste durch Catering, Hol- und Bringdienst, Verkaufsstellen- und Automatenmanagement, Küchenhygiene, Spüldienst, Gebäudeinnen- und Außenreinigung, Glasreinigung, Grundreinigung; Test und Vertrieb von Reinigungsmitteln und -geräten jeder Art; Schulung und Ausbildung von Reinigungskräften in sämtlichen Spezialgebieten der praktischen Handhabung des Reinigungsberufs; Consulting im Bereich Marketing, Public Relations, Werbung für Gebäudereinigungsunternehmen.",
+    "register_court": "München",
+    "register_number": "114929",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Senefelder Straße 1, 80336 München",
+     "postal_code": "80336",
+     "street": "Senefelder Straße 1"
+    },
+    "company_id": "DE-HRB-D2601-211305",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Huda Fasttrack GmbH",
+    "purpose": "Telefonkarten Groß- und Einzelhandel, Telekommunikation sowie Reisevermittlung und der Betrieb eines Reisebüros. Desweiteren gewerbsmäßige Bewachung von Eigentum und Leben fremder Personen.",
+    "register_court": "München",
+    "register_number": "211305",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Golo-Mann-Weg 37, 81248 München",
+     "postal_code": "81248",
+     "street": "Golo-Mann-Weg 37"
+    },
+    "company_id": "DE-HRB-D2601-299573",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Loyal Point Security & Service GmbH",
+    "purpose": "Erbringung von Bewachungsdienstleistungen und Objektbewachung.",
+    "register_court": "München",
+    "register_number": "299573",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Mochostr. 12, 80995 München",
+     "postal_code": "80995",
+     "street": "Mochostr. 12"
+    },
+    "company_id": "DE-HRB-D2601-303483",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Hizum UG (haftungsbeschränkt)",
+    "purpose": "Sicherheits- und Personaldienstleistung, insbesondere Unterrichtung nach § 34a Gewerbeordnung, Objektschutz von Asylheimen, Diskotheken etc., Sicherheit im öffentlichen Nah- und Fernverkehr, Bestreifung, Security für Baustellen, Brandwache, Ladenüberwachung, Veranstaltungsservice, Einlasskontrollen, Revierwachdienst, Vermittlung von Leiharbeitnehmern.",
+    "register_court": "München",
+    "register_number": "303483",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Emmy-Noether-Straße 2, 80992 München",
+     "postal_code": "80992",
+     "street": "Emmy-Noether-Straße 2"
+    },
+    "company_id": "DE-HRB-D2601-86238",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Münchner U-Bahn-Bewachungsgesellschaft mit beschränkter Haftung",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen in Bezug auf den von der Stadtwerke München GmbH (SWM) und/oder der Münchner Verkehrsgesellschaft mbH (MVG) betriebenen öffentlichen Personennahverkehr, insbesondere die Bewachung der Münchner U-Bahn einschließlich Strecken-, Bahnhofs- und Abstellanlagen.",
+    "register_court": "München",
+    "register_number": "86238",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Balanstr. 80 a, 81541 München",
+     "postal_code": "81541",
+     "street": "Balanstr. 80 a"
+    },
+    "company_id": "DE-HRB-D2601-301472",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Sicher durch Sicherheit UG (haftungsbeschränkt)",
+    "purpose": "Betrieb eines Sicherheitsdienstes, Vorbereitung von Kunden auf die Sachkundeprüfung nach § 34 a Gewerbeordnung, Handel mit benötigten Artikeln im Sicherheitsbereich (u. a. Dienstkleidung und Schichtbücher), jedoch kein Verkauf von Waffen.",
+    "register_court": "München",
+    "register_number": "301472",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Bayerstr. 13, 80335 München",
+     "postal_code": "80335",
+     "street": "Bayerstr. 13"
+    },
+    "company_id": "DE-HRB-D2601-303400",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Magic Cleaning GmbH",
+    "purpose": "Gebäudereinigung, Catering, Ordnerdienst und Klinikreinigung.",
+    "register_court": "München",
+    "register_number": "303400",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Rüdesheimer Str. 7, 80686 München",
+     "postal_code": "80686",
+     "street": "Rüdesheimer Str. 7"
+    },
+    "company_id": "DE-HRB-D2601-95519",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PS Private Security GmbH",
+    "purpose": "Bewachung fremder Industrieanlagen, Betriebe und Betriebsteile gem. § 34a GewO, Veranstaltungsabsicherung von Großveranstaltungen und Personenschutzmaßnahmen; Beratungsleistungen im Bereich Unternehmenssicherheit; Tätigkeit im Bereich des gewerblichen Limousinen- und Fahrservices.",
+    "register_court": "München",
+    "register_number": "95519",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Lilienthalallee 25, 80939 München",
+     "postal_code": "80939",
+     "street": "Lilienthalallee 25"
+    },
+    "company_id": "DE-HRB-D2601-240019",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DIBAG Hausverwaltung GmbH",
+    "purpose": "Betrieb einer Hausverwaltung von eigenen und fremden Grundstücken, Sicherheitsdienstleistungen sowie Objekt- und Personenschutz (Bewachungsgewerbe nach § 34 a GewO), Erwerb, Verwaltung, Veräußerung und sonstige Verwertung von Grundstücken und grundstücksgleichen Rechten, insbesondere Tätigkeiten gemäß Erlaubnis nach § 34 c Gewerbeordnung, ferner Erwerb, Verwaltung und Veräußerung von Beteiligungen.",
+    "register_court": "München",
+    "register_number": "240019",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Hopfenstr. 8, 80335 München",
+     "postal_code": "80335",
+     "street": "Hopfenstr. 8"
+    },
+    "company_id": "DE-HRB-D2601-289374",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Deal 4 you GmbH",
+    "purpose": "Speditionstätigkeiten, Logistische Dienstleistungen aller Art, Sicherheitsdienstleistungen, Kfz-Zulassungsunterstützungstätigkeiten, Ambulante Pflegedienste, Promotion, Handel mit Waren insbesondere Textil, Elektro, Lebensmitteln und Autos.",
+    "register_court": "München",
+    "register_number": "289374",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Trimburgstr. 2, 81249 München",
+     "postal_code": "81249",
+     "street": "Trimburgstr. 2"
+    },
+    "company_id": "DE-HRB-D2601-225254",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "JAF GmbH",
+    "purpose": "Bewachungsgewerbe, somit Bewachen von Gebäuden, sonstigen Gegenständen und Personen, Ordner- und Sicherheitsdienste und Hostessendienste für Messen und Werbeveranstaltungen sowie Erbringung von Abbrucharbeiten.",
+    "register_court": "München",
+    "register_number": "225254",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Schellingstraße 109 a, 80798 München",
+     "postal_code": "80798",
+     "street": "Schellingstraße 109 a"
+    },
+    "company_id": "DE-HRB-D2601-295858",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SK secure UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsservice- und Beratung, Erbringung von Sicherheitsdienstleistungen, Verwaltung eigenen Vermögens und Beteiligung an ähnlichen Gesellschaften.",
+    "register_court": "München",
+    "register_number": "295858",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Moosacher Straße 3, 80809 München",
+     "postal_code": "80809",
+     "street": "Moosacher Straße 3"
+    },
+    "company_id": "DE-HRB-D2601-295043",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DM-Security UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienstleistungen, insbesondere der Objekt- und Personenschutz.",
+    "register_court": "München",
+    "register_number": "295043",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Arnulfstr. 50, 80335 München",
+     "postal_code": "80335",
+     "street": "Arnulfstr. 50"
+    },
+    "company_id": "DE-HRB-D2601-106142",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bayern Corporate Services GmbH",
+    "purpose": "Facility Management, insbesondere Sicherheit und Bewachungsdienstleistungen.",
+    "register_court": "München",
+    "register_number": "106142",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Dachauer Straße 284, 80992 München",
+     "postal_code": "80992",
+     "street": "Dachauer Straße 284"
+    },
+    "company_id": "DE-HRB-D2601-211706",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "aSecure GmbH",
+    "purpose": "Personen- und Objektschutz einschließlich Sicherheitskontrollen, Detektei, Geld- und Werttransporte, Fahrdienste und Eventservice sowie alle Tätigkeiten, die in Zusammenhang mit Erbringung von Sicherheitsdienstleistungen stehen.",
+    "register_court": "München",
+    "register_number": "211706",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Hermann-Weinhauser-Straße 36, 81673 München",
+     "postal_code": "81673",
+     "street": "Hermann-Weinhauser-Straße 36"
+    },
+    "company_id": "DE-HRB-D2601-214690",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Aggregare Hausbau GmbH",
+    "purpose": "Baubetreuung und Durchführung von Bauvorhaben als Generalübernehmer gemäß § 34 c GewO, ferner die Ausübung des Wach- und Sicherheitsgewerbes gemäß § 34 a GewO.",
+    "register_court": "München",
+    "register_number": "214690",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Bauseweinallee 8, 81247 München",
+     "postal_code": "81247",
+     "street": "Bauseweinallee 8"
+    },
+    "company_id": "DE-HRB-D2601-304286",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "JS Reinemacher UG (haftungsbeschränkt)",
+    "purpose": "Gebäudeservice, insbesondere Gebäudereinigung, Hausmeisterservice, Treppenhausreinigung und Winterdienst, weiter Garten- und Landschaftsbau, Abbrucharbeiten und Entkernung ohne Eingriff in die Statik, Trockenbau und Malerarbeiten, Objektüberwachung und Detektei, Autohandel mit Neu- und Gebrauchtwagen, KFZ-Zulassungsdienst und -Autovermietung, Umzugstransport und Entrümpelung, Online-Handel mit Reinigungsmaterialien, Handel mit Metallen, Schrott und Recyclingwaren sowie Catering.",
+    "register_court": "München",
+    "register_number": "304286",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Friedenheimer Brücke 20, 80639 München",
+     "postal_code": "80639",
+     "street": "Friedenheimer Brücke 20"
+    },
+    "company_id": "DE-HRB-D2601-283453",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Global Side & Notrix GmbH",
+    "purpose": "Bedarfsgerechte, ganzheitliche und modulare Produktangebote und Dienstleistungen sowie Vertrieb derselben zur Aufdeckung und wirksamen Bekämpfung von Betrug insbesondere im Bereich des Gesundheitswesens.",
+    "register_court": "München",
+    "register_number": "283453",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Gmunderstraße 53, 81379 München",
+     "postal_code": "81379",
+     "street": "Gmunderstraße 53"
+    },
+    "company_id": "DE-HRB-D2601-62033",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Dr. Rettler-Service GmbH",
+    "purpose": "Infrastrukturelle und technische Leistungen in Gebäuden und Liegenschaften wie Gebäudereinigung, Industrie- und Maschinenreinigung, Hausmeistertätigkeiten, Instandsetzungen und Wartungen, Außenanlagen- und Winterdienste, Catering, Gebäude- und Objektschutz, Entsorgung sowie Gebäudemanagement und damit im Zusammenhang stehende Logistik- und Servicedienste.",
+    "register_court": "München",
+    "register_number": "62033",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Schwanthalerstr. 69, 80336 München",
+     "postal_code": "80336",
+     "street": "Schwanthalerstr. 69"
+    },
+    "company_id": "DE-HRB-D2601-253272",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MSG Münchner Sicherheitsgesellschaft mbH",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen, Sicherheitsberatung sowie Sicherheitsmanagement gem. § 34 a GewO und § 6 Bewachungsverordnung.",
+    "register_court": "München",
+    "register_number": "253272",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Am Blankstadl 2, 81549 München",
+     "postal_code": "81549",
+     "street": "Am Blankstadl 2"
+    },
+    "company_id": "DE-HRB-D2601-193646",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Proof Services UG (haftungsbeschränkt)",
+    "purpose": "Durchführung und Vermittlung von Veranstaltungen, Vermittlung von Fachpersonal, Eventveranstaltung, Veranstaltungs- und Eventsicherheit sowie Bewachungstätigkeiten.",
+    "register_court": "München",
+    "register_number": "193646",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Wasserburger Landstr. 245, 81827 München",
+     "postal_code": "81827",
+     "street": "Wasserburger Landstr. 245"
+    },
+    "company_id": "DE-HRB-D2601-253133",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AND.MORE GROUP GmbH",
+    "purpose": "Sicherheits- und Bewachungsgewerbe, Musikveranstaltungen, Kuriertätigkeiten, Büroorganisation.",
+    "register_court": "München",
+    "register_number": "253133",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Am Westpark 1, 81373 München",
+     "postal_code": "81373",
+     "street": "Am Westpark 1"
+    },
+    "company_id": "DE-HRB-D2601-67738",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Parolex GmbH",
+    "purpose": "Maschinelle Abstrahlarbeiten mittels Sandstrahlarbeiten, Kugelstrahlarbeiten, Fräsen, Wasserhochdruckstrahlen an Oberflächen, wie z.B. an Brücken oder Betonobjekten zur Vorbereitung von Sanierungsmaßnahmen, Tank- und Behälterschutz-Korrosionsschutz, Holz- und Bautenschutz, Isolierung, maschinelle Straßen- und Wegereinigung sowie Durchführung von Gebäudereinigungen aller Art. Handel mit Waren aller Art, Vertretung anderer Unternehmer sowie alle mit vorstehenden Absätzen im Zusammenhang stehende Geschäfte sowie Bewachung von Objekten aller Art.",
+    "register_court": "München",
+    "register_number": "67738",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Mies-van-der-Rohe-Straße 4-8, 80807 München",
+     "postal_code": "80807",
+     "street": "Mies-van-der-Rohe-Straße 4-8"
+    },
+    "company_id": "DE-HRB-D2601-297146",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "P3 Aviation Security GmbH",
+    "purpose": "Durchführung von Sicherheitsdienstleistungen aller Art, insbesondere Objektschutz, Veranstaltungsschutz, Personenschutz sowie Durchführung von Werttransporten.",
+    "register_court": "München",
+    "register_number": "297146",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Voglerstr. 12, 81249 München",
+     "postal_code": "81249",
+     "street": "Voglerstr. 12"
+    },
+    "company_id": "DE-HRB-D2601-267837",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Maydekta GmbH",
+    "purpose": "Die Verwaltung von Dienstleistungen, Privat- und Wirtschaftsermittlungen, Controlling, Beratung von Unternehmen im Bereich Ablauf und Inventurdifferenzen sowie Qualitäts-Sicherung von externen Dienstleistungen.",
+    "register_court": "München",
+    "register_number": "267837",
+    "register_type": "HRB"
+   }
+  ],
+  "5": [
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Ehrenbreitsteinerstr. 20, 80993 München",
+     "postal_code": "80993",
+     "street": "Ehrenbreitsteinerstr. 20"
+    },
+    "company_id": "DE-HRB-D2601-78847",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GfT - Gesellschaft für Telekommunikation und Alarmauswertung mbH.",
+    "purpose": "Be- und Überwachung von Personen, Gebäuden und Wertobjekten, der Transport von Geld- und Wertsachen (Sicherheitsunternehmen), die Vermittlung an Endkunden von Gefahrenmeldeanlagen, Sicherheitstechnik und deren komplette fachliche Planung, Ausführung und Betrieb, sowie Beratungen im Bereich der Sicherheitstechnik im weitesten Sinn und deren Vertrieb. Die Gesellschaft kann sich an ähnlichen Gesellschaften im Bereich der Sicherheitstechnik, Objektsicherung oder ähnlichen Betrieben beteiligen, deren Leitung übernehmen und Zweigniederlassungen errichten.",
+    "register_court": "München",
+    "register_number": "78847",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Ehrenbreitsteiner Str. 20, 80993 München",
+     "postal_code": "80993",
+     "street": "Ehrenbreitsteiner Str. 20"
+    },
+    "company_id": "DE-HRB-D2601-110435",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ZPS Ziviler Personenschutz H. Gießer GmbH",
+    "purpose": "Personen-, Begleit-, Objekt- und Werkschutz, sowie Geld- und Werttransport und Vermietung von Kraftfahrzeugen aller Art mit Chauffeur oder an Selbstfahrer, ferner Verlagsgeschäfte aller Art einschießlich der Herstellung, des Verkaufs und der sonstigen gewerblichen Verwertung von Werbematerial bezüglich Auftragsbeschaffung, Werbung und Verkaufsförderung, insbesondere für Handwerk, Gewerbe, Handel, Vereine, Industrie und Privatpersonen, einschließlich Vergabe von Lizenzen der Gesellschaftsprodukte an Dritte, sowie Betrieb einer Werbeagentur und eines Reisebüros.",
+    "register_court": "München",
+    "register_number": "110435",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Ehrenbreitsteiner Str. 20, 80993 München",
+     "postal_code": "80993",
+     "street": "Ehrenbreitsteiner Str. 20"
+    },
+    "company_id": "DE-HRB-D2601-113085",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Detective Lloyd GmbH Robert Hildebrandt",
+    "purpose": "Betrieb einer Detektei, insbesondere Durchführung von Ermittlungen im privaten und geschäftlichen Bereich.",
+    "register_court": "München",
+    "register_number": "113085",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Liebigstraße 20 c, 80538 München",
+     "postal_code": "80538",
+     "street": "Liebigstraße 20 c"
+    },
+    "company_id": "DE-HRB-D2601-233994",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ADEIA Sicherheit GmbH",
+    "purpose": "Erbringen von Sicherheitsdienstleistungen durch Objektüberwachung und Veranstaltungsschutz sowie Installation und Vertrieb von technischen Sicherheitslösungen.",
+    "register_court": "München",
+    "register_number": "233994",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Ungererstr. 110, 80805 München",
+     "postal_code": "80805",
+     "street": "Ungererstr. 110"
+    },
+    "company_id": "DE-HRB-D2601-115321",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Team Konzept Facility Services GmbH",
+    "purpose": "Durchführung von System-Gebäudedienstleistungen und Facility Management, infrastrukturelle Gebäudereinigung, Unterhaltsreinigung, Glas- und Fassadenreinigung, Hausmeisterdienste, Industriereinigung, Hygienedienste, Garten und Grünanlagenpflege, Winterdienste, Entsorgung und Recycling, Sicherheitsdienste, Objekt- und Personenschutz, Empfangs- und Postdienste, Catering, Krankenhausservice, Logistik- und Verwaltungsdienste sowie Handel mit Reinigung-, Hygiene- und Verbrauchsmaterialien. Technische Betriebsführung, Wartung und Instandsetzung, Prozess- und Betriebskostenoptimierung, Gewährleistungsverfolgung, Energiemanagement, Kommunikationsmanagement, Consulting und baubegleitendes Facility Management, Administrative Verwaltung, Objektbuchhaltung, Flächen - und Vertragsmanagement, Beschaffungsmanagement, Personalmanagement, kaufmännische und gewerbliche Arbeitnehmerüberlassung.",
+    "register_court": "München",
+    "register_number": "115321",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Hofangerstr. 30, 81735 München",
+     "postal_code": "81735",
+     "street": "Hofangerstr. 30"
+    },
+    "company_id": "DE-HRB-D2601-242996",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SK Event & Entertainment GmbH",
+    "purpose": "Organisation und Durchführung von Veranstaltungen aller Art (einschließlich Gastronomie), Veranstaltungsservice, Werbe- und Marketingdienstleistungen, Betrieb von gastronomischen Einrichtungen aller Art (einschließlich Clubs und Bars), Bookingtätigkeit, Vermittlung und Vermarktung von Künstlern, Produktion und Vermarktung von Musikstücken, Herstellung und Vertrieb von Merchandising-Artikeln und Bekleidungsstücken; Agenturleistungen in den Bereichen Veranstaltungen und Entertainment, Tourismus, Marketing, Personalbeschaffung und -bereitstellung; Erlebnis- und Tourismus-Angebote unterschiedlicher Art, Bewachungs- und Sicherheitsdienstleistungen, Schulungs- und Weiterbildungsangebote; Beratungstätigkeiten im Bereich Veranstaltungen und Entertainment, Gastronomie, Tourismus, Personenbeförderung und Transportwesen, Sicherheit, Vermarktung, Personalmanagement und -beschaffung, Unternehmensorganisation und -führung; Personaldienstleistungen aller Art, Arbeitnehmerüberlassung, Vermittlung und Bereitstellung von Personal, Personenbeförderungs- und Transportdienstleistungen unterschiedlicher Art sowie weitere Tätigkeiten, die dem Gegenstand des Unternehmens entsprechen.",
+    "register_court": "München",
+    "register_number": "242996",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Bayerstr. 13, 80335 München",
+     "postal_code": "80335",
+     "street": "Bayerstr. 13"
+    },
+    "company_id": "DE-HRB-D2601-269037",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DJR Dienstleistung Service GmbH",
+    "purpose": "Betrieb von Gaststätten, Verkauf von Handyzubehör, An- und Verkauf von Guthabenkarten und Prepaid-Karten; Security Service; Eisenflechterei, Beton- und Maurerarbeiten; Sanierungsarbeiten, ohne erlaubnispflichtige Tätigkeiten.",
+    "register_court": "München",
+    "register_number": "269037",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Ehrenbreitsteiner Str. 20, 80993 München",
+     "postal_code": "80993",
+     "street": "Ehrenbreitsteiner Str. 20"
+    },
+    "company_id": "DE-HRB-D2601-106721",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ZSD Ziviler Sicherheitsdienst GmbH",
+    "purpose": "Beratung, Consulting, Coaching, Zertifizierung, Management; Risikoanalysen, Sicherheitsanalysen und Sicherheitskonzepte; Entwicklung, Schulung und Durchführung von/in Qualitätsstandards und Maßnahmen, sowie Zertifizierung; Zertifizierungsstelle; Betrieb einer AES (Alarmempfangsstelle); Bewachung aller Art; Alarm-Provider; Security-Provider; Katastrophenschutz, First Responder; Verwertung von Schutzrechten (Lizenzvergabe); Erstellen, Verkaufen, Installieren und Warten von Leitstellensoftware und Hardware, inkl. Rechenzentrum; Beteiligungen an Unternehmen/Firmen.",
+    "register_court": "München",
+    "register_number": "106721",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Balanstraße 57, 81541 München",
+     "postal_code": "81541",
+     "street": "Balanstraße 57"
+    },
+    "company_id": "DE-HRB-D2601-137655",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bavaria Werkschutz GmbH",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen, Hausmeistertätigkeiten, Werksverkehr sowie Verbringung, Begleitung sowie Beförderung von Betriebseinrichtungen, allgemeine Beratung, Erstellung, Konzeption und Durchführung von Lehrgängen, Seminaren, Schulungen und Abnahme von Prüfungen.",
+    "register_court": "München",
+    "register_number": "137655",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Tal 44, 80331 München",
+     "postal_code": "80331",
+     "street": "Tal 44"
+    },
+    "company_id": "DE-HRB-D2601-282845",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Secra Security Service UG (haftungsbeschränkt)",
+    "purpose": "Durchführung von Sicherheitsdienstleistungen aller Art, insbesondere Veranstaltungsschutz, Personenschutz, Objektschutz sowie Durchführung von Geld- und Werttransporten.",
+    "register_court": "München",
+    "register_number": "282845",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "extra": "Alhaji Mansaray",
+     "formatted_value": "Engadinerstraße 4, 81475 München",
+     "postal_code": "81475",
+     "street": "Engadinerstraße 4"
+    },
+    "company_id": "DE-HRB-D2601-280435",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Gold Security Unternehmergesellschaft (haftungsbeschränkt)",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen und Reinigungsarbeiten.",
+    "register_court": "München",
+    "register_number": "280435",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Schwanthalerstr. 41, 80336 München",
+     "postal_code": "80336",
+     "street": "Schwanthalerstr. 41"
+    },
+    "company_id": "DE-HRB-D2601-286155",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SafeWatch Dienstleistungen und Sicherheitsdienste UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienst und Bewachung von Personen und Gegenständen.",
+    "register_court": "München",
+    "register_number": "286155",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Fürstenrieder Str. 279 a, 81377 München",
+     "postal_code": "81377",
+     "street": "Fürstenrieder Str. 279 a"
+    },
+    "company_id": "DE-HRB-D2601-274289",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Alpha24 Security Services GmbH",
+    "purpose": "Wach- und Sicherheitsdienstleistungen, Betreuung von Personal, Ordnungsdienst mit oder ohne Überwachung/Bewachung.",
+    "register_court": "München",
+    "register_number": "274289",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Herzog-Heinrich-Straße 37, 80336 München",
+     "postal_code": "80336",
+     "street": "Herzog-Heinrich-Straße 37"
+    },
+    "company_id": "DE-HRB-D2601-189160",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Munich Trend GmbH",
+    "purpose": "Dienstleistungen im Einzelhandel; Organisation und Durchführung von Veranstaltungen und Werbemaßnahmen; Sicherheitdienst (Personen- & Objektschutz).",
+    "register_court": "München",
+    "register_number": "189160",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Brienner Straße 55, 80333 München",
+     "postal_code": "80333",
+     "street": "Brienner Straße 55"
+    },
+    "company_id": "DE-HRB-D2601-177000",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CONFIDENT Corporate Intelligence & Investigation Services GmbH",
+    "purpose": "Investigative Beratung, Recherche und Durchführung operativer Maßnahmen der Informationsbeschaffung und Beweishilfe im Rahmen der Wahrnehmung berechtigter Interessen für Privatpersonen, Unternehmen und sonstige Körperschaften des öffentlichen und privaten Rechts, internationale Zielfahndung nach vermissten Personen oder rechtmäßig zustehenden Vermögenswerten und entsprechende Rückführung, Beschaffung und Bereitstellung von analysiertem Hintergrundwissen für Entscheidungsträger von Unternehmen zur Optimierung von operativen und strategischen Entscheidungsprozessen, Unternehmensberatung im Zusammenhang mit dem Schutz von geheimhaltungsbedürftigen Informationen und Durchführung entsprechender Risikoanalysen. Die Gesellschaft bietet keine Dienstleistungen aus dem Bereich Steuer- und Rechtsberatung sowie andere Tätigkeiten an, die einem staatlichen Erlaubnisvorbehalt unterliegen.",
+    "register_court": "München",
+    "register_number": "177000",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Augsburg",
+     "country": "DE",
+     "formatted_value": "Falkensteinstr. 2, 86163 Augsburg",
+     "postal_code": "86163",
+     "street": "Falkensteinstr. 2"
+    },
+    "company_id": "DE-HRB-D2601-272644",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Security Guard UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Dienstleistungen im Sicherheitsdienst.",
+    "register_court": "München",
+    "register_number": "272644",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Dürrstr. 1, 80992 München",
+     "postal_code": "80992",
+     "street": "Dürrstr. 1"
+    },
+    "company_id": "DE-HRB-D2601-266601",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "TRESEC Sicherheitsdienst GmbH",
+    "purpose": "die Objektbetreuung, der Sicherheitsdienst und die Bewachung aller Art sowie die gewerbliche Beförderung von Personen und der Werttransport, Bluttransport und Organtransport zu Wasser, zu Land und zu Luft sowie alle unmittelbar zur Erfüllung des Unternehmenszwecks notwendigen Tätigkeiten, die dem Geselslchaftszweck dienlich sind.",
+    "register_court": "München",
+    "register_number": "266601",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Ravensburger Ring 4, 81243 München",
+     "postal_code": "81243",
+     "street": "Ravensburger Ring 4"
+    },
+    "company_id": "DE-HRB-D2601-270603",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GAF GmbH",
+    "purpose": "Bewachungsgewerbe, Bewachen von Gebäuden und sonstigen Gegenständen und Personen, Ordner- und Sicherheitsdienste sowie Hostessdienste für Messen und Werbeveranstaltungen.",
+    "register_court": "München",
+    "register_number": "270603",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Geisenhausener Straße 32, 81379 München",
+     "postal_code": "81379",
+     "street": "Geisenhausener Straße 32"
+    },
+    "company_id": "DE-HRB-D2601-66348",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SOD GmbH",
+    "purpose": "Manuelle und technische Detektierung im Objektschutz, Werkschutz und Personensicherung, Schutz von Werttransporten und Ordnungsdienst, daneben auch gewerbsmäßige Arbeitnehmerüberlassung im Bereich des Unternehmensgegenstandes sowie Kurierdienst mit Personenkraftwagen, Transport mit Personenkraftwagen und Einlagerung von Datenträgern. Allgemeine Sicherheitsberatung und Betreiben einer Notrufzentrale sowie Erbringung von Ermittlungsdiensten für Privatpersonen, Wirtschafts- und Industriebetriebe und zwar innerhalb Europas und der Mittelmeer-Anrainer-Staaten. Anschaffung und Weiterveräußerung von Gegenständen aller Art, soweit diese für Ausführung von Gebäudereinigungen und für Erbringung von Gebäudediensten im Sinne der nachfolgenden Bestimmung geeignet sind, ferner von Artikeln des Hygienebedarfs jeglicher Art, insbesondere von Toilettenpapierspendern und Toilettenpapier, Handtuchhaltern, Seifenspendern und sonstigen Hygienebehältern einschließlich des Verbrauchsmaterials, und zwar ohne Unterschied, ob die Waren unverändert oder nach einer Bearbeitung oder Verarbeitung weitereräußert werden. Ausführung von Gebäudereinigungen einschließlich Krankenhäuser, Kliniken, Pflegeheimen, Altenheimen und ähnliche soziale Einrichtungen, insbesondere Unterhalts-, Neubau-, Glas- und Teppichreinigung, ferner Reinigung von Gardinen und Lamellen, Entsorgung (Abfallbeseitigung), Industriereinigung (Reinigung von Maschinen, Geräten und Einrichtungen) und andere Reinigungen unter Ausschlus von chemischen Reinigungen im Sinne der Nr. 96 des Verzeichnisses der Gewerbe, die als Handwerk betrieben werden können (Anlage A zur Handwerksordnung), ferner Straßenreinigungen, Park- und Rasenpflege einschließlich Winterdienst (Schneeräumen und Streuen), ferner Desinfektionsdienst und Hygieneservice sowie Schädlingsbekämpfung, Hausmeisterdienste, Hol- und Bringdienste (externe und interne Transporte von Gütern wie z.B. Betten, Wäsche, Nahrungsmittel), und alle anderen artverwandten Dienstleistungen einschließlich solcher, die in sozialen Einrichtungen (s.o.) anfallen. Postdienste aller Art, soweit diese nicht unter das Postmonopol fallen, ferner gewerbsmäßige Überlassung von Arbeitnehmern. Beratung auf den vorgenannten Gebieten einschließlich Erstellung von Planungsunterlagen. Vermittlung des Abschlusses sowie Nachweis der Gelegenheit zum Abschluss von Verträgen über alle Geschäfte, die nach den vorhergehenden Bestimmungen zum Unternehmensgegenstand gehören. Zum Gegenstand des Unternehmens gehören nicht Dienstleistungen im weitesten Sinne im Bereich der Hygiene, insbesondere nicht die Wartung von Artikeln, die zum Gegenstand des Unternehmens gemäß Satz 1 gehören.",
+    "register_court": "München",
+    "register_number": "66348",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Makartstr. 17, 81479 München",
+     "postal_code": "81479",
+     "street": "Makartstr. 17"
+    },
+    "company_id": "DE-HRB-D2601-217564",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MCH Herweg Gebäudeservice und Dienstleistungen GmbH",
+    "purpose": "Gebäudemanagement; Büroreinigung; Praxisreinigung und Urlaubsvertretung; Gebäudereinigung und Unterhaltsreinigung; Fensterreinigung; Teppichreinigung; Schimmelbeseitigung und Graffitientfernung; Treppenhausreinigung; Hausmeisterservice; Winterdienst; Rohr-Kanal- und Abflußreinigung; Baureinigung; Renovierungsarbeiten aller Art; Fliesenlegearbeiten; Gartengestaltung und Landschaftsbau; Trockenbau- und Malerarbeiten; Wasserschadensanierung; Fenstereinbauten; Pflasterarbeiten; Parkett und Bodenlegerarbeiten; Sicherheits- und Empfangsdienste; Objektleitung undbetreuung; Post- und Fahrdienste.",
+    "register_court": "München",
+    "register_number": "217564",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Olschewskibogen 14, 80935 München",
+     "postal_code": "80935",
+     "street": "Olschewskibogen 14"
+    },
+    "company_id": "DE-HRB-D2601-43716",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "H & H Dienstleistungen GmbH Gebäudereinigung",
+    "purpose": "Gebäudereinigung (in und an Gebäuden), Hotelreinigungsservice, Krankenhausreinigung, Bewachung von Personen und Objekten, EDV-Dienstleistungen",
+    "register_court": "München",
+    "register_number": "43716",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Balanstraße 71a, 81541 München",
+     "postal_code": "81541",
+     "street": "Balanstraße 71a"
+    },
+    "company_id": "DE-HRB-D2601-300410",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Clever Servicedienste GmbH",
+    "purpose": "Erbringung von Servicedienstleistungen, insbesondere Hol- und Bringdienste; hauswirtschaftliche Dienste; Empfangs- und Rezeptionsdienste; Bewachungs- und Sicherheitsdienstleistungen für Gebäude; Wäscheversorgung einschließlich aller damit zusammenhängenden Dienste, sowie Übernahme von Pflege-, Wirtschafts-, Verwaltungsdienste und technischen Diensten einschließlich des Managements von nichtmedizinischem Personal; Hausmeisterdienste sowie Instandhaltung und Pflege von Außenanlagen.",
+    "register_court": "München",
+    "register_number": "300410",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Machtlfinger Straße 26, 81379 München",
+     "postal_code": "81379",
+     "street": "Machtlfinger Straße 26"
+    },
+    "company_id": "DE-HRB-D2601-241244",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CONFIDENT DATA GMBH",
+    "purpose": "Tätigkeiten im Bereich Datenschutz, Informationssysteme und Informationssicherheit, sowie digitale Forensik. Ausbildung von Datenschutzbeauftragten; Durchführung von Schulungen; Beratung von Personen und Unternehmen im Bereich Informationstechnologie; Erstellung von Datenschutzvereinbarungen; Stellen von externen Datenschutzbeauftragten; Mitwirken bei der Erstellung von Betriebsvereinbarungen zu Softwaresystemen in Kooperation mit Betriebsräten und Unternehmensleitungen; Funktionale Beurteilung von Soft- und Hardwaremängeln sowie ggf. deren Auswirkungen auf Geschäftsprozesse; Erfassung, Überprüfung und Optimierung von Geschäftsprozessen; Erstellen von Gutachten für Staatsanwaltschaften, Gerichte, Unternehmen und Privatpersonen; Einführung von Informationssicherheit; Durchführung von Workshops / Präsentationen / Seminaren; Stellen von Sachverständigen für polizeiliche Durchsuchungen; Auswertungen von Geräten und Datenträgern im Bereich Informationstechnologie; Verwaltung überlassener Asservate mittels eines Asservaten-Management-Systems; Verwahrung von Original-Ermittlungsakten; Durchführen von Datensicherungen; Systemberatungen; Verkauf / Kauf von Hard- und Software; Stellung eines gesicherten Auswertelabors und Netzwerkes; Stellen von polizeilich überprüften Hilfskräften; Mediation; Catering von Veranstaltungen extern und intern; Planung und Realisierung von Software bzw. App-Konzepten; Planung und Realisierung von IT-Projekten.",
+    "register_court": "München",
+    "register_number": "241244",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Kronstadter Straße 4, 81677 München",
+     "postal_code": "81677",
+     "street": "Kronstadter Straße 4"
+    },
+    "company_id": "DE-HRB-D2601-278268",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Hotel Management Services & Security UG (haftungsbeschränkt)",
+    "purpose": "Personaldienstleistungen, Limousinen Service, Security Service und Arbeitnehmerüberlassungen.",
+    "register_court": "München",
+    "register_number": "278268",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Säbener Str. 51-57, 81547 München",
+     "postal_code": "81547",
+     "street": "Säbener Str. 51-57"
+    },
+    "company_id": "DE-HRB-D2601-211349",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FC Bayern München Service & Dienstleistungs GmbH",
+    "purpose": "Verwaltung eigenen Vermögens sowie Erwerb, Halten, Verwaltung sowie Veräußerung von Beteiligungen an anderen Gesellschaften für die FC Bayern München AG mit Sitz in München und/oder mit ihr verbundene Unternehmen, insbesondere im Bereich der Erbringung von Gruppeninternen Dienstleistungen sowie die Erbringung von internen und externen Dienstleistungen, insbesondere Ordnungsdienstdienstleistungen sowie Dienstleistungen für die FC Bayern München AG sowie deren verbundene Unternehmen",
+    "register_court": "München",
+    "register_number": "211349",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Am Moosfeld 13, 81829 München",
+     "postal_code": "81829",
+     "street": "Am Moosfeld 13"
+    },
+    "company_id": "DE-HRB-D2601-198931",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BEKO GmbH",
+    "purpose": "Import und Export von sowie Groß- und Einzelhandel mit frischem und gefrorenem Fleisch, Fisch und Geflügel, Lebensmittel, alkoholfreien und alkoholischen Getränken, Kork und fertigen Korken; Fleischzerlegung; Fleischverarbeitung; Herstellung von Fleischprodukten; Weiterverarbeitung von Fleischprodukten; Lebensmittelverarbeitung; Tiernahrungsherstellung; Tiernahrunsverarbeitung; Milchverarbeitung; Herstellung von Milch und Milchprodukten; Müllsortierung; Erbringung von Dienstleistungen im Sicherheitsbereich (Security); Vermittlung von Dienst- und Werkleistungsverträgen; Produktion von Verpackungen aller Art; Produktion von Hardware; Produktion von elektrischen und elektronischen Geräten; Beratung, Vermarktung und Unterstützung von Sportlern und Sportvereinen; Spielervermittlung; Spielerberatung, Vermittlung von Werbeverträgen zugunsten Dritter, Sport- und Eventmarketing. Ex-und Import sowie Handel mit nicht erlaubsnispflichtigen Waren, insbesondere Computer-Hardware sowie deren Teile und Computer-Software sowie Lebensmitteln und Nahrungsergänzungsmitteln, ferner Unternehmensberatung sowie Vermittlung von Geschäftskontakten von und nach China und anderen fernöstlichen Ländern, Speditionstätigkeit. Betrieb eines Reisebüros, auch online, Herstellung und Vertrieb sowie Groß- und Einzelhandel von Eis und ähnlichen Produkten, Betrieb von Eisdielen, Herstellung und Vertrieb von Online-Kursen.",
+    "register_court": "München",
+    "register_number": "198931",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München-Flughafen",
+     "country": "DE",
+     "formatted_value": "Südallee Cargo Modul H, 85356 München-Flughafen",
+     "postal_code": "85356",
+     "street": "Südallee Cargo Modul H"
+    },
+    "company_id": "DE-HRB-D2601-219632",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MUC Cargohandling GmbH",
+    "purpose": "Luftfracht Handling, Trucking, Verpackung, Dokumentenservice, Einlagerung, Kommissionierung, Röntgen und Frachtvermittlung.",
+    "register_court": "München",
+    "register_number": "219632",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Tölzer Str. 30, 81379 München",
+     "postal_code": "81379",
+     "street": "Tölzer Str. 30"
+    },
+    "company_id": "DE-HRB-D2601-288540",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bayerischer Sicherheitsdienst UG (haftungsbeschränkt)",
+    "purpose": "Werk-, Objekt-, Veranstaltungs-, Laden und Diebstahlschutz, Observation und Überwachung sowie Doorman.",
+    "register_court": "München",
+    "register_number": "288540",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Lindwurmstraße 149, 80337 München",
+     "postal_code": "80337",
+     "street": "Lindwurmstraße 149"
+    },
+    "company_id": "DE-HRB-D2601-282640",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Prime Security Service GmbH",
+    "purpose": "Sicherheitsdienstleistungen aller Art in den Bereichen Objektschutz, Personenschutz, Event- und Veranstaltung sowie Pförtnerdienst.",
+    "register_court": "München",
+    "register_number": "282640",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Konradinstraße 10, 81543 München",
+     "postal_code": "81543",
+     "street": "Konradinstraße 10"
+    },
+    "company_id": "DE-HRB-D2601-287699",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FARA Wach- und Sicherheitsdienst GmbH",
+    "purpose": "Betreiben eines Bewachungsunternehmens.",
+    "register_court": "München",
+    "register_number": "287699",
+    "register_type": "HRB"
+   }
+  ],
+  "6": [
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Zielstattstraße 21, 81379 München",
+     "postal_code": "81379",
+     "street": "Zielstattstraße 21"
+    },
+    "company_id": "DE-HRB-D2601-235547",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Jonas Sicherheit und Service GmbH",
+    "purpose": "Erbringung von Sicherheits- und damit verbundenen Servicedienstleistungen, Betrieb von Wohnheimen und Pensionen, Erwerb und langfristiges Halten und Verwalten von Beteiligungen und anderen Vermögenswerten im eigenen Namen und alle damit zusammenhängenden Tätigkeiten, soweit hierfür keine behördliche Erlaubnis erforderlich ist.",
+    "register_court": "München",
+    "register_number": "235547",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Ickstattstraße 7, 80469 München",
+     "postal_code": "80469",
+     "street": "Ickstattstraße 7"
+    },
+    "company_id": "DE-HRB-D2601-236388",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Alpine Service GmbH",
+    "purpose": "Gebäudereinigung und Service, Bewachung von fremdem Leben und Eigentum sowie die Vermittlung von Geschäftskontakten.",
+    "register_court": "München",
+    "register_number": "236388",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Birnauerstr. 3, 80809 München",
+     "postal_code": "80809",
+     "street": "Birnauerstr. 3"
+    },
+    "company_id": "DE-HRB-D2601-182137",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "THOFIS UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienstleistungen, Bürodienstleistungen, Empfangsdienstleistungen und Personalberatung.",
+    "register_court": "München",
+    "register_number": "182137",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Radolfszeller Str. 9 a, 81243 München",
+     "postal_code": "81243",
+     "street": "Radolfszeller Str. 9 a"
+    },
+    "company_id": "DE-HRB-D2601-303136",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NOMA Security UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Sicherheitsdienstleistungen nach § 34a GewO sowie die Erbringung von gewerblichen Reinigungsdiensten.",
+    "register_court": "München",
+    "register_number": "303136",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Muthmannstr. 1, 80939 München",
+     "postal_code": "80939",
+     "street": "Muthmannstr. 1"
+    },
+    "company_id": "DE-HRB-D2601-184734",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "CAMSO GmbH",
+    "purpose": "Erbringung von Dienstleistungen im Luftverkehrsbereich, insbesondere Service-Dienstleistungen aller Art an Verkehrsflughäfen einschließlich Hostessen- und Empfangsservice, Flugzeugreinigung, Kabinenausrüstung und Gebäudedienste sowie sämtliche hiermit zusammenhängenden Tätigkeiten, Erbringung von Catering-Dienstleistungen und sonstigen logistischen Dienstleistungen für Fluglinien und andere Transportunternehmen sowie gewerbsmäßige Arbeitnehmerüberlassung, Personalvermittlung und Personalberatung, Handel mit Medienprodukten aller Art im In- und Ausland sowie Erbringung von logistischen Dienstleistungen, insbesondere Übernahme der Lagerhaltung, der Kommissionierung und des Transports für Dritte, Sicherheitsdienstleistungen und Bewachung fremden Eigentums",
+    "register_court": "München",
+    "register_number": "184734",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Heinrich-Heine-Str. 1, 80686 München",
+     "postal_code": "80686",
+     "street": "Heinrich-Heine-Str. 1"
+    },
+    "company_id": "DE-HRB-D2601-235112",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Garant Sicherheitsdienst GmbH",
+    "purpose": "Betrieb eines Sicherheitsdienstes, die Vermietung von Kraftfahrzeugen sowie der Betrieb einer Gebäudereinigung.",
+    "register_court": "München",
+    "register_number": "235112",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Turnerstr. 52 a, 81827 München",
+     "postal_code": "81827",
+     "street": "Turnerstr. 52 a"
+    },
+    "company_id": "DE-HRB-D2601-117627",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PSD Sicherheitsdienst GmbH",
+    "purpose": "Objekt-, Personen- und Werkschutz, Veranstaltungs- und Ermittlungsdienst.",
+    "register_court": "München",
+    "register_number": "117627",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Rimstinger Str. 1, 81671 München",
+     "postal_code": "81671",
+     "street": "Rimstinger Str. 1"
+    },
+    "company_id": "DE-HRB-D2601-288489",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Panthera Secure 24 UG (haftungsbeschränkt)",
+    "purpose": "Wach- und Sicherheitsdienst, Angebot von Personen- und Objektschutz sowie der Betrieb einer Detektei.",
+    "register_court": "München",
+    "register_number": "288489",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Schwanthalerstraße 5, 80336 München",
+     "postal_code": "80336",
+     "street": "Schwanthalerstraße 5"
+    },
+    "company_id": "DE-HRB-D2601-151496",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Power Clean Gebäudereinigung GmbH",
+    "purpose": "Gebäudereinigung im Innen- und Außenbereich sowie die Weitervermittlung solcher Aufträge, der Betrieb eines Reisebüros sowie die Vermittlung von Reisen jeglicher Art für / im In- und Ausland, der Ein- und Verkauf von Gold und Uhren, Dienstleitungen und Services im Bereich Sicherheit und Security, der Betrieb einer Gastronomie, der Betrieb einer Bäckerei, Konditorei, sowie der Verkauf von Alkohol und der Ausschank von nichtalkoholischen Getränken.",
+    "register_court": "München",
+    "register_number": "151496",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Leopoldstr. 110, 80802 München",
+     "postal_code": "80802",
+     "street": "Leopoldstr. 110"
+    },
+    "company_id": "DE-HRB-D2601-199563",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Protect Perfect UG (haftungsbeschränkt)",
+    "purpose": "Messung von Elektrosmog, Vermietung von Autos sowie Chauffeurservice, Beratung zur Sicherung von Personen und Gütern, Erstellung von Sicherheitskonzepten, Wach- und Werkschutz, wirtschaftliche und private Ermittlung (als mobile Tätigkeit), Personenschutz sowie Hausmeisterservice.",
+    "register_court": "München",
+    "register_number": "199563",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Leopoldstr. 31, 80802 München",
+     "postal_code": "80802",
+     "street": "Leopoldstr. 31"
+    },
+    "company_id": "DE-HRB-D2601-296915",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FES Facility and Event Security GmbH",
+    "purpose": "Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gemäß § 34 a GewO und § 6 Bewachungsverordnung, Revierfahrten, Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "München",
+    "register_number": "296915",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Am Moosfeld 13, 81829 München",
+     "postal_code": "81829",
+     "street": "Am Moosfeld 13"
+    },
+    "company_id": "DE-HRB-D2601-286503",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Leon Sicherheitsdienstleistungen UG (haftungsbeschränkt)",
+    "purpose": "Gegenstand des Unternehmens ist der Betrieb eines Sicherheitsdienstes und die Beratung in diesem Bereich sowie Tätigkeiten in den Bereichen der Gebäudereinigung, der Bausanierung, der Bauschuttentsorgung und des Gebäudeabbruchs. Darüber hinaus ebenfalls Tätigkeiten im Bereich des (Güter/Waren-) Transports sowie im Bereich des Gartenbaus. Die Gesellschaft ist befugt, gleichartige oder ähnliche Unternehmen zu erwerben, sich an solchen zu beteiligen, deren persönliche Haftung und Vertretung zu übernehmen, Zweigniederlassungen im In- und Ausland zu errichten und tätigt sämtliche Geschäfte und nimmt jegliche Maßnahmen vor, die dazu dienen können, den Zweck der Gesellschaft und des Unternehmens zu fördern.",
+    "register_court": "München",
+    "register_number": "286503",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Zielstattstr. 21, 81379 München",
+     "postal_code": "81379",
+     "street": "Zielstattstr. 21"
+    },
+    "company_id": "DE-HRB-D2601-208061",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bavaria Management GmbH",
+    "purpose": "Gebäudemanagement, insbesondere Serviceleistungen wie Reinigungs-, Wach- und Hausmeisterservice u.ä. sowie Organisation und Leitung von Umbaumaßnahmen, Betreiben und Verwalten eines Hostels.",
+    "register_court": "München",
+    "register_number": "208061",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Erika-Mann-Str. 63, 80636 München",
+     "postal_code": "80636",
+     "street": "Erika-Mann-Str. 63"
+    },
+    "company_id": "DE-HRB-D2601-281947",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AgileBits Germany GmbH",
+    "purpose": "Anbieten von Sicherheitsabonnementdiensten",
+    "register_court": "München",
+    "register_number": "281947",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Landsberger Str. 183, 80687 München",
+     "postal_code": "80687",
+     "street": "Landsberger Str. 183"
+    },
+    "company_id": "DE-HRB-D2601-280100",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MJ. Verwaltung u. Dienstleistungen GmbH",
+    "purpose": "Glasreinigung, Büroreinigung, Entrümpelung, Gartenpflege, Steinarbeit, Erdarbeiten, Bauarbeiten jeder Art, Autohandel, Sanierungsarbeiten, Baulogistik und Objektbewachung.",
+    "register_court": "München",
+    "register_number": "280100",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Gräfstraße 68, 81241 München",
+     "postal_code": "81241",
+     "street": "Gräfstraße 68"
+    },
+    "company_id": "DE-HRB-D2601-282326",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "United Security Group & Service UG (haftungsbeschränkt)",
+    "purpose": "Durchführung von Sicherheitsdienstleistungen aller Art, insbesondere Objektschutz, Veranstaltungsschutz, Personenschutz; Bewachungsaufgaben, wie die Durchführung von Werttransporten.",
+    "register_court": "München",
+    "register_number": "282326",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Tal 44, 80331 München",
+     "postal_code": "80331",
+     "street": "Tal 44"
+    },
+    "company_id": "DE-HRB-D2601-293189",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Morpheus Security Service GmbH",
+    "purpose": "Objektschutz und Sicherheitsdienst für Personen und Immobilien aller Art.",
+    "register_court": "München",
+    "register_number": "293189",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Landsberger Str. 183, 80687 München",
+     "postal_code": "80687",
+     "street": "Landsberger Str. 183"
+    },
+    "company_id": "DE-HRB-D2601-242829",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DSM Sicherheitsdienst GmbH",
+    "purpose": "Werk- und Objektschutz, Entwerfen von Sicherheitskonzepten, Überwachung von Bauprojekten, Dienst an der Pforte, Empfangs- und Telefondienst, Einlasskontrollen bei Veranstaltungen, Überwachung von Asylunterkünften, Bewachung von Werkshallen, Parkhaus- und Parkplatzüberwachung, Revier- und Kontrollgänge, Gebäude-Visitationen, Öffnungs- und Schließdienste, Abwesenheitsbewachung, Baustellenüberwachung, Personen- und Taschenkontrollen; Veranstaltungsschutz bei Ausstellungsobjekten, bei Unternehmensveranstaltungen, Events und Messen, bei Open-Air- und Hallenkonzerten, bei Bürger- und Volksfesten aller Art, Garderobenservice, Bühnenabsicherung; Securityservice für Hotels, Restaurants, Diskotheken, Dance- Clubs, Bars, Juweliere, Einkaufszentren sowie Shopping-Malls; Dedektei.",
+    "register_court": "München",
+    "register_number": "242829",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Prinzregentenstraße 122, 81677 München",
+     "postal_code": "81677",
+     "street": "Prinzregentenstraße 122"
+    },
+    "company_id": "DE-HRB-D2601-184092",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Omnitect GmbH",
+    "purpose": "Sicherheitsdienst, Objekt- und Personenüberwachung, Betrieb einer Detektei und Personalvermittlung, Durchführung von Schweißarabeiten, Verlegen von Rohrleitungssystemen und Rohren jeweils ohne Anschlussarbeiten",
+    "register_court": "München",
+    "register_number": "184092",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Unterföhring",
+     "country": "DE",
+     "formatted_value": "Münchner Straße 18a, 85774 Unterföhring",
+     "postal_code": "85774",
+     "street": "Münchner Straße 18a"
+    },
+    "company_id": "DE-HRB-D2601-104883",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Kötter Security V Verwaltungs-GmbH",
+    "purpose": "Ankauf, Verkauf und Vertrieb von Systemen der Sicherheitstechnik für den Objekt- und Personenschutz einschließlich der Home Security sowie Ausübung des Bewachungsgewerbes; ferner Beteiligung an sowie Übernahme der Geschäftsführung, Vertretung, Verwaltung und Komplementärhaftung der KÖTTER Sicherheitssysteme GmbH & Co. KG mit dem Sitz in Essen (Amtsgericht Essen HRA 9539).",
+    "register_court": "München",
+    "register_number": "104883",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Friedrich-Loy-Straße 9, 80796 München",
+     "postal_code": "80796",
+     "street": "Friedrich-Loy-Straße 9"
+    },
+    "company_id": "DE-HRB-D2601-234974",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "IWCF GmbH",
+    "purpose": "Dienstleistung, Beratung und Betreuung im kaufmännischen, investigativen und Compliance-Bereich.",
+    "register_court": "München",
+    "register_number": "234974",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Ainmillerstr. 50, 80801 München",
+     "postal_code": "80801",
+     "street": "Ainmillerstr. 50"
+    },
+    "company_id": "DE-HRB-D2601-137088",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "A.S.S. All Sun Serve GmbH",
+    "purpose": "Betrieb und Verwaltung von Erholungsflächen und -einrichtungen sowie gastronomischen Einrichtungen; weiter Durchführung von Bewachungen an Objekten sowie Lebensmitteleinzel- und -groshandel.",
+    "register_court": "München",
+    "register_number": "137088",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Elsenheimerstr. 15, 80687 München",
+     "postal_code": "80687",
+     "street": "Elsenheimerstr. 15"
+    },
+    "company_id": "DE-HRB-D2601-202684",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "JR Security und Gebäude Service GmbH",
+    "purpose": "Betrieb einer Gebäudereinigung inkl. Baureinigung, die Übernahme und Vermittlung von Serviceleistungen im deutschsprachigen Raum, der VIP-Shuttle Service sowie Security Service aller Art, sowie Gütewerkehrtätigkeit, insbesondere Transport von Waren, Gütern und Tätigkeit Kurierdienst bis 3, 5 t.",
+    "register_court": "München",
+    "register_number": "202684",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Waldeckstraße 43, 81543 München",
+     "postal_code": "81543",
+     "street": "Waldeckstraße 43"
+    },
+    "company_id": "DE-HRB-D2601-296980",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Aleks Dienstleistungs UG (haftungsbeschränkt)",
+    "purpose": "Facility Management, Abrissarbeiten ohne Eingriff in die Statik, Entrümpelung, Trockenbauarbeiten, Winterdienst, Hausmeisterdienst, Ordnertätigkeit.",
+    "register_court": "München",
+    "register_number": "296980",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Detmoldstraße 32, 80935 München",
+     "postal_code": "80935",
+     "street": "Detmoldstraße 32"
+    },
+    "company_id": "DE-HRB-D2601-142045",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Herkules Personenschutz GmbH",
+    "purpose": "Schutz von Personen, Bewachung von Objekten, Sicherung von Werten, Sicherheitsberatung und Kurierdienste.",
+    "register_court": "München",
+    "register_number": "142045",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Wolfratshauser Str. 210 a, 81479 München",
+     "postal_code": "81479",
+     "street": "Wolfratshauser Str. 210 a"
+    },
+    "company_id": "DE-HRB-D2601-248293",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Hauptmann Service GmbH",
+    "purpose": "Bewachung und Überwachung von Objekten und Personen, Objekt- und Personenschutz nach § 34a GewO, Durchführung von Tätigkeiten gemäß § 34c GewO (Makler-, Bauträger- sowie Baubetreuertätigkeiten), Investitions- sowie Anlagenvermittlung gemäß § 34 f GewO, Vermittlung von Versicherungen § 34 d GewO, Unternehmensberatung, Einbringung von Dienstleistungen auf den Gebieten Gebäudereinigung, Autopflege, Hausmeistertätigkeiten, Garten- und Landschaftsbau, zulassungsfreie Bautätigkeiten sowie Import und Export, An- und Verkauf von Non-Food-Produkten, insbesondere von Uhren.",
+    "register_court": "München",
+    "register_number": "248293",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Görresstr. 46, 80797 München",
+     "postal_code": "80797",
+     "street": "Görresstr. 46"
+    },
+    "company_id": "DE-HRB-D2601-197154",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Gebäudeservice Öz-Sander GmbH",
+    "purpose": "Gebäudereinigung, Kellnerservice und Housekeepingservice sowie Bewachungsleistungen. Weiterer Gegenstand ist Einzelhandel mit Backwaren und Getränken.",
+    "register_court": "München",
+    "register_number": "197154",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Nymphenburger Straße 79, 80636 München",
+     "postal_code": "80636",
+     "street": "Nymphenburger Straße 79"
+    },
+    "company_id": "DE-HRB-D2601-281163",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PTS-CONCEPTS GmbH",
+    "purpose": "Technische Planung, Konzeption und Ausführung von Veranstaltungen, Veranstaltungssicherheit, Projektmanagement und Beratung.",
+    "register_court": "München",
+    "register_number": "281163",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Aschauer Str. 30, 81549 München",
+     "postal_code": "81549",
+     "street": "Aschauer Str. 30"
+    },
+    "company_id": "DE-HRB-D2601-82726",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "WWD Dienstleistung GmbH",
+    "purpose": "Persönliche und soziale Dienstleistungen betreffend individuelle Bedürfnisse sowie Sicherheitsdienste zum Schutz von Sachwerten oder Personen, insbesondere Be- und Überwachungen aller Art, Pforten- und Kontrolldienste, Werkschutz, Patrouillen- und Streifendienste, Geld- und Werttransporte, der Betrieb einer Alarmzentrale, Alarmverfolgungen, Dienstleistungen im Bereich der Prozessautomation und begleitende Beratungsleistungen, Übernahme von Hausverwaltungen sowie infrastrukturelles, kaufmännisches und technisches Gebäudemanagement für eigenes und fremdes Anlagevermögen sowie alle Geschäfte, die mit der Gebäudebewirtschaftung sowie mit infrastrukturellen Gebäudedienstleistungen wie z. B. Hausmeister-, Reinigungs-, Grünpflege und Winterdienstleistungen etc. im Zusammenhang stehen, Gewerbemäßige Arbeitnehmerüberlassung.",
+    "register_court": "München",
+    "register_number": "82726",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Amalienstraße 71, Rgb. 2, 80799 München",
+     "postal_code": "80799",
+     "street": "Amalienstraße 71, Rgb. 2"
+    },
+    "company_id": "DE-HRB-D2601-286965",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BaySec GmbH",
+    "purpose": "Allgemeine Sicherheitsdienstleistungen, Hausmeister- und Gebäudereinigungsdienstleistungen.",
+    "register_court": "München",
+    "register_number": "286965",
+    "register_type": "HRB"
+   }
+  ],
+  "7": [
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Freischützstr. 8, 81927 München",
+     "postal_code": "81927",
+     "street": "Freischützstr. 8"
+    },
+    "company_id": "DE-HRB-D2601-304217",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Best Studio hair Style UG (haftungsbeschränkt)",
+    "purpose": "Beauty-Komplex mit Dienstleistungen wie Friseur, Nageldesign, Tattoo, Kosmetik und weiteren Schönheitsservices; untergeordnet auch: Reinigungsservice für private Haushalte und gewerbliche Objekte; Umzugs- und Transportservice, ausschließlich für Gegenstände (kein Geldtransport); Fahrdienst wie Uber oder Mietwagenservice mit Fahrer (Personenbeförderung); Sicherheitsdienst (Security-Service) - allgemeine Sicherheits- und Bewachungsdienste ohne Geldtransporte und ohne Waffen; Lieferdienst für Speisen und Lebensmittel (Food Delivery / Lieferservice).",
+    "register_court": "München",
+    "register_number": "304217",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Ringbergstr. 1, 81673 München",
+     "postal_code": "81673",
+     "street": "Ringbergstr. 1"
+    },
+    "company_id": "DE-HRB-D2601-56331",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bewachungsdienst Dipl.-Kfm. Helmut Ehrl GmbH",
+    "purpose": "Betrieb eines Bewachungsunternehmens.",
+    "register_court": "München",
+    "register_number": "56331",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Metzstraße 14B, 81667 München",
+     "postal_code": "81667",
+     "street": "Metzstraße 14B"
+    },
+    "company_id": "DE-HRB-D2601-219979",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Cadami GmbH",
+    "purpose": "Betätigung im In- und Ausland im gesamten Bereich der Telekommunikation, Informationstechnologie, Multimedia, Information und Unterhaltung, der Sicherheitsdienstleistungen, Vertriebs- und Vermittlungsdienstleistungen; der mit diesen Bereichen im Zusammenhang stehenden Serviceleistungen und in verwandten Bereichen, einschließlich des Vertriebs von Hardware.",
+    "register_court": "München",
+    "register_number": "219979",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Chiemgaustraße 63, 81549 München",
+     "postal_code": "81549",
+     "street": "Chiemgaustraße 63"
+    },
+    "company_id": "DE-HRB-D2601-301763",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DEUS GmbH",
+    "purpose": "Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung, Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "München",
+    "register_number": "301763",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Eibenstockstr. 2, 81825 München",
+     "postal_code": "81825",
+     "street": "Eibenstockstr. 2"
+    },
+    "company_id": "DE-HRB-D2601-299060",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Natural Service Gebäudereinigung GmbH",
+    "purpose": "Reinigung von Gebäuden und Gebäudebestandteilen, Steinbodenreinigung, Winter- und Kehrdienste, Schädlingsbekämpfung und Logistikdienstleistungen, Garten- und Landschaftsbauarbeiten, Hausmeisterarbeiten (Gartenarbeiten, Schneeräumen und Treppenreinigung), insbesondere die notwendigen Sommer- und Winterdienste auf Straßen und Wegen, Anlegen, Bepflanzen und Pflegen von Garten- und Grünflächen und Pförtnerdienste; Ausübung des zulassungsfreien Gebäudereinigerhandwerks, Abbrucharbeiten (ohne Eingriff in die Statik), Wagenpflegearbeiten (ausgenommen Einstellen von Ventilen, Vergasern und Einspritzpumpen), Reinigung von Maschinen, Hotelreinigung und Spüldienste, Hol- und Bringdienste, technisches und strukturelles Gebäudemanagement, Instandhaltungs- und Instandsetzungsarbeiten sowie technische Reinigung von Maschinen und Anlagen, insbesondere auch Schaltschränke, Säuberung, insbesondere Entstaubung von Hallen, Wartung und Instandhaltung von klimatechnischen Einrichtungen, Wartung und Reinigung von Schließanlagen.",
+    "register_court": "München",
+    "register_number": "299060",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Wolfratshauser Straße 198, 81479 München",
+     "postal_code": "81479",
+     "street": "Wolfratshauser Straße 198"
+    },
+    "company_id": "DE-HRB-D2601-204201",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FIMORCO UG (haftungsbeschränkt)",
+    "purpose": "Handel mit Waren aller Art, insbesondere mit Sicherheitsprodukten, Schlössern und Alarmanlagen, sowie Erbringung von Dienstleistungen im Bereich des Personenschutzes.",
+    "register_court": "München",
+    "register_number": "204201",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Trenkleweg 5, 80937 München",
+     "postal_code": "80937",
+     "street": "Trenkleweg 5"
+    },
+    "company_id": "DE-HRB-D2601-248933",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Rekan GmbH",
+    "purpose": "Sicherheitsfirma und Service, Reinigung und Unternehmensberatung, Gastronomiebetrieb sowie Erbringung und Vermittlung von Dienstleistungen (Helfer im Bahnbetieb/Einsenbahnbetriebsregler, Aufsichtsführende, Sicherungsposten, Sicherungsaufsicht) für Unternehmen, die entweder selbst Vekehrsbetriebe sind oder für Verkehrsbetriebe tätig sind, Betrieb einer Detektei sowie Verleih von KFZ-Hebebühnen",
+    "register_court": "München",
+    "register_number": "248933",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "extra": "Lena Vilenska",
+     "formatted_value": "Züricher Str. 248, 81476 München",
+     "postal_code": "81476",
+     "street": "Züricher Str. 248"
+    },
+    "company_id": "DE-HRB-D2601-220901",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ES Easy Service GmbH",
+    "purpose": "Durchführung von Hausmeisterdiensten (inklusive Garten- und Winterdienst), Gebäudereinigung, Wäschepflege, Gastronomie, Sicherheitsdienst und Entrümpelungen",
+    "register_court": "München",
+    "register_number": "220901",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Lerchenauer Str. 38, 80809 München",
+     "postal_code": "80809",
+     "street": "Lerchenauer Str. 38"
+    },
+    "company_id": "DE-HRB-D2601-293574",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SICON Sicherheitsdienste UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Sicherheitsdiensten",
+    "register_court": "München",
+    "register_number": "293574",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Marchioninistraße 15, 81377 München",
+     "postal_code": "81377",
+     "street": "Marchioninistraße 15"
+    },
+    "company_id": "DE-HRB-D2601-152516",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "KMD Klinikum der Universität München Dienstleistungs GmbH",
+    "purpose": "Durchführung von Reinigungsleistungen aller Art, Tätigkeiten des klinischen Hauspersonals (insbesondere Stationshilfen o.Ä.) patientennahe Serviceleistungen im Versorgungsbereich (z.B. in der Speisen- und Wahlleistungsversorgung), Transport von Sachgütern (Boten- oder Fahrdiensten), Dienstleistungen im Bereich Personenförderung (Krankentransportdiensten), Organisation und Durchführung von Wach- und Schließdiensten, sowie sonstiger im Klinikum anfallender Infrastrukturleistungen, insbesondere für das Klinikum der Universität München.",
+    "register_court": "München",
+    "register_number": "152516",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Polkostr. 6, 81245 München",
+     "postal_code": "81245",
+     "street": "Polkostr. 6"
+    },
+    "company_id": "DE-HRB-D2601-237456",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "M I 4 Security GmbH",
+    "purpose": "Sicherheits- und Bewachungsdienstleistung und alle damit in Zusammenhang stehenden Tätigkeiten.",
+    "register_court": "München",
+    "register_number": "237456",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Karwendelstraße 34, 81369 München",
+     "postal_code": "81369",
+     "street": "Karwendelstraße 34"
+    },
+    "company_id": "DE-HRB-D2601-169898",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GSD Gesellschaft für Sicherheits-Dienstleistungen GmbH",
+    "purpose": "Erbringung von Wach-, Werkschutz- und Sicherheitsdienstleistungen jeglicher Art, insbesondere Bewachung von Objekten und Personen und Erbringung von Revier- und Streifenwachdienstleistungen, sowie Erbringung von Personaldienstleistungen nach dem Arbeitnehmer-Überlassungsgesetz.",
+    "register_court": "München",
+    "register_number": "169898",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Landsberger Straße 183, 80687 München",
+     "postal_code": "80687",
+     "street": "Landsberger Straße 183"
+    },
+    "company_id": "DE-HRB-D2601-223302",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "One Gebäudemanagement GmbH",
+    "purpose": "Vermittlung von Bauaufträgen, Gebäudereinigung, Anbieten von Hausmeisterdiensten und Sicherheitsdiensten sowie Einbau von Fertigteilen und Handel mit Natursteinen sowie ähnlichen Produkten. Genehmigungspflichtige Tätigkeiten werden nicht ausgeübt.",
+    "register_court": "München",
+    "register_number": "223302",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Lohengrinstr. 23, 81925 München",
+     "postal_code": "81925",
+     "street": "Lohengrinstr. 23"
+    },
+    "company_id": "DE-HRB-D2601-303337",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Sakhizada Schamal GmbH",
+    "purpose": "Erbringung von Dienstleistungen in den Bereichen Reinigung, Sicherheitsdienste, Regalservice sowie Transport- und Logistikleistungen.",
+    "register_court": "München",
+    "register_number": "303337",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Frühlingsanger 2, 80933 München",
+     "postal_code": "80933",
+     "street": "Frühlingsanger 2"
+    },
+    "company_id": "DE-HRB-D2601-305609",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NEPA Services UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Dienstleistungen im Bereich Sicherheitsdienst, namentlich Objektschutz, Veranstaltungsschutz, Revierfahrer, Einlass (Türsteher), sowie im Bereich Gebäudereinigung (Kindergarten, Treppenhäuser, Objekte), Hausmeisterservice und bewaffneter Dienst.",
+    "register_court": "München",
+    "register_number": "305609",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Thalkirchner Str. 127, 81371 München",
+     "postal_code": "81371",
+     "street": "Thalkirchner Str. 127"
+    },
+    "company_id": "DE-HRB-D2601-297833",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Experta-Global Solutions UG (haftungsbeschränkt)",
+    "purpose": "Schuldenanalysen als vorbereitende Tätigkeit für Insolvenzverfahren (keine Rechtsberatung), Betrieb einer Detektei, Tätigkeit als Versicherungsmakler für die Vermittlung von Versicherungen und Bausparverträgen, Immobilienmakler: Vermittlung von Vertragsabschlüssen sowie der Nachweis der Gelegenheit zum Abschluss von Verträgen über Grundstücke, grundstücksgleiche Rechte, Wohnräume und gewerbliche Räume, Büro-Service und Lohnbuchhaltungen, Betrieb eines Onlineshops.",
+    "register_court": "München",
+    "register_number": "297833",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Lilienthalallee 25, 80939 München",
+     "postal_code": "80939",
+     "street": "Lilienthalallee 25"
+    },
+    "company_id": "DE-HRB-D2601-42291",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Residia Objektbetreuungs GmbH",
+    "purpose": "Übernahme von Hausbetreuungen, die Beschäftigung von Hausmeistern/technikern für diesen Zweck, Verwaltung von Immobilien, Vornahme von Sicherheitsdienstleistungen sowie Objekt- und Personenschutz. Die Gesellschaft führt keine Geschäfte im Sinne des § 34 c GewO.",
+    "register_court": "München",
+    "register_number": "42291",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Wasserburger Landstr. 204, 81827 München",
+     "postal_code": "81827",
+     "street": "Wasserburger Landstr. 204"
+    },
+    "company_id": "DE-HRB-D2601-299555",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "VPS Vertrieb & Handwerk GmbH",
+    "purpose": "Vertrieb von Fertighäusern und die Ausübung von zulassungsfreien Handwerksdienstleistungen in Bezug auf Immobilien, wie z. B. der Trockenbau sowie der Holz- und Bautenschutz. Ferner alle Tätigkeiten eines Maler-, Stuckateur- und Lackierbetriebs. Darüber hinaus werden gelegentlich an Fachbetriebe, die ein zulassungspflichtiges Handwerk betreiben, wie z. B. Boden- und Fliesenverleger, Bauaufträge vermittelt. Außerdem die Unternehmensberatung, der Internetverkauf, sowie der Im- und Export von u. a. Baumaterialien, sowie von genormten Baufertigteilen. Des Weiteren die Gebäudereinigung und Hausmeisterdienste mit Winterdienst und Entrümpelungen. Ebenfalls die Parkhausüberwachung ohne Tätigkeiten nach § 34a.",
+    "register_court": "München",
+    "register_number": "299555",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Langbürgener Straße 10, 81549 München",
+     "postal_code": "81549",
+     "street": "Langbürgener Straße 10"
+    },
+    "company_id": "DE-HRB-D2601-281122",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Veritas Security UG (haftungsbeschränkt)",
+    "purpose": "Sicherheitsdienstleistungen nach § 34a GewO, insbesondere in den Bereichen Objekt- und Werkschutz, Revier- und Streifendienst, Empfangsdienst im Objektschutz, Veranstaltungsservice und Konferenzschutz sowie der Personenschutz. Zudem die Baustellen- und Verkehrssicherung, Fahrzeugtransport und Fahrzeugüberführungen, Softwareentwicklung und der Softwarevertrieb.",
+    "register_court": "München",
+    "register_number": "281122",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Hansastraße 18, 80686 München",
+     "postal_code": "80686",
+     "street": "Hansastraße 18"
+    },
+    "company_id": "DE-HRB-D2601-291543",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "M-Guards Service & Security UG (haftungsbeschränkt)",
+    "purpose": "Bewachungstätigkeiten, Auftragsvermittlung, Personenbeförderung, Akkreditierungstätigkeiten, Garderobendienst, Hostessenservice, Servicetätigkeiten, Beratung, Schulungen und Fortbildungen.",
+    "register_court": "München",
+    "register_number": "291543",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Schwanseestr. 79 a, 81549 München",
+     "postal_code": "81549",
+     "street": "Schwanseestr. 79 a"
+    },
+    "company_id": "DE-HRB-D2601-281839",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Security Dost UG (haftungsbeschränkt)",
+    "purpose": "Betrieb eines Sicherheits- und Ordnungsdienstes, Bewachung von Veranstaltungen und Anlagen, Reinigungsarbeiten in und an Gebäuden und Maschinen und Handel mit Speisen, Getränken und Tabakwaren (Kioskbetrieb). Weiterer Unternehmensgegenstand ist Durchführung von Veranstaltungen und Events, sowie ein Party- und Catering-Service.",
+    "register_court": "München",
+    "register_number": "281839",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Dachauer Str. 4, 80335 München",
+     "postal_code": "80335",
+     "street": "Dachauer Str. 4"
+    },
+    "company_id": "DE-HRB-D2601-288336",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BW&EJ GmbH",
+    "purpose": "Security-Service; Eisenflechterei, Beton- und Maurerarbeiten; Reinigungsarbeiten und Sanierungsarbeiten; Verkauf von Telefonkarten, insbesondere SIM- und Prepaidkarten; erlaubnispflichtige Tätigkeiten werden nicht ausgeübt.",
+    "register_court": "München",
+    "register_number": "288336",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Caubstraße 6, 80993 München",
+     "postal_code": "80993",
+     "street": "Caubstraße 6"
+    },
+    "company_id": "DE-HRB-D2601-126911",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Aktiv Gebäudeservice und Dienstleistungen GmbH",
+    "purpose": "Gebäudereinigung und Bewachung und Absicherung von Gebäuden (Security-Services) sowie alle damit in Zusammenhang stehenden Dienstleistungen und sonstigen Tätigkeiten, ferner Vermittlung und Verleih von Personal nach dem Arbeitnehmerüberlassungsgesetz (Zeitarbeit).",
+    "register_court": "München",
+    "register_number": "126911",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Edelsbergstr. 6, 80686 München",
+     "postal_code": "80686",
+     "street": "Edelsbergstr. 6"
+    },
+    "company_id": "DE-HRB-D2601-285578",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "German Security & Services GmbH",
+    "purpose": "Sicherheitsdienst, Detektei, Kaufhausdetektei, Bewachung von fremdem Leben und Eigentum, Bewachung und Überwachung, Objekt- und Personenschutz nach § 34a GewO, Durchführung von Veranstaltungen sowie alle in diesem Zusammenhang stehenden Dienst- und Serviceleistungen, Durchführung von Ordnungs- und Servicetätigkeiten (ohne Bewachung), Vermittlung von Aufträgen an andere Betriebe, Personalvermittlung ohne Arbeitnehmerüberlassung, Transporte bis 7,5 t sowie alle damit in Zusammenhang stehenden Dienst- und Servicearbeiten, Frachtvermittlung sowie Einlagerung und Kommissionierung.",
+    "register_court": "München",
+    "register_number": "285578",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Landsbergerstr. 148, 80339 München",
+     "postal_code": "80339",
+     "street": "Landsbergerstr. 148"
+    },
+    "company_id": "DE-HRB-D2601-147404",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "securicoin GmbH",
+    "purpose": "Durchführung von Münzzählungen und Bewachung von fremden Eigentum.",
+    "register_court": "München",
+    "register_number": "147404",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Breisacher Str. 24, 81667 München",
+     "postal_code": "81667",
+     "street": "Breisacher Str. 24"
+    },
+    "company_id": "DE-HRB-D2601-191220",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Salonika GmbH",
+    "purpose": "Durchführung von Transporten bis 3,5 Tonnen aller Art, sowie alle damit im Zusammenhang stehenden Dienst- und Servicearbeiten; Internationale Transporte; Kurierdienste; An- und Verkauf, sowie Vermittlung und Vermietung von Kfz und LKW; Groß- und Einzelhandel, sowie Import und Export von Obst, Gemüse, Südfrüchten, Lebensmitteln, Fleisch- und Wurstwaren, Geschenkartikeln; Abgabe von Speisen und alkoholfreien Getränken; Betrieb einer Gaststätte; Organisation, Durchführung und Vermittlung von Veranstaltungen; Personenbeförderung; Shuttelservices; Ordnungstätigkeiten insbesondere bei Veranstaltungen und Konzerten.",
+    "register_court": "München",
+    "register_number": "191220",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Adelheidstraße 32, 80796 München",
+     "postal_code": "80796",
+     "street": "Adelheidstraße 32"
+    },
+    "company_id": "DE-HRB-D2601-224663",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Olymp Security & Event GmbH",
+    "purpose": "Sicherheitsdienst und Veranstaltungsdienst",
+    "register_court": "München",
+    "register_number": "224663",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Ehrenbreitsteiner Str. 20, 80993 München",
+     "postal_code": "80993",
+     "street": "Ehrenbreitsteiner Str. 20"
+    },
+    "company_id": "DE-HRB-D2601-253005",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ZONEGREEN GmbH",
+    "purpose": "Erbringung und Vermittlung von Sicherheitsdienstleistungen.",
+    "register_court": "München",
+    "register_number": "253005",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Ranertstr. 5, 81249 München",
+     "postal_code": "81249",
+     "street": "Ranertstr. 5"
+    },
+    "company_id": "DE-HRB-D2601-139835",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "W & W Dienstleistungen GmbH",
+    "purpose": "Erbringung von Dienstleistungen in den Bereichen Sicherheitsdienste, Sicherheitstechnik und sonstiger Serviceleistungen, soweit letztere nicht einer speziellen Erlaubnis nach der Gewerbeordnung bedürfen, sowie Übernahme der Geschäftsführung und Vertretung der sdm Sicherheitsdienste München GmbH & Co. KG mit dem Sitz in München als deren persönlich haftende Gesellschafterin. Gegenstand der sdm Sicherheitsdienste München GmbH & Co. KG ist Betrieb eines Unternehmens für Sicherheits- und Hausserviceleistungen.",
+    "register_court": "München",
+    "register_number": "139835",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Landsberger Straße 482, 81241 München",
+     "postal_code": "81241",
+     "street": "Landsberger Straße 482"
+    },
+    "company_id": "DE-HRB-D2601-278674",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "LY Security GmbH",
+    "purpose": "Leisten von Empfangsdiensten, Bewachung und Überwachung, Objekt- und Personenschutz nach § 34 a GewO, Vorbereitung und Durchführung von Veranstaltungen sowie alle in diesem Zusammenhang stehenden Dienst- und Serviceleistungen, Revier-Bestreifung und Beratung in Fragen der Sicherheitstechnik; weiter Leistung von Observationsdiensten sowie Schutzleistung bei Veranstaltungen, Personal-Service und Dienstleistung Personal.",
+    "register_court": "München",
+    "register_number": "278674",
+    "register_type": "HRB"
+   }
+  ],
+  "8": [
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Dessauer Straße 7/I, 80992 München",
+     "postal_code": "80992",
+     "street": "Dessauer Straße 7/I"
+    },
+    "company_id": "DE-HRB-D2601-82758",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Optimal Gebäudeservice GmbH",
+    "purpose": "Beratung für Industrieprojekte, Ausführung derartiger Projekte, sowie An- und Verkauf und die Vermittlung von Waren aller Art einschließlich der dazu erforderlichen Beratung. Ferner: Gebäudereinigung aller Art und alle damit verbundenen Tätigkeiten sowie Dienstleistungen im Bereich Gebäudemanagement, insbesondere Gebäudereinigung (z.B. Unterhaltsreinigung, Fassadenreinigung, Teppichreinigung, Grundreinigung, Computerreinigung, Baureinigung, Glasreinigung) Hausmeisterdienste (auch Winterdienst, d. h. Schneeräumen, Streuen etc, Grünpflege), Bewachung von fremden Eigentum, ferner Autoreinigung und Aufbereitung.",
+    "register_court": "München",
+    "register_number": "82758",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Landshut",
+     "country": "DE",
+     "formatted_value": "Sigmund-Schwarz-Straße 3 A, 84028 Landshut",
+     "postal_code": "84028",
+     "street": "Sigmund-Schwarz-Straße 3 A"
+    },
+    "company_id": "DE-HRB-D2601-296118",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ICONE Sicherheit GmbH",
+    "purpose": "Tätigkeit im Bewachungsgewerbe und zusätzlich im Reinigungsgewerbe.",
+    "register_court": "München",
+    "register_number": "296118",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Stahlgruberring 32, 81829 München",
+     "postal_code": "81829",
+     "street": "Stahlgruberring 32"
+    },
+    "company_id": "DE-HRB-D2601-301477",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Isar Protect UG (haftungsbeschränkt)",
+    "purpose": "Planung, Beratung, Installation und Wartung von Sicherheits- und Schutzsystemen, Erstellung und Durchführung von Sicherheitskonzepten einschließlich Crowd-Management für Veranstaltungen aller Art, die Bereitstellung von Objekt- und Personenschutz samt aller damit verbundenen Dienstleistungen, Parkdienst und Vermietung von Funkgeräten sowie Gleissicherung und IT-Sicherheit, Personenschutz, VIP-Service, Objektschutz, Baustellenbewachung. Gegenstand ist ferner Facility Management und die Gebäudereinigung samt Außenreinigung und Winterdienst.",
+    "register_court": "München",
+    "register_number": "301477",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Franz-Joseph-Straße 11, 80801 München",
+     "postal_code": "80801",
+     "street": "Franz-Joseph-Straße 11"
+    },
+    "company_id": "DE-HRB-D2601-282304",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Kurt Security GmbH",
+    "purpose": "Erbringung von Bewachungstätigkeiten jeglicher Art, insbesondere von Gegenständen, Gebäuden und Personen.",
+    "register_court": "München",
+    "register_number": "282304",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Lichtensteinstraße 2 a, 81375 München",
+     "postal_code": "81375",
+     "street": "Lichtensteinstraße 2 a"
+    },
+    "company_id": "DE-HRB-D2601-231775",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DANCE & ANIMATE GmbH",
+    "purpose": "Personalvermittlung, KfZ-Service, Marketing, Immobilienverwertung und -service, Altbausanierung, Limousinenservice, Autovermietung, Personalbetreuung, Hausmeisterdienste, Gebäudereinigung, Durchführung von Tanzdarbietungen, Eventmanagement, Catering-Service, Einzelhandel mit Schuhen und Textilien, Unternehmensberatung sowie Personenschutz und Objektbewachung.",
+    "register_court": "München",
+    "register_number": "231775",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Drygalski-Allee 117, 81477 München",
+     "postal_code": "81477",
+     "street": "Drygalski-Allee 117"
+    },
+    "company_id": "DE-HRB-D2601-274801",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BayFM Facility Management GmbH",
+    "purpose": "Gebäudemanagement, Gebäudereinigung, Zimmerreinigung in Hotels, Reinigung öffentlicher Bereiche, Desinfektion von Flächen und Räumen, Fenster- und Glasreinigung, Winterdienst, Security und Hausmeisterservice.",
+    "register_court": "München",
+    "register_number": "274801",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Am Westpark 1, 81373 München",
+     "postal_code": "81373",
+     "street": "Am Westpark 1"
+    },
+    "company_id": "DE-HRB-D2601-113156",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Dr. Sasse Gebäudedienste GmbH",
+    "purpose": "Durchführung von Gebäudediensten, insbesondere Reinigung von Bauten, Straße und Gehwegen, Abfuhr, Trennung und Beseitigung von gewerblichem Müll und Schmutz, Entrümpelungen sowie Bewachung von Objekten aller Art, sowie Überlassungen von Arbeitnehmern.",
+    "register_court": "München",
+    "register_number": "113156",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Nymphenburger Str. 13-15, 80335 München",
+     "postal_code": "80335",
+     "street": "Nymphenburger Str. 13-15"
+    },
+    "company_id": "DE-HRB-D2601-67660",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "zeitkraft Gesellschaft für Personalservice mbH",
+    "purpose": "Arbeitnehmerüberlassung jeder Art; auch Erfüllung von Werk- und Dienstverträgen für Industriemontage, Industrieservice und Wach- und Sicherheitsdienst.",
+    "register_court": "München",
+    "register_number": "67660",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Terminalstr. Mitte 18, 85356 München",
+     "postal_code": "85356",
+     "street": "Terminalstr. Mitte 18"
+    },
+    "company_id": "DE-HRB-D2601-78838",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Sicherheitsgesellschaft am Flughafen München mbH",
+    "purpose": "Schaffung der personellen, sachlichen und organisatorischen Voraussetzungen für die Wahrnehmung von Aufgaben gemäß § 5 des Luftsicherheitsgesetzes (LuftSiG) durch Hilfsorgane der Regierung von Oberbayern - Luftamt Südbayern - unter deren Aufsicht auf dem Verkehrsflughafen München. Die Gesellschaft schließt insbesondere auch die Arbeitsverträge mit dem für diese Aufgabe erforderlichen Personal nach Maßgabe des von der Regierung von Oberbayern - Luftamt Südbayern - vorgegebenen Umfangs. Ferner kann die Gesellschaft Tätigkeiten ausüben, die der Sicherheit des Luftverkehrs dienen, insbesondere solche nach §§ 5,8 und 9 LuftSiG.",
+    "register_court": "München",
+    "register_number": "78838",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Nymphenburger Str. 132, 80636 München",
+     "postal_code": "80636",
+     "street": "Nymphenburger Str. 132"
+    },
+    "company_id": "DE-HRB-D2601-207827",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Zahnkleid GmbH",
+    "purpose": "Dentaltechnik und Betrieb eines zahntechnischen Labors; Produktion von Zahnersatz und damit verbundene Beratung; Vermietung und Verpachtung von Arbeitsplätzen/Räumen im zahntechnischen, dentalen oder im medizinischen Bereich; Personalverleih; Personalvermittlung sowie Sicherheitsdienst.",
+    "register_court": "München",
+    "register_number": "207827",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Frankfurter Ring 193a, 80807 München",
+     "postal_code": "80807",
+     "street": "Frankfurter Ring 193a"
+    },
+    "company_id": "DE-HRB-D2601-291746",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Bavarian Discretion Shield BDS Sicherheit GmbH",
+    "purpose": "Sicherheitsberatung und Sicherheitsdienst, kaufmännische Abwicklung von Sicherheitsaufträgen sowie Fleischhandel und Objektreinigung.",
+    "register_court": "München",
+    "register_number": "291746",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Prinzregentenstraße 54, 80538 München",
+     "postal_code": "80538",
+     "street": "Prinzregentenstraße 54"
+    },
+    "company_id": "DE-HRB-D2601-268649",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Pharao Gebäudemanagement UG (haftungsbeschränkt)",
+    "purpose": "Abrissarbeiten, Trockenbau, Gebäudereinigung und Sicherheitsdienstleistungen.",
+    "register_court": "München",
+    "register_number": "268649",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Winkelmooser Straße 2A, 81825 München",
+     "postal_code": "81825",
+     "street": "Winkelmooser Straße 2A"
+    },
+    "company_id": "DE-HRB-D2601-245946",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MATO International GmbH",
+    "purpose": "Nationales und internationales (weltweites) Bewachungsgewerbe (Personenschutz, Objektschutz, Veranstaltungsschutz, Veranstaltungsmanagement, Facilitymanagement, Geld- und Wertransporte).",
+    "register_court": "München",
+    "register_number": "245946",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Stahlgruberring 48, 81829 München",
+     "postal_code": "81829",
+     "street": "Stahlgruberring 48"
+    },
+    "company_id": "DE-HRB-D2601-168740",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Corporate Trust, Business Risk & Crisis Management GmbH",
+    "purpose": "Strategische Beratung, konzeptionelle Erstellung, Vermittlung und Durchführung von Dienstleistungen, insbesondere im Sicherheitsbereich sowie dem Personal- und Unternehmensmanagement. Des Weiteren Handel und Verkauf von Produkten im Zusammenhang mit den Dienstleistungen. Darüber hinaus Personalvermittlung außerhalb des AÜG. Weiter werden Struktur- und Organisationsberatung für Sicherheitsfragen jeglicher Art sowie Vermittlung von Sicherheitsdienstleistern sowohl im personellen, technischen als auch im IT-Bereich erbracht.",
+    "register_court": "München",
+    "register_number": "168740",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Bremer Straße 11, 80807 München",
+     "postal_code": "80807",
+     "street": "Bremer Straße 11"
+    },
+    "company_id": "DE-HRB-D2601-152653",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Show-Sec Sicherheitsdienste GmbH",
+    "purpose": "Durchführung von Sicherheits-Dienstleistungen aller Art für Veranstaltungen in den Bereichen Kultur und Sport, Bewachungsdienste für Personen- und Objektschutz.",
+    "register_court": "München",
+    "register_number": "152653",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Hansastraße 181, 81373 München",
+     "postal_code": "81373",
+     "street": "Hansastraße 181"
+    },
+    "company_id": "DE-HRB-D2601-230583",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Secure München GmbH",
+    "purpose": "Bewachung von Leben oder Eigentum fremder Personen (Bewachungsgewerbe gemäß §34a), Installation von Videobewachungskameras, Elektroinstallation und Verkauf von Elektroinstallationsmaterial, Durchführung und Ausübung der zulassungsfreien Bautätigkeiten, Ausübung des zulassungsfreien Gebäudereinigerhandwerks sowie Hausmeisterservice.",
+    "register_court": "München",
+    "register_number": "230583",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "München",
+     "country": "DE",
+     "formatted_value": "Würmtalstr. 14, 81375 München",
+     "postal_code": "81375",
+     "street": "Würmtalstr. 14"
+    },
+    "company_id": "DE-HRB-D2601-232489",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ARS Security GmbH",
+    "purpose": "Betrieb eines Sicherheitsdienstes.",
+    "register_court": "München",
+    "register_number": "232489",
+    "register_type": "HRB"
+   }
+  ]
+ },
+ "total_pages": 8,
+ "total_results": 227
+}

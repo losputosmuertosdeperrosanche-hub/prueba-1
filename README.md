@@ -38,3 +38,23 @@ go run . -q "Naturkosmetik" -n 50     # texto libre, 50 resultados
 go run . -wz -todas -csv leads.csv    # códigos WZ, incluye inactivas, exporta a CSV
 go build -o nexuslead . && ./nexuslead -h   # compilar un ejecutable
 ```
+
+## Mapa de empresas de seguridad (demo)
+
+En `security-map/` está el mapa interactivo de empresas de seguridad privada
+(código de actividad WZ 2025 **80.01**) con datos reales del Handelsregister vía OpenRegister.
+
+Pasos para regenerarlo:
+
+```bash
+cd security-map
+export OPENREGISTER_API_KEY="tu_api_key"
+python fetch_companies.py "Nürnberg" 3   # descarga hasta 3 páginas (30 empresas/página, 10 créditos/página)
+python geocode.py                        # coordenadas con OpenStreetMap (Photon)
+python build_map.py                      # genera index.html con todo embebido
+```
+
+- `raw/`: respuestas de la API por ciudad.
+- `contacts.json`: teléfono, email, web y USt-IdNr. obtenidos con `GET /v0/company/{id}/contact` (10 créditos por empresa).
+- `geocache.json`: coordenadas y precisión (`direccion`, `codigo_postal` o `ciudad`).
+- `countries.geojson`: fronteras de Alemania y vecinos (Natural Earth, vía `world-atlas`).

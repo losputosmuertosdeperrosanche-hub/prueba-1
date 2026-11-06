@@ -1,0 +1,549 @@
+{
+ "city": "Hamburg",
+ "pages": {
+  "1": [
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Moorfleeter Straße 40, 22113 Hamburg",
+     "postal_code": "22113",
+     "street": "Moorfleeter Straße 40"
+    },
+    "company_id": "DE-HRB-K1101-202336",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Fact H&F GmbH",
+    "purpose": "Sicherheitsdienstleistungen und Personalvermittlung. Ferner der Handel mit erlaubnisfreien Waren aller Art, insbesondere Obst und Gemüse, der Im- und Export von erlaubnisfreien Waren aller Art, insbesondere Obst und Gemüse, die Erbringung von Logistikdienstleistungen, der Ankauf, das Halten, die Verwaltung und die Verwertung von Forderungen (Factoring) sowie die damit im Zusammenhang stehenden Dienstleistungen soweit hierfür keine Erlaubnisse gemäß Banken- und Kreditgesetz erforderlich sind.",
+    "register_court": "Hamburg",
+    "register_number": "202336",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Georgsplatz 1, 20099 Hamburg",
+     "postal_code": "20099",
+     "street": "Georgsplatz 1"
+    },
+    "company_id": "DE-HRB-K1101-202247",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FDM SafeCore GmbH",
+    "purpose": "Gegenstand des Unternehmens ist die Erbringung von Ordnerdiensten irn Bereich Besucherlenkung, Einweisungsdiensten, Informationsdiensten, Pförtnerdiensten, Empfangsservice und Veranstaltungsservice, soweit keine erlaubnispflichtigen Bewachungstätigkeiten nach § 34a GewO ausgeübt werden.",
+    "register_court": "Hamburg",
+    "register_number": "202247",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Ostrhauderfehn",
+     "country": "DE",
+     "formatted_value": "Idafehn Nord 11, 26842 Ostrhauderfehn",
+     "postal_code": "26842",
+     "street": "Idafehn Nord 11"
+    },
+    "company_id": "DE-HRB-K1101-202195",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FYBRETTO security Gmbh",
+    "purpose": "Gegenstand des Unternehmens ist die Verwaltung eigenen Vermögens, Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34 a GewO und § 6 Bewachungsverordnung, Revierfahrten, Übernahme von Dienstleistungen einer Detektei und Auskunftei.",
+    "register_court": "Hamburg",
+    "register_number": "202195",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Saling 25, 20535 Hamburg",
+     "postal_code": "20535",
+     "street": "Saling 25"
+    },
+    "company_id": "DE-HRB-K1101-202180",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Rolu Worldwide Security GmbH",
+    "purpose": "Alle Sicherheitsdienstleistungen, insbesondere auch im technischen Bereich und alle damit verbundenen Serviceleistungen, wie Beratungsleistungen, Personalvermittlung, - ausbildung und Arbeitnehmerüberlassung sowie Projektierung, die Errichtung, der Verkauf und die Vermietung von Sicherheitssystemen, Einbruch- und Videoanlagen und Schließsystemen weltweite Erbringung von Sicherheitsdienstleistungen im Bereich Personenschutz und Gebäudesicherung.",
+    "register_court": "Hamburg",
+    "register_number": "202180",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Niemannstraße 34 c, 21073 Hamburg",
+     "postal_code": "21073",
+     "street": "Niemannstraße 34 c"
+    },
+    "company_id": "DE-HRB-K1101-202017",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Custos United UG (haftungsbeschränkt)",
+    "purpose": "Gegenstand der Gesellschaft ist die Erbringung von Sicherheits- und Bewachungsdienstleistungen, insbesondere Objekt- und Werkschutz, Veranstaltungsschutz, Empfangs- und Pfortendienste, Revier- und Streifendienste sowie Sicherheitsberatung, ferner der Handel mit sicherheitstechnischen Produkten sowie der Abschluss aller damit im Zusammenhang stehenden Geschäfte. Bewachungstätigkeiten im Sinne des § 34a der Gewerbeordnung übt die Gesellschaft erst aus, sobald ihr die hierfür erforderliche Erlaubnis erteilt worden ist. Tätigkeiten, die einer weitergehenden behördlichen Erlaubnis oder Zulassung bedürfen, sind nicht Gegenstand des Unternehmens, solange die entsprechende Erlaubnis nicht vorliegt.",
+    "register_court": "Hamburg",
+    "register_number": "202017",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Billstraße 180, 20539 Hamburg",
+     "postal_code": "20539",
+     "street": "Billstraße 180"
+    },
+    "company_id": "DE-HRB-K1101-201961",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "S&R Security GmbH",
+    "purpose": "Personaldienstleistungen und Arbeitnehmerüberlassung (Zeitarbeit), Sicherheitsdienstleistungen gemäß § 34a GewO, Brandwachen, Ordnerdienste, Verkehrslenkung, Logistik und Transport, Baulogistik, Hoch- und Tiefbau sowie die allgemeine Gebäudereinigung.",
+    "register_court": "Hamburg",
+    "register_number": "201961",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Winterhuder Weg 29, 22085 Hamburg",
+     "postal_code": "22085",
+     "street": "Winterhuder Weg 29"
+    },
+    "company_id": "DE-HRB-K1101-201844",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Müller Crowd Services UG (haftungsbeschränkt)",
+    "purpose": "Die Planung, Organisation, Koordination und Durchführung von Veranstaltungen sowie die Übernahme von Veranstaltungs-, Produktions- und Nachtleitungen. Weiterhin erbringt die Gesellschaft Veranstaltungs- und Servicedienstleistungen, insbesondere Akkreditierungs-, Besucherbetreuungs-, Garderoben-, Aufbau-, Abbau-, Logistik-, Produktions- und Helferdienstleistungen sowie sonstige organisatorische Unterstützungsleistungen bei Veranstaltungen. Die vorgenannten Leistungen können durch eigenes Personal und selbstständige Nachunternehmer unter Organisation und Verantwortung der Gesellschaft erbracht werden. Zum Unternehmensgegenstand gehören außerdem die Konzeption und Durchführung von Awareness-, Präventions-, Gästebetreuungs- und Deeskalationsmaßnahmen bei Veranstaltungen sowie die gewerbsmäßige Vermittlung von Personal. Ferner erbringt die Gesellschaft Bewachungsdienstleistungen gemäß § 34a Gewerbeordnung, insbesondere Veranstaltungsschutz, Einlass- und Zugangskontrollen, Objektschutz, Kontroll- und Ordnungsdienste sowie die Sicherung von Veranstaltungsbereichen. Erlaubnispflichtige Tätigkeiten werden erst nach Erteilung der jeweils erforderlichen behördlichen Erlaubnis ausgeübt.",
+    "register_court": "Hamburg",
+    "register_number": "201844",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Groten Hoff 21, 22359 Hamburg",
+     "postal_code": "22359",
+     "street": "Groten Hoff 21"
+    },
+    "company_id": "DE-HRB-K1101-201827",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Opero UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von infrastrukturellen und unterstützenden Dienstleistungen insbesondere Reinigungs- und Hygienedienstleistungen, Sicherheits- und Kontrollleistungen, Bereitstellung von Personal für unterstützende Tätigkeiten, organisatorische und logistische Dienstleistungen, allgemeine betriebliche Serviceleistungen sowie alle damit im Zusammenhang stehenden Tätigkeiten.",
+    "register_court": "Hamburg",
+    "register_number": "201827",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Wandsbeker Chaussee 212-214, 22089 Hamburg",
+     "postal_code": "22089",
+     "street": "Wandsbeker Chaussee 212-214"
+    },
+    "company_id": "DE-HRB-K1101-201785",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FN-Hanseatico GmbH",
+    "purpose": "Erbringung von Ordnerdiensten im Bereich Besucherlenkung, Einweisungsdiensten, lnformationsdiensten, Pförtnerdiensten, Empfangsservice und Veranstaltungsservice, soweit keine erlaubnispflichtigen Bewachungstätigkeiten nach § 34a GewO ausgeübt werden.",
+    "register_court": "Hamburg",
+    "register_number": "201785",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Winterhuder Weg 29, 22085 Hamburg",
+     "postal_code": "22085",
+     "street": "Winterhuder Weg 29"
+    },
+    "company_id": "DE-HRB-K1101-201784",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "M&C Dienstleistungen GmbH",
+    "purpose": "Gegenstand des Unternehmens sind Dienstleistungen im Bereich Logistik und Güterverkehr, Personaldienstleistungen sowie alle damit im Zusammenhang stehenden Tätigkeiten, Ausführung von Arbeiten im Garten- und Landschaftsbau, Hausmeistertätigkeiten inkl. Reinigungsarbeiten, Bauservice mit Bauhilfsleistungen und Trockenbauarbeiten, Durchführen einer Brandwache, ferner der Handel mit Waren, insbesondere von Baumaterial.",
+    "register_court": "Hamburg",
+    "register_number": "201784",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Winterhuder Weg 29, 22085 Hamburg",
+     "postal_code": "22085",
+     "street": "Winterhuder Weg 29"
+    },
+    "company_id": "DE-HRB-K1101-201690",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "José-Dienstleistungen GmbH",
+    "purpose": "Gegenstand des Unternehmens sind Durchführen einer Brandwache, Detektivarbeiten, Personaldienstleistungen sowie alle damit im Zusammenhang stehenden Tätigkeiten, Dienstleistungen im Bereich Lager, Logistik und Güterverkehr.",
+    "register_court": "Hamburg",
+    "register_number": "201690",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Winterhuder Weg 29, 22085 Hamburg",
+     "postal_code": "22085",
+     "street": "Winterhuder Weg 29"
+    },
+    "company_id": "DE-HRB-K1101-201663",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "A.M.S. Dienstleistungen GmbH",
+    "purpose": "Gegenstand des Unternehmens sind Durchführen einer Brandwache, Personaldienstleistungen sowie alle damit im Zusammenhang stehenden Tätigkeiten, Dienstleistungen im Bereich Lager, Logistik und Güterverkehr, Bauservice.",
+    "register_court": "Hamburg",
+    "register_number": "201663",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "An der Alster 6, 20099 Hamburg",
+     "postal_code": "20099",
+     "street": "An der Alster 6"
+    },
+    "company_id": "DE-HRB-K1101-201646",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Prio Event UG (haftungsbeschränkt)",
+    "purpose": "Sicherheits- und Ordnungsdienste jeder Art, insbesondere Veranstaltungs-, Personen-, Objekt- und Werkschutz, ferner Pförtner- und Empfangsdienste.",
+    "register_court": "Hamburg",
+    "register_number": "201646",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Neuer Wall 71, 20354 Hamburg",
+     "postal_code": "20354",
+     "street": "Neuer Wall 71"
+    },
+    "company_id": "DE-HRB-K1101-201598",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "RB Secure Clean GmbH",
+    "purpose": "Sicherheitsdienstleistungen, Objektbewachung, Ordnungsdienste und Reinigungsarbeiten.",
+    "register_court": "Hamburg",
+    "register_number": "201598",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Bredowstraße 17 c, 22113 Hamburg",
+     "postal_code": "22113",
+     "street": "Bredowstraße 17 c"
+    },
+    "company_id": "DE-HRB-K1101-201520",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Sirac UG (haftungsbeschränkt)",
+    "purpose": "Die Durchführung von Transport- und Logistikdienstleistungen bis 3,5 t zulässigem Gesamtgewicht einschließlich der Vermittlung von Aufträgen sowie die Erbringung genehmigungsfreier Sicherheit- und Ordnertätigkeiten.",
+    "register_court": "Hamburg",
+    "register_number": "201520",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Wendenstraße 435, 20537 Hamburg",
+     "postal_code": "20537",
+     "street": "Wendenstraße 435"
+    },
+    "company_id": "DE-HRB-K1101-201489",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Tommy Security & Tommy Cleaning GmbH",
+    "purpose": "Objekt- und Gebäudeschutz, Personenschutz, Detektiv- und Ermittlungsdienste, Fahrdienste, Sachtransporte, Reinigungsservice und Gebäudereinigung, Schutz & Prävention, Empfangs- und Postdienste, Messe- und Veranstaltungsdienste, Sicherheitsberatung und Sicherheitstechnik, Notruf- und Servicecenter, Ordnerdienste, Bauhelfer, ÖPV-Sicherheit, Wert-und Geldtransporte, Baustellensicherung, Brandwache, Lager- und Logistikdienstleistungen, Objekt- und Werkschutz, Sport und Event Security, Streifendienste, Revierwachdienste und Alarmverfolgung, Kaufhaus- und Warenhausdetektei, Public Private Partnership, Sicherheitstechnik, Empfang/Besucherservice, Arbeitnehmerüberlassung.",
+    "register_court": "Hamburg",
+    "register_number": "201489",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Gluckstraße 57, 22081 Hamburg",
+     "postal_code": "22081",
+     "street": "Gluckstraße 57"
+    },
+    "company_id": "DE-HRB-K1101-201467",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "OmniStruct UG (haftungsbeschränkt)",
+    "purpose": "Die Gerüstbauhelfertätigkeiten, Garten- und Landschaftsbauarbeiten, Trockenbau, Bodenlegerarbeiten, Baustellennebentätigkeiten, Dienst- und Logistikleistungen im Bau- und Transportbereich, Consulting sowie Ordnertätigkeiten.",
+    "register_court": "Hamburg",
+    "register_number": "201467",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Stolper Straße 2 A, 22145 Hamburg",
+     "postal_code": "22145",
+     "street": "Stolper Straße 2 A"
+    },
+    "company_id": "DE-HRB-K1101-201462",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NordwayCargo Logistic GmbH",
+    "purpose": "Die Erbringung von Transport- und Logistikdienstleistungen, insbesondere Transportdienstleistungen mit Fahrzeugen bis zu einem zulässigen Gesamtgewicht von 3,5 Tonnen sowie, soweit erforderlich, aufgrund einer entsprechenden EU-Gemeinschaftslizenz bzw. sonstigen behördlichen Genehmigung. Zum Unternehmensgegenstand gehören ferner Kurier-, Express- und Zustelldienstleistungen, insbesondere für Auftraggeber aus dem Bereich des Paket- und Versandwesens, sowie Lager- und Logistikarbeiten, Lagerhilfe, Kommissionierung und sonstige unterstützende Tätigkeiten im Lager- und Transportbereich. Weiterer Gegenstand des Unternehmens ist die Erbringung von Winterdienstleistungen, Gebäude- und Industriereinigung, Bauendreinigung sowie sonstigen Reinigungs- und Facility Dienstleistungen. Die Gesellschaft erbringt ferner Personalvermittlung, Personaldienstleistungen, Sicherheitspersonalvermittlung sowie die Vermittlung und Überlassung von Arbeitskräften, soweit hierfür die jeweils erforderlichen gesetzlichen Voraussetzungen und behördlichen Erlaubnisse vorliegen. Darüber hinaus umfasst der Unternehmensgegenstand die Erbringung von Produktionshelfer-, Transporthelfer-, Lager- und sonstigen unterstützenden Dienstleistungen sowie Sicherheits- und Bewachungsdienstleistungen einschließlich Gebäudeüberwachung, soweit diese erlaubnisfrei sind oder die hierfür erforderlichen behördlichen Erlaubnisse vorliegen.",
+    "register_court": "Hamburg",
+    "register_number": "201462",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Gebweiler Straße 13, 22049 Hamburg",
+     "postal_code": "22049",
+     "street": "Gebweiler Straße 13"
+    },
+    "company_id": "DE-HRB-K1101-201459",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "2x2Meter Sicherheit GmbH",
+    "purpose": "Gegenstand des Unternehmens ist die Erbringung von Sicherheitsdienstleistungen, insbesondere der Personen- und Begleitschutz, der Objektschutz, die Erstellung von Sicherheitskonzepten und Risikoanalysen sowie die Beratung im Bereich der zivilen Sicherheit und alle damit im Zusammenhang stehenden Tätigkeiten.",
+    "register_court": "Hamburg",
+    "register_number": "201459",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Stolper Straße 2 A, 22145 Hamburg",
+     "postal_code": "22145",
+     "street": "Stolper Straße 2 A"
+    },
+    "company_id": "DE-HRB-K1101-201447",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "STEIN & NAGEL Logistic GmbH",
+    "purpose": "Gegenstand des Unternehmens ist die Erbringung von Transport- und Logistikdienstleistungen, insbesondere Transportdienstleistungen mit Fahrzeugen bis zu einem zulässigen Gesamtgewicht von 3,5 Tonnen sowie, soweit erforderlich, aufgrund einer entsprechenden EU-Gemeinschaftslizenz bzw. sonstigen behördlichen Genehmigung. Zum Unternehmensgegenstand gehören ferner Kurier-, Express- und Zustelldienstleistungen, insbesondere für Auftraggeber aus dem Bereich des Paket- und Versandwesens, sowie Lager- und Logistikarbeiten, Lagerhilfe, Kommissionierung und sonstige unterstützende Tätigkeiten im Lager-und Transportbereich. Weiterer Gegenstand des Unternehmens ist die Erbringung von Winterdienstleistungen, Gebäude- und Industriereinigung, Bauendreinigung sowie sonstigen Reinigungs- und Facility Dienstleistungen. Die Gesellschaft erbringt ferner Personalvermittlung, Personaldienstleistungen, Sicherheitspersonalvermittlung sowie die Vermittlung und Überlassung von Arbeitskräften, soweit hierfür die jeweils erforderlichen gesetzlichen Voraussetzungen und behördlichen Erlaubnisse vorliegen. Darüber hinaus umfasst der Unternehmensgegenstand die Erbringung von Produktionshelfer-, Transporthelfer-, Lager- und sonstigen unterstützenden Dienstleistungen sowie Sicherheits- und Bewachungsdienstleistungen einschließlich Gebäudeüberwachung, soweit diese erlaubnisfrei sind oder die hierfür erforderlichen behördlichen Erlaubnisse vorliegen.",
+    "register_court": "Hamburg",
+    "register_number": "201447",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Lichtenberger Straße 1, 22045 Hamburg",
+     "postal_code": "22045",
+     "street": "Lichtenberger Straße 1"
+    },
+    "company_id": "DE-HRB-K1101-200955",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Novaguard GmbH",
+    "purpose": "Die Erbringung und Vermittlung von Dienstleistungen in den Bereichen Bewachungstätigkeiten, Ordner- und Servicetätigkeiten, Gebäudereinigung sowie alle damit im Zusammenhang stehenden Tätigkeiten, ausgenommen genehmigungspflichtige Tätigkeiten.",
+    "register_court": "Hamburg",
+    "register_number": "200955",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Amundsenstraße 22, 22767 Hamburg",
+     "postal_code": "22767",
+     "street": "Amundsenstraße 22"
+    },
+    "company_id": "DE-HRB-K1101-200971",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Alpha Security & Facility Services UG (haftungsbeschränkt)",
+    "purpose": "Gegenstand des Unternehmens ist der Handel mit Kraftfahrzeugen, Fahrzeugüberführungen, Kfz-bezogene Dienstleistungen, Facility- und Hausmeisterservices, Gebäudereinigung, Möbel- und Küchenmontage, der Vertrieb von Sicherheits- und Überwachungstechnik sowie die Erbringung sonstiger erlaubnisfreier Dienstleistungen. Ferner ist Gegenstand des Unternehmens die Erbringung von Dienstleistungen im Wach- und Sicherheitsgewerbe sowie der Betrieb einer Detektei, insbesondere Sicherheits-, Bewachungs-, Schutz-, Überwachungs-, Ermittlungs- und Beratungsdienstleistungen aller Art einschließlich aller damit im Zusammenhang stehenden Tätigkeiten.",
+    "register_court": "Hamburg",
+    "register_number": "200971",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Lichtenberger Straße 1, 22045 Hamburg",
+     "postal_code": "22045",
+     "street": "Lichtenberger Straße 1"
+    },
+    "company_id": "DE-HRB-K1101-200978",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Secuvia GmbH",
+    "purpose": "Die Erbringung und Vermittlung von Dienstleistungen in den Bereichen Bewachungstätigkeiten, Ordner- und Servicetätigkeiten, Gebäudereinigung sowie alle damit im Zusammenhang stehenden Geschäfte, ausgenommen genehmigungspflichtige Geschäfte.",
+    "register_court": "Hamburg",
+    "register_number": "200978",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Billwerder Steindamm 19, 20537 Hamburg",
+     "postal_code": "20537",
+     "street": "Billwerder Steindamm 19"
+    },
+    "company_id": "DE-HRB-K1101-190011",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "PUK Nord GmbH",
+    "purpose": "Der Bühnen Auf- und Abbau, VeranstaItungsservice, die Vermittlung von Servicekräften, Hostessendienstleistungen, die Ordnervermittlung, ReinigungspersonaIdienstleistungen sowie Facilitymanagement, die Vermittlung von Brandposten, der Verkauf von Sicherheits- und Reinigungsartikeln, Lager- und LogistikdienstIeistungen aller Art, Dienstleistungen im Eisenbahnbereich, IT-Service sowie IT-Wartung, ausgenommen sind genehmigungspflichtige Tätigkeiten.",
+    "register_court": "Hamburg",
+    "register_number": "190011",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Ludwig-Erhard-Straße 18, 20459 Hamburg",
+     "postal_code": "20459",
+     "street": "Ludwig-Erhard-Straße 18"
+    },
+    "company_id": "DE-HRB-K1101-190234",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Cottoos Dienstleistung GmbH",
+    "purpose": "Das Kommissionieren, der Transport, die Be- und Entladung von Containern, logistische Dienstleistung, Staplertätigkeiten, Bauendreinigung; Büroreinigung, Hoch- und Tiefbauarbeiten, Rohbauarbeiten, Innen- und Außenputzarbeiten, Fugenarbeiten, Trocken- und Innenausbau, Sanierungs- und Abbrucharbeiten sowie Fassadenarbeiten, ferner der Garten- und Landschaftsbau sowie Betreuung- und Ordnerdienste, ausgenommen sind genehmigungspfIichtige Tätigkeiten.",
+    "register_court": "Hamburg",
+    "register_number": "190234",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Ballindamm 27, 20095 Hamburg",
+     "postal_code": "20095",
+     "street": "Ballindamm 27"
+    },
+    "company_id": "DE-HRB-K1101-190348",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "BRUNA Service GmbH",
+    "purpose": "Gegenstand des Unternehmens ist die Erbringung und Vermittlung von Dienstleistungen im allgemeinen insbesondere Logistik, Überwachungstätigkeiten, Service und Brandsicherung sowie Personal und Waren in diesen Bereichen.",
+    "register_court": "Hamburg",
+    "register_number": "190348",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Dammtorstraße 21 A, 20354 Hamburg",
+     "postal_code": "20354",
+     "street": "Dammtorstraße 21 A"
+    },
+    "company_id": "DE-HRB-K1101-200866",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "ROCKET Sicherheit und Personal GmbH",
+    "purpose": "Gegenstand des Unternehmens ist das Betreiben eines Bewachungsgewerbes sowie alle damit im Zusammenhang stehenden Tätigkeiten (insb. Objekt- und Veranstaltungsschutz, Brandwache, Ordnertätigkeiten) sowie Transport und Logistikdienstleistungen, erlaubnisfreie Reinigungs- und Baudienstleistungen sowie die Personalvermittlung in die genannten Bereiche.",
+    "register_court": "Hamburg",
+    "register_number": "200866",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Randstraße 1, 22525 Hamburg",
+     "postal_code": "22525",
+     "street": "Randstraße 1"
+    },
+    "company_id": "DE-HRB-K1101-200730",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Goldstyn Solutions GmbH",
+    "purpose": "Gegenstand des Unternehmens sind die Erbringung von Objektüberwachungs- und Sicherheitsdienstleistungen sowie Personaldienstleistungen einschließlich Vermittlung von Fachkräften in diesem Bereich.",
+    "register_court": "Hamburg",
+    "register_number": "200730",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Kienenhagen 2 a, 21035 Hamburg",
+     "postal_code": "21035",
+     "street": "Kienenhagen 2 a"
+    },
+    "company_id": "DE-HRB-K1101-200581",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Nordfeld UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Dienstleistungen in den Bereichen Tiefbau, Straßenbau, Kabel- und Glasfaserverlegung, Pflasterarbeiten, Garten- und Landschaftsbau, Winterdienst, Gebäudereinigung, Entrümpelungen, Umzugsservice, Maler- und Renovierungsarbeiten sowie Sicherheits- und Überwachungsdienstleistungen, insbesondere Parkraumüberwachung. Ferner logistische Dienstleistungen aller Art, insbesondere Be- und Entladearbeiten von Containern und Fahrzeugen, Lager-, Umschlag-, Kommissionier- und sonstige Hilfs- und Servicedienstleistungen im Logistikbereich, jedoch nicht die erlaubnispflichtige gewerbsmäßige Güterbeförderung. Weiterhin Montage-, Bauhilfs-, Hausmeister- und sonstige Dienstleistungen aller Art, soweit diese nicht einer besonderen behördlichen Erlaubnis oder Eintragung in die Handwerksrolle bedürfen oder die erforderlichen Voraussetzungen hierfür nicht erfüllt sind.",
+    "register_court": "Hamburg",
+    "register_number": "200581",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Hamburg",
+     "country": "DE",
+     "formatted_value": "Rübenkamp 16 D, 22305 Hamburg",
+     "postal_code": "22305",
+     "street": "Rübenkamp 16 D"
+    },
+    "company_id": "DE-HRB-K1101-200442",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "DS-Cooperation UG (haftungsbeschränkt)",
+    "purpose": "Gegenstand des Unternehmens ist der Materialverkauf von Feuerfesterzeugnissen und die Weitergabe von Aufträgen, der An- und Verkauf von Einbauküchen und Elektrogeräten und deren Montage, die Bereitstellung von Sicherheitsposten bei Gleisarbeiten, Winterdienst, Kabelverlegung, die Bereitstellung von Sicherheitsposten allgemein bei Rezessionsarbeiten in der Industrie, Hausmeisterservice, Werbetechnik und Montage, Werbemittelherstellung, die Entschlackung und Reinigung von Feuerfestanlagen, die Plakatierung von Werbeflächen sowie die Durchführung von Gerüstbauarbeiten, Abbrucharbeiten, Lager- und Logistikarbeiten, Gebäude- und Industriereinigung.",
+    "register_court": "Hamburg",
+    "register_number": "200442",
+    "register_type": "HRB"
+   }
+  ]
+ },
+ "total_pages": 19,
+ "total_results": 566
+}

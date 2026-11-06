@@ -1,0 +1,554 @@
+{
+ "city": "Berlin",
+ "pages": {
+  "1": [
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Quartiersweg 6, 10829 Berlin",
+     "postal_code": "10829",
+     "street": "Quartiersweg 6"
+    },
+    "company_id": "DE-HRB-F1103-293552",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "To Be At Südkreuz Facility Management GmbH",
+    "purpose": "Erbringung von Dienstleistungen im Bereich des kaufmännischen, technischen und infrastrukturellen Facility-Managements, insbesondere Objektverwaltung, Hauswart- und Gebäudeserviceleistungen, Inspektion und Wartung technischer Anlagen, Instandsetzung, Gebäudereinigung, Außenanlagen- und Grünpflege sowie Sicherheitsdienstleistungen.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "293552",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Prenzlauer Allee 7, 10405 Berlin",
+     "postal_code": "10405",
+     "street": "Prenzlauer Allee 7"
+    },
+    "company_id": "DE-HRB-F1103-293528",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Acht Plus + UG (haftungsbeschränkt)",
+    "purpose": "Gewerbliche Dienstleistungen, insbesondere Wach- und Sicherheitsdienste (unter Beachtung gesetzlicher Erlaubnisse), Gebäudereinigung, Durchführung von Transporten, Umzügen und Kurierdiensten.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "293528",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "extra": "Hicham Nassif",
+     "formatted_value": "Mariendorfer Damm 214, 12107 Berlin",
+     "postal_code": "12107",
+     "street": "Mariendorfer Damm 214"
+    },
+    "company_id": "DE-HRB-F1103-293461",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "NordWolf Security UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen aller Art, insbesondere Werk- und Objektschutz, Empfangs- und Pfortendienste, Revier- und Streifendienste, Veranstaltungsschutz, Baustellenbewachung, Personenschutz (soweit gesetzlich zulässig), Sicherheitsberatung sowie die Planung und Umsetzung von Sicherheitskonzepten.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "293461",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Brandenburgische Straße 4, 10713 Berlin",
+     "postal_code": "10713",
+     "street": "Brandenburgische Straße 4"
+    },
+    "company_id": "DE-HRB-F1103-293421",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Hibex Sicherheit & Service GmbH",
+    "purpose": "Bewachung von Leben und Eigentum fremder Personen gemäß § 34 a GewO, die Erstellung von Sicherheitsanalysen und die Durchführung von Facility-Services sowie aller damit zusammenhängenden erlaubnisfreien Arbeiten und verwandten Geschäfte, Facility Management, Winterdienst, Bauhilfsleistungen, Unterhaltsreinigung, Grundreinigung, Entrümpelung und Hilfsarbeiten.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "293421",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "extra": "Mohammed Daoud",
+     "formatted_value": "Rothariweg 30, 12103 Berlin",
+     "postal_code": "12103",
+     "street": "Rothariweg 30"
+    },
+    "company_id": "DE-HRB-F1103-293320",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Falcon Titan Security UG (haftungsbeschränkt)",
+    "purpose": "Durchführung von Sicherheitsdienstleistungen",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "293320",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Kolonnenstraße 8, 10827 Berlin",
+     "postal_code": "10827",
+     "street": "Kolonnenstraße 8"
+    },
+    "company_id": "DE-HRB-F1103-293305",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "RheinSicher Sicherheitsdienste 24 GmbH",
+    "purpose": "Die Erbringung von Bewachungs- und Sicherheitsdienstleistungen im Sinne des § 34a GewO, insbesondere Objekt-, Veranstaltungs- und Personenschutz sowie die Durchführung weiterer gesetzlich zulässiger Bewachungstätigkeiten, jeweils vorbehaltlich des Vorliegens der hierfür erforderlichen behördlichen Erlaubnisse und Genehmigungen.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "293305",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "extra": "Mohammed Daoud",
+     "formatted_value": "Rothariweg 30, 12103 Berlin",
+     "postal_code": "12103",
+     "street": "Rothariweg 30"
+    },
+    "company_id": "DE-HRB-F1103-293275",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Tigers Sicherheitsdienste UG (haftungsbeschränkt)",
+    "purpose": "Durchführung von Sicherheitsdienstleistungen.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "293275",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Tegeler Straße 17, 13353 Berlin",
+     "postal_code": "13353",
+     "street": "Tegeler Straße 17"
+    },
+    "company_id": "DE-HRB-F1103-293271",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "EBA GmbH",
+    "purpose": "Sicherheitsdienstleistungen und allgemeine Serviceleistungen.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "293271",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Stresemannstraße 23, 10963 Berlin",
+     "postal_code": "10963",
+     "street": "Stresemannstraße 23"
+    },
+    "company_id": "DE-HRB-F1103-293109",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SACH ED Security UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Bewachungsdienstleistungen gemäß § 34a GewO",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "293109",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Stresemannstraße 23, 10963 Berlin",
+     "postal_code": "10963",
+     "street": "Stresemannstraße 23"
+    },
+    "company_id": "DE-HRB-F1103-293134",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MECKROST AE Security UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Bewachungsdienstleistungen gemäß § 34a GewO.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "293134",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Kolonnenstraße 8, 10827 Berlin",
+     "postal_code": "10827",
+     "street": "Kolonnenstraße 8"
+    },
+    "company_id": "DE-HRB-F1103-292997",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "WestGuard Sicherheitsdienste 24 GmbH",
+    "purpose": "Die Erbringung von Bewachungs- und Sicherheitsdienstleistungen im Sinne des § 34a GewO, insbesondere Objekt-, Veranstaltungs- und Personenschutz sowie die Durchführung weiterer gesetzlich zulässiger Bewachungstätigkeiten, jeweils vorbehaltlich des Vorliegens der hierfür erforderlichen behördlichen Erlaubnisse und Genehmigungen.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292997",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Schubartstraße 6, 13509 Berlin",
+     "postal_code": "13509",
+     "street": "Schubartstraße 6"
+    },
+    "company_id": "DE-HRB-F1103-292921",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SafeSpaceSicherheitsdienste GmbH",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen, insbesondere Objekt- und Werkschutz, Baustellenbewachung, Veranstaltungsschutz, Empfangs- und Pfortendienste, Einlasskontrollen sowie Ladendetektiv- und Doorman-Dienstleistungen.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292921",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Gotzkowskystraße 31, 10555 Berlin",
+     "postal_code": "10555",
+     "street": "Gotzkowskystraße 31"
+    },
+    "company_id": "DE-HRB-F1103-292874",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Vanguard Security H.M. UG (haftungsbeschränkt)",
+    "purpose": "Das Erbringen von Sicherheitsdienstleistungen aller Art, insbesondere der Bewachungsschutz nach § 34a GewO sowie Service- und Reviererdienste.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292874",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Friedrichstraße 79, 10117 Berlin",
+     "postal_code": "10117",
+     "street": "Friedrichstraße 79"
+    },
+    "company_id": "DE-HRB-F1103-292785",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Blinken Service GmbH",
+    "purpose": "Die Brandwache, der Ordner-, Catering- und Gastroservice und die Erbringung von Dienstleistungen im Schienenverkehr einschlieflich aller damit im Zusammenhang stehenden Tätigkeiten sowie der Abschluss aller dem Gesellschaftszweck dienenden Rechtsgeschäfte.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292785",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Kolonnenstraße 8, 10827 Berlin",
+     "postal_code": "10827",
+     "street": "Kolonnenstraße 8"
+    },
+    "company_id": "DE-HRB-F1103-292794",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FORTE Sicherheitsgesellschaft mbH",
+    "purpose": "Die Erbringung von Bewachungs- und Sicherheitsdienstleistungen nach § 34a GewO, insbesondere Objekt-, Werk-, Veranstaltungs-, Empfangs-, Kontroll-, Revier- und Streifendienste sowie die Erstellung und Umsetzung von Sicherheitskonzepten.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292794",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Alt-Buch 45-51, 13125 Berlin",
+     "postal_code": "13125",
+     "street": "Alt-Buch 45-51"
+    },
+    "company_id": "DE-HRB-F1103-292771",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "GS-Protection UG (haftungsbeschränkt)",
+    "purpose": "Bewachungsdienst und Bewachungsgewerbe nach § 34a GewO, Veranstaltungsservice, Dolmetscherservice, Brandsicherheitswachdienst, Sicherheitsberatung durch Personen- und Objektschutzdienste, Vermittlung von Firmenkontakten, Sicherheits-, Pforten- und Empfangsdienste, Winterdienst und Gartenpflege, Hausmeistertätigkeiten, Reinigungstätigkeiten und Hygiene, Sanitätsdienste, Hostessendienste sowie alle damit zusammenhängenden und den Gesellschaftszweck fördernden Tätigkeiten. Tätigkeiten, die einer besonderen behördlichen Erlaubnis, Genehmigung, Zulassung oder sonstigen gesetzlichen Voraussetzung bedürfen, dürfen erst aufgenommen und ausgeübt werden, wenn die jeweiligen gesetzlichen Voraussetzungen erfüllt sind.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292771",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Taunusstraße 12, 14193 Berlin",
+     "postal_code": "14193",
+     "street": "Taunusstraße 12"
+    },
+    "company_id": "DE-HRB-F1103-292718",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Observa Schutz & Sicherheit UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen, insbesondere Objekt- und Werkschutz, Revier- und Streifendienste, Empfangs- und Kontrolldienste, Interventions- und Alarmverfolgungsdienste, Brandwachen sowie Veranstaltungsschutz, darüber hinaus die Erbringung von Service- und Unterstützungsdienstleistungen, insbesondere Empfangs-, Einlass-, Kassen- und Ordnungsdienste sowie Regalservice. Soweit für die Ausübung einzelner Tätigkeiten eine behördliche Erlaubnis oder Genehmigung erforderlich ist, werden diese Tätigkeiten erst nach deren Erteilung ausgeübt.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292718",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Nach der Höhe 2, 13469 Berlin",
+     "postal_code": "13469",
+     "street": "Nach der Höhe 2"
+    },
+    "company_id": "DE-HRB-F1103-292661",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Altero Service GmbH",
+    "purpose": "Die Erbringung von Dienstleistungen im Bereich des Gebäude-, Objekt-, Grundstücks- und Unternehmensservice, insbesondere infrastruktureller, technischer, organisatorischer und kaufmännischer Dienstleistungen sowie von Service-, Betreuungs-, Pflege-, Reinigungs-, Instandhaltungs- und Unterstützungsleistungen sowie die Erbringung von Bewachungs- und Sicherheitsdienstleistungen gemäß § 34a GewO.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292661",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Landsberger Allee 548, 12681 Berlin",
+     "postal_code": "12681",
+     "street": "Landsberger Allee 548"
+    },
+    "company_id": "DE-HRB-F1103-292546",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Kratos Security & Service GmbH",
+    "purpose": "Dienstleistungen im Bereich Sicherheit und Bewachung gem. § 34a GewO und § 6 Bewachungsverordnung. Veranstaltungssicherheit sowie die Erbringung von Servicedienstleistungen, insbesondere Kellnerservice, Veranstaltungsservice, Empfangsservice und Büroservice.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292546",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Stresemannstraße 23, 10963 Berlin",
+     "postal_code": "10963",
+     "street": "Stresemannstraße 23"
+    },
+    "company_id": "DE-HRB-F1103-292520",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "FortisWatch GmbH",
+    "purpose": "Sicherheitsdienstleistungen nach § 34a Abs. 1 der GewO sowie alle damit direkt oder indirekt in Zusammenhang stehenden Tätigkeiten.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292520",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Grüntalerstraße 76A, 13359 Berlin",
+     "postal_code": "13359",
+     "street": "Grüntalerstraße 76A"
+    },
+    "company_id": "DE-HRB-F1103-292349",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "AM Tahl Baudienstleistungen GmbH",
+    "purpose": "Holz- und Bautenschutz, Transporte bis 3,5 Tonnen, An- und Verkauf gebrauchter Möbel, sowie Sicherheitsdienstleistungen, insbesondere Sicherung und Überwachung von Objekten, Veranstaltungen und Personen, Reinigungsarbeiten, Estrichhilfsarbeiten. Weiterhin umfasst der Gegenstand Handel, An- und Verkauf von Kraftfahrzeugen, Auto Service, Finanzberatung für Investoren und Sanierung von Gebäuden, soweit hierfür jeweils keine behördliche Erlaubnis erforderlich ist.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292349",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "extra": "Yannis Breckwoldt",
+     "formatted_value": "Weinbrennerweg 5, 13407 Berlin",
+     "postal_code": "13407",
+     "street": "Weinbrennerweg 5"
+    },
+    "company_id": "DE-HRB-F1103-292333",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Breckwoldt Sicherheit & Service GmbH",
+    "purpose": "Erbringung von Sicherheits- und Bewachungsdienstleistungen aller Art nach § 34a GewO (Gewerbeordnung).",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292333",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Lesser-Ury-Weg 1, 10557 Berlin",
+     "postal_code": "10557",
+     "street": "Lesser-Ury-Weg 1"
+    },
+    "company_id": "DE-HRB-F1103-292303",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "N.O.V.A. Security UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Bewachungs- und Sicherheitsdienstleistungen gemäß § 34a GewO, insbesondere Objekt- und Werkschutz, Veranstaltungsschutz, Revier- und Streifendienste sowie Empfangs- und Pfortendienste für private, gewerbliche und öffentliche Auftraggeber.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292303",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Droysenstraße 5, 10629 Berlin",
+     "postal_code": "10629",
+     "street": "Droysenstraße 5"
+    },
+    "company_id": "DE-HRB-F1103-292253",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Ekert Clean Secure UG (haftungsbeschränkt)",
+    "purpose": "Gebäudereinigung, Hausmeisterdienstleistungen, Tätigkeiten als Brandschutzhelfer und Ordnungskraft sowie Gebäude-, Werks-, Objekt- und Sicherheitsüberwachung gemäß § 34a Gewerbeordnung.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292253",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Großbeerenstraße 60, 10965 Berlin",
+     "postal_code": "10965",
+     "street": "Großbeerenstraße 60"
+    },
+    "company_id": "DE-HRB-F1103-292277",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "MSD UG (haftungsbeschränkt)",
+    "purpose": "Erbringung von Dienstleistungen in den Bereichen Haustechnik, Brandschutz, Logistik und im Bereich des Bewachungsgewerbes gemäß § 34 GewO (Gewerbeordnung), insbesondere Erbringung von Sicherheitsdienstleistungen, Bewachung und Objektschutz, Durchführung von Citystreifen, Veranstaltungsbewachung, Kaufhausdetektei, Bewachung von Flüchtlingsunterkünften, Durchführung von Kontrollgängen im öffentlichen Verkehrsraum und Bewachung von Einlassbereichen und Erbringung aller Dienstleistungen im Zusammenhang hiermit.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "292277",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Köpenicker Straße 44, 12524 Berlin",
+     "postal_code": "12524",
+     "street": "Köpenicker Straße 44"
+    },
+    "company_id": "DE-HRB-F1103-291927",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "HASEG Security UG (haftungsbeschränkt)",
+    "purpose": "Bewachungsdienste, Messesicherheit, Veranstaltungsservice, Revier- und Streifendienst, Facility Management, Pförtnerdienste, Baustellensicherheit, Einbau und Vertrieb Sicherheitstechnik, Personalvermittlung, Auftragsvermittlung.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "291927",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Moltkestraße 30, 12203 Berlin",
+     "postal_code": "12203",
+     "street": "Moltkestraße 30"
+    },
+    "company_id": "DE-HRB-F1103-291789",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Pakt24 Sicherheit & Dienstleistungen GmbH",
+    "purpose": "Die Erbringung von Sicherheitsdienstleistungen im Rahmen des Bewachungsgewerbes nach § 34a GewO, insbesondere Objekt- und Geländeüberwachung, Event- und Veranstaltungssicherheit, Werkschutz, Sicherheitsbegleitung von Geld- und Werttransporten, Personenschutz, Ermittlungs- und Detektivtätigkeiten, Kaufhaus- und Ladendetektivdienste sowie Überwachung von Einkaufszentren, Einlass- und Zugangskontrollen, Parkplatzbewirtschaftung und Verkehrsdienste, Konzern- und Unternehmenssicherheit sowie Sicherheitsberatung einschließlich der Erstellung von Sicherheits-, Gefahrenabwehr- und Notfallkonzepten. Ferner die Vermittlung und Koordination von Sicherheitsdienstleistungen im In- und Ausland. Gebäudereinigungsleistungen im Rahmen einfacher Tätigkeiten im Sinne des § 1 Abs. 2 HwO, insbesondere Unterhalts-, Büro-, Treppenhaus- und Grundreinigung, sowie infrastrukturelles und kaufmännisches Facility Management, Hausmeisterdienste, Winterdienst und Außenanlagenpflege. Transport- und Logistikdienstleistungen, insbesondere Kurier-, Express- und Paketdienste mit Fahrzeugen bis 3,5 t zulässigem Gesamtgewicht, Lager-, Umschlag- und Kommissionierungsleistungen, Warenannahme und -ausgabe, innerbetriebliche Logistik sowie Umzugs- und Entrümpelungsdienstleistungen, jeweils beschränkt auf nicht erlaubnispflichtige Tätigkeiten.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "291789",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Hasenheide 37, 10967 Berlin",
+     "postal_code": "10967",
+     "street": "Hasenheide 37"
+    },
+    "company_id": "DE-HRB-F1103-291774",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "SKN Sicherheit & Service UG (haftungsbeschränkt)",
+    "purpose": "Die Erbringung von Sicherheits- und Bewachungsdienstleistungen aller Art, insbesondere Objektschutz, Veranstaltungsschutz, Einlasskontrollen und Überwachungsdienste, sowie alle damit im Zusammenhang stehenden Tätigkeiten. Reinigungs- und Facility-Services, Winterdienst, Hausmeistertätigkeiten im nicht handwerklichen Bereich, Grün- und Grauflächenpflege sowie die befristete Überlassung von Arbeitskräften, die Gestellung von (Leih-)Arbeitskräften und die Personalvermittlung.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "291774",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "formatted_value": "Buschkrugallee 7, 12359 Berlin",
+     "postal_code": "12359",
+     "street": "Buschkrugallee 7"
+    },
+    "company_id": "DE-HRB-F1103-291584",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "OSA Security GmbH",
+    "purpose": "Sicherheitsdienste, insbesondere Objekt- und Werkschutz, Personenschutz, Event- und Veranstaltungssicherheit, Empfangs- und Kontrolldienste, Videoüberwachung und Sicherheitskonzepte, Bewachungstätigkeiten, Objekt- und Personenschutz, Personenbegleitung, Sicherheitsdienstleistungen im Bereich von Baustellen, Flughäfen, Amtsgebäuden, Einkaufsläden und Einkaufszentren sowie bei Sport- und sonstigen Veranstaltungen gemäß § 34a GewO. Weiterhin Dienstleistungen im Sicherheitsbereich sowie die Reisebegleitung von Besuchern und Touristen.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "291584",
+    "register_type": "HRB"
+   },
+   {
+    "active": true,
+    "address": {
+     "city": "Berlin",
+     "country": "DE",
+     "extra": "Gero Wessel",
+     "formatted_value": "Metzer Straße 14, 13595 Berlin",
+     "postal_code": "13595",
+     "street": "Metzer Straße 14"
+    },
+    "company_id": "DE-HRB-F1103-291548",
+    "country": "DE",
+    "legal_form": "gmbh",
+    "name": "Avantex Security Service UG (haftungsbeschränkt)",
+    "purpose": "Erbringung sämtlicher Sicherheits-, Bewachungs- und Kontrolldienstleistungen gem. § 34a GewO, insbesondere Objekt-, Werk-, Revier-, Veranstaltungs-, Citystreifen-, Einlass-, Pforten- und Personenschutz.",
+    "register_court": "Berlin (Charlottenburg)",
+    "register_number": "291548",
+    "register_type": "HRB"
+   }
+  ]
+ },
+ "total_pages": 50,
+ "total_results": 1475
+}
