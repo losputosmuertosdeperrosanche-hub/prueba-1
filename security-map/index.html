@@ -845,7 +845,7 @@ if (!window.L || !L.markerClusterGroup || !L.vectorGrid) {
 }
 
 // ---------- Mapa base ----------
-const map = L.map("map", {zoomControl:true, minZoom:5, maxZoom:18, zoomSnap:0.5});
+const map = L.map("map", {zoomControl:true, minZoom:5, maxZoom:18, zoomSnap:0.5, preferCanvas:true, wheelPxPerZoomLevel:90});
 map.attributionControl.setPrefix(false).addAttribution(
   'Empresas: <a href="https://openregister.de" target="_blank" rel="noopener">OpenRegister</a> · Calles © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> (<a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a>) · Relieve: Natural Earth');
 const DE_BOUNDS = L.latLngBounds([47.2, 5.8], [55.1, 15.1]);
@@ -909,9 +909,13 @@ function featStyle(p, zoom){
     // El relieve ya trae mares y lagos: el agua de la capa país (z8) solo se pinta en modo Mapa a partir de zoom 11
     case "water": return p.z === 8 && (zoom < 11 || mode === "sat") ? [] : {fill:true, fillColor:P.water, fillOpacity:1, stroke:false, weight:0};
     case "waterway": return zoom < 9 && p.c !== "river" ? [] : {color:P.water, weight: p.c === "river" ? Math.max(1.2, (zoom - 7) * 0.9) : p.c === "canal" ? 1.6 : (zoom < 14 ? 0 : 1), opacity:1};
-    case "landcover": return {fill:true, fillColor:P[p.c] || P.grass, fillOpacity:ao, stroke:false, weight:0};
+    case "landcover":
+      if (p.z === 8) return zoom < 7 || zoom >= 12 ? [] : {fill:true, fillColor:P.wood, fillOpacity: mode === "sat" ? .45 : .6, stroke:false, weight:0};
+      return {fill:true, fillColor:P[p.c] || P.grass, fillOpacity:ao, stroke:false, weight:0};
     case "park": return {fill:true, fillColor:P.park, fillOpacity:ao, stroke:false, weight:0};
-    case "landuse": return zoom < 10 ? [] : {fill:true, fillColor:P[p.c] || P.residential, fillOpacity: mode === "sat" ? .45 : 1, stroke:false, weight:0};
+    case "landuse":
+      if (p.z === 8) return zoom < 8 || zoom >= 12 ? [] : {fill:true, fillColor:P.residential, fillOpacity: mode === "sat" ? .4 : .8, stroke:false, weight:0};
+      return zoom < 10 ? [] : {fill:true, fillColor:P[p.c] || P.residential, fillOpacity: mode === "sat" ? .45 : 1, stroke:false, weight:0};
     case "building": return zoom < 14 ? [] : {fill:true, fillColor:P.building, fillOpacity: mode === "sat" ? .9 : 1, color:P.buildingLine, weight:.6, opacity:1};
     case "transportation": return roadStyle(p.c, zoom, p.z);
   }
@@ -919,6 +923,7 @@ function featStyle(p, zoom){
 }
 function vectorLayer(geo, opts){
   return L.vectorGrid.slicer(geo, Object.assign({pane:"vec", interactive:false, maxZoom:18, tolerance:2, buffer:64,
+    updateWhenZooming:false, updateWhenIdle:true, keepBuffer:3,
     rendererFactory:L.canvas.tile, vectorTileLayerStyles:{sliced:featStyle}}, opts));
 }
 
@@ -971,10 +976,24 @@ function loadZones(){
     fetch(`basemap/zona-${key}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(pkg => {
       const d = decode(pkg);
       const layer = vectorLayer(d.geo, {minZoom:10}).addTo(map);
-      zones.set(key, {state:"ok", layer, geo:d.geo});
+      zones.set(key, {state:"ok", layer, labels:d.labels});
       allLabels = d.labels.concat(allLabels);
+      unloadFarZones();
       drawLabels();
     }).catch(() => zones.delete(key)).finally(() => { pending--; if (pending <= 0) $("loading").hidden = true; });
+  }
+}
+// Mantener en memoria como mucho 12 zonas: se quitan las más lejanas a la vista actual
+function unloadFarZones(){
+  const ok = [...zones.entries()].filter(([, z]) => z.state === "ok");
+  if (ok.length <= 12) return;
+  const c = map.getCenter(), cz = tileXY(c.lat, c.lng, 11);
+  ok.sort((a, b) => { const d = k => { const [x, y] = k.split("_").map(Number); return (x - cz[0]) ** 2 + (y - cz[1]) ** 2; }; return d(b[0]) - d(a[0]); });
+  for (const [key, z] of ok.slice(0, ok.length - 12)) {
+    z.layer.remove();
+    const gone = new Set(z.labels);
+    allLabels = allLabels.filter(l => !gone.has(l));
+    zones.delete(key);
   }
 }
 function applyMode(){
@@ -1004,10 +1023,10 @@ document.querySelectorAll(".modes button").forEach(b => b.addEventListener("clic
 }));
 border.addTo(map);
 applyMode();
-map.on("moveend zoomend", onView);
+map.on("moveend", onView);
 
 // ---------- Empresas ----------
-const cluster = L.markerClusterGroup({showCoverageOnHover:false, maxClusterRadius:45, spiderfyOnMaxZoom:true,
+const cluster = L.markerClusterGroup({showCoverageOnHover:false, maxClusterRadius:45, spiderfyOnMaxZoom:true, chunkedLoading:true,
   iconCreateFunction: cl => { const ms = cl.getAllChildMarkers(), n = ms.length, s = n < 10 ? 30 : n < 100 ? 38 : 46;
     const sec = ms.some(m => m.options.sec === "80.01"), ev = ms.some(m => m.options.sec === "82.30");
     const hot = ms.some(m => m.options.hasContact);

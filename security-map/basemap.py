@@ -17,9 +17,10 @@ from concurrent.futures import ThreadPoolExecutor
 
 import mapbox_vector_tile as mvt
 import requests
-from shapely.geometry import shape
+from shapely.geometry import MultiPolygon, shape
 
 MIN_EDIFICIO_M2 = 60     # se descartan casetas y garajes pequeños
+MIN_AREA_PAIS_M2 = 1e7   # bosques/zonas urbanas de la capa país: solo manchas de más de 10 km²
 TOLERANCIA_M = {8: 60, 11: 6, 14: 1.5}   # simplificación de contornos, en metros, según el zoom
 
 BASE = pathlib.Path(__file__).parent
@@ -32,6 +33,7 @@ DE = (5.8, 47.2, 15.1, 55.1)         # oeste, sur, este, norte
 # Qué capas y clases se guardan en cada nivel (None = todas las clases)
 CAPAS = {
     8: {"water": None, "waterway": {"river", "canal"}, "place": {"city", "town"},
+        "landcover": {"wood"}, "landuse": {"residential", "suburb"},
         "transportation": {"motorway", "trunk", "primary"}},
     11: {"water": None, "waterway": {"river", "canal"}, "landcover": {"wood", "grass"},
          "landuse": {"residential", "suburb", "neighbourhood", "industrial", "commercial", "retail"},
@@ -106,7 +108,16 @@ def convertir(z, x, y, data):
             geom = shape(g)
             if nombre == "building" and geom.area * metros ** 2 < MIN_EDIFICIO_M2:
                 continue
-            geom = geom.simplify(TOLERANCIA_M[z] / metros, preserve_topology=True)
+            tol = TOLERANCIA_M[z]
+            if z == 8 and nombre in ("landcover", "landuse"):
+                # a escala de país solo bosques y núcleos urbanos grandes, para que la carga inicial sea ligera
+                partes = [geom] if geom.geom_type == "Polygon" else list(getattr(geom, "geoms", []))
+                partes = [g for g in partes if g.geom_type == "Polygon" and g.area * metros ** 2 >= MIN_AREA_PAIS_M2]
+                if not partes:
+                    continue
+                geom = MultiPolygon(partes)
+                tol = 250
+            geom = geom.simplify(tol / metros, preserve_topology=True)
             if geom.is_empty:
                 continue
             feats.append([nombre, cls, z, *codificar(geom, lambda px, py: q(lonlat(z, x, y, px, py, ext)))])
