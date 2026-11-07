@@ -115,6 +115,63 @@ CULINARIA_DE = {
     "sausage": "Wurst", "african": "afrikanisch", "balkan": "Balkan", "breakfast": "Frühstück", "fish": "Fisch",
     "pastry": "Gebäck", "salad": "Salat", "bakery": "Bäckerei", "tapas": "Tapas", "pasta": "Pasta",
     "vegan": "vegan", "vegetarian": "vegetarisch", "ramen": "Ramen", "noodle": "Nudeln",
+    # Valores OSM "cuisine" sin entrada arriba (la clave va en minúsculas; extra_de hace cu.lower())
+    "american": "amerikanisch", "croatian": "kroatisch", "croatic": "kroatisch", "kroatian": "kroatisch", "croatia": "kroatisch",
+    "barbecue": "Barbecue", "donut": "Donut", "oriental": "orientalisch", "orient": "orientalisch", "bistro": "Bistro",
+    "austrian": "österreichisch", "georgian": "georgisch", "italian_pizza": "Pizza", "pizza_italian": "Pizza", "falafel": "Falafel",
+    "afghan": "afghanisch", "fries": "Pommes", "french_fries": "Pommes", "pommes": "Pommes", "bagel": "Bagel", "friture": "Frittiertes",
+    "fried_food": "Frittiertes", "syrian": "syrisch", "syrianarabic": "syrisch-arabisch", "ethiopian": "äthiopisch", "aethiopian": "äthiopisch",
+    "crepe": "Crêpes", "crepes": "Crêpes", "crêpe": "Crêpes", "peruvian": "peruanisch", "waffle": "Waffeln", "waffles": "Waffeln",
+    "bowl": "Bowls", "bowls": "Bowls", "juice": "Säfte", "sudanese": "sudanesisch", "argentinian": "argentinisch",
+    "fine_dining": "Gehobene Küche", "casual_fine_dining": "Casual Fine Dining", "grill": "Grill", "russian": "russisch",
+    "moroccan": "marokkanisch", "maroccan": "marokkanisch", "polish": "polnisch", "brazilian": "brasilianisch", "swabian": "schwäbisch",
+    "tea": "Tee", "curry": "Curry", "brunch": "Brunch", "indonesian": "indonesisch", "nepalese": "nepalesisch", "soup": "Suppen",
+    "swedish": "schwedisch", "coffee": "Kaffee", "ukrainian": "ukrainisch", "hot_dog": "Hot Dog", "latin_american": "lateinamerikanisch",
+    "fish_and_chips": "Fish & Chips", "local": "regional", "lokal": "regional", "irish": "irisch", "poke": "Poké Bowl", "pokebowl": "Poké Bowl",
+    "fast_food": "Fast Food", "shawarma": "Schawarma", "canteen": "Kantine", "israeli": "israelisch", "pakistani": "pakistanisch",
+    "pakistan": "pakistanisch", "hawaiian": "hawaiisch", "steak": "Steak", "middle_eastern": "nahöstlich", "cafe": "Café",
+    "coffe_shop": "Café", "cafeteria": "Cafeteria", "pancake": "Pfannkuchen", "european": "europäisch", "egyptian": "ägyptisch",
+    "mongolian": "mongolisch", "bosnian": "bosnisch", "armenian": "armenisch", "eritrean": "eritreisch", "malaysian": "malaysisch",
+    "romanian": "rumänisch", "rumanian": "rumänisch", "chocolate": "Schokolade", "uzbek": "usbekisch", "burrito": "Burrito",
+    "tex-mex": "Tex-Mex", "dessert": "Dessert", "scandinavian": "skandinavisch", "smoothie": "Smoothies", "jewish": "jüdisch",
+    "fusion": "Fusion", "wine": "Wein", "hungarian": "ungarisch", "caribbean": "karibisch", "gourmet": "Gourmet", "cuban": "kubanisch",
+    "health_food": "Gesundheitskost", "healthy": "gesund", "taiwanese": "taiwanesisch", "venezuelan": "venezolanisch",
+    "albanian": "albanisch", "uyghur": "uigurisch", "uyghurisch": "uigurisch", "noodles": "Nudeln", "deli": "Delikatessen",
+    "croque": "Croque", "croques": "Croque", "sri_lankan": "sri-lankisch", "franconian": "fränkisch", "fränkische": "fränkisch",
+    "tibetan": "tibetisch", "tibetian": "tibetisch", "tibet": "tibetisch", "snack": "Snacks", "snacks": "Snacks", "wrap": "Wraps",
+    "wraps": "Wraps", "potato": "Kartoffel", "colombian": "kolumbianisch", "kurdish": "kurdisch", "cantonese": "kantonesisch",
+    "baklava": "Baklava", "organic": "Bio", "dumplings": "Dumplings", "bulgarian": "bulgarisch", "czech": "tschechisch",
+    "beef_bowl": "Beef Bowl", "pub": "Pub", "fried_chicken": "Brathähnchen", "australian": "australisch", "tacos": "Tacos",
+    "buffet": "Buffet", "chilean": "chilenisch", "grilled_chicken": "Grillhähnchen", "californian": "kalifornisch", "british": "britisch",
+    "wings": "Wings", "belgian": "belgisch", "diner": "Diner", "flammkuchen": "Flammkuchen", "iranian": "iranisch", "drinks": "Getränke",
+    "lunch": "Mittagessen", "south_indian": "südindisch", "tarte_flambee": "Flammkuchen", "meat": "Fleisch", "dutch": "niederländisch",
+    "lao": "laotisch", "hummus": "Hummus", "pretzel": "Brezel", "filipino": "philippinisch", "cookies": "Kekse", "bohemian": "böhmisch",
+    "tunisian": "tunesisch", "alsatian": "elsässisch", "guatemalan": "guatemaltekisch", "bolivian": "bolivianisch", "levante": "levantinisch",
+    "levantine": "levantinisch", "senegambische (whatever this will be)": "senegambisch", "black_forest": "Schwarzwälder",
+    "panamerican": "panamerikanisch", "ghanaian": "ghanaisch", "cameroonian": "kamerunisch", "backwaren": "Backwaren", "kebap": "Kebab",
+    "divers": "Verschiedenes", "bengal": "bengalisch", "bangladeshi": "bangladeschisch", "pinsa": "Pinsa",
+    "japanese,peruvian": "japanisch-peruanisch", "western": "westlich", "gözleme": "Gözleme", "açaí": "Açaí", "swiss": "schweizerisch",
+    "suisse": "schweizerisch", "senegal": "senegalesisch", "baguette": "Baguette", "frozen_yogurt": "Frozen Yogurt", "iraqi": "irakisch",
+    "tyrolean": "tirolerisch", "jamaican": "jamaikanisch", "ayurvedic": "ayurvedisch", "central_asian": "zentralasiatisch",
+    "bakery_with_café": "Bäckerei mit Café", "goulash": "Gulasch", "empanada": "Empanadas", "churro": "Churros", "hotpot": "Hotpot",
+    "eastern_european": "osteuropäisch", "osteuropa": "osteuropäisch", "curry-sausage": "Currywurst", "kebab turkish": "türkischer Kebab",
+    "asian fusion and sushi": "asiatische Fusion & Sushi", "soup, salad, panini": "Suppen, Salate, Panini", "antipasti": "Antipasti",
+    "tajik": "tadschikisch", "cheesecake": "Cheesecake", "japanes fusion": "japanische Fusion", "italian,greek": "italienisch-griechisch",
+    "cross-over": "Crossover", "crossover": "Crossover", "canadian": "kanadisch",
+    "seasonal regional dishes & selected meals with indian touch": "saisonal-regional mit indischem Einschlag", "nigerian": "nigerianisch",
+    "student_food": "Studentenessen", "soul_food": "Soul Food", "seasonal": "saisonal", "limited": "begrenztes Angebot",
+    "italian_turkish": "italienisch-türkisch", "slovak": "slowakisch", "indochinese": "indochinesisch", "burger_and_beef": "Burger & Beef",
+    "irish,franconian": "irisch-fränkisch", "street_food": "Street Food", "yemeni": "jemenitisch", "yeminitic": "jemenitisch",
+    "yemenese": "jemenitisch", "creole": "kreolisch", "sinhalese": "singhalesisch", "danish": "dänisch", "avocado": "Avocado",
+    "kumpir": "Kumpir", "kiosk": "Kiosk", "malagasy": "madagassisch", "sicilian": "sizilianisch", "libanese": "libanesisch",
+    "bar_and_grill": "Bar & Grill", "fermented_vegetables": "fermentiertes Gemüse", "finnish": "finnisch", "gambian": "gambisch",
+    "cambodian": "kambodschanisch", "gyros": "Gyros", "nouvelle_cuisine": "Nouvelle Cuisine", "palestinian": "palästinensisch",
+    "kyrghyz": "kirgisisch", "kyrgyz": "kirgisisch", "yakiniku": "Yakiniku", "bread": "Brot", "burmese": "birmanisch", "arepa": "Arepa",
+    "superfood": "Superfood", "fish_sandwich": "Fischsandwich", "bar": "Bar", "anatolian": "anatolisch", "majorca": "mallorquinisch",
+    "çiğköfte": "Çiğköfte", "balkan,pizza,kebab": "Balkan, Pizza, Kebab", "teahouse": "Teehaus", "shisha": "Shisha", "hessian": "hessisch",
+    "corn_dog": "Corn Dog", "michelin": "Sternerestaurant", "maultaschen": "Maultaschen", "toast": "Toast", "pommesbude": "Pommesbude",
+    "sausage pomfrit": "Wurst & Pommes", "tarte": "Tarte", "pizzeria": "Pizzeria", "cocktails": "Cocktails", "cook&chill": "Cook & Chill",
+    "crumble": "Crumble", "norwegian": "norwegisch", "insects": "Insekten", "no": "", "blind": "",
 }
 
 # Fachgebiet (etiqueta OSM "healthcare:speciality", primer valor)
@@ -128,6 +185,42 @@ ESPECIALIDAD_DE = {
     "gastroenterology": "Gastroenterologie", "dental_oral_maxillo_facial_surgery": "Mund-Kiefer-Gesichtschirurgie",
     "nephrology": "Nephrologie", "pulmonology": "Pneumologie", "oncology": "Onkologie",
     "physiotherapy": "Physiotherapie", "psychotherapy": "Psychotherapie",
+    # Valores OSM "healthcare:speciality" sin entrada arriba (clave en minúsculas)
+    "implantology": "Implantologie", "implantology paradontologie oralchirurgie": "Implantologie, Parodontologie, Oralchirurgie",
+    "paediatric_dentistry,implantology": "Kinderzahnheilkunde, Implantologie", "paediatric_dentistry": "Kinderzahnheilkunde",
+    "acupuncture": "Akupunktur", "accupuncture": "Akupunktur", "endocrinology": "Endokrinologie", "osteopathy": "Osteopathie",
+    "diabetology": "Diabetologie", "neurosurgery": "Neurochirurgie", "anaesthetics": "Anästhesie", "chiropractic": "Chiropraktik",
+    "occupational": "Arbeitsmedizin", "endodontics": "Endodontie", "rheumatology": "Rheumatologie", "dentistry": "Zahnmedizin",
+    "psychotherapist": "Psychotherapie", "homeopathy": "Homöopathie", "allergology": "Allergologie", "trauma": "Unfallchirurgie",
+    "haematology": "Hämatologie", "biological_haematology": "Hämatologie", "emergency": "Notfallmedizin", "proctology": "Proktologie",
+    "physiatry": "Physikalische Medizin", "naturopathy": "Naturheilkunde", "neuropsychiatry": "Neuropsychiatrie", "nuclear": "Nuklearmedizin",
+    "traditional_chinese_medicine": "Traditionelle Chinesische Medizin", "podiatry": "Podologie", "infectious_diseases": "Infektiologie",
+    "dermatovenereology": "Dermatovenerologie", "fertility": "Reproduktionsmedizin", "radiotherapy": "Strahlentherapie",
+    "palliative": "Palliativmedizin", "oral_surgery": "Oralchirurgie", "oralchirurgie": "Oralchirurgie", "abortion": "Schwangerschaftsabbruch",
+    "vaccination": "Impfungen", "otorhinolaryngology": "HNO-Heilkunde", "orolaryngology": "HNO-Heilkunde", "hno": "HNO-Heilkunde",
+    "diagnostic_radiology": "Diagnostische Radiologie", "diagnostische_radiologie": "Diagnostische Radiologie", "radiologie": "Radiologie",
+    "pathology": "Pathologie", "massage_therapy": "Massagetherapie", "phlebology": "Phlebologie", "depth": "Tiefenpsychologie",
+    "psychotherapie": "Psychotherapie", "occupational_therapy": "Ergotherapie", "paediatric_surgery": "Kinderchirurgie", "angiology": "Angiologie",
+    "systemic": "Systemische Therapie", "behavior": "Verhaltenstherapie", "verhaltenstherapie": "Verhaltenstherapie",
+    "aesthetic_medicine": "Ästhetische Medizin", "psychology": "Psychologie", "vascular_surgery": "Gefäßchirurgie", "gefäßmedizin": "Gefäßmedizin",
+    "body": "Körpertherapie", "humanistic": "Humanistische Psychotherapie", "hypnosis": "Hypnose", "optometry": "Optometrie",
+    "family_medicine": "Familienmedizin", "general,internal": "Allgemein- und Innere Medizin", "addiction": "Suchtmedizin",
+    "addiction_medicine": "Suchtmedizin", "periodontics": "Parodontologie", "parodontology": "Parodontologie", "periodontology": "Parodontologie",
+    "somnology": "Schlafmedizin", "children": "Kindermedizin", "psychosomatic": "Psychosomatik", "psychosomatic_medicine": "Psychosomatische Medizin",
+    "augen": "Augenheilkunde", "ophtalmology": "Augenheilkunde", "hand_surgery": "Handchirurgie", "mrt": "MRT",
+    "pain_management": "Schmerztherapie", "pain": "Schmerztherapie", "hemostaseology": "Hämostaseologie", "verkehrsmedizin": "Verkehrsmedizin",
+    "check-up": "Check-up", "sports_trauma": "Sporttraumatologie", "obstetric_ultrasonography": "Geburtshilfliche Sonographie",
+    "travel_medicine": "Reisemedizin", "heilpraktiker_für_psychotherapie": "Heilpraktiker für Psychotherapie", "lerntherapie": "Lerntherapie",
+    "osteologie": "Osteologie", "tropical": "Tropenmedizin", "zahnarzt": "Zahnarzt", "plastische_chirurgie": "Plastische Chirurgie",
+    "neonatology": "Neonatologie", "covid19": "COVID-19", "oral_and_maxillofacial_surgery": "Mund-Kiefer-Gesichtschirurgie", "lasik": "LASIK",
+    "prophylaxe": "Prophylaxe", "general_surgery": "Allgemeinchirurgie", "coaching": "Coaching", "osteoporosis": "Osteoporose",
+    "gastroentology": "Gastroenterologie", "laser_coagulation": "Laserkoagulation", "sports": "Sportmedizin", "sport_medicine": "Sportmedizin",
+    "botox": "Botox", "hairloss": "Haarausfall", "zahnheilkunde": "Zahnheilkunde", "ambulantes_op-zentrum": "Ambulantes OP-Zentrum",
+    "physicalische_therapie": "Physikalische Therapie", "gastroenterological_surgery": "Gastroenterologische Chirurgie",
+    "prenatal_medicine": "Pränatalmedizin", "mkg": "MKG-Chirurgie", "prothetik": "Prothetik", "specialist_pediatrician": "Kinderheilkunde",
+    "rehabilitation": "Rehabilitation", "herbalism": "Phytotherapie", "mammography": "Mammographie", "dermaordinology": "Dermatologie",
+    "alternative": "Alternativmedizin", "augenlasern": "Augenlasern", "nutrition": "Ernährungsmedizin", "spine_surgery": "Wirbelsäulenchirurgie",
+    "geriatrics": "Geriatrie", "dialysis": "Dialyse", "yes": "", "biology": "", "ortologist": "Kieferorthopädie",
 }
 
 # Días y meses de la etiqueta opening_hours de OSM
@@ -146,8 +239,26 @@ def traducir_plantilla(html):
     return html
 
 
+# Palabras clave de opening_hours que aparecen sueltas en inglés (fuera de comillas)
+HORARIO_PALABRAS = {"open": "geöffnet", "closed": "geschlossen", "unknown": "unbekannt", "sunset": "Sonnenuntergang",
+                    "sunrise": "Sonnenaufgang", "day": "Tag"}
+HORARIO_RE = re.compile(r"(?<![A-Za-z])(" + "|".join(HORARIO_PALABRAS) + r")(?![A-Za-z])", re.IGNORECASE)
+# Comentarios de OSM entre comillas que son frases fijas (el resto de comentarios libres se deja como está)
+HORARIO_FRASES = {"by appointment": "nach Vereinbarung", "please call us": "bitte anrufen", "call us": "anrufen",
+                  "call for appointments": "Termine nach Absprache", "unknown": "unbekannt",
+                  "opening soon": "Eröffnung in Kürze"}
+
+
 def horario_de(s):
-    return DIAS_RE.sub(lambda m: DIAS_DE[m.group(1)], (s or "").replace("24/7", "rund um die Uhr"))
+    """Horario OSM en alemán: 24/7, días y meses, palabras clave y frases fijas entre comillas."""
+    partes = re.split(r'("[^"]*")', (s or "").replace("24/7", "rund um die Uhr"))
+    for i, p in enumerate(partes):
+        if len(p) >= 2 and p[0] == '"' and p[-1] == '"':
+            frase = p[1:-1].strip()
+            partes[i] = '"' + HORARIO_FRASES.get(frase.lower(), frase) + '"'
+        else:
+            partes[i] = HORARIO_RE.sub(lambda m: HORARIO_PALABRAS[m.group(1).lower()], p)
+    return DIAS_RE.sub(lambda m: DIAS_DE[m.group(1)], "".join(partes))
 
 
 def _primero(tags, clave):
@@ -167,10 +278,10 @@ def extra_de(tags):
     """Dato extra del negocio en alemán: cocina, especialidad o categoría del hotel."""
     cu = _primero(tags, "cuisine")
     if cu:
-        return CULINARIA_DE.get(cu, cu.replace("_", " "))
+        return CULINARIA_DE.get(cu.lower(), cu.replace("_", " "))
     esp = _primero(tags, "healthcare:speciality")
     if esp:
-        return ESPECIALIDAD_DE.get(esp, esp.replace("_", " "))
+        return ESPECIALIDAD_DE.get(esp.lower(), esp.replace("_", " "))
     return estrellas_de(tags.get("stars", ""))
 
 
