@@ -1,0 +1,20 @@
+{
+ "label": "Logística (transitarios, mensajería, transporte y almacenes)",
+ "short": "Logística",
+ "title": "Logistik",
+ "source": "osm",
+ "file": "data/osm-logistica.json",
+ "count": 172,
+ "withContact": 28,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "fetched": "07/11/2026"
+}

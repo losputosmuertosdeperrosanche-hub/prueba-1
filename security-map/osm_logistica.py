@@ -23,7 +23,8 @@ CATEGORIAS_DESCARTADAS = {"landuse", "information", "place", "boundary", "highwa
 EXCLUIR = re.compile(r"Shop|Kiosk|Bank|Deutsche Post|Service Point|Packstation|Paketbox|Paketshop|Paketannahme|"
                      r"Filiale|Partner|Automat|Schule|Oberstufenzentrum|Universit|Hochschule|Institut|Bundesamt|"
                      r"Kita|Kindergarten|Museum|Theater|Apotheke|Hotel|Restaurant|Café|Bäckerei", re.I)
-GENERICOS = re.compile(r"^(DHL|Logistik|Lagerhaus( \d+)?|Transport|Spedition|Kurier|Paketdienst)$", re.I)
+GENERICOS = re.compile(r"^(DHL|Logistik|Lagerhaus( \d+)?|Lagerhalle( \w+)?|Transport|Spedition|Kurier|Paketdienst)$",
+                       re.I)
 FORMA = re.compile(r"\b(GmbH|UG|KG|OHG|AG|SE|GbR|e\.\s?K\.|Co\.|Ltd|mbH)\b")
 
 
@@ -40,6 +41,21 @@ def tipo_de(nombre, categoria):
     if re.search(r"Transport|Fuhr|Fracht", nombre, re.I) and (FORMA.search(nombre) or categoria == "office"):
         return "Transporte de mercancías"
     return None
+
+
+def refiltrar():
+    """Vuelve a aplicar los filtros de nombre a los resultados guardados, sin consultar de nuevo."""
+    datos = json.loads((OUT / "osm-logistica.json").read_text())
+    otros = {r[0] for f in ["osm-hosteleria", "osm-salud", "osm-inmobiliarias"]
+             for r in json.loads((OUT / f"{f}.json").read_text())["rows"]}
+    quitados = [r[1] for r in datos["rows"] if EXCLUIR.search(r[1]) or GENERICOS.match(r[1]) or r[0] in otros]
+    filas = [r for r in datos["rows"] if r[1] not in quitados and r[0] not in otros]
+    print("quitados:", len(quitados), sorted(set(quitados)))
+    (OUT / "osm-logistica.json").write_text(json.dumps({"rows": filas}, ensure_ascii=False, separators=(",", ":")))
+    meta = json.loads((OUT / "osm-logistica.meta.json").read_text())
+    meta.update(count=len(filas), withContact=sum(1 for f in filas if f[7] or f[8]))
+    (OUT / "osm-logistica.meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1))
+    print(f"== logística tras filtrar: {len(filas)} empresas, {meta['withContact']} con teléfono o email")
 
 
 def main():
@@ -88,4 +104,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    refiltrar() if sys.argv[1:] == ["--refiltrar"] else main()
