@@ -2,6 +2,7 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,600;75..100,800&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<meta charset="utf-8">
 <style>
 /*__LEAFLET_CSS__*/
 /*__CLUSTER_CSS__*/
@@ -109,6 +110,7 @@ a{color:var(--accent)}
   .sheet{left:auto;right:max(12px,env(safe-area-inset-right,0px));bottom:12px;width:420px;max-height:calc(100% - 24px);border-radius:16px;border:1px solid var(--line)}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+/*__SECTOR_CSS__*/
 </style>
 
 <div class="app">
@@ -163,7 +165,7 @@ function toast(t){ const el=$("toast"); el.textContent=t; el.hidden=false; clear
 function store(k, v){ try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch(_) { return null; } }
 
 const SECTORS = META.sectors;               // {"80.01": {label, short, source:"openregister"|"osm", ...}, ...}
-const SECTOR_VAR = {"80.01":"--sec", "82.30":"--ev", "osm-hosteleria":"--s-hos", "osm-salud":"--s-sal", "osm-inmobiliarias":"--s-inm", "osm-logistica":"--s-log", "osm-peluqueria":"--s-pel", "osm-talleres":"--s-tal"};
+const SECTOR_VAR = {"80.01":"--sec", "82.30":"--ev", "osm-hosteleria":"--s-hos", "osm-salud":"--s-sal", "osm-inmobiliarias":"--s-inm", "osm-logistica":"--s-log", "osm-peluqueria":"--s-pel", "osm-talleres":"--s-tal"/*__SECTOR_VAR_EXTRA__*/};
 DATA.forEach(e => e.src = "or");
 const sectorCount = code => SECTORS[code].source === "osm" ? SECTORS[code].count : DATA.filter(e => e.s.includes(code)).length;
 const TOTAL = DATA.length + Object.keys(SECTORS).filter(c => SECTORS[c].source === "osm").reduce((n, c) => n + SECTORS[c].count, 0);
@@ -400,25 +402,32 @@ function addMarkers(list){
 }
 addMarkers(DATA);
 
-// Sectores de OpenStreetMap: se descargan en segundo plano, uno detrás de otro
+// Sectores de OpenStreetMap: se descargan al elegirlos (o al buscar texto libre), no al abrir la página
 // fila: [id OSM, nombre, tipo, lat, lon, dirección, ciudad, teléfono, email, web, horario, extra]
 function fromOsm(code, r){
   return {i:"osm:" + r[0], n:r[1], s:[code], c:r[6], a:r[5], p:r[2] + (r[11] ? " · " + r[11] : ""), y:r[3], x:r[4], q:"direccion",
           k:{phone:r[7], email:r[8], website:r[9]}, kc:true, src:"osm", sub:r[2], oh:r[10], ex:r[11], osm:r[0]};
 }
 const osmCodes = Object.keys(SECTORS).filter(c => SECTORS[c].source === "osm");
-(async () => {
-  for (const code of osmCodes) {
-    $("loading").textContent = `Cargando ${SECTORS[code].short.toLowerCase()}…`; $("loading").hidden = false;
-    try {
-      const r = await fetch(SECTORS[code].file); if (!r.ok) throw new Error(r.status);
-      const rows = (await r.json()).rows.map(row => fromOsm(code, row)).filter(e => !byId.has(e.i));
-      DATA.push(...rows); addMarkers(rows);
-      fillCities(); refresh(false);
-    } catch(_) { toast(`No se pudo cargar ${SECTORS[code].short.toLowerCase()}`); }
-  }
-  $("loading").hidden = true; $("loading").textContent = "Cargando calles…";
-})();
+const osmCargados = new Set(), osmIntentados = new Set(), osmCargando = new Map();
+let todosCargados = false;
+function cargarSector(code){
+  if (!SECTORS[code] || SECTORS[code].source !== "osm" || osmCargados.has(code)) return Promise.resolve();
+  if (osmCargando.has(code)) return osmCargando.get(code);
+  osmIntentados.add(code);
+  $("loading").textContent = `Cargando ${SECTORS[code].short.toLowerCase()}…`; $("loading").hidden = false;
+  const p = fetch(SECTORS[code].file)
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(j => { const rows = j.rows.map(row => fromOsm(code, row)).filter(e => !byId.has(e.i)); DATA.push(...rows); addMarkers(rows); osmCargados.add(code); })
+    .catch(() => toast(`No se pudo cargar ${SECTORS[code].short.toLowerCase()}`))
+    .finally(() => { osmCargando.delete(code); if (!osmCargando.size) $("loading").hidden = true; });
+  osmCargando.set(code, p);
+  return p;
+}
+function cargarTodos(){
+  if (todosCargados) return Promise.resolve();
+  return Promise.all(osmCodes.map(code => cargarSector(code))).then(() => { todosCargados = true; });
+}
 function rebuildMarkerStyles(){ DATA.forEach(e => { const m = markers.get(e.i); if (m) m.setStyle(markerStyle(e)); }); }
 
 function fillCities(){
@@ -440,7 +449,7 @@ const SECTOR_BUSCA = {"seguridad": "80.01", "sicherheit": "80.01", "security": "
   "inmobiliarias": "osm-inmobiliarias", "inmobiliaria": "osm-inmobiliarias", "immobilien": "osm-inmobiliarias",
   "logistica": "osm-logistica", "logistik": "osm-logistica", "transporte": "osm-logistica", "spedition": "osm-logistica", "spedicion": "osm-logistica",
   "peluqueria": "osm-peluqueria", "peluquerias": "osm-peluqueria", "estetica": "osm-peluqueria", "cosmetica": "osm-peluqueria", "belleza": "osm-peluqueria", "friseur": "osm-peluqueria", "kosmetik": "osm-peluqueria",
-  "taller": "osm-talleres", "talleres": "osm-talleres", "automovil": "osm-talleres", "automoviles": "osm-talleres", "kfz": "osm-talleres", "werkstatt": "osm-talleres", "autowerkstatt": "osm-talleres"};
+  "taller": "osm-talleres", "talleres": "osm-talleres", "automovil": "osm-talleres", "automoviles": "osm-talleres", "kfz": "osm-talleres", "werkstatt": "osm-talleres", "autowerkstatt": "osm-talleres"/*__SECTOR_BUSCA_EXTRA__*/};
 const CIUDAD_BUSCA = new Map([["nuremberg", "Nürnberg"], ["nuernberg", "Nürnberg"], ["nurenberg", "Nürnberg"], ["munich", "München"],
   ["munchen", "München"], ["muenchen", "München"], ["cologne", "Köln"], ["colonia", "Köln"], ["koln", "Köln"], ["dusseldorf", "Düsseldorf"],
   ["frankfurt", "Frankfurt am Main"]]);
@@ -471,6 +480,15 @@ function filtered(){
 }
 let current = [];
 function refresh(fit){
+  const bq = analizar($("q").value), secEfectivo = $("sector").value || bq.sec || "";
+  if (secEfectivo && SECTORS[secEfectivo] && SECTORS[secEfectivo].source === "osm" && !osmIntentados.has(secEfectivo)) {
+    cargarSector(secEfectivo).then(() => { fillCities(); refresh(fit); });   // se pinta cuando el sector ya está en memoria
+    return;
+  }
+  if (!secEfectivo && bq.resto && !todosCargados) {                          // búsqueda libre: hace falta toda la base
+    cargarTodos().then(() => { fillCities(); refresh(fit); });
+    return;
+  }
   current = filtered();
   cluster.clearLayers();
   cluster.addLayers(current.filter(e => markers.has(e.i)).map(e => markers.get(e.i)));

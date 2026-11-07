@@ -48,6 +48,114 @@ SECTORES = {
     "talleres": {
         "label": "Talleres de automóviles", "short": "Talleres", "title": "Autowerkstätten",
         "tipos": {("car", "car_repair"): "Taller de automóviles"}},
+    "empresas": {
+        "label": "Empresas y oficinas", "short": "Empresas", "title": "Unternehmen",
+        "tipos": {("office", "company"): "Empresa"},
+        "palabras": ["empresas", "empresa", "oficinas", "oficina", "unternehmen", "buero", "bueros"]},
+    "abogados": {
+        "label": "Abogados y despachos jurídicos", "short": "Abogados", "title": "Anwälte",
+        "tipos": {("office", "lawyer"): "Abogado"},
+        "palabras": ["abogados", "abogado", "despacho", "anwalt", "anwaelte", "rechtsanwalt", "rechtsanwaelte"]},
+    "seguros": {
+        "label": "Seguros y mediadores", "short": "Seguros", "title": "Versicherungen",
+        "tipos": {("office", "insurance"): "Seguros"},
+        "palabras": ["seguros", "seguro", "versicherung", "versicherungen", "versicherungsmakler"]},
+    "informatica": {
+        "label": "Informática y software", "short": "Informática", "title": "IT",
+        "tipos": {("office", "it"): "Informática"},
+        "palabras": ["informatica", "software", "it-dienstleister"]},
+    "bancos": {
+        "label": "Bancos y cajas", "short": "Bancos", "title": "Banken",
+        "tipos": {("bank", "bank"): "Banco"},
+        "palabras": ["bancos", "banco", "banken", "sparkasse", "volksbank"]},
+    "ropa": {
+        "label": "Tiendas de ropa", "short": "Ropa", "title": "Mode",
+        "tipos": {("clothing_store", "clothes"): "Tienda de ropa"},
+        "palabras": ["ropa", "moda", "kleidung", "bekleidung", "mode"]},
+    "supermercados": {
+        "label": "Supermercados y tiendas de alimentación", "short": "Supermercados", "title": "Supermärkte",
+        "tipos": {("grocery", "supermarket"): "Supermercado", ("shop", "convenience"): "Tienda de alimentación"},
+        "palabras": ["supermercados", "supermercado", "supermarkt", "supermaerkte", "lebensmittel"]},
+    "panaderias": {
+        "label": "Panaderías y pastelerías", "short": "Panaderías", "title": "Bäckereien",
+        "tipos": {("bakery", "bakery"): "Panadería"},
+        "palabras": ["panaderias", "panaderia", "pasteleria", "pastelerias", "baeckerei", "backerei", "konditorei"]},
+    "farmacias": {
+        "label": "Farmacias y droguerías", "short": "Farmacias", "title": "Apotheken",
+        "tipos": {("pharmacy", "pharmacy"): "Farmacia", ("shop", "chemist"): "Droguería"},
+        "palabras": ["farmacias", "farmacia", "apotheke", "apotheken", "drogeria", "drogerias", "drogerie"]},
+    "opticas": {
+        "label": "Ópticas", "short": "Ópticas", "title": "Optiker",
+        "tipos": {("shop", "optician"): "Óptica"},
+        "palabras": ["opticas", "optica", "optiker", "brillen"]},
+    "joyerias": {
+        "label": "Joyerías", "short": "Joyerías", "title": "Juweliere",
+        "tipos": {("shop", "jewelry"): "Joyería"},
+        "palabras": ["joyerias", "joyeria", "juwelier", "juweliere", "schmuck"]},
+    "floristerias": {
+        "label": "Floristerías", "short": "Floristerías", "title": "Blumenläden",
+        "tipos": {("shop", "florist"): "Floristería"},
+        "palabras": ["floristeria", "floristerias", "blumenladen", "blumenlaeden"]},
+    "muebles": {
+        "label": "Muebles y decoración", "short": "Muebles", "title": "Möbel",
+        "tipos": {("shop", "furniture"): "Tienda de muebles", ("shop", "interior_decoration"): "Decoración"},
+        "palabras": ["muebles", "mueble", "moebel", "moebelhaus", "einrichtung"]},
+    "calzado": {
+        "label": "Zapaterías", "short": "Calzado", "title": "Schuhe",
+        "tipos": {("shop", "shoes"): "Zapatería"},
+        "palabras": ["calzado", "zapateria", "zapaterias", "zapatos", "schuhe", "schuhgeschaeft"]},
+    "moviles": {
+        "label": "Tiendas de móviles", "short": "Móviles", "title": "Handyshops",
+        "tipos": {("shop", "mobile_phone"): "Tienda de móviles"},
+        "palabras": ["moviles", "movil", "handy", "handyshop", "handyshops"]},
+    "sastres": {
+        "label": "Sastrerías", "short": "Sastrerías", "title": "Schneidereien",
+        "tipos": {("shop", "tailor"): "Sastrería"},
+        "palabras": ["sastre", "sastreria", "sastrerias", "schneider", "schneiderei"]},
+    "carnicerias": {
+        "label": "Carnicerías", "short": "Carnicerías", "title": "Metzgereien",
+        "tipos": {("butcher", "butcher"): "Carnicería"},
+        "palabras": ["carniceria", "carnicerias", "metzgerei", "metzgereien", "metzger"]},
+    "bebidas": {
+        "label": "Tiendas de bebidas", "short": "Bebidas", "title": "Getränkemärkte",
+        "tipos": {("alcohol_shop", "beverages"): "Tienda de bebidas"},
+        "palabras": ["bebidas", "getraenke", "getraenkemarkt", "getranke"]},
+    "viajes": {
+        "label": "Agencias de viajes", "short": "Viajes", "title": "Reisebüros",
+        "tipos": {("shop", "travel_agency"): "Agencia de viajes"},
+        "palabras": ["viajes", "reisebuero", "reisebueros"]},
+    "concesionarios": {
+        "label": "Concesionarios de coches", "short": "Coches", "title": "Autohäuser",
+        "tipos": {("car", "car"): "Concesionario"},
+        "palabras": ["concesionario", "concesionarios", "autohaus", "autohauser", "coches"]},
+    "masajes": {
+        "label": "Masajes y bienestar", "short": "Masajes", "title": "Massage",
+        "tipos": {("shop", "massage"): "Masajes"},
+        "palabras": ["masajes", "masaje", "massage", "wellness"]},
+    "deporte": {
+        "label": "Gimnasios y centros deportivos", "short": "Deporte", "title": "Sport",
+        "tipos": {("sports_centre", "sports_centre"): "Centro deportivo"},
+        "palabras": ["gimnasio", "gimnasios", "fitness", "sportzentrum", "sportzentren"]},
+    "bicicletas": {
+        "label": "Tiendas y talleres de bicicletas", "short": "Bicicletas", "title": "Fahrräder",
+        "tipos": {("bicycle", "bicycle"): "Tienda de bicicletas"},
+        "palabras": ["bicicletas", "bicicleta", "bici", "fahrrad", "fahrraeder", "fahrradladen"]},
+    "guarderias": {
+        "label": "Guarderías", "short": "Guarderías", "title": "Kitas",
+        "tipos": {("school", "kindergarten"): "Guardería"},
+        "palabras": ["guarderia", "guarderias", "kita", "kitas", "kindergarten"]},
+    "gasolineras": {
+        "label": "Gasolineras", "short": "Gasolineras", "title": "Tankstellen",
+        "tipos": {("fuel", "fuel"): "Gasolinera"},
+        "palabras": ["gasolinera", "gasolineras", "tankstelle", "tankstellen"]},
+    "heladerias": {
+        "label": "Heladerías", "short": "Heladerías", "title": "Eisdielen",
+        "tipos": {("ice_cream", "ice_cream"): "Heladería"},
+        "palabras": ["heladeria", "heladerias", "eisdiele", "eisdielen"]},
+    "kioscos": {
+        "label": "Quioscos", "short": "Quioscos", "title": "Kioske",
+        "tipos": {("shop", "kiosk"): "Quiosco"},
+        "palabras": ["quiosco", "quioscos", "kiosco", "kioscos", "kiosk", "kioske"]},
 }
 TIPO_OSM = {1: "N", 2: "W", 3: "R"}       # último dígito del id de OpenMapTiles
 
@@ -104,6 +212,37 @@ def pois_de_teselas(url_tpl, area, tipos):
             lon, lat = basemap.lonlat(z, x, y, px, py, ext)
             encontrados[f"{osm_t}{f['id'] // 10}"] = {"tipo": tipo, "lat": lat, "lon": lon}
     return encontrados, len(teselas)
+
+
+def pois_de_teselas_varias(url_tpl, area, tipos):
+    """Como pois_de_teselas, pero para varios sectores: tipos = {(clase, subclase): [(sector, tipo), ...]}.
+    Descarga y decodifica cada tesela una sola vez y devuelve {sector: {clave: {tipo, lat, lon}}}."""
+    x0, y0 = basemap.tile_of(area["n"], area["w"], 14)
+    x1, y1 = basemap.tile_of(area["s"], area["e"], 14)
+    teselas = [(14, x, y) for x in range(x0, x1 + 1) for y in range(y0, y1 + 1)]
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        datos = list(pool.map(lambda t: (t, basemap.descargar(url_tpl, *t)), teselas))
+    resultados = {}
+    for (z, x, y), data in datos:
+        if data[:2] == b"\x1f\x8b":
+            data = gzip.decompress(data)
+        capa = mvt.decode(data, default_options={"y_coord_down": True}).get("poi")
+        if not capa:
+            continue
+        ext = capa.get("extent", 4096)
+        for f in capa["features"]:
+            p = f["properties"]
+            destinos = tipos.get((p.get("class"), p.get("subclass")))
+            osm_t = TIPO_OSM.get(f.get("id", 0) % 10)
+            if not destinos or not osm_t or not p.get("name") or f["geometry"]["type"] != "Point":
+                continue
+            px, py = f["geometry"]["coordinates"]
+            if not (0 <= px < ext and 0 <= py < ext):
+                continue
+            lon, lat = basemap.lonlat(z, x, y, px, py, ext)
+            for sector, tipo in destinos:
+                resultados.setdefault(sector, {})[f"{osm_t}{f['id'] // 10}"] = {"tipo": tipo, "lat": lat, "lon": lon}
+    return resultados, len(teselas)
 
 
 def lookup(ids):
@@ -185,5 +324,37 @@ def main():
         print(f"== {s}: {len(filas)} negocios, {con} con teléfono o email", flush=True)
 
 
+def main_varias():
+    """Como main(), pero recorre las teselas una sola vez para todos los sectores pedidos."""
+    sectores = sys.argv[1:] or list(SECTORES)
+    url_tpl = requests.get(basemap.TILEJSON, headers=HEADERS, timeout=60).json()["tiles"][0]
+    zonas = areas()
+    OUT.mkdir(exist_ok=True)
+    tipos = {}
+    for s in sectores:
+        for clave, tipo in SECTORES[s]["tipos"].items():
+            tipos.setdefault(clave, []).append((s, tipo))
+    candidatos = {s: {} for s in sectores}
+    for c in CIUDADES:
+        resultados, n = pois_de_teselas_varias(url_tpl, zonas[c], tipos)
+        for s in sectores:
+            encontrados = resultados.get(s, {})
+            print(f"{s} · {c}: {len(encontrados)} negocios en {n} teselas", flush=True)
+            candidatos[s].update(encontrados)
+    for s in sectores:
+        cfg = SECTORES[s]
+        cache = lookup(sorted(candidatos[s]))
+        filas = [registro(k, v, cache[k]) for k, v in candidatos[s].items() if cache.get(k) and cache[k]["name"]]
+        filas = [f for f in filas if f[6] in CIUDADES]       # solo direcciones de las ciudades cubiertas
+        filas.sort(key=lambda f: (f[6], f[1]))
+        (OUT / f"osm-{s}.json").write_text(json.dumps({"rows": filas}, ensure_ascii=False, separators=(",", ":")))
+        con = sum(1 for f in filas if f[7] or f[8])
+        meta = {"label": cfg["label"], "short": cfg["short"], "title": cfg["title"], "source": "osm",
+                "file": f"data/osm-{s}.json", "count": len(filas), "withContact": con, "cities": CIUDADES,
+                "palabras": cfg.get("palabras", []), "fetched": time.strftime("%d/%m/%Y")}
+        (OUT / f"osm-{s}.meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1))
+        print(f"== {s}: {len(filas)} negocios, {con} con teléfono o email", flush=True)
+
+
 if __name__ == "__main__":
-    main()
+    main_varias()

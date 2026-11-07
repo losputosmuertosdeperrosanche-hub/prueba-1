@@ -784,6 +784,9 @@ a{color:var(--accent)}
   .sheet{left:auto;right:max(12px,env(safe-area-inset-right,0px));bottom:12px;width:420px;max-height:calc(100% - 24px);border-radius:16px;border:1px solid var(--line)}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+:root{}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){}}
+:root[data-theme="dark"]{}
 </style>
 
 <div class="app">
@@ -1075,25 +1078,32 @@ function addMarkers(list){
 }
 addMarkers(DATA);
 
-// Sectores de OpenStreetMap: se descargan en segundo plano, uno detrás de otro
+// Sectores de OpenStreetMap: se descargan al elegirlos (o al buscar texto libre), no al abrir la página
 // fila: [id OSM, nombre, tipo, lat, lon, dirección, ciudad, teléfono, email, web, horario, extra]
 function fromOsm(code, r){
   return {i:"osm:" + r[0], n:r[1], s:[code], c:r[6], a:r[5], p:r[2] + (r[11] ? " · " + r[11] : ""), y:r[3], x:r[4], q:"direccion",
           k:{phone:r[7], email:r[8], website:r[9]}, kc:true, src:"osm", sub:r[2], oh:r[10], ex:r[11], osm:r[0]};
 }
 const osmCodes = Object.keys(SECTORS).filter(c => SECTORS[c].source === "osm");
-(async () => {
-  for (const code of osmCodes) {
-    $("loading").textContent = `Cargando ${SECTORS[code].short.toLowerCase()}…`; $("loading").hidden = false;
-    try {
-      const r = await fetch(SECTORS[code].file); if (!r.ok) throw new Error(r.status);
-      const rows = (await r.json()).rows.map(row => fromOsm(code, row)).filter(e => !byId.has(e.i));
-      DATA.push(...rows); addMarkers(rows);
-      fillCities(); refresh(false);
-    } catch(_) { toast(`No se pudo cargar ${SECTORS[code].short.toLowerCase()}`); }
-  }
-  $("loading").hidden = true; $("loading").textContent = "Cargando calles…";
-})();
+const osmCargados = new Set(), osmIntentados = new Set(), osmCargando = new Map();
+let todosCargados = false;
+function cargarSector(code){
+  if (!SECTORS[code] || SECTORS[code].source !== "osm" || osmCargados.has(code)) return Promise.resolve();
+  if (osmCargando.has(code)) return osmCargando.get(code);
+  osmIntentados.add(code);
+  $("loading").textContent = `Cargando ${SECTORS[code].short.toLowerCase()}…`; $("loading").hidden = false;
+  const p = fetch(SECTORS[code].file)
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(j => { const rows = j.rows.map(row => fromOsm(code, row)).filter(e => !byId.has(e.i)); DATA.push(...rows); addMarkers(rows); osmCargados.add(code); })
+    .catch(() => toast(`No se pudo cargar ${SECTORS[code].short.toLowerCase()}`))
+    .finally(() => { osmCargando.delete(code); if (!osmCargando.size) $("loading").hidden = true; });
+  osmCargando.set(code, p);
+  return p;
+}
+function cargarTodos(){
+  if (todosCargados) return Promise.resolve();
+  return Promise.all(osmCodes.map(code => cargarSector(code))).then(() => { todosCargados = true; });
+}
 function rebuildMarkerStyles(){ DATA.forEach(e => { const m = markers.get(e.i); if (m) m.setStyle(markerStyle(e)); }); }
 
 function fillCities(){
@@ -1146,6 +1156,15 @@ function filtered(){
 }
 let current = [];
 function refresh(fit){
+  const bq = analizar($("q").value), secEfectivo = $("sector").value || bq.sec || "";
+  if (secEfectivo && SECTORS[secEfectivo] && SECTORS[secEfectivo].source === "osm" && !osmIntentados.has(secEfectivo)) {
+    cargarSector(secEfectivo).then(() => { fillCities(); refresh(fit); });   // se pinta cuando el sector ya está en memoria
+    return;
+  }
+  if (!secEfectivo && bq.resto && !todosCargados) {                          // búsqueda libre: hace falta toda la base
+    cargarTodos().then(() => { fillCities(); refresh(fit); });
+    return;
+  }
   current = filtered();
   cluster.clearLayers();
   cluster.addLayers(current.filter(e => markers.has(e.i)).map(e => markers.get(e.i)));

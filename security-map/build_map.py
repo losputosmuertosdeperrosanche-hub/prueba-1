@@ -6,7 +6,7 @@ contacts.json (contactos de OpenRegister), countries.geojson, relief.json (make_
 La página usa además relief.jpg, relief-sat.jpg, basemap/*.json (basemap.py) y data/osm-*.json (osm_pois.py),
 que se publican junto a ella.
 """
-import argparse, datetime, glob, json, pathlib
+import argparse, colorsys, datetime, glob, json, pathlib
 
 import i18n_de
 
@@ -18,6 +18,32 @@ SECTORES = {
     "80.01": {"label": "Seguridad privada", "short": "Seguridad", "title": "Sicherheit"},
     "82.30": {"label": "Organización de eventos, ferias y congresos", "short": "Eventos", "title": "Events"},
 }
+
+
+EXISTENTES = {"osm-hosteleria", "osm-salud", "osm-inmobiliarias", "osm-logistica", "osm-peluqueria", "osm-talleres"}
+
+
+def extras_sectores(sectors):
+    """Colores (CSS), variables y palabras de búsqueda de los sectores OSM nuevos, generados desde su meta."""
+    nuevos = sorted(c for c in sectors if sectors[c]["source"] == "osm" and c not in EXISTENTES)
+    claro, oscuro, var_js = [], [], []
+    for i, codigo in enumerate(nuevos):
+        h = ((i * 137.508) + 20) % 360 / 360                       # ángulo áureo: colores bien separados
+        var = "--s-" + codigo[len("osm-"):]
+        rgb_c = colorsys.hls_to_rgb(h, 0.38, 0.6)
+        rgb_o = colorsys.hls_to_rgb(h, 0.72, 0.8)
+        claro.append(f"{var}:#" + "".join(f"{round(v * 255):02x}" for v in rgb_c))
+        oscuro.append(f"{var}:#" + "".join(f"{round(v * 255):02x}" for v in rgb_o))
+        var_js.append(f', "{codigo}":"{var}"')
+    css = (":root{" + ";".join(claro) + "}\n"
+           '@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){' + ";".join(oscuro) + "}}\n"
+           ':root[data-theme="dark"]{' + ";".join(oscuro) + "}")
+    pares = {}
+    for c in nuevos:
+        for palabra in sectors[c].get("palabras", []):
+            pares.setdefault(palabra, c)
+    busca = "".join(f", {json.dumps(p, ensure_ascii=False)}: {json.dumps(c)}" for p, c in pares.items())
+    return css, "".join(var_js), busca
 
 
 def main(lang="es"):
@@ -56,7 +82,7 @@ def main(lang="es"):
                for code, s in SECTORES.items()}
     # Sectores de OpenStreetMap (osm_pois.py): la página descarga data/osm-<sector>.json en segundo plano
     cache = json.loads((BASE / "osm_lookup.json").read_text()) if de else {}
-    for f in sorted((BASE / "data").glob("osm-*.meta.json"), key=lambda f: ORDEN_OSM.index(f.name.split(".")[0])):
+    for f in sorted((BASE / "data").glob("osm-*.meta.json"), key=lambda f: (ORDEN_OSM.index(f.name.split(".")[0]) if f.name.split(".")[0] in ORDEN_OSM else len(ORDEN_OSM), f.name)):
         code = f.name.split(".")[0]
         meta = json.loads(f.read_text())
         if not de:
@@ -85,6 +111,11 @@ def main(lang="es"):
                          ("/*__META__*/null", dump(meta)),
                          ("/*__DATA__*/[]", dump(list(data.values()))),
                          ("/*__DEBORDER__*/null", dump({"type": "FeatureCollection", "features": frontera}))]:
+        assert marca in html, marca
+        html = html.replace(marca, valor)
+    css_nuevos, var_extra, busca_extra = extras_sectores(sectors)
+    for marca, valor in [("/*__SECTOR_CSS__*/", css_nuevos), ("/*__SECTOR_VAR_EXTRA__*/", var_extra),
+                         ("/*__SECTOR_BUSCA_EXTRA__*/", busca_extra)]:
         assert marca in html, marca
         html = html.replace(marca, valor)
     if de:  # index-de.html va como página propia del artefacto: necesita su propio esqueleto
