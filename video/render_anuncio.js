@@ -3,7 +3,7 @@
 const { chromium } = require(process.env.PW);
 const fs = require('fs'), path = require('path');
 const [,, APP, NM, FONTS, STAGE, OUT] = process.argv;
-const FPS = 30, DURATION = 42.0;
+const FPS = 30, DURATION = 42.5;
 const FIRMA = 'osm:W179131759';               // Grohmann Logistik GmbH, Berlin: tiene teléfono y web
 const TOTAL = 45715;                          // empresas en la app con el sector Logística
 const APP_INDEX = process.env.APP_INDEX || 'index-de.html';
@@ -72,8 +72,8 @@ function win(t, a, b, fi = .3, fo = .22, dy = 10){
 
   await page.goto('http://local.test/stage.html');
   const app = page.frames().find(f => f.url() === 'http://local.test/');
-  await app.waitForFunction((n, id) => typeof DATA !== 'undefined' && DATA.length >= n && typeof map !== 'undefined' && byId.has(id),
-                            TOTAL, FIRMA, {timeout: 180000});
+  await app.waitForFunction(({n, id}) => typeof DATA !== 'undefined' && DATA.length >= n && typeof map !== 'undefined' && byId.has(id),
+                            {n: TOTAL, id: FIRMA}, {timeout: 180000});
   await page.waitForFunction(() => window.S && S.ready() && S.loadPoints(), null, {timeout: 60000});
   await page.evaluate(TX => S.setTexts(TX), {...T.stage, pills: T.pills});
 
