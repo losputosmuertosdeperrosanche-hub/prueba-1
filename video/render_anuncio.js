@@ -198,10 +198,6 @@ function win(t, a, b, fi = .3, fo = .22, dy = 10){
     };
     const stats = (t >= 35.2 && t < 38.6) ? t - 35.2 : null;   // las cifras se ocultan antes del cierre
     await page.evaluate(st => S.apply(st), {bg, layers: L, caption, pill, num: 172 * eOut(seg(t, 1.0, 2.2)), phone: ph, ripple, stats});
-    if (process.env.DEBUG) console.log('DEBUG', f, JSON.stringify(await page.evaluate(() => ({
-      stats: [getComputedStyle(document.getElementById('stats')).opacity, document.querySelector('#stats .row').style.opacity, document.getElementById('stats').textContent.slice(0, 50)],
-      sub: document.querySelector('#cap .sub').textContent, main: document.querySelector('#cap .main').textContent,
-      pills: [...document.querySelectorAll('#pills span')].map(s => s.textContent + (s.classList.contains('on') ? '*' : '')) }))));
     await page.screenshot({path: path.join(OUT, `f${String(f).padStart(5, '0')}.jpg`), type: 'jpeg', quality: 93});
     if (f % 60 === 0) console.log(`fotograma ${f}/${N} (${((Date.now() - t0) / 1000).toFixed(1)} s)`);
   }
