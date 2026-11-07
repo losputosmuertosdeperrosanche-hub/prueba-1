@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=360">
+<title>NexusLead Logistik</title>
+<style>
+@font-face{font-family:"Archivo";src:url(/fonts/archivo.woff2) format("woff2-variations");font-weight:100 900;font-stretch:62% 125%}
+@font-face{font-family:"Source Sans 3";src:url(/fonts/sourcesans3.woff2) format("woff2-variations");font-weight:200 900}
+@font-face{font-family:"JetBrains Mono";src:url(/fonts/jetbrainsmono.woff2) format("woff2-variations");font-weight:100 800}
+:root{--ink:#0b1016;--accent:#ff9f2e;--white:#f4f7fb;--muted:#9fb0c2}
+*{box-sizing:border-box}
+html,body{margin:0;width:360px;height:640px;overflow:hidden;background:var(--ink);font-family:"Source Sans 3",sans-serif;color:var(--white)}
+#bg{position:absolute;inset:0;width:360px;height:640px}
+.layer{position:absolute;left:24px;right:56px;text-align:center;opacity:0;will-change:transform,opacity}
+.disp{font-family:"Archivo",sans-serif;font-weight:800;font-stretch:78%;text-transform:uppercase;letter-spacing:.01em;line-height:.95}
+.shadow{text-shadow:0 2px 14px rgb(0 0 0 / .55),0 1px 2px rgb(0 0 0 / .6)}
+#hook1{top:150px;font-size:31px}
+#num{top:226px;font-size:78px;color:var(--accent);font-stretch:72%;font-variant-numeric:tabular-nums}
+#numLabel{top:306px;font-size:18px;font-weight:600;line-height:1.2}
+#numSmall{top:350px;font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+#brand{top:238px;font-size:50px}
+#brand span,#ctaBrand span{color:var(--accent)}
+#tag{top:300px;font-size:17px;font-weight:600}
+#cap{top:56px;text-align:left;left:22px;right:60px}
+#cap .kick{font-family:"JetBrains Mono",monospace;font-size:9.5px;letter-spacing:.14em;color:var(--accent);font-weight:500}
+#cap .main{font-family:"Archivo",sans-serif;font-weight:800;font-stretch:80%;font-size:23px;line-height:1.02;margin-top:3px;text-transform:uppercase}
+#cap .sub{font-size:12px;color:#d7e0ea;margin-top:4px;font-weight:600}
+#pills{top:106px;left:22px;right:40px;text-align:left;display:flex;flex-wrap:nowrap;gap:4px}
+#pills span{font-size:9px;font-weight:600;padding:2px 6px;border-radius:999px;background:rgb(255 255 255 / .12);color:#dfe7ef;white-space:nowrap}
+#pills span.on{background:var(--accent);color:#1a1205}
+#phoneWrap{position:absolute;left:51px;top:132px;width:234px;height:490px;opacity:0;will-change:transform,opacity}
+.phone{position:absolute;inset:0;border-radius:39px;background:linear-gradient(145deg,#2a3340,#07090c 40%,#151b23);padding:7px;box-shadow:0 30px 60px rgb(0 0 0 / .6),0 0 0 1px rgb(255 255 255 / .08) inset,0 0 0 1.5px #3a4552}
+.screen{width:220px;height:476px;border-radius:32px;overflow:hidden;background:#fff;position:relative}
+.scaled{width:390px;height:844px;transform:scale(.564103);transform-origin:0 0;position:absolute;left:0;top:0}
+.status{height:44px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 30px 0 34px;font-family:"Source Sans 3",sans-serif;font-weight:700;font-size:16px;color:#111;position:relative}
+.island{position:absolute;left:50%;top:9px;transform:translateX(-50%);width:118px;height:33px;border-radius:20px;background:#050608}
+.icons{display:flex;gap:6px;align-items:center}
+.bars{display:flex;gap:2px;align-items:flex-end;height:11px}.bars i{width:3px;background:#111;border-radius:1px}
+.batt{width:24px;height:11px;border:1.5px solid #111;border-radius:3px;padding:1px;position:relative}.batt::after{content:"";position:absolute;right:-4px;top:3px;width:2px;height:4px;background:#111;border-radius:1px}.batt i{display:block;height:100%;width:80%;background:#111;border-radius:1px}
+iframe{display:block;width:390px;height:800px;border:0;background:#fff}
+#ripple{position:absolute;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;border:2px solid #fff;background:rgb(255 255 255 / .35);box-shadow:0 0 12px rgb(0 0 0 / .35);opacity:0;pointer-events:none}
+#stats{top:150px;left:30px;right:50px;text-align:left}
+#stats .row{opacity:0;margin-bottom:18px;will-change:transform,opacity}
+#stats .n{font-family:"Archivo",sans-serif;font-weight:800;font-stretch:72%;font-size:44px;line-height:.95;color:var(--accent);font-variant-numeric:tabular-nums}
+#stats .l{font-size:14px;font-weight:600;margin-top:2px}
+#ctaBrand{top:190px;font-size:34px}
+#ctaQ{top:244px;font-size:28px}
+#ctaPill{top:322px;left:0;right:32px;display:flex;justify-content:center}
+#ctaPill b{display:inline-block;background:var(--accent);color:#1a1205;font-family:"Archivo",sans-serif;font-weight:800;font-stretch:80%;font-size:22px;padding:9px 18px;border-radius:14px;text-transform:uppercase;letter-spacing:.02em}
+#ctaSmall{top:384px;font-size:14px;color:#e6edf3;font-weight:600}
+</style></head>
+<body>
+<canvas id="bg" width="1080" height="1920"></canvas>
+<div id="hook1" class="layer disp shadow">¿Vendes a empresas?</div>
+<div id="num" class="layer disp shadow">0</div>
+<div id="numLabel" class="layer shadow">contactos de empresas en Alemania</div>
+<div id="numSmall" class="layer">teléfono · email · web</div>
+<div id="brand" class="layer disp shadow">Nexus<span>Lead</span></div>
+<div id="tag" class="layer shadow">Tu mapa de clientes en Alemania</div>
+<div id="cap" class="layer shadow"><div class="kick"></div><div class="main"></div><div class="sub"></div></div>
+<div id="pills" class="layer"><span data-s="osm-logistica">Logistik</span></div>
+<div id="phoneWrap"><div class="phone"><div class="screen"><div class="scaled">
+  <div class="status"><span>9:41</span><div class="island"></div><div class="icons"><div class="bars"><i style="height:4px"></i><i style="height:6px"></i><i style="height:8px"></i><i style="height:11px"></i></div><div class="batt"><i></i></div></div></div>
+  <iframe id="app" src="/"></iframe>
+</div></div></div></div>
+<div id="ripple"></div>
+<div id="stats" class="layer shadow">
+  <div class="row"><div class="n" data-to="172">0</div><div class="l">empresas y negocios reales</div></div>
+  <div class="row"><div class="n" data-to="28">0</div><div class="l">con teléfono o email</div></div>
+  <div class="row"><div class="n" data-to="5">0</div><div class="l">sectores, y vamos a por más</div></div>
+  <div class="row"><div class="n" data-to="8">0</div><div class="l">grandes ciudades alemanas</div></div>
+</div>
+<div id="ctaBrand" class="layer disp shadow">Nexus<span>Lead</span></div>
+<div id="ctaQ" class="layer disp shadow">¿La quieres probar?</div>
+<div id="ctaPill" class="layer"><b>Comenta «NEXUS»</b></div>
+<div id="ctaSmall" class="layer shadow">y te cuento cómo funciona</div>
+<script>
+const $ = id => document.getElementById(id);
+const fmt = n => Math.round(n).toLocaleString("de-DE");
+const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+// ---------- Fondo: relieve de Alemania + empresas reales como puntos de luz ----------
+const bg = $("bg"), ctx = bg.getContext("2d");
+const relief = new Image(); relief.src = "/relief-sat.jpg";
+const RB = {s:44.5, w:1, n:57.5, e:20};                  // límites de relief.json
+const merc = lat => Math.log(Math.tan(Math.PI / 4 + lat * Math.PI / 360));
+let pts = null;
+function loadPoints(){
+  const w = $("app").contentWindow;
+  if (!w || !w.eval) return false;
+  let data; try { data = w.eval("DATA"); } catch(_) { return false; }
+  if (!data || data.length < 45000) return false;
+  const arr = data.filter(e => e.y != null).map(e => [e.x, e.y]);
+  let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;   // orden pseudoaleatorio fijo
+  for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; }
+  pts = arr; return true;
+}
+function drawBg({zoom = 1, reveal = 1, dim = .4, lonC = 10.45, latC = 51.15} = {}){
+  const W = 1080, H = 1920, k = 470 / (merc(55.06) - merc(47.27)) * 3 * zoom, cx = W / 2, cy = 330 * 3;
+  const px = lon => cx + (lon - lonC) * Math.PI / 180 * k, py = lat => cy - (merc(lat) - merc(latC)) * k;
+  ctx.fillStyle = "#0b1016"; ctx.fillRect(0, 0, W, H);
+  if (relief.complete) { const x0 = px(RB.w), x1 = px(RB.e), y0 = py(RB.n), y1 = py(RB.s); ctx.filter = "blur(2px)"; ctx.globalAlpha = .9; ctx.drawImage(relief, x0, y0, x1 - x0, y1 - y0); ctx.globalAlpha = 1; ctx.filter = "none"; }
+  ctx.fillStyle = `rgba(6,10,15,${dim})`; ctx.fillRect(0, 0, W, H);
+  if (pts) {
+    const n = Math.floor(pts.length * clamp(reveal));
+    ctx.globalCompositeOperation = "lighter";
+    ctx.fillStyle = "rgba(255,140,30,0.018)";
+    for (let i = 0; i < n; i++) { const p = pts[i]; ctx.fillRect(px(p[0]) - 7, py(p[1]) - 7, 14, 14); }
+    ctx.globalCompositeOperation = "source-over";
+    ctx.fillStyle = "rgba(255,170,70,0.55)";
+    for (let i = 0; i < n; i++) { const p = pts[i]; ctx.fillRect(px(p[0]) - .8, py(p[1]) - .8, 1.6, 1.6); }
+  }
+  // viñeta para que el texto se lea
+  const g = ctx.createLinearGradient(0, 0, 0, H); g.addColorStop(0, "rgba(6,10,15,.55)"); g.addColorStop(.35, "rgba(6,10,15,0)"); g.addColorStop(.75, "rgba(6,10,15,0)"); g.addColorStop(1, "rgba(6,10,15,.7)");
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+}
+// ---------- Capas ----------
+function show(id, {o = 1, y = 0, s = 1, blur = 0} = {}){
+  const el = $(id); el.style.opacity = o; el.style.transform = `translateY(${y}px) scale(${s})`; el.style.filter = blur ? `blur(${blur}px)` : "none";
+}
+function text(id, t){ $(id).textContent = t; }
+function caption(kick, main, sub){ const c = $("cap"); c.querySelector(".kick").textContent = kick; c.querySelector(".main").textContent = main; c.querySelector(".sub").textContent = sub || ""; }
+function pills(active){ document.querySelectorAll("#pills span").forEach(s => s.classList.toggle("on", s.dataset.s === active)); }
+function phone({o = 1, y = 0, s = 1, ox = 117, oy = 245} = {}){
+  const el = $("phoneWrap"); el.style.opacity = o; el.style.transformOrigin = `${ox}px ${oy}px`; el.style.transform = `translateY(${y}px) scale(${s})`;
+}
+function ripple(x, y, p){
+  const el = $("ripple");
+  if (p == null || p < 0 || p > 1) { el.style.opacity = 0; return; }
+  const size = 10 + 26 * p; el.style.left = x + "px"; el.style.top = y + "px";
+  el.style.width = el.style.height = size + "px"; el.style.margin = `${-size / 2}px 0 0 ${-size / 2}px`;
+  el.style.opacity = p < .15 ? p / .15 : 1 - (p - .15) / .85;
+}
+// Coordenadas de la app (dentro del iframe) -> coordenadas del escenario
+function appToStage(x, y){ const r = $("app").getBoundingClientRect(), k = r.width / 390; return [r.left + x * k, r.top + y * k]; }
+function elCenter(sel){ const d = $("app").contentDocument, el = d.querySelector(sel); if (!el) return null; const r = el.getBoundingClientRect(); return appToStage(r.left + r.width / 2, r.top + r.height / 2); }
+function latLngToStage(lat, lng){ const w = $("app").contentWindow, m = w.eval("map"), p = m.latLngToContainerPoint([lat, lng]), r = m.getContainer().getBoundingClientRect(); return appToStage(r.left + p.x, r.top + p.y); }
+function stats(t){
+  document.querySelectorAll("#stats .row").forEach((row, i) => {
+    const a = clamp((t - i * .25) / .45), e = 1 - Math.pow(1 - a, 3);
+    row.style.opacity = a; row.style.transform = `translateY(${(1 - e) * 14}px)`;
+    const n = row.querySelector(".n"); n.textContent = fmt(+n.dataset.to * (1 - Math.pow(1 - clamp((t - i * .25) / 1.0), 3)));
+  });
+}
+// Centro de un elemento de la app relativo a la caja (sin transformar) del móvil, para hacer zoom sobre él
+function phoneLocal(sel){ const c = elCenter(sel), w = $("phoneWrap"); return c ? [c[0] - w.offsetLeft, c[1] - w.offsetTop] : null; }
+// Aplica el estado completo de un fotograma
+function apply(st){
+  drawBg(st.bg);
+  for (const [id, v] of Object.entries(st.layers)) show(id, v);
+  if (st.caption) caption(...st.caption);
+  pills(st.pill || null);
+  if (st.num != null) text("num", fmt(st.num));
+  phone(st.phone);
+  let pos = null;
+  if (st.ripple) pos = st.ripple.sel ? elCenter(st.ripple.sel) : latLngToStage(...st.ripple.ll);
+  if (pos) ripple(pos[0], pos[1], st.ripple.p); else ripple(0, 0, null);
+  stats(st.stats == null ? -10 : st.stats);
+}
+// Textos del escenario (idioma del vídeo), enviados desde render.js
+function setTexts(T){
+  $("hook1").textContent = T.hook1; $("numLabel").textContent = T.numLabel; $("numSmall").textContent = T.numSmall;
+  $("tag").textContent = T.tag; $("ctaQ").textContent = T.ctaQ; $("ctaPill").querySelector("b").textContent = T.ctaPill;
+  $("ctaSmall").textContent = T.ctaSmall;
+  document.querySelectorAll("#stats .l").forEach((el, i) => el.textContent = T.stats[i]);
+  document.querySelectorAll("#pills span").forEach(el => el.textContent = T.pills[el.dataset.s]);
+}
+window.S = {apply, phoneLocal, loadPoints, setTexts, ready: () => relief.complete && document.fonts.status === "loaded"};
+</script>
+</body></html>
