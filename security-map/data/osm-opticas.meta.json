@@ -1,0 +1,26 @@
+{
+ "label": "Ópticas",
+ "short": "Ópticas",
+ "title": "Optiker",
+ "source": "osm",
+ "file": "data/osm-opticas.json",
+ "count": 1085,
+ "withContact": 484,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "opticas",
+  "optica",
+  "optiker",
+  "brillen"
+ ],
+ "fetched": "07/11/2026"
+}

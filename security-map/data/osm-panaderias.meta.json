@@ -1,0 +1,29 @@
+{
+ "label": "Panaderías y pastelerías",
+ "short": "Panaderías",
+ "title": "Bäckereien",
+ "source": "osm",
+ "file": "data/osm-panaderias.json",
+ "count": 3708,
+ "withContact": 1072,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "panaderias",
+  "panaderia",
+  "pasteleria",
+  "pastelerias",
+  "baeckerei",
+  "backerei",
+  "konditorei"
+ ],
+ "fetched": "07/11/2026"
+}

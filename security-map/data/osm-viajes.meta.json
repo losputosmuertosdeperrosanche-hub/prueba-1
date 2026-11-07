@@ -1,0 +1,25 @@
+{
+ "label": "Agencias de viajes",
+ "short": "Viajes",
+ "title": "Reisebüros",
+ "source": "osm",
+ "file": "data/osm-viajes.json",
+ "count": 805,
+ "withContact": 251,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "viajes",
+  "reisebuero",
+  "reisebueros"
+ ],
+ "fetched": "07/11/2026"
+}

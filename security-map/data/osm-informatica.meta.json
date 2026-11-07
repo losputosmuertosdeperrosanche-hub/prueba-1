@@ -1,0 +1,25 @@
+{
+ "label": "Informática y software",
+ "short": "Informática",
+ "title": "IT",
+ "source": "osm",
+ "file": "data/osm-informatica.json",
+ "count": 725,
+ "withContact": 394,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "informatica",
+  "software",
+  "it-dienstleister"
+ ],
+ "fetched": "07/11/2026"
+}

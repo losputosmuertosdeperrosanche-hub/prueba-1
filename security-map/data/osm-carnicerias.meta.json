@@ -1,0 +1,27 @@
+{
+ "label": "Carnicerías",
+ "short": "Carnicerías",
+ "title": "Metzgereien",
+ "source": "osm",
+ "file": "data/osm-carnicerias.json",
+ "count": 513,
+ "withContact": 199,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "carniceria",
+  "carnicerias",
+  "metzgerei",
+  "metzgereien",
+  "metzger"
+ ],
+ "fetched": "07/11/2026"
+}

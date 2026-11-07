@@ -1,0 +1,27 @@
+{
+ "label": "Tiendas de móviles",
+ "short": "Móviles",
+ "title": "Handyshops",
+ "source": "osm",
+ "file": "data/osm-moviles.json",
+ "count": 794,
+ "withContact": 144,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "moviles",
+  "movil",
+  "handy",
+  "handyshop",
+  "handyshops"
+ ],
+ "fetched": "07/11/2026"
+}

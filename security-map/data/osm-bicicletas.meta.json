@@ -1,0 +1,28 @@
+{
+ "label": "Tiendas y talleres de bicicletas",
+ "short": "Bicicletas",
+ "title": "Fahrräder",
+ "source": "osm",
+ "file": "data/osm-bicicletas.json",
+ "count": 1045,
+ "withContact": 712,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "bicicletas",
+  "bicicleta",
+  "bici",
+  "fahrrad",
+  "fahrraeder",
+  "fahrradladen"
+ ],
+ "fetched": "07/11/2026"
+}

@@ -1,0 +1,27 @@
+{
+ "label": "Guarderías",
+ "short": "Guarderías",
+ "title": "Kitas",
+ "source": "osm",
+ "file": "data/osm-guarderias.json",
+ "count": 6261,
+ "withContact": 2625,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "guarderia",
+  "guarderias",
+  "kita",
+  "kitas",
+  "kindergarten"
+ ],
+ "fetched": "07/11/2026"
+}

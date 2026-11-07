@@ -1,0 +1,28 @@
+{
+ "label": "Zapaterías",
+ "short": "Calzado",
+ "title": "Schuhe",
+ "source": "osm",
+ "file": "data/osm-calzado.json",
+ "count": 800,
+ "withContact": 235,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "calzado",
+  "zapateria",
+  "zapaterias",
+  "zapatos",
+  "schuhe",
+  "schuhgeschaeft"
+ ],
+ "fetched": "07/11/2026"
+}

@@ -1,0 +1,29 @@
+{
+ "label": "Abogados y despachos jurídicos",
+ "short": "Abogados",
+ "title": "Anwälte",
+ "source": "osm",
+ "file": "data/osm-abogados.json",
+ "count": 902,
+ "withContact": 478,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "abogados",
+  "abogado",
+  "despacho",
+  "anwalt",
+  "anwaelte",
+  "rechtsanwalt",
+  "rechtsanwaelte"
+ ],
+ "fetched": "07/11/2026"
+}

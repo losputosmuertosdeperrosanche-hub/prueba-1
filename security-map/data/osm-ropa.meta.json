@@ -1,0 +1,27 @@
+{
+ "label": "Tiendas de ropa",
+ "short": "Ropa",
+ "title": "Mode",
+ "source": "osm",
+ "file": "data/osm-ropa.json",
+ "count": 5100,
+ "withContact": 1111,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "ropa",
+  "moda",
+  "kleidung",
+  "bekleidung",
+  "mode"
+ ],
+ "fetched": "07/11/2026"
+}

@@ -1,0 +1,27 @@
+{
+ "label": "Seguros y mediadores",
+ "short": "Seguros",
+ "title": "Versicherungen",
+ "source": "osm",
+ "file": "data/osm-seguros.json",
+ "count": 990,
+ "withContact": 352,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "seguros",
+  "seguro",
+  "versicherung",
+  "versicherungen",
+  "versicherungsmakler"
+ ],
+ "fetched": "07/11/2026"
+}

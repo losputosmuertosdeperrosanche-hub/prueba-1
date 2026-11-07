@@ -1,0 +1,27 @@
+{
+ "label": "Sastrerías",
+ "short": "Sastrerías",
+ "title": "Schneidereien",
+ "source": "osm",
+ "file": "data/osm-sastres.json",
+ "count": 739,
+ "withContact": 208,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "sastre",
+  "sastreria",
+  "sastrerias",
+  "schneider",
+  "schneiderei"
+ ],
+ "fetched": "07/11/2026"
+}

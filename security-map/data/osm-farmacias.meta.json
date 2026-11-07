@@ -1,0 +1,29 @@
+{
+ "label": "Farmacias y droguerías",
+ "short": "Farmacias",
+ "title": "Apotheken",
+ "source": "osm",
+ "file": "data/osm-farmacias.json",
+ "count": 2849,
+ "withContact": 1994,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "farmacias",
+  "farmacia",
+  "apotheke",
+  "apotheken",
+  "drogeria",
+  "drogerias",
+  "drogerie"
+ ],
+ "fetched": "07/11/2026"
+}

@@ -1,0 +1,26 @@
+{
+ "label": "Masajes y bienestar",
+ "short": "Masajes",
+ "title": "Massage",
+ "source": "osm",
+ "file": "data/osm-masajes.json",
+ "count": 790,
+ "withContact": 449,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "masajes",
+  "masaje",
+  "massage",
+  "wellness"
+ ],
+ "fetched": "07/11/2026"
+}

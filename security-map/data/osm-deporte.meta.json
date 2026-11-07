@@ -1,0 +1,27 @@
+{
+ "label": "Gimnasios y centros deportivos",
+ "short": "Deporte",
+ "title": "Sport",
+ "source": "osm",
+ "file": "data/osm-deporte.json",
+ "count": 1929,
+ "withContact": 402,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "gimnasio",
+  "gimnasios",
+  "fitness",
+  "sportzentrum",
+  "sportzentren"
+ ],
+ "fetched": "07/11/2026"
+}

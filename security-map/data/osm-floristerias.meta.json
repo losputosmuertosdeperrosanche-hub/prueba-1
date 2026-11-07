@@ -1,0 +1,26 @@
+{
+ "label": "Floristerías",
+ "short": "Floristerías",
+ "title": "Blumenläden",
+ "source": "osm",
+ "file": "data/osm-floristerias.json",
+ "count": 1390,
+ "withContact": 414,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "floristeria",
+  "floristerias",
+  "blumenladen",
+  "blumenlaeden"
+ ],
+ "fetched": "07/11/2026"
+}

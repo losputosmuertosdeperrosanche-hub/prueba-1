@@ -1,0 +1,27 @@
+{
+ "label": "Bancos y cajas",
+ "short": "Bancos",
+ "title": "Banken",
+ "source": "osm",
+ "file": "data/osm-bancos.json",
+ "count": 1319,
+ "withContact": 331,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "bancos",
+  "banco",
+  "banken",
+  "sparkasse",
+  "volksbank"
+ ],
+ "fetched": "07/11/2026"
+}

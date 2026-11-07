@@ -1,0 +1,27 @@
+{
+ "label": "Joyerías",
+ "short": "Joyerías",
+ "title": "Juweliere",
+ "source": "osm",
+ "file": "data/osm-joyerias.json",
+ "count": 1384,
+ "withContact": 387,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "joyerias",
+  "joyeria",
+  "juwelier",
+  "juweliere",
+  "schmuck"
+ ],
+ "fetched": "07/11/2026"
+}

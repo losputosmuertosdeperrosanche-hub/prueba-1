@@ -1,0 +1,29 @@
+{
+ "label": "Empresas y oficinas",
+ "short": "Empresas",
+ "title": "Unternehmen",
+ "source": "osm",
+ "file": "data/osm-empresas.json",
+ "count": 5055,
+ "withContact": 1914,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "empresas",
+  "empresa",
+  "oficinas",
+  "oficina",
+  "unternehmen",
+  "buero",
+  "bueros"
+ ],
+ "fetched": "07/11/2026"
+}

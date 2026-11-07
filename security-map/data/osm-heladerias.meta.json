@@ -1,0 +1,26 @@
+{
+ "label": "Heladerías",
+ "short": "Heladerías",
+ "title": "Eisdielen",
+ "source": "osm",
+ "file": "data/osm-heladerias.json",
+ "count": 845,
+ "withContact": 190,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "heladeria",
+  "heladerias",
+  "eisdiele",
+  "eisdielen"
+ ],
+ "fetched": "07/11/2026"
+}

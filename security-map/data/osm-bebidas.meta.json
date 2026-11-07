@@ -1,0 +1,26 @@
+{
+ "label": "Tiendas de bebidas",
+ "short": "Bebidas",
+ "title": "Getränkemärkte",
+ "source": "osm",
+ "file": "data/osm-bebidas.json",
+ "count": 548,
+ "withContact": 208,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "bebidas",
+  "getraenke",
+  "getraenkemarkt",
+  "getranke"
+ ],
+ "fetched": "07/11/2026"
+}

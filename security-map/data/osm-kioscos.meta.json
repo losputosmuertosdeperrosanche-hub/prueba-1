@@ -1,0 +1,28 @@
+{
+ "label": "Quioscos",
+ "short": "Quioscos",
+ "title": "Kioske",
+ "source": "osm",
+ "file": "data/osm-kioscos.json",
+ "count": 2519,
+ "withContact": 160,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "quiosco",
+  "quioscos",
+  "kiosco",
+  "kioscos",
+  "kiosk",
+  "kioske"
+ ],
+ "fetched": "07/11/2026"
+}

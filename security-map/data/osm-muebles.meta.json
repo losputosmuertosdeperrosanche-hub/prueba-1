@@ -1,0 +1,27 @@
+{
+ "label": "Muebles y decoración",
+ "short": "Muebles",
+ "title": "Möbel",
+ "source": "osm",
+ "file": "data/osm-muebles.json",
+ "count": 1427,
+ "withContact": 546,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "palabras": [
+  "muebles",
+  "mueble",
+  "moebel",
+  "moebelhaus",
+  "einrichtung"
+ ],
+ "fetched": "07/11/2026"
+}
