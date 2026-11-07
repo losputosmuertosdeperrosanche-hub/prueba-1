@@ -1169,7 +1169,7 @@ function openDetail(e){
   const maps = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(e.a || (e.y + "," + e.x));
   if (e.src === "osm") {
     const code = e.s[0], osmUrl = `https://www.openstreetmap.org/${OSM_TYPE[e.osm[0]]}/${e.osm.slice(1)}`;
-    const extraLabel = code === "osm-salud" ? "Especialidad" : code === "osm-hosteleria" ? "Cocina / categoría" : "Detalle";
+    const extraLabel = code === "osm-salud" ? "Especialidad" : code === "osm-hosteleria" ? (e.sub === "Hotel" || e.sub === "Pensión" ? "Categoría" : "Cocina") : "Detalle";
     openSheet(e.n, `
       <div class="chips"><span class="chip sec" style="--c:var(${SECTOR_VAR[code]})">${esc(e.sub)}</span><span class="chip">${esc(SECTORS[code].short)}</span><span class="chip">Fuente: OpenStreetMap</span></div>
       <section><h3>Contacto</h3><div class="contact">${contactHtml(e)}</div></section>

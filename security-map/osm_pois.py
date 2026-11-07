@@ -9,7 +9,7 @@
 Uso: python osm_pois.py hosteleria salud inmobiliarias
 Datos © colaboradores de OpenStreetMap (ODbL).
 """
-import gzip, json, math, pathlib, sys, time
+import gzip, json, math, pathlib, re, sys, time
 from concurrent.futures import ThreadPoolExecutor
 
 import mapbox_vector_tile as mvt
@@ -130,13 +130,21 @@ def primero(tags, *claves):
     return ""
 
 
+def estrellas(v):
+    """Categoría hotelera de OSM: "4", "3S" (Superior en la clasificación alemana)."""
+    m = re.fullmatch(r"\s*(\d)(S?)\s*", v or "")
+    if not m:
+        return ""
+    return f"{m.group(1)} {'estrella' if m.group(1) == '1' else 'estrellas'}" + (" Superior" if m.group(2) else "")
+
+
 def registro(clave, info, r):
     """Fila compacta: [id, nombre, tipo, lat, lon, dirección, ciudad, teléfono, email, web, horario, extra]."""
     a, t = r["address"], r["tags"]
     calle = " ".join(v for v in [a.get("road") or a.get("pedestrian") or a.get("square") or "", a.get("house_number", "")] if v)
     ciudad = a.get("city") or a.get("town") or a.get("village") or a.get("municipality") or ""
     direccion = ", ".join(v for v in [calle, " ".join(v for v in [a.get("postcode", ""), ciudad] if v)] if v)
-    extra = primero(t, "cuisine") or primero(t, "healthcare:speciality") or (f"{t['stars']} estrellas" if t.get("stars") else "")
+    extra = primero(t, "cuisine") or primero(t, "healthcare:speciality") or estrellas(t.get("stars", ""))
     return [clave, r["name"], info["tipo"], round(r["lat"], 6), round(r["lon"], 6), direccion, ciudad,
             primero(t, "phone", "contact:phone", "contact:mobile", "mobile"),
             primero(t, "email", "contact:email"),
