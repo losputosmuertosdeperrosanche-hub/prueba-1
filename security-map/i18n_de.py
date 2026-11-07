@@ -8,6 +8,7 @@ import re
 
 # (español, alemán): cadenas exactas de template.html (se reemplazan todas las apariciones)
 PLANTILLA = [
+    ("<title>NexusLead Sicherheit</title>", "<title>NexusLead Deutschland</title>"),
     ("Buscar empresa, calle o código postal", "Firma, Straße oder PLZ suchen"),
     ('<span class="sr">Ciudad</span>', '<span class="sr">Stadt</span>'),
     ('<span class="sr">Sector</span>', '<span class="sr">Branche</span>'),
