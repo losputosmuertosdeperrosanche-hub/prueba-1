@@ -72,3 +72,16 @@ La página `index.html` necesita a su lado `relief.jpg`, `relief-sat.jpg` y las 
 - `geocache.json`: coordenadas y precisión (`direccion`, `codigo_postal` o `ciudad`).
 - `countries.geojson`: fronteras (Natural Earth, vía `world-atlas`).
 - `basemap/` (no se sube al repositorio, ~90 MB): se genera con `basemap.py`.
+
+## Vídeo para TikTok
+
+`video/nexuslead-tiktok.mp4`: presentación vertical de 38 s (1080×1920, 30 fps, H.264) grabada
+con la app real. Para regenerarlo (Playwright + ffmpeg de `imageio-ffmpeg`):
+
+```bash
+PW=<ruta a playwright> node video/render.js security-map <node_modules con leaflet> <node_modules con @fontsource-variable> video/stage.html frames/
+ffmpeg -framerate 30 -i frames/f%05d.jpg -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -shortest \
+  -vf "scale=in_range=full:out_range=tv:out_color_matrix=bt709,format=yuv420p" -c:v libx264 -crf 18 -c:a aac video/nexuslead-tiktok.mp4
+```
+
+Los textos y tiempos de cada escena están en `video/render.js`; el diseño (fondo, móvil, rótulos) en `video/stage.html`.
