@@ -8,7 +8,7 @@ import re
 
 # (español, alemán): cadenas exactas de template.html (se reemplazan todas las apariciones)
 PLANTILLA = [
-    ("<title>NexusLead Sicherheit</title>", '<html lang="de">\n<title>NexusLead Deutschland</title>'),
+    ("<title>NexusLead Sicherheit</title>", "<title>NexusLead Deutschland</title>"),
     ("Buscar empresa, calle o código postal", "Firma, Straße oder PLZ suchen"),
     ('<span class="sr">Ciudad</span>', '<span class="sr">Stadt</span>'),
     ('<span class="sr">Sector</span>', '<span class="sr">Branche</span>'),
@@ -84,6 +84,17 @@ PLANTILLA = [
     ("Ninguna empresa coincide. Prueba con otra búsqueda o quita filtros.",
      "Kein Betrieb passt. Versuche eine andere Suche oder entferne Filter."),
 ]
+
+# index-de.html se publica como página propia dentro del artefacto: sin el esqueleto que la plataforma
+# pone a index.html, así que lo lleva ella (mismo doctype, metas y estilos base que index.html).
+DOCUMENTO_INICIO = (
+    '<!doctype html><html lang="de"><head><meta charset="utf-8">'
+    '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
+    '<style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}'
+    'html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}'
+    'img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>\n'
+)
+DOCUMENTO_FIN = "\n</body></html>\n"
 
 # Nombres de sector (meta de la página) en alemán
 SECTORES_DE = {

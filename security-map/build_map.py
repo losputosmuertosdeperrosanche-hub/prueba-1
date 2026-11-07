@@ -76,13 +76,19 @@ def main(lang="es"):
     if de:
         html = i18n_de.traducir_plantilla(html)
     dump = lambda o: json.dumps(o, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    for marca, valor in [("/*__LEAFLET_CSS__*/", (BASE / "vendor/leaflet-1.9.4.css").read_text()),
+    # Un único enlace: la página española y la alemana se publican juntas y se cambian con este botón
+    enlace = ('<a class="lang" href="index.html" lang="es">Español</a>' if de
+              else '<a class="lang" href="index-de.html" lang="de">Deutsch</a>')
+    for marca, valor in [("<!--__IDIOMA__-->", enlace),
+                         ("/*__LEAFLET_CSS__*/", (BASE / "vendor/leaflet-1.9.4.css").read_text()),
                          ("/*__CLUSTER_CSS__*/", (BASE / "vendor/markercluster-1.5.3.css").read_text()),
                          ("/*__META__*/null", dump(meta)),
                          ("/*__DATA__*/[]", dump(list(data.values()))),
                          ("/*__DEBORDER__*/null", dump({"type": "FeatureCollection", "features": frontera}))]:
         assert marca in html, marca
         html = html.replace(marca, valor)
+    if de:  # index-de.html va como página propia del artefacto: necesita su propio esqueleto
+        html = i18n_de.DOCUMENTO_INICIO + html + i18n_de.DOCUMENTO_FIN
     salida = BASE / ("index-de.html" if de else "index.html")
     salida.write_text(html)
     sin = sum(1 for d in data.values() if d["y"] is None)
