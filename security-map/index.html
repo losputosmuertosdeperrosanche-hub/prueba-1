@@ -794,8 +794,8 @@ a{color:var(--accent)}
       <a class="lang" href="index-de.html" lang="de">Deutsch</a>
     </div>
     <div class="controls">
-      <label class="lbl full"><span class="sr">Buscar empresa, calle o código postal</span>
-        <input id="q" type="search" placeholder="Buscar empresa, calle o código postal" autocomplete="off">
+      <label class="lbl full"><span class="sr">Buscar empresa, sector, ciudad o CP</span>
+        <input id="q" type="search" placeholder="Buscar empresa, sector, ciudad o CP" autocomplete="off">
       </label>
       <label class="lbl"><span class="sr">Ciudad</span><select id="city"></select></label>
       <label class="lbl"><span class="sr">Sector</span><select id="sector"></select></label>
@@ -1097,6 +1097,7 @@ const osmCodes = Object.keys(SECTORS).filter(c => SECTORS[c].source === "osm");
 function rebuildMarkerStyles(){ DATA.forEach(e => { const m = markers.get(e.i); if (m) m.setStyle(markerStyle(e)); }); }
 
 function fillCities(){
+  indexarCiudades();
   const sec = $("sector").value, prev = $("city").value, counts = new Map();
   DATA.forEach(e => { if (!sec || e.s.includes(sec)) counts.set(e.c, (counts.get(e.c) || 0) + 1); });
   const total = [...counts.values()].reduce((a, b) => a + b, 0);
@@ -1104,8 +1105,40 @@ function fillCities(){
   $("city").innerHTML = `<option value="">Toda Alemania · ${fmt(total)}</option>` + list.map(([c, n]) => `<option value="${esc(c)}">${esc(c)} · ${fmt(n)}</option>`).join("");
   $("city").value = counts.has(prev) ? prev : "";
 }
+// Búsqueda: además de empresa, calle o código postal, entiende sectores y ciudades ("seguridad nuremberg")
+const norm = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+const SECTOR_BUSCA = {"seguridad": "80.01", "sicherheit": "80.01", "security": "80.01",
+  "eventos": "82.30", "evento": "82.30", "events": "82.30", "event": "82.30", "veranstaltungen": "82.30",
+  "hosteleria": "osm-hosteleria", "restaurantes": "osm-hosteleria", "restaurante": "osm-hosteleria", "restaurants": "osm-hosteleria",
+  "gastro": "osm-hosteleria", "gastronomia": "osm-hosteleria", "gastronomie": "osm-hosteleria",
+  "salud": "osm-salud", "gesundheit": "osm-salud", "medicos": "osm-salud", "medico": "osm-salud", "clinicas": "osm-salud", "clinica": "osm-salud",
+  "inmobiliarias": "osm-inmobiliarias", "inmobiliaria": "osm-inmobiliarias", "immobilien": "osm-inmobiliarias",
+  "logistica": "osm-logistica", "logistik": "osm-logistica", "transporte": "osm-logistica", "spedition": "osm-logistica", "spedicion": "osm-logistica"};
+const CIUDAD_BUSCA = new Map([["nuremberg", "Nürnberg"], ["nuernberg", "Nürnberg"], ["nurenberg", "Nürnberg"], ["munich", "München"],
+  ["munchen", "München"], ["muenchen", "München"], ["cologne", "Köln"], ["colonia", "Köln"], ["koln", "Köln"], ["dusseldorf", "Düsseldorf"],
+  ["frankfurt", "Frankfurt am Main"]]);
+// ciudades de los datos (se actualiza al cargar cada sector)
+function indexarCiudades(){ DATA.forEach(e => { if (e.c && !CIUDAD_BUSCA.has(norm(e.c))) CIUDAD_BUSCA.set(norm(e.c), e.c); }); }
+// separa el texto de búsqueda en sector, ciudad y texto libre
+function analizar(texto){
+  const orig = texto.trim().split(/\s+/).filter(Boolean), n = orig.map(norm);
+  let sec = null, ciu = null; const resto = [];
+  for (let i = 0; i < n.length; i++) {
+    let hecho = false;
+    if (!ciu) for (const k of [3, 2]) {
+      const c = n.slice(i, i + k).join(" ");
+      if (CIUDAD_BUSCA.has(c)) { ciu = CIUDAD_BUSCA.get(c); i += k - 1; hecho = true; break; }
+    }
+    if (hecho) continue;
+    if (!ciu && CIUDAD_BUSCA.has(n[i])) { ciu = CIUDAD_BUSCA.get(n[i]); continue; }
+    if (!sec && Object.prototype.hasOwnProperty.call(SECTOR_BUSCA, n[i])) { sec = SECTOR_BUSCA[n[i]]; continue; }
+    resto.push(orig[i]);
+  }
+  return {sec, ciu, resto: resto.join(" ")};
+}
 function filtered(){
-  const q = $("q").value.trim().toLowerCase(), city = $("city").value, sec = $("sector").value, only = $("onlyContact").checked;
+  const b = analizar($("q").value), q = b.resto.toLowerCase(), only = $("onlyContact").checked;
+  const sec = $("sector").value || b.sec || "", city = $("city").value || b.ciu || "";
   return DATA.filter(e => (!sec || e.s.includes(sec)) && (!city || e.c === city) && (!only || hasContact(e)) &&
     (!q || (e.n + " " + e.a + " " + e.p).toLowerCase().includes(q)));
 }
