@@ -103,6 +103,8 @@ SECTORES_DE = {
     "osm-hosteleria": {"label": "Gastronomie (Restaurants, Bars, Cafés und Hotels)", "short": "Gastro", "title": "Gastro"},
     "osm-salud": {"label": "Gesundheitswesen (Arztpraxen, Zahnärzte und Kliniken)", "short": "Gesundheit", "title": "Gesundheit"},
     "osm-inmobiliarias": {"label": "Immobilien und Hausverwaltung", "short": "Immobilien", "title": "Immobilien"},
+    "osm-logistica": {"label": "Logistik (Spedition, Kurier- und Paketdienste, Transport und Lager)", "short": "Logistik",
+                      "title": "Logistik"},
 }
 
 # Tipo de negocio (columna 2 de data/osm-*.json)
@@ -111,6 +113,8 @@ TIPO_DE = {
     "Pub": "Pub", "Hotel": "Hotel", "Pensión": "Pension", "Consulta médica": "Arztpraxis",
     "Dentista": "Zahnarzt", "Clínica": "Klinik", "Terapeuta": "Therapeut", "Inmobiliaria": "Immobilienmakler",
     "Administración de fincas": "Hausverwaltung",
+    "Transitario (spedición)": "Spedition", "Mensajería y paquetería": "Kurier- und Paketdienst",
+    "Logística": "Logistik", "Almacén": "Lager", "Transporte de mercancías": "Gütertransport",
 }
 
 # Tipo de cocina (etiqueta OSM "cuisine", primer valor)
