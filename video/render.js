@@ -3,7 +3,36 @@
 const { chromium } = require(process.env.PW);
 const fs = require('fs'), path = require('path');
 const [,, APP, NM, FONTS, STAGE, OUT] = process.argv;
-const FPS = 30, DURATION = 38.0, HOTEL = 'osm:N305609481';
+const FPS = 30, DURATION = 41.0, HOTEL = 'osm:N305609481';
+const APP_INDEX = process.env.APP_INDEX || 'index.html';   // index-de.html para el vídeo en alemán
+// Textos en pantalla por idioma (el vídeo en alemán es el principal; el español se conserva)
+const TXT = {
+  de: {
+    stage: {hook1: 'Verkaufst du an Firmen?', numLabel: 'Betriebskontakte in Deutschland', numSmall: 'Telefon · E-Mail · Web',
+            tag: 'Deine Kundenkarte für Deutschland', ctaQ: 'Willst du es testen?', ctaPill: 'Kommentiere »NEXUS«',
+            ctaSmall: 'und ich zeige dir, wie es funktioniert',
+            stats: ['echte Betriebe', 'mit Telefon oder E-Mail', 'Branchen, und es kommen mehr', 'große deutsche Städte']},
+    pills: {'80.01': 'Sicherheit', '82.30': 'Events', 'osm-hosteleria': 'Gastro', 'osm-salud': 'Gesundheit', 'osm-inmobiliarias': 'Immobilien'},
+    caps: {s1: ['SCHRITT 1', 'Wähle die Stadt', '8 Großstädte in Deutschland'], s2: ['SCHRITT 2', 'Filtere nach Branche', ''],
+           s3: ['SCHRITT 3', 'Tippe auf einen Betrieb', 'Telefon, E-Mail und Website sofort'],
+           s4: ['ECHTE KARTE', 'Straßen und Satellit', 'Echte Gebäude und Straßen jeder Stadt'],
+           s5: ['SUCHE', 'Suche, was du brauchst'], s5sub: n => `„Pizza“ in München: ${n} Treffer`},
+    typing: ['P', 'Pi', 'Piz', 'Pizz', 'Pizza'],
+  },
+  es: {
+    stage: {hook1: '¿Vendes a empresas?', numLabel: 'contactos de empresas en Alemania', numSmall: 'teléfono · email · web',
+            tag: 'Tu mapa de clientes en Alemania', ctaQ: '¿La quieres probar?', ctaPill: 'Comenta «NEXUS»',
+            ctaSmall: 'y te cuento cómo funciona',
+            stats: ['empresas y negocios reales', 'con teléfono o email', 'sectores, y vamos a por más', 'grandes ciudades alemanas']},
+    pills: {'80.01': 'Seguridad', '82.30': 'Eventos', 'osm-hosteleria': 'Hostelería', 'osm-salud': 'Salud', 'osm-inmobiliarias': 'Inmobiliarias'},
+    caps: {s1: ['PASO 1', 'Elige la ciudad', '8 grandes ciudades de Alemania'], s2: ['PASO 2', 'Filtra por sector', ''],
+           s3: ['PASO 3', 'Toca la empresa', 'Teléfono, email y web al instante'],
+           s4: ['MAPA REAL', 'Calles y satélite', 'Edificios y calles reales de cada ciudad'],
+           s5: ['BUSCADOR', 'Busca lo que quieras'], s5sub: n => `«pizza» en Múnich: ${n} resultados`},
+    typing: ['p', 'pi', 'piz', 'pizz', 'pizza'],
+  },
+};
+const T = TXT[process.env.LANG_VIDEO || 'de'];
 const ONLY = process.env.ONLY ? process.env.ONLY.split(',').map(Number) : null;   // tiempos sueltos para pruebas
 
 const libs = {
@@ -49,7 +78,7 @@ function win(t, a, b, fi = .3, fo = .22, dy = 10){
   await ctx.route(/^http:\/\/local\.test\//, r => {
     const rel = decodeURIComponent(new URL(r.request().url()).pathname.slice(1));
     if (rel === '') {
-      const html = '<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>[hidden]{display:none!important}</style></head><body style="margin:0">' + fs.readFileSync(path.join(APP, 'index.html'), 'utf8') + '</body></html>';
+      const html = '<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>[hidden]{display:none!important}</style></head><body style="margin:0">' + fs.readFileSync(path.join(APP, APP_INDEX), 'utf8') + '</body></html>';
       return r.fulfill({body: html, contentType: 'text/html'});
     }
     if (rel === 'stage.html') return r.fulfill({body: fs.readFileSync(STAGE), contentType: 'text/html'});
@@ -63,6 +92,7 @@ function win(t, a, b, fi = .3, fo = .22, dy = 10){
   const app = page.frames().find(f => f.url() === 'http://local.test/');
   await app.waitForFunction(() => typeof DATA !== 'undefined' && DATA.length >= 45543 && typeof map !== 'undefined', null, {timeout: 180000});
   await page.waitForFunction(() => window.S && S.ready() && S.loadPoints(), null, {timeout: 60000});
+  await page.evaluate(TX => S.setTexts(TX), {...T.stage, pills: T.pills});
 
   // Ajustes de la app para grabar: sin animaciones internas (cada fotograma lo controla este guion)
   const K = await app.evaluate((hotelId) => {
@@ -132,7 +162,7 @@ function win(t, a, b, fi = .3, fo = .22, dy = 10){
     [18.75, () => appDo((id) => { openDetail(byId.get(id)); $('sheet').style.transform = 'translateY(100%)'; }, HOTEL)],
     [23.36, () => appDo(() => { $('sheet').hidden = true; $('sheet').style.transform = ''; })],
     [24.25, () => appDo(() => document.querySelector('.modes button[data-mode="sat"]').click())],
-    ...['p', 'pi', 'piz', 'pizz', 'pizza'].map((s, i) => [27.95 + i * .2, () => appDo((s) => { $('q').value = s; refresh(false); }, s)]),
+    ...T.typing.map((s, i) => [27.95 + i * .2, () => appDo((s) => { $('q').value = s; refresh(false); }, s)]),
   ];
   const ripples = [[6.30, {sel: '#city'}], [11.95, {sel: '#sector'}], [13.45, {sel: '#sector'}], [14.95, {sel: '#sector'}],
                    [18.45, {ll: K.hotel.ll}], [21.15, {sel: '.sheet .contact a.mini'}], [24.00, {sel: '.modes button[data-mode="sat"]'}],
@@ -168,18 +198,16 @@ function win(t, a, b, fi = .3, fo = .22, dy = 10){
     L.brand = (() => { const w = win(t, 3.0, 5.1, .4); return {...w, s: lerp(.92, 1, eOut(seg(t, 3.0, 3.4))), blur: 6 * (1 - seg(t, 3.0, 3.35))}; })();
     L.tag = win(t, 3.35, 5.1);
     let caption = null, pill = null;
-    const caps = [[5.35, 11.45, ['PASO 1', 'Elige la ciudad', '8 grandes ciudades de Alemania']],
-                  [11.6, 16.05, ['PASO 2', 'Filtra por sector', '']],
-                  [16.2, 23.45, ['PASO 3', 'Toca la empresa', 'Teléfono, email y web al instante']],
-                  [23.6, 27.45, ['MAPA REAL', 'Calles y satélite', 'Edificios y calles reales de cada ciudad']],
-                  [27.6, 31.45, ['BUSCADOR', 'Busca lo que quieras', t >= 29.0 && pizzaCount ? `«pizza» en Múnich: ${pizzaCount} resultados` : '']]];
+    const C = T.caps;
+    const caps = [[5.35, 11.45, [...C.s1]], [11.6, 16.05, [...C.s2]], [16.2, 23.45, [...C.s3]], [23.6, 27.45, [...C.s4]],
+                  [27.6, 31.45, [C.s5[0], C.s5[1], t >= 29.0 && pizzaCount ? C.s5sub(pizzaCount) : '']]];
     L.cap = {o: 0};
     for (const [a, b, c] of caps) if (t >= a && t <= b) { L.cap = win(t, a, b); caption = c; }
     L.pills = win(t, 11.75, 16.05);
     if (t >= 12.2) pill = t < 13.7 ? 'osm-hosteleria' : t < 15.2 ? 'osm-salud' : 'osm-hosteleria';
     L.stats = win(t, 32.0, 35.25, .2, .25, 0);
-    L.ctaBrand = win(t, 35.35, 38.5); L.ctaQ = win(t, 35.5, 38.5); L.ctaSmall = win(t, 36.0, 38.5);
-    L.ctaPill = (() => { const w = win(t, 35.75, 38.5); return {...w, s: lerp(.8, 1, eOut(seg(t, 35.75, 36.05)))}; })();
+    L.ctaBrand = win(t, 35.35, DURATION); L.ctaQ = win(t, 35.5, DURATION); L.ctaSmall = win(t, 36.0, DURATION);
+    L.ctaPill = (() => { const w = win(t, 35.75, DURATION); return {...w, s: lerp(.8, 1, eOut(seg(t, 35.75, 36.05)))}; })();
 
     // móvil: entra, zoom sobre el contacto y sale
     let ph = {o: 0, y: 60};

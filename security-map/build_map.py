@@ -6,7 +6,9 @@ contacts.json (contactos de OpenRegister), countries.geojson, relief.json (make_
 La página usa además relief.jpg, relief-sat.jpg, basemap/*.json (basemap.py) y data/osm-*.json (osm_pois.py),
 que se publican junto a ella.
 """
-import datetime, glob, json, pathlib
+import argparse, datetime, glob, json, pathlib
+
+import i18n_de
 
 BASE = pathlib.Path(__file__).parent
 
@@ -18,7 +20,8 @@ SECTORES = {
 }
 
 
-def main():
+def main(lang="es"):
+    de = lang == "de"
     geocache = json.loads((BASE / "geocache.json").read_text())
     contacts = json.loads((BASE / "contacts.json").read_text())
     data, consultas = {}, {code: [] for code in SECTORES}
@@ -49,29 +52,46 @@ def main():
             }
     for qs in consultas.values():
         qs.sort(key=lambda c: -c["total"])
-    sectors = {code: {**s, "source": "openregister", "queries": consultas[code]} for code, s in SECTORES.items()}
+    sectors = {code: {**s, **(i18n_de.SECTORES_DE[code] if de else {}), "source": "openregister", "queries": consultas[code]}
+               for code, s in SECTORES.items()}
     # Sectores de OpenStreetMap (osm_pois.py): la página descarga data/osm-<sector>.json en segundo plano
+    cache = json.loads((BASE / "osm_lookup.json").read_text()) if de else {}
     for f in sorted((BASE / "data").glob("osm-*.meta.json"), key=lambda f: ORDEN_OSM.index(f.name.split(".")[0])):
-        sectors[f.name.split(".")[0]] = json.loads(f.read_text())
+        code = f.name.split(".")[0]
+        meta = json.loads(f.read_text())
+        if not de:
+            sectors[code] = meta
+            continue
+        # versión alemana: filas traducidas en data-de/ (solo para el vídeo en alemán)
+        filas = json.loads((BASE / "data" / f"{code}.json").read_text())["rows"]
+        (BASE / "data-de").mkdir(exist_ok=True)
+        traducidas = [i18n_de.fila_de(r, (cache.get(r[0]) or {}).get("tags")) for r in filas]
+        (BASE / "data-de" / f"{code}.json").write_text(json.dumps({"rows": traducidas}, ensure_ascii=False, separators=(",", ":")))
+        sectors[code] = i18n_de.meta_de(code, meta, f"data-de/{code}.json")
     meta = {"fetched": datetime.date.today().strftime("%d/%m/%Y"), "sectors": sectors,
             "relief": json.loads((BASE / "relief.json").read_text())["bounds"]}
-    de = [f for f in json.loads((BASE / "countries.geojson").read_text())["features"] if f["properties"]["de"]]
+    frontera = [f for f in json.loads((BASE / "countries.geojson").read_text())["features"] if f["properties"]["de"]]
 
     html = (BASE / "template.html").read_text()
+    if de:
+        html = i18n_de.traducir_plantilla(html)
     dump = lambda o: json.dumps(o, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     for marca, valor in [("/*__LEAFLET_CSS__*/", (BASE / "vendor/leaflet-1.9.4.css").read_text()),
                          ("/*__CLUSTER_CSS__*/", (BASE / "vendor/markercluster-1.5.3.css").read_text()),
                          ("/*__META__*/null", dump(meta)),
                          ("/*__DATA__*/[]", dump(list(data.values()))),
-                         ("/*__DEBORDER__*/null", dump({"type": "FeatureCollection", "features": de}))]:
+                         ("/*__DEBORDER__*/null", dump({"type": "FeatureCollection", "features": frontera}))]:
         assert marca in html, marca
         html = html.replace(marca, valor)
-    (BASE / "index.html").write_text(html)
+    salida = BASE / ("index-de.html" if de else "index.html")
+    salida.write_text(html)
     sin = sum(1 for d in data.values() if d["y"] is None)
     por_sector = {code: sum(1 for d in data.values() if code in d["s"]) for code in SECTORES}
     osm = {c: s["count"] for c, s in sectors.items() if s["source"] == "osm"}
-    print(f"index.html: {len(data)} empresas {por_sector}, {sin} sin coordenadas, {len(html) // 1024} KB; OpenStreetMap: {osm}")
+    print(f"{salida.name}: {len(data)} empresas {por_sector}, {sin} sin coordenadas, {len(html) // 1024} KB; OpenStreetMap: {osm}")
 
 
 if __name__ == "__main__":
-    main()
+    ap = argparse.ArgumentParser(description="Genera index.html (español) o index-de.html (alemán, --lang de).")
+    ap.add_argument("--lang", choices=["es", "de"], default="es")
+    main(ap.parse_args().lang)

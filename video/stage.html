@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=360">
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=360">
 <title>NexusLead TikTok</title>
 <style>
 @font-face{font-family:"Archivo";src:url(/fonts/archivo.woff2) format("woff2-variations");font-weight:100 900;font-stretch:62% 125%}
@@ -154,6 +154,14 @@ function apply(st){
   if (pos) ripple(pos[0], pos[1], st.ripple.p); else ripple(0, 0, null);
   stats(st.stats == null ? -10 : st.stats);
 }
-window.S = {apply, phoneLocal, loadPoints, ready: () => relief.complete && document.fonts.status === "loaded"};
+// Textos del escenario (idioma del vídeo), enviados desde render.js
+function setTexts(T){
+  $("hook1").textContent = T.hook1; $("numLabel").textContent = T.numLabel; $("numSmall").textContent = T.numSmall;
+  $("tag").textContent = T.tag; $("ctaQ").textContent = T.ctaQ; $("ctaPill").querySelector("b").textContent = T.ctaPill;
+  $("ctaSmall").textContent = T.ctaSmall;
+  document.querySelectorAll("#stats .l").forEach((el, i) => el.textContent = T.stats[i]);
+  document.querySelectorAll("#pills span").forEach(el => el.textContent = T.pills[el.dataset.s]);
+}
+window.S = {apply, phoneLocal, loadPoints, setTexts, ready: () => relief.complete && document.fonts.status === "loaded"};
 </script>
 </body></html>

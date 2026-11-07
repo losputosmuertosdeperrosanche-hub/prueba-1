@@ -73,15 +73,24 @@ La página `index.html` necesita a su lado `relief.jpg`, `relief-sat.jpg` y las 
 - `countries.geojson`: fronteras (Natural Earth, vía `world-atlas`).
 - `basemap/` (no se sube al repositorio, ~90 MB): se genera con `basemap.py`.
 
-## Vídeo para TikTok
+## Vídeo para TikTok (español y alemán)
 
-`video/nexuslead-tiktok.mp4`: presentación vertical de 38 s (1080×1920, 30 fps, H.264) grabada
-con la app real. Para regenerarlo (Playwright + ffmpeg de `imageio-ffmpeg`):
+- `video/nexuslead-tiktok-de.mp4`: vídeo vertical de 41 s (1080×1920, 30 fps, H.264 + AAC) en **alemán**:
+  textos en pantalla, la propia app en alemán (`index-de.html`) y una **narración en alemán**.
+- `video/guion-de.txt`: el texto de la narración con los segundos de inicio y lo que sale en pantalla.
+- `video/nexuslead-tiktok.mp4`: versión anterior, en español y sin voz.
+
+Regenerar la versión alemana:
 
 ```bash
-PW=<ruta a playwright> node video/render.js security-map <node_modules con leaflet> <node_modules con @fontsource-variable> video/stage.html frames/
-ffmpeg -framerate 30 -i frames/f%05d.jpg -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -shortest \
-  -vf "scale=in_range=full:out_range=tv:out_color_matrix=bt709,format=yuv420p" -c:v libx264 -crf 18 -c:a aac video/nexuslead-tiktok.mp4
+cd security-map
+python build_map.py --lang de                  # index-de.html y data-de/ (textos y datos en alemán)
+cd ../video
+APP_INDEX=index-de.html LANG_VIDEO=de PW=<ruta a playwright> node render.js ../security-map <node_modules con leaflet> <node_modules con @fontsource-variable> stage.html frames/
+pip install piper-tts                           # voz de la narración (modelo de_DE-thorsten-high, licencia CC0)
+python narrar_de.py narracion/                  # descargar antes de_DE-thorsten-high.onnx(.json) en esta carpeta
+python mezclar_de.py frames/ narracion/ nexuslead-tiktok-de.mp4
 ```
 
-Los textos y tiempos de cada escena están en `video/render.js`; el diseño (fondo, móvil, rótulos) en `video/stage.html`.
+Los textos de cada escena están en `render.js` (diccionario `TXT`; `LANG_VIDEO=es` reproduce la versión en español)
+y el diseño del escenario en `stage.html`. La duración y los segundos de la narración están en `guion_de.py`.

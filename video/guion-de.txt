@@ -1,0 +1,34 @@
+GUION EN ALEMÁN · vídeo de TikTok de NexusLead (41 s)
+
+Narración (leer o grabar en este orden)
+
+[00:00.30] Verkaufst du an Firmen?
+        pantalla: Texto en pantalla: «Verkaufst du an Firmen?» y contador hasta 20.483
+[00:01.90] Über zwanzigtausend Betriebskontakte.
+        pantalla: Contador: «Betriebskontakte in Deutschland» · Telefon · E-Mail · Web
+[00:04.30] Das ist NexusLead, deine Kundenkarte für Deutschland.
+        pantalla: Logotipo NexusLead y «Deine Kundenkarte für Deutschland»
+[00:08.00] Wähle eine von acht Großstädten, zum Beispiel München.
+        pantalla: Paso 1: «Wähle die Stadt» · la app: elegir München
+[00:11.70] Dann filterst du nach Branche, zum Beispiel Gastronomie oder Gesundheit.
+        pantalla: Paso 2: «Filtere nach Branche» · cambio de Gastro, Gesundheit
+[00:16.30] Tippe auf einen Betrieb.
+        pantalla: Paso 3: «Tippe auf einen Betrieb» · el móvil abre el hotel
+[00:18.80] Sofort siehst du Adresse, Telefon, E-Mail und Website.
+        pantalla: Ficha del hotel: Adresse, Telefon, E-Mail, Website
+[00:23.70] Auf der echten Karte siehst du Straßen und Gebäude.
+        pantalla: «Echte Karte»: calles, edificios y satélite
+[00:27.80] Suche einfach, was du brauchst, zum Beispiel Pizza.
+        pantalla: «Suche, was du brauchst»: se escribe Pizza · „Pizza“ in München: 245 Treffer
+[00:32.50] Über fünfundvierzigtausend Betriebe.
+        pantalla: Cifras: 45.543 echte Betriebe
+[00:34.75] Davon über zwanzigtausend mit Telefon oder E-Mail.
+        pantalla: Cifras: 20.483 mit Telefon oder E-Mail
+[00:38.05] Willst du es testen? Kommentiere NEXUS!
+        pantalla: Cierre: «Willst du es testen?» y el botón Kommentiere »NEXUS«
+
+Notas
+- La narración del vídeo es la voz sintética Piper «de_DE-thorsten-high» (datos: CC0).
+- Cada frase empieza en el segundo indicado; si grabas tu voz, respeta esos tiempos o ajusta el montaje.
+- Los datos de negocios son reales (OpenRegister y OpenStreetMap). Los teléfonos, emails y webs del hotel
+  aparecen difuminados en el vídeo.
