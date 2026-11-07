@@ -1,0 +1,20 @@
+{
+ "label": "Peluquerías y centros de estética",
+ "short": "Peluquería",
+ "title": "Friseur & Kosmetik",
+ "source": "osm",
+ "file": "data/osm-peluqueria.json",
+ "count": 3044,
+ "withContact": 877,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "fetched": "07/11/2026"
+}

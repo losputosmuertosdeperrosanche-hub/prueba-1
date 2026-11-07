@@ -42,6 +42,9 @@ SECTORES = {
         "label": "Inmobiliarias y administración de fincas", "short": "Inmobiliarias", "title": "Immobilien",
         "tipos": {("office", "estate_agent"): "Inmobiliaria", ("shop", "estate_agent"): "Inmobiliaria",
                   ("office", "property_management"): "Administración de fincas"}},
+    "peluqueria": {
+        "label": "Peluquerías y centros de estética", "short": "Peluquería", "title": "Friseur & Kosmetik",
+        "tipos": {("shop", "beauty"): "Peluquería o estética"}},
 }
 TIPO_OSM = {1: "N", 2: "W", 3: "R"}       # último dígito del id de OpenMapTiles
 

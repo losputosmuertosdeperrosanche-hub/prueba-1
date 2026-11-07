@@ -105,6 +105,7 @@ SECTORES_DE = {
     "osm-inmobiliarias": {"label": "Immobilien und Hausverwaltung", "short": "Immobilien", "title": "Immobilien"},
     "osm-logistica": {"label": "Logistik (Spedition, Kurier- und Paketdienste, Transport und Lager)", "short": "Logistik",
                       "title": "Logistik"},
+    "osm-peluqueria": {"label": "Friseure und Kosmetikstudios", "short": "Friseur", "title": "Friseur"},
 }
 
 # Tipo de negocio (columna 2 de data/osm-*.json)
@@ -115,6 +116,7 @@ TIPO_DE = {
     "Administración de fincas": "Hausverwaltung",
     "Transitario (spedición)": "Spedition", "Mensajería y paquetería": "Kurier- und Paketdienst",
     "Logística": "Logistik", "Almacén": "Lager", "Transporte de mercancías": "Gütertransport",
+    "Peluquería o estética": "Friseur oder Kosmetik",
 }
 
 # Tipo de cocina (etiqueta OSM "cuisine", primer valor)
