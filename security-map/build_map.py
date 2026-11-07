@@ -12,7 +12,7 @@ import i18n_de
 
 BASE = pathlib.Path(__file__).parent
 
-ORDEN_OSM = ["osm-hosteleria", "osm-salud", "osm-inmobiliarias", "osm-logistica", "osm-peluqueria"]
+ORDEN_OSM = ["osm-hosteleria", "osm-salud", "osm-inmobiliarias", "osm-logistica", "osm-peluqueria", "osm-talleres"]
 
 SECTORES = {
     "80.01": {"label": "Seguridad privada", "short": "Seguridad", "title": "Sicherheit"},

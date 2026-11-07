@@ -45,6 +45,9 @@ SECTORES = {
     "peluqueria": {
         "label": "Peluquerías y centros de estética", "short": "Peluquería", "title": "Friseur & Kosmetik",
         "tipos": {("shop", "beauty"): "Peluquería o estética"}},
+    "talleres": {
+        "label": "Talleres de automóviles", "short": "Talleres", "title": "Autowerkstätten",
+        "tipos": {("car", "car_repair"): "Taller de automóviles"}},
 }
 TIPO_OSM = {1: "N", 2: "W", 3: "R"}       # último dígito del id de OpenMapTiles
 
