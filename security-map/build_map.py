@@ -3,11 +3,14 @@
 
 Entradas: raw/<código WZ>/*.json (fetch_companies.py), geocache.json (geocode.py),
 contacts.json (contactos de OpenRegister), countries.geojson, relief.json (make_relief.py) y vendor/*.css.
-La página usa además relief.jpg, relief-sat.jpg y basemap/*.json (basemap.py), que se publican junto a ella.
+La página usa además relief.jpg, relief-sat.jpg, basemap/*.json (basemap.py) y data/osm-*.json (osm_pois.py),
+que se publican junto a ella.
 """
 import datetime, glob, json, pathlib
 
 BASE = pathlib.Path(__file__).parent
+
+ORDEN_OSM = ["osm-hosteleria", "osm-salud", "osm-inmobiliarias"]
 
 SECTORES = {
     "80.01": {"label": "Seguridad privada", "short": "Seguridad", "title": "Sicherheit"},
@@ -46,8 +49,11 @@ def main():
             }
     for qs in consultas.values():
         qs.sort(key=lambda c: -c["total"])
-    meta = {"fetched": datetime.date.today().strftime("%d/%m/%Y"),
-            "sectors": {code: {**s, "queries": consultas[code]} for code, s in SECTORES.items()},
+    sectors = {code: {**s, "source": "openregister", "queries": consultas[code]} for code, s in SECTORES.items()}
+    # Sectores de OpenStreetMap (osm_pois.py): la página descarga data/osm-<sector>.json en segundo plano
+    for f in sorted((BASE / "data").glob("osm-*.meta.json"), key=lambda f: ORDEN_OSM.index(f.name.split(".")[0])):
+        sectors[f.name.split(".")[0]] = json.loads(f.read_text())
+    meta = {"fetched": datetime.date.today().strftime("%d/%m/%Y"), "sectors": sectors,
             "relief": json.loads((BASE / "relief.json").read_text())["bounds"]}
     de = [f for f in json.loads((BASE / "countries.geojson").read_text())["features"] if f["properties"]["de"]]
 
@@ -63,7 +69,8 @@ def main():
     (BASE / "index.html").write_text(html)
     sin = sum(1 for d in data.values() if d["y"] is None)
     por_sector = {code: sum(1 for d in data.values() if code in d["s"]) for code in SECTORES}
-    print(f"index.html: {len(data)} empresas {por_sector}, {sin} sin coordenadas, {len(html) // 1024} KB")
+    osm = {c: s["count"] for c, s in sectors.items() if s["source"] == "osm"}
+    print(f"index.html: {len(data)} empresas {por_sector}, {sin} sin coordenadas, {len(html) // 1024} KB; OpenStreetMap: {osm}")
 
 
 if __name__ == "__main__":

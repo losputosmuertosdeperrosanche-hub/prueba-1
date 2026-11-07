@@ -1,0 +1,20 @@
+{
+ "label": "Hostelería (restaurantes, bares, cafeterías y hoteles)",
+ "short": "Hostelería",
+ "title": "Gastro",
+ "source": "osm",
+ "file": "data/osm-hosteleria.json",
+ "count": 35935,
+ "withContact": 15560,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "fetched": "07/11/2026"
+}

@@ -5,3 +5,4 @@ nexuslead-go/nexuslead
 security-map/basemap/
 security-map/.tilecache/
 security-map/__pycache__/
+security-map/osm_lookup.json

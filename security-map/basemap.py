@@ -4,10 +4,10 @@
 Descarga las teselas necesarias, las simplifica y las guarda en formato compacto
 (enteros a 1e-5 grados con diferencias; ver codificar()) agrupadas en paquetes:
   basemap/pais.json        z8 para toda Alemania: autopistas, carreteras principales, ríos, lagos, ciudades
-  basemap/zona-<x>_<y>.json  una por cada tesela z11 (~20 km) con empresas:
-                           z11 (carreteras, agua, bosques, zonas urbanas, barrios) y
-                           z14 alrededor de cada empresa (calles, edificios, agua, parques)
-La página carga cada zona solo cuando el usuario se acerca a ella.
+  basemap/zona-<x>_<y>.json     una por cada tesela z11 (~20 km): carreteras, agua, bosques, zonas urbanas, barrios
+  basemap/detalle-<x>_<y>.json  una por cada tesela z12 (~5 km) con datos z14 alrededor de las empresas
+                                y negocios con contacto: calles, edificios, agua, parques
+La página carga las zonas al acercarse (zoom 10,5) y los bloques de detalle al acercarse más (zoom 13,5).
 
 Uso: python basemap.py
 Datos © colaboradores de OpenStreetMap (ODbL), teselas de OpenFreeMap (OpenMapTiles).
@@ -19,7 +19,7 @@ import mapbox_vector_tile as mvt
 import requests
 from shapely.geometry import MultiPolygon, shape
 
-MIN_EDIFICIO_M2 = 60     # se descartan casetas y garajes pequeños
+MIN_EDIFICIO_M2 = 100    # se descartan casetas, garajes y anexos pequeños
 MIN_AREA_PAIS_M2 = 1e7   # bosques/zonas urbanas de la capa país: solo manchas de más de 10 km²
 TOLERANCIA_M = {8: 60, 11: 6, 14: 1.5}   # simplificación de contornos, en metros, según el zoom
 
@@ -162,6 +162,21 @@ def main():
     for p in puntos:
         pedidos[11].add(tile_of(p["lat"], p["lon"], 11))
         pedidos[14].add(tile_of(p["lat"], p["lon"], 14))
+    # Negocios de OpenStreetMap (osm_pois.py): calles a escala de ciudad en toda el área de cada ciudad
+    # y detalle (calles y edificios) alrededor de cada negocio con teléfono o email
+    import osm_pois
+    if osm_pois.AREAS_CACHE.exists():
+        for a in osm_pois.areas().values():
+            ax0, ay0 = tile_of(a["n"], a["w"], 11)
+            ax1, ay1 = tile_of(a["s"], a["e"], 11)
+            pedidos[11] |= {(x, y) for x in range(ax0, ax1 + 1) for y in range(ay0, ay1 + 1)}
+    for f in sorted((BASE / "data").glob("osm-*.json")):
+        if f.name.endswith(".meta.json"):
+            continue
+        for r in json.loads(f.read_text())["rows"]:
+            if r[7] or r[8]:
+                pedidos[14].add(tile_of(r[3], r[4], 14))
+                pedidos[11].add(tile_of(r[3], r[4], 11))
     print({z: len(t) for z, t in pedidos.items()})
 
     trabajos = [(z, x, y) for z, ts in pedidos.items() for x, y in sorted(ts)]
@@ -177,7 +192,7 @@ def main():
             clave = "pais"
         else:
             px, py = parent(x, y, z, 11)
-            clave = f"zona-{px}_{py}"
+            clave = f"zona-{px}_{py}" if z == 11 else "detalle-{}_{}".format(*parent(x, y, z, 12))
         paquetes.setdefault(clave, []).extend(convertir(z, x, y, data))
     orden = ["landcover", "landuse", "park", "water", "waterway", "building", "transportation", "place"]
     indice = []
@@ -186,8 +201,10 @@ def main():
         feats.sort(key=lambda f: (orden.index(f[0]), f[2]))
         (OUT / f"{clave}.json").write_text(json.dumps({"f": feats}, ensure_ascii=False, separators=(",", ":")))
         if clave != "pais":
-            indice.append([int(v) for v in clave.split("-")[1].split("_")])
-    (OUT / "index.json").write_text(json.dumps({"zoom": 11, "zonas": sorted(indice)}))
+            indice.append((clave.split("-")[0], [int(v) for v in clave.split("-")[1].split("_")]))
+    (OUT / "index.json").write_text(json.dumps({
+        "zoom": 11, "zonas": sorted(xy for t, xy in indice if t == "zona"),
+        "detalle_zoom": 12, "detalles": sorted(xy for t, xy in indice if t == "detalle")}))
     total = sum(f.stat().st_size for f in OUT.glob("*.json"))
     print(f"{len(paquetes)} paquetes, {total // 1024 // 1024} MB en total")
 

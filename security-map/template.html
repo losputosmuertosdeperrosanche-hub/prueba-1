@@ -10,6 +10,7 @@
   --bg:#e9edf1; --panel:#ffffff; --fg:#14202b; --muted:#5a6876; --line:#d3dae1;
   --accent:#c96a00; --accent-fg:#ffffff; --accent-soft:#fbead6;
   --sec:#1f4f7a; --sec-soft:#d6e4f1; --ev:#7b3fa8; --ev-soft:#eadff3; --cl-fg:#ffffff;
+  --s-hos:#b8322a; --s-sal:#0f7f74; --s-inm:#5b7d12;
   --ok:#256d45; --ok-soft:#dcefe3; --warn:#7a5a00; --warn-soft:#f6ecc9;
   --display:"Archivo",ui-sans-serif,system-ui,sans-serif;
   --body:"Source Sans 3",ui-sans-serif,system-ui,-apple-system,sans-serif;
@@ -18,12 +19,12 @@
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#0e141a; --panel:#17202a; --fg:#e6edf3; --muted:#9aa8b5; --line:#2a3542;
   --accent:#ff9f2e; --accent-fg:#1a1205; --accent-soft:#3a2810;
-  --sec:#7fb3e0; --sec-soft:#1c2c3c; --ev:#c49bf0; --ev-soft:#2c2140; --cl-fg:#0b1320;
+  --sec:#7fb3e0; --sec-soft:#1c2c3c; --ev:#c49bf0; --ev-soft:#2c2140; --cl-fg:#0b1320; --s-hos:#ff8f84; --s-sal:#5fd3c4; --s-inm:#b5dc6e;
   --ok:#7fd3a0; --ok-soft:#1b3326; --warn:#e8c76a; --warn-soft:#3a3118; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0e141a; --panel:#17202a; --fg:#e6edf3; --muted:#9aa8b5; --line:#2a3542;
   --accent:#ff9f2e; --accent-fg:#1a1205; --accent-soft:#3a2810;
-  --sec:#7fb3e0; --sec-soft:#1c2c3c; --ev:#c49bf0; --ev-soft:#2c2140; --cl-fg:#0b1320;
+  --sec:#7fb3e0; --sec-soft:#1c2c3c; --ev:#c49bf0; --ev-soft:#2c2140; --cl-fg:#0b1320; --s-hos:#ff8f84; --s-sal:#5fd3c4; --s-inm:#b5dc6e;
   --ok:#7fd3a0; --ok-soft:#1b3326; --warn:#e8c76a; --warn-soft:#3a3118; color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -59,10 +60,11 @@ label.lbl{display:grid;min-width:0}
 .modes button{font:inherit;font-size:.82rem;font-weight:600;padding:7px 12px;border:0;background:transparent;color:var(--fg);cursor:pointer}
 .modes button[aria-pressed="true"]{background:var(--accent);color:var(--accent-fg)}
 .loading{position:absolute;z-index:600;left:50%;transform:translateX(-50%);bottom:calc(28px + env(safe-area-inset-bottom,0px));background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:.8rem;box-shadow:0 2px 8px rgb(0 0 0 / .15)}
-.cl{display:grid;place-items:center;border-radius:50%;background:var(--sec);color:var(--cl-fg);font-family:var(--mono);font-weight:500;font-size:12px;border:3px solid rgb(255 255 255 / .75);box-shadow:0 1px 4px rgb(0 0 0 / .35)}
-.cl.ev{background:var(--ev)}
-.cl.mix{background:linear-gradient(135deg,var(--sec) 50%,var(--ev) 50%)}
+.cl{display:grid;place-items:center;border-radius:50%;background:var(--sec);color:#fff;text-shadow:0 0 3px rgb(0 0 0 / .75),0 0 1px #000;font-family:var(--mono);font-weight:600;font-size:12px;border:3px solid rgb(255 255 255 / .75);box-shadow:0 1px 4px rgb(0 0 0 / .35)}
 .cl.hot{border-color:var(--accent)}
+.chip.sec{background:color-mix(in srgb,var(--c) 14%,transparent);color:var(--c)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.8rem;color:var(--muted)}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:0}
 .plabel{font-family:var(--body);font-weight:600;white-space:nowrap;pointer-events:none;transform:translate(-50%,-50%);color:#2b2b2b;text-shadow:0 0 2px #fff,0 0 3px #fff,0 0 4px #fff}
 .plabel.big{font-family:var(--display);font-stretch:85%;font-size:14px;letter-spacing:.02em}
 .plabel.mid{font-size:12.5px}
@@ -77,8 +79,6 @@ label.lbl{display:grid;min-width:0}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
 .chip{font-size:.75rem;font-weight:600;padding:3px 9px;border-radius:999px;background:var(--sec-soft);color:var(--sec)}
 .chip.ok{background:var(--ok-soft);color:var(--ok)}
-.chip.s8001{background:var(--sec-soft);color:var(--sec)}
-.chip.s8230{background:var(--ev-soft);color:var(--ev)}
 .chip.warn{background:var(--warn-soft);color:var(--warn)}
 section h3{margin:0 0 6px;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
 dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 12px}
@@ -159,10 +159,14 @@ const hasContact = e => !!(e.k && (e.k.phone || e.k.email));
 function toast(t){ const el=$("toast"); el.textContent=t; el.hidden=false; clearTimeout(toast.t); toast.t=setTimeout(()=>el.hidden=true,2200); }
 function store(k, v){ try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch(_) { return null; } }
 
-const SECTORS = META.sectors;               // {"80.01": {label, short, queries:[...]}, ...}
-$("stamp").textContent = `${fmt(DATA.length)} empresas reales · OpenRegister · ${META.fetched}`;
-$("sector").innerHTML = `<option value="">Todos los sectores · ${fmt(DATA.length)}</option>` +
-  Object.entries(SECTORS).map(([code, s]) => `<option value="${code}">${esc(s.short)} · ${fmt(DATA.filter(e => e.s.includes(code)).length)}</option>`).join("");
+const SECTORS = META.sectors;               // {"80.01": {label, short, source:"openregister"|"osm", ...}, ...}
+const SECTOR_VAR = {"80.01":"--sec", "82.30":"--ev", "osm-hosteleria":"--s-hos", "osm-salud":"--s-sal", "osm-inmobiliarias":"--s-inm"};
+DATA.forEach(e => e.src = "or");
+const sectorCount = code => SECTORS[code].source === "osm" ? SECTORS[code].count : DATA.filter(e => e.s.includes(code)).length;
+const TOTAL = DATA.length + Object.keys(SECTORS).filter(c => SECTORS[c].source === "osm").reduce((n, c) => n + SECTORS[c].count, 0);
+$("stamp").textContent = `${fmt(TOTAL)} empresas reales · OpenRegister + OSM`;
+$("sector").innerHTML = `<option value="">Todos los sectores · ${fmt(TOTAL)}</option>` +
+  Object.keys(SECTORS).map(code => `<option value="${code}">${esc(SECTORS[code].short)} · ${fmt(sectorCount(code))}</option>`).join("");
 
 if (!window.L || !L.markerClusterGroup || !L.vectorGrid) {
   $("map").innerHTML = '<div class="err">No se pudo cargar el mapa. Comprueba la conexión y recarga la página.</div>';
@@ -172,7 +176,7 @@ if (!window.L || !L.markerClusterGroup || !L.vectorGrid) {
 // ---------- Mapa base ----------
 const map = L.map("map", {zoomControl:true, minZoom:5, maxZoom:18, zoomSnap:0.5, preferCanvas:true, wheelPxPerZoomLevel:90});
 map.attributionControl.setPrefix(false).addAttribution(
-  'Empresas: <a href="https://openregister.de" target="_blank" rel="noopener">OpenRegister</a> · Calles © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> (<a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a>) · Relieve: Natural Earth');
+  'Empresas: <a href="https://openregister.de" target="_blank" rel="noopener">OpenRegister</a> y OpenStreetMap · Calles © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> (<a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a>) · Relieve: Natural Earth');
 const DE_BOUNDS = L.latLngBounds([47.2, 5.8], [55.1, 15.1]);
 map.fitBounds(DE_BOUNDS);
 map.createPane("base"); map.getPane("base").style.zIndex = 200;
@@ -278,47 +282,62 @@ function drawLabels(){
 
 // Capa país (z8) y zonas de detalle cargadas bajo demanda
 let countryLayer = null, countryData = null;
-const zones = new Map();    // "x_y" -> {state, layer, geo}
-let zoneIndex = new Set();
+// Dos niveles bajo demanda: zonas de ciudad (tesela z11, ~20 km) y bloques de detalle con calles y edificios (z12, ~5 km)
+const KINDS = {
+  zona:    {z:11, from:10.5, layerMin:10, keep:12, maxTiles:30},
+  detalle: {z:12, from:13.5, layerMin:13, keep:16, maxTiles:24},
+};
+const tiles = {zona:{index:new Set(), loaded:new Map()}, detalle:{index:new Set(), loaded:new Map()}};
+const zones = {forEach: fn => Object.values(tiles).forEach(t => t.loaded.forEach(fn))};   // para redibujar al cambiar de modo
 fetch("basemap/pais.json").then(r => r.json()).then(pkg => {
   countryData = decode(pkg);
   allLabels = allLabels.concat(countryData.labels);
   countryLayer = vectorLayer(countryData.geo, {maxZoom:12, maxNativeZoom:12}).addTo(map);
   drawLabels();
 }).catch(() => toast("No se pudo cargar el mapa de carreteras"));
-fetch("basemap/index.json").then(r => r.json()).then(ix => { zoneIndex = new Set(ix.zonas.map(([x, y]) => x + "_" + y)); loadZones(); }).catch(() => {});
+fetch("basemap/index.json").then(r => r.json()).then(ix => {
+  tiles.zona.index = new Set(ix.zonas.map(([x, y]) => x + "_" + y));
+  tiles.detalle.index = new Set((ix.detalles || []).map(([x, y]) => x + "_" + y));
+  loadZones();
+}).catch(() => {});
 
 function tileXY(lat, lon, z){ const n = 2 ** z; return [Math.floor((lon + 180) / 360 * n), Math.floor((1 - Math.asinh(Math.tan(lat * Math.PI / 180)) / Math.PI) / 2 * n)]; }
 let pending = 0;
 function loadZones(){
-  if (map.getZoom() < 10.5 || !zoneIndex.size) return;
-  const b = map.getBounds(), [x0, y0] = tileXY(b.getNorth(), b.getWest(), 11), [x1, y1] = tileXY(b.getSouth(), b.getEast(), 11);
-  if ((x1 - x0 + 1) * (y1 - y0 + 1) > 30) return;
-  for (let x = x0; x <= x1; x++) for (let y = y0; y <= y1; y++) {
-    const key = x + "_" + y;
-    if (!zoneIndex.has(key) || zones.has(key)) continue;
-    zones.set(key, {state:"loading"}); pending++; $("loading").hidden = false;
-    fetch(`basemap/zona-${key}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(pkg => {
-      const d = decode(pkg);
-      const layer = vectorLayer(d.geo, {minZoom:10}).addTo(map);
-      zones.set(key, {state:"ok", layer, labels:d.labels});
-      allLabels = d.labels.concat(allLabels);
-      unloadFarZones();
-      drawLabels();
-    }).catch(() => zones.delete(key)).finally(() => { pending--; if (pending <= 0) $("loading").hidden = true; });
+  for (const [kind, k] of Object.entries(KINDS)) {
+    const t = tiles[kind];
+    if (map.getZoom() < k.from || !t.index.size) continue;
+    const b = map.getBounds(), [x0, y0] = tileXY(b.getNorth(), b.getWest(), k.z), [x1, y1] = tileXY(b.getSouth(), b.getEast(), k.z);
+    if ((x1 - x0 + 1) * (y1 - y0 + 1) > k.maxTiles) continue;
+    for (let x = x0; x <= x1; x++) for (let y = y0; y <= y1; y++) {
+      const key = x + "_" + y;
+      if (!t.index.has(key) || t.loaded.has(key)) continue;
+      t.loaded.set(key, {state:"loading"}); pending++;
+      $("loading").textContent = "Cargando calles…"; $("loading").hidden = false;
+      fetch(`basemap/${kind}-${key}.json`).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(pkg => {
+        const d = decode(pkg);
+        const layer = vectorLayer(d.geo, {minZoom:k.layerMin}).addTo(map);
+        t.loaded.set(key, {state:"ok", layer, labels:d.labels});
+        allLabels = d.labels.concat(allLabels);
+        unloadFar(kind);
+        drawLabels();
+      }).catch(() => t.loaded.delete(key)).finally(() => { pending--; if (pending <= 0) $("loading").hidden = true; });
+    }
   }
 }
-// Mantener en memoria como mucho 12 zonas: se quitan las más lejanas a la vista actual
-function unloadFarZones(){
-  const ok = [...zones.entries()].filter(([, z]) => z.state === "ok");
-  if (ok.length <= 12) return;
-  const c = map.getCenter(), cz = tileXY(c.lat, c.lng, 11);
-  ok.sort((a, b) => { const d = k => { const [x, y] = k.split("_").map(Number); return (x - cz[0]) ** 2 + (y - cz[1]) ** 2; }; return d(b[0]) - d(a[0]); });
-  for (const [key, z] of ok.slice(0, ok.length - 12)) {
+// Mantener en memoria solo los bloques más cercanos a la vista actual
+function unloadFar(kind){
+  const k = KINDS[kind], t = tiles[kind];
+  const ok = [...t.loaded.entries()].filter(([, z]) => z.state === "ok");
+  if (ok.length <= k.keep) return;
+  const c = map.getCenter(), cz = tileXY(c.lat, c.lng, k.z);
+  const dist = key => { const [x, y] = key.split("_").map(Number); return (x - cz[0]) ** 2 + (y - cz[1]) ** 2; };
+  ok.sort((a, b) => dist(b[0]) - dist(a[0]));
+  for (const [key, z] of ok.slice(0, ok.length - k.keep)) {
     z.layer.remove();
     const gone = new Set(z.labels);
     allLabels = allLabels.filter(l => !gone.has(l));
-    zones.delete(key);
+    t.loaded.delete(key);
   }
 }
 function applyMode(){
@@ -351,25 +370,52 @@ applyMode();
 map.on("moveend", onView);
 
 // ---------- Empresas ----------
-const cluster = L.markerClusterGroup({showCoverageOnHover:false, maxClusterRadius:45, spiderfyOnMaxZoom:true, chunkedLoading:true,
-  iconCreateFunction: cl => { const ms = cl.getAllChildMarkers(), n = ms.length, s = n < 10 ? 30 : n < 100 ? 38 : 46;
-    const sec = ms.some(m => m.options.sec === "80.01"), ev = ms.some(m => m.options.sec === "82.30");
-    const hot = ms.some(m => m.options.hasContact);
-    return L.divIcon({html:`<div class="cl${sec && ev ? " mix" : ev ? " ev" : ""}${hot ? " hot" : ""}" style="width:${s}px;height:${s}px">${n}</div>`, className:"", iconSize:[s, s]}); }});
+const cluster = L.markerClusterGroup({showCoverageOnHover:false, maxClusterRadius:45, spiderfyOnMaxZoom:true, chunkedLoading:true, disableClusteringAtZoom:17,
+  iconCreateFunction: cl => { const ms = cl.getAllChildMarkers(), n = ms.length, s = n < 10 ? 30 : n < 100 ? 38 : n < 1000 ? 46 : 54;
+    const per = {}; let hot = false;
+    for (const m of ms) { per[m.options.sec] = (per[m.options.sec] || 0) + 1; if (m.options.hasContact) hot = true; }
+    let acc = 0; const stops = Object.entries(per).sort((a, b) => b[1] - a[1]).map(([code, k]) => {
+      const a0 = acc / n * 100; acc += k; return `var(${SECTOR_VAR[code] || "--sec"}) ${a0.toFixed(1)}% ${(acc / n * 100).toFixed(1)}%`; });
+    const bg = stops.length > 1 ? `conic-gradient(${stops.join(",")})` : `var(${SECTOR_VAR[Object.keys(per)[0]] || "--sec"})`;
+    return L.divIcon({html:`<div class="cl${hot ? " hot" : ""}" style="width:${s}px;height:${s}px;background:${bg}">${n >= 10000 ? Math.round(n / 1000) + "k" : n}</div>`, className:"", iconSize:[s, s]}); }});
 map.addLayer(cluster);
-const sectorColor = code => css(code === "82.30" ? "--ev" : "--sec");
-const markers = new Map();
+const sectorColor = code => css(SECTOR_VAR[code] || "--sec");
+const markers = new Map(), byId = new Map();
 function markerStyle(e){
-  const has = hasContact(e), c = has ? css("--accent") : sectorColor(e.s[0]);
-  return {radius: has ? 8 : 6.5, weight:2, color:"#ffffff", fillColor:c, fillOpacity:1, opacity:.95};
+  const has = hasContact(e);
+  return {radius: has ? 7.5 : 6, weight:2, color: has ? css("--accent") : "#ffffff", fillColor:sectorColor(e.s[0]), fillOpacity:1, opacity:1};
 }
-DATA.forEach(e => {
-  if (e.y == null) return;
-  const m = L.circleMarker([e.y, e.x], Object.assign({sec:e.s[0], hasContact:hasContact(e)}, markerStyle(e)));
-  m.on("click", () => openDetail(e));
-  m.bindTooltip(esc(e.n), {direction:"top", offset:[0, -6]});
-  markers.set(e.i, m);
-});
+function addMarkers(list){
+  for (const e of list) {
+    byId.set(e.i, e);
+    if (e.y == null || markers.has(e.i)) continue;
+    const m = L.circleMarker([e.y, e.x], Object.assign({sec:e.s[0], hasContact:hasContact(e)}, markerStyle(e)));
+    m.on("click", () => openDetail(e));
+    if (e.src === "or") m.bindTooltip(esc(e.n), {direction:"top", offset:[0, -6]});
+    markers.set(e.i, m);
+  }
+}
+addMarkers(DATA);
+
+// Sectores de OpenStreetMap: se descargan en segundo plano, uno detrás de otro
+// fila: [id OSM, nombre, tipo, lat, lon, dirección, ciudad, teléfono, email, web, horario, extra]
+function fromOsm(code, r){
+  return {i:"osm:" + r[0], n:r[1], s:[code], c:r[6], a:r[5], p:r[2] + (r[11] ? " · " + r[11] : ""), y:r[3], x:r[4], q:"direccion",
+          k:{phone:r[7], email:r[8], website:r[9]}, kc:true, src:"osm", sub:r[2], oh:r[10], ex:r[11], osm:r[0]};
+}
+const osmCodes = Object.keys(SECTORS).filter(c => SECTORS[c].source === "osm");
+(async () => {
+  for (const code of osmCodes) {
+    $("loading").textContent = `Cargando ${SECTORS[code].short.toLowerCase()}…`; $("loading").hidden = false;
+    try {
+      const r = await fetch(SECTORS[code].file); if (!r.ok) throw new Error(r.status);
+      const rows = (await r.json()).rows.map(row => fromOsm(code, row)).filter(e => !byId.has(e.i));
+      DATA.push(...rows); addMarkers(rows);
+      fillCities(); refresh(false);
+    } catch(_) { toast(`No se pudo cargar ${SECTORS[code].short.toLowerCase()}`); }
+  }
+  $("loading").hidden = true; $("loading").textContent = "Cargando calles…";
+})();
 function rebuildMarkerStyles(){ DATA.forEach(e => { const m = markers.get(e.i); if (m) m.setStyle(markerStyle(e)); }); }
 
 function fillCities(){
@@ -377,7 +423,7 @@ function fillCities(){
   DATA.forEach(e => { if (!sec || e.s.includes(sec)) counts.set(e.c, (counts.get(e.c) || 0) + 1); });
   const total = [...counts.values()].reduce((a, b) => a + b, 0);
   const list = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "de"));
-  $("city").innerHTML = `<option value="">Toda Alemania · ${fmt(total)}</option>` + list.map(([c, n]) => `<option value="${esc(c)}">${esc(c)} · ${n}</option>`).join("");
+  $("city").innerHTML = `<option value="">Toda Alemania · ${fmt(total)}</option>` + list.map(([c, n]) => `<option value="${esc(c)}">${esc(c)} · ${fmt(n)}</option>`).join("");
   $("city").value = counts.has(prev) ? prev : "";
 }
 function filtered(){
@@ -390,7 +436,7 @@ function refresh(fit){
   current = filtered();
   cluster.clearLayers();
   cluster.addLayers(current.filter(e => markers.has(e.i)).map(e => markers.get(e.i)));
-  $("count").innerHTML = `<b>${fmt(current.length)}</b> emp. · <b>${current.filter(hasContact).length}</b> ☎`;
+  $("count").innerHTML = `<b>${fmt(current.length)}</b> emp. · <b>${fmt(current.filter(hasContact).length)}</b> ☎`;
   const sec = $("sector").value;
   $("sectorTitle").textContent = sec ? SECTORS[sec].title : "Deutschland";
   if (fit) {
@@ -401,7 +447,7 @@ function refresh(fit){
   if (!$("sheet").hidden && $("sheet").dataset.mode === "list") showList();
 }
 let qTimer;
-$("q").addEventListener("input", () => { clearTimeout(qTimer); qTimer = setTimeout(() => refresh(true), 250); });
+$("q").addEventListener("input", () => { clearTimeout(qTimer); qTimer = setTimeout(() => refresh(true), 400); });
 $("city").addEventListener("change", () => refresh(true));
 $("sector").addEventListener("change", () => { fillCities(); refresh(true); });
 $("onlyContact").addEventListener("change", () => refresh(false));
@@ -421,8 +467,17 @@ document.addEventListener("keydown", ev => { if (ev.key === "Escape") $("sheet")
 
 function webFrom(url){ try { return new URL(url).origin; } catch(_) { return ""; } }
 const googleBtn = e => `<div class="cline"><span class="v">Buscar la empresa en internet</span><a class="mini" href="https://www.google.com/search?q=${encodeURIComponent(e.n + " " + e.c)}" target="_blank" rel="noopener">Google</a></div>`;
+function webUrl(w){ return /^https?:\/\//i.test(w) ? w : "https://" + w; }
 function contactHtml(e){
   const k = e.k;
+  if (e.src === "osm") {
+    if (!k.phone && !k.email && !k.website) return `<p class="note">OpenStreetMap no tiene teléfono, email ni web de este negocio.</p>${googleBtn(e)}`;
+    const out = [];
+    if (k.phone) out.push(`<div class="cline"><div><div class="k">Teléfono</div><div class="v mono">${esc(k.phone)}</div></div><span class="acts"><a class="mini" href="tel:${esc(k.phone.replace(/[^+\d]/g, ""))}">Llamar</a>${copyBtn(k.phone)}</span></div>`);
+    if (k.email) out.push(`<div class="cline"><div><div class="k">Email</div><div class="v mono">${esc(k.email)}</div></div><span class="acts"><a class="mini" href="mailto:${esc(k.email)}">Escribir</a>${copyBtn(k.email)}</span></div>`);
+    if (k.website) out.push(`<div class="cline"><div><div class="k">Web</div><div class="v mono">${esc(k.website.replace(/^https?:\/\//i, "").replace(/\/$/, ""))}</div></div><a class="mini" href="${esc(webUrl(k.website))}" target="_blank" rel="noopener">Abrir</a></div>`);
+    return out.join("");
+  }
   if (!e.kc) return `<p class="note">Contacto no consultado todavía: cada consulta de contacto en OpenRegister gasta 10 créditos.</p>${googleBtn(e)}`;
   if (!k || (!k.phone && !k.email && !k.source_url)) return `<p class="note">OpenRegister no tiene teléfono, email ni web de esta empresa.</p>${googleBtn(e)}`;
   const out = [];
@@ -434,10 +489,23 @@ function contactHtml(e){
   if (k.source_url) out.push(`<p class="note">Fuente del contacto: <a href="${esc(k.source_url)}" target="_blank" rel="noopener">${esc(k.source_url)}</a></p>`);
   return out.join("");
 }
+const OSM_TYPE = {N:"node", W:"way", R:"relation"};
 function openDetail(e){
-  const maps = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(e.a);
+  const maps = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(e.a || (e.y + "," + e.x));
+  if (e.src === "osm") {
+    const code = e.s[0], osmUrl = `https://www.openstreetmap.org/${OSM_TYPE[e.osm[0]]}/${e.osm.slice(1)}`;
+    const extraLabel = code === "osm-salud" ? "Especialidad" : code === "osm-hosteleria" ? "Cocina / categoría" : "Detalle";
+    openSheet(e.n, `
+      <div class="chips"><span class="chip sec" style="--c:var(${SECTOR_VAR[code]})">${esc(e.sub)}</span><span class="chip">${esc(SECTORS[code].short)}</span><span class="chip">Fuente: OpenStreetMap</span></div>
+      <section><h3>Contacto</h3><div class="contact">${contactHtml(e)}</div></section>
+      <section><h3>Dirección</h3><div class="cline"><span class="v">${esc(e.a) || '<span class="note">Sin dirección en OpenStreetMap</span>'}</span><a class="mini" href="${maps}" target="_blank" rel="noopener">Google Maps</a></div></section>
+      ${e.oh ? `<section><h3>Horario</h3><p class="purpose mono">${esc(e.oh)}</p></section>` : ""}
+      ${e.ex ? `<section><h3>${extraLabel}</h3><p class="purpose">${esc(e.ex)}</p></section>` : ""}
+      <section><h3>Origen de los datos</h3><p class="note">Negocio registrado en OpenStreetMap por la comunidad (© colaboradores de OpenStreetMap, ODbL). Puede haber datos desactualizados. <a href="${osmUrl}" target="_blank" rel="noopener">Ver ficha en OpenStreetMap</a></p></section>`, "detail");
+    return;
+  }
   const prec = e.q === "codigo_postal" ? `<span class="chip warn">Ubicación aproximada (código postal)</span>` : e.q === "ciudad" ? `<span class="chip warn">Ubicación aproximada (ciudad)</span>` : "";
-  const secChips = e.s.map(code => `<span class="chip s${code.replace(".", "")}">WZ ${code} · ${esc(SECTORS[code].label)}</span>`).join("");
+  const secChips = e.s.map(code => `<span class="chip sec" style="--c:var(${SECTOR_VAR[code]})">WZ ${code} · ${esc(SECTORS[code].label)}</span>`).join("");
   openSheet(e.n, `
     <div class="chips"><span class="chip ok">Activa</span><span class="chip">${esc(LEGAL[e.f] || e.f)}</span>${secChips}${prec}</div>
     <section><h3>Contacto</h3><div class="contact">${contactHtml(e)}</div></section>
@@ -451,24 +519,26 @@ function openDetail(e){
 }
 function coverageNote(){
   const sec = $("sector").value;
-  return Object.entries(SECTORS).filter(([code]) => !sec || code === sec).map(([code, s]) => {
+  const legend = `<div class="legend">${Object.keys(SECTORS).map(c => `<span><i style="background:var(${SECTOR_VAR[c]})"></i>${esc(SECTORS[c].short)}</span>`).join("")}<span><i style="background:transparent;box-shadow:inset 0 0 0 2px var(--accent)"></i>Con teléfono o email</span></div>`;
+  return legend + Object.entries(SECTORS).filter(([code]) => !sec || code === sec).map(([code, s]) => {
+    if (s.source === "osm") return `<b>${esc(s.short)}:</b> ${fmt(s.count)} negocios de OpenStreetMap en ${esc(s.cities.join(", "))} (área completa de cada ciudad); ${fmt(s.withContact)} con teléfono o email.`;
     const q = s.queries;
     if (q.length === 1 && !q[0].name) return `<b>${esc(s.short)}:</b> ${fmt(q[0].loaded)} de ${fmt(q[0].total)} empresas activas en Alemania (muestra).`;
     const full = q.filter(c => c.loaded === c.total).map(c => c.name), part = q.filter(c => c.loaded < c.total).map(c => `${c.name} (${c.loaded} de ${fmt(c.total)})`);
     return `<b>${esc(s.short)}:</b> completas ${esc(full.join(", "))}. Parciales: ${esc(part.join(", "))}.`;
-  }).map(t => `<p class="note">${t}</p>`).join("") + `<p class="note">Punto naranja: tiene teléfono o email.</p>`;
+  }).map(t => `<p class="note">${t}</p>`).join("");
 }
 function showList(){
   const items = current.slice().sort((a, b) => (hasContact(b) - hasContact(a)) || a.n.localeCompare(b.n, "de"));
   const shown = items.slice(0, 300);
-  openSheet(`${fmt(items.length)} empresas`, coverageNote() + (items.length ? `<div class="list">${shown.map(e => `<button class="item" type="button" data-id="${esc(e.i)}"><b><i class="dot" style="background:${hasContact(e) ? css("--accent") : sectorColor(e.s[0])}"></i>${esc(e.n)}</b><span>${esc(e.a)}</span></button>`).join("")}</div>` +
+  openSheet(`${fmt(items.length)} empresas`, coverageNote() + (items.length ? `<div class="list">${shown.map(e => `<button class="item" type="button" data-id="${esc(e.i)}"><b><i class="dot" style="background:${sectorColor(e.s[0])};${hasContact(e) ? "box-shadow:0 0 0 2px " + css("--accent") : ""}"></i>${esc(e.n)}</b><span>${esc(e.a)}</span></button>`).join("")}</div>` +
     (items.length > shown.length ? `<p class="note">Se muestran 300. Busca o elige una ciudad para acotar.</p>` : "")
     : `<p class="note">Ninguna empresa coincide. Prueba con otra búsqueda o quita filtros.</p>`), "list");
 }
 $("listBtn").addEventListener("click", showList);
 $("sheetBody").addEventListener("click", ev => {
   const b = ev.target.closest(".item"); if (!b) return;
-  const e = DATA.find(x => x.i === b.dataset.id); if (!e) return;
+  const e = byId.get(b.dataset.id); if (!e) return;
   const m = markers.get(e.i); if (m) cluster.zoomToShowLayer(m, () => {});
   openDetail(e);
 });

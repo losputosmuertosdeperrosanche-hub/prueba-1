@@ -47,6 +47,9 @@ del Handelsregister vía OpenRegister:
 - **Seguridad privada** (código WZ 2025 **80.01**): Nürnberg, München, Köln, Düsseldorf y Stuttgart completas;
   Berlin, Hamburg y Frankfurt parciales.
 - **Eventos, ferias y congresos** (WZ **82.30**): muestra de toda Alemania.
+- **Hostelería, Salud e Inmobiliarias**: negocios reales de **OpenStreetMap** con su teléfono, email,
+  web y horario cuando la comunidad los ha registrado, en el área completa de Berlin, Hamburg, München,
+  Köln, Frankfurt am Main, Stuttgart, Düsseldorf y Nürnberg (`osm_pois.py`).
 
 Pasos para regenerarlo:
 
@@ -58,10 +61,11 @@ python fetch_companies.py 82.30 "" 6
 python geocode.py                              # coordenadas con OpenStreetMap (Photon)
 python make_relief.py NE1_HR_LC_SR_W_DR.tif    # relieve de Natural Earth -> relief.jpg / relief-sat.jpg
 python basemap.py                              # calles, edificios y agua de OpenStreetMap (OpenFreeMap) -> basemap/
+python osm_pois.py hosteleria salud inmobiliarias  # negocios de OpenStreetMap + contacto (Nominatim) -> data/
 python build_map.py                            # genera index.html
 ```
 
-La página `index.html` necesita a su lado `relief.jpg`, `relief-sat.jpg` y la carpeta `basemap/`.
+La página `index.html` necesita a su lado `relief.jpg`, `relief-sat.jpg` y las carpetas `basemap/` y `data/`.
 
 - `raw/<código WZ>/`: respuestas de la API por ciudad.
 - `contacts.json`: teléfono, email, web y USt-IdNr. obtenidos con `GET /v0/company/{id}/contact` (10 créditos por empresa).

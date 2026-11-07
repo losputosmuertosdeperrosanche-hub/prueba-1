@@ -1,0 +1,20 @@
+{
+ "label": "Inmobiliarias y administración de fincas",
+ "short": "Inmobiliarias",
+ "title": "Immobilien",
+ "source": "osm",
+ "file": "data/osm-inmobiliarias.json",
+ "count": 822,
+ "withContact": 274,
+ "cities": [
+  "Berlin",
+  "Hamburg",
+  "München",
+  "Köln",
+  "Frankfurt am Main",
+  "Stuttgart",
+  "Düsseldorf",
+  "Nürnberg"
+ ],
+ "fetched": "07/11/2026"
+}
