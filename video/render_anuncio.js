@@ -13,7 +13,7 @@ const T = {
           ctaSmall: 'und wir zeigen dir, wie es funktioniert',
           stats: ['Logistikbetriebe, neu dabei', 'davon mit Telefon oder E-Mail', 'Arten von Logistikbetrieben', 'große deutsche Städte']},
   pills: {'osm-logistica': 'Logistik'},
-  caps: {s1: ['SCHRITT 1', 'Wähle die Stadt', 'Hier: Berlin'], s2: ['SCHRITT 2', 'Wähle die Branche', 'Neu: Logistik'],
+  caps: {s1: ['SCHRITT 1', 'Wähle die Stadt', 'Hier: Berlin'], s2: ['SCHRITT 2', 'Wähle die Branche', ''],
          s3: ['SCHRITT 3', 'Tippe auf einen Betrieb', 'Adresse und Kontakt sofort'],
          s4: ['NUR MIT KONTAKT', 'Filter „Mit Kontakt“', 'Nur Betriebe mit Telefon oder E-Mail'],
          s5: ['QUELLE', 'OpenStreetMap', 'Die Daten aktualisieren wir laufend']},
@@ -141,8 +141,11 @@ function win(t, a, b, fi = .3, fo = .22, dy = 10){
   let zoomOrigin = null, lastCam = null, nextEvent = 0;
 
   const N = Math.round(DURATION * FPS);
+  // FRAMES=a-b,c-d renderiza solo esos fotogramas (el estado de la app se pone al día con los eventos anteriores)
+  const rango = process.env.FRAMES ? process.env.FRAMES.split(',').map(s => s.split('-').map(Number)) : null;
   const t0 = Date.now();
   for (let f = 0; f < N; f++) {
+    if (rango && !rango.some(([a, b]) => f >= a && f <= b)) continue;
     const t = f / FPS;
     let dirty = false;
     while (nextEvent < events.length && events[nextEvent][0] <= t) { await events[nextEvent][1](); nextEvent++; dirty = true; }
@@ -172,6 +175,7 @@ function win(t, a, b, fi = .3, fo = .22, dy = 10){
     L.cap = {o: 0};
     for (const [a, b, c] of caps) if (t >= a && t <= b) { L.cap = win(t, a, b); caption = c; }
     L.pills = win(t, 11.75, 16.05);
+    L.stats = win(t, 35.2, 38.6, .2, .25, 0);   // cifras finales (las filas se animan en S.apply)
     if (t >= 12.2 && t < 34.6) pill = 'osm-logistica';
     L.ctaBrand = win(t, 38.7, DURATION); L.ctaQ = win(t, 38.9, DURATION); L.ctaSmall = win(t, 39.3, DURATION);
     L.ctaPill = (() => { const w = win(t, 39.1, DURATION); return {...w, s: lerp(.8, 1, eOut(seg(t, 39.1, 39.4)))}; })();
@@ -194,6 +198,10 @@ function win(t, a, b, fi = .3, fo = .22, dy = 10){
     };
     const stats = (t >= 35.2 && t < 38.6) ? t - 35.2 : null;   // las cifras se ocultan antes del cierre
     await page.evaluate(st => S.apply(st), {bg, layers: L, caption, pill, num: 172 * eOut(seg(t, 1.0, 2.2)), phone: ph, ripple, stats});
+    if (process.env.DEBUG) console.log('DEBUG', f, JSON.stringify(await page.evaluate(() => ({
+      stats: [getComputedStyle(document.getElementById('stats')).opacity, document.querySelector('#stats .row').style.opacity, document.getElementById('stats').textContent.slice(0, 50)],
+      sub: document.querySelector('#cap .sub').textContent, main: document.querySelector('#cap .main').textContent,
+      pills: [...document.querySelectorAll('#pills span')].map(s => s.textContent + (s.classList.contains('on') ? '*' : '')) }))));
     await page.screenshot({path: path.join(OUT, `f${String(f).padStart(5, '0')}.jpg`), type: 'jpeg', quality: 93});
     if (f % 60 === 0) console.log(`fotograma ${f}/${N} (${((Date.now() - t0) / 1000).toFixed(1)} s)`);
   }
