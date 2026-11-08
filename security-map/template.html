@@ -605,4 +605,6 @@ new MutationObserver(() => { rebuildMarkerStyles(); cluster.refreshClusters(); }
 
 fillCities();
 refresh(false);
+// Todos los sectores se cargan en segundo plano al abrir: así el mapa muestra todas las empresas
+cargarTodos().then(() => { fillCities(); refresh(false); });
 </script>
