@@ -411,14 +411,16 @@ function fromOsm(code, r){
 const osmCodes = Object.keys(SECTORS).filter(c => SECTORS[c].source === "osm");
 const osmCargados = new Set(), osmIntentados = new Set(), osmCargando = new Map();
 let todosCargados = false;
+const ficherosOsm = new Map();   // ruta -> JSON pedido una sola vez (un fichero de grupo trae varios sectores)
 function cargarSector(code){
   if (!SECTORS[code] || SECTORS[code].source !== "osm" || osmCargados.has(code)) return Promise.resolve();
   if (osmCargando.has(code)) return osmCargando.get(code);
   osmIntentados.add(code);
   $("loading").textContent = `Cargando ${SECTORS[code].short.toLowerCase()}…`; $("loading").hidden = false;
-  const p = fetch(SECTORS[code].file)
-    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(j => { const rows = j.rows.map(row => fromOsm(code, row)).filter(e => !byId.has(e.i)); DATA.push(...rows); addMarkers(rows); osmCargados.add(code); })
+  const ruta = SECTORS[code].file;
+  if (!ficherosOsm.has(ruta)) ficherosOsm.set(ruta, fetch(ruta).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }));
+  const p = ficherosOsm.get(ruta)
+    .then(j => { const filas = (j.rows || (j[code] && j[code].rows) || []).map(row => fromOsm(code, row)).filter(e => !byId.has(e.i)); DATA.push(...filas); addMarkers(filas); osmCargados.add(code); })
     .catch(() => toast(`No se pudo cargar ${SECTORS[code].short.toLowerCase()}`))
     .finally(() => { osmCargando.delete(code); if (!osmCargando.size) $("loading").hidden = true; });
   osmCargando.set(code, p);

@@ -23,6 +23,20 @@ SECTORES = {
 EXISTENTES = {"osm-hosteleria", "osm-salud", "osm-inmobiliarias", "osm-logistica", "osm-peluqueria", "osm-talleres"}
 
 
+# Sectores nuevos agrupados en 7 ficheros por idioma: el artefacto admite 512 ficheros como máximo.
+# Cada grupo trae las filas de sus sectores; la página descarga el grupo la primera vez que se elige un sector suyo.
+GRUPOS_NUEVOS = [
+    ["osm-guarderias", "osm-heladerias"],
+    ["osm-supermercados", "osm-abogados", "osm-masajes"],
+    ["osm-ropa", "osm-seguros", "osm-viajes", "osm-sastres"],
+    ["osm-empresas", "osm-concesionarios", "osm-moviles", "osm-carnicerias"],
+    ["osm-panaderias", "osm-floristerias", "osm-opticas", "osm-calzado", "osm-bebidas"],
+    ["osm-farmacias", "osm-muebles", "osm-joyerias", "osm-bicicletas", "osm-informatica"],
+    ["osm-kioscos", "osm-deporte", "osm-bancos", "osm-gasolineras"],
+]
+GRUPO_DE_SECTOR = {c: f"grupo-{i + 1}.json" for i, g in enumerate(GRUPOS_NUEVOS) for c in g}
+
+
 def extras_sectores(sectors):
     """Colores (CSS), variables y palabras de búsqueda de los sectores OSM nuevos, generados desde su meta."""
     nuevos = sorted(c for c in sectors if sectors[c]["source"] == "osm" and c not in EXISTENTES)
@@ -86,6 +100,8 @@ def main(lang="es"):
         code = f.name.split(".")[0]
         meta = json.loads(f.read_text())
         if not de:
+            if code in GRUPO_DE_SECTOR:
+                meta["file"] = f"data/{GRUPO_DE_SECTOR[code]}"
             sectors[code] = meta
             continue
         # versión alemana: filas traducidas en data-de/ (solo para el vídeo en alemán)
@@ -93,7 +109,13 @@ def main(lang="es"):
         (BASE / "data-de").mkdir(exist_ok=True)
         traducidas = [i18n_de.fila_de(r, (cache.get(r[0]) or {}).get("tags")) for r in filas]
         (BASE / "data-de" / f"{code}.json").write_text(json.dumps({"rows": traducidas}, ensure_ascii=False, separators=(",", ":")))
-        sectors[code] = i18n_de.meta_de(code, meta, f"data-de/{code}.json")
+        ruta = f"data-de/{GRUPO_DE_SECTOR[code]}" if code in GRUPO_DE_SECTOR else f"data-de/{code}.json"
+        sectors[code] = i18n_de.meta_de(code, meta, ruta)
+    # Ficheros de grupo: un JSON por grupo con las filas de sus sectores, copiadas de data/ o data-de/
+    carpeta = BASE / ("data-de" if de else "data")
+    for i, grupo in enumerate(GRUPOS_NUEVOS):
+        bloque = {c: {"rows": json.loads((carpeta / f"{c}.json").read_text())["rows"]} for c in grupo}
+        (carpeta / f"grupo-{i + 1}.json").write_text(json.dumps(bloque, ensure_ascii=False, separators=(",", ":")))
     meta = {"fetched": datetime.date.today().strftime("%d/%m/%Y"), "sectors": sectors,
             "relief": json.loads((BASE / "relief.json").read_text())["bounds"]}
     frontera = [f for f in json.loads((BASE / "countries.geojson").read_text())["features"] if f["properties"]["de"]]
