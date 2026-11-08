@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=360">
+<title>NexusLead Branchen</title>
+<style>
+@font-face{font-family:"Archivo";src:url(/fonts/archivo.woff2) format("woff2-variations");font-weight:100 900;font-stretch:62% 125%}
+@font-face{font-family:"Source Sans 3";src:url(/fonts/sourcesans3.woff2) format("woff2-variations");font-weight:200 900}
+@font-face{font-family:"JetBrains Mono";src:url(/fonts/jetbrainsmono.woff2) format("woff2-variations");font-weight:100 800}
+:root{--ink:#0b1016;--accent:#ff9f2e;--white:#f4f7fb;--muted:#9fb0c2}
+*{box-sizing:border-box}
+html,body{margin:0;width:360px;height:640px;overflow:hidden;background:var(--ink);font-family:"Source Sans 3",sans-serif;color:var(--white)}
+#bg{position:absolute;inset:0;width:360px;height:640px}
+.layer{position:absolute;left:24px;right:24px;opacity:0;will-change:transform,opacity}
+.disp{font-family:"Archivo",sans-serif;font-weight:800;font-stretch:78%;text-transform:uppercase;letter-spacing:.01em;line-height:.95}
+.shadow{text-shadow:0 2px 14px rgb(0 0 0 / .6),0 1px 2px rgb(0 0 0 / .6)}
+.mono{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+#hook{top:200px;text-align:center}
+#hookNum{font-size:70px;color:var(--accent);font-stretch:72%;font-variant-numeric:tabular-nums}
+#hookLbl{font-size:18px;font-weight:600;margin-top:6px}
+#branch{top:200px;text-align:center}
+#branchNum{font-size:70px;color:var(--accent);font-stretch:72%;font-variant-numeric:tabular-nums}
+#branchLbl{font-size:18px;font-weight:600;margin-top:6px}
+#groupWrap{top:52px}
+#gTitle{font-size:30px;margin-top:8px;line-height:1}
+#rows{margin-top:20px}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:9px 0;border-bottom:1px solid rgb(255 255 255 / .14);opacity:0;will-change:transform,opacity}
+.row .nm{font-size:16px;font-weight:600;color:#eef3f8}
+.row .ct{font-family:"Archivo",sans-serif;font-weight:800;font-stretch:80%;font-size:22px;color:var(--accent);font-variant-numeric:tabular-nums;white-space:nowrap}
+#contact{top:190px;text-align:center}
+#cNum{font-size:72px;color:var(--accent);font-stretch:72%;font-variant-numeric:tabular-nums}
+#cLbl{font-size:19px;font-weight:600;margin-top:6px}
+#cFilt{font-size:12px;color:var(--muted);margin-top:18px}
+#steps{top:150px}
+.step{font-family:"Archivo",sans-serif;font-weight:800;font-stretch:80%;font-size:36px;text-transform:uppercase;opacity:0;margin-bottom:22px;line-height:1.02}
+.step span{display:block;color:var(--accent);font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;font-weight:500;margin-bottom:4px}
+#src{top:250px;text-align:center}
+#srcMain{font-family:"Archivo",sans-serif;font-weight:800;font-stretch:80%;font-size:28px;text-transform:uppercase;line-height:1.05}
+#srcSub{font-size:13px;color:var(--muted);margin-top:12px;font-family:"JetBrains Mono",monospace;letter-spacing:.06em}
+#ctaBrand{top:190px;text-align:center;font-size:40px}
+#ctaBrand span{color:var(--accent)}
+#ctaQ{top:262px;text-align:center;font-size:26px}
+#ctaPill{top:330px;left:0;right:0;display:flex;justify-content:center}
+#ctaPill b{display:inline-block;background:var(--accent);color:#1a1205;font-family:"Archivo",sans-serif;font-weight:800;font-stretch:80%;font-size:22px;padding:9px 18px;border-radius:14px;text-transform:uppercase;letter-spacing:.02em}
+#ctaSmall{top:402px;text-align:center;font-size:15px;color:#e6edf3;font-weight:600}
+#app{position:absolute;left:0;top:0;width:390px;height:800px;opacity:0;pointer-events:none;border:0}
+</style></head>
+<body>
+<canvas id="bg" width="1080" height="1920"></canvas>
+<div id="hook" class="layer disp shadow"><div id="hookNum">0</div><div id="hookLbl" class="shadow">Betriebe in acht Großstädten</div></div>
+<div id="branch" class="layer disp shadow"><div id="branchNum">0</div><div id="branchLbl" class="shadow">Branchen auf einer Karte</div></div>
+<div id="groupWrap" class="layer shadow">
+  <div id="kick" class="mono">Gruppe 1 von 6</div>
+  <div id="gTitle" class="disp">Essen und Einkauf</div>
+  <div id="rows"></div>
+</div>
+<div id="contact" class="layer disp shadow"><div id="cNum">0</div><div id="cLbl" class="shadow">mit Telefon oder E-Mail</div><div id="cFilt" class="mono shadow">Filter „Mit Kontakt“</div></div>
+<div id="steps" class="layer shadow">
+  <div class="step" id="step0"><span>Schritt 1</span>Stadt wählen</div>
+  <div class="step" id="step1"><span>Schritt 2</span>Branche wählen</div>
+  <div class="step" id="step2"><span>Schritt 3</span>Betrieb antippen</div>
+</div>
+<div id="src" class="layer shadow"><div id="srcMain">OpenRegister<br>OpenStreetMap</div><div id="srcSub">8 Großstädte · Stand 11/2026</div></div>
+<div id="ctaBrand" class="layer disp shadow">Nexus<span>Lead</span></div>
+<div id="ctaQ" class="layer disp shadow">Welche Branche interessiert dich?</div>
+<div id="ctaPill" class="layer"><b>Kommentiere »SEKTOREN«</b></div>
+<div id="ctaSmall" class="layer shadow">und wir schicken dir den Link</div>
+<iframe id="app" src="/"></iframe>
+<script>
+const $ = id => document.getElementById(id);
+const fmt = n => Math.round(n).toLocaleString("de-DE");
+const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+const bg = $("bg"), ctx = bg.getContext("2d");
+const relief = new Image(); relief.src = "/relief-sat.jpg";
+const RB = {s: 44.5, w: 1, n: 57.5, e: 20};
+const merc = lat => Math.log(Math.tan(Math.PI / 4 + lat * Math.PI / 360));
+let pts = null;
+// Puntos de las empresas (de la app cargada en el marco oculto): una de cada dos, para que el fondo vaya fluido
+function loadPoints(){
+  const w = $("app").contentWindow;
+  if (!w || !w.eval) return false;
+  let data; try { data = w.eval("DATA"); } catch (_) { return false; }
+  if (!data || data.length < 45000) return false;
+  const arr = data.filter(e => e.y != null).filter((_, i) => i % 2 === 0).map(e => [e.x, e.y]);
+  let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; }
+  pts = arr; return true;
+}
+function drawBg({zoom = 1, reveal = 1, dim = .4, lonC = 10.45, latC = 51.15} = {}){
+  const W = 1080, H = 1920, k = 470 / (merc(55.06) - merc(47.27)) * 3 * zoom, cx = W / 2, cy = 330 * 3;
+  const px = lon => cx + (lon - lonC) * Math.PI / 180 * k, py = lat => cy - (merc(lat) - merc(latC)) * k;
+  ctx.fillStyle = "#0b1016"; ctx.fillRect(0, 0, W, H);
+  if (relief.complete) { const x0 = px(RB.w), x1 = px(RB.e), y0 = py(RB.n), y1 = py(RB.s); ctx.filter = "blur(2px)"; ctx.globalAlpha = .9; ctx.drawImage(relief, x0, y0, x1 - x0, y1 - y0); ctx.globalAlpha = 1; ctx.filter = "none"; }
+  ctx.fillStyle = `rgba(6,10,15,${dim})`; ctx.fillRect(0, 0, W, H);
+  if (pts) {
+    const n = Math.floor(pts.length * clamp(reveal));
+    ctx.globalCompositeOperation = "lighter";
+    ctx.fillStyle = "rgba(255,140,30,0.025)";
+    for (let i = 0; i < n; i++) { const p = pts[i]; ctx.fillRect(px(p[0]) - 6, py(p[1]) - 6, 12, 12); }
+    ctx.globalCompositeOperation = "source-over";
+    ctx.fillStyle = "rgba(255,170,70,0.55)";
+    for (let i = 0; i < n; i++) { const p = pts[i]; ctx.fillRect(px(p[0]) - .8, py(p[1]) - .8, 1.6, 1.6); }
+  }
+  const g = ctx.createLinearGradient(0, 0, 0, H);
+  g.addColorStop(0, "rgba(6,10,15,.6)"); g.addColorStop(.4, "rgba(6,10,15,.1)"); g.addColorStop(.7, "rgba(6,10,15,.15)"); g.addColorStop(1, "rgba(6,10,15,.75)");
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+}
+function show(id, {o = 1, y = 0, s = 1} = {}){ const el = $(id); el.style.opacity = o; el.style.transform = `translateY(${y}px) scale(${s})`; }
+// Un grupo de branches: título y filas (el número de cada fila se anima en cada fotograma)
+function setGroup(g){
+  $("kick").textContent = g.kick; $("gTitle").textContent = g.title;
+  $("rows").innerHTML = g.rows.map(([n]) => `<div class="row"><span class="nm">${n}</span><span class="ct">0</span></div>`).join("");
+}
+function apply(st){
+  drawBg(st.bg);
+  show("hook", st.hook); if (st.hook.o > 0) $("hookNum").textContent = fmt(st.hookNum) + "+";
+  show("branch", st.branch); if (st.branch.o > 0) $("branchNum").textContent = fmt(st.branchNum);
+  show("groupWrap", st.group);
+  document.querySelectorAll("#rows .row").forEach((el, i) => {
+    const r = st.rows[i];
+    if (!r) { el.style.opacity = 0; return; }
+    el.style.opacity = r.o; el.style.transform = `translateY(${r.y}px)`;
+    el.querySelector(".ct").textContent = fmt(r.v);
+  });
+  show("contact", st.contact); if (st.contact.o > 0) $("cNum").textContent = fmt(st.cNum);
+  st.steps.forEach((o, i) => { const el = $("step" + i); el.style.opacity = o; el.style.transform = `translateY(${(1 - o) * 10}px)`; });
+  show("src", st.src);
+  show("ctaBrand", st.ctaBrand); show("ctaQ", st.ctaQ); show("ctaPill", st.ctaPill); show("ctaSmall", st.ctaSmall);
+}
+window.S = {apply, setGroup, loadPoints, ready: () => relief.complete && document.fonts.status === "loaded"};
+</script>
+</body></html>
