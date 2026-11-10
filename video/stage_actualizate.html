@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=360">
+<title>actualizate IA</title>
+<style>
+@font-face{font-family:"Archivo";src:url(/fonts/archivo.woff2) format("woff2-variations");font-weight:100 900;font-stretch:62% 125%;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122}
+@font-face{font-family:"Archivo";src:url(/fonts/archivo-ext.woff2) format("woff2-variations");font-weight:100 900;font-stretch:62% 125%;unicode-range:U+0100-024F,U+1E00-1EFF}
+@font-face{font-family:"Source Sans 3";src:url(/fonts/sourcesans3.woff2) format("woff2-variations");font-weight:200 900;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122}
+@font-face{font-family:"Source Sans 3";src:url(/fonts/sourcesans3-ext.woff2) format("woff2-variations");font-weight:200 900;unicode-range:U+0100-024F,U+1E00-1EFF}
+@font-face{font-family:"JetBrains Mono";src:url(/fonts/jetbrainsmono.woff2) format("woff2-variations");font-weight:100 800;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122}
+@font-face{font-family:"JetBrains Mono";src:url(/fonts/jetbrainsmono-ext.woff2) format("woff2-variations");font-weight:100 800;unicode-range:U+0100-024F,U+1E00-1EFF}
+:root{--ink:#0a0d12;--acc:#5ee6a8;--white:#f4f7fb;--mut:#9aa9b8}
+*{box-sizing:border-box}
+html,body{margin:0;width:360px;height:640px;overflow:hidden;background:var(--ink);font-family:"Source Sans 3",sans-serif;color:var(--white)}
+#bg{position:absolute;left:0;top:0;width:360px;height:640px}
+.sc{position:absolute;left:0;top:0;right:0;bottom:0;opacity:0}
+.e{position:absolute;left:28px;right:28px;opacity:0;will-change:transform,opacity}
+.disp{font-family:"Archivo",sans-serif;font-weight:800;font-stretch:76%;text-transform:uppercase;line-height:.95}
+.mono{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--acc)}
+.body{font-size:21px;line-height:1.3;color:#e7edf4}
+.acc{color:var(--acc)}
+.mut{color:var(--mut)}
+.shadow{text-shadow:0 2px 16px rgb(0 0 0 / .6)}
+.track{position:absolute;left:28px;right:28px;height:12px;border-radius:6px;background:rgb(255 255 255 / .09);overflow:hidden}
+.fill{position:absolute;left:0;top:0;bottom:0;width:0;border-radius:6px}
+.pill{display:inline-block;background:var(--acc);color:#06140d;font-family:"Archivo",sans-serif;font-weight:800;font-stretch:76%;font-size:24px;text-transform:uppercase;padding:12px 22px;border-radius:14px}
+.li{display:flex;align-items:center;gap:12px;font-size:24px;font-weight:600}
+.li svg{flex:none;width:26px;height:26px}
+.stamp{position:absolute;left:28px;border:4px solid var(--acc);border-radius:14px;padding:14px 18px;opacity:0;transform-origin:50% 50%}
+#prog{position:absolute;left:0;bottom:0;height:3px;width:0;background:var(--acc)}
+</style></head>
+<body>
+<canvas id="bg" width="1080" height="1920"></canvas>
+
+<div class="sc" id="s0">
+  <div class="e mono" style="top:166px" data-d="0.1" data-k="s0a"></div>
+  <div class="e" style="top:192px" data-d="0.25">
+    <div class="disp shadow" style="font-size:48px" data-k="s0b"></div>
+    <div class="disp acc" style="font-size:26px;margin:10px 0 8px" data-k="s0c"></div>
+    <div class="disp acc shadow" style="font-size:48px" data-k="s0d"></div>
+  </div>
+</div>
+
+<div class="sc" id="s1">
+  <div class="e mono mut" style="top:166px" data-d="0.05" data-k="s1a"></div>
+  <div class="e disp shadow" style="top:192px;font-size:54px" data-d="0.2" data-k="s1b"></div>
+  <div class="e mono mut" style="top:338px" data-d="0.7" data-k="s1d"></div>
+  <div class="track" style="top:366px"><div class="fill" data-st="0.8" data-du="2.2" data-mx="1" style="background:#6b7a8c"></div></div>
+</div>
+
+<div class="sc" id="s2">
+  <div class="e mono" style="top:166px" data-d="0.05" data-k="s2a"></div>
+  <div class="e disp acc shadow" style="top:192px;font-size:88px" data-d="0.2" data-k="s2b"></div>
+  <div class="e body" style="top:300px" data-d="0.55" data-k="s2c"></div>
+  <div class="e mono" style="top:372px" data-d="0.8" data-k="s2d"></div>
+  <div class="track" style="top:400px"><div class="fill" data-st="1.0" data-du="0.9" data-mx="0.14" style="background:var(--acc)"></div></div>
+</div>
+
+<div class="sc" id="s3">
+  <div class="e disp acc shadow" id="num" style="top:150px;font-size:170px" data-d="0.05">0</div>
+  <div class="e disp shadow" style="top:326px;font-size:54px" data-d="0.9" data-k="s3u"></div>
+  <div class="e body" style="top:398px" data-d="1.2" data-k="s3c"></div>
+</div>
+
+<div class="sc" id="s4">
+  <svg class="e" style="top:156px;width:110px;height:110px" viewBox="0 0 100 100" data-d="0.05">
+    <circle cx="50" cy="50" r="46" fill="none" stroke="#5ee6a8" stroke-width="3" opacity=".45"/>
+    <path id="chkp" d="M28 52 L44 68 L74 36" fill="none" stroke="#5ee6a8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>
+  </svg>
+  <div class="e disp shadow" style="top:296px;font-size:46px" data-d="0.4" data-k="s4a"></div>
+  <div class="e body" style="top:392px" data-d="0.8" data-k="s4b"></div>
+</div>
+
+<div class="sc" id="s5">
+  <div class="e mono" style="top:166px" data-d="0.05" data-k="s5a"></div>
+  <div class="e disp acc shadow" id="price" style="top:196px;font-size:140px" data-d="0.15">0 €</div>
+  <div class="e mono mut" style="top:360px;font-size:13px" data-d="0.9" data-k="s5b"></div>
+</div>
+
+<div class="sc" id="s6">
+  <div class="stamp" id="stamp" style="top:196px"><span class="disp" style="font-size:40px;line-height:1" data-k="s6a"></span></div>
+  <div class="e body" style="top:378px" data-d="1.0" data-k="s6b"></div>
+</div>
+
+<div class="sc" id="s7">
+  <div class="e mono" style="top:166px" data-d="0.05" data-k="s7a"></div>
+  <div class="e disp shadow" style="top:192px;font-size:40px" data-d="0.2" data-k="s7b"></div>
+  <div class="e disp acc shadow" style="top:372px;font-size:40px" data-d="1.1" data-k="s7c"></div>
+</div>
+
+<div class="sc" id="s8">
+  <div class="e disp shadow" style="top:166px;font-size:42px" data-d="0.05" data-k="s8a"></div>
+  <div class="e" style="top:300px" data-d="0.6"><span class="pill" data-k="s8b"></span></div>
+  <div class="e body" style="top:382px" data-d="1.0" data-k="s8c"></div>
+</div>
+
+<div class="sc" id="s9">
+  <div class="e disp shadow" style="top:166px;font-size:44px" data-d="0.05" data-k="s9a"></div>
+  <div class="e li" style="top:292px" data-d="0.8"><svg viewBox="0 0 24 24"><path d="M5 12.5 L10 17 L19 7" fill="none" stroke="#5ee6a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-k="s9b"></span></div>
+  <div class="e li" style="top:346px" data-d="1.6"><svg viewBox="0 0 24 24"><path d="M5 12.5 L10 17 L19 7" fill="none" stroke="#5ee6a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-k="s9c"></span></div>
+</div>
+
+<div class="sc" id="s10">
+  <div class="e mono" style="top:166px" data-d="0.05" data-k="s10a"></div>
+  <div class="e disp acc shadow" style="top:194px;font-size:72px" data-d="0.25" data-k="s10b"></div>
+  <div class="e body" style="top:300px" data-d="0.8" data-k="s10c"></div>
+</div>
+
+<div class="sc" id="s11">
+  <div class="e mono" style="top:166px" data-d="0.05" data-k="s11a"></div>
+  <div class="e disp acc shadow" style="top:194px;font-size:66px" data-d="0.25" data-k="s11b"></div>
+  <div class="e mono mut" style="top:300px" data-d="0.8" data-k="s11c"></div>
+</div>
+
+<div class="sc" id="s12">
+  <div class="e disp shadow" style="top:168px;font-size:54px;text-transform:none" data-d="0.05">actualizate<span class="acc">IA</span></div>
+  <div class="e mono" style="top:248px;font-size:13px;letter-spacing:.02em;text-transform:none;color:var(--white)" data-d="0.4">actualizate-inte.vercel.app</div>
+  <div class="e disp shadow" style="top:300px;font-size:32px" data-d="0.7" data-k="s12c"></div>
+  <div class="e" style="top:372px" data-d="1.0"><span class="pill" data-k="s12d"></span></div>
+</div>
+
+<div id="prog"></div>
+
+<script>
+const TIEMPOS = window.TIEMPOS, LANG = window.LANG || 'de';
+const T = TIEMPOS.inicios, DUR = TIEMPOS.duracion, N = T.length;
+const TXT = {
+  de: {
+    s0a:'Vergleich', s0b:'Webdesigner', s0c:'oder', s0d:'KI-Agentur?',
+    s1a:'Webdesigner', s1b:'Alles von Hand.', s1d:'Dauer: Tage',
+    s2a:'KI-Agentur', s2b:'Mit KI.', s2c:'Wir arbeiten mit künstlicher Intelligenz.', s2d:'Dauer: Minuten',
+    s3u:'Minuten', s3c:'in etwa, bis zur fertigen Website',
+    s4a:'Menschliche Prüfung', s4b:'Jede Website wird vor der Abgabe geprüft.',
+    s5a:'Für dein Unternehmen', s5b:'zzgl. MwSt.',
+    s6a:'Am selben Tag', s6b:'Erst danach bezahlst du.',
+    s7a:'Unsere Arbeiten', s7b:'Frag nach unseren anderen Projekten.', s7c:'Überzeug dich selbst.',
+    s8a:'Teste uns mit einer Demo.', s8b:'Jetzt testen', s8c:'Gefällt sie dir, machen wir weiter. Du verlierst nichts.',
+    s9a:'KI heißt Zeit sparen.', s9b:'Automatisierung', s9c:'Optimierte Firmen',
+    s10a:'Weitere Dienste', s10b:'Günstig.', s10c:'Dank KI.',
+    s11a:'Für Programmierer', s11b:'Weckruf.', s11c:'Update 2026',
+    s12c:'Willst du eine Website?', s12d:'Schreib uns'
+  },
+  ro: {
+    s0a:'Comparație', s0b:'Web designer', s0c:'sau', s0d:'Agenție IA?',
+    s1a:'Web designer', s1b:'Totul manual.', s1d:'Durată: zile',
+    s2a:'Agenție IA', s2b:'Cu IA.', s2c:'Lucrăm cu inteligență artificială.', s2d:'Durată: minute',
+    s3u:'Minute', s3c:'aproximativ, până la site-ul gata',
+    s4a:'Verificare umană', s4b:'Fiecare site este verificat înainte de predare.',
+    s5a:'Pentru firma ta', s5b:'+ TVA',
+    s6a:'În aceeași zi', s6b:'Abia apoi plătești.',
+    s7a:'Lucrări', s7b:'Vezi alte lucrări ale noastre.', s7c:'Judecă singur.',
+    s8a:'Testează-ne cu<br>o demonstrație.', s8b:'Testează acum', s8c:'Dacă îți place, continuăm. Nu pierzi nimic.',
+    s9a:'IA înseamnă timp câștigat.', s9b:'Automatizări', s9c:'Firme optimizate',
+    s10a:'Alte servicii', s10b:'Ieftine.', s10c:'Datorită IA.',
+    s11a:'Pentru programatori', s11b:'Trezire.', s11c:'Actualizare 2026',
+    s12c:'Vrei un site web?', s12d:'Scrie-ne'
+  }
+};
+const $ = id => document.getElementById(id);
+const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+const seg = (t, a, b) => clamp((t - a) / (b - a));
+const eOut = x => 1 - Math.pow(1 - x, 3);
+const SC = [...document.querySelectorAll('.sc')];
+const cv = $('bg'), cx = cv.getContext('2d');
+document.documentElement.lang = LANG;
+document.querySelectorAll('[data-k]').forEach(el => { el.innerHTML = TXT[LANG][el.dataset.k] || ''; });
+
+function fade(t, a, b, fi, fo){
+  if (t < a || t > b) return 0;
+  const i = eOut(seg(t, a, a + fi));
+  const o = fo > 0 ? 1 - seg(t, b - fo, b) : 1;
+  return Math.min(i, o);
+}
+function drawBg(t){
+  const W = 1080, H = 1920;
+  cx.fillStyle = '#0a0d12'; cx.fillRect(0, 0, W, H);
+  const g = 120, off = (t * 16) % g;
+  cx.strokeStyle = 'rgba(255,255,255,0.045)'; cx.lineWidth = 2; cx.beginPath();
+  for (let x = off - g; x < W + g; x += g) { cx.moveTo(x, 0); cx.lineTo(x, H); }
+  for (let y = off - g; y < H + g; y += g) { cx.moveTo(0, y); cx.lineTo(W, y); }
+  cx.stroke();
+  const orbs = [
+    [.22 + .10 * Math.sin(t * .45), .20 + .04 * Math.cos(t * .33), .55, .20],
+    [.86 + .08 * Math.cos(t * .29), .72 + .05 * Math.sin(t * .38), .50, .14]
+  ];
+  for (const [ox, oy, r, al] of orbs) {
+    const x = ox * W, y = oy * H, R = r * W, gr = cx.createRadialGradient(x, y, 0, x, y, R);
+    gr.addColorStop(0, `rgba(94,230,168,${al})`); gr.addColorStop(1, 'rgba(94,230,168,0)');
+    cx.fillStyle = gr; cx.fillRect(0, 0, W, H);
+  }
+  const v = cx.createLinearGradient(0, 0, 0, H);
+  v.addColorStop(0, 'rgba(10,13,18,.5)'); v.addColorStop(.45, 'rgba(10,13,18,0)'); v.addColorStop(1, 'rgba(10,13,18,.85)');
+  cx.fillStyle = v; cx.fillRect(0, 0, W, H);
+}
+function frame(t){
+  drawBg(t);
+  $('prog').style.width = (100 * clamp(t / DUR)).toFixed(2) + '%';
+  for (let k = 0; k < N; k++){
+    const a = T[k], b = k + 1 < N ? T[k + 1] : DUR, u = t - a, sc = SC[k];
+    sc.style.opacity = fade(t, a, b, .25, k === N - 1 ? 0 : .3);
+    if (u < 0 || u > b - a + 1) continue;
+    for (const el of sc.querySelectorAll('.e')){
+      const d = parseFloat(el.dataset.d || 0), p = eOut(seg(u, d, d + .45));
+      el.style.opacity = p;
+      el.style.transform = `translateY(${((1 - p) * 16).toFixed(2)}px)`;
+    }
+    for (const el of sc.querySelectorAll('.fill')){
+      const st = parseFloat(el.dataset.st || 0), du = parseFloat(el.dataset.du || 1), mx = parseFloat(el.dataset.mx || 1);
+      el.style.width = (100 * mx * eOut(seg(u, st, st + du))).toFixed(2) + '%';
+    }
+  }
+  $('num').textContent = Math.round(10 * eOut(seg(t - T[3], .2, 1.4)));
+  $('price').textContent = Math.round(100 * eOut(seg(t - T[5], .1, .9))) + ' €';
+  $('chkp').style.strokeDashoffset = (100 * (1 - eOut(seg(t - T[4], .3, 1.1)))).toFixed(2);
+  const sp = eOut(seg(t - T[6], .1, .45)), st = $('stamp');
+  st.style.opacity = sp;
+  st.style.transform = `rotate(-6deg) scale(${(1 + .5 * (1 - sp)).toFixed(3)})`;
+}
+if (LANG === 'ro') document.querySelector('#s8 [data-k="s8a"]').style.fontSize = '36px';
+window.S = {frame};
+</script>
+</body></html>
