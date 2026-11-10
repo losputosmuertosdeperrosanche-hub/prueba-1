@@ -1,469 +1,857 @@
 <title>OnePlace Network</title>
 <meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Alojamiento corporativo amueblado en Tarragona: pisos en El Serrallo y una masía con piscina.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Space+Grotesk:wght@300;400;500&display=swap">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Space+Grotesk:wght@400;500;600&display=swap">
 <style>
-/* Layout: Treforma-style — full-bleed photo hero under a transparent header, wide whitespace, serif display headings, light grotesk body, big photo tiles; client palette "Teja y azul". Single light look by choice. */
+/* Layout: four full-screen sections that snap one by one (about + CEO, homes slider, team, contact). Arch frames echo the CEO photo. Fonts as treforma.es; palette "Teja y azul". Single light look by choice. */
 :root{
-  --teja:#A6472F; --azul:#2E4A62; --oro:#E9B44C; --crema:#FBF7F3; --tinta:#2A1E1A;
-  --gris:#d9d9d9; --suave:#6f625c; --linea:#e7ded6; --blanco:#ffffff;
+  --teja:#A6472F; --teja-d:#8C3A25; --azul:#2E4A62; --azul-d:#22384B; --oro:#E9B44C;
+  --crema:#FBF7F3; --arena:#F3ECE4; --tinta:#2A1E1A; --texto:#3A2E29; --suave:#5E524C; --linea:#E2D7CC; --blanco:#FFFFFF;
+  --wa:#0E7A41; --wa-d:#0B6435;
   --serif:"Inria Serif",Georgia,"Times New Roman",serif;
-  --sans:"Space Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --gut:max(16px,env(safe-area-inset-left,0px));
-  --gutR:max(16px,env(safe-area-inset-right,0px));
+  --sans:"Space Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --hh:64px;
+  --gl:max(16px,env(safe-area-inset-left,0px)); --gr:max(16px,env(safe-area-inset-right,0px));
+  --ease:cubic-bezier(.2,.7,.2,1);
   color-scheme:light;
 }
+@media (min-width:701px){:root{--gl:max(32px,env(safe-area-inset-left,0px)); --gr:max(32px,env(safe-area-inset-right,0px))}}
+@media (max-width:700px){:root{--hh:56px}}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
-html{scroll-behavior:smooth}
-body{background:var(--crema);color:var(--tinta);font-family:var(--sans);font-weight:300;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+html{scroll-snap-type:y mandatory;scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--crema);color:var(--texto);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body.lock{overflow:hidden}
 img{display:block;max-width:100%}
 a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--teja);outline-offset:3px}
-.wrap{max-width:1240px;margin:0 auto;padding-left:var(--gut);padding-right:var(--gutR)}
-h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0;text-wrap:balance;letter-spacing:-.01em}
-h2{font-size:clamp(32px,4.4vw,52px);line-height:1.12}
-h3{font-size:clamp(24px,2.6vw,32px);line-height:1.2}
-.eyebrow{font-family:var(--serif);text-transform:uppercase;letter-spacing:.14em;font-size:13px;color:var(--teja);margin:0 0 14px}
-.lead{font-size:19px;line-height:1.7;max-width:62ch;color:var(--suave)}
-section{padding-block:clamp(64px,9vw,120px)}
+.wrap{width:100%;max-width:1220px;margin:0 auto;padding-left:var(--gl);padding-right:var(--gr)}
+h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0;color:var(--tinta);text-wrap:balance;letter-spacing:-.01em}
+h2{font-size:clamp(30px,4vw,50px);line-height:1.1}
+.eyebrow{margin:0 0 10px;font-weight:600;text-transform:uppercase;letter-spacing:.16em;font-size:12px;color:var(--teja)}
+.lead{font-size:clamp(16px,1.35vw,18.5px);line-height:1.6;color:var(--suave);max-width:58ch;margin:14px 0 0}
+svg{flex:none}
 
-/* demo strip */
-.demo{background:var(--tinta);color:var(--crema);font-size:12.5px;letter-spacing:.06em;text-align:center;padding:7px var(--gutR) 7px var(--gut)}
-.demo b{font-weight:500;color:var(--oro)}
+/* ---------- header ---------- */
+.hd{position:fixed;top:0;left:0;right:0;z-index:40;padding-top:env(safe-area-inset-top,0px);background:rgba(251,247,243,.92);-webkit-backdrop-filter:saturate(1.4) blur(12px);backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid rgba(42,30,26,.08)}
+.hd-in{height:var(--hh);max-width:1220px;margin:0 auto;padding-left:var(--gl);padding-right:var(--gr);display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{display:flex;flex-direction:column;line-height:1;text-decoration:none;color:var(--tinta)}
+.logo b{font-family:var(--serif);font-weight:400;font-size:24px;letter-spacing:-.01em}
+.logo span{font-size:9.5px;letter-spacing:.46em;margin-top:4px;font-weight:600;color:var(--teja)}
+.hd-nav{display:flex;gap:30px}
+.hd-nav a{font-family:var(--serif);text-transform:uppercase;letter-spacing:.09em;font-size:14.5px;text-decoration:none;color:var(--texto);padding:6px 0;border-bottom:1px solid transparent;transition:color .25s,border-color .25s}
+.hd-nav a:hover{color:var(--teja)}
+.hd-nav a[aria-current="true"]{color:var(--teja);border-bottom-color:var(--teja)}
+.hd-r{display:flex;align-items:center;gap:10px}
+.demo-tag{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--tinta);background:var(--oro);padding:4px 8px;border-radius:3px}
+.lang{display:flex;border:1px solid var(--linea);border-radius:999px;padding:2px;background:var(--blanco)}
+.lang button{appearance:none;border:0;background:none;cursor:pointer;font-size:12px;font-weight:600;letter-spacing:.06em;padding:5px 9px;border-radius:999px;color:var(--suave);transition:background .2s,color .2s}
+.lang button[aria-pressed="true"]{background:var(--tinta);color:var(--crema)}
+.hd-wa{width:38px;height:38px;border-radius:50%;background:var(--wa);color:#fff;display:grid;place-items:center;transition:background .2s,transform .2s}
+.hd-wa:hover{background:var(--wa-d);transform:translateY(-1px)}
+.hd-wa svg{width:20px;height:20px}
+@media (max-width:900px){.hd-nav{display:none}}
+@media (max-width:380px){.logo b{font-size:21px}.demo-tag{display:none}}
 
-/* header */
-header.top{position:absolute;left:0;right:0;z-index:20;color:var(--blanco)}
-header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:22px}
-.logo{display:flex;flex-direction:column;line-height:1;text-decoration:none}
-.logo b{font-family:var(--serif);font-weight:400;font-size:28px;letter-spacing:-.01em}
-.logo span{font-family:var(--sans);font-size:10px;letter-spacing:.42em;margin-top:5px;opacity:.9}
-nav.menu{display:flex;gap:30px;align-items:center}
-nav.menu a{font-family:var(--serif);text-transform:uppercase;font-size:15px;letter-spacing:.08em;text-decoration:none;opacity:.92}
-nav.menu a:hover{opacity:1;text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px}
-.lang{display:flex;gap:4px;font-size:12px;letter-spacing:.1em}
-.lang button{all:unset;cursor:pointer;padding:4px 6px;opacity:.65}
-.lang button[aria-pressed="true"]{opacity:1;border-bottom:1px solid currentColor}
-.burger{display:none;all:unset;cursor:pointer;font-family:var(--serif);text-transform:uppercase;letter-spacing:.1em;font-size:14px}
-@media (max-width:860px){
-  nav.menu{position:fixed;inset:0;background:var(--azul);flex-direction:column;justify-content:center;gap:28px;transform:translateY(-100%);transition:transform .35s ease;padding-top:env(safe-area-inset-top,0px)}
-  nav.menu.open{transform:none}
-  nav.menu a{font-size:24px}
-  .burger{display:block;position:relative;z-index:30}
+/* ---------- section dots ---------- */
+.dots{position:fixed;right:calc(12px + env(safe-area-inset-right,0px));top:50%;transform:translateY(-50%);z-index:35;display:flex;flex-direction:column;gap:10px}
+.dots a{display:flex;align-items:center;justify-content:flex-end;gap:10px;text-decoration:none;padding:4px}
+.dots i{display:block;width:7px;height:7px;border-radius:99px;background:rgba(42,30,26,.3);transition:height .35s var(--ease),background .35s}
+.dots a[aria-current="true"] i{height:24px;background:var(--teja)}
+.dots span{font-size:12px;font-weight:600;letter-spacing:.06em;color:var(--tinta);background:var(--crema);padding:3px 8px;border-radius:4px;opacity:0;transform:translateX(6px);transition:opacity .2s,transform .2s;white-space:nowrap;box-shadow:0 4px 14px -6px rgba(0,0,0,.25)}
+.dots a:hover span,.dots a:focus-visible span{opacity:1;transform:none}
+body[data-sec="equipo"] .dots i{background:rgba(251,247,243,.45)}
+body[data-sec="equipo"] .dots a[aria-current="true"] i{background:var(--oro)}
+@media (min-width:701px){body[data-sec="nosotros"] .dots i{background:rgba(251,247,243,.5)}body[data-sec="nosotros"] .dots a[aria-current="true"] i{background:var(--oro)}}
+@media (max-width:700px){.dots{right:calc(3px + env(safe-area-inset-right,0px));gap:6px}.dots span{display:none}.dots i{width:5px;height:5px}.dots a[aria-current="true"] i{height:16px}}
+
+/* ---------- full-screen sections ---------- */
+.slide{position:relative;min-height:100vh;min-height:100svh;scroll-snap-align:start;scroll-snap-stop:always;padding-top:var(--hh);display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+
+/* 1 · about + CEO */
+.s1{background:var(--crema)}
+.s1::after{content:"";position:absolute;top:0;right:0;bottom:0;width:34%;background:var(--azul);z-index:0}
+.s1 .wrap{position:relative;z-index:1}
+.s1-grid{display:grid;grid-template-columns:minmax(0,1fr) clamp(270px,31vw,420px);grid-template-areas:"eb ph" "h1 ph" "lead ph" "story ph" "sign ph" "trust ph";column-gap:clamp(40px,7vw,110px);padding-block:24px 64px}
+.s1-grid>*{min-width:0}
+.s1 .eb{grid-area:eb}
+.s1 h1{grid-area:h1;font-size:clamp(44px,6vw,82px);line-height:1.02;margin-top:4px}
+.s1 h1 .ln{display:block}
+.s1 h1 em{font-style:italic;font-weight:300;color:var(--teja)}
+.s1 .lead{grid-area:lead;margin-top:22px}
+.story{grid-area:story;margin-top:24px;max-width:56ch;padding-left:18px;border-left:2px solid var(--oro)}
+.story h2{font-family:var(--sans);font-size:14px;font-weight:600;letter-spacing:.04em;color:var(--tinta);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.prov{font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;background:var(--arena);color:var(--suave);padding:3px 7px;border-radius:3px}
+.story p{margin:6px 0 0;font-size:15.5px;line-height:1.6;color:var(--suave)}
+.sign{grid-area:sign;margin:22px 0 0;display:flex;flex-direction:column}
+.sign b{font-family:var(--serif);font-weight:400;font-size:21px;color:var(--tinta);line-height:1.2}
+.sign span{font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:var(--suave);margin-top:3px}
+.trust{grid-area:trust;list-style:none;margin:24px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.trust li{font-size:13.5px;font-weight:500;padding:7px 13px;border:1px solid var(--linea);border-radius:999px;background:var(--blanco);color:var(--texto)}
+.ceo{grid-area:ph;align-self:center;position:relative;margin:0}
+.ceo .outline{position:absolute;inset:0;border:1px solid var(--oro);border-radius:999px 999px 6px 6px;transform:translate(16px,-16px)}
+.ceo .arch{position:relative;aspect-ratio:684/950;border-radius:999px 999px 6px 6px;overflow:hidden;background:var(--azul-d);box-shadow:0 34px 60px -34px rgba(20,14,12,.55)}
+.ceo picture{display:block;height:100%}
+.ceo img{width:100%;height:100%;object-fit:cover}
+.cue{position:absolute;left:33%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:6px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:var(--suave);text-decoration:none}
+.cue i{display:block;width:1px;height:30px;background:var(--teja);transform-origin:top;animation:cue 1.9s var(--ease) infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}55%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+@media (max-width:700px){
+  .s1::after{width:44%;bottom:auto;height:calc(var(--hh) + 172px)}
+  .s1-grid{grid-template-columns:minmax(0,1fr) 38%;grid-template-areas:"eb ph" "h1 ph" "sign ph" "lead lead" "story story" "trust trust";column-gap:14px;padding-block:16px 26px;align-items:start}
+  .s1 .eb{font-size:10.5px;letter-spacing:.13em}
+  .s1 h1{font-size:clamp(33px,9.6vw,42px);margin-top:0}
+  .sign{margin-top:12px}.sign b{font-size:16.5px}.sign span{font-size:10.5px}
+  .ceo{align-self:start;margin-top:2px}
+  .ceo .outline{transform:translate(7px,-7px)}
+  .s1 .lead{margin-top:18px;font-size:15.5px}
+  .story{margin-top:14px;padding-left:13px}.story p{font-size:14.5px}
+  .trust{margin-top:14px;gap:6px}.trust li{font-size:12.5px;padding:5px 10px}
+  .cue{left:50%}
+}
+@media (max-width:700px) and (max-height:820px){.cue{display:none}}
+
+/* 2 · homes */
+.s2{background:var(--arena)}
+.s2-wrap{padding-block:clamp(14px,3vh,34px)}
+.s2-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:clamp(12px,2.6vh,28px)}
+.s2-ctrl{display:flex;align-items:center;gap:10px}
+.count{margin:0 6px 0 0;font-family:var(--serif);font-size:17px;color:var(--suave);font-variant-numeric:tabular-nums;white-space:nowrap}
+.count b{font-weight:400;font-size:24px;color:var(--tinta)}
+.arrow{appearance:none;background:none;cursor:pointer;width:46px;height:46px;border-radius:50%;border:1px solid var(--tinta);color:var(--tinta);display:grid;place-items:center;transition:background .2s,color .2s,opacity .2s}
+.arrow:hover:not(:disabled){background:var(--tinta);color:var(--crema)}
+.arrow:disabled{opacity:.28;cursor:default}
+.arrow svg{width:20px;height:20px}
+.track{position:relative;display:flex;gap:28px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:none;scroll-behavior:smooth}
+.track::-webkit-scrollbar{display:none}
+.prop{flex:0 0 100%;min-width:0;scroll-snap-align:start;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:clamp(24px,4vw,56px);align-items:center}
+.pm{min-width:0}
+.pm-main{position:relative;height:clamp(250px,52vh,560px);overflow:hidden;border-radius:4px;background:var(--linea)}
+.pm-main img{width:100%;height:100%;object-fit:cover}
+.pm-n{position:absolute;right:12px;bottom:12px;background:rgba(42,30,26,.82);color:var(--crema);font-size:12.5px;font-weight:600;letter-spacing:.06em;padding:5px 11px;border-radius:999px;font-variant-numeric:tabular-nums}
+.pm-thumbs{display:flex;gap:8px;margin-top:10px;overflow-x:auto;scrollbar-width:none;padding:3px 3px 3px 3px;margin-inline:-3px}
+.pm-thumbs::-webkit-scrollbar{display:none}
+.pm-thumbs button{appearance:none;border:0;padding:0;background:var(--linea);cursor:pointer;flex:0 0 auto;width:80px;height:58px;border-radius:3px;overflow:hidden;opacity:.6;transition:opacity .2s,box-shadow .2s}
+.pm-thumbs button:hover{opacity:.9}
+.pm-thumbs button[aria-pressed="true"]{opacity:1;box-shadow:0 0 0 2px var(--teja)}
+.pm-thumbs img{width:100%;height:100%;object-fit:cover}
+.pi{min-width:0}
+.pi .tag{margin:0 0 8px;font-weight:600;text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--teja)}
+.pi h3{font-size:clamp(28px,3vw,42px);line-height:1.08}
+.pi .desc{margin:14px 0 0;color:var(--suave);max-width:44ch}
+.chips{list-style:none;margin:18px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.chips li{font-size:13.5px;font-weight:500;padding:6px 12px;border-radius:999px;background:var(--blanco);border:1px solid var(--linea);color:var(--texto)}
+.btn-wa{display:inline-flex;align-items:center;justify-content:center;gap:10px;margin-top:24px;padding:14px 22px;border-radius:999px;background:var(--wa);color:#fff;text-decoration:none;font-weight:600;font-size:15.5px;letter-spacing:.01em;border:0;cursor:pointer;box-shadow:0 12px 26px -14px rgba(14,122,65,.9);transition:background .2s,transform .2s}
+.btn-wa:hover{background:var(--wa-d);transform:translateY(-1px)}
+.btn-wa svg{width:21px;height:21px}
+@media (max-width:900px){
+  .prop{grid-template-columns:1fr;gap:14px;align-items:start}
+  .pm-main{height:clamp(170px,29svh,320px)}
+}
+@media (max-width:700px){
+  .s2-head h2{font-size:30px}
+  .arrow{display:none}
+  .track{gap:12px}
+  .prop{flex-basis:calc(100% - 30px)}
+  .pm-thumbs{margin-top:8px;gap:6px}
+  .pm-thumbs button{width:60px;height:44px}
+  .pi .tag{font-size:11px;margin-bottom:6px}
+  .pi h3{font-size:26px}
+  .pi .desc{font-size:14.5px;margin-top:8px;line-height:1.5}
+  .chips{margin-top:12px;gap:6px}.chips li{font-size:12.5px;padding:4px 10px}
+  .btn-wa{width:100%;margin-top:16px;padding:13px 18px;font-size:15px}
 }
 
-/* hero */
-.hero{position:relative;min-height:min(92vh,860px);display:flex;align-items:flex-end;color:var(--blanco);background:var(--azul) url(img/hero.jpg) center/cover no-repeat}
-.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,14,12,.45) 0%,rgba(20,14,12,.05) 35%,rgba(20,14,12,.6) 100%)}
-.hero .wrap{position:relative;width:100%;padding-block:140px 72px}
-.hero h1{font-size:clamp(40px,6.6vw,84px);line-height:1.04;max-width:14ch;font-weight:400}
-.hero h1 em{font-style:italic;font-weight:300}
-.hero p{max-width:46ch;font-size:19px;margin:22px 0 32px;opacity:.95}
-.btn{display:inline-flex;align-items:center;gap:12px;font-family:var(--sans);font-weight:400;font-size:15px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding:15px 26px;border:1px solid currentColor;background:transparent;color:inherit;cursor:pointer;transition:background .2s,color .2s}
-.btn:hover{background:var(--blanco);color:var(--tinta)}
-.btn.solid{background:var(--teja);border-color:var(--teja);color:var(--blanco)}
-.btn.solid:hover{background:var(--tinta);border-color:var(--tinta)}
-.btn.dark{color:var(--tinta)}
-.btn.dark:hover{background:var(--tinta);color:var(--crema)}
-.hero .meta{display:flex;gap:28px;flex-wrap:wrap;margin-top:48px;padding-top:20px;border-top:1px solid rgba(255,255,255,.35);font-size:14px;letter-spacing:.04em}
-.hero .meta b{font-family:var(--serif);font-weight:400;font-size:22px;display:block;letter-spacing:0}
+/* 3 · team */
+.s3{background:var(--azul);color:var(--crema)}
+.s3 h2{color:var(--crema)}
+.s3 .eyebrow{color:var(--oro)}
+.s3 .lead{color:rgba(251,247,243,.86)}
+.s3 :focus-visible{outline-color:var(--oro)}
+.s3-deco{position:absolute;right:-70px;bottom:-60px;width:min(46vw,520px);height:auto;color:rgba(233,180,76,.18);pointer-events:none}
+.s3-wrap{position:relative;padding-block:clamp(18px,4vh,48px)}
+.team{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,3vw,40px);margin-top:clamp(18px,4vh,44px)}
+.member{appearance:none;border:0;background:none;margin:0;font:inherit;color:inherit;text-align:center;cursor:pointer;display:flex;flex-direction:column;align-items:center;height:100%;padding:20px 16px 22px;border-radius:10px;transition:background .3s}
+.member:hover{background:rgba(251,247,243,.06)}
+.portrait{position:relative;display:block;width:clamp(124px,12.5vw,164px);aspect-ratio:4/5;margin-bottom:16px}
+.portrait .outline{position:absolute;inset:0;border:1px solid var(--oro);border-radius:999px 999px 4px 4px;transform:translate(8px,-8px);opacity:.8;transition:transform .35s var(--ease)}
+.portrait .bg{position:absolute;inset:0;border-radius:999px 999px 4px 4px;background:radial-gradient(120% 95% at 50% 28%,#F3EBE2 0%,#DCCDBF 100%)}
+.portrait img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 100%;border-radius:999px 999px 4px 4px;transition:transform .35s var(--ease)}
+.member:hover .portrait .outline{transform:translate(3px,-3px)}
+.member:hover .portrait img{transform:translateY(-3px)}
+.m-name{display:block;font-family:var(--serif);font-size:clamp(20px,1.8vw,24px);line-height:1.2;color:var(--crema)}
+.m-role{display:block;margin-top:6px;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--oro)}
+.m-area{display:block;margin-top:3px;font-size:14.5px;color:rgba(251,247,243,.88)}
+.m-topics{display:flex;flex-direction:column;gap:3px;margin-top:12px;padding-bottom:18px;font-size:14px;color:rgba(251,247,243,.78)}
+.m-cta{display:inline-flex;align-items:center;gap:8px;margin-top:auto;font-size:14px;font-weight:600;color:var(--azul);background:var(--crema);padding:10px 16px;border-radius:999px;transition:background .25s}
+.m-cta svg{width:18px;height:18px}
+.m-cta .sh{display:none}
+.member:hover .m-cta{background:var(--oro)}
+@media (max-width:700px){
+  .s3-head h2{font-size:30px}
+  .s3 .lead{font-size:15px}
+  .team{gap:6px;margin-top:22px}
+  .member{padding:10px 2px 12px}
+  .portrait{width:min(100%,100px);margin-bottom:12px}
+  .portrait .outline{transform:translate(5px,-5px)}
+  .m-name{font-size:15.5px}
+  .m-role{font-size:9.5px;letter-spacing:.1em;margin-top:4px;padding-bottom:10px}
+  .m-area,.m-topics{display:none}
+  .m-cta{padding:7px 11px;font-size:12.5px;gap:6px}
+  .m-cta svg{width:15px;height:15px}
+  .m-cta .lg{display:none}.m-cta .sh{display:inline}
+}
 
-/* intro */
-.intro{text-align:center}
-.intro .lead{margin:24px auto 0}
-.intro h2{max-width:20ch;margin:0 auto}
+/* 4 · contact */
+.s4{background:var(--crema);justify-content:space-between}
+.s4-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,6vw,84px);align-items:center;padding-block:clamp(24px,6vh,64px);margin-block:auto}
+.btn-wa.big{font-size:17px;padding:16px 26px;margin-top:26px}
+.data{margin:30px 0 0;border-top:1px solid var(--linea)}
+.data div{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid var(--linea)}
+.data dt{font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--suave)}
+.data dd{margin:0;font-weight:500;color:var(--tinta);text-align:right}
+.tbd{font-style:italic;font-weight:400!important;color:var(--suave)!important}
+.req{background:var(--blanco);border:1px solid var(--linea);border-radius:12px;padding:clamp(20px,3vw,32px);display:grid;gap:14px;box-shadow:0 30px 60px -44px rgba(42,30,26,.45)}
+.req h3{font-size:26px}
+.req .hint{margin:-8px 0 2px;font-size:14px;color:var(--suave)}
+.fld{display:flex;flex-direction:column;gap:6px;min-width:0}
+.fld>span{font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--suave)}
+.fld input,.fld select,.fld textarea{font-size:16px;color:var(--tinta);background:var(--blanco);border:1px solid #CDBFB3;border-radius:7px;padding:11px 12px;width:100%;min-width:0}
+.fld textarea{min-height:92px;resize:vertical}
+.fld input:focus,.fld select:focus,.fld textarea:focus{outline:none;border-color:var(--teja);box-shadow:0 0 0 3px rgba(166,71,47,.16)}
+.two{display:grid;grid-template-columns:1fr 1.4fr;gap:12px}
+.req .btn-wa{margin-top:4px;width:100%}
+.err{margin:0;font-size:14px;color:var(--teja-d);font-weight:500}
+.foot{background:var(--tinta);color:rgba(251,247,243,.84);font-size:13.5px}
+.foot-in{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px 28px;padding-block:20px calc(20px + env(safe-area-inset-bottom,0px))}
+.foot nav{display:flex;gap:18px;flex-wrap:wrap}
+.foot a{text-decoration:none}
+.foot a:hover{color:var(--oro)}
+@media (max-width:900px){.s4-grid{grid-template-columns:1fr;align-items:start}}
+@media (max-width:420px){.two{grid-template-columns:1fr}}
 
-/* portfolio tiles */
-.tiles{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:56px}
-@media (max-width:760px){.tiles{grid-template-columns:1fr}}
-.tile{position:relative;display:block;overflow:hidden;text-decoration:none;color:var(--blanco);aspect-ratio:4/5;max-width:100%}
-.tile img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
-.tile:hover img{transform:scale(1.04)}
-.tile::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(20,14,12,.7))}
-.tile .cap{position:absolute;left:28px;right:28px;bottom:26px;z-index:1}
-.tile .cap small{font-family:var(--serif);text-transform:uppercase;letter-spacing:.16em;font-size:12px;opacity:.9}
-.tile .cap h3{margin-top:6px}
-.tile .cap span{display:inline-block;margin-top:10px;font-size:14px;letter-spacing:.06em;border-bottom:1px solid currentColor;padding-bottom:2px}
+/* ---------- dialogs ---------- */
+.sheet,.wa{position:fixed;inset:0;z-index:60;background:rgba(20,14,12,.56);display:flex;align-items:flex-end;justify-content:center;padding:max(16px,env(safe-area-inset-top,0px)) var(--gr) 0 var(--gl)}
+@media (min-width:701px){.sheet,.wa{align-items:center;padding:24px}}
+.sheet-card{width:100%;max-width:520px;max-height:100%;overflow:auto;background:var(--crema);border-radius:16px 16px 0 0;padding:20px 20px calc(22px + env(safe-area-inset-bottom,0px));box-shadow:0 -20px 50px -20px rgba(0,0,0,.4)}
+@media (min-width:701px){.sheet-card{border-radius:14px;padding:28px;max-height:calc(100% - 20px)}}
+.sh-head{display:flex;gap:14px;align-items:center;margin-bottom:18px}
+.sh-img{width:60px;height:75px;flex:none;border-radius:999px 999px 3px 3px;object-fit:cover;object-position:50% 100%;background:radial-gradient(120% 95% at 50% 28%,#F3EBE2 0%,#DCCDBF 100%)}
+.sh-k{margin:0;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--teja)}
+.sh-head h3{font-size:24px;line-height:1.15;margin-top:2px}
+.sh-area{margin:2px 0 0;font-size:14px;color:var(--suave)}
+.x{appearance:none;border:0;background:none;cursor:pointer;margin-left:auto;align-self:flex-start;width:38px;height:38px;flex:none;display:grid;place-items:center;border-radius:50%;color:var(--tinta)}
+.x:hover{background:var(--arena)}
+.x svg{width:18px;height:18px}
+.ask{display:grid;gap:14px}
+.btn-solid{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 20px;border-radius:999px;background:var(--teja);color:#fff;font-weight:600;font-size:15.5px;border:0;cursor:pointer;transition:background .2s}
+.btn-solid:hover{background:var(--teja-d)}
+.btn-solid svg{width:19px;height:19px}
+.note{margin:0;font-size:14px;line-height:1.5;background:var(--blanco);border-left:3px solid var(--teja);padding:12px 14px;border-radius:4px;display:flex;flex-direction:column;gap:6px}
+.note .subj{font-size:13px;color:var(--suave);word-break:break-word}
+.direct{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13.5px;color:var(--suave);margin:0}
+.direct b{font-weight:600;color:var(--tinta);user-select:all}
+.direct>span::after{content:":"}
+.copy{appearance:none;border:0;background:none;cursor:pointer;padding:0;font-size:13px;font-weight:600;color:var(--teja);text-decoration:underline;text-underline-offset:3px}
+.wa-card{width:100%;max-width:380px;border-radius:18px 18px 0 0;overflow:hidden;background:#ECE5DD;box-shadow:0 30px 60px -20px rgba(0,0,0,.5);margin-bottom:0}
+@media (min-width:701px){.wa-card{border-radius:18px}}
+.wa-top{display:flex;align-items:center;gap:10px;padding:12px 12px 12px 14px;background:var(--azul);color:#fff}
+.wa-av{width:38px;height:38px;border-radius:50%;background:var(--crema);color:var(--azul);display:grid;place-items:center;font-family:var(--serif);font-size:15px;flex:none}
+.wa-top b{display:block;font-weight:600;font-size:15px}
+.wa-top small{font-size:12px;opacity:.85}
+.wa-top .x{color:#fff}
+.wa-top .x:hover{background:rgba(255,255,255,.14)}
+.wa-body{padding:22px 14px 16px;min-height:140px;display:flex;flex-direction:column;align-items:flex-end}
+.bubble{max-width:90%;background:#D9FDD3;color:#111b21;padding:9px 12px 6px;border-radius:10px 3px 10px 10px;font-size:15px;line-height:1.45;white-space:pre-wrap;word-break:break-word;box-shadow:0 1px 1px rgba(0,0,0,.08)}
+.bubble small{display:block;text-align:right;font-size:11px;color:#667781;margin-top:3px}
+.wa-note{margin:0;padding:12px 16px calc(16px + env(safe-area-inset-bottom,0px));font-size:13.5px;line-height:1.45;color:#3b3b3b;background:#F7F2EC}
+.toast{position:fixed;left:50%;bottom:calc(22px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:80;background:var(--tinta);color:var(--crema);padding:12px 18px;border-radius:8px;font-size:14px;max-width:calc(100% - 32px);box-shadow:0 14px 30px -12px rgba(0,0,0,.5)}
 
-/* property */
-.prop{border-top:1px solid var(--linea)}
-.prop-head{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:end;margin-bottom:44px}
-@media (max-width:860px){.prop-head{grid-template-columns:1fr;gap:20px}}
-.prop-head .lead{margin:0}
-.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:260px 260px;gap:12px}
-.gallery button{all:unset;cursor:zoom-in;overflow:hidden;position:relative;min-width:0}
-.gallery button:first-child{grid-row:span 2}
-.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .8s ease}
-.gallery button:hover img{transform:scale(1.03)}
-.gallery button:focus-visible{outline:2px solid var(--teja);outline-offset:2px}
-@media (max-width:760px){.gallery{grid-template-columns:1fr 1fr;grid-template-rows:240px 150px 150px}.gallery button:first-child{grid-column:span 2;grid-row:auto}.gallery button:nth-child(n+6){display:none}}
-.spec{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:48px}
-@media (max-width:860px){.spec{grid-template-columns:1fr;gap:28px}}
-.feat{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--linea)}
-.feat li{padding:16px 0;border-bottom:1px solid var(--linea);display:flex;flex-direction:column;gap:2px;min-width:0}
-.feat li:nth-child(odd){padding-right:20px}
-.feat small{font-family:var(--serif);text-transform:uppercase;letter-spacing:.12em;font-size:11.5px;color:var(--suave)}
-.feat span{font-size:16px;font-weight:400}
-.feat .tbd{color:var(--suave);font-style:italic;font-weight:300}
-.spec-side{display:flex;flex-direction:column;gap:18px;align-items:flex-start}
-.spec-side p{margin:0;color:var(--suave)}
-
-/* empresas */
-.band{background:var(--azul);color:var(--crema)}
-.band .eyebrow{color:var(--oro)}
-.band .lead{color:rgba(251,247,243,.82)}
-.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:56px;border-top:1px solid rgba(251,247,243,.25)}
-@media (max-width:860px){.steps{grid-template-columns:1fr}}
-.step{padding:28px 28px 8px 0}
-.step + .step{padding-left:28px;border-left:1px solid rgba(251,247,243,.25)}
-@media (max-width:860px){.step + .step{padding-left:0;border-left:0;border-top:1px solid rgba(251,247,243,.25)}}
-.step .n{font-family:var(--serif);font-size:56px;line-height:1;color:var(--oro);font-weight:300}
-.step h3{font-size:24px;margin:16px 0 8px}
-.step p{margin:0;color:rgba(251,247,243,.8);font-size:16px}
-.perks{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:48px;font-size:15px;letter-spacing:.03em}
-.perks span::before{content:"";display:inline-block;width:6px;height:6px;background:var(--oro);margin-right:10px;vertical-align:2px}
-
-/* barrio */
-.barrio{padding:0;position:relative;color:var(--blanco);background:var(--tinta)}
-.barrio img{width:100%;height:clamp(260px,34vw,440px);object-fit:cover;opacity:.85}
-.barrio .wrap{position:absolute;left:0;right:0;bottom:0;padding-block:0 36px}
-.barrio .eyebrow{color:var(--oro)}
-@media (max-width:760px){.barrio .wrap{position:static;padding-block:24px 44px}.barrio img{height:200px}}
-.barrio p{max-width:52ch;margin:10px 0 0;font-size:17px;text-shadow:0 1px 12px rgba(0,0,0,.5)}
-
-/* ceo */
-.ceo{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(32px,6vw,88px);align-items:center}
-@media (max-width:860px){.ceo{grid-template-columns:1fr}}
-.ceo figure{margin:0;aspect-ratio:4/5;max-width:100%;overflow:hidden}
-.ceo figure img{width:100%;height:100%;object-fit:cover}
-.ceo blockquote{margin:22px 0 26px;font-family:var(--serif);font-style:italic;font-weight:300;font-size:clamp(24px,2.8vw,34px);line-height:1.32;color:var(--tinta)}
-.ceo blockquote::before{content:"“";display:block;font-size:72px;line-height:.6;color:var(--teja);font-style:normal}
-.ceo .who{font-family:var(--serif);font-size:22px}
-.ceo .role{font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:var(--suave);margin-top:2px}
-.ceo p.bio{color:var(--suave);max-width:58ch}
-
-/* team */
-.team{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:56px}
-@media (max-width:860px){.team{grid-template-columns:1fr 1fr}}
-@media (max-width:520px){.team{grid-template-columns:1fr}}
-.person{display:flex;flex-direction:column;gap:14px;min-width:0}
-.person img{aspect-ratio:1/1;width:100%;object-fit:cover;filter:grayscale(.15)}
-.person h3{font-size:24px}
-.person .role{font-family:var(--serif);text-transform:uppercase;letter-spacing:.13em;font-size:12.5px;color:var(--teja);margin-top:-6px}
-.person p{margin:0;color:var(--suave);font-size:16px}
-.person ul{margin:4px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px;font-size:15px}
-.person li{padding-left:18px;position:relative}
-.person li::before{content:"";position:absolute;left:0;top:.72em;width:9px;height:1px;background:var(--teja)}
-
-/* contact */
-.contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,6vw,88px)}
-@media (max-width:860px){.contact{grid-template-columns:1fr}}
-.dl{display:grid;gap:18px;margin-top:32px}
-.dl div{border-top:1px solid var(--linea);padding-top:14px}
-.dl small{display:block;font-family:var(--serif);text-transform:uppercase;letter-spacing:.12em;font-size:11.5px;color:var(--suave)}
-.dl span{font-size:17px;font-weight:400}
-.dl .tbd{color:var(--suave);font-style:italic;font-weight:300}
-form{display:grid;grid-template-columns:1fr 1fr;gap:22px 24px}
-@media (max-width:560px){form{grid-template-columns:1fr}}
-form .full{grid-column:1/-1}
-label{display:flex;flex-direction:column;gap:6px;font-family:var(--serif);text-transform:uppercase;letter-spacing:.1em;font-size:12px;color:var(--suave)}
-input,select,textarea{font:inherit;font-family:var(--sans);font-weight:300;text-transform:none;letter-spacing:0;font-size:16px;color:var(--tinta);background:transparent;border:0;border-bottom:1px solid #bfb2a8;padding:10px 0;border-radius:0;width:100%}
-textarea{min-height:96px;resize:vertical}
-input:focus,select:focus,textarea:focus{outline:none;border-bottom-color:var(--teja)}
-.check{flex-direction:row;align-items:flex-start;gap:10px;text-transform:none;letter-spacing:0;font-family:var(--sans);font-size:14px}
-.check input{width:auto;margin-top:4px;accent-color:var(--teja)}
-.sent{grid-column:1/-1;background:var(--blanco);border-left:3px solid var(--teja);padding:14px 18px;font-size:15px}
-
-/* footer */
-footer{background:var(--tinta);color:rgba(251,247,243,.78);font-size:15px}
-footer .wrap{padding-block:72px 28px}
-.fcols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px}
-@media (max-width:860px){.fcols{grid-template-columns:1fr 1fr}}
-footer h4{font-family:var(--serif);font-weight:400;text-transform:uppercase;letter-spacing:.14em;font-size:13px;color:var(--crema);margin:0 0 14px}
-footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
-footer a{text-decoration:none}
-footer a:hover{color:var(--oro)}
-footer .logo{color:var(--crema);margin-bottom:16px}
-.legal{margin-top:56px;padding-top:20px;border-top:1px solid rgba(251,247,243,.15);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:13px}
-
-/* lightbox */
-.lb{position:fixed;inset:0;background:rgba(20,14,12,.94);z-index:50;display:flex;align-items:center;justify-content:center;padding:max(16px,env(safe-area-inset-top,0px)) var(--gutR) max(16px,env(safe-area-inset-bottom,0px)) var(--gut)}
-.lb img{max-height:86vh;width:auto;max-width:100%}
-.lb button{all:unset;cursor:pointer;position:absolute;color:var(--crema);font-family:var(--serif);font-size:15px;letter-spacing:.12em;text-transform:uppercase;padding:10px}
-.lb .x{top:calc(12px + env(safe-area-inset-top,0px));right:calc(12px + env(safe-area-inset-right,0px))}
-.lb .pv{left:calc(8px + env(safe-area-inset-left,0px));top:50%}
-.lb .nx{right:calc(8px + env(safe-area-inset-right,0px));top:50%}
-.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--tinta);color:var(--crema);padding:12px 20px;font-size:14px;z-index:60;max-width:calc(100% - 32px)}
-@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.track{scroll-behavior:auto}.cue i{animation:none}*{transition:none!important}}
 </style>
 
-<div class="demo"><b>Versión de prueba</b> · Los datos marcados en cursiva están pendientes de confirmar</div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.2a9.8 9.8 0 0 0-8.4 14.8L2.2 21.8l4.9-1.3A9.8 9.8 0 1 0 12 2.2Zm0 17.8a8 8 0 0 1-4.1-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1 1 12 20Z"/><path fill="currentColor" d="M16.4 14.1c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8 1c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.9c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.6-.3Z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m4 7.5 8 5.8 8-5.8" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+</svg>
 
-<header class="top">
-  <div class="wrap">
-    <a class="logo" href="#inicio"><b>OnePlace</b><span>NETWORK</span></a>
-    <nav class="menu" id="menu">
-      <a href="#alojamientos">Alojamientos</a>
-      <a href="#empresas">Empresas</a>
-      <a href="#equipo">Equipo</a>
-      <a href="#contacto">Contacto</a>
-      <div class="lang" role="group" aria-label="Idioma">
-        <button type="button" aria-pressed="true">ES</button>
-        <button type="button" aria-pressed="false" data-lang="Deutsch">DE</button>
-        <button type="button" aria-pressed="false" data-lang="English">EN</button>
-      </div>
+<header class="hd">
+  <div class="hd-in">
+    <a class="logo" href="#nosotros" aria-label="OnePlace Network"><b>OnePlace</b><span>NETWORK</span></a>
+    <nav class="hd-nav" aria-label="Apartados">
+      <a href="#nosotros" aria-current="true" data-i18n="nav.about">Nosotros</a>
+      <a href="#alojamientos" aria-current="false" data-i18n="nav.homes">Alojamientos</a>
+      <a href="#equipo" aria-current="false" data-i18n="nav.team">Equipo</a>
+      <a href="#contacto" aria-current="false" data-i18n="nav.contact">Contacto</a>
     </nav>
-    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+    <div class="hd-r">
+      <span class="demo-tag">Demo</span>
+      <div class="lang" role="group" aria-label="Idioma">
+        <button type="button" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang="de" aria-pressed="false">DE</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="hd-wa" href="#" data-wa="gen" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp" data-i18n-aria="s4.wa"><svg aria-hidden="true"><use href="#i-wa"/></svg></a>
+    </div>
   </div>
 </header>
 
-<main id="inicio">
-  <section class="hero" aria-label="Portada">
-    <div class="wrap">
-      <p class="eyebrow" style="color:var(--oro)">Alojamiento corporativo · Tarragona</p>
-      <h1>Su equipo, <em>como en casa</em></h1>
-      <p>Pisos junto al puerto y una masía con piscina, amueblados y listos para entrar a vivir. Para empresas que desplazan a su gente a Tarragona.</p>
-      <a class="btn solid" href="#contacto">Solicitar alojamiento →</a>
-      <div class="meta">
-        <div><b>Ciudad</b>Apartamentos en El Serrallo</div>
-        <div><b>Campo</b>Masía con piscina</div>
-        <div><b>3 idiomas</b>Español · Deutsch · English</div>
-      </div>
-    </div>
-  </section>
+<nav class="dots" aria-label="Apartados">
+  <a href="#nosotros" aria-current="true"><span data-i18n="nav.about">Nosotros</span><i></i></a>
+  <a href="#alojamientos" aria-current="false"><span data-i18n="nav.homes">Alojamientos</span><i></i></a>
+  <a href="#equipo" aria-current="false"><span data-i18n="nav.team">Equipo</span><i></i></a>
+  <a href="#contacto" aria-current="false"><span data-i18n="nav.contact">Contacto</span><i></i></a>
+</nav>
 
-  <section class="intro">
+<main>
+  <!-- 1 · Quiénes somos -->
+  <section class="slide s1" id="nosotros" aria-labelledby="s1-title">
     <div class="wrap">
-      <p class="eyebrow">Quiénes somos</p>
-      <h2>Un solo contacto para alojar a todo su equipo</h2>
-      <p class="lead">En OnePlace Network buscamos, preparamos y gestionamos el alojamiento de sus trabajadores mientras están en Tarragona. Usted nos dice cuántas personas vienen y para cuánto tiempo; nosotros nos ocupamos de las llaves, la limpieza y cualquier incidencia.</p>
-    </div>
-  </section>
-
-  <section id="alojamientos" style="padding-top:0">
-    <div class="wrap">
-      <p class="eyebrow">Nuestros alojamientos</p>
-      <h2>Ciudad o campo</h2>
-      <div class="tiles">
-        <a class="tile" href="#serrallo"><img src="img/piso-puerto.jpg" alt="Vista del puerto de Tarragona desde la azotea del edificio" loading="lazy"><div class="cap"><small>Ciudad</small><h3>Apartamentos El Serrallo</h3><span>Ver alojamiento</span></div></a>
-        <a class="tile" href="#masia"><img src="img/masia-porche.jpg" alt="Porche cubierto de la masía con sofás y mesa de comedor" loading="lazy"><div class="cap"><small>Campo</small><h3>Masía con piscina</h3><span>Ver alojamiento</span></div></a>
-      </div>
-    </div>
-  </section>
-
-  <section class="prop" id="serrallo">
-    <div class="wrap">
-      <div class="prop-head">
-        <div><p class="eyebrow">Ciudad · El Serrallo, Tarragona</p><h2>Apartamentos El Serrallo</h2></div>
-        <p class="lead">Pisos luminosos en un edificio del barrio marinero, a una calle del puerto. Cocina equipada, salón con comedor y un dormitorio con escritorio para trabajar desde casa. Azotea común con vistas al mar.</p>
-      </div>
-      <div class="gallery" data-gal="serrallo">
-        <button type="button"><img src="img/piso-salon.jpg" alt="Salón con sofá azul y mesa de comedor"></button>
-        <button type="button"><img src="img/piso-cocina.jpg" alt="Cocina abierta con mesa redonda" loading="lazy"></button>
-        <button type="button"><img src="img/piso-dormitorio.jpg" alt="Dormitorio doble" loading="lazy"></button>
-        <button type="button"><img src="img/piso-escritorio.jpg" alt="Dormitorio individual con escritorio" loading="lazy"></button>
-        <button type="button"><img src="img/piso-azotea.jpg" alt="Azotea común con mesas y vista al puerto" loading="lazy"></button>
-        <button type="button" hidden><img src="img/piso-trabajo.jpg" alt="Equipo trabajando en el salón" loading="lazy"></button>
-        <button type="button" hidden><img src="img/piso-recibidor.jpg" alt="Recibidor con espejo" loading="lazy"></button>
-      </div>
-      <div class="spec">
-        <ul class="feat">
-          <li><small>Zona</small><span>El Serrallo, junto al puerto</span></li>
-          <li><small>Tipo</small><span>Apartamentos amueblados</span></li>
-          <li><small>Dormitorios</small><span class="tbd">Por confirmar</span></li>
-          <li><small>Capacidad</small><span class="tbd">Por confirmar</span></li>
-          <li><small>Cocina</small><span>Equipada, horno y microondas</span></li>
-          <li><small>Trabajo</small><span>Escritorio en el dormitorio</span></li>
-          <li><small>Exterior</small><span>Azotea común con duchas</span></li>
-          <li><small>Clima</small><span>Climatización</span></li>
-        </ul>
-        <div class="spec-side">
-          <h3>Ideal para tripulaciones, técnicos y equipos de proyecto</h3>
-          <p>Estancias de semanas o meses, con la ropa de cama, la limpieza y el mantenimiento resueltos.</p>
-          <div style="display:flex;gap:12px;flex-wrap:wrap">
-            <a class="btn solid" href="#contacto" data-prop="Apartamentos El Serrallo">Solicitar este alojamiento</a>
-            <button class="btn dark" type="button" data-toast="El dossier en PDF estará disponible en la versión final.">Descargar dossier</button>
-          </div>
+      <div class="s1-grid">
+        <p class="eyebrow eb" data-a="up" data-d="150" data-i18n="s1.eyebrow">Alojamiento corporativo · Tarragona</p>
+        <h1 id="s1-title"><span class="ln" data-a="up" data-d="260" data-i18n="s1.h1a">Su equipo,</span> <em class="ln" data-a="up" data-d="380" data-i18n="s1.h1b">como en casa.</em></h1>
+        <p class="lead" data-a="up" data-d="560" data-i18n="s1.lead">Alojamos a los equipos que las empresas desplazan a Tarragona: pisos y casas amueblados, listos para entrar a vivir, con un solo contacto para todo.</p>
+        <div class="story" data-a="up" data-d="680">
+          <h2><span data-i18n="s1.storyT">Nuestra historia</span><span class="prov" data-i18n="s1.prov">Texto provisional</span></h2>
+          <p data-i18n="s1.story">Empezamos junto al puerto de Tarragona, al ver que las empresas perdían días buscando dónde alojar a su gente. Hoy gestionamos pisos en El Serrallo y una masía con piscina, con el mismo trato directo del primer día.</p>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="barrio" aria-label="El barrio">
-    <img src="img/serrallo-noche.jpg" alt="Paseo del Serrallo de noche con barcas y palmeras" loading="lazy">
-    <div class="wrap"><p class="eyebrow">El barrio</p><h2>Vivir en El Serrallo</h2><p>Restaurantes de pescado, el paseo marítimo y el puerto a dos pasos. El centro de Tarragona, a un paseo.</p></div>
-  </section>
-
-  <section class="prop" id="masia" style="border-top:0">
-    <div class="wrap">
-      <div class="prop-head">
-        <div><p class="eyebrow">Campo · Alrededores de Tarragona</p><h2>Masía con piscina</h2></div>
-        <p class="lead">Una casa de campo entre olivos, pinos y cipreses, con piscina, porche cubierto para comer al aire libre y azotea con vistas a la montaña. Para equipos grandes, estancias largas o encuentros de empresa.</p>
-      </div>
-      <div class="gallery" data-gal="masia">
-        <button type="button"><img src="img/masia-piscina.jpg" alt="Piscina con tumbonas entre pinos" loading="lazy"></button>
-        <button type="button"><img src="img/masia-porche.jpg" alt="Porche cubierto con mesa de comedor" loading="lazy"></button>
-        <button type="button"><img src="img/masia-azotea.jpg" alt="Azotea con cipreses y montaña" loading="lazy"></button>
-        <button type="button"><img src="img/masia-jardin.jpg" alt="Mesa de hierro forjado bajo los pinos" loading="lazy"></button>
-        <button type="button"><img src="img/masia-piscina2.jpg" alt="Piscina elevada con ducha exterior" loading="lazy"></button>
-        <button type="button" hidden><img src="img/masia-fuente.jpg" alt="Fuente de piedra del jardín" loading="lazy"></button>
-        <button type="button" hidden><img src="img/masia-anexo.jpg" alt="Edificio anexo de ladrillo" loading="lazy"></button>
-      </div>
-      <div class="spec">
-        <ul class="feat">
-          <li><small>Entorno</small><span>Finca con olivos y pinos</span></li>
-          <li><small>Piscina</small><span>Sí, con ducha y tumbonas</span></li>
-          <li><small>Habitaciones</small><span class="tbd">Por confirmar</span></li>
-          <li><small>Capacidad</small><span class="tbd">Por confirmar</span></li>
-          <li><small>Exterior</small><span>Porche con mesa de comedor</span></li>
-          <li><small>Clima</small><span>Aire acondicionado</span></li>
-          <li><small>Extra</small><span>Edificio anexo independiente</span></li>
-          <li><small>Distancia</small><span class="tbd">Por confirmar</span></li>
+        <p class="sign" data-a="up" data-d="520"><b>Josep Prat Domènech</b><span data-i18n="s1.role">CEO de OnePlace Network</span></p>
+        <ul class="trust" data-a="up" data-d="820">
+          <li data-i18n="s1.t1">Un solo contacto</li>
+          <li data-i18n="s1.t2">Ciudad y campo</li>
+          <li data-i18n="s1.t3">Trato directo</li>
         </ul>
-        <div class="spec-side">
-          <h3>Espacio para todo el equipo</h3>
-          <p>Habitaciones para un grupo entero y zonas comunes para comer, reunirse y descansar al final de la jornada.</p>
-          <div style="display:flex;gap:12px;flex-wrap:wrap">
-            <a class="btn solid" href="#contacto" data-prop="Masía con piscina">Solicitar este alojamiento</a>
-            <button class="btn dark" type="button" data-toast="El dossier en PDF estará disponible en la versión final.">Descargar dossier</button>
+        <figure class="ceo">
+          <span class="outline" data-a="fade" data-d="750" aria-hidden="true"></span>
+          <div class="arch" data-a="reveal">
+            <picture>
+              <source media="(max-width:700px)" srcset="img/ceo-arch-m.jpg">
+              <img src="img/ceo-arch.jpg" width="684" height="950" alt="Josep Prat Domènech, CEO de OnePlace Network" fetchpriority="high" data-a="zoom">
+            </picture>
           </div>
-        </div>
+        </figure>
       </div>
     </div>
+    <a class="cue" href="#alojamientos" data-a="fade" data-d="1400"><span data-i18n="s1.cue">Desliza</span><i></i></a>
   </section>
 
-  <section class="band" id="empresas">
-    <div class="wrap">
-      <p class="eyebrow">Para empresas</p>
-      <h2>Así funciona</h2>
-      <p class="lead" style="margin-top:18px">Una sola solicitud, una sola factura y una persona de contacto durante toda la estancia.</p>
-      <div class="steps">
-        <div class="step"><div class="n">1</div><h3>Nos escribe</h3><p>Cuántas personas, qué fechas y qué necesitan. Con el formulario o por teléfono.</p></div>
-        <div class="step"><div class="n">2</div><h3>Le proponemos</h3><p>El alojamiento que mejor encaja y el precio cerrado, con el dossier del inmueble.</p></div>
-        <div class="step"><div class="n">3</div><h3>Su equipo llega</h3><p>Le entregamos las llaves y quedamos a su disposición para cualquier incidencia.</p></div>
-      </div>
-      <div class="perks"><span>Pisos amueblados y equipados</span><span>Limpieza y ropa de cama</span><span>Atención en español, alemán e inglés</span><span>Factura a nombre de la empresa</span></div>
-    </div>
-  </section>
-
-  <section id="equipo">
-    <div class="wrap">
-      <div class="ceo">
-        <figure><img src="img/josep-retrato.jpg" alt="Josep Prat Domènech, CEO de OnePlace Network" loading="lazy"></figure>
+  <!-- 2 · Alojamientos -->
+  <section class="slide s2" id="alojamientos" aria-labelledby="s2-title">
+    <div class="wrap s2-wrap">
+      <div class="s2-head">
         <div>
-          <p class="eyebrow">Dirección</p>
-          <h2>Una empresa que responde por su equipo</h2>
-          <blockquote>Cuando una empresa nos confía a su gente, nuestro trabajo es que solo tengan que preocuparse de su trabajo.</blockquote>
-          <div class="who">Josep Prat Domènech</div>
-          <div class="role">CEO · Fundador</div>
-          <p class="bio"><em>Texto de ejemplo:</em> Josep dirige OnePlace Network y trata directamente con las empresas clientes. Conoce Tarragona y su puerto, y se encarga de que cada acuerdo se cumpla de principio a fin.</p>
+          <p class="eyebrow" data-a="up" data-i18n="s2.eyebrow">Nuestros alojamientos</p>
+          <h2 id="s2-title" data-a="up" data-d="90" data-i18n="s2.h2">Ciudad o campo</h2>
+        </div>
+        <div class="s2-ctrl" data-a="fade" data-d="300">
+          <p class="count" aria-live="polite"><b id="pidx">01</b> / 02</p>
+          <button class="arrow" type="button" data-dir="-1" aria-label="Alojamiento anterior" data-i18n-aria="s2.prev" disabled><svg aria-hidden="true"><use href="#i-left"/></svg></button>
+          <button class="arrow" type="button" data-dir="1" aria-label="Siguiente alojamiento" data-i18n-aria="s2.next"><svg aria-hidden="true"><use href="#i-right"/></svg></button>
         </div>
       </div>
 
-      <div style="margin-top:clamp(72px,9vw,120px)">
-        <p class="eyebrow">El equipo</p>
-        <h2>Las personas que le atienden</h2>
+      <div class="track" id="track">
+        <article class="prop" aria-labelledby="p1-name">
+          <div class="pm">
+            <div class="pm-main" data-a="reveal" data-d="120">
+              <img class="pm-img" src="img/piso-puerto.jpg" width="1200" height="661" alt="Vista del puerto desde la azotea del edificio">
+              <span class="pm-n"><span class="pm-c">1</span> / 7</span>
+            </div>
+            <div class="pm-thumbs">
+              <button type="button" aria-pressed="true" aria-label="Vista del puerto desde la azotea" data-src="img/piso-puerto.jpg"><img src="img/t-piso-puerto.jpg" alt="" loading="lazy"></button>
+              <button type="button" aria-pressed="false" aria-label="Salón con sofá y comedor" data-src="img/piso-salon.jpg"><img src="img/t-piso-salon.jpg" alt="" loading="lazy"></button>
+              <button type="button" aria-pressed="false" aria-label="Cocina abierta y comedor" data-src="img/piso-cocina.jpg"><img src="img/t-piso-cocina.jpg" alt="" loading="lazy"></button>
+              <button type="button" aria-pressed="false" aria-label="Dormitorio doble" data-src="img/piso-dormitorio.jpg"><img src="img/t-piso-dormitorio.jpg" alt="" loading="lazy"></button>
+              <button type="button" aria-pressed="false" aria-label="Dormitorio con escritorio" data-src="img/piso-escritorio.jpg"><img src="img/t-piso-escritorio.jpg" alt="" loading="lazy"></button>
+              <button type="button" aria-pressed="false" aria-label="Azotea común con vistas" data-src="img/piso-azotea.jpg"><img src="img/t-piso-azotea.jpg" alt="" loading="lazy"></button>
+              <button type="button" aria-pressed="false" aria-label="El Serrallo de noche" data-src="img/serrallo-noche.jpg"><img src="img/t-serrallo-noche.jpg" alt="" loading="lazy"></button>
+            </div>
+          </div>
+          <div class="pi">
+            <p class="tag" data-a="up" data-d="260" data-i18n="p1.tag">Ciudad · El Serrallo, Tarragona</p>
+            <h3 id="p1-name" data-a="up" data-d="340" data-i18n="p1.name">Apartamentos El Serrallo</h3>
+            <p class="desc" data-a="up" data-d="420" data-i18n="p1.desc">Pisos luminosos a una calle del puerto, con cocina equipada, escritorio para trabajar y azotea con vistas al mar.</p>
+            <ul class="chips" data-a="up" data-d="500">
+              <li data-i18n="p1.c1">Junto al puerto</li>
+              <li data-i18n="p1.c2">Cocina equipada</li>
+              <li data-i18n="p1.c3">Azotea con vistas</li>
+            </ul>
+            <a class="btn-wa" href="#" data-wa="p1" target="_blank" rel="noopener" data-a="up" data-d="580"><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="wa.btn">Contactar por WhatsApp</span></a>
+          </div>
+        </article>
+
+        <article class="prop" aria-labelledby="p2-name">
+          <div class="pm">
+            <div class="pm-main" data-a="reveal" data-d="120">
+              <img class="pm-img" src="img/masia-fachada.jpg" width="1920" height="1281" alt="Fachada de la masía con tumbonas" loading="lazy">
+              <span class="pm-n"><span class="pm-c">1</span> / 6</span>
+            </div>
+            <div class="pm-thumbs">
+              <button type="button" aria-pressed="true" aria-label="Fachada de la masía" data-src="img/masia-fachada.jpg"><img src="img/t-masia-fachada.jpg" alt="" loading="lazy"></button>
+              <button type="button" aria-pressed="false" aria-label="Piscina con tumbonas" data-src="img/masia-piscina.jpg"><img src="img/t-masia-piscina.jpg" alt="" loading="lazy"></button>
+              <button type="button" aria-pressed="false" aria-label="Porche cubierto con comedor" data-src="img/masia-porche.jpg"><img src="img/t-masia-porche.jpg" alt="" loading="lazy"></button>
+              <button type="button" aria-pressed="false" aria-label="Azotea con vistas a la montaña" data-src="img/masia-azotea.jpg"><img src="img/t-masia-azotea.jpg" alt="" loading="lazy"></button>
+              <button type="button" aria-pressed="false" aria-label="Mesa en el jardín bajo los pinos" data-src="img/masia-jardin.jpg"><img src="img/t-masia-jardin.jpg" alt="" loading="lazy"></button>
+              <button type="button" aria-pressed="false" aria-label="Fuente de piedra del jardín" data-src="img/masia-fuente.jpg"><img src="img/t-masia-fuente.jpg" alt="" loading="lazy"></button>
+            </div>
+          </div>
+          <div class="pi">
+            <p class="tag" data-a="up" data-d="260" data-i18n="p2.tag">Campo · Alrededores de Tarragona</p>
+            <h3 id="p2-name" data-a="up" data-d="340" data-i18n="p2.name">Masía con piscina</h3>
+            <p class="desc" data-a="up" data-d="420" data-i18n="p2.desc">Casa de campo entre olivos y pinos, con piscina, porche cubierto y azotea. Pensada para equipos grandes y estancias largas.</p>
+            <ul class="chips" data-a="up" data-d="500">
+              <li data-i18n="p2.c1">Piscina</li>
+              <li data-i18n="p2.c2">Porche cubierto</li>
+              <li data-i18n="p2.c3">Aire acondicionado</li>
+            </ul>
+            <a class="btn-wa" href="#" data-wa="p2" target="_blank" rel="noopener" data-a="up" data-d="580"><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="wa.btn">Contactar por WhatsApp</span></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 · Equipo -->
+  <section class="slide s3" id="equipo" aria-labelledby="s3-title">
+    <svg class="s3-deco" viewBox="0 0 400 560" aria-hidden="true"><path d="M20 560V200a180 180 0 0 1 360 0v360" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke"/><path d="M60 560V210a140 140 0 0 1 280 0v350" fill="none" stroke="currentColor" stroke-width="1" vector-effect="non-scaling-stroke"/></svg>
+    <div class="wrap s3-wrap">
+      <div class="s3-head">
+        <p class="eyebrow" data-a="up" data-i18n="s3.eyebrow">El equipo</p>
+        <h2 id="s3-title" data-a="up" data-d="90" data-i18n="s3.h2">Personas, no centralitas</h2>
+        <p class="lead" data-a="up" data-d="180" data-i18n="s3.lead">Pulse en quien lleve su tema y envíele su duda por correo.</p>
       </div>
       <div class="team">
-        <article class="person">
-          <img src="img/josep.jpg" alt="Josep Prat Domènech" loading="lazy">
-          <h3>Josep Prat Domènech</h3>
-          <div class="role">CEO</div>
-          <p>Su interlocutor para acuerdos y contratos.</p>
-          <ul><li>Condiciones y precios para empresas</li><li>Acuerdos de larga duración</li><li>Nuevos alojamientos</li></ul>
-        </article>
-        <article class="person">
-          <img src="img/dayana.jpg" alt="Dayana Cecilia Quiroga Potra" loading="lazy">
-          <h3>Dayana Quiroga</h3>
-          <div class="role">Housing manager</div>
-          <p>Su contacto del día a día durante la estancia.</p>
-          <ul><li>Entrada, llaves y salida</li><li>Limpieza y mantenimiento</li><li>Incidencias en el alojamiento</li></ul>
-        </article>
-        <article class="person">
-          <img src="img/melannie.jpg" alt="Melannie Panta Paredes" loading="lazy">
-          <h3>Melannie Panta</h3>
-          <div class="role">Marketing</div>
-          <p>Le cuenta qué alojamientos hay y cómo son.</p>
-          <ul><li>Dossiers y fichas de cada inmueble</li><li>Comunicación y redes sociales</li><li>Información para nuevas empresas</li></ul>
-        </article>
+        <button class="member" type="button" data-id="josep">
+          <span class="portrait">
+            <span class="outline" data-a="fade" data-d="700" aria-hidden="true"></span>
+            <span class="bg" data-a="reveal" data-d="250"></span>
+            <img src="img/team-josep.webp" width="480" height="600" alt="" loading="lazy" data-a="rise" data-d="430">
+          </span>
+          <span class="m-name" data-a="up" data-d="520">Josep Prat</span>
+          <span class="m-role" data-a="up" data-d="570">CEO</span>
+          <span class="m-area" data-a="up" data-d="620" data-i18n="josep.area">Acuerdos con empresas</span>
+          <span class="m-topics" data-a="up" data-d="670"><span data-i18n="josep.t1">Precios y condiciones</span><span data-i18n="josep.t2">Estancias largas</span><span data-i18n="josep.t3">Colaboraciones</span></span>
+          <span class="m-cta" data-a="up" data-d="720"><svg aria-hidden="true"><use href="#i-mail"/></svg><span class="lg" data-i18n="t.write">Enviar una duda</span><span class="sh" data-i18n="t.writeShort">Escribir</span></span>
+        </button>
+        <button class="member" type="button" data-id="dayana">
+          <span class="portrait">
+            <span class="outline" data-a="fade" data-d="820" aria-hidden="true"></span>
+            <span class="bg" data-a="reveal" data-d="370"></span>
+            <img src="img/team-dayana.webp" width="480" height="600" alt="" loading="lazy" data-a="rise" data-d="550">
+          </span>
+          <span class="m-name" data-a="up" data-d="640">Dayana Quiroga</span>
+          <span class="m-role" data-a="up" data-d="690">Housing manager</span>
+          <span class="m-area" data-a="up" data-d="740" data-i18n="dayana.area">Su estancia</span>
+          <span class="m-topics" data-a="up" data-d="790"><span data-i18n="dayana.t1">Entrada y salida</span><span data-i18n="dayana.t2">Llaves y acceso</span><span data-i18n="dayana.t3">Mantenimiento e incidencias</span></span>
+          <span class="m-cta" data-a="up" data-d="840"><svg aria-hidden="true"><use href="#i-mail"/></svg><span class="lg" data-i18n="t.write">Enviar una duda</span><span class="sh" data-i18n="t.writeShort">Escribir</span></span>
+        </button>
+        <button class="member" type="button" data-id="melannie">
+          <span class="portrait">
+            <span class="outline" data-a="fade" data-d="940" aria-hidden="true"></span>
+            <span class="bg" data-a="reveal" data-d="490"></span>
+            <img src="img/team-melannie.webp" width="480" height="600" alt="" loading="lazy" data-a="rise" data-d="670">
+          </span>
+          <span class="m-name" data-a="up" data-d="760">Melannie Panta</span>
+          <span class="m-role" data-a="up" data-d="810">Marketing</span>
+          <span class="m-area" data-a="up" data-d="860" data-i18n="melannie.area">Información y marketing</span>
+          <span class="m-topics" data-a="up" data-d="910"><span data-i18n="melannie.t1">Alojamientos disponibles</span><span data-i18n="melannie.t2">Fotos y dossiers</span><span data-i18n="melannie.t3">Redes sociales</span></span>
+          <span class="m-cta" data-a="up" data-d="960"><svg aria-hidden="true"><use href="#i-mail"/></svg><span class="lg" data-i18n="t.write">Enviar una duda</span><span class="sh" data-i18n="t.writeShort">Escribir</span></span>
+        </button>
       </div>
     </div>
   </section>
 
-  <section id="contacto" style="background:var(--blanco)">
-    <div class="wrap contact">
+  <!-- 4 · Contacto -->
+  <section class="slide s4" id="contacto" aria-labelledby="s4-title">
+    <div class="wrap s4-grid">
       <div>
-        <p class="eyebrow">Contacto</p>
-        <h2>Cuéntenos qué necesita su equipo</h2>
-        <p class="lead" style="margin-top:18px">Le respondemos con una propuesta de alojamiento y precio.</p>
-        <div class="dl">
-          <div><small>Teléfono</small><span class="tbd">Por confirmar</span></div>
-          <div><small>Correo</small><span class="tbd">Por confirmar</span></div>
-          <div><small>Oficina</small><span>Tarragona, España</span></div>
-          <div><small>Idiomas</small><span>Español · Deutsch · English</span></div>
-        </div>
+        <p class="eyebrow" data-a="up" data-i18n="s4.eyebrow">Contacto</p>
+        <h2 id="s4-title" data-a="up" data-d="90" data-i18n="s4.h2">¿Necesita alojamiento para su equipo?</h2>
+        <p class="lead" data-a="up" data-d="180" data-i18n="s4.lead">Escríbanos por WhatsApp y le respondemos con disponibilidad y precio.</p>
+        <a class="btn-wa big" href="#" data-wa="gen" target="_blank" rel="noopener" data-a="up" data-d="270"><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="s4.wa">Escribir por WhatsApp</span></a>
+        <dl class="data" data-a="up" data-d="360">
+          <div><dt>WhatsApp</dt><dd class="tbd" id="d-wa" data-i18n="pending">Pendiente</dd></div>
+          <div><dt data-i18n="s4.dMail">Correo</dt><dd class="tbd" data-i18n="pending">Pendiente</dd></div>
+          <div><dt data-i18n="s4.dOffice">Oficina</dt><dd data-i18n="s4.office">Tarragona, España</dd></div>
+        </dl>
       </div>
-      <form id="form" novalidate>
-        <label for="f-emp">Empresa<input id="f-emp" name="empresa" autocomplete="organization" placeholder="Nombre de la empresa" required></label>
-        <label for="f-nom">Persona de contacto<input id="f-nom" name="nombre" autocomplete="name" placeholder="Nombre y apellidos" required></label>
-        <label for="f-mail">Correo<input id="f-mail" name="email" type="email" autocomplete="email" placeholder="nombre@empresa.com" required></label>
-        <label for="f-tel">Teléfono<input id="f-tel" name="telefono" type="tel" autocomplete="tel" placeholder="+34 …"></label>
-        <label for="f-n">Número de personas<input id="f-n" name="personas" type="number" min="1" placeholder="4"></label>
-        <label for="f-fe">Fechas<input id="f-fe" name="fechas" placeholder="Del 12 de enero al 30 de marzo"></label>
-        <label class="full" for="f-al">Alojamiento<select id="f-al" name="alojamiento"><option>Me da igual, propónganme</option><option>Apartamentos El Serrallo</option><option>Masía con piscina</option></select></label>
-        <label class="full" for="f-msg">Mensaje<textarea id="f-msg" name="mensaje" placeholder="Horarios, plazas de garaje, necesidades especiales…"></textarea></label>
-        <label class="check full" for="f-ok"><input id="f-ok" type="checkbox" required> He leído y acepto la política de privacidad.</label>
-        <div class="full"><button class="btn solid" type="submit">Enviar solicitud</button></div>
-        <div class="sent" id="sent" hidden></div>
+      <form class="req" id="req" novalidate data-a="up" data-d="220">
+        <h3 data-i18n="f.title">Solicitud para empresas</h3>
+        <p class="hint" data-i18n="f.hint">Rellene lo que sepa: la solicitud llega a OnePlace Network por WhatsApp.</p>
+        <label class="fld" for="r-co"><span data-i18n="f.company">Empresa</span><input id="r-co" name="empresa" autocomplete="organization" required></label>
+        <div class="two">
+          <label class="fld" for="r-n"><span data-i18n="f.people">Personas</span><input id="r-n" name="personas" type="number" min="1" inputmode="numeric" placeholder="4"></label>
+          <label class="fld" for="r-d"><span data-i18n="f.dates">Fechas</span><input id="r-d" name="fechas" placeholder="Del 12 de enero al 30 de marzo" data-i18n-ph="f.datesPh"></label>
+        </div>
+        <label class="fld" for="r-h"><span data-i18n="f.home">Alojamiento</span>
+          <select id="r-h" name="alojamiento">
+            <option value="any" data-i18n="f.any">Cualquiera, propónganme</option>
+            <option value="p1" data-i18n="p1.name">Apartamentos El Serrallo</option>
+            <option value="p2" data-i18n="p2.name">Masía con piscina</option>
+          </select>
+        </label>
+        <label class="fld" for="r-m"><span data-i18n="f.msg">Mensaje</span><textarea id="r-m" name="mensaje" placeholder="Horarios, garaje, necesidades especiales…" data-i18n-ph="f.msgPh"></textarea></label>
+        <p class="err" id="r-err" role="alert" hidden></p>
+        <button class="btn-wa" type="submit"><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="f.send">Enviar solicitud por WhatsApp</span></button>
       </form>
     </div>
+    <footer class="foot">
+      <div class="wrap foot-in">
+        <span>© 2026 OnePlace Network. <span data-i18n="foot.rights">Todos los derechos reservados.</span></span>
+        <nav aria-label="Legal"><a href="#" data-legal data-i18n="foot.legal">Aviso legal</a><a href="#" data-legal data-i18n="foot.privacy">Privacidad</a><a href="#" data-legal data-i18n="foot.cookies">Cookies</a></nav>
+        <span><span data-i18n="foot.photos">Fotografías: Pep Garcia</span> · <span data-i18n="foot.web">Diseño web: Sebastian Arvente</span></span>
+      </div>
+    </footer>
   </section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <div class="fcols">
-      <div><a class="logo" href="#inicio"><b>OnePlace</b><span>NETWORK</span></a><p style="margin:0;max-width:30ch">Alojamiento corporativo amueblado en Tarragona.</p></div>
-      <div><h4>Alojamientos</h4><ul><li><a href="#serrallo">El Serrallo</a></li><li><a href="#masia">Masía con piscina</a></li></ul></div>
-      <div><h4>Empresa</h4><ul><li><a href="#empresas">Cómo funciona</a></li><li><a href="#equipo">Equipo</a></li><li><a href="#contacto">Contacto</a></li></ul></div>
-      <div><h4>Legal</h4><ul><li><a href="#" data-toast="El aviso legal se redactará con los datos fiscales de la empresa.">Aviso legal</a></li><li><a href="#" data-toast="La política de privacidad se añadirá en la versión final.">Política de privacidad</a></li><li><a href="#" data-toast="La política de cookies se añadirá en la versión final.">Política de cookies</a></li></ul></div>
+<div class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sh-title">
+  <div class="sheet-card">
+    <div class="sh-head">
+      <img class="sh-img" id="sh-img" src="img/team-dayana.webp" alt="">
+      <div>
+        <p class="sh-k" id="sh-k"></p>
+        <h3 id="sh-title"></h3>
+        <p class="sh-area" id="sh-area"></p>
+      </div>
+      <button class="x" type="button" id="sh-x" aria-label="Cerrar" data-i18n-aria="close"><svg aria-hidden="true"><use href="#i-x"/></svg></button>
     </div>
-    <div class="legal"><span>© 2026 OnePlace Network. Todos los derechos reservados.</span><span>Fotografías: Pep Garcia · Diseño web: Sebastian Arvente</span></div>
+    <form class="ask" id="ask" novalidate>
+      <label class="fld" for="a-topic"><span data-i18n="sh.topic">Tema</span><select id="a-topic"></select></label>
+      <label class="fld" for="a-msg"><span data-i18n="sh.msg">Su duda</span><textarea id="a-msg" placeholder="Cuéntenos qué necesita…" data-i18n-ph="sh.msgPh"></textarea></label>
+      <div class="two">
+        <label class="fld" for="a-name"><span data-i18n="sh.name">Su nombre</span><input id="a-name" autocomplete="name"></label>
+        <label class="fld" for="a-mail"><span data-i18n="sh.mail">Su correo</span><input id="a-mail" type="email" autocomplete="email" inputmode="email"></label>
+      </div>
+      <p class="err" id="sh-err" role="alert" hidden></p>
+      <button class="btn-solid" type="submit"><svg aria-hidden="true"><use href="#i-mail"/></svg><span data-i18n="sh.send">Enviar correo</span></button>
+      <div class="note" id="sh-note" role="status" hidden></div>
+      <p class="direct"><span data-i18n="sh.direct">Correo directo</span><b id="sh-addr"></b> <button class="copy" type="button" id="sh-copy" hidden data-i18n="sh.copy">Copiar</button></p>
+    </form>
   </div>
-</footer>
-
-<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Galería">
-  <img id="lb-img" alt="">
-  <button class="x" type="button" id="lb-x">Cerrar ✕</button>
-  <button class="pv" type="button" id="lb-pv" aria-label="Anterior">←</button>
-  <button class="nx" type="button" id="lb-nx" aria-label="Siguiente">→</button>
 </div>
-<div class="toast" id="toast" hidden role="status"></div>
+
+<div class="wa" id="wa" hidden role="dialog" aria-modal="true" aria-labelledby="wa-t">
+  <div class="wa-card">
+    <div class="wa-top">
+      <span class="wa-av" aria-hidden="true">OP</span>
+      <div><b id="wa-t">OnePlace Network</b><small>WhatsApp</small></div>
+      <button class="x" type="button" id="wa-x" aria-label="Cerrar" data-i18n-aria="close"><svg aria-hidden="true"><use href="#i-x"/></svg></button>
+    </div>
+    <div class="wa-body"><div class="bubble"><span id="wa-msg"></span><small data-i18n="wa.now">ahora</small></div></div>
+    <p class="wa-note" data-i18n="wa.note">Versión de prueba: en la web final este botón abre WhatsApp con el mensaje ya escrito, listo para enviar a OnePlace Network.</p>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" hidden></div>
 
 <script>
-const $=id=>document.getElementById(id);
-// menu
-const menu=$("menu"),burger=$("burger");
-burger.addEventListener("click",()=>{const o=menu.classList.toggle("open");burger.setAttribute("aria-expanded",o);burger.textContent=o?"Cerrar":"Menú";});
-menu.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{menu.classList.remove("open");burger.setAttribute("aria-expanded",false);burger.textContent="Menú";}));
-// toast
-let tt;function toast(m){const t=$("toast");t.textContent=m;t.hidden=false;clearTimeout(tt);tt=setTimeout(()=>t.hidden=true,3200);}
-document.querySelectorAll("[data-toast]").forEach(b=>b.addEventListener("click",e=>{e.preventDefault();toast(b.dataset.toast);}));
-document.querySelectorAll("[data-lang]").forEach(b=>b.addEventListener("click",()=>toast("La versión en "+b.dataset.lang+" estará en la web final.")));
-// preselect property
-document.querySelectorAll("[data-prop]").forEach(a=>a.addEventListener("click",()=>{$("f-al").value=a.dataset.prop;}));
-// lightbox
-let list=[],idx=0;const lb=$("lb"),li=$("lb-img");
-function show(i){idx=(i+list.length)%list.length;li.src=list[idx].src;li.alt=list[idx].alt;}
-document.querySelectorAll(".gallery").forEach(g=>{const imgs=[...g.querySelectorAll("img")];g.querySelectorAll("button").forEach((b,i)=>b.addEventListener("click",()=>{list=imgs;show(i);lb.hidden=false;$("lb-x").focus();}));});
-function close(){lb.hidden=true;}
-$("lb-x").onclick=close;$("lb-pv").onclick=()=>show(idx-1);$("lb-nx").onclick=()=>show(idx+1);
-lb.addEventListener("click",e=>{if(e.target===lb)close();});
-document.addEventListener("keydown",e=>{if(lb.hidden)return;if(e.key==="Escape")close();if(e.key==="ArrowLeft")show(idx-1);if(e.key==="ArrowRight")show(idx+1);});
-// form
-$("form").addEventListener("submit",e=>{e.preventDefault();const f=e.target,s=$("sent");
-  const miss=[...f.querySelectorAll("[required]")].filter(x=>x.type==="checkbox"?!x.checked:!x.value.trim());
-  s.hidden=false;
-  if(miss.length){s.textContent="Faltan datos: rellene empresa, persona de contacto, correo y acepte la política de privacidad.";(miss[0]).focus();return;}
-  s.textContent="Esto es una versión de prueba: la solicitud no se ha enviado. En la web final llegará al correo de OnePlace Network.";});
+(() => {
+  // Datos de contacto. Rellenar antes de publicar la web real.
+  const CONFIG = {
+    whatsapp: '',                                // número con prefijo de país, sin "+" ni espacios. Ej.: 34600111222
+    emails: { josep: '', dayana: '', melannie: '' }
+  };
+
+  const I18N = {
+    'nav.about':['Nosotros','Über uns','About us'],
+    'nav.homes':['Alojamientos','Unterkünfte','Homes'],
+    'nav.team':['Equipo','Team','Team'],
+    'nav.contact':['Contacto','Kontakt','Contact'],
+    'lang':['Idioma','Sprache','Language'],
+    'close':['Cerrar','Schließen','Close'],
+    'pending':['Pendiente','Ausstehend','Pending'],
+    's1.eyebrow':['Alojamiento corporativo · Tarragona','Firmenunterkünfte · Tarragona','Corporate housing · Tarragona'],
+    's1.h1a':['Su equipo,','Ihr Team,','Your team,'],
+    's1.h1b':['como en casa.','wie zu Hause.','right at home.'],
+    's1.lead':['Alojamos a los equipos que las empresas desplazan a Tarragona: pisos y casas amueblados, listos para entrar a vivir, con un solo contacto para todo.','Wir bringen Teams unter, die Unternehmen nach Tarragona entsenden: möblierte Wohnungen und Häuser, sofort bezugsfertig, mit einem einzigen Ansprechpartner für alles.','We house the teams that companies send to Tarragona: furnished flats and houses, ready to move into, with one point of contact for everything.'],
+    's1.storyT':['Nuestra historia','Unsere Geschichte','Our story'],
+    's1.prov':['Texto provisional','Vorläufiger Text','Draft text'],
+    's1.story':['Empezamos junto al puerto de Tarragona, al ver que las empresas perdían días buscando dónde alojar a su gente. Hoy gestionamos pisos en El Serrallo y una masía con piscina, con el mismo trato directo del primer día.','Angefangen haben wir am Hafen von Tarragona, als wir sahen, wie Unternehmen tagelang nach Unterkünften für ihre Leute suchten. Heute betreuen wir Wohnungen in El Serrallo und eine Masía mit Pool – so persönlich wie am ersten Tag.','We started by the port of Tarragona, after seeing companies lose days looking for somewhere to house their people. Today we manage flats in El Serrallo and a farmhouse with a pool, with the same personal service as on day one.'],
+    's1.role':['CEO de OnePlace Network','CEO von OnePlace Network','CEO of OnePlace Network'],
+    's1.t1':['Un solo contacto','Ein Ansprechpartner','One point of contact'],
+    's1.t2':['Ciudad y campo','Stadt und Land','City and countryside'],
+    's1.t3':['Trato directo','Persönlicher Service','Personal service'],
+    's1.cue':['Desliza','Weiter','Scroll'],
+    's2.eyebrow':['Nuestros alojamientos','Unsere Unterkünfte','Our homes'],
+    's2.h2':['Ciudad o campo','Stadt oder Land','City or countryside'],
+    's2.prev':['Alojamiento anterior','Vorherige Unterkunft','Previous home'],
+    's2.next':['Siguiente alojamiento','Nächste Unterkunft','Next home'],
+    'p1.tag':['Ciudad · El Serrallo, Tarragona','Stadt · El Serrallo, Tarragona','City · El Serrallo, Tarragona'],
+    'p1.name':['Apartamentos El Serrallo','Apartments El Serrallo','El Serrallo Apartments'],
+    'p1.desc':['Pisos luminosos a una calle del puerto, con cocina equipada, escritorio para trabajar y azotea con vistas al mar.','Helle Wohnungen eine Straße vom Hafen entfernt, mit ausgestatteter Küche, Schreibtisch und Dachterrasse mit Meerblick.','Bright flats one street from the port, with a fitted kitchen, a work desk and a roof terrace with sea views.'],
+    'p1.c1':['Junto al puerto','Am Hafen','By the port'],
+    'p1.c2':['Cocina equipada','Ausgestattete Küche','Fitted kitchen'],
+    'p1.c3':['Azotea con vistas','Dachterrasse mit Blick','Roof terrace with views'],
+    'p2.tag':['Campo · Alrededores de Tarragona','Land · Umgebung von Tarragona','Countryside · Near Tarragona'],
+    'p2.name':['Masía con piscina','Masía mit Pool','Farmhouse with pool'],
+    'p2.desc':['Casa de campo entre olivos y pinos, con piscina, porche cubierto y azotea. Pensada para equipos grandes y estancias largas.','Landhaus zwischen Oliven und Pinien, mit Pool, überdachter Veranda und Dachterrasse. Ideal für große Teams und längere Aufenthalte.','A country house among olive and pine trees, with a pool, a covered porch and a roof terrace. Made for big teams and long stays.'],
+    'p2.c1':['Piscina','Pool','Pool'],
+    'p2.c2':['Porche cubierto','Überdachte Veranda','Covered porch'],
+    'p2.c3':['Aire acondicionado','Klimaanlage','Air conditioning'],
+    'wa.btn':['Contactar por WhatsApp','Per WhatsApp anfragen','Contact us on WhatsApp'],
+    'wa.prop':['Hola, me interesa «{name}». ¿Tienen disponibilidad para mi equipo?','Hallo, ich interessiere mich für „{name}“. Ist für mein Team etwas frei?','Hello, I’m interested in “{name}”. Do you have availability for my team?'],
+    'wa.gen':['Hola, necesito alojamiento para mi equipo en Tarragona.','Hallo, ich suche eine Unterkunft für mein Team in Tarragona.','Hello, I need accommodation for my team in Tarragona.'],
+    'wa.note':['Versión de prueba: en la web final este botón abre WhatsApp con el mensaje ya escrito, listo para enviar a OnePlace Network.','Testversion: Auf der fertigen Website öffnet dieser Button WhatsApp mit der fertigen Nachricht an OnePlace Network.','Demo version: on the live site this button opens WhatsApp with the message ready to send to OnePlace Network.'],
+    'wa.now':['ahora','jetzt','now'],
+    's3.eyebrow':['El equipo','Das Team','The team'],
+    's3.h2':['Personas, no centralitas','Menschen statt Warteschleife','People, not call centres'],
+    's3.lead':['Pulse en quien lleve su tema y envíele su duda por correo.','Tippen Sie auf die zuständige Person und senden Sie ihr Ihre Frage per E-Mail.','Tap the person who handles your topic and email them your question.'],
+    't.write':['Enviar una duda','Frage senden','Send a question'],
+    't.writeShort':['Escribir','Schreiben','Email'],
+    'josep.area':['Acuerdos con empresas','Firmenverträge','Company agreements'],
+    'josep.t1':['Precios y condiciones','Preise und Konditionen','Prices and terms'],
+    'josep.t2':['Estancias largas','Langzeitaufenthalte','Long stays'],
+    'josep.t3':['Colaboraciones','Kooperationen','Partnerships'],
+    'dayana.area':['Su estancia','Ihr Aufenthalt','Your stay'],
+    'dayana.t1':['Entrada y salida','Ein- und Auszug','Check-in and check-out'],
+    'dayana.t2':['Llaves y acceso','Schlüssel und Zugang','Keys and access'],
+    'dayana.t3':['Mantenimiento e incidencias','Wartung und Störungen','Maintenance and issues'],
+    'melannie.area':['Información y marketing','Information und Marketing','Information and marketing'],
+    'melannie.t1':['Alojamientos disponibles','Verfügbare Unterkünfte','Available homes'],
+    'melannie.t2':['Fotos y dossiers','Fotos und Exposés','Photos and brochures'],
+    'melannie.t3':['Redes sociales','Social Media','Social media'],
+    'sh.title':['Escriba a {name}','Schreiben Sie {name}','Write to {name}'],
+    'sh.topic':['Tema','Thema','Topic'],
+    'sh.other':['Otro tema','Anderes Thema','Something else'],
+    'sh.msg':['Su duda','Ihre Frage','Your question'],
+    'sh.msgPh':['Cuéntenos qué necesita…','Worum geht es?','What do you need?'],
+    'sh.name':['Su nombre','Ihr Name','Your name'],
+    'sh.mail':['Su correo','Ihre E-Mail','Your email'],
+    'sh.send':['Enviar correo','E-Mail senden','Send email'],
+    'sh.err':['Escriba su duda y su correo para que podamos responderle.','Bitte geben Sie Ihre Frage und Ihre E-Mail-Adresse an.','Please add your question and your email so we can reply.'],
+    'sh.demo':['Versión de prueba: en la web final se abrirá su correo con este mensaje para {name}.','Testversion: Auf der fertigen Website öffnet sich Ihr E-Mail-Programm mit dieser Nachricht an {name}.','Demo version: on the live site your email app opens with this message to {name}.'],
+    'sh.subject':['Asunto','Betreff','Subject'],
+    'sh.direct':['Correo directo','Direkte E-Mail','Direct email'],
+    'sh.copy':['Copiar','Kopieren','Copy'],
+    'sh.copied':['Copiado','Kopiert','Copied'],
+    's4.eyebrow':['Contacto','Kontakt','Contact'],
+    's4.h2':['¿Necesita alojamiento para su equipo?','Brauchen Sie eine Unterkunft für Ihr Team?','Need a place for your team to stay?'],
+    's4.lead':['Escríbanos por WhatsApp y le respondemos con disponibilidad y precio.','Schreiben Sie uns per WhatsApp – wir antworten mit Verfügbarkeit und Preis.','Message us on WhatsApp and we’ll reply with availability and price.'],
+    's4.wa':['Escribir por WhatsApp','Per WhatsApp schreiben','Message us on WhatsApp'],
+    's4.dMail':['Correo','E-Mail','Email'],
+    's4.dOffice':['Oficina','Büro','Office'],
+    's4.office':['Tarragona, España','Tarragona, Spanien','Tarragona, Spain'],
+    'f.title':['Solicitud para empresas','Anfrage für Unternehmen','Company request'],
+    'f.hint':['Rellene lo que sepa: la solicitud llega a OnePlace Network por WhatsApp.','Füllen Sie aus, was Sie wissen – die Anfrage geht per WhatsApp an OnePlace Network.','Fill in what you know: the request reaches OnePlace Network on WhatsApp.'],
+    'f.company':['Empresa','Unternehmen','Company'],
+    'f.people':['Personas','Personen','People'],
+    'f.dates':['Fechas','Zeitraum','Dates'],
+    'f.datesPh':['Del 12 de enero al 30 de marzo','12. Januar bis 30. März','12 January to 30 March'],
+    'f.home':['Alojamiento','Unterkunft','Accommodation'],
+    'f.any':['Cualquiera, propónganme','Egal – bitte Vorschlag','Any – please suggest'],
+    'f.msg':['Mensaje','Nachricht','Message'],
+    'f.msgPh':['Horarios, garaje, necesidades especiales…','Arbeitszeiten, Parkplatz, besondere Wünsche …','Working hours, parking, special needs…'],
+    'f.send':['Enviar solicitud por WhatsApp','Anfrage per WhatsApp senden','Send request via WhatsApp'],
+    'f.err':['Indique al menos el nombre de la empresa.','Bitte geben Sie mindestens den Firmennamen an.','Please enter at least the company name.'],
+    'f.head':['Solicitud de alojamiento','Unterkunftsanfrage','Accommodation request'],
+    'foot.rights':['Todos los derechos reservados.','Alle Rechte vorbehalten.','All rights reserved.'],
+    'foot.legal':['Aviso legal','Impressum','Legal notice'],
+    'foot.privacy':['Privacidad','Datenschutz','Privacy'],
+    'foot.cookies':['Cookies','Cookies','Cookies'],
+    'foot.photos':['Fotografías: Pep Garcia','Fotos: Pep Garcia','Photos: Pep Garcia'],
+    'foot.web':['Diseño web: Sebastian Arvente','Webdesign: Sebastian Arvente','Web design: Sebastian Arvente'],
+    'legal.toast':['Esta página se completará con los datos fiscales de la empresa.','Diese Seite wird mit den Firmendaten ergänzt.','This page will be completed with the company’s legal details.']
+  };
+  const IDX = { es:0, de:1, en:2 };
+  const TEAM = {
+    josep:    { name:'Josep Prat',     role:'CEO',             img:'img/team-josep.webp' },
+    dayana:   { name:'Dayana Quiroga', role:'Housing manager', img:'img/team-dayana.webp' },
+    melannie: { name:'Melannie Panta', role:'Marketing',       img:'img/team-melannie.webp' }
+  };
+
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let lang = 'es';
+  try { const s = localStorage.getItem('op-lang'); if (s && s in IDX) lang = s; } catch (e) {}
+  const t = (k, vars) => {
+    const e = I18N[k]; let s = e ? e[IDX[lang]] : k;
+    if (vars) for (const n in vars) s = s.split('{' + n + '}').join(vars[n]);
+    return s;
+  };
+
+  /* ---------- animations: elements stay visible at rest; each section plays once when it comes in ---------- */
+  const KF = {
+    up:     [{ opacity: 0, transform: 'translateY(26px)' }, { opacity: 1, transform: 'none' }],
+    fade:   [{ opacity: 0 }, { opacity: 1 }],
+    rise:   [{ opacity: 0, transform: 'translateY(14%)' }, { opacity: 1, transform: 'none' }],
+    reveal: [{ clipPath: 'inset(100% 0 0 0)' }, { clipPath: 'inset(0 0 0 0)' }],
+    zoom:   [{ transform: 'scale(1.16)' }, { transform: 'scale(1)' }]
+  };
+  const DUR = { up: 850, fade: 900, rise: 950, reveal: 1150, zoom: 1800 };
+  function animateIn(root) {
+    if (RM || !root) return;
+    $$('[data-a]', root).forEach(el => {
+      const k = el.dataset.a;
+      try { el.animate(KF[k], { duration: DUR[k], delay: +(el.dataset.d || 0), easing: 'cubic-bezier(.2,.7,.2,1)', fill: 'backwards' }); } catch (e) {}
+    });
+  }
+
+  /* ---------- language ---------- */
+  function applyLang(l) {
+    lang = l; document.documentElement.lang = l;
+    $$('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
+    $$('[data-i18n-ph]').forEach(el => { el.placeholder = t(el.dataset.i18nPh); });
+    $$('[data-i18n-aria]').forEach(el => { el.setAttribute('aria-label', t(el.dataset.i18nAria)); });
+    $$('.lang button').forEach(b => b.setAttribute('aria-pressed', b.dataset.lang === l));
+    $('.lang').setAttribute('aria-label', t('lang'));
+    refreshWA();
+    if (current) fillSheet(current, true);
+    try { localStorage.setItem('op-lang', l); } catch (e) {}
+  }
+  $$('.lang button').forEach(b => b.addEventListener('click', () => applyLang(b.dataset.lang)));
+
+  /* ---------- WhatsApp ---------- */
+  const waText = key => key === 'gen' ? t('wa.gen') : t('wa.prop', { name: t(key + '.name') });
+  const waURL = text => 'https://wa.me/' + CONFIG.whatsapp + '?text=' + encodeURIComponent(text);
+  function refreshWA() { $$('[data-wa]').forEach(a => { a.href = CONFIG.whatsapp ? waURL(waText(a.dataset.wa)) : '#'; }); }
+  let lastFocus = null;
+  function openWA(text, from) {
+    lastFocus = from || document.activeElement;
+    $('#wa-msg').textContent = text;
+    $('#wa').hidden = false; document.body.classList.add('lock');
+    if (!RM) $('.wa-card').animate([{ transform: 'translateY(40px)', opacity: 0 }, { transform: 'none', opacity: 1 }], { duration: 380, easing: 'cubic-bezier(.2,.7,.2,1)' });
+    $('#wa-x').focus();
+  }
+  function closeWA() { $('#wa').hidden = true; document.body.classList.remove('lock'); if (lastFocus) lastFocus.focus(); }
+  document.addEventListener('click', e => {
+    const a = e.target.closest('[data-wa]'); if (!a) return;
+    if (!CONFIG.whatsapp) { e.preventDefault(); openWA(waText(a.dataset.wa), a); }
+  });
+  $('#wa-x').addEventListener('click', closeWA);
+  $('#wa').addEventListener('click', e => { if (e.target.id === 'wa') closeWA(); });
+
+  $('#req').addEventListener('submit', e => {
+    e.preventDefault();
+    const co = $('#r-co').value.trim(), err = $('#r-err');
+    if (!co) { err.textContent = t('f.err'); err.hidden = false; $('#r-co').focus(); return; }
+    err.hidden = true;
+    const sel = $('#r-h');
+    const lines = [t('f.head'), t('f.company') + ': ' + co];
+    const n = $('#r-n').value.trim(); if (n) lines.push(t('f.people') + ': ' + n);
+    const d = $('#r-d').value.trim(); if (d) lines.push(t('f.dates') + ': ' + d);
+    lines.push(t('f.home') + ': ' + sel.options[sel.selectedIndex].textContent);
+    const m = $('#r-m').value.trim(); if (m) lines.push(t('f.msg') + ': ' + m);
+    const text = lines.join('\n');
+    if (CONFIG.whatsapp) location.href = waURL(text); else openWA(text, $('#req button[type=submit]'));
+  });
+
+  /* ---------- team: write a question to one person ---------- */
+  let current = null, sheetFrom = null;
+  function fillSheet(id, keep) {
+    const p = TEAM[id];
+    $('#sh-img').src = p.img;
+    $('#sh-k').textContent = p.role;
+    $('#sh-title').textContent = t('sh.title', { name: p.name });
+    $('#sh-area').textContent = t(id + '.area');
+    const sel = $('#a-topic'), prev = sel.selectedIndex;
+    sel.innerHTML = '';
+    ['t1', 't2', 't3'].forEach(k => sel.add(new Option(t(id + '.' + k))));
+    sel.add(new Option(t('sh.other')));
+    if (keep && prev >= 0) sel.selectedIndex = prev;
+    const mail = CONFIG.emails[id];
+    const addr = $('#sh-addr'); addr.textContent = mail || t('pending'); addr.classList.toggle('tbd', !mail);
+    $('#sh-copy').hidden = !mail;
+  }
+  function openSheet(id, from) {
+    current = id; sheetFrom = from;
+    fillSheet(id);
+    $('#sh-note').hidden = true; $('#sh-err').hidden = true;
+    $('#sheet').hidden = false; document.body.classList.add('lock');
+    if (!RM) $('.sheet-card').animate([{ transform: 'translateY(48px)', opacity: 0 }, { transform: 'none', opacity: 1 }], { duration: 420, easing: 'cubic-bezier(.2,.7,.2,1)' });
+    setTimeout(() => $('#a-topic').focus(), 60);
+  }
+  function closeSheet() { $('#sheet').hidden = true; document.body.classList.remove('lock'); current = null; if (sheetFrom) sheetFrom.focus(); }
+  $$('.member').forEach(b => b.addEventListener('click', () => openSheet(b.dataset.id, b)));
+  $('#sh-x').addEventListener('click', closeSheet);
+  $('#sheet').addEventListener('click', e => { if (e.target.id === 'sheet') closeSheet(); });
+  $('#ask').addEventListener('submit', e => {
+    e.preventDefault();
+    const msg = $('#a-msg').value.trim(), mail = $('#a-mail').value.trim(), name = $('#a-name').value.trim();
+    const ok = msg && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(mail);
+    const err = $('#sh-err');
+    if (!ok) { err.textContent = t('sh.err'); err.hidden = false; (msg ? $('#a-mail') : $('#a-msg')).focus(); return; }
+    err.hidden = true;
+    const p = TEAM[current], topic = $('#a-topic').value;
+    const subject = '[OnePlace · ' + t(current + '.area') + '] ' + topic;
+    const body = msg + '\n\n— ' + (name ? name + '\n' : '') + mail;
+    const to = CONFIG.emails[current];
+    if (to) { location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body); return; }
+    const note = $('#sh-note'); note.textContent = '';
+    const a = document.createElement('span'); a.textContent = t('sh.demo', { name: p.name });
+    const b = document.createElement('span'); b.className = 'subj'; b.textContent = t('sh.subject') + ': ' + subject;
+    note.append(a, b); note.hidden = false;
+  });
+  $('#sh-copy').addEventListener('click', () => {
+    const btn = $('#sh-copy'), txt = $('#sh-addr').textContent;
+    const done = () => { btn.textContent = t('sh.copied'); setTimeout(() => { btn.textContent = t('sh.copy'); }, 1600); };
+    const pick = () => { const r = document.createRange(); r.selectNodeContents($('#sh-addr')); const s = getSelection(); s.removeAllRanges(); s.addRange(r); };
+    try { navigator.clipboard.writeText(txt).then(done, pick); } catch (e) { pick(); }
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key !== 'Escape') return;
+    if (!$('#wa').hidden) closeWA(); else if (!$('#sheet').hidden) closeSheet();
+  });
+
+  /* ---------- homes slider and photo thumbnails ---------- */
+  const track = $('#track'), slides = $$('.prop', track), arrows = $$('.arrow');
+  let pi = 0;
+  function updateCount() {
+    $('#pidx').textContent = String(pi + 1).padStart(2, '0');
+    arrows[0].disabled = pi === 0; arrows[1].disabled = pi === slides.length - 1;
+  }
+  arrows.forEach(a => a.addEventListener('click', () => {
+    const i = Math.max(0, Math.min(slides.length - 1, pi + (+a.dataset.dir)));
+    track.scrollTo({ left: slides[i].offsetLeft - slides[0].offsetLeft });
+  }));
+  const so = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return;
+    const i = slides.indexOf(e.target);
+    if (i !== pi) { pi = i; updateCount(); animateIn($('.pi', e.target)); }
+  }), { root: track, threshold: 0.6 });
+  slides.forEach(s => so.observe(s));
+  slides.forEach(prop => {
+    const main = $('.pm-img', prop), cnt = $('.pm-c', prop), btns = $$('.pm-thumbs button', prop);
+    btns.forEach((b, i) => b.addEventListener('click', () => {
+      if (b.getAttribute('aria-pressed') === 'true') return;
+      btns.forEach(x => x.setAttribute('aria-pressed', x === b));
+      main.src = b.dataset.src; main.alt = b.getAttribute('aria-label'); cnt.textContent = i + 1;
+      if (!RM) main.animate([{ opacity: .25, transform: 'scale(1.04)' }, { opacity: 1, transform: 'none' }], { duration: 650, easing: 'cubic-bezier(.2,.7,.2,1)' });
+    }));
+  });
+  let preloaded = false;
+  function preload() { if (preloaded) return; preloaded = true; $$('.pm-thumbs button').forEach(b => { const im = new Image(); im.src = b.dataset.src; }); }
+
+  /* ---------- sections: active dot / menu and entrance animations ---------- */
+  const secs = $$('.slide');
+  function setActive(id) {
+    document.body.dataset.sec = id;
+    $$('.hd-nav a, .dots a').forEach(a => a.setAttribute('aria-current', a.getAttribute('href') === '#' + id));
+  }
+  const nav = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) setActive(e.target.id); }), { rootMargin: '-48% 0px -48% 0px' });
+  secs.forEach(s => nav.observe(s));
+  const seen = new WeakSet();
+  const ao = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting || seen.has(e.target)) return;
+    seen.add(e.target); animateIn(e.target);
+    if (e.target.id === 'alojamientos') preload();
+  }), { threshold: 0.04 });
+
+  $$('[data-legal]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); toast(t('legal.toast')); }));
+  let tt;
+  function toast(m) { const el = $('#toast'); el.textContent = m; el.hidden = false; clearTimeout(tt); tt = setTimeout(() => { el.hidden = true; }, 3400); }
+
+  applyLang(lang);
+  document.body.dataset.sec = 'nosotros';
+  const first = $('#nosotros');
+  if (first.getBoundingClientRect().top < innerHeight * 0.5) { seen.add(first); animateIn(first); }
+  secs.forEach(s => ao.observe(s));
+})();
 </script>
