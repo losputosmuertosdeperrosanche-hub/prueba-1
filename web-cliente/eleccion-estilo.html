@@ -1,0 +1,222 @@
+<title>Elección de estilo web</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&family=Libre+Baskerville:wght@400;700&family=Syne:wght@700;800&family=Nunito:wght@400;700;800&display=swap">
+<style>
+/* Layout: one narrow reading column; step 1 palettes grid, step 2 style mockups recolored live with the chosen palette, step 3 summary to copy. */
+:root{
+  --bg:#f6f7f9; --surface:#ffffff; --fg:#1b1f27; --muted:#5d6573; --line:#dde1e7; --ink:#1b1f27; --sel:#2563eb;
+  --f-display:"Space Grotesk",Inter,system-ui,sans-serif; --f-body:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+  /* palette chosen by the client (fed to the mockups) */
+  --p:#1F3A5F; --s:#3E7CB1; --a:#F2A541; --f:#F5F7FA; --t:#1A1F2B;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#12151b;--surface:#1b2029;--fg:#e8ebf0;--muted:#9aa3b2;--line:#2c333f;--sel:#6ea0ff;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12151b;--surface:#1b2029;--fg:#e8ebf0;--muted:#9aa3b2;--line:#2c333f;--sel:#6ea0ff;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.55}
+.wrap{max-width:1080px;margin:0 auto;padding-block:40px 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:56px}
+header h1{font-family:var(--f-display);font-size:clamp(28px,5vw,40px);line-height:1.1;margin:0 0 12px;text-wrap:balance}
+header p{color:var(--muted);max-width:62ch;margin:0}
+.step-label{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 6px}
+h2{font-family:var(--f-display);font-size:24px;margin:0 0 6px;text-wrap:balance}
+.lead{color:var(--muted);margin:0 0 20px;max-width:62ch}
+
+/* palettes */
+.palettes{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.pal{all:unset;cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:10px;transition:border-color .15s,box-shadow .15s}
+.pal:focus-visible,.sty:focus-visible{outline:3px solid var(--sel);outline-offset:2px}
+.pal[aria-pressed="true"],.sty[aria-pressed="true"]{border-color:var(--sel);box-shadow:0 0 0 2px var(--sel)}
+.sw{display:flex;height:64px;border-radius:8px;overflow:hidden}
+.sw span{flex:1}
+.sw span:first-child{flex:2}
+.pal b{font-size:15px}
+.pal small{color:var(--muted);font-size:13px;line-height:1.4}
+.hex{display:flex;flex-wrap:wrap;gap:4px 8px;font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;font-family:ui-monospace,Menlo,monospace}
+.hex i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:3px;vertical-align:-1px;border:1px solid rgba(0,0,0,.15)}
+
+/* styles */
+.styles{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
+@media (max-width:420px){.styles{grid-template-columns:1fr}}
+.sty{all:unset;cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.sty .meta{padding:12px 14px 14px;display:flex;flex-direction:column;gap:2px}
+.sty b{font-size:16px}
+.sty small{color:var(--muted);font-size:13px;line-height:1.4}
+.browser{border-bottom:1px solid var(--line)}
+.bar{display:flex;gap:5px;align-items:center;padding:7px 10px;background:#e9ecf0;border-bottom:1px solid #d6dae0}
+.bar i{width:8px;height:8px;border-radius:50%;background:#c3c8cf}
+.bar span{margin-left:8px;flex:1;height:12px;border-radius:6px;background:#fff}
+.mock{font-size:10px;line-height:1.35;height:230px;overflow:hidden;position:relative;color:var(--t);background:var(--f)}
+.ph{background:linear-gradient(135deg,var(--s),var(--p));position:relative;overflow:hidden}
+.ph::after{content:"";position:absolute;left:-10%;right:-10%;bottom:-30%;height:70%;background:radial-gradient(ellipse at 30% 0,rgba(255,255,255,.28),transparent 60%)}
+.ph em{position:absolute;left:8px;bottom:6px;font-style:normal;font-size:8px;color:rgba(255,255,255,.85);z-index:1;letter-spacing:.04em}
+
+/* 1 Moderno */
+.m1{background:var(--t);color:#fff;font-family:"Space Grotesk",sans-serif}
+.m1 nav{display:flex;justify-content:space-between;padding:12px 16px;font-size:9px;opacity:.85}
+.m1 .hero{display:grid;grid-template-columns:1.2fr 1fr;gap:12px;padding:6px 16px}
+.m1 h3{font-size:22px;line-height:1.02;margin:0 0 8px;font-weight:700}
+.m1 h3 span{color:var(--a)}
+.m1 .btn{display:inline-block;background:var(--a);color:var(--t);padding:5px 12px;border-radius:99px;font-weight:700}
+.m1 .ph{height:110px;border-radius:18px 18px 18px 60px}
+.m1 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:14px 16px}
+.m1 .cards div{background:rgba(255,255,255,.07);border-radius:10px;height:46px;border:1px solid rgba(255,255,255,.1)}
+/* 2 Serio */
+.m2{background:#fff;font-family:"Libre Baskerville",Georgia,serif;border-top:5px solid var(--p)}
+.m2 nav{display:flex;justify-content:space-between;align-items:center;padding:10px 16px;border-bottom:1px solid #e3e3e3;font-family:Inter,sans-serif;font-size:8.5px;color:#555}
+.m2 nav b{font-family:"Libre Baskerville",serif;color:var(--p);font-size:11px}
+.m2 .hero{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:16px}
+.m2 h3{font-size:16px;line-height:1.25;margin:0 0 6px;color:var(--p);font-weight:700}
+.m2 p{margin:0 0 8px;font-family:Inter,sans-serif;color:#555;font-size:8.5px}
+.m2 .btn{display:inline-block;border:1px solid var(--p);color:var(--p);padding:4px 10px;font-family:Inter,sans-serif;font-size:8.5px}
+.m2 .ph{height:96px}
+.m2 .stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #e3e3e3;margin:0 16px}
+.m2 .stats div{padding:8px 0;border-right:1px solid #e3e3e3;text-align:center;font-family:Inter,sans-serif;font-size:8px;color:#666}
+.m2 .stats div:last-child{border-right:0}
+.m2 .stats strong{display:block;font-family:"Libre Baskerville",serif;font-size:14px;color:var(--p)}
+/* 3 Normal */
+.m3{font-family:Inter,sans-serif;background:#fff}
+.m3 nav{display:flex;justify-content:space-between;align-items:center;padding:8px 14px;background:var(--p);color:#fff;font-size:8.5px}
+.m3 nav b{font-size:11px}
+.m3 .hero{height:108px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#fff}
+.m3 .hero h3{position:relative;z-index:1;font-size:16px;margin:0 0 6px}
+.m3 .hero .btn{position:relative;z-index:1;background:var(--a);color:var(--t);padding:4px 12px;border-radius:4px;font-weight:600}
+.m3 .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:12px 14px;text-align:center}
+.m3 .cols i{display:block;width:22px;height:22px;border-radius:50%;background:var(--s);margin:0 auto 5px;opacity:.9}
+.m3 .cols span{display:block;height:4px;background:#e6e8eb;border-radius:2px;margin:3px 6px}
+/* 4 Minimalista */
+.m4{background:#fff;font-family:Inter,sans-serif;padding:14px 18px}
+.m4 nav{display:flex;justify-content:space-between;font-size:8px;color:#888;letter-spacing:.06em}
+.m4 h3{font-weight:300;font-size:24px;line-height:1.08;margin:26px 0 10px;letter-spacing:-.02em;color:var(--t)}
+.m4 h3::after{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--a);margin-left:4px}
+.m4 p{color:#888;font-size:8.5px;margin:0 0 16px}
+.m4 .ph{height:70px}
+/* 5 Creativo */
+.m5{background:var(--p);color:#fff;font-family:Syne,sans-serif;padding:12px 16px}
+.m5 nav{display:flex;justify-content:space-between;font-size:9px;font-weight:700}
+.m5 h3{font-size:30px;line-height:.92;margin:18px 0 0;font-weight:800;text-transform:uppercase;position:relative;z-index:2}
+.m5 h3 span{color:var(--a)}
+.m5 .blob{position:absolute;right:-20px;top:40px;width:150px;height:150px;border-radius:44% 56% 62% 38%/45% 40% 60% 55%;background:var(--s);z-index:1}
+.m5 .sticker{position:absolute;right:26px;bottom:26px;z-index:3;background:var(--a);color:var(--t);font-weight:800;padding:10px 8px;border-radius:50%;width:58px;height:58px;display:grid;place-items:center;text-align:center;transform:rotate(-14deg);font-size:8px;line-height:1.05}
+.m5 .line{position:absolute;left:16px;bottom:20px;width:120px;height:3px;background:#fff;z-index:2}
+/* 6 Cercano */
+.m6{background:var(--f);font-family:Nunito,sans-serif;padding:12px 16px}
+.m6 nav{display:flex;justify-content:space-between;align-items:center;font-size:9px}
+.m6 nav b{color:var(--p);font-size:12px;font-weight:800}
+.m6 nav span{background:var(--p);color:#fff;padding:3px 9px;border-radius:99px}
+.m6 .hero{display:grid;grid-template-columns:1.1fr 1fr;gap:10px;align-items:center;margin-top:10px}
+.m6 h3{font-size:17px;line-height:1.15;margin:0 0 6px;font-weight:800;color:var(--t)}
+.m6 p{margin:0 0 8px;font-size:8.5px;opacity:.75}
+.m6 .btn{display:inline-block;background:var(--a);color:var(--t);padding:5px 12px;border-radius:12px;font-weight:800}
+.m6 .ph{height:100px;border-radius:50%}
+.m6 .team{display:flex;gap:6px;margin-top:12px;align-items:center;font-size:8.5px;font-weight:700}
+.m6 .team i{width:24px;height:24px;border-radius:50%;background:var(--s);border:2px solid #fff;margin-right:-12px}
+.m6 .team i:nth-child(2){background:var(--p)}.m6 .team i:nth-child(3){background:var(--a)}
+.m6 .team em{font-style:normal;margin-left:16px}
+
+/* questions + summary */
+.qs{display:grid;gap:16px;max-width:680px}
+.qs label{display:flex;flex-direction:column;gap:6px;font-weight:600;font-size:14px}
+.qs label span{font-weight:400;color:var(--muted);font-size:13px}
+input,textarea{font:inherit;font-size:15px;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px;width:100%}
+textarea{min-height:76px;resize:vertical}
+input:focus-visible,textarea:focus-visible,button:focus-visible{outline:3px solid var(--sel);outline-offset:1px}
+.summary{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:12px;max-width:680px}
+.summary pre{margin:0;white-space:pre-wrap;font-family:var(--f-body);font-size:14px;color:var(--fg);user-select:all}
+.copy{align-self:flex-start;font:inherit;font-weight:600;background:var(--fg);color:var(--bg);border:0;border-radius:8px;padding:10px 18px;cursor:pointer}
+.ok{color:var(--muted);font-size:13px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="step-label">Antes de diseñar su web</p>
+    <h1>Elija los colores y el estilo de su nueva web</h1>
+    <p>Son tres pasos cortos. Marque la paleta de colores y el estilo que más le gusten. Al tocar una paleta, los ejemplos del paso 2 cambian a esos colores para que vea cómo quedaría. Al final copie el resumen y envíenoslo.</p>
+  </header>
+
+  <section>
+    <p class="step-label">Paso 1 de 3</p>
+    <h2>Paleta de colores</h2>
+    <p class="lead">Cada paleta tiene un color principal, uno secundario, uno para destacar botones y avisos, el fondo y el color del texto.</p>
+    <div class="palettes" id="palettes"></div>
+  </section>
+
+  <section>
+    <p class="step-label">Paso 2 de 3</p>
+    <h2>Estilo de la web</h2>
+    <p class="lead">Son bocetos de la página de inicio. Las fotos se cambiarán por las de su oficina, sus trabajos y su equipo.</p>
+    <div class="styles" id="styles"></div>
+  </section>
+
+  <section>
+    <p class="step-label">Paso 3 de 3</p>
+    <h2>Unos detalles más</h2>
+    <p class="lead">Opcional, pero nos ayuda mucho.</p>
+    <div class="qs">
+      <label for="q-web">¿Hay alguna web que le guste?<span>Puede ser de la competencia o de cualquier sector. Pegue el enlace.</span><input id="q-web" type="text" placeholder="www.ejemplo.com"></label>
+      <label for="q-logo">¿Tiene logotipo o colores de marca ya definidos?<span>Si los tiene, usaremos esos colores aunque haya elegido otra paleta.</span><input id="q-logo" type="text" placeholder="Sí, el logo es azul y blanco"></label>
+      <label for="q-notas">¿Algo que quiera o no quiera en la web?<textarea id="q-notas" placeholder="Que se vea el equipo, nada de colores chillones…"></textarea></label>
+    </div>
+  </section>
+
+  <section>
+    <h2>Su elección</h2>
+    <p class="lead">Copie este texto y envíelo por WhatsApp o correo.</p>
+    <div class="summary">
+      <pre id="sum"></pre>
+      <button class="copy" id="copy" type="button">Copiar resumen</button>
+      <span class="ok" id="ok" aria-live="polite"></span>
+    </div>
+  </section>
+</div>
+
+<script>
+const PALETTES=[
+ {id:"azul",name:"Azul confianza",desc:"Serio y profesional. Transmite seguridad.",c:["#1F3A5F","#3E7CB1","#F2A541","#F5F7FA","#1A1F2B"]},
+ {id:"marino",name:"Marino y coral",desc:"Profesional pero con un punto alegre.",c:["#14213D","#2F5C8F","#FF6B6B","#F8F9FB","#0E1525"]},
+ {id:"negro",name:"Negro y dorado",desc:"Elegante, de alta gama.",c:["#151515","#3A3A3A","#C9A227","#F7F5F0","#111111"]},
+ {id:"gris",name:"Gris y rojo",desc:"Corporativo, con fuerza.",c:["#2D3436","#636E72","#D63031","#F5F6F7","#1E2224"]},
+ {id:"verde",name:"Verde natural",desc:"Tranquilo y cercano.",c:["#2F5D50","#6E9C80","#E0B44C","#F4F6F1","#1C2420"]},
+ {id:"turquesa",name:"Turquesa fresco",desc:"Moderno, limpio y luminoso.",c:["#0B6E69","#19A898","#FFB400","#F2FAF9","#10302E"]},
+ {id:"morado",name:"Morado creativo",desc:"Atrevido, para destacar.",c:["#4B2275","#8A45C4","#FF8A5B","#FAF7FC","#1E1328"]},
+ {id:"teja",name:"Teja y azul",desc:"Cálido, familiar.",c:["#A6472F","#2E4A62","#E9B44C","#FBF7F3","#2A1E1A"]}
+];
+const ROLES=["Principal","Secundario","Destacar","Fondo","Texto"];
+const STYLES=[
+ {id:"moderno",name:"Moderno",desc:"Fondo oscuro, letras grandes, formas redondeadas.",html:`<div class="mock m1"><nav><b>SU AGENCIA</b><span>Servicios · Trabajos · Equipo · Contacto</span></nav><div class="hero"><div><h3>Hacemos que su proyecto <span>avance</span></h3><span class="btn">Hablemos →</span></div><div class="ph"><em>FOTO OFICINA</em></div></div><div class="cards"><div></div><div></div><div></div></div></div>`},
+ {id:"serio",name:"Serio / corporativo",desc:"Blanco, letra clásica, cifras y datos. Da confianza.",html:`<div class="mock m2"><nav><b>Su Agencia</b><span>Inicio · Servicios · Nosotros · Contacto</span></nav><div class="hero"><div><h3>Experiencia y rigor al servicio de su empresa</h3><p>Más de 15 años acompañando a nuestros clientes.</p><span class="btn">Solicitar información</span></div><div class="ph"><em>FOTO EQUIPO</em></div></div><div class="stats"><div><strong>15</strong>años</div><div><strong>300+</strong>clientes</div><div><strong>98%</strong>satisfechos</div></div></div>`},
+ {id:"normal",name:"Normal / clásico",desc:"El formato de siempre: foto grande, título y tres servicios.",html:`<div class="mock m3"><nav><b>Su Agencia</b><span>Inicio · Servicios · Trabajos · Contacto</span></nav><div class="hero ph"><h3>Su agencia de confianza</h3><span class="btn">Contactar</span></div><div class="cols"><div><i></i><span></span><span></span></div><div><i></i><span></span><span></span></div><div><i></i><span></span><span></span></div></div></div>`},
+ {id:"minimal",name:"Minimalista",desc:"Mucho espacio en blanco, poco texto, muy limpio.",html:`<div class="mock m4"><nav><span>SU AGENCIA</span><span>MENÚ</span></nav><h3>Menos ruido.<br>Mejores resultados</h3><p>Agencia · Desde 2010</p><div class="ph"><em>TRABAJO DESTACADO</em></div></div>`},
+ {id:"creativo",name:"Creativo / atrevido",desc:"Colores fuertes, formas libres. Llama la atención.",html:`<div class="mock m5"><nav><span>SU AGENCIA</span><span>MENÚ ☰</span></nav><h3>Ideas<br>que <span>se</span><br>notan</h3><div class="blob"></div><div class="sticker">VER<br>TRABAJOS</div><div class="line"></div></div>`},
+ {id:"cercano",name:"Cercano / familiar",desc:"Formas suaves, el equipo bien visible, trato cercano.",html:`<div class="mock m6"><nav><b>Su Agencia</b><span>Llámenos</span></nav><div class="hero"><div><h3>Un equipo cerca de usted</h3><p>Le atendemos en persona, sin complicaciones.</p><span class="btn">Conózcanos</span></div><div class="ph"><em>FOTO EQUIPO</em></div></div><div class="team"><i></i><i></i><i></i><em>Ana, Luis y Marta le esperan</em></div></div>`}
+];
+let st={pal:null,sty:null};
+try{const s=JSON.parse(localStorage.getItem("eleccion")||"null");if(s)st=s}catch(e){}
+const $=id=>document.getElementById(id);
+function applyPal(p){const r=document.documentElement.style;["--p","--s","--a","--f","--t"].forEach((v,i)=>r.setProperty(v,p.c[i]))}
+$("palettes").innerHTML=PALETTES.map(p=>`<button class="pal" type="button" data-id="${p.id}" aria-pressed="false"><div class="sw">${p.c.map(c=>`<span style="background:${c}"></span>`).join("")}</div><b>${p.name}</b><small>${p.desc}</small><div class="hex">${p.c.map((c,i)=>`<span><i style="background:${c}"></i>${ROLES[i]} ${c}</span>`).join("")}</div></button>`).join("");
+$("styles").innerHTML=STYLES.map(s=>`<button class="sty" type="button" data-id="${s.id}" aria-pressed="false"><div class="browser" aria-hidden="true"><div class="bar"><i></i><i></i><i></i><span></span></div>${s.html}</div><div class="meta"><b>${s.name}</b><small>${s.desc}</small></div></button>`).join("");
+function render(){
+  document.querySelectorAll(".pal").forEach(b=>b.setAttribute("aria-pressed",b.dataset.id===st.pal));
+  document.querySelectorAll(".sty").forEach(b=>b.setAttribute("aria-pressed",b.dataset.id===st.sty));
+  const p=PALETTES.find(x=>x.id===st.pal), s=STYLES.find(x=>x.id===st.sty);
+  if(p)applyPal(p);
+  const v=id=>$(id).value.trim();
+  $("sum").textContent=
+`Paleta de colores: ${p?p.name+" ("+p.c.join(", ")+")":"sin elegir"}
+Estilo de web: ${s?s.name:"sin elegir"}
+Web que nos gusta: ${v("q-web")||"-"}
+Logo / colores de marca: ${v("q-logo")||"-"}
+Otros comentarios: ${v("q-notas")||"-"}`;
+  try{localStorage.setItem("eleccion",JSON.stringify(st))}catch(e){}
+}
+$("palettes").addEventListener("click",e=>{const b=e.target.closest(".pal");if(b){st.pal=b.dataset.id;render()}});
+$("styles").addEventListener("click",e=>{const b=e.target.closest(".sty");if(b){st.sty=b.dataset.id;render()}});
+["q-web","q-logo","q-notas"].forEach(id=>$(id).addEventListener("input",render));
+$("copy").addEventListener("click",()=>{
+  const t=$("sum").textContent;
+  navigator.clipboard.writeText(t).then(()=>{$("ok").textContent="Copiado. Ya puede pegarlo en su mensaje."},()=>{
+    const r=document.createRange();r.selectNodeContents($("sum"));const s=getSelection();s.removeAllRanges();s.addRange(r);
+    $("ok").textContent="Texto seleccionado. Cópielo con el menú del teléfono.";});
+});
+render();
+</script>
