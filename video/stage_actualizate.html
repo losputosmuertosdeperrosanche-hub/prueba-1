@@ -68,6 +68,12 @@ html,body{margin:0;width:360px;height:640px;overflow:hidden;background:var(--ink
   <div class="e body" style="top:392px" data-d="0.8" data-k="s4b"></div>
 </div>
 
+<div class="sc" id="s8">
+  <div class="e disp shadow" style="top:166px;font-size:42px" data-d="0.05" data-k="s8a"></div>
+  <div class="e" style="top:300px" data-d="0.6"><span class="pill" data-k="s8b"></span></div>
+  <div class="e body" style="top:382px" data-d="1.0" data-k="s8c"></div>
+</div>
+
 <div class="sc" id="s5">
   <div class="e mono" style="top:166px" data-d="0.05" data-k="s5a"></div>
   <div class="e disp acc shadow" id="price" style="top:196px;font-size:140px" data-d="0.15">0 €</div>
@@ -83,12 +89,6 @@ html,body{margin:0;width:360px;height:640px;overflow:hidden;background:var(--ink
   <div class="e mono" style="top:166px" data-d="0.05" data-k="s7a"></div>
   <div class="e disp shadow" style="top:192px;font-size:40px" data-d="0.2" data-k="s7b"></div>
   <div class="e disp acc shadow" style="top:372px;font-size:40px" data-d="1.1" data-k="s7c"></div>
-</div>
-
-<div class="sc" id="s8">
-  <div class="e disp shadow" style="top:166px;font-size:42px" data-d="0.05" data-k="s8a"></div>
-  <div class="e" style="top:300px" data-d="0.6"><span class="pill" data-k="s8b"></span></div>
-  <div class="e body" style="top:382px" data-d="1.0" data-k="s8c"></div>
 </div>
 
 <div class="sc" id="s9">
@@ -177,10 +177,10 @@ const TXT = {
     s2a:'KI-Agentur', s2b:'Mit KI.', s2c:'Wir arbeiten mit künstlicher Intelligenz.', s2d:'Dauer: Minuten',
     s3u:'Minuten', s3c:'in etwa, bis zur fertigen Website',
     s4a:'Menschliche Prüfung', s4b:'Jede Website wird vor der Abgabe geprüft.',
-    s5a:'Für dein Unternehmen', s5b:'zzgl. MwSt.',
+    s5a:'Danach, für dein Unternehmen', s5b:'zzgl. MwSt.',
     s6a:'Am selben Tag', s6b:'Erst danach bezahlst du.',
     s7a:'Unsere Arbeiten', s7b:'Frag nach unseren anderen Projekten.', s7c:'Überzeug dich selbst.',
-    s8a:'Teste uns mit einer Demo.', s8b:'Jetzt testen', s8c:'Gefällt sie dir, machen wir weiter. Du verlierst nichts.',
+    s8a:'Erst eine Demo. Gratis.', s8b:'Jetzt testen', s8c:'Gefällt sie dir, machen wir die Website. Du verlierst nichts.',
     s9a:'Für viele: Stunden.', s9b:'Für uns: Denken und Optimieren.',
     e1a:'Verlorene Zeit', e1b:'Bestellungen abtippen?', e1c:'Ein Formular trägt sie automatisch ein.',
     e2a:'Verlorene Zeit', e2b:'Immer dieselben Fragen?', e2c:'Die Antworten laufen automatisch.',
@@ -198,14 +198,14 @@ const TXT = {
     s2a:'Agenție IA', s2b:'Cu IA.', s2c:'Lucrăm cu inteligență artificială.', s2d:'Durată: minute',
     s3u:'Minute', s3c:'aproximativ, până la site-ul gata',
     s4a:'Verificare umană', s4b:'Fiecare site este verificat înainte de predare.',
-    s5a:'Pentru firma ta', s5b:'+ TVA',
+    s5a:'Apoi, pentru firma ta', s5b:'+ TVA',
     s6a:'În aceeași zi', s6b:'Abia apoi plătești.',
     s7a:'Lucrări', s7b:'Vezi alte lucrări ale noastre.', s7c:'Judecă singur.',
-    s8a:'Testează-ne cu<br>o demonstrație.', s8b:'Testează acum', s8c:'Dacă îți place, continuăm. Nu pierzi nimic.',
+    s8a:'Mai întâi, o demonstrație gratuită.', s8b:'Testează acum', s8c:'Dacă îți place, continuăm. Nu pierzi nimic.',
     s9a:'Pentru mulți: ore pierdute.', s9b:'Pentru noi: a gândi și a optimiza.',
     e1a:'Ore pierdute', e1b:'Comenzi copiate manual?', e1c:'Un formular le completează singur.',
     e2a:'Ore pierdute', e2b:'Aceleași întrebări?', e2c:'Răspunsurile vin automat.',
-    e3a:'Ore pierdute', e3b:'Facturi și memento-uri de mână?', e3c:'Se trimit singure.',
+    e3a:'Ore pierdute', e3b:'Facturi și memento-uri manuale?', e3c:'Se trimit singure.',
     g1a:'Analiză', g1b:'Gratuit.', g1c:'Doar numele firmei. Fără șablon standard.',
     g2a:'Pe e-mail', g2b:'Un diagnostic complet.', g2c:'Cu puncte slabe, șanse și pierderi pe care nu le observi.',
     g3a:'Colaborare', g3b:'IA + om: combinația perfectă.', g3c:'Nu suntem ghicitori. Tu decizi dacă e corect.',
@@ -269,9 +269,9 @@ function frame(t){
     }
   }
   $('num').textContent = Math.round(10 * eOut(seg(t - T[3], .2, 1.4)));
-  $('price').textContent = Math.round(100 * eOut(seg(t - T[5], .1, .9))) + ' €';
+  $('price').textContent = Math.round(100 * eOut(seg(t - T[6], .1, .9))) + ' €';
   $('chkp').style.strokeDashoffset = (100 * (1 - eOut(seg(t - T[4], .3, 1.1)))).toFixed(2);
-  const sp = eOut(seg(t - T[6], .1, .45)), st = $('stamp');
+  const sp = eOut(seg(t - T[7], .1, .45)), st = $('stamp');
   st.style.opacity = sp;
   st.style.transform = `rotate(-6deg) scale(${(1 + .5 * (1 - sp)).toFixed(3)})`;
 }
