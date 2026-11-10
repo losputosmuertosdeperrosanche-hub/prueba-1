@@ -12,7 +12,7 @@
   --wa:#0E7A41; --wa-d:#0B6435;
   --serif:"Inria Serif",Georgia,"Times New Roman",serif;
   --sans:"Space Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  --hh:64px;
+  --hh:64px; --ob:32px;
   --gl:max(16px,env(safe-area-inset-left,0px)); --gr:max(16px,env(safe-area-inset-right,0px));
   --ease:cubic-bezier(.2,.7,.2,1);
   color-scheme:light;
@@ -53,6 +53,13 @@ svg{flex:none}
 .hd-wa{width:38px;height:38px;border-radius:50%;background:var(--wa);color:#fff;display:grid;place-items:center;transition:background .2s,transform .2s}
 .hd-wa:hover{background:var(--wa-d);transform:translateY(-1px)}
 .hd-wa svg{width:20px;height:20px}
+.offer{height:var(--ob);background:var(--tinta);color:var(--crema);font-size:12.5px;display:flex;align-items:center}
+.offer-in{width:100%;max-width:1220px;margin:0 auto;padding-left:var(--gl);padding-right:var(--gr);display:flex;align-items:center;justify-content:center;gap:10px;white-space:nowrap;overflow:hidden}
+.offer-k{flex:none;background:var(--oro);color:var(--tinta);font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:10px;padding:3px 7px;border-radius:3px}
+.offer-t{overflow:hidden;text-overflow:ellipsis;min-width:0}
+.offer .sh{display:none}
+.offer-c{flex:none;font-variant-numeric:tabular-nums;font-weight:600;color:var(--oro)}
+@media (max-width:700px){.offer{font-size:12px}.offer-in{gap:8px}.offer .lg,.offer .q,.offer .mn{display:none}.offer .sh{display:inline}}
 @media (max-width:900px){.hd-nav{display:none}}
 @media (max-width:380px){.logo b{font-size:21px}.demo-tag{display:none}}
 
@@ -69,7 +76,7 @@ body[data-sec="equipo"] .dots a[aria-current="true"] i{background:var(--oro)}
 @media (max-width:700px){.dots{right:calc(3px + env(safe-area-inset-right,0px));gap:6px}.dots span{display:none}.dots i{width:5px;height:5px}.dots a[aria-current="true"] i{height:16px}}
 
 /* ---------- full-screen sections ---------- */
-.slide{position:relative;min-height:100vh;min-height:100svh;scroll-snap-align:start;scroll-snap-stop:always;padding-top:var(--hh);display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.slide{position:relative;min-height:100vh;min-height:100svh;scroll-snap-align:start;scroll-snap-stop:always;padding-top:calc(var(--hh) + var(--ob));display:flex;flex-direction:column;justify-content:center;overflow:hidden}
 
 /* 1 · about + CEO */
 .s1{background:var(--crema)}
@@ -100,7 +107,7 @@ body[data-sec="equipo"] .dots a[aria-current="true"] i{background:var(--oro)}
 .cue i{display:block;width:1px;height:30px;background:var(--teja);transform-origin:top;animation:cue 1.9s var(--ease) infinite}
 @keyframes cue{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}55%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
 @media (max-width:700px){
-  .s1::after{width:44%;bottom:auto;height:calc(var(--hh) + 172px)}
+  .s1::after{width:44%;bottom:auto;height:calc(var(--hh) + var(--ob) + 172px)}
   .s1-grid{grid-template-columns:minmax(0,1fr) 38%;grid-template-areas:"eb ph" "h1 ph" "sign ph" "lead lead" "story story" "trust trust";column-gap:14px;padding-block:16px 26px;align-items:start}
   .s1 .eb{font-size:10.5px;letter-spacing:.13em}
   .s1 h1{font-size:clamp(33px,9.6vw,42px);margin-top:0}
@@ -156,6 +163,7 @@ body[data-sec="equipo"] .dots a[aria-current="true"] i{background:var(--oro)}
   .arrow{display:none}
   .track{gap:12px}
   .prop{flex-basis:calc(100% - 30px)}
+  .pm-main{height:clamp(160px,26svh,300px)}
   .pm-thumbs{margin-top:8px;gap:6px}
   .pm-thumbs button{width:60px;height:44px}
   .pi .tag{font-size:11px;margin-bottom:6px}
@@ -282,6 +290,13 @@ body[data-sec="equipo"] .dots a[aria-current="true"] i{background:var(--oro)}
 </svg>
 
 <header class="hd">
+  <div class="offer" role="note" aria-label="Oferta para OnePlace Network">
+    <div class="offer-in">
+      <span class="offer-k">Oferta</span>
+      <span class="offer-t"><span class="lg" id="offer-lg">Solo hasta el jueves 12 de noviembre · Después, el precio será de 300 €</span><span class="sh" id="offer-sh">Hasta el jueves 12 · Después, 300 €</span></span>
+      <span class="offer-c" id="offer-c"></span>
+    </div>
+  </div>
   <div class="hd-in">
     <a class="logo" href="#nosotros" aria-label="OnePlace Network"><b>OnePlace</b><span>NETWORK</span></a>
     <nav class="hd-nav" aria-label="Apartados">
@@ -847,6 +862,22 @@ body[data-sec="equipo"] .dots a[aria-current="true"] i{background:var(--oro)}
   $$('[data-legal]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); toast(t('legal.toast')); }));
   let tt;
   function toast(m) { const el = $('#toast'); el.textContent = m; el.hidden = false; clearTimeout(tt); tt = setTimeout(() => { el.hidden = true; }, 3400); }
+
+  /* ---------- offer countdown: a note for the client, not part of their site ---------- */
+  const OFFER_END = new Date('2026-11-12T23:59:59+01:00').getTime();
+  function tickOffer() {
+    const ms = OFFER_END - Date.now(), c = $('#offer-c');
+    if (ms <= 0) {
+      $('#offer-lg').textContent = 'La oferta ha terminado · Precio: 300 €';
+      $('#offer-sh').textContent = 'Oferta terminada · 300 €';
+      c.hidden = true; return false;
+    }
+    const d = Math.floor(ms / 864e5), h = Math.floor(ms % 864e5 / 36e5), m = Math.floor(ms % 36e5 / 6e4);
+    const p = n => String(n).padStart(2, '0');
+    c.innerHTML = '<span class="q">Quedan </span>' + d + ' d ' + p(h) + ' h<span class="mn"> ' + p(m) + ' min</span>';
+    return true;
+  }
+  if (tickOffer()) { const iv = setInterval(() => { if (!tickOffer()) clearInterval(iv); }, 20000); }
 
   applyLang(lang);
   document.body.dataset.sec = 'nosotros';
