@@ -23,8 +23,6 @@ html,body{margin:0;width:360px;height:640px;overflow:hidden;background:var(--ink
 .track{position:absolute;left:28px;right:28px;height:12px;border-radius:6px;background:rgb(255 255 255 / .09);overflow:hidden}
 .fill{position:absolute;left:0;top:0;bottom:0;width:0;border-radius:6px}
 .pill{display:inline-block;background:var(--acc);color:#06140d;font-family:"Archivo",sans-serif;font-weight:800;font-stretch:76%;font-size:24px;text-transform:uppercase;padding:12px 22px;border-radius:14px}
-.li{display:flex;align-items:center;gap:12px;font-size:24px;font-weight:600}
-.li svg{flex:none;width:26px;height:26px}
 .stamp{position:absolute;left:28px;border:4px solid var(--acc);border-radius:14px;padding:14px 18px;opacity:0;transform-origin:50% 50%}
 #prog{position:absolute;left:0;bottom:0;height:3px;width:0;background:var(--acc)}
 </style></head>
@@ -94,28 +92,53 @@ html,body{margin:0;width:360px;height:640px;overflow:hidden;background:var(--ink
 </div>
 
 <div class="sc" id="s9">
-  <div class="e disp shadow" style="top:166px;font-size:44px" data-d="0.05" data-k="s9a"></div>
-  <div class="e li" style="top:292px" data-d="0.8"><svg viewBox="0 0 24 24"><path d="M5 12.5 L10 17 L19 7" fill="none" stroke="#5ee6a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-k="s9b"></span></div>
-  <div class="e li" style="top:346px" data-d="1.6"><svg viewBox="0 0 24 24"><path d="M5 12.5 L10 17 L19 7" fill="none" stroke="#5ee6a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-k="s9c"></span></div>
+  <div class="e" style="top:190px" data-d="0.05">
+    <div class="disp mut shadow" style="font-size:36px" data-k="s9a"></div>
+    <div class="disp acc shadow" style="font-size:40px;margin-top:22px" data-k="s9b"></div>
+  </div>
 </div>
 
 <div class="sc" id="s10">
-  <div class="e mono" style="top:166px" data-d="0.05" data-k="s10a"></div>
-  <div class="e disp acc shadow" style="top:194px;font-size:72px" data-d="0.25" data-k="s10b"></div>
-  <div class="e body" style="top:300px" data-d="0.8" data-k="s10c"></div>
+  <div class="e mono mut" style="top:166px" data-d="0.05" data-k="e1a"></div>
+  <div class="e" style="top:194px" data-d="0.2">
+    <div class="disp shadow" style="font-size:46px" data-k="e1b"></div>
+    <div class="body acc" style="font-size:26px;font-weight:600;margin-top:20px" data-k="e1c"></div>
+  </div>
 </div>
 
 <div class="sc" id="s11">
-  <div class="e mono" style="top:166px" data-d="0.05" data-k="s11a"></div>
-  <div class="e disp acc shadow" style="top:194px;font-size:66px" data-d="0.25" data-k="s11b"></div>
-  <div class="e mono mut" style="top:300px" data-d="0.8" data-k="s11c"></div>
+  <div class="e mono mut" style="top:166px" data-d="0.05" data-k="e2a"></div>
+  <div class="e" style="top:194px" data-d="0.2">
+    <div class="disp shadow" style="font-size:46px" data-k="e2b"></div>
+    <div class="body acc" style="font-size:26px;font-weight:600;margin-top:20px" data-k="e2c"></div>
+  </div>
 </div>
 
 <div class="sc" id="s12">
+  <div class="e mono mut" style="top:166px" data-d="0.05" data-k="e3a"></div>
+  <div class="e" style="top:194px" data-d="0.2">
+    <div class="disp shadow" style="font-size:46px" data-k="e3b"></div>
+    <div class="body acc" style="font-size:26px;font-weight:600;margin-top:20px" data-k="e3c"></div>
+  </div>
+</div>
+
+<div class="sc" id="s13">
+  <div class="e mono" style="top:166px" data-d="0.05" data-k="s13a"></div>
+  <div class="e disp acc shadow" style="top:194px;font-size:72px" data-d="0.25" data-k="s13b"></div>
+  <div class="e body" style="top:300px" data-d="0.8" data-k="s13c"></div>
+</div>
+
+<div class="sc" id="s14">
+  <div class="e mono" style="top:166px" data-d="0.05" data-k="s14a"></div>
+  <div class="e disp acc shadow" style="top:194px;font-size:66px" data-d="0.25" data-k="s14b"></div>
+  <div class="e mono mut" style="top:300px" data-d="0.8" data-k="s14c"></div>
+</div>
+
+<div class="sc" id="s15">
   <div class="e disp shadow" style="top:168px;font-size:54px;text-transform:none" data-d="0.05">actualizate<span class="acc">IA</span></div>
-  <div class="e mono" style="top:248px;font-size:13px;letter-spacing:.02em;text-transform:none;color:var(--white)" data-d="0.4">actualizate-inte.vercel.app</div>
-  <div class="e disp shadow" style="top:300px;font-size:32px" data-d="0.7" data-k="s12c"></div>
-  <div class="e" style="top:372px" data-d="1.0"><span class="pill" data-k="s12d"></span></div>
+  <div class="e mono" style="top:248px;font-size:13px;letter-spacing:.02em;text-transform:none;color:var(--white)" data-d="0.4">actualizateia.com</div>
+  <div class="e disp shadow" style="top:300px;font-size:32px" data-d="0.7" data-k="s15c"></div>
+  <div class="e" style="top:372px" data-d="1.0"><span class="pill" data-k="s15d"></span></div>
 </div>
 
 <div id="prog"></div>
@@ -134,10 +157,13 @@ const TXT = {
     s6a:'Am selben Tag', s6b:'Erst danach bezahlst du.',
     s7a:'Unsere Arbeiten', s7b:'Frag nach unseren anderen Projekten.', s7c:'Überzeug dich selbst.',
     s8a:'Teste uns mit einer Demo.', s8b:'Jetzt testen', s8c:'Gefällt sie dir, machen wir weiter. Du verlierst nichts.',
-    s9a:'KI heißt Zeit sparen.', s9b:'Automatisierung', s9c:'Optimierte Firmen',
-    s10a:'Weitere Dienste', s10b:'Günstig.', s10c:'Dank KI.',
-    s11a:'Für Programmierer', s11b:'Weckruf.', s11c:'Update 2026',
-    s12c:'Willst du eine Website?', s12d:'Schreib uns'
+    s9a:'Für viele: Stunden.', s9b:'Für uns: Denken und Optimieren.',
+    e1a:'Verlorene Zeit', e1b:'Bestellungen abtippen?', e1c:'Ein Formular trägt sie automatisch ein.',
+    e2a:'Verlorene Zeit', e2b:'Immer dieselben Fragen?', e2c:'Die Antworten laufen automatisch.',
+    e3a:'Verlorene Zeit', e3b:'Rechnungen von Hand?', e3c:'Vorlagen versenden sich selbst.',
+    s13a:'Weitere Dienste', s13b:'Günstig.', s13c:'Dank KI.',
+    s14a:'Für Programmierer', s14b:'Weckruf.', s14c:'Update 2026',
+    s15c:'Willst du eine Website?', s15d:'Schreib uns'
   },
   ro: {
     s0a:'Comparație', s0b:'Web designer', s0c:'sau', s0d:'Agenție IA?',
@@ -149,10 +175,13 @@ const TXT = {
     s6a:'În aceeași zi', s6b:'Abia apoi plătești.',
     s7a:'Lucrări', s7b:'Vezi alte lucrări ale noastre.', s7c:'Judecă singur.',
     s8a:'Testează-ne cu<br>o demonstrație.', s8b:'Testează acum', s8c:'Dacă îți place, continuăm. Nu pierzi nimic.',
-    s9a:'IA înseamnă timp câștigat.', s9b:'Automatizări', s9c:'Firme optimizate',
-    s10a:'Alte servicii', s10b:'Ieftine.', s10c:'Datorită IA.',
-    s11a:'Pentru programatori', s11b:'Trezire.', s11c:'Actualizare 2026',
-    s12c:'Vrei un site web?', s12d:'Scrie-ne'
+    s9a:'Pentru mulți: ore pierdute.', s9b:'Pentru noi: a gândi și a optimiza.',
+    e1a:'Ore pierdute', e1b:'Comenzi copiate manual?', e1c:'Un formular le completează singur.',
+    e2a:'Ore pierdute', e2b:'Aceleași întrebări?', e2c:'Răspunsurile vin automat.',
+    e3a:'Ore pierdute', e3b:'Facturi și memento-uri de mână?', e3c:'Se trimit singure.',
+    s13a:'Alte servicii', s13b:'Ieftine.', s13c:'Datorită IA.',
+    s14a:'Pentru programatori', s14b:'Trezire.', s14c:'Actualizare 2026',
+    s15c:'Vrei un site web?', s15d:'Scrie-ne'
   }
 };
 const $ = id => document.getElementById(id);
@@ -163,6 +192,7 @@ const SC = [...document.querySelectorAll('.sc')];
 const cv = $('bg'), cx = cv.getContext('2d');
 document.documentElement.lang = LANG;
 document.querySelectorAll('[data-k]').forEach(el => { el.innerHTML = TXT[LANG][el.dataset.k] || ''; });
+if (LANG === 'ro') document.querySelector('#s8 [data-k="s8a"]').style.fontSize = '36px';
 
 function fade(t, a, b, fi, fo){
   if (t < a || t > b) return 0;
@@ -215,7 +245,6 @@ function frame(t){
   st.style.opacity = sp;
   st.style.transform = `rotate(-6deg) scale(${(1 + .5 * (1 - sp)).toFixed(3)})`;
 }
-if (LANG === 'ro') document.querySelector('#s8 [data-k="s8a"]').style.fontSize = '36px';
 window.S = {frame};
 </script>
 </body></html>

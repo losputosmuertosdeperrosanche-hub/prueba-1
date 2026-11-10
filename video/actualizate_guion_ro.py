@@ -12,19 +12,22 @@ DURACION = _TIEMPOS["duracion"]
 RETARDO = 0.35
 
 TEXTOS = [
-    "Web designer sau agenție de inteligență artificială? Diferența este mare.",
+    "Web designer sau agenție de inteligență artificială?",
     "Un web designer face totul manual. Durează zile.",
     "Noi lucrăm cu inteligență artificială.",
     "Un site poate fi gata în aproximativ zece minute.",
     "O persoană verifică totul. Calitatea nu scade.",
     "Pentru firma ta: un site web de 100 de euro.",
     "Îl primești în aceeași zi. Abia apoi plătești.",
-    "Vezi alte lucrări ale noastre și judecă singur.",
-    "Testează-ne cu o demonstrație. Dacă îți place, continuăm. Nu pierzi nimic.",
-    "Inteligența artificială înseamnă timp câștigat prin automatizări.",
+    "Vezi alte lucrări și judecă singur.",
+    "Testează-ne cu o demonstrație.",
+    "Pentru mulți sunt ore pierdute. Pentru noi: a gândi și a optimiza.",
+    "Comenzi copiate manual? Un formular le completează singur.",
+    "Aceleași întrebări? Răspunsurile vin automat.",
+    "Facturi și memento-uri manuale? Se trimit singure.",
     "Avem și alte servicii, foarte ieftine.",
-    "Pentru mulți programatori, este un semnal de trezire.",
-    "Vrei un site web? Scrie-ne, îți facem o demonstrație.",
+    "Pentru programatori, un semnal de trezire.",
+    "Vrei un site web? Scrie-ne.",
 ]
 assert len(TEXTOS) == len(_TIEMPOS["inicios"]), "un texto por escena"
 GUION = [(inicio + RETARDO, texto) for inicio, texto in zip(_TIEMPOS["inicios"], TEXTOS)]

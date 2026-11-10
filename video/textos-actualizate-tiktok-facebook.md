@@ -1,27 +1,29 @@
 # Textos para publicar: anuncio de actualizate IA
 
-Vídeos:
-- `anuncio-actualizate-de.mp4` (52,8 s, alemán)
-- `anuncio-actualizate-ro.mp4` (60,3 s, rumano)
+Vídeos (1080×1920, 30 fps, con voz):
+- `anuncio-actualizate-de.mp4`: 60 s, alemán
+- `anuncio-actualizate-ro.mp4`: 66 s, rumano
 
-1080×1920, 30 fps, narración con voz y volumen normalizado (−16 LUFS).
+Los anuncios in-feed de TikTok admiten hasta 60 s. Si vas a impulsar el vídeo como anuncio de pago en TikTok,
+usa la versión alemana o pide un corte más corto.
 
-## Antes de publicar: revisa estas tres afirmaciones
+## Antes de publicar: revisa estas cuatro cosas
 
-El vídeo dice estas frases tal cual, así que deben ser ciertas:
+1. **Precio**: «100 Euro zzgl. MwSt.» / «100 de euro + TVA». Si el anuncio va dirigido a particulares, en Alemania
+   el precio debe mostrarse con IVA incluido. Para empresas, el precio neto está bien.
+2. **Entrega**: «Am selben Tag» / «În aceeași zi» y «Erst danach bezahlst du» / «Abia apoi plătești» solo pueden
+   aparecer si cada web se entrega ese mismo día y antes del pago.
+3. **Tiempo**: «in etwa zehn Minuten» / «aproximativ zece minute» solo si es el tiempo real.
+4. **Ejemplos**: pedidos copiados a mano, preguntas repetidas y facturas o recordatorios. Cada uno debe ser un
+   servicio que realmente ofreces.
 
-1. **«100 Euro zzgl. MwSt.» / «100 de euro + TVA»**: el precio aparece sin IVA. Si el anuncio va dirigido a particulares
-   (no a empresas), en Alemania el precio debe mostrarse con IVA incluido. Si es para empresas, puede ir neto.
-2. **«Am selben Tag» / «În aceeași zi» y «Erst danach bezahlst du» / «Abia apoi plătești»**: solo puede aparecer si
-   cada web se entrega ese mismo día y antes del pago.
-3. **«ca. 10 Minuten» / «aproximativ zece minute»**: solo si es el tiempo real que tardáis.
-
-Además, el enlace `actualizate-inte.vercel.app` debe estar activo y ser el correcto. No he podido abrirlo desde aquí.
+El enlace del vídeo es `actualizateia.com`. No lo he podido abrir desde aquí, así que comprueba que funciona.
 
 ## TikTok (alemán)
 
 > Webdesigner oder KI-Agentur? 🤖 Eine Website für dein Unternehmen: 100 Euro zzgl. MwSt., am selben Tag geliefert.
-> Erst danach bezahlst du. actualizate-inte.vercel.app
+> Erst danach bezahlst du. Was für viele Stunden Handarbeit ist, ist für uns Denken und Optimieren.
+> actualizateia.com
 >
 > #KI #Webdesign #Unternehmen #Deutschland
 
@@ -33,39 +35,39 @@ Además, el enlace `actualizate-inte.vercel.app` debe estar activo y ser el corr
 >
 > Eine Website für dein Unternehmen gibt es bei uns für 100 Euro zzgl. MwSt. Du bekommst sie am selben Tag, bezahlt wird erst danach.
 >
+> Was für viele Stunden Handarbeit ist, ist für uns Denken und Optimieren: Bestellungen, die von selbst eingetragen werden. Antworten, die automatisch laufen. Vorlagen, die sich selbst versenden.
+>
 > Frag nach unseren anderen Projekten und überzeug dich selbst. Oder teste uns mit einer Demo: Gefällt sie dir, machen wir weiter. Du verlierst nichts.
 >
-> KI heißt für uns vor allem Zeit sparen, durch Automatisierung und besser organisierte Firmen. Dazu bieten wir weitere Dienste an, die dank KI günstig sind.
->
-> actualizate-inte.vercel.app
+> actualizateia.com
 >
 > #KI #Webdesign #Unternehmen #Deutschland
 
 ## TikTok (rumano)
 
-> Web designer sau agenție IA? 🤖 Un site pentru firma ta: 100 de euro + TVA, livrat în aceeași zi.
-> Plătești abia după. actualizate-inte.vercel.app
+> Web designer sau agenție IA? 🤖 Un site pentru firma ta: 100 de euro + TVA, livrat în aceeași zi. Plătești abia după.
+> Pentru mulți, ore pierdute. Pentru noi: a gândi și a optimiza. actualizateia.com
 >
 > #IA #WebDesign #Germania #Afaceri
 
 ## Facebook (rumano)
 
-> Web designer sau agenție IA? Diferența este mare.
+> Web designer sau agenție IA?
 >
 > Lucrăm cu inteligență artificială. O pagină web poate fi gata în aproximativ zece minute, iar o persoană verifică totul înainte de predare. Calitatea nu scade.
 >
 > Un site pentru firma ta costă 100 de euro + TVA. Îl primești în aceeași zi și plătești abia după.
 >
+> Pentru mulți, ore pierdute. Pentru noi: a gândi și a optimiza. Comenzi care se completează singure, întrebări la care se răspunde automat, facturi care se trimit singure.
+>
 > Vezi alte lucrări ale noastre și judecă singur. Testează-ne cu o demonstrație: dacă îți place, continuăm. Nu pierzi nimic.
 >
-> Inteligența artificială înseamnă timp câștigat prin automatizări. Avem și alte servicii, foarte ieftine.
->
-> actualizate-inte.vercel.app
+> actualizateia.com
 >
 > #IA #WebDesign #Germania #Afaceri
 
 ## Lista de comprobación
 
-1. Revisar las tres afirmaciones de arriba (precio con o sin IVA, entrega el mismo día, tiempo de 10 minutos).
-2. Abrir `actualizate-inte.vercel.app` y comprobar que funciona.
+1. Revisar las cuatro cosas de arriba (precio, entrega, tiempo y ejemplos).
+2. Abrir `actualizateia.com` y comprobar que funciona.
 3. Subir `anuncio-actualizate-de.mp4` y `anuncio-actualizate-ro.mp4` a TikTok y Facebook, con su texto.
