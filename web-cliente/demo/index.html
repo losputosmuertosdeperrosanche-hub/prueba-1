@@ -1,11 +1,11 @@
 <title>OnePlace Network</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Alojamiento corporativo en Tarragona: apartamentos en El Serrallo y una masía con piscina para equipos de trabajo desplazados.">
+<meta name="description" content="Alojamiento para trabajadores desplazados en Tarragona. Pisos en El Serrallo, al lado del puerto, y una masía con piscina a las afueras.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Space+Grotesk:wght@400;500;600&display=swap">
 <style>
-/* Layout: regular scrolling page. Hero with the CEO in an arch over a navy panel, key facts, services grid, homes slider (sideways), process that moves sideways while scrolling on desktop, area, team cards (sideways on phones), contact. Fonts as treforma.es; navy + white/stone, terracotta only for actions and details. Single light look by choice. */
+/* OnePlace Network (demo). Portada con el CEO, servicios, alojamientos en carrusel, "cómo funciona" con scroll lateral, barrio, equipo y contacto. */
 :root{
   --navy:#1D3145; --navy-2:#2A4560; --navy-d:#142334;
   --teja:#A3472E; --teja-d:#86391F; --teja-l:#F4E4DD; --teja-n:#EBA88E;
@@ -42,7 +42,7 @@ main{padding-top:var(--hh)}
 svg{flex:none}
 @media (max-width:759px){body{font-size:16px}}
 
-/* buttons */
+/* botones */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:12px 24px;border-radius:999px;font-weight:600;font-size:15.5px;letter-spacing:.01em;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
 .btn svg{width:20px;height:20px}
 .btn-pri{background:var(--teja);color:#fff}
@@ -50,7 +50,7 @@ svg{flex:none}
 .btn-sec{border-color:var(--ink);color:var(--ink);background:transparent}
 .btn-sec:hover{background:var(--ink);color:#fff}
 
-/* header */
+/* cabecera */
 .hd{position:fixed;top:0;left:0;right:0;z-index:40;padding-top:env(safe-area-inset-top,0px);background:rgba(255,255,255,.95);-webkit-backdrop-filter:saturate(1.3) blur(10px);backdrop-filter:saturate(1.3) blur(10px);border-bottom:1px solid var(--line)}
 .hd-in{position:relative;height:var(--hh);max-width:1200px;margin:0 auto;padding-left:var(--gl);padding-right:var(--gr);display:flex;align-items:center;gap:26px}
 .logo{display:flex;flex-direction:column;line-height:1;text-decoration:none;color:var(--ink);margin-right:auto}
@@ -79,14 +79,13 @@ svg{flex:none}
 @media (max-width:759px){.hd-in{gap:8px}.logo b{font-size:22px}.hd-wa{width:40px;min-height:40px;padding:0}.hd-wa span{display:none}}
 @media (max-width:360px){.lang button{padding:6px 7px}}
 
-/* hero */
+/* portada */
 .hero{position:relative;overflow:hidden;background:var(--bg)}
 .hero::after{content:"";position:absolute;top:0;right:0;bottom:0;width:35%;background:var(--navy)}
 .hero .wrap{position:relative;z-index:1}
-.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) clamp(280px,30vw,410px);grid-template-areas:"k ph" "h1 ph" "lead ph" "cta ph" "about ph";column-gap:clamp(40px,7vw,110px);padding-block:clamp(48px,7vw,88px)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) clamp(280px,30vw,410px);grid-template-areas:"h1 ph" "lead ph" "cta ph" "about ph";column-gap:clamp(40px,7vw,110px);padding-block:clamp(48px,7vw,88px)}
 .hero-grid>*{min-width:0}
-.hero .kicker{grid-area:k}
-.hero h1{grid-area:h1;font-size:clamp(40px,5.2vw,68px);line-height:1.05;margin-top:16px}
+.hero h1{grid-area:h1;font-size:clamp(38px,5vw,64px);line-height:1.05}
 .hero h1 .ln{display:block}
 .hero h1 em{font-style:italic;font-weight:300;color:var(--teja)}
 .hero .lead{grid-area:lead;margin-top:22px}
@@ -104,18 +103,17 @@ svg{flex:none}
 .ceo img{width:100%;height:100%;object-fit:cover}
 @media (max-width:759px){
   .hero::after{display:none}
-  .hero-grid{grid-template-columns:minmax(0,1fr) 37%;grid-template-areas:"k ph" "h1 ph" "lead lead" "cta cta" "about about";column-gap:14px;padding-block:24px 48px}
-  .hero .kicker{font-size:10.5px;letter-spacing:.12em}
-  .hero h1{font-size:clamp(28px,8.2vw,35px);margin-top:10px}
-  .ceo{align-self:start;margin-top:2px}
+  .hero-grid{grid-template-columns:minmax(0,1fr) 37%;grid-template-areas:"h1 ph" "lead lead" "cta cta" "about about";column-gap:14px;padding-block:28px 48px}
+  .hero h1{font-size:clamp(28px,8vw,34px);align-self:center}
+  .ceo{align-self:start}
   .ceo::before{content:"";position:absolute;z-index:-1;top:-40px;bottom:30%;left:-12px;right:calc(-1 * var(--gr));background:var(--navy)}
   .ceo .outline{transform:translate(7px,-7px)}
-  .hero .lead{margin-top:22px;font-size:16px}
+  .hero .lead{margin-top:24px;font-size:16px}
   .cta-row{margin-top:22px}.cta-row .btn{flex:1 1 100%}
   .about p{font-size:15px}
 }
 
-/* key facts */
+/* datos rápidos */
 .facts{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bg)}
 .facts ul{list-style:none;margin:0 auto;display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
 .facts li{padding:26px 22px;display:flex;flex-direction:column;gap:4px;min-width:0}
@@ -132,7 +130,7 @@ svg{flex:none}
   .facts b{font-size:18px}.facts span{font-size:13.5px}
 }
 
-/* services */
+/* servicios */
 .services{background:var(--stone)}
 .svc{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
 .svc li{background:var(--bg);padding:30px 28px 32px;display:flex;flex-direction:column;gap:14px;min-width:0}
@@ -145,7 +143,7 @@ svg{flex:none}
 @media (max-width:900px){.svc{grid-template-columns:1fr 1fr}}
 @media (max-width:600px){.svc{grid-template-columns:1fr}.svc li{flex-direction:row;padding:22px 20px;gap:16px}.svc li>div{gap:4px}.svc h3{font-size:20px}}
 
-/* homes */
+/* alojamientos */
 .homes-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:clamp(28px,4vw,44px)}
 .homes-head .sec-head{margin-bottom:0}
 .ctrl{display:flex;align-items:center;gap:10px;flex:none}
@@ -185,7 +183,7 @@ svg{flex:none}
   .pi .btn{width:100%}
 }
 
-/* how we work: moves sideways */
+/* cómo funciona: en escritorio los pasos se mueven en horizontal al hacer scroll */
 .how{background:var(--navy);color:#fff}
 .how h2{color:#fff}
 .how .lead{color:rgba(255,255,255,.8)}
@@ -207,7 +205,7 @@ svg{flex:none}
 .how.pinned .how-track{overflow:visible;will-change:transform}
 @media (max-width:759px){.step{flex-basis:84%}.step .n{font-size:36px}}
 
-/* area */
+/* barrio */
 .zone-img{height:clamp(200px,28vw,380px);overflow:hidden;border-radius:4px;margin-bottom:clamp(32px,4vw,52px);background:var(--navy)}
 .zone-img img{width:100%;height:100%;object-fit:cover}
 .zone-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(28px,6vw,80px);align-items:start}
@@ -218,7 +216,7 @@ svg{flex:none}
 .dist dd{margin:0;color:var(--muted);text-align:right}
 @media (max-width:900px){.zone-grid{grid-template-columns:1fr}}
 
-/* team */
+/* equipo */
 .team-sec{background:var(--stone)}
 .team{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 .card{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:28px 26px 26px;display:flex;flex-direction:column;align-items:flex-start;min-width:0}
@@ -228,7 +226,7 @@ svg{flex:none}
 .card:hover .portrait img{transform:translateY(-3px)}
 .card h3{font-size:23px}
 .card .role{margin-top:4px;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--teja)}
-.card .area{margin-top:6px;font-size:15px;color:var(--text)}
+.card .area{margin-top:8px;font-size:15px;color:var(--text);line-height:1.5}
 .card .ask{margin-top:18px;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .card ul{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px;font-size:15px;color:var(--text)}
 .card li{padding-left:16px;position:relative;line-height:1.45}
@@ -241,7 +239,7 @@ svg{flex:none}
   .card{flex:0 0 min(80%,340px);scroll-snap-align:start}
 }
 
-/* contact */
+/* contacto */
 .contact-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(32px,6vw,88px);align-items:start}
 .contact-main .lead{margin-top:16px}
 .contact-main .btn{margin-top:28px}
@@ -264,7 +262,7 @@ svg{flex:none}
 @media (max-width:900px){.contact-grid{grid-template-columns:1fr}}
 @media (max-width:480px){.two{grid-template-columns:1fr}}
 
-/* footer */
+/* pie */
 .foot{background:var(--navy-d);color:rgba(255,255,255,.78);font-size:14.5px}
 .foot-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:32px;padding-block:64px 44px}
 .foot .logo{color:#fff;margin:0 0 14px}
@@ -277,7 +275,7 @@ svg{flex:none}
 .foot-bot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;padding-block:20px calc(22px + env(safe-area-inset-bottom,0px));border-top:1px solid rgba(255,255,255,.12);font-size:13px;color:rgba(255,255,255,.62)}
 @media (max-width:900px){.foot-top{grid-template-columns:1fr 1fr}.foot-brand{grid-column:1/-1}}
 
-/* dialogs */
+/* ventanas: correo y WhatsApp */
 .sheet,.wa{position:fixed;inset:0;z-index:60;background:rgba(15,24,34,.55);display:flex;align-items:flex-end;justify-content:center;padding:max(16px,env(safe-area-inset-top,0px)) var(--gr) 0 var(--gl)}
 @media (min-width:760px){.sheet,.wa{align-items:center;padding:24px}}
 .sheet-card{width:100%;max-width:540px;max-height:100%;overflow:auto;background:#fff;border-radius:14px 14px 0 0;padding:20px 20px calc(22px + env(safe-area-inset-bottom,0px));box-shadow:0 -20px 50px -20px rgba(0,0,0,.4)}
@@ -358,16 +356,15 @@ svg{flex:none}
   <section class="hero" id="nosotros" data-nav="nosotros" aria-labelledby="h1">
     <div class="wrap">
       <div class="hero-grid">
-        <p class="kicker" data-a="up" data-d="120" data-i18n="hero.kicker">Alojamiento para empresas · Tarragona</p>
-        <h1 id="h1"><span class="ln" data-a="up" data-d="220" data-i18n="hero.h1a">Alojamiento para equipos</span> <em class="ln" data-a="up" data-d="330" data-i18n="hero.h1b">de trabajo en Tarragona</em></h1>
-        <p class="lead" data-a="up" data-d="460" data-i18n="hero.lead">Pisos y casas amueblados para el personal que su empresa desplaza a Tarragona. Nos encargamos del contrato, las llaves y el mantenimiento mientras dura la estancia.</p>
-        <div class="cta-row" data-a="up" data-d="560">
-          <a class="btn btn-pri" href="#" data-wa="gen" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="cta.wa">Contactar por WhatsApp</span></a>
-          <a class="btn btn-sec" href="#alojamientos" data-i18n="cta.homes">Ver alojamientos</a>
+        <h1 id="h1"><span class="ln" data-a="up" data-d="180" data-i18n="hero.h1a">Alojamiento para trabajadores desplazados</span> <em class="ln" data-a="up" data-d="300" data-i18n="hero.h1b">en Tarragona</em></h1>
+        <p class="lead" data-a="up" data-d="440" data-i18n="hero.lead">Tenemos pisos en El Serrallo, al lado del puerto, y una masía con piscina a las afueras. Los alquilamos a empresas que mandan a su gente a trabajar a Tarragona durante unas semanas o unos meses.</p>
+        <div class="cta-row" data-a="up" data-d="540">
+          <a class="btn btn-pri" href="#" data-wa="gen" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="cta.wa">Escríbenos por WhatsApp</span></a>
+          <a class="btn btn-sec" href="#alojamientos" data-i18n="cta.homes">Ver los alojamientos</a>
         </div>
-        <div class="about" data-a="up" data-d="680">
+        <div class="about" data-a="up" data-d="660">
           <h2 data-i18n="about.t">Quiénes somos</h2>
-          <p data-i18n="about.p">OnePlace Network es una empresa de Tarragona dedicada al alojamiento corporativo. Empezamos junto al puerto, al ver que las empresas que traían técnicos o tripulaciones perdían días buscando dónde alojarlos. Hoy gestionamos apartamentos en el barrio de El Serrallo y una masía con piscina a las afueras de la ciudad.</p>
+          <p data-i18n="about.p">Somos un equipo pequeño de Tarragona. Josep lleva la empresa y habla él mismo con cada cliente, Dayana se encarga de que todo funcione mientras tu gente está en el piso y Melannie es quien te cuenta qué tenemos libre. Pensamos sobre todo en empresas del puerto y de la industria de la zona, que para estancias largas necesitan algo más cómodo que un hotel.</p>
           <p class="sign"><b>Josep Prat Domènech</b><span data-i18n="sign.role">CEO de OnePlace Network</span></p>
         </div>
         <figure class="ceo">
@@ -385,10 +382,10 @@ svg{flex:none}
 
   <div class="facts">
     <ul class="wrap">
-      <li data-a="up"><b data-i18n="facts.1t">El Serrallo</b><span data-i18n="facts.1d">Apartamentos junto al puerto</span></li>
-      <li data-a="up" data-d="80"><b data-i18n="facts.2t">Masía con piscina</b><span data-i18n="facts.2d">Para grupos y estancias largas</span></li>
-      <li data-a="up" data-d="160"><b data-i18n="facts.3t">Gestión completa</b><span data-i18n="facts.3d">Contrato, llaves y mantenimiento</span></li>
-      <li data-a="up" data-d="240"><b data-i18n="facts.4t">Trato directo</b><span data-i18n="facts.4d">Una persona de contacto para su empresa</span></li>
+      <li data-a="up"><b data-i18n="facts.1t">El Serrallo</b><span data-i18n="facts.1d">Pisos a un paso del puerto</span></li>
+      <li data-a="up" data-d="80"><b data-i18n="facts.2t">La masía</b><span data-i18n="facts.2d">Piscina y sitio para grupos grandes</span></li>
+      <li data-a="up" data-d="160"><b data-i18n="facts.3t">Un solo contrato</b><span data-i18n="facts.3d">Aunque vengan varias personas</span></li>
+      <li data-a="up" data-d="240"><b data-i18n="facts.4t">Dayana</b><span data-i18n="facts.4d">Tu contacto de la llegada a la salida</span></li>
     </ul>
   </div>
 
@@ -396,18 +393,18 @@ svg{flex:none}
   <section class="sec services" id="servicios" data-nav="servicios" aria-labelledby="svc-t">
     <div class="wrap">
       <div class="sec-head">
-        <h2 id="svc-t" data-a="up" data-i18n="svc.h2">Qué incluye el servicio</h2>
-        <p class="lead" data-a="up" data-d="80" data-i18n="svc.lead">Alojamos a personal desplazado durante semanas o meses. La empresa trata con un solo interlocutor y recibe una única factura; sus trabajadores llegan a una vivienda preparada.</p>
+        <h2 id="svc-t" data-a="up" data-i18n="svc.h2">De qué nos encargamos</h2>
+        <p class="lead" data-a="up" data-d="80" data-i18n="svc.lead">Buscar piso desde fuera para varias personas lleva mucho tiempo. Con nosotros tu empresa firma un solo contrato y del día a día nos ocupamos nosotros.</p>
       </div>
       <ul class="svc">
-        <li data-a="up"><span class="ic"><svg aria-hidden="true"><use href="#i-home"/></svg></span><div><h3 data-i18n="svc.1t">Viviendas listas para entrar</h3><p data-i18n="svc.1d">Amuebladas y equipadas, con cocina completa y espacio para trabajar.</p></div></li>
-        <li data-a="up" data-d="70"><span class="ic"><svg aria-hidden="true"><use href="#i-doc"/></svg></span><div><h3 data-i18n="svc.2t">Contrato y factura para la empresa</h3><p data-i18n="svc.2d">Un solo contrato, aunque se alojen varias personas.</p></div></li>
-        <li data-a="up" data-d="140"><span class="ic"><svg aria-hidden="true"><use href="#i-key"/></svg></span><div><h3 data-i18n="svc.3t">Llegada y salida coordinadas</h3><p data-i18n="svc.3d">Entregamos las llaves el día de llegada y revisamos la vivienda a la salida.</p></div></li>
-        <li data-a="up"><span class="ic"><svg aria-hidden="true"><use href="#i-tool"/></svg></span><div><h3 data-i18n="svc.4t">Mantenimiento e incidencias</h3><p data-i18n="svc.4d">Si algo falla durante la estancia, nos ocupamos nosotros.</p></div></li>
-        <li data-a="up" data-d="70"><span class="ic"><svg aria-hidden="true"><use href="#i-cal"/></svg></span><div><h3 data-i18n="svc.5t">Estancias flexibles</h3><p data-i18n="svc.5d">De unas semanas a varios meses, con posibilidad de prorrogar.</p></div></li>
-        <li data-a="up" data-d="140"><span class="ic"><svg aria-hidden="true"><use href="#i-user"/></svg></span><div><h3 data-i18n="svc.6t">Un interlocutor para todo</h3><p data-i18n="svc.6d">La misma persona le atiende desde la reserva hasta la salida.</p></div></li>
+        <li data-a="up"><span class="ic"><svg aria-hidden="true"><use href="#i-home"/></svg></span><div><h3 data-i18n="svc.1t">Pisos listos para entrar</h3><p data-i18n="svc.1d">Con la cocina equipada, ropa de cama y un sitio para trabajar con el portátil.</p></div></li>
+        <li data-a="up" data-d="70"><span class="ic"><svg aria-hidden="true"><use href="#i-doc"/></svg></span><div><h3 data-i18n="svc.2t">Factura a la empresa</h3><p data-i18n="svc.2d">Todo va a nombre de tu empresa, vengan dos personas o diez.</p></div></li>
+        <li data-a="up" data-d="140"><span class="ic"><svg aria-hidden="true"><use href="#i-key"/></svg></span><div><h3 data-i18n="svc.3t">Llaves y llegada</h3><p data-i18n="svc.3d">El día que llega tu gente quedamos con ellos, les enseñamos el piso y les damos las llaves.</p></div></li>
+        <li data-a="up"><span class="ic"><svg aria-hidden="true"><use href="#i-tool"/></svg></span><div><h3 data-i18n="svc.4t">Si algo se rompe</h3><p data-i18n="svc.4d">Nos avisáis y lo arreglamos nosotros. No tenéis que buscar a nadie.</p></div></li>
+        <li data-a="up" data-d="70"><span class="ic"><svg aria-hidden="true"><use href="#i-cal"/></svg></span><div><h3 data-i18n="svc.5t">Semanas o meses</h3><p data-i18n="svc.5d">Si el proyecto se alarga, lo hablamos y ampliamos la estancia.</p></div></li>
+        <li data-a="up" data-d="140"><span class="ic"><svg aria-hidden="true"><use href="#i-user"/></svg></span><div><h3 data-i18n="svc.6t">Alguien a quien escribir</h3><p data-i18n="svc.6d">Cualquier duda de tu gente se resuelve con un mensaje. Siempre contesta la misma persona.</p></div></li>
       </ul>
-      <p class="for" data-a="up"><b data-i18n="svc.forT">Pensado para</b> <span data-i18n="svc.for">empresas del puerto y de la industria química, ingenierías, navieras y equipos de proyecto que trabajan en Tarragona.</span></p>
+      <p class="for" data-a="up"><b data-i18n="svc.forT">¿Tu empresa trabaja en el puerto, en la petroquímica o en algún proyecto de la zona?</b> <span data-i18n="svc.for">Si tienes que alojar a gente, escríbenos.</span></p>
     </div>
   </section>
 
@@ -416,13 +413,13 @@ svg{flex:none}
     <div class="wrap">
       <div class="homes-head">
         <div class="sec-head">
-          <h2 id="homes-t" data-a="up" data-i18n="homes.h2">Nuestros alojamientos</h2>
-          <p class="lead" data-a="up" data-d="80" data-i18n="homes.lead">Dos opciones según el tamaño del equipo y el tiempo de estancia.</p>
+          <h2 id="homes-t" data-a="up" data-i18n="homes.h2">Dónde se queda tu equipo</h2>
+          <p class="lead" data-a="up" data-d="80" data-i18n="homes.lead">Ahora mismo tenemos pisos en la ciudad y una masía en el campo.</p>
         </div>
         <div class="ctrl" data-a="fade" data-d="160">
           <p class="count" aria-live="polite"><b id="pidx">01</b> / 02</p>
-          <button class="arrow" type="button" data-dir="-1" aria-label="Alojamiento anterior" data-i18n-aria="homes.prev" disabled><svg aria-hidden="true"><use href="#i-left"/></svg></button>
-          <button class="arrow" type="button" data-dir="1" aria-label="Siguiente alojamiento" data-i18n-aria="homes.next"><svg aria-hidden="true"><use href="#i-right"/></svg></button>
+          <button class="arrow" type="button" data-dir="-1" aria-label="Anterior" data-i18n-aria="homes.prev" disabled><svg aria-hidden="true"><use href="#i-left"/></svg></button>
+          <button class="arrow" type="button" data-dir="1" aria-label="Siguiente" data-i18n-aria="homes.next"><svg aria-hidden="true"><use href="#i-right"/></svg></button>
         </div>
       </div>
 
@@ -439,21 +436,21 @@ svg{flex:none}
               <button type="button" aria-pressed="false" aria-label="Cocina y comedor" data-src="img/piso-cocina.jpg"><img src="img/t-piso-cocina.jpg" alt="" loading="lazy"></button>
               <button type="button" aria-pressed="false" aria-label="Dormitorio doble" data-src="img/piso-dormitorio.jpg"><img src="img/t-piso-dormitorio.jpg" alt="" loading="lazy"></button>
               <button type="button" aria-pressed="false" aria-label="Dormitorio con escritorio" data-src="img/piso-escritorio.jpg"><img src="img/t-piso-escritorio.jpg" alt="" loading="lazy"></button>
-              <button type="button" aria-pressed="false" aria-label="Azotea comunitaria" data-src="img/piso-azotea.jpg"><img src="img/t-piso-azotea.jpg" alt="" loading="lazy"></button>
+              <button type="button" aria-pressed="false" aria-label="Azotea compartida" data-src="img/piso-azotea.jpg"><img src="img/t-piso-azotea.jpg" alt="" loading="lazy"></button>
               <button type="button" aria-pressed="false" aria-label="El Serrallo de noche" data-src="img/serrallo-noche.jpg"><img src="img/t-serrallo-noche.jpg" alt="" loading="lazy"></button>
             </div>
           </div>
           <div class="pi">
-            <p class="kicker" data-a="up" data-d="100" data-i18n="p1.tag">Ciudad · El Serrallo, Tarragona</p>
+            <p class="kicker" data-a="up" data-d="100" data-i18n="p1.tag">Ciudad · El Serrallo</p>
             <h3 id="p1-name" data-a="up" data-d="160" data-i18n="p1.name">Apartamentos El Serrallo</h3>
-            <p class="desc" data-a="up" data-d="220" data-i18n="p1.desc">Apartamentos luminosos en el barrio marinero de Tarragona, junto al puerto y a un paseo del centro.</p>
+            <p class="desc" data-a="up" data-d="220" data-i18n="p1.desc">En el barrio de pescadores, a un paso del puerto. Son pisos luminosos y bien equipados, con salón, cocina completa y un dormitorio con escritorio. Arriba hay una azotea compartida con duchas y vistas al puerto.</p>
             <ul class="feat" data-a="up" data-d="280">
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="p1.f1">Salón comedor y cocina equipada</span></li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="p1.f2">Dormitorio doble y dormitorio con escritorio</span></li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="p1.f3">Azotea comunitaria con vistas al puerto</span></li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="p1.f4">Cerca de la estación de tren</span></li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="p1.f1">Salón comedor y cocina completa</span></li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="p1.f2">Dormitorio doble y otro con escritorio</span></li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="p1.f3">Azotea con duchas y vistas al puerto</span></li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="p1.f4">La estación de tren, a un paseo</span></li>
             </ul>
-            <a class="btn btn-pri" href="#" data-wa="p1" target="_blank" rel="noopener" data-a="up" data-d="340"><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="wa.btn">Contactar por WhatsApp</span></a>
+            <a class="btn btn-pri" href="#" data-wa="p1" target="_blank" rel="noopener" data-a="up" data-d="340"><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="wa.btn">Preguntar por WhatsApp</span></a>
           </div>
         </article>
 
@@ -466,80 +463,80 @@ svg{flex:none}
             <div class="pm-thumbs">
               <button type="button" aria-pressed="true" aria-label="Fachada de la masía" data-src="img/masia-fachada.jpg"><img src="img/t-masia-fachada.jpg" alt="" loading="lazy"></button>
               <button type="button" aria-pressed="false" aria-label="Piscina con tumbonas" data-src="img/masia-piscina.jpg"><img src="img/t-masia-piscina.jpg" alt="" loading="lazy"></button>
-              <button type="button" aria-pressed="false" aria-label="Porche cubierto con comedor" data-src="img/masia-porche.jpg"><img src="img/t-masia-porche.jpg" alt="" loading="lazy"></button>
+              <button type="button" aria-pressed="false" aria-label="Porche cubierto con mesa" data-src="img/masia-porche.jpg"><img src="img/t-masia-porche.jpg" alt="" loading="lazy"></button>
               <button type="button" aria-pressed="false" aria-label="Azotea con vistas a la montaña" data-src="img/masia-azotea.jpg"><img src="img/t-masia-azotea.jpg" alt="" loading="lazy"></button>
-              <button type="button" aria-pressed="false" aria-label="Jardín con mesa bajo los pinos" data-src="img/masia-jardin.jpg"><img src="img/t-masia-jardin.jpg" alt="" loading="lazy"></button>
+              <button type="button" aria-pressed="false" aria-label="Mesa en el jardín, bajo los pinos" data-src="img/masia-jardin.jpg"><img src="img/t-masia-jardin.jpg" alt="" loading="lazy"></button>
               <button type="button" aria-pressed="false" aria-label="Fuente de piedra del jardín" data-src="img/masia-fuente.jpg"><img src="img/t-masia-fuente.jpg" alt="" loading="lazy"></button>
             </div>
           </div>
           <div class="pi">
             <p class="kicker" data-a="up" data-d="100" data-i18n="p2.tag">Campo · Afueras de Tarragona</p>
             <h3 id="p2-name" data-a="up" data-d="160" data-i18n="p2.name">Masía con piscina</h3>
-            <p class="desc" data-a="up" data-d="220" data-i18n="p2.desc">Casa de campo en una finca con olivos, pinos y cipreses. Mucho espacio exterior para comer, descansar y reunir al equipo.</p>
+            <p class="desc" data-a="up" data-d="220" data-i18n="p2.desc">Una casa de campo entre olivos y pinos, con mucho espacio fuera. Va muy bien para grupos grandes o estancias largas, cuando al acabar la jornada apetece salir de la ciudad.</p>
             <ul class="feat" data-a="up" data-d="280">
               <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="p2.f1">Piscina con ducha y tumbonas</span></li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="p2.f2">Porche cubierto con comedor exterior</span></li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="p2.f2">Porche cubierto con mesa para comer fuera</span></li>
               <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="p2.f3">Azotea con vistas a la montaña</span></li>
-              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="p2.f4">Aire acondicionado y edificio anexo</span></li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="p2.f4">Aire acondicionado y un anexo independiente</span></li>
             </ul>
-            <a class="btn btn-pri" href="#" data-wa="p2" target="_blank" rel="noopener" data-a="up" data-d="340"><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="wa.btn">Contactar por WhatsApp</span></a>
+            <a class="btn btn-pri" href="#" data-wa="p2" target="_blank" rel="noopener" data-a="up" data-d="340"><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="wa.btn">Preguntar por WhatsApp</span></a>
           </div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Cómo trabajamos -->
-  <section class="how" id="como-trabajamos" data-nav="servicios" aria-labelledby="how-t">
+  <!-- Cómo funciona -->
+  <section class="how" id="como-funciona" data-nav="servicios" aria-labelledby="how-t">
     <div class="how-pin">
       <div class="how-sticky">
         <div class="wrap how-head">
           <div class="sec-head">
-            <h2 id="how-t" data-a="up" data-i18n="how.h2">Cómo trabajamos</h2>
-            <p class="lead" data-a="up" data-d="80" data-i18n="how.lead">De la primera consulta a la entrega de llaves, en cuatro pasos.</p>
+            <h2 id="how-t" data-a="up" data-i18n="how.h2">Cómo funciona</h2>
+            <p class="lead" data-a="up" data-d="80" data-i18n="how.lead">Así suele ir, desde que nos escribes hasta que tu gente tiene las llaves.</p>
           </div>
           <div class="how-bar" aria-hidden="true"><i></i></div>
         </div>
         <div class="how-track">
           <article class="step" data-a="up">
-            <figure><img src="img/step-1.jpg" width="1000" height="562" alt="Equipo de trabajo reunido en el salón de un apartamento" loading="lazy"></figure>
-            <span class="n">01</span><h3 data-i18n="how.1t">Nos escribe</h3>
-            <p data-i18n="how.1d">Por WhatsApp o desde el formulario. Nos indica cuántas personas vienen, las fechas y qué necesitan.</p>
+            <figure><img src="img/step-1.jpg" width="1000" height="562" alt="Tres personas trabajando en el salón de uno de los pisos" loading="lazy"></figure>
+            <span class="n">01</span><h3 data-i18n="how.1t">Nos escribes</h3>
+            <p data-i18n="how.1d">Por WhatsApp o desde el formulario. Dinos cuántas personas vienen, para qué fechas y si hay algo que tengamos que saber, como turnos de noche o aparcamiento.</p>
           </article>
           <article class="step" data-a="up" data-d="90">
             <figure><img src="img/step-2.jpg" width="1000" height="562" alt="Sala de reuniones de la oficina de OnePlace Network" loading="lazy"></figure>
-            <span class="n">02</span><h3 data-i18n="how.2t">Le enviamos una propuesta</h3>
-            <p data-i18n="how.2d">Con el alojamiento disponible, las condiciones y el precio cerrado.</p>
+            <span class="n">02</span><h3 data-i18n="how.2t">Te mandamos una propuesta</h3>
+            <p data-i18n="how.2d">Con el piso o la casa que mejor encaja, las condiciones y el precio. Si quieres verlo antes, quedamos.</p>
           </article>
           <article class="step" data-a="up" data-d="180">
-            <figure><img src="img/step-3.jpg" width="1000" height="562" alt="Recibidor de un apartamento preparado para la llegada" loading="lazy"></figure>
-            <span class="n">03</span><h3 data-i18n="how.3t">Preparamos la llegada</h3>
-            <p data-i18n="how.3d">Firmamos el contrato, dejamos la vivienda a punto y entregamos las llaves el día de llegada.</p>
+            <figure><img src="img/step-3.jpg" width="1000" height="562" alt="Recibidor de un piso preparado para la llegada" loading="lazy"></figure>
+            <span class="n">03</span><h3 data-i18n="how.3t">Contrato y llegada</h3>
+            <p data-i18n="how.3d">Firmamos un contrato a nombre de la empresa. El día de llegada, Dayana recibe a tu gente y les da las llaves.</p>
           </article>
           <article class="step" data-a="up" data-d="270">
-            <figure><img src="img/step-4.jpg" width="1000" height="562" alt="Salón de un apartamento en El Serrallo" loading="lazy"></figure>
-            <span class="n">04</span><h3 data-i18n="how.4t">Le acompañamos durante la estancia</h3>
-            <p data-i18n="how.4d">Nuestra housing manager atiende cualquier incidencia directamente, sin intermediarios.</p>
+            <figure><img src="img/step-4.jpg" width="1000" height="562" alt="Salón de un piso en El Serrallo" loading="lazy"></figure>
+            <span class="n">04</span><h3 data-i18n="how.4t">Durante la estancia</h3>
+            <p data-i18n="how.4d">Si se estropea algo o surge cualquier problema, escriben a Dayana y lo resolvemos.</p>
           </article>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- La zona -->
-  <section class="sec zone" id="zona" data-nav="alojamientos" aria-labelledby="zone-t">
+  <!-- El barrio -->
+  <section class="sec zone" id="barrio" data-nav="alojamientos" aria-labelledby="zone-t">
     <div class="wrap">
-      <div class="zone-img" data-a="reveal"><img src="img/serrallo-noche.jpg" width="1600" height="409" alt="El paseo de El Serrallo de noche, con barcas y palmeras" loading="lazy"></div>
+      <div class="zone-img" data-a="reveal"><img src="img/serrallo-noche.jpg" width="1600" height="409" alt="El muelle de El Serrallo de noche, con barcas y palmeras" loading="lazy"></div>
       <div class="zone-grid">
         <div>
-          <h2 id="zone-t" data-a="up" data-i18n="zone.h2">El Serrallo, junto al puerto</h2>
-          <p class="lead" data-a="up" data-d="80" data-i18n="zone.p">El Serrallo es el barrio marinero de Tarragona: la lonja, los restaurantes de pescado y el paseo del puerto. Desde aquí se va andando al centro y a la estación de tren.</p>
+          <h2 id="zone-t" data-a="up" data-i18n="zone.h2">Vivir en El Serrallo</h2>
+          <p class="lead" data-a="up" data-d="80" data-i18n="zone.p">El Serrallo es el barrio de pescadores de Tarragona. Las barcas amarran delante de la lonja y los restaurantes de pescado están a la vuelta de la esquina. Al centro y a la estación se va andando.</p>
         </div>
         <dl class="dist" data-a="up" data-d="140">
           <div><dt data-i18n="zone.port">Puerto de Tarragona</dt><dd data-i18n="zone.portV">Al lado</dd></div>
-          <div><dt data-i18n="zone.train">Estación de tren</dt><dd data-i18n="zone.trainV">A pie</dd></div>
+          <div><dt data-i18n="zone.train">Estación de tren</dt><dd data-i18n="zone.trainV">Se va andando</dd></div>
           <div><dt data-i18n="zone.air">Aeropuerto de Reus</dt><dd data-i18n="zone.airV">Unos 15 min en coche</dd></div>
-          <div><dt data-i18n="zone.bcn">Barcelona</dt><dd data-i18n="zone.bcnV">Alrededor de 1 hora</dd></div>
+          <div><dt data-i18n="zone.bcn">Barcelona</dt><dd data-i18n="zone.bcnV">Algo más de una hora</dd></div>
         </dl>
       </div>
     </div>
@@ -549,35 +546,35 @@ svg{flex:none}
   <section class="sec team-sec" id="equipo" data-nav="equipo" aria-labelledby="team-t">
     <div class="wrap">
       <div class="sec-head">
-        <h2 id="team-t" data-a="up" data-i18n="team.h2">Nuestro equipo</h2>
-        <p class="lead" data-a="up" data-d="80" data-i18n="team.lead">Cada persona lleva un área. Si tiene una duda concreta, escriba directamente a quien corresponda.</p>
+        <h2 id="team-t" data-a="up" data-i18n="team.h2">Con quién vas a hablar</h2>
+        <p class="lead" data-a="up" data-d="80" data-i18n="team.lead">Cada uno lleva lo suyo. Escribe directamente a quien te pueda ayudar y te contestará esa misma persona.</p>
       </div>
       <div class="team">
         <article class="card">
           <span class="portrait"><span class="bg" data-a="reveal"></span><img src="img/team-josep.webp" width="480" height="600" alt="Josep Prat Domènech" loading="lazy" data-a="rise" data-d="200"></span>
           <h3 data-a="up" data-d="120">Josep Prat Domènech</h3>
           <p class="role" data-a="up" data-d="160">CEO</p>
-          <p class="area" data-a="up" data-d="200" data-i18n="josep.area">Dirección y acuerdos con empresas</p>
-          <p class="ask" data-i18n="team.ask">Puede consultarle sobre</p>
-          <ul><li data-i18n="josep.t1">Precios y condiciones</li><li data-i18n="josep.t2">Contratos de larga duración</li><li data-i18n="josep.t3">Colaboraciones</li></ul>
+          <p class="area" data-a="up" data-d="200" data-i18n="josep.area">Dirige la empresa. Habla con él para cerrar acuerdos y precios.</p>
+          <p class="ask" data-i18n="team.ask">Pregúntale por</p>
+          <ul><li data-i18n="josep.t1">Precios y condiciones</li><li data-i18n="josep.t2">Contratos largos</li><li data-i18n="josep.t3">Colaboraciones</li></ul>
           <div class="card-cta"><button class="btn btn-sec" type="button" data-person="josep"><svg aria-hidden="true"><use href="#i-mail"/></svg><span data-i18n="team.write" data-name="Josep">Escribir a Josep</span></button></div>
         </article>
         <article class="card">
           <span class="portrait"><span class="bg" data-a="reveal" data-d="100"></span><img src="img/team-dayana.webp" width="480" height="600" alt="Dayana Quiroga" loading="lazy" data-a="rise" data-d="300"></span>
           <h3 data-a="up" data-d="220">Dayana Quiroga</h3>
           <p class="role" data-a="up" data-d="260">Housing manager</p>
-          <p class="area" data-a="up" data-d="300" data-i18n="dayana.area">Gestión de las estancias</p>
-          <p class="ask" data-i18n="team.ask">Puede consultarle sobre</p>
-          <ul><li data-i18n="dayana.t1">Entradas y salidas</li><li data-i18n="dayana.t2">Llaves y acceso</li><li data-i18n="dayana.t3">Mantenimiento e incidencias</li></ul>
+          <p class="area" data-a="up" data-d="300" data-i18n="dayana.area">Es quien está pendiente de los pisos y de tu gente.</p>
+          <p class="ask" data-i18n="team.ask">Pregúntale por</p>
+          <ul><li data-i18n="dayana.t1">Llegadas y salidas</li><li data-i18n="dayana.t2">Llaves</li><li data-i18n="dayana.t3">Averías e incidencias</li></ul>
           <div class="card-cta"><button class="btn btn-sec" type="button" data-person="dayana"><svg aria-hidden="true"><use href="#i-mail"/></svg><span data-i18n="team.write" data-name="Dayana">Escribir a Dayana</span></button></div>
         </article>
         <article class="card">
           <span class="portrait"><span class="bg" data-a="reveal" data-d="200"></span><img src="img/team-melannie.webp" width="480" height="600" alt="Melannie Panta" loading="lazy" data-a="rise" data-d="400"></span>
           <h3 data-a="up" data-d="320">Melannie Panta</h3>
           <p class="role" data-a="up" data-d="360">Marketing</p>
-          <p class="area" data-a="up" data-d="400" data-i18n="melannie.area">Comunicación e información</p>
-          <p class="ask" data-i18n="team.ask">Puede consultarle sobre</p>
-          <ul><li data-i18n="melannie.t1">Disponibilidad de alojamientos</li><li data-i18n="melannie.t2">Fotos y dossiers</li><li data-i18n="melannie.t3">Redes sociales</li></ul>
+          <p class="area" data-a="up" data-d="400" data-i18n="melannie.area">Te cuenta qué hay libre y te manda fotos y dossiers.</p>
+          <p class="ask" data-i18n="team.ask">Pregúntale por</p>
+          <ul><li data-i18n="melannie.t1">Disponibilidad</li><li data-i18n="melannie.t2">Fotos y dossiers</li><li data-i18n="melannie.t3">Redes sociales</li></ul>
           <div class="card-cta"><button class="btn btn-sec" type="button" data-person="melannie"><svg aria-hidden="true"><use href="#i-mail"/></svg><span data-i18n="team.write" data-name="Melannie">Escribir a Melannie</span></button></div>
         </article>
       </div>
@@ -588,34 +585,34 @@ svg{flex:none}
   <section class="sec" id="contacto" data-nav="contacto" aria-labelledby="contact-t">
     <div class="wrap contact-grid">
       <div class="contact-main">
-        <h2 id="contact-t" data-a="up" data-i18n="contact.h2">¿Necesita alojar a su equipo en Tarragona?</h2>
-        <p class="lead" data-a="up" data-d="80" data-i18n="contact.lead">Escríbanos por WhatsApp o rellene el formulario y le enviaremos una propuesta.</p>
+        <h2 id="contact-t" data-a="up" data-i18n="contact.h2">¿Tienes que mandar gente a Tarragona?</h2>
+        <p class="lead" data-a="up" data-d="80" data-i18n="contact.lead">Escríbenos por WhatsApp y te decimos qué tenemos libre. Si lo prefieres, rellena el formulario y nos llega igual.</p>
         <a class="btn btn-pri" href="#" data-wa="gen" target="_blank" rel="noopener" data-a="up" data-d="160"><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="contact.wa">Escribir por WhatsApp</span></a>
         <dl class="data" data-a="up" data-d="220">
           <div><dt>WhatsApp</dt><dd class="tbd" data-i18n="pending">Pendiente</dd></div>
           <div><dt data-i18n="d.mail">Correo</dt><dd class="tbd" data-i18n="pending">Pendiente</dd></div>
-          <div><dt data-i18n="d.office">Oficina</dt><dd data-i18n="d.officeV">Tarragona, España</dd></div>
+          <div><dt data-i18n="d.office">Oficina</dt><dd data-i18n="d.officeV">Tarragona</dd></div>
         </dl>
       </div>
       <form class="req" id="req" novalidate data-a="up" data-d="120">
-        <h3 data-i18n="f.title">Solicitud de alojamiento</h3>
-        <p class="hint" data-i18n="f.hint">Indíquenos lo que sepa por ahora; el resto lo concretamos después.</p>
+        <h3 data-i18n="f.title">Pide disponibilidad</h3>
+        <p class="hint" data-i18n="f.hint">No hace falta tenerlo todo claro. Con la empresa y unas fechas aproximadas ya podemos mirar.</p>
         <div class="two">
           <label class="fld" for="r-co"><span data-i18n="f.company">Empresa</span><input id="r-co" name="empresa" autocomplete="organization" required></label>
-          <label class="fld" for="r-pe"><span data-i18n="f.person">Persona de contacto</span><input id="r-pe" name="contacto" autocomplete="name"></label>
+          <label class="fld" for="r-pe"><span data-i18n="f.person">Tu nombre</span><input id="r-pe" name="contacto" autocomplete="name"></label>
         </div>
         <div class="two">
-          <label class="fld" for="r-n"><span data-i18n="f.people">Número de personas</span><input id="r-n" name="personas" type="number" min="1" inputmode="numeric" placeholder="4"></label>
-          <label class="fld" for="r-d"><span data-i18n="f.dates">Fechas aproximadas</span><input id="r-d" name="fechas" placeholder="Ej.: de enero a marzo" data-i18n-ph="f.datesPh"></label>
+          <label class="fld" for="r-n"><span data-i18n="f.people">¿Cuántas personas?</span><input id="r-n" name="personas" type="number" min="1" inputmode="numeric" placeholder="4"></label>
+          <label class="fld" for="r-d"><span data-i18n="f.dates">Fechas, más o menos</span><input id="r-d" name="fechas" placeholder="Ej.: de enero a marzo" data-i18n-ph="f.datesPh"></label>
         </div>
-        <label class="fld" for="r-h"><span data-i18n="f.home">Alojamiento preferido</span>
+        <label class="fld" for="r-h"><span data-i18n="f.home">Alojamiento</span>
           <select id="r-h" name="alojamiento">
-            <option value="any" data-i18n="f.any">Sin preferencia</option>
+            <option value="any" data-i18n="f.any">Nos da igual</option>
             <option value="p1" data-i18n="p1.name">Apartamentos El Serrallo</option>
             <option value="p2" data-i18n="p2.name">Masía con piscina</option>
           </select>
         </label>
-        <label class="fld" for="r-m"><span data-i18n="f.msg">Comentarios</span><textarea id="r-m" name="comentarios" placeholder="Horarios, aparcamiento, necesidades especiales…" data-i18n-ph="f.msgPh"></textarea></label>
+        <label class="fld" for="r-m"><span data-i18n="f.msg">¿Algo más?</span><textarea id="r-m" name="comentarios" placeholder="Turnos, aparcamiento, lo que tengamos que saber" data-i18n-ph="f.msgPh"></textarea></label>
         <p class="err" id="r-err" role="alert" hidden></p>
         <button class="btn btn-pri" type="submit"><svg aria-hidden="true"><use href="#i-wa"/></svg><span data-i18n="f.send">Enviar por WhatsApp</span></button>
       </form>
@@ -627,8 +624,8 @@ svg{flex:none}
   <div class="wrap foot-top">
     <div class="foot-brand">
       <a class="logo" href="#nosotros" aria-label="OnePlace Network"><b>OnePlace</b><span>NETWORK</span></a>
-      <p data-i18n="foot.tag">Alojamiento corporativo en Tarragona.</p>
-      <p class="demo" data-i18n="foot.demo">Versión de demostración. Contenidos pendientes de revisión.</p>
+      <p data-i18n="foot.tag">Alojamiento para empresas en Tarragona. Pisos en El Serrallo y una masía con piscina.</p>
+      <p class="demo" data-i18n="foot.demo">Demo. Textos pendientes de revisar con OnePlace Network.</p>
     </div>
     <div>
       <h4 data-i18n="foot.company">Empresa</h4>
@@ -636,16 +633,16 @@ svg{flex:none}
     </div>
     <div>
       <h4 data-i18n="foot.homes">Alojamientos</h4>
-      <ul><li><a href="#alojamientos" data-i18n="p1.name">Apartamentos El Serrallo</a></li><li><a href="#alojamientos" data-i18n="p2.name">Masía con piscina</a></li><li><a href="#como-trabajamos" data-i18n="how.h2">Cómo trabajamos</a></li></ul>
+      <ul><li><a href="#alojamientos" data-i18n="p1.name">Apartamentos El Serrallo</a></li><li><a href="#alojamientos" data-i18n="p2.name">Masía con piscina</a></li><li><a href="#como-funciona" data-i18n="how.h2">Cómo funciona</a></li></ul>
     </div>
     <div>
       <h4 data-i18n="foot.legal">Legal</h4>
-      <ul><li><a href="#" data-legal data-i18n="foot.legalN">Aviso legal</a></li><li><a href="#" data-legal data-i18n="foot.privacy">Política de privacidad</a></li><li><a href="#" data-legal data-i18n="foot.cookies">Política de cookies</a></li></ul>
+      <ul><li><a href="#" data-legal data-i18n="foot.legalN">Aviso legal</a></li><li><a href="#" data-legal data-i18n="foot.privacy">Privacidad</a></li><li><a href="#" data-legal data-i18n="foot.cookies">Cookies</a></li></ul>
     </div>
   </div>
   <div class="wrap foot-bot">
     <span>© 2026 OnePlace Network</span>
-    <span><span data-i18n="foot.photos">Fotografía: Pep Garcia</span> · <span data-i18n="foot.web">Diseño web: Sebastian Arvente</span></span>
+    <span><span data-i18n="foot.photos">Fotos: Pep Garcia</span> · <span data-i18n="foot.web">Web: Sebastian Arvente</span></span>
   </div>
 </footer>
 
@@ -662,14 +659,14 @@ svg{flex:none}
     </div>
     <form class="ask-f" id="ask" novalidate>
       <label class="fld" for="a-topic"><span data-i18n="sh.topic">Tema</span><select id="a-topic"></select></label>
-      <label class="fld" for="a-msg"><span data-i18n="sh.msg">Su consulta</span><textarea id="a-msg" placeholder="Escriba aquí su consulta" data-i18n-ph="sh.msgPh"></textarea></label>
+      <label class="fld" for="a-msg"><span data-i18n="sh.msg">Tu consulta</span><textarea id="a-msg" placeholder="Cuéntale qué necesitas" data-i18n-ph="sh.msgPh"></textarea></label>
       <div class="two">
         <label class="fld" for="a-name"><span data-i18n="sh.name">Nombre</span><input id="a-name" autocomplete="name"></label>
         <label class="fld" for="a-co"><span data-i18n="sh.company">Empresa</span><input id="a-co" autocomplete="organization"></label>
       </div>
-      <label class="fld" for="a-mail"><span data-i18n="sh.mail">Correo electrónico</span><input id="a-mail" type="email" autocomplete="email" inputmode="email"></label>
+      <label class="fld" for="a-mail"><span data-i18n="sh.mail">Tu correo</span><input id="a-mail" type="email" autocomplete="email" inputmode="email"></label>
       <p class="err" id="sh-err" role="alert" hidden></p>
-      <button class="btn btn-pri" type="submit"><svg aria-hidden="true"><use href="#i-mail"/></svg><span data-i18n="sh.send">Enviar correo</span></button>
+      <button class="btn btn-pri" type="submit"><svg aria-hidden="true"><use href="#i-mail"/></svg><span data-i18n="sh.send">Enviar</span></button>
       <div class="note" id="sh-note" role="status" hidden></div>
       <p class="direct"><span data-i18n="sh.direct">Correo directo</span><b id="sh-addr"></b> <button class="copy" type="button" id="sh-copy" hidden data-i18n="sh.copy">Copiar</button></p>
     </form>
@@ -684,7 +681,7 @@ svg{flex:none}
       <button class="x" type="button" id="wa-x" aria-label="Cerrar" data-i18n-aria="close"><svg aria-hidden="true"><use href="#i-x"/></svg></button>
     </div>
     <div class="wa-body"><div class="bubble"><span id="wa-msg"></span><small data-i18n="wa.now">ahora</small></div></div>
-    <p class="wa-note" data-i18n="wa.note">Versión de demostración: en la web publicada este botón abre WhatsApp con el mensaje ya escrito.</p>
+    <p class="wa-note" data-i18n="wa.note">Esto es una demo. En la web de verdad este botón abre WhatsApp con el mensaje ya escrito.</p>
   </div>
 </div>
 
@@ -692,12 +689,13 @@ svg{flex:none}
 
 <script>
 (() => {
-  // Datos de contacto. Rellenar antes de publicar la web real.
+  // Datos de contacto: rellenar antes de publicar la web
   const CONFIG = {
-    whatsapp: '',                                 // número con prefijo de país, sin "+" ni espacios. Ej.: 34600111222
+    whatsapp: '',                                 // con prefijo y sin "+" ni espacios, p. ej. 34600111222
     emails: { josep: '', dayana: '', melannie: '' }
   };
 
+  // Textos: [español, alemán, inglés]
   const I18N = {
     'nav.about':['Nosotros','Über uns','About'],
     'nav.services':['Servicios','Leistungen','Services'],
@@ -707,151 +705,162 @@ svg{flex:none}
     'menu':['Menú','Menü','Menu'],
     'lang':['Idioma','Sprache','Language'],
     'close':['Cerrar','Schließen','Close'],
-    'pending':['Pendiente','Ausstehend','Pending'],
-    'hero.kicker':['Alojamiento para empresas · Tarragona','Firmenunterkünfte · Tarragona','Corporate housing · Tarragona'],
-    'hero.h1a':['Alojamiento para equipos','Unterkünfte für Arbeitsteams','Accommodation for work teams'],
-    'hero.h1b':['de trabajo en Tarragona','in Tarragona','in Tarragona'],
-    'hero.lead':['Pisos y casas amueblados para el personal que su empresa desplaza a Tarragona. Nos encargamos del contrato, las llaves y el mantenimiento mientras dura la estancia.','Möblierte Wohnungen und Häuser für Mitarbeitende, die Ihr Unternehmen nach Tarragona entsendet. Vertrag, Schlüsselübergabe und Instandhaltung während des Aufenthalts übernehmen wir.','Furnished flats and houses for the staff your company sends to Tarragona. We take care of the contract, the keys and maintenance for the whole stay.'],
-    'cta.wa':['Contactar por WhatsApp','Per WhatsApp kontaktieren','Contact us on WhatsApp'],
-    'cta.homes':['Ver alojamientos','Unterkünfte ansehen','See accommodation'],
-    'about.t':['Quiénes somos','Über uns','About us'],
-    'about.p':['OnePlace Network es una empresa de Tarragona dedicada al alojamiento corporativo. Empezamos junto al puerto, al ver que las empresas que traían técnicos o tripulaciones perdían días buscando dónde alojarlos. Hoy gestionamos apartamentos en el barrio de El Serrallo y una masía con piscina a las afueras de la ciudad.','OnePlace Network ist ein Unternehmen aus Tarragona, spezialisiert auf Firmenunterkünfte. Angefangen haben wir am Hafen, als wir sahen, wie Firmen mit Technikern oder Schiffsbesatzungen tagelang nach einer Unterkunft suchten. Heute verwalten wir Apartments im Viertel El Serrallo und eine Masía mit Pool am Stadtrand.','OnePlace Network is a Tarragona company specialising in corporate housing. We started by the port, after seeing companies that brought in technicians or ship crews lose days looking for somewhere to house them. Today we manage apartments in the El Serrallo district and a farmhouse with a pool on the outskirts of the city.'],
-    'sign.role':['CEO de OnePlace Network','CEO von OnePlace Network','CEO of OnePlace Network'],
+    'pending':['Pendiente','Folgt','Coming soon'],
+
+    'hero.h1a':['Alojamiento para trabajadores desplazados','Unterkünfte für entsandte Mitarbeitende','Accommodation for relocated staff'],
+    'hero.h1b':['en Tarragona','in Tarragona','in Tarragona'],
+    'hero.lead':['Tenemos pisos en El Serrallo, al lado del puerto, y una masía con piscina a las afueras. Los alquilamos a empresas que mandan a su gente a trabajar a Tarragona durante unas semanas o unos meses.','Wir haben Wohnungen in El Serrallo, gleich am Hafen, und eine Masía mit Pool am Stadtrand. Wir vermieten sie an Firmen, die ihre Leute für ein paar Wochen oder Monate zum Arbeiten nach Tarragona schicken.','We have flats in El Serrallo, right next to the port, and a farmhouse with a pool just outside town. We rent them to companies that send their people to work in Tarragona for a few weeks or a few months.'],
+    'cta.wa':['Escríbenos por WhatsApp','Schreiben Sie uns per WhatsApp','Message us on WhatsApp'],
+    'cta.homes':['Ver los alojamientos','Unterkünfte ansehen','See the accommodation'],
+    'about.t':['Quiénes somos','Wer wir sind','Who we are'],
+    'about.p':['Somos un equipo pequeño de Tarragona. Josep lleva la empresa y habla él mismo con cada cliente, Dayana se encarga de que todo funcione mientras tu gente está en el piso y Melannie es quien te cuenta qué tenemos libre. Pensamos sobre todo en empresas del puerto y de la industria de la zona, que para estancias largas necesitan algo más cómodo que un hotel.','Wir sind ein kleines Team aus Tarragona. Josep leitet die Firma und spricht mit jedem Kunden selbst, Dayana sorgt dafür, dass alles funktioniert, solange Ihre Leute in der Wohnung sind, und Melannie sagt Ihnen, was gerade frei ist. Wir denken vor allem an Firmen aus dem Hafen und der Industrie hier in der Gegend, die für längere Aufenthalte etwas Bequemeres als ein Hotel brauchen.','We’re a small team from Tarragona. Josep runs the company and talks to every client himself, Dayana makes sure everything works while your people are in the flat, and Melannie is the one who tells you what’s free. We mostly have in mind companies at the port and in local industry who need something more comfortable than a hotel for longer stays.'],
+    'sign.role':['CEO de OnePlace Network','CEO von OnePlace Network','CEO, OnePlace Network'],
+
     'facts.1t':['El Serrallo','El Serrallo','El Serrallo'],
-    'facts.1d':['Apartamentos junto al puerto','Apartments am Hafen','Apartments by the port'],
-    'facts.2t':['Masía con piscina','Masía mit Pool','Farmhouse with pool'],
-    'facts.2d':['Para grupos y estancias largas','Für Gruppen und längere Aufenthalte','For groups and long stays'],
-    'facts.3t':['Gestión completa','Rundum-Service','Fully managed'],
-    'facts.3d':['Contrato, llaves y mantenimiento','Vertrag, Schlüssel und Instandhaltung','Contract, keys and maintenance'],
-    'facts.4t':['Trato directo','Persönlicher Kontakt','Direct contact'],
-    'facts.4d':['Una persona de contacto para su empresa','Ein fester Ansprechpartner für Ihr Unternehmen','One contact person for your company'],
-    'svc.h2':['Qué incluye el servicio','Was unser Service umfasst','What the service includes'],
-    'svc.lead':['Alojamos a personal desplazado durante semanas o meses. La empresa trata con un solo interlocutor y recibe una única factura; sus trabajadores llegan a una vivienda preparada.','Wir bringen entsandte Mitarbeitende für Wochen oder Monate unter. Das Unternehmen hat einen einzigen Ansprechpartner und erhält eine Rechnung, die Mitarbeitenden ziehen in eine bezugsfertige Wohnung ein.','We house relocated staff for weeks or months. The company deals with a single contact and receives one invoice, and its people move into a home that is ready for them.'],
-    'svc.1t':['Viviendas listas para entrar','Bezugsfertige Wohnungen','Homes ready to move into'],
-    'svc.1d':['Amuebladas y equipadas, con cocina completa y espacio para trabajar.','Möbliert und ausgestattet, mit voll eingerichteter Küche und Arbeitsplatz.','Furnished and equipped, with a full kitchen and space to work.'],
-    'svc.2t':['Contrato y factura para la empresa','Vertrag und Rechnung auf die Firma','Contract and invoice for the company'],
-    'svc.2d':['Un solo contrato, aunque se alojen varias personas.','Ein Vertrag, auch wenn mehrere Personen wohnen.','One contract, even when several people are staying.'],
-    'svc.3t':['Llegada y salida coordinadas','Koordinierte An- und Abreise','Coordinated arrival and departure'],
-    'svc.3d':['Entregamos las llaves el día de llegada y revisamos la vivienda a la salida.','Wir übergeben die Schlüssel am Anreisetag und prüfen die Wohnung bei der Abreise.','We hand over the keys on arrival day and check the home when your staff leave.'],
-    'svc.4t':['Mantenimiento e incidencias','Instandhaltung und Störungen','Maintenance and repairs'],
-    'svc.4d':['Si algo falla durante la estancia, nos ocupamos nosotros.','Wenn während des Aufenthalts etwas ausfällt, kümmern wir uns darum.','If something breaks during the stay, we deal with it.'],
-    'svc.5t':['Estancias flexibles','Flexible Aufenthalte','Flexible stays'],
-    'svc.5d':['De unas semanas a varios meses, con posibilidad de prorrogar.','Von einigen Wochen bis zu mehreren Monaten, mit Verlängerungsmöglichkeit.','From a few weeks to several months, with the option to extend.'],
-    'svc.6t':['Un interlocutor para todo','Ein Ansprechpartner für alles','One contact for everything'],
-    'svc.6d':['La misma persona le atiende desde la reserva hasta la salida.','Dieselbe Person betreut Sie von der Buchung bis zur Abreise.','The same person looks after you from booking to departure.'],
-    'svc.forT':['Pensado para','Gedacht für','Designed for'],
-    'svc.for':['empresas del puerto y de la industria química, ingenierías, navieras y equipos de proyecto que trabajan en Tarragona.','Unternehmen aus Hafen und Chemieindustrie, Ingenieurbüros, Reedereien und Projektteams, die in Tarragona arbeiten.','port and chemical-industry companies, engineering firms, shipping companies and project teams working in Tarragona.'],
-    'homes.h2':['Nuestros alojamientos','Unsere Unterkünfte','Our accommodation'],
-    'homes.lead':['Dos opciones según el tamaño del equipo y el tiempo de estancia.','Zwei Optionen, je nach Teamgröße und Aufenthaltsdauer.','Two options, depending on team size and length of stay.'],
-    'homes.prev':['Alojamiento anterior','Vorherige Unterkunft','Previous'],
-    'homes.next':['Siguiente alojamiento','Nächste Unterkunft','Next'],
-    'p1.tag':['Ciudad · El Serrallo, Tarragona','Stadt · El Serrallo, Tarragona','City · El Serrallo, Tarragona'],
+    'facts.1d':['Pisos a un paso del puerto','Wohnungen gleich am Hafen','Flats a step from the port'],
+    'facts.2t':['La masía','Die Masía','The farmhouse'],
+    'facts.2d':['Piscina y sitio para grupos grandes','Pool und Platz für große Gruppen','A pool and room for big groups'],
+    'facts.3t':['Un solo contrato','Ein einziger Vertrag','One contract'],
+    'facts.3d':['Aunque vengan varias personas','Auch wenn mehrere Leute kommen','Even when several people come'],
+    'facts.4t':['Dayana','Dayana','Dayana'],
+    'facts.4d':['Tu contacto de la llegada a la salida','Ihre Ansprechpartnerin von der Ankunft bis zur Abreise','Your contact from arrival to departure'],
+
+    'svc.h2':['De qué nos encargamos','Worum wir uns kümmern','What we take care of'],
+    'svc.lead':['Buscar piso desde fuera para varias personas lleva mucho tiempo. Con nosotros tu empresa firma un solo contrato y del día a día nos ocupamos nosotros.','Aus der Ferne Wohnungen für mehrere Leute zu finden, kostet viel Zeit. Bei uns unterschreibt Ihre Firma einen Vertrag, und um den Alltag kümmern wir uns.','Finding somewhere for several people from another city takes a lot of time. With us your company signs one contract and we handle the day-to-day.'],
+    'svc.1t':['Pisos listos para entrar','Bezugsfertige Wohnungen','Flats ready to move into'],
+    'svc.1d':['Con la cocina equipada, ropa de cama y un sitio para trabajar con el portátil.','Mit eingerichteter Küche, Bettwäsche und einem Platz zum Arbeiten am Laptop.','Equipped kitchen, bed linen and somewhere to work on a laptop.'],
+    'svc.2t':['Factura a la empresa','Rechnung an die Firma','Invoiced to the company'],
+    'svc.2d':['Todo va a nombre de tu empresa, vengan dos personas o diez.','Alles läuft auf den Namen Ihrer Firma, egal ob zwei Leute kommen oder zehn.','Everything goes in your company’s name, whether two people come or ten.'],
+    'svc.3t':['Llaves y llegada','Schlüssel und Ankunft','Keys and arrival'],
+    'svc.3d':['El día que llega tu gente quedamos con ellos, les enseñamos el piso y les damos las llaves.','Am Anreisetag treffen wir Ihre Leute, zeigen ihnen die Wohnung und geben ihnen die Schlüssel.','On the day your people arrive we meet them, show them the flat and give them the keys.'],
+    'svc.4t':['Si algo se rompe','Wenn etwas kaputtgeht','If something breaks'],
+    'svc.4d':['Nos avisáis y lo arreglamos nosotros. No tenéis que buscar a nadie.','Kurz Bescheid sagen, wir kümmern uns darum. Sie müssen niemanden suchen.','Let us know and we’ll fix it. You don’t have to find anyone.'],
+    'svc.5t':['Semanas o meses','Wochen oder Monate','Weeks or months'],
+    'svc.5d':['Si el proyecto se alarga, lo hablamos y ampliamos la estancia.','Wenn sich das Projekt verlängert, sprechen wir darüber und verlängern den Aufenthalt.','If the project runs on, we talk it through and extend the stay.'],
+    'svc.6t':['Alguien a quien escribir','Jemand, dem Sie schreiben können','Someone to message'],
+    'svc.6d':['Cualquier duda de tu gente se resuelve con un mensaje. Siempre contesta la misma persona.','Jede Frage Ihrer Leute lässt sich mit einer Nachricht klären. Es antwortet immer dieselbe Person.','Any question your people have is sorted with one message. It’s always the same person who replies.'],
+    'svc.forT':['¿Tu empresa trabaja en el puerto, en la petroquímica o en algún proyecto de la zona?','Arbeitet Ihre Firma im Hafen, in der Chemieindustrie oder an einem Projekt in der Gegend?','Does your company work at the port, in the chemical industry or on a project in the area?'],
+    'svc.for':['Si tienes que alojar a gente, escríbenos.','Wenn Sie Leute unterbringen müssen, schreiben Sie uns.','If you need to put people up, get in touch.'],
+
+    'homes.h2':['Dónde se queda tu equipo','Wo Ihr Team wohnt','Where your team stays'],
+    'homes.lead':['Ahora mismo tenemos pisos en la ciudad y una masía en el campo.','Im Moment haben wir Wohnungen in der Stadt und eine Masía auf dem Land.','Right now we have flats in town and a farmhouse in the countryside.'],
+    'homes.prev':['Anterior','Zurück','Previous'],
+    'homes.next':['Siguiente','Weiter','Next'],
+    'p1.tag':['Ciudad · El Serrallo','Stadt · El Serrallo','Town · El Serrallo'],
     'p1.name':['Apartamentos El Serrallo','Apartments El Serrallo','El Serrallo Apartments'],
-    'p1.desc':['Apartamentos luminosos en el barrio marinero de Tarragona, junto al puerto y a un paseo del centro.','Helle Apartments im Fischerviertel von Tarragona, direkt am Hafen und nur einen Spaziergang vom Zentrum entfernt.','Bright apartments in Tarragona’s old fishing quarter, right by the port and a short walk from the centre.'],
-    'p1.f1':['Salón comedor y cocina equipada','Wohn- und Essbereich mit ausgestatteter Küche','Living-dining room and fitted kitchen'],
-    'p1.f2':['Dormitorio doble y dormitorio con escritorio','Doppelzimmer und Zimmer mit Schreibtisch','Double bedroom and a bedroom with a desk'],
-    'p1.f3':['Azotea comunitaria con vistas al puerto','Gemeinschaftsdachterrasse mit Hafenblick','Shared roof terrace overlooking the port'],
-    'p1.f4':['Cerca de la estación de tren','Nahe am Bahnhof','Close to the train station'],
-    'p2.tag':['Campo · Afueras de Tarragona','Land · Stadtrand von Tarragona','Countryside · Outskirts of Tarragona'],
+    'p1.desc':['En el barrio de pescadores, a un paso del puerto. Son pisos luminosos y bien equipados, con salón, cocina completa y un dormitorio con escritorio. Arriba hay una azotea compartida con duchas y vistas al puerto.','Im alten Fischerviertel, gleich am Hafen. Helle, gut ausgestattete Wohnungen mit Wohnzimmer, kompletter Küche und einem Schlafzimmer mit Schreibtisch. Oben gibt es eine gemeinsame Dachterrasse mit Duschen und Blick auf den Hafen.','In the old fishing quarter, a step from the port. Bright, well-equipped flats with a living room, a full kitchen and a bedroom with a desk. Upstairs there’s a shared roof terrace with showers and a view of the harbour.'],
+    'p1.f1':['Salón comedor y cocina completa','Wohn- und Essbereich, komplette Küche','Living-dining room and full kitchen'],
+    'p1.f2':['Dormitorio doble y otro con escritorio','Doppelzimmer und ein Zimmer mit Schreibtisch','Double bedroom and a second room with a desk'],
+    'p1.f3':['Azotea con duchas y vistas al puerto','Dachterrasse mit Duschen und Hafenblick','Roof terrace with showers and harbour views'],
+    'p1.f4':['La estación de tren, a un paseo','Zum Bahnhof zu Fuß','Train station within walking distance'],
+    'p2.tag':['Campo · Afueras de Tarragona','Land · Stadtrand von Tarragona','Countryside · Just outside Tarragona'],
     'p2.name':['Masía con piscina','Masía mit Pool','Farmhouse with pool'],
-    'p2.desc':['Casa de campo en una finca con olivos, pinos y cipreses. Mucho espacio exterior para comer, descansar y reunir al equipo.','Landhaus auf einem Grundstück mit Oliven, Pinien und Zypressen. Viel Platz im Freien zum Essen, Entspannen und für das ganze Team.','A country house on an estate with olive, pine and cypress trees. Plenty of outdoor space to eat, unwind and get the team together.'],
+    'p2.desc':['Una casa de campo entre olivos y pinos, con mucho espacio fuera. Va muy bien para grupos grandes o estancias largas, cuando al acabar la jornada apetece salir de la ciudad.','Ein Landhaus zwischen Oliven und Pinien, mit viel Platz draußen. Ideal für größere Gruppen oder längere Aufenthalte, wenn man nach der Arbeit lieber raus aus der Stadt will.','A country house among olive and pine trees, with plenty of space outside. It suits big groups or long stays, when after work you’d rather be out of town.'],
     'p2.f1':['Piscina con ducha y tumbonas','Pool mit Dusche und Liegen','Pool with shower and sun loungers'],
-    'p2.f2':['Porche cubierto con comedor exterior','Überdachte Veranda mit Essplatz','Covered porch with outdoor dining'],
+    'p2.f2':['Porche cubierto con mesa para comer fuera','Überdachte Veranda mit Tisch zum Essen draußen','Covered porch with a table for eating outside'],
     'p2.f3':['Azotea con vistas a la montaña','Dachterrasse mit Bergblick','Roof terrace with mountain views'],
-    'p2.f4':['Aire acondicionado y edificio anexo','Klimaanlage und separates Nebengebäude','Air conditioning and a separate annex'],
-    'wa.btn':['Contactar por WhatsApp','Per WhatsApp anfragen','Contact us on WhatsApp'],
-    'how.h2':['Cómo trabajamos','So arbeiten wir','How we work'],
-    'how.lead':['De la primera consulta a la entrega de llaves, en cuatro pasos.','Von der ersten Anfrage bis zur Schlüsselübergabe in vier Schritten.','From the first message to handing over the keys, in four steps.'],
-    'how.1t':['Nos escribe','Sie schreiben uns','You get in touch'],
-    'how.1d':['Por WhatsApp o desde el formulario. Nos indica cuántas personas vienen, las fechas y qué necesitan.','Per WhatsApp oder über das Formular: wie viele Personen kommen, der Zeitraum und was Sie brauchen.','On WhatsApp or through the form: how many people are coming, the dates and what you need.'],
-    'how.2t':['Le enviamos una propuesta','Sie erhalten ein Angebot','We send you a proposal'],
-    'how.2d':['Con el alojamiento disponible, las condiciones y el precio cerrado.','Mit der verfügbaren Unterkunft, den Bedingungen und einem Festpreis.','With the available accommodation, the terms and a fixed price.'],
-    'how.3t':['Preparamos la llegada','Wir bereiten die Anreise vor','We prepare the arrival'],
-    'how.3d':['Firmamos el contrato, dejamos la vivienda a punto y entregamos las llaves el día de llegada.','Wir unterzeichnen den Vertrag, bereiten die Wohnung vor und übergeben die Schlüssel am Anreisetag.','We sign the contract, get the home ready and hand over the keys on arrival day.'],
-    'how.4t':['Le acompañamos durante la estancia','Wir betreuen den Aufenthalt','We support you during the stay'],
-    'how.4d':['Nuestra housing manager atiende cualquier incidencia directamente, sin intermediarios.','Unsere Housing Managerin kümmert sich direkt um jede Störung, ohne Umwege.','Our housing manager deals with any issue directly, with no middlemen.'],
-    'zone.h2':['El Serrallo, junto al puerto','El Serrallo, direkt am Hafen','El Serrallo, by the port'],
-    'zone.p':['El Serrallo es el barrio marinero de Tarragona: la lonja, los restaurantes de pescado y el paseo del puerto. Desde aquí se va andando al centro y a la estación de tren.','El Serrallo ist das Fischerviertel von Tarragona, mit Fischmarkt, Fischrestaurants und Hafenpromenade. Von hier aus erreicht man das Zentrum und den Bahnhof zu Fuß.','El Serrallo is Tarragona’s fishing quarter, with the fish market, seafood restaurants and the harbour promenade. The centre and the train station are within walking distance.'],
+    'p2.f4':['Aire acondicionado y un anexo independiente','Klimaanlage und separates Nebengebäude','Air conditioning and a separate annex'],
+    'wa.btn':['Preguntar por WhatsApp','Per WhatsApp fragen','Ask on WhatsApp'],
+
+    'how.h2':['Cómo funciona','So läuft es ab','How it works'],
+    'how.lead':['Así suele ir, desde que nos escribes hasta que tu gente tiene las llaves.','So läuft es meistens, von Ihrer ersten Nachricht bis Ihre Leute die Schlüssel haben.','This is usually how it goes, from your first message to your people having the keys.'],
+    'how.1t':['Nos escribes','Sie schreiben uns','You get in touch'],
+    'how.1d':['Por WhatsApp o desde el formulario. Dinos cuántas personas vienen, para qué fechas y si hay algo que tengamos que saber, como turnos de noche o aparcamiento.','Per WhatsApp oder über das Formular. Sagen Sie uns, wie viele Leute kommen, für welchen Zeitraum und ob wir etwas wissen sollten, zum Beispiel Nachtschichten oder Parkplätze.','On WhatsApp or through the form. Tell us how many people are coming, for which dates and anything we should know, like night shifts or parking.'],
+    'how.2t':['Te mandamos una propuesta','Wir schicken ein Angebot','We send you a proposal'],
+    'how.2d':['Con el piso o la casa que mejor encaja, las condiciones y el precio. Si quieres verlo antes, quedamos.','Mit der Wohnung oder dem Haus, das am besten passt, den Bedingungen und dem Preis. Wenn Sie es vorher sehen möchten, machen wir einen Termin aus.','With the flat or house that fits best, the terms and the price. If you’d like to see it first, we’ll meet you there.'],
+    'how.3t':['Contrato y llegada','Vertrag und Ankunft','Contract and arrival'],
+    'how.3d':['Firmamos un contrato a nombre de la empresa. El día de llegada, Dayana recibe a tu gente y les da las llaves.','Wir schließen einen Vertrag auf den Namen der Firma. Am Anreisetag empfängt Dayana Ihre Leute und gibt ihnen die Schlüssel.','We sign one contract in the company’s name. On arrival day Dayana meets your people and gives them the keys.'],
+    'how.4t':['Durante la estancia','Während des Aufenthalts','During the stay'],
+    'how.4d':['Si se estropea algo o surge cualquier problema, escriben a Dayana y lo resolvemos.','Wenn etwas kaputtgeht oder es ein Problem gibt, schreiben Ihre Leute Dayana und wir kümmern uns darum.','If something breaks or a problem comes up, they message Dayana and we sort it out.'],
+
+    'zone.h2':['Vivir en El Serrallo','Wohnen in El Serrallo','Living in El Serrallo'],
+    'zone.p':['El Serrallo es el barrio de pescadores de Tarragona. Las barcas amarran delante de la lonja y los restaurantes de pescado están a la vuelta de la esquina. Al centro y a la estación se va andando.','El Serrallo ist das Fischerviertel von Tarragona. Die Boote legen vor dem Fischmarkt an, und die Fischrestaurants sind gleich um die Ecke. Ins Zentrum und zum Bahnhof geht man zu Fuß.','El Serrallo is Tarragona’s fishing quarter. The boats tie up in front of the fish market and the seafood restaurants are just round the corner. You can walk to the centre and the station.'],
     'zone.port':['Puerto de Tarragona','Hafen Tarragona','Port of Tarragona'],
-    'zone.portV':['Al lado','Nebenan','Next door'],
+    'zone.portV':['Al lado','Gleich nebenan','Right next door'],
     'zone.train':['Estación de tren','Bahnhof','Train station'],
-    'zone.trainV':['A pie','Zu Fuß erreichbar','Walking distance'],
+    'zone.trainV':['Se va andando','Zu Fuß','On foot'],
     'zone.air':['Aeropuerto de Reus','Flughafen Reus','Reus Airport'],
     'zone.airV':['Unos 15 min en coche','Ca. 15 Min. mit dem Auto','About 15 min by car'],
     'zone.bcn':['Barcelona','Barcelona','Barcelona'],
-    'zone.bcnV':['Alrededor de 1 hora','Etwa 1 Stunde','About 1 hour'],
-    'team.h2':['Nuestro equipo','Unser Team','Our team'],
-    'team.lead':['Cada persona lleva un área. Si tiene una duda concreta, escriba directamente a quien corresponda.','Jede Person betreut einen Bereich. Bei einer konkreten Frage schreiben Sie direkt der zuständigen Person.','Each person looks after one area. If you have a specific question, write directly to the right person.'],
-    'team.ask':['Puede consultarle sobre','Ansprechpartner für','Ask about'],
-    'team.write':['Escribir a {name}','{name} schreiben','Write to {name}'],
-    'josep.area':['Dirección y acuerdos con empresas','Geschäftsführung und Firmenverträge','Management and company agreements'],
+    'zone.bcnV':['Algo más de una hora','Gut eine Stunde','Just over an hour'],
+
+    'team.h2':['Con quién vas a hablar','Mit wem Sie sprechen','Who you’ll be talking to'],
+    'team.lead':['Cada uno lleva lo suyo. Escribe directamente a quien te pueda ayudar y te contestará esa misma persona.','Jeder kümmert sich um seinen Bereich. Schreiben Sie direkt der Person, die Ihnen helfen kann, und genau diese Person antwortet Ihnen.','Each of us looks after our own area. Write straight to the person who can help and that same person will reply.'],
+    'team.ask':['Pregúntale por','Fragen Sie nach','Ask about'],
+    'team.write':['Escribir a {name}','{name} schreiben','Email {name}'],
+    'josep.area':['Dirige la empresa. Habla con él para cerrar acuerdos y precios.','Leitet die Firma. Mit ihm sprechen Sie über Verträge und Preise.','Runs the company. Talk to him about agreements and prices.'],
     'josep.t1':['Precios y condiciones','Preise und Konditionen','Prices and terms'],
-    'josep.t2':['Contratos de larga duración','Langzeitverträge','Long-term contracts'],
+    'josep.t2':['Contratos largos','Lange Verträge','Long contracts'],
     'josep.t3':['Colaboraciones','Kooperationen','Partnerships'],
-    'dayana.area':['Gestión de las estancias','Betreuung der Aufenthalte','Managing your stay'],
-    'dayana.t1':['Entradas y salidas','An- und Abreise','Check-in and check-out'],
-    'dayana.t2':['Llaves y acceso','Schlüssel und Zugang','Keys and access'],
-    'dayana.t3':['Mantenimiento e incidencias','Instandhaltung und Störungen','Maintenance and issues'],
-    'melannie.area':['Comunicación e información','Kommunikation und Information','Communication and information'],
-    'melannie.t1':['Disponibilidad de alojamientos','Verfügbarkeit der Unterkünfte','Availability'],
+    'dayana.area':['Es quien está pendiente de los pisos y de tu gente.','Sie kümmert sich um die Wohnungen und um Ihre Leute.','She looks after the flats and your people.'],
+    'dayana.t1':['Llegadas y salidas','An- und Abreise','Arrivals and departures'],
+    'dayana.t2':['Llaves','Schlüssel','Keys'],
+    'dayana.t3':['Averías e incidencias','Reparaturen und Probleme','Repairs and problems'],
+    'melannie.area':['Te cuenta qué hay libre y te manda fotos y dossiers.','Sie sagt Ihnen, was frei ist, und schickt Fotos und Exposés.','She’ll tell you what’s free and send you photos and brochures.'],
+    'melannie.t1':['Disponibilidad','Verfügbarkeit','Availability'],
     'melannie.t2':['Fotos y dossiers','Fotos und Exposés','Photos and brochures'],
     'melannie.t3':['Redes sociales','Social Media','Social media'],
-    'sh.title':['Escribir a {name}','{name} schreiben','Write to {name}'],
+
+    'sh.title':['Escribe a {name}','{name} schreiben','Email {name}'],
     'sh.topic':['Tema','Thema','Topic'],
-    'sh.other':['Otro tema','Anderes Thema','Something else'],
-    'sh.msg':['Su consulta','Ihre Anfrage','Your question'],
-    'sh.msgPh':['Escriba aquí su consulta','Schreiben Sie hier Ihre Anfrage','Write your question here'],
+    'sh.other':['Otra cosa','Etwas anderes','Something else'],
+    'sh.msg':['Tu consulta','Ihre Frage','Your question'],
+    'sh.msgPh':['Cuéntale qué necesitas','Worum geht es?','What do you need?'],
     'sh.name':['Nombre','Name','Name'],
-    'sh.company':['Empresa','Unternehmen','Company'],
-    'sh.mail':['Correo electrónico','E-Mail','Email'],
-    'sh.send':['Enviar correo','E-Mail senden','Send email'],
-    'sh.err':['Escriba su consulta y un correo de contacto.','Bitte geben Sie Ihre Anfrage und eine E-Mail-Adresse an.','Please add your question and a contact email.'],
-    'sh.demo':['Versión de demostración: en la web publicada se abrirá su programa de correo con este mensaje dirigido a {name}.','Demoversion: Auf der veröffentlichten Website öffnet sich Ihr E-Mail-Programm mit dieser Nachricht an {name}.','Demo version: on the published site your email app opens with this message to {name}.'],
+    'sh.company':['Empresa','Firma','Company'],
+    'sh.mail':['Tu correo','Ihre E-Mail','Your email'],
+    'sh.send':['Enviar','Senden','Send'],
+    'sh.err':['Falta tu consulta o un correo para contestarte.','Es fehlt Ihre Frage oder eine E-Mail-Adresse für die Antwort.','Your question or an email to reply to is missing.'],
+    'sh.demo':['Esto es una demo. En la web de verdad se abrirá tu correo con este mensaje para {name}.','Das ist eine Demo. Auf der echten Website öffnet sich Ihr E-Mail-Programm mit dieser Nachricht an {name}.','This is a demo. On the real website your email app opens with this message to {name}.'],
     'sh.subject':['Asunto','Betreff','Subject'],
-    'sh.direct':['Correo directo','Direkte E-Mail','Direct email'],
+    'sh.direct':['Correo directo','E-Mail direkt','Direct email'],
     'sh.copy':['Copiar','Kopieren','Copy'],
     'sh.copied':['Copiado','Kopiert','Copied'],
-    'contact.h2':['¿Necesita alojar a su equipo en Tarragona?','Sie möchten Ihr Team in Tarragona unterbringen?','Need to house your team in Tarragona?'],
-    'contact.lead':['Escríbanos por WhatsApp o rellene el formulario y le enviaremos una propuesta.','Schreiben Sie uns per WhatsApp oder füllen Sie das Formular aus, dann senden wir Ihnen ein Angebot.','Message us on WhatsApp or fill in the form and we’ll send you a proposal.'],
+
+    'contact.h2':['¿Tienes que mandar gente a Tarragona?','Schicken Sie Leute nach Tarragona?','Sending people to Tarragona?'],
+    'contact.lead':['Escríbenos por WhatsApp y te decimos qué tenemos libre. Si lo prefieres, rellena el formulario y nos llega igual.','Schreiben Sie uns per WhatsApp, dann sagen wir Ihnen, was frei ist. Oder füllen Sie das Formular aus, das kommt genauso bei uns an.','Message us on WhatsApp and we’ll tell you what’s free. Or fill in the form if you prefer, it reaches us just the same.'],
     'contact.wa':['Escribir por WhatsApp','Per WhatsApp schreiben','Message us on WhatsApp'],
     'd.mail':['Correo','E-Mail','Email'],
     'd.office':['Oficina','Büro','Office'],
-    'd.officeV':['Tarragona, España','Tarragona, Spanien','Tarragona, Spain'],
-    'f.title':['Solicitud de alojamiento','Unterkunftsanfrage','Accommodation request'],
-    'f.hint':['Indíquenos lo que sepa por ahora; el resto lo concretamos después.','Geben Sie an, was Sie bereits wissen, den Rest klären wir später.','Tell us what you know so far; we can sort out the rest later.'],
-    'f.company':['Empresa','Unternehmen','Company'],
-    'f.person':['Persona de contacto','Ansprechpartner','Contact person'],
-    'f.people':['Número de personas','Anzahl Personen','Number of people'],
-    'f.dates':['Fechas aproximadas','Ungefährer Zeitraum','Approximate dates'],
+    'd.officeV':['Tarragona','Tarragona','Tarragona'],
+    'f.title':['Pide disponibilidad','Verfügbarkeit anfragen','Check availability'],
+    'f.hint':['No hace falta tenerlo todo claro. Con la empresa y unas fechas aproximadas ya podemos mirar.','Sie müssen noch nicht alles wissen. Firma und ungefährer Zeitraum reichen, damit wir nachsehen können.','You don’t need to have it all worked out. The company and rough dates are enough for us to take a look.'],
+    'f.company':['Empresa','Firma','Company'],
+    'f.person':['Tu nombre','Ihr Name','Your name'],
+    'f.people':['¿Cuántas personas?','Wie viele Personen?','How many people?'],
+    'f.dates':['Fechas, más o menos','Zeitraum, ungefähr','Dates, roughly'],
     'f.datesPh':['Ej.: de enero a marzo','z. B. Januar bis März','e.g. January to March'],
-    'f.home':['Alojamiento preferido','Bevorzugte Unterkunft','Preferred accommodation'],
-    'f.any':['Sin preferencia','Keine Präferenz','No preference'],
-    'f.msg':['Comentarios','Anmerkungen','Comments'],
-    'f.msgPh':['Horarios, aparcamiento, necesidades especiales…','Arbeitszeiten, Parkplatz, besondere Wünsche …','Working hours, parking, special requirements…'],
+    'f.home':['Alojamiento','Unterkunft','Accommodation'],
+    'f.any':['Nos da igual','Egal','Either is fine'],
+    'f.msg':['¿Algo más?','Sonst noch etwas?','Anything else?'],
+    'f.msgPh':['Turnos, aparcamiento, lo que tengamos que saber','Schichten, Parkplatz, alles, was wir wissen sollten','Shifts, parking, anything we should know'],
     'f.send':['Enviar por WhatsApp','Per WhatsApp senden','Send on WhatsApp'],
-    'f.err':['Indique al menos el nombre de la empresa.','Bitte geben Sie mindestens den Firmennamen an.','Please enter at least the company name.'],
-    'f.head':['Solicitud de alojamiento','Unterkunftsanfrage','Accommodation request'],
-    'foot.tag':['Alojamiento corporativo en Tarragona.','Firmenunterkünfte in Tarragona.','Corporate housing in Tarragona.'],
-    'foot.company':['Empresa','Unternehmen','Company'],
+    'f.err':['Pon al menos el nombre de la empresa.','Bitte mindestens den Firmennamen angeben.','Please add at least the company name.'],
+    'f.head':['Solicitud de disponibilidad','Anfrage Verfügbarkeit','Availability request'],
+
+    'foot.tag':['Alojamiento para empresas en Tarragona. Pisos en El Serrallo y una masía con piscina.','Unterkünfte für Firmen in Tarragona. Wohnungen in El Serrallo und eine Masía mit Pool.','Accommodation for companies in Tarragona. Flats in El Serrallo and a farmhouse with a pool.'],
+    'foot.company':['Empresa','Firma','Company'],
     'foot.homes':['Alojamientos','Unterkünfte','Accommodation'],
     'foot.legal':['Legal','Rechtliches','Legal'],
     'foot.legalN':['Aviso legal','Impressum','Legal notice'],
-    'foot.privacy':['Política de privacidad','Datenschutz','Privacy policy'],
-    'foot.cookies':['Política de cookies','Cookie-Richtlinie','Cookie policy'],
-    'foot.photos':['Fotografía: Pep Garcia','Fotos: Pep Garcia','Photography: Pep Garcia'],
-    'foot.web':['Diseño web: Sebastian Arvente','Webdesign: Sebastian Arvente','Web design: Sebastian Arvente'],
-    'foot.demo':['Versión de demostración. Contenidos pendientes de revisión.','Demoversion. Inhalte noch nicht freigegeben.','Demo version. Content pending approval.'],
-    'wa.note':['Versión de demostración: en la web publicada este botón abre WhatsApp con el mensaje ya escrito.','Demoversion: Auf der veröffentlichten Website öffnet dieser Button WhatsApp mit der vorbereiteten Nachricht.','Demo version: on the published site this button opens WhatsApp with the message ready to send.'],
+    'foot.privacy':['Privacidad','Datenschutz','Privacy'],
+    'foot.cookies':['Cookies','Cookies','Cookies'],
+    'foot.photos':['Fotos: Pep Garcia','Fotos: Pep Garcia','Photos: Pep Garcia'],
+    'foot.web':['Web: Sebastian Arvente','Website: Sebastian Arvente','Website: Sebastian Arvente'],
+    'foot.demo':['Demo. Textos pendientes de revisar con OnePlace Network.','Demo. Die Texte werden noch mit OnePlace Network abgestimmt.','Demo. Texts still to be reviewed with OnePlace Network.'],
+
+    'wa.note':['Esto es una demo. En la web de verdad este botón abre WhatsApp con el mensaje ya escrito.','Das ist eine Demo. Auf der echten Website öffnet dieser Button WhatsApp mit der fertigen Nachricht.','This is a demo. On the real website this button opens WhatsApp with the message already written.'],
     'wa.now':['ahora','jetzt','now'],
-    'wa.prop':['Hola, me gustaría información sobre «{name}» para un equipo de mi empresa.','Hallo, ich hätte gern Informationen zu „{name}“ für ein Team unseres Unternehmens.','Hello, I’d like information about “{name}” for a team from my company.'],
-    'wa.gen':['Hola, necesito alojamiento en Tarragona para un equipo de mi empresa.','Hallo, wir suchen eine Unterkunft in Tarragona für ein Team unseres Unternehmens.','Hello, I need accommodation in Tarragona for a team from my company.'],
-    'legal.toast':['Página pendiente: se redactará con los datos fiscales de la empresa.','Seite in Vorbereitung: Sie wird mit den Firmendaten erstellt.','Page pending: it will be written with the company’s legal details.']
+    'wa.p1':['Hola, quería información de los apartamentos de El Serrallo para un equipo de mi empresa.','Hallo, ich hätte gern Infos zu den Apartments in El Serrallo für ein Team unserer Firma.','Hi, I’d like some information about the El Serrallo apartments for a team from my company.'],
+    'wa.p2':['Hola, quería información de la masía con piscina para un equipo de mi empresa.','Hallo, ich hätte gern Infos zur Masía mit Pool für ein Team unserer Firma.','Hi, I’d like some information about the farmhouse with the pool for a team from my company.'],
+    'wa.gen':['Hola, necesitamos alojamiento en Tarragona para un equipo. ¿Qué tenéis disponible?','Hallo, wir brauchen eine Unterkunft in Tarragona für ein Team. Was haben Sie frei?','Hi, we need accommodation in Tarragona for a team. What do you have available?'],
+    'legal.toast':['Esta página se hará con los datos de la empresa.','Diese Seite wird mit den Firmendaten erstellt.','This page will be written with the company’s details.']
   };
   const IDX = { es: 0, de: 1, en: 2 };
   const TEAM = {
-    josep:    { name: 'Josep Prat Domènech', short: 'Josep',    role: 'CEO',             img: 'img/team-josep.webp' },
-    dayana:   { name: 'Dayana Quiroga',      short: 'Dayana',   role: 'Housing manager', img: 'img/team-dayana.webp' },
-    melannie: { name: 'Melannie Panta',      short: 'Melannie', role: 'Marketing',       img: 'img/team-melannie.webp' }
+    josep:    { short: 'Josep',    role: 'CEO',             img: 'img/team-josep.webp' },
+    dayana:   { short: 'Dayana',   role: 'Housing manager', img: 'img/team-dayana.webp' },
+    melannie: { short: 'Melannie', role: 'Marketing',       img: 'img/team-melannie.webp' }
   };
 
   const $ = (s, r = document) => r.querySelector(s);
@@ -865,7 +874,7 @@ svg{flex:none}
     return s;
   };
 
-  /* ---------- entrance animations: content stays visible at rest ---------- */
+  // Animaciones de entrada (el contenido ya es visible sin JS)
   const KF = {
     up:     [{ opacity: 0, transform: 'translateY(24px)' }, { opacity: 1, transform: 'none' }],
     fade:   [{ opacity: 0 }, { opacity: 1 }],
@@ -880,7 +889,7 @@ svg{flex:none}
     try { el.animate(KF[k], { duration: DUR[k], delay: +(el.dataset.d || 0), easing: 'cubic-bezier(.2,.7,.2,1)', fill: 'backwards' }); } catch (e) {}
   }
 
-  /* ---------- language ---------- */
+  // Idioma
   function applyLang(l) {
     lang = l; document.documentElement.lang = l;
     $$('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n, el.dataset.name ? { name: el.dataset.name } : null); });
@@ -894,13 +903,13 @@ svg{flex:none}
   }
   $$('.lang button').forEach(b => b.addEventListener('click', () => applyLang(b.dataset.lang)));
 
-  /* ---------- mobile menu ---------- */
+  // Menú en móvil
   const hd = $('.hd'), mb = $('#menu-btn');
   mb.addEventListener('click', () => { const o = hd.classList.toggle('open'); mb.setAttribute('aria-expanded', o); });
   $$('.hd-nav a').forEach(a => a.addEventListener('click', () => { hd.classList.remove('open'); mb.setAttribute('aria-expanded', 'false'); }));
 
-  /* ---------- WhatsApp ---------- */
-  const waText = key => key === 'gen' ? t('wa.gen') : t('wa.prop', { name: t(key + '.name') });
+  // WhatsApp (sin número configurado se enseña una vista previa)
+  const waText = key => t('wa.' + key);
   const waURL = text => 'https://wa.me/' + CONFIG.whatsapp + '?text=' + encodeURIComponent(text);
   function refreshWA() { $$('[data-wa]').forEach(a => { a.href = CONFIG.whatsapp ? waURL(waText(a.dataset.wa)) : '#'; }); }
   function openWA(text, from) {
@@ -918,6 +927,7 @@ svg{flex:none}
   $('#wa-x').addEventListener('click', closeWA);
   $('#wa').addEventListener('click', e => { if (e.target.id === 'wa') closeWA(); });
 
+  // Formulario de disponibilidad: se manda como mensaje de WhatsApp
   $('#req').addEventListener('submit', e => {
     e.preventDefault();
     const co = $('#r-co').value.trim(), err = $('#r-err');
@@ -932,7 +942,7 @@ svg{flex:none}
     if (CONFIG.whatsapp) location.href = waURL(text); else openWA(text, $('#req button[type=submit]'));
   });
 
-  /* ---------- team: email a question to one person ---------- */
+  // Equipo: correo a cada persona
   function fillSheet(id, keep) {
     const p = TEAM[id];
     $('#sh-img').src = p.img;
@@ -968,8 +978,7 @@ svg{flex:none}
     err.hidden = true;
     const p = TEAM[current], topic = $('#a-topic').value;
     const subject = 'OnePlace Network · ' + topic + (co ? ' · ' + co : '');
-    const sign = [name, co, mail].filter(Boolean).join('\n');
-    const body = msg + '\n\n' + sign;
+    const body = msg + '\n\n' + [name, co, mail].filter(Boolean).join('\n');
     const to = CONFIG.emails[current];
     if (to) { location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body); return; }
     const note = $('#sh-note'); note.textContent = '';
@@ -990,7 +999,7 @@ svg{flex:none}
     else if (hd.classList.contains('open')) { hd.classList.remove('open'); mb.setAttribute('aria-expanded', 'false'); }
   });
 
-  /* ---------- homes slider and photo thumbnails ---------- */
+  // Carrusel de alojamientos y miniaturas
   const track = $('#track'), slides = $$('.prop', track), arrows = $$('.arrow');
   let pi = 0;
   function updateCount() {
@@ -1019,8 +1028,8 @@ svg{flex:none}
   let preloaded = false;
   function preload() { if (preloaded) return; preloaded = true; $$('.pm-thumbs button').forEach(b => { const im = new Image(); im.src = b.dataset.src; }); }
 
-  /* ---------- how we work: vertical scroll moves the steps sideways on wide screens ---------- */
-  const how = $('#como-trabajamos'), pin = $('.how-pin'), sticky = $('.how-sticky'), htrack = $('.how-track'), hbar = $('.how-bar i');
+  // "Cómo funciona": en pantallas anchas el scroll vertical mueve los pasos en horizontal
+  const how = $('#como-funciona'), pin = $('.how-pin'), sticky = $('.how-sticky'), htrack = $('.how-track'), hbar = $('.how-bar i');
   const wide = matchMedia('(min-width: 900px)');
   let howOn = false, howDist = 0, stickyTop = 0, ticking = false;
   function howUpdate() {
@@ -1044,7 +1053,7 @@ svg{flex:none}
   addEventListener('scroll', () => { if (howOn && !ticking) { ticking = true; requestAnimationFrame(howUpdate); } }, { passive: true });
   addEventListener('resize', howLayout);
 
-  /* ---------- active menu item and entrance animations ---------- */
+  // Menú activo según la sección visible
   const navObs = new IntersectionObserver(es => es.forEach(e => {
     if (!e.isIntersecting) return;
     const id = e.target.dataset.nav;
